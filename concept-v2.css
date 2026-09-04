@@ -81,3 +81,4 @@
 .book-picker{display:flex;flex-wrap:wrap;gap:6px;padding:18px 0 6px;border-bottom:1px dashed var(--b18)}.pick{display:flex;align-items:center;gap:7px;padding:7px 11px;border:1px solid var(--b18);background:transparent;color:var(--b48);font:11px XMono,"Andale Mono",monospace;cursor:pointer;transition:color .15s,border-color .15s,background .15s}.pick img{width:14px;height:14px;filter:grayscale(1) invert(1) brightness(2)}.pick:hover{color:var(--blue);border-color:var(--b48)}.pick.on{color:var(--ink);background:var(--blue);border-color:var(--blue)}.pick.on img{filter:grayscale(1)}
 .book-page{border-bottom:0}
 .tracked>div+div{border-top:1px dashed var(--b28)}
+.tracked{margin:0;border-left:0;border-right:0}@media(max-width:680px){.tracked{margin:0}}
