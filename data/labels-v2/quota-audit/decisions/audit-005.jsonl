@@ -1,0 +1,110 @@
+{"post_id": "2095094350632149409", "line": 1, "kind": "model_cost", "harness": null, "note": "Kimi K3 declared cost winner over Fable in timed comparison"}
+{"post_id": "2095094965944856928", "line": 0, "kind": "model_cost", "harness": null, "note": "Author's own pricing table shows Kimi K3 not actually cheap"}
+{"post_id": "2095095218135589042", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 called best but expensive"}
+{"post_id": "2095095475951349775", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash price called good, cheap enough to use"}
+{"post_id": "2095096931617751419", "line": 0, "kind": "model_cost", "harness": null, "note": "Speculates GLM-5.3-flash stack could replace pricier Claude/GPT"}
+{"post_id": "2095097229010710532", "line": 0, "kind": "model_cost", "harness": null, "note": "Cheap enough to run in agents all day, daily use"}
+{"post_id": "2095098734770020782", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 output equated to $5k of design work"}
+{"post_id": "2095098790818754586", "line": 0, "kind": "quota", "harness": "claude_code", "note": "85% of 5-hour usage window burned in 3 prompts"}
+{"post_id": "2095098847362203705", "line": 0, "kind": "quota", "harness": "claude_code", "note": "Fable 5.1 eats 5 hr window in 15 minutes"}
+{"post_id": "2095098861781958784", "line": 0, "kind": "both", "harness": "claude_code", "note": "Deletes tokens fast; never hit a limit before now"}
+{"post_id": "2095098875170435562", "line": 0, "kind": "quota", "harness": "claude_code", "note": "Fable 5.1 made 20x max plan look like pro plan"}
+{"post_id": "2095099011258794417", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 good but seems to burn tokens fast"}
+{"post_id": "2095157205154546170", "line": 0, "kind": "quota", "harness": null, "note": "$60 of expiring credits buys 180M tokens on Ollama plan"}
+{"post_id": "2095172214878556237", "line": 0, "kind": "model_cost", "harness": null, "note": "For free, Muse Spark 1.2 praised"}
+{"post_id": "2095172998089097319", "line": 0, "kind": "model_cost", "harness": null, "note": "GPT Luna 5.6 held up as needing-lower-price standard"}
+{"post_id": "2095176959735287871", "line": 0, "kind": "unrelated", "harness": null, "note": "About planning ability, not cost/tokens/limits"}
+{"post_id": "2095177300023333072", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini-3.8 cost/task called 10x GPT Luna's"}
+{"post_id": "2095177300023333072", "line": 1, "kind": "model_cost", "harness": null, "note": "GPT-5.6 Luna 1/10th Gemini-3.8's cost/task"}
+{"post_id": "2095183871750898075", "line": 0, "kind": "model_cost", "harness": null, "note": "Standard GLM 5.3 handles most jobs, implicit value claim"}
+{"post_id": "2095184857257103844", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna called 'cheap as chips' price/capability joke"}
+{"post_id": "2095184857257103844", "line": 1, "kind": "model_cost", "harness": null, "note": "Flash 3.8 called 'cheap as fish and chips'"}
+{"post_id": "2095184857257103844", "line": 2, "kind": "model_cost", "harness": null, "note": "Grok 4.6 called 'cheap as burger and chips'"}
+{"post_id": "2095184857257103844", "line": 3, "kind": "model_cost", "harness": null, "note": "Fable 5.1 called pricier 'chateaubriand' tier"}
+{"post_id": "2095185814540152865", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash: intelligence 57 at price 0, hidden gem"}
+{"post_id": "2095185865441996832", "line": 0, "kind": "model_cost", "harness": null, "note": "Kimi K3 kept as pricier but valued backup model"}
+{"post_id": "2095186636573147538", "line": 0, "kind": "quota", "harness": null, "note": "Never busted 5h quota on Gemini 3.7 flash"}
+{"post_id": "2095186696635658379", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 undercuts rivals on cost per CursorBench"}
+{"post_id": "2095186718089703498", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash at 12 cents/task called Pareto headline"}
+{"post_id": "2095187367015641373", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash called so cheap and so good"}
+{"post_id": "2095187409503727971", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 in strong cost-performance frontier spot"}
+{"post_id": "2095187816087003292", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash at 1/10th cost of Fable/Opus"}
+{"post_id": "2095188326181663155", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini Flash price 7.5x GLM 5.3 Flash's, mocked"}
+{"post_id": "2095188326181663155", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash 7.5x cheaper than Gemini Flash"}
+{"post_id": "2095188332410015864", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash cheap, feels like best model used"}
+{"post_id": "2095188332410015864", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM 5.3 pricier for barely any intelligence gain"}
+{"post_id": "2095188615542325721", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 seems token-hungry, slower than 5.0"}
+{"post_id": "2095188732412334270", "line": 0, "kind": "model_cost", "harness": null, "note": "Chart implies GPT Luna 5.6 best on cost/task"}
+{"post_id": "2095188741900103892", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash $2.36 vs Opus $11.84 on DeepSWE"}
+{"post_id": "2095188876151193898", "line": 0, "kind": "model_cost", "harness": null, "note": "4M tokens auto-compressed before intervention halted it"}
+{"post_id": "2095188918861774981", "line": 0, "kind": "model_cost", "harness": null, "note": "6.6x cheaper than Opus 5 changes agent economics"}
+{"post_id": "2095189080514650163", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 pricing called a solid deal vs Opus/GPT"}
+{"post_id": "2095189118015750263", "line": 0, "kind": "model_cost", "harness": null, "note": "7x pricier than GLM Flash, wastes tokens 10x faster"}
+{"post_id": "2095189118015750263", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM 5.3 flash cheaper than Gemini Flash"}
+{"post_id": "2095189121316839733", "line": 0, "kind": "model_cost", "harness": null, "note": "Flash-tier price nears flagship benchmark scores"}
+{"post_id": "2095189206876226037", "line": 0, "kind": "model_cost", "harness": null, "note": "6.6x cheaper than Opus 5, changes agent unit economics"}
+{"post_id": "2095189245229166666", "line": 0, "kind": "quota", "harness": null, "note": "Usage percentage tracking inconsistent, jumping erratically"}
+{"post_id": "2095189309817069766", "line": 0, "kind": "model_cost", "harness": null, "note": "Beats Opus 5 benchmarks at 6-7x cheaper price"}
+{"post_id": "2095189418206458100", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash 'destroyed' by GLM on cost index"}
+{"post_id": "2095189418206458100", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM 5.3 flash wins cost-per-task index"}
+{"post_id": "2095192456161816595", "line": 1, "kind": "unrelated", "harness": null, "note": "About enjoyment and planning skill, not cost"}
+{"post_id": "2095197676795285773", "line": 0, "kind": "model_cost", "harness": null, "note": "GPT 5.6 Sol called fast and cost-effective, mediocre"}
+{"post_id": "2095208151544979507", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash better than Terra at half price"}
+{"post_id": "2095212712544411714", "line": 0, "kind": "model_cost", "harness": null, "note": "Same list price hides 30% more output tokens billed"}
+{"post_id": "2095214801702322478", "line": 0, "kind": "model_cost", "harness": null, "note": "48k tokens on high, 30% more than 3.7"}
+{"post_id": "2095231702813802562", "line": 1, "kind": "model_cost", "harness": null, "note": "3D run cost $2.30 for poor Gemini result"}
+{"post_id": "2095237871024079258", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash baseline vs 6.4x pricier rival"}
+{"post_id": "2095243440506150951", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 flash best local model under $10K budget"}
+{"post_id": "2095243921924186458", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash cheaper than Opus, fewer tokens than Kimi/GLM"}
+{"post_id": "2095244457532633222", "line": 0, "kind": "model_cost", "harness": null, "note": "Smartest 'cheap' model Google has shipped"}
+{"post_id": "2095247500252766714", "line": 0, "kind": "model_cost", "harness": null, "note": "$2.30, 30 minutes buys wasted agentic effort"}
+{"post_id": "2095249638307864599", "line": 0, "kind": "model_cost", "harness": null, "note": "Preferred Gemini 3.8 Flash for quality/speed/cost combo"}
+{"post_id": "2095257588757926020", "line": 0, "kind": "model_cost", "harness": null, "note": "Sarcastically notes cost of Gemini's $2.30 3D run"}
+{"post_id": "2095258615775219761", "line": 0, "kind": "model_cost", "harness": null, "note": "Driving down token unit economics while benchmarks rise"}
+{"post_id": "2095259024396886447", "line": 0, "kind": "model_cost", "harness": null, "note": "Cheaper xhigh tier called commercially more important"}
+{"post_id": "2095259528602538315", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini won shogi match but paid double GLM's cost"}
+{"post_id": "2095259528602538315", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM lost shogi match but cost half of Gemini's"}
+{"post_id": "2095266642217324754", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.2 was cheap and worked well"}
+{"post_id": "2095269507745099862", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 as advisor keeps costs down"}
+{"post_id": "2095270781785710784", "line": 0, "kind": "model_cost", "harness": null, "note": "$7 for 100 rows on Opus 5 called wild"}
+{"post_id": "2095271248246776031", "line": 0, "kind": "unrelated", "harness": null, "note": "About successful task completion, limit is incidental detail"}
+{"post_id": "2095274014985830583", "line": 0, "kind": "quota", "harness": null, "note": "Paid basic plan but can't access the model"}
+{"post_id": "2095274155599946106", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 handles tasks, cost is not so high"}
+{"post_id": "2095274172318470211", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable was best but more expensive"}
+{"post_id": "2095274172318470211", "line": 1, "kind": "model_cost", "harness": null, "note": "Opus 5 same price but better performance"}
+{"post_id": "2095275539002949922", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 better but also more expensive"}
+{"post_id": "2095275673128771868", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 over twice the cost per benchmark"}
+{"post_id": "2095276123479318914", "line": 0, "kind": "model_cost", "harness": null, "note": "Same score as Fable 5 with 12x cheaper tokens"}
+{"post_id": "2095276923836395996", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse several times cheaper than Sol/Opus 5"}
+{"post_id": "2095277023581130999", "line": 0, "kind": "quota", "harness": "claude_code", "note": "Fable 5.1 destroyed limits vs Fable 5 on subscription"}
+{"post_id": "2095277148668133546", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 balances performance, speed, cost well"}
+{"post_id": "2095277750303035530", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.3 cheapest model at 61+ intelligence"}
+{"post_id": "2095278092180676933", "line": 0, "kind": "model_cost", "harness": null, "note": "Kimi K3 amazing for a fraction of the price"}
+{"post_id": "2095278563666927936", "line": 0, "kind": "both", "harness": "claude_code", "note": "$100 claude credits burnt on single 30-min prompt"}
+{"post_id": "2095278925807005892", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 finished fast for just $0.04"}
+{"post_id": "2095279099271147699", "line": 0, "kind": "model_cost", "harness": null, "note": "Long-context score matters more than coding scores"}
+{"post_id": "2095279137548378232", "line": 0, "kind": "model_cost", "harness": null, "note": "This price, this frontier capability, worth testing"}
+{"post_id": "2095279458416517497", "line": 0, "kind": "both", "harness": "claude_code", "note": "Thinks deeper, costs more context, burns through limits"}
+{"post_id": "2095279719772033532", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini flash 3.8 at less than 1/10th the price"}
+{"post_id": "2095280077319676120", "line": 0, "kind": "model_cost", "harness": null, "note": "Contributor tier costs 1/25th of Claude/ChatGPT"}
+{"post_id": "2095281286336434556", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.3 ties Fable 5.1 with -25% tokens"}
+{"post_id": "2095281286336434556", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash near Opus 5 at 15% cost"}
+{"post_id": "2095282857925349413", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini Flash beats flagships at $2.36, 5-9x cheaper"}
+{"post_id": "2095289775045427499", "line": 1, "kind": "model_cost", "harness": null, "note": "Fable 5.1 still expensive, promised discount unseen"}
+{"post_id": "2095295533564961167", "line": 0, "kind": "quota", "harness": null, "note": "Ran out of weekly usage, limits shrinking further"}
+{"post_id": "2095296275642237156", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash pushes coding toward commodity pricing"}
+{"post_id": "2095304108836307220", "line": 1, "kind": "quota", "harness": "claude_code", "note": "Claude Code limit on Fable 5.1 will run out"}
+{"post_id": "2095307501755371642", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini Flash intro price competitive vs Opus 5"}
+{"post_id": "2095309783587066170", "line": 0, "kind": "both", "harness": "claude_code", "note": "Extremely capable but expensive, depletes usage quickly"}
+{"post_id": "2095311323878039703", "line": 0, "kind": "model_cost", "harness": null, "note": "13x cheaper input tokens, insanely fast, per benchmarks"}
+{"post_id": "2095314045595447472", "line": 1, "kind": "model_cost", "harness": null, "note": "$77 on Fable vs $9.78 per bug found"}
+{"post_id": "2095314331206590569", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 completes tasks at $0.84 per task"}
+{"post_id": "2095314331206590569", "line": 1, "kind": "model_cost", "harness": null, "note": "Opus 5 takes far more turns per task"}
+{"post_id": "2095314802298232897", "line": 1, "kind": "unrelated", "harness": null, "note": "About planning workflow; plan cancellation is incidental"}
+{"post_id": "2095315716442595748", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.3 impressive given fraction of Fable's cost"}
+{"post_id": "2095315716442595748", "line": 1, "kind": "model_cost", "harness": null, "note": "Fable's cost contrasted with Muse Spark's cheaper price"}
+{"post_id": "2095320482828452250", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 matches Fable 5 max at 6x cheaper"}
+{"post_id": "2095321515579326550", "line": 1, "kind": "model_cost", "harness": null, "note": "Spent one dollar, Muse Spark as good as Gemini"}
+{"post_id": "2095324786734092587", "line": 0, "kind": "unrelated", "harness": null, "note": "Role assignment for planning, not a cost/limit claim"}
+{"post_id": "2095324786734092587", "line": 1, "kind": "unrelated", "harness": null, "note": "Role assignment for planning, not a cost/limit claim"}
+{"post_id": "2095325653318897781", "line": 0, "kind": "both", "harness": "claude_code", "note": "Strong but costly, 5-hour session limits on Max plans"}

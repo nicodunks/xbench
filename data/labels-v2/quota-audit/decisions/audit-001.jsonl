@@ -1,0 +1,110 @@
+{"post_id": "2093649024393814468", "line": 0, "kind": "unrelated", "harness": null, "note": "Praise is about human-like coding explanations, not cost/tokens."}
+{"post_id": "2093649274009481659", "line": 0, "kind": "unrelated", "harness": null, "note": "Counts prompts to finish a project; no price/token/limit claim."}
+{"post_id": "2093649495749996706", "line": 0, "kind": "model_cost", "harness": null, "note": "\"Free Kimi-K3 is hard to ignore\" is the model's own price."}
+{"post_id": "2093649894405791965", "line": 0, "kind": "model_cost", "harness": null, "note": "\"uses very few thinking tokens\" describes the model's token appetite."}
+{"post_id": "2093650316285907261", "line": 0, "kind": "model_cost", "harness": null, "note": "\"安価だから\" (cheap) is the model's own price claim."}
+{"post_id": "2093655951530471689", "line": 0, "kind": "model_cost", "harness": null, "note": "\"a billion tokens\" for one fix is the model's token appetite."}
+{"post_id": "2093694981936427262", "line": 0, "kind": "quota", "harness": null, "note": "Free ZCode token grant interrupted, upgrade prompt; untracked promo service."}
+{"post_id": "2093706146460643520", "line": 0, "kind": "model_cost", "harness": null, "note": "\"much cheaper\" than GPT is the model's own price comparison."}
+{"post_id": "2093710267544658212", "line": 0, "kind": "model_cost", "harness": null, "note": "\"Luna: 17x more\" cost on a benchmark is the model's cost."}
+{"post_id": "2093712363790782916", "line": 1, "kind": "both", "harness": "codex", "note": "Luna \"prácticamente gratis\" plus \"nunca alcanzar los límites\" in Codex."}
+{"post_id": "2093713144459788772", "line": 0, "kind": "model_cost", "harness": null, "note": "\"can do the same for pennies\" is the model's own cost."}
+{"post_id": "2093716487706161481", "line": 0, "kind": "both", "harness": null, "note": "Cheap API spend plus hitting request-interval rate limits, no harness named."}
+{"post_id": "2093716782842359852", "line": 0, "kind": "model_cost", "harness": null, "note": "\"beating GPT 5.6 Luna\" on cost/benchmark is the model's own cost."}
+{"post_id": "2093719040850100643", "line": 0, "kind": "unrelated", "harness": null, "note": "Complaint about verbosity/pleading tone, not cost or limits."}
+{"post_id": "2093727783042388315", "line": 0, "kind": "model_cost", "harness": null, "note": "\"比当时的V4F都便宜\" (cheaper than V4F) is the model's own price."}
+{"post_id": "2093735789234720950", "line": 0, "kind": "unrelated", "harness": null, "note": "\"that sucked\" about planning ability, not price/tokens/limits."}
+{"post_id": "2093736465033199621", "line": 0, "kind": "model_cost", "harness": null, "note": "\"a lot cheaper\" than Kimi K3 is the model's own price."}
+{"post_id": "2093737103506935995", "line": 0, "kind": "model_cost", "harness": null, "note": "\"changes the agent coding economics\" is a model cost/value claim."}
+{"post_id": "2093738693328785743", "line": 0, "kind": "model_cost", "harness": null, "note": "\"~9¢/task\" is the model's own per-task cost."}
+{"post_id": "2093738698617819455", "line": 1, "kind": "quota", "harness": null, "note": "Less usage on zAI's $16-18 plan; untracked vendor plan."}
+{"post_id": "2093738698617819455", "line": 2, "kind": "quota", "harness": "codex", "note": "\"much more usage with Sol on codex $20 plan\" names codex."}
+{"post_id": "2093739575973650578", "line": 0, "kind": "unrelated", "harness": null, "note": "\"no issues\" using it, not about cost or limits."}
+{"post_id": "2093739676792205599", "line": 0, "kind": "quota", "harness": null, "note": "\"$100 plan\" burned in 3 hours, no refund; untracked Kimi plan."}
+{"post_id": "2093739735109771282", "line": 0, "kind": "model_cost", "harness": null, "note": "\"it's cheap, fast\" is the model's own price claim."}
+{"post_id": "2093739735109771282", "line": 4, "kind": "unrelated", "harness": null, "note": "\"using ... more and more\" is frequency, not a cost/limit claim."}
+{"post_id": "2093739832178532588", "line": 0, "kind": "quota", "harness": null, "note": "Same \"$100 plan\" burned in 3 hours complaint; untracked Kimi plan."}
+{"post_id": "2093740034490839173", "line": 0, "kind": "model_cost", "harness": null, "note": "\"za grosze\" (for pennies) is the model's own price."}
+{"post_id": "2093740559123042598", "line": 0, "kind": "model_cost", "harness": null, "note": "\"balance of speed, accuracy, and cost\" is the model's own cost."}
+{"post_id": "2093740609572077993", "line": 0, "kind": "model_cost", "harness": null, "note": "\"fast and cheap model\" with similar token use is model cost."}
+{"post_id": "2093740612013170755", "line": 0, "kind": "quota", "harness": null, "note": "\"using the plan extra credits on sol\" with no harness named."}
+{"post_id": "2093740612013170755", "line": 1, "kind": "unrelated", "harness": null, "note": "\"sol equivalent\" is a quality claim, not a cost/limit one."}
+{"post_id": "2093740774588588290", "line": 0, "kind": "model_cost", "harness": null, "note": "\"it's cheaper, 18 USD\" is the model's own price."}
+{"post_id": "2093744196733599892", "line": 0, "kind": "quota", "harness": null, "note": "\"impressed by the usage\" plus switching away over 5hr limits, untracked Cursor."}
+{"post_id": "2093750951945306434", "line": 0, "kind": "unrelated", "harness": null, "note": "\"smarter than Luna\" is intelligence, not cost or limits."}
+{"post_id": "2093751609989693672", "line": 0, "kind": "model_cost", "harness": null, "note": "\"still cheaper than their 80% discount\" is the model's own price."}
+{"post_id": "2093753845000344004", "line": 0, "kind": "model_cost", "harness": null, "note": "\"expensive tokens, heavy brakes\" is the model's own token appetite."}
+{"post_id": "2093757566304071718", "line": 0, "kind": "unrelated", "harness": null, "note": "\"edges stored once beat another million tokens\" is a capability critique."}
+{"post_id": "2093757786224005532", "line": 0, "kind": "unrelated", "harness": null, "note": "\"edges beat windows\" agrees with a capability critique, not cost."}
+{"post_id": "2093760388772884935", "line": 0, "kind": "unrelated", "harness": null, "note": "\"edge is the whole game\" is about capability, not cost/limits."}
+{"post_id": "2093762873121968382", "line": 0, "kind": "unrelated", "harness": null, "note": "Recommends GLM after Luna's bad plan; about planning quality."}
+{"post_id": "2093762873121968382", "line": 1, "kind": "unrelated", "harness": null, "note": "\"turned out great\" for planning quality, not cost/limits."}
+{"post_id": "2093766889373573300", "line": 0, "kind": "unrelated", "harness": null, "note": "\"doesn't really exist for planning\" is intelligence, not cost."}
+{"post_id": "2093775337264226578", "line": 0, "kind": "model_cost", "harness": null, "note": "\"grok 4.6 is really good for it's price\" is model cost."}
+{"post_id": "2093777420327190754", "line": 0, "kind": "model_cost", "harness": null, "note": "\"An excellent value is Meta Muse Spark 1.2\" is model cost."}
+{"post_id": "2093780818934341755", "line": 0, "kind": "unrelated", "harness": null, "note": "Hallucinating file trees is an intelligence complaint, not cost."}
+{"post_id": "2093781905632039384", "line": 0, "kind": "unrelated", "harness": null, "note": "\"expensive ctrl+f\" is a jab at capability, not real cost."}
+{"post_id": "2093782612649152899", "line": 0, "kind": "quota", "harness": "claude_code", "note": "\"The limits are so bad\" on Opus 5, coding-tool comparison context."}
+{"post_id": "2093783186970956188", "line": 0, "kind": "unrelated", "harness": null, "note": "\"Even Sol makes bad plans\" is a planning-quality complaint."}
+{"post_id": "2093784320863273339", "line": 0, "kind": "model_cost", "harness": null, "note": "\"$0.046\" and \"#1 Spark\" is the model's own price ranking."}
+{"post_id": "2093790044075012188", "line": 1, "kind": "quota", "harness": "opencode", "note": "\"opencode muse spark 1.2 ... usage just feels so infinite.\""}
+{"post_id": "2093794490859262435", "line": 0, "kind": "unrelated", "harness": null, "note": "Good at repetitive tasks, weak at planning; not a cost claim."}
+{"post_id": "2093799691733577868", "line": 0, "kind": "model_cost", "harness": null, "note": "\"~$1.2/$4.2 per M tokens\" is the model's own price/benchmark."}
+{"post_id": "2093802900090667382", "line": 1, "kind": "model_cost", "harness": null, "note": "\"way cheaper\" than Luna is a model cost comparison."}
+{"post_id": "2093802900090667382", "line": 3, "kind": "unrelated", "harness": null, "note": "\"Planning with Sol\" describes a role split, not cost."}
+{"post_id": "2093805275408973916", "line": 0, "kind": "unrelated", "harness": null, "note": "\"use ... more and more\" is usage frequency, not a cost claim."}
+{"post_id": "2093806333485318419", "line": 1, "kind": "model_cost", "harness": null, "note": "\"gpt 5.6 luna is also dirt cheap\" is the model's own price."}
+{"post_id": "2093808130929160649", "line": 1, "kind": "model_cost", "harness": null, "note": "\"gpt-5.6-luna is free\" is the model's own price."}
+{"post_id": "2093808742483587523", "line": 0, "kind": "quota", "harness": null, "note": "\"plan went from 100 to 0 in five minutes\"; untracked Gemini plan."}
+{"post_id": "2093812136791142523", "line": 0, "kind": "model_cost", "harness": null, "note": "\"costs literal pennies\" API pricing is the model's own cost."}
+{"post_id": "2093813805784473809", "line": 0, "kind": "model_cost", "harness": null, "note": "\"Luna is practically free\" is the model's own price."}
+{"post_id": "2093817073185300667", "line": 1, "kind": "model_cost", "harness": null, "note": "\"GLM-5.3-Flash is cheaper\" than Luna is model cost."}
+{"post_id": "2093818265864990852", "line": 0, "kind": "model_cost", "harness": null, "note": "\"almost 2x more expensive per task\" is the model's own cost."}
+{"post_id": "2093820150571213147", "line": 0, "kind": "quota", "harness": null, "note": "Blew through monthly Notion limit from heavy Kimi K3 use; untracked."}
+{"post_id": "2093821415405572424", "line": 0, "kind": "unrelated", "harness": null, "note": "\"I feel same for sol\" agrees on bad planning, not cost."}
+{"post_id": "2093822880110797191", "line": 0, "kind": "model_cost", "harness": null, "note": "\"so good, fast, and cheap\" is the model's own price."}
+{"post_id": "2093823145270751321", "line": 0, "kind": "model_cost", "harness": null, "note": "\"Grok 4.6 is cheap, fast, and good\" is model cost."}
+{"post_id": "2093823518513549535", "line": 0, "kind": "unrelated", "harness": null, "note": "Plan-review workflow success, not a cost or limit claim."}
+{"post_id": "2093824948636893371", "line": 1, "kind": "model_cost", "harness": null, "note": "\"replaced 99% of my coding token usage\" is model appetite."}
+{"post_id": "2093825498535072013", "line": 0, "kind": "model_cost", "harness": null, "note": "\"custo menor que o claude\" is the model's own cost."}
+{"post_id": "2093825498535072013", "line": 2, "kind": "quota", "harness": null, "note": "\"a franquia é baixa\" (low quota) on Alibaba Cloud; untracked plan."}
+{"post_id": "2093826205611069700", "line": 0, "kind": "quota", "harness": null, "note": "\"no subscription I use satisfies my usage\"; no harness named."}
+{"post_id": "2093826715982184932", "line": 0, "kind": "quota", "harness": null, "note": "\"frequent resets makes any plan worth more\"; no harness named."}
+{"post_id": "2093827808439234604", "line": 0, "kind": "model_cost", "harness": null, "note": "\"5.5M tokens = $4.50\" vs GLM is the model's own cost."}
+{"post_id": "2093827808439234604", "line": 1, "kind": "model_cost", "harness": null, "note": "\"8.3M tokens = $0.44\" is the model's own cost."}
+{"post_id": "2093828552919482678", "line": 0, "kind": "model_cost", "harness": null, "note": "\"they at least dropped prices\" is the model's own price."}
+{"post_id": "2093828707697701228", "line": 0, "kind": "quota", "harness": "codex", "note": "\"happy with the usage I'm able to get\" doing code-reviews with Sol."}
+{"post_id": "2093829154777043200", "line": 0, "kind": "quota", "harness": "opencode", "note": "\"why ... fewer limits despite being cheaper\" on OpenCode Go."}
+{"post_id": "2093829706210570475", "line": 0, "kind": "model_cost", "harness": null, "note": "\"40% less tokens vs. Opus 5\" is the model's own efficiency."}
+{"post_id": "2093830622368203182", "line": 0, "kind": "model_cost", "harness": null, "note": "\"two zeros less in spending\" is the model's own cost."}
+{"post_id": "2093830884847968754", "line": 0, "kind": "model_cost", "harness": null, "note": "\"零质量下降\" plus lower price than Luna is model cost."}
+{"post_id": "2093869468380450930", "line": 0, "kind": "model_cost", "harness": null, "note": "\"almost for free\" and better than Gemini Flash is model cost."}
+{"post_id": "2093869468380450930", "line": 1, "kind": "model_cost", "harness": null, "note": "\"almost for free\" is the model's own price."}
+{"post_id": "2093869468380450930", "line": 2, "kind": "model_cost", "harness": null, "note": "Worse than \"almost free\" alternatives is a model cost comparison."}
+{"post_id": "2093888619471950112", "line": 0, "kind": "quota", "harness": null, "note": "\"usage limits right now are very generous\"; untracked Google AI plan."}
+{"post_id": "2093905014171557952", "line": 0, "kind": "model_cost", "harness": null, "note": "\"便宜了十几倍\" (ten times cheaper) is the model's own price."}
+{"post_id": "2093905014171557952", "line": 1, "kind": "model_cost", "harness": null, "note": "Disputed as \"more expensive\" than Luna, still model cost."}
+{"post_id": "2093910226994946120", "line": 0, "kind": "model_cost", "harness": null, "note": "\"cost-to-quality ratio\" comparison is the model's own value."}
+{"post_id": "2093910226994946120", "line": 1, "kind": "model_cost", "harness": null, "note": "\"cost-to-quality ratio\" comparison is the model's own value."}
+{"post_id": "2093912223374844384", "line": 0, "kind": "model_cost", "harness": null, "note": "\"無償公開\" (free release) is the model's own price."}
+{"post_id": "2093912232346439973", "line": 0, "kind": "model_cost", "harness": null, "note": "Reacts approvingly to the root's cost-to-quality comparison."}
+{"post_id": "2093912232346439973", "line": 1, "kind": "model_cost", "harness": null, "note": "Reacts approvingly to the root's cost-to-quality comparison."}
+{"post_id": "2093915279848046601", "line": 0, "kind": "model_cost", "harness": null, "note": "\"barely reach $1/day with heavy agentic use\" is model cost."}
+{"post_id": "2093916471760187632", "line": 2, "kind": "model_cost", "harness": null, "note": "\"性价比已经够打了\" (value already good enough) is model cost."}
+{"post_id": "2093916471760187632", "line": 3, "kind": "model_cost", "harness": null, "note": "\"性价比已经够打了\" (value already good enough) is model cost."}
+{"post_id": "2093916511220257065", "line": 0, "kind": "unrelated", "harness": null, "note": "Context window bug (258.4k vs 900k) is a technical issue, not quota."}
+{"post_id": "2093916511220257065", "line": 1, "kind": "unrelated", "harness": null, "note": "Context window \"works correctly\" is a technical claim, not cost."}
+{"post_id": "2093918073518526665", "line": 1, "kind": "quota", "harness": null, "note": "\"generous\" Cursor Models pool, not the $20 bucket; untracked Cursor."}
+{"post_id": "2093921501061747063", "line": 0, "kind": "model_cost", "harness": null, "note": "\"takes x3-5 more tokens\" than Sol is the model's own appetite."}
+{"post_id": "2093921501061747063", "line": 1, "kind": "model_cost", "harness": null, "note": "\"x3-5 more tokens\" for Opus vs Sol is model cost."}
+{"post_id": "2093955423187702169", "line": 0, "kind": "model_cost", "harness": null, "note": "\"cut GPT-5.6 Luna to $0.20 per million\" is model cost."}
+{"post_id": "2093964481378337233", "line": 3, "kind": "quota", "harness": "opencode", "note": "\"free there right now, good way to save quota\" via OpenCode."}
+{"post_id": "2093974227783487876", "line": 0, "kind": "quota", "harness": null, "note": "\"$20 credit\" consumed fast, needing paid plan; untracked Meta plan."}
+{"post_id": "2093985503326376438", "line": 3, "kind": "unrelated", "harness": null, "note": "\"review and plan tasks\" role assignment, not a cost claim."}
+{"post_id": "2093985503326376438", "line": 4, "kind": "model_cost", "harness": null, "note": "\"dirt cheap and fast\" is the model's own price."}
+{"post_id": "2093988254357889224", "line": 1, "kind": "model_cost", "harness": null, "note": "\"GLM 5.3 Flash is just crushing you\" on price is model cost."}
+{"post_id": "2093991893726347561", "line": 0, "kind": "model_cost", "harness": null, "note": "\"cost more than Opus 4.8\" comparison is model cost."}
+{"post_id": "2093991893726347561", "line": 1, "kind": "model_cost", "harness": null, "note": "Recommended as better value than Sonnet 5 is model cost."}
+{"post_id": "2093993076746605007", "line": 0, "kind": "both", "harness": null, "note": "\"套餐全用光了\" (plan used up) plus GLM flash \"feels free\"."}
+{"post_id": "2093993301905113166", "line": 0, "kind": "model_cost", "harness": null, "note": "\"コスパは相当高い\" (cost-performance is quite high) is model cost."}
+{"post_id": "2093996132259205625", "line": 0, "kind": "model_cost", "harness": null, "note": "\"2-3x cheaper\" than Qwen is the model's own cost."}

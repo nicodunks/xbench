@@ -551,16 +551,16 @@
         "posts": 98
       }
     ],
-    "reviewer_overrides": 441,
-    "duplicate_override_lines": 0,
+    "reviewer_overrides": 637,
+    "duplicate_override_lines": 4,
     "coverage": "pass"
   },
   "public_counts": {
-    "model_sentiment_evidence": 3673,
+    "model_sentiment_evidence": 3495,
     "family_sentiment_evidence": 665,
     "model_preference_evidence": 469,
     "model_switch_evidence": 35,
-    "harness_sentiment_evidence": 1267,
+    "harness_sentiment_evidence": 1330,
     "harness_preference_evidence": 190,
     "harness_switch_evidence": 29
   },
@@ -568,10 +568,10 @@
   "sha256": {
     "data/agent-rebuild/corpus.jsonl": "fb1806346e00a16e564af368aad5cea87c173eb74e1fd633131d2772f886038c",
     "data/labels-v2/batch-manifest.json": "c6cbb103e534973492cb6e19e1426646916a76778b099fb9319e3436b43a0af9",
-    "data/labels-v2/overrides.jsonl": "8af4b85a69212a37738796117f0d63f12c9aee5a753b299c92ec3f97b679c6a5",
+    "data/labels-v2/overrides.jsonl": "fc8b732f6554525659ee0957c9c878d7d5c3660cbbb2cced0f03bc17d54ae046",
     "data/labels-v2/excluded-authors.json": "076d80105509451e5ef81001a2e31a9a2f94c8ac58381fb55aa9c02ffb238e83",
-    "data/labels-v2/public-summary.json": "9a1e9e74e003ade3ac8864cc8da1ff7e85fa22cb14d4252a022491f31776b8a1",
-    "data/labels-v2/public-evidence.json": "0456815ce6ff3bec76b7a9ea5a2ec71c96cdd502f2a0e4ed14c98bdde73bd3af",
+    "data/labels-v2/public-summary.json": "392c2473a589e27ff17faa3de0235d73cd1fe3d3a133bc83c6de0d7427cd2206",
+    "data/labels-v2/public-evidence.json": "b4cfa399558e6744919198c09f6b05b87d3860b67870d8e319e79feee7c5588c",
     "data/labels-v2/batches/batch-000.jsonl": "fb51a60ceab7931e0b2dfe91d68d2418ea46b2a986d066026d3648fba860202c",
     "data/labels-v2/batches/batch-001.jsonl": "70e881a7cddd5444841652e5d3d2af41dec8989e6b5f741a3b168b0539ba6a8a",
     "data/labels-v2/batches/batch-002.jsonl": "e69326bccf1843b1f691c51d37b30dd49f9a11afc23da0e475d412c8a20bffa7",
@@ -844,7 +844,7 @@
     "prepare_label_batches.py": "1bc98477baf3b705fd11fcf978852f7b3060cb466f9311da1140fab40c860705",
     "validate_labels.py": "b0997cad8ace119933a1abe308d98a48adf36c3fe29a5378492ffa0b926f64f7",
     "review_labels.py": "c1722fd3945dba22346b1911c0fa3780f0a51a70a6f6c1b252d5670c9f95654c",
-    "build_release_v2.py": "39ffe6bc2bfa4d35e9973926aff1ddc0f74b00924bfc2b92ede573e66c9c11f1",
+    "build_release_v2.py": "7470522ab2536b6dc68a1759a6b39b748f7c6cf2977e50a3657022cd7d1c5a51",
     "finalize_release_v2.py": "ecd686ede40afc4f50e1bf2e8ac8d23a7e459a410edf2798a24be818ed0e838d"
   }
 }

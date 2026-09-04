@@ -1,0 +1,102 @@
+{"post_id": "2095503814501576931", "line": 1, "kind": "model_cost", "harness": null, "note": "Fable 5.1 called 'more better & cheaper' than Opus 5"}
+{"post_id": "2095505304884809786", "line": 0, "kind": "model_cost", "harness": null, "note": "'extra price for fable5.1 is not worth it'"}
+{"post_id": "2095508063167889896", "line": 0, "kind": "model_cost", "harness": null, "note": "'GLM-5.3 Flash is at #11 for under a cent a script'"}
+{"post_id": "2095509978203230333", "line": 0, "kind": "model_cost", "harness": null, "note": "'GLM Flash may win on inference cost'"}
+{"post_id": "2095512790878261702", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 'price-point is just too dang much'"}
+{"post_id": "2095512790878261702", "line": 1, "kind": "model_cost", "harness": null, "note": "'very happy with GLM-5.3-Flash' as cheaper value"}
+{"post_id": "2095512790878261702", "line": 2, "kind": "model_cost", "harness": null, "note": "'very happy with... GLM-5.3' as cheaper value"}
+{"post_id": "2095513058953298027", "line": 0, "kind": "unrelated", "harness": null, "note": "confusion figuring out subscription UI, not a cost/limit judgment"}
+{"post_id": "2095513129253789863", "line": 0, "kind": "model_cost", "harness": null, "note": "'$100 usage credits is like 1 Fable 5.1 prompt'"}
+{"post_id": "2095513166541180963", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 'undercutting them on enterprise pricing'"}
+{"post_id": "2095513503658377488", "line": 0, "kind": "model_cost", "harness": null, "note": "wants 'a better than fable model at gpt sol pricing'"}
+{"post_id": "2095513503658377488", "line": 1, "kind": "model_cost", "harness": null, "note": "praises 'gpt sol pricing and efficiency'"}
+{"post_id": "2095513927618810249", "line": 0, "kind": "quota", "harness": null, "note": "'クォーターの消費が...はやい' - burning 5hr quota window faster than 3.7 Flash"}
+{"post_id": "2095514143893954618", "line": 0, "kind": "model_cost", "harness": null, "note": "'Fable 5.1 will cost an estimated 25% less than Fable 5'"}
+{"post_id": "2095514232938783166", "line": 0, "kind": "model_cost", "harness": null, "note": "'best model at consuming tokens like there is no tomorrow'"}
+{"post_id": "2095514268451979646", "line": 1, "kind": "both", "harness": "claude_code", "note": "Opus 5 'sucking in tokens', hit 5hr limit on Max 20x plan"}
+{"post_id": "2095514331270009245", "line": 0, "kind": "model_cost", "harness": null, "note": "'Fable 5.1 used about 32M tokens at ~$320'"}
+{"post_id": "2095514331270009245", "line": 1, "kind": "model_cost", "harness": null, "note": "'Grok 4.6 used about 2M tokens at ~$4'"}
+{"post_id": "2095515290528260231", "line": 0, "kind": "model_cost", "harness": null, "note": "'price of contributor Spark 1.3 is extremely low'"}
+{"post_id": "2095518151458922896", "line": 0, "kind": "model_cost", "harness": null, "note": "'significant... especially on token efficiency'"}
+{"post_id": "2095518483413193183", "line": 0, "kind": "model_cost", "harness": null, "note": "'Lunaのコスパ／速度はヤバ過ぎ' (Luna's cost-performance is crazy)"}
+{"post_id": "2095520425501725040", "line": 1, "kind": "unrelated", "harness": null, "note": "using Gemini as a fallback tool during an outage, not cost/limits"}
+{"post_id": "2095521120279765202", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 'burns ~70% more tokens'"}
+{"post_id": "2095521210243404073", "line": 0, "kind": "model_cost", "harness": null, "note": "'100x cheaper' lets builders 'stop rationing tokens'"}
+{"post_id": "2095522734595830236", "line": 0, "kind": "model_cost", "harness": null, "note": "'muse cheaper on every scene' vs Gemini 3.8 Flash"}
+{"post_id": "2095523316530376954", "line": 0, "kind": "model_cost", "harness": null, "note": "'GLM 5.3... 50% of grok cost, and better than it'"}
+{"post_id": "2095526892925583567", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash uses more agent steps than Luna"}
+{"post_id": "2095526892925583567", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash token efficiency lags GPT-5.6 Luna"}
+{"post_id": "2095526968767004757", "line": 0, "kind": "model_cost", "harness": null, "note": "'charged them 5x' straight off Anthropic's pricing page"}
+{"post_id": "2095529701473210483", "line": 0, "kind": "model_cost", "harness": null, "note": "'$1.25 per million input tokens on xhigh'"}
+{"post_id": "2095529723245772859", "line": 0, "kind": "both", "harness": "codex", "note": "Sol's costly Extra High agents 'ate through a third of my weekly budget'"}
+{"post_id": "2095530671665992173", "line": 0, "kind": "model_cost", "harness": null, "note": "'tokens are the limiting factor' building with Gemini 3.7 Flash"}
+{"post_id": "2095533792027181472", "line": 1, "kind": "model_cost", "harness": null, "note": "'GLM Flash efficient' shorthand ranking"}
+{"post_id": "2095536131806810270", "line": 0, "kind": "model_cost", "harness": null, "note": "'use... flash if 5.3 is too big/expensive'"}
+{"post_id": "2095536190724133081", "line": 0, "kind": "model_cost", "harness": null, "note": "'Terra-class intelligence at Muse Spark pricing'"}
+{"post_id": "2095536663380529166", "line": 0, "kind": "model_cost", "harness": null, "note": "'using a lot of tokens for trivial tasks. Much worse'"}
+{"post_id": "2095542951636074907", "line": 0, "kind": "quota", "harness": "claude_code", "note": "routing to stretch Fable's usage limits while cheaper models implement"}
+{"post_id": "2095542951636074907", "line": 1, "kind": "quota", "harness": "opencode", "note": "cheaper OpenCode Go Luna used to stretch usage limits"}
+{"post_id": "2095544614140969429", "line": 1, "kind": "model_cost", "harness": null, "note": "'GLM Flash wins on efficiency' shorthand ranking"}
+{"post_id": "2095544979691344293", "line": 0, "kind": "model_cost", "harness": null, "note": "GPT-5.6 Luna input/cache/output price breakdown, 'お得らしい'"}
+{"post_id": "2095546664282997100", "line": 0, "kind": "model_cost", "harness": null, "note": "'gotten soooo much value out of my zai light plan' via GLM-5.3 Flash"}
+{"post_id": "2095546994580234643", "line": 0, "kind": "model_cost", "harness": null, "note": "'frontier performance almost too cheap to meter'"}
+{"post_id": "2095547611470262458", "line": 0, "kind": "unrelated", "harness": null, "note": "200k context cap is a capability spec, not a usage-limit complaint"}
+{"post_id": "2095549131305734649", "line": 0, "kind": "both", "harness": "codex", "note": "98.6% cache hits keep Sol to '16%' of weekly Codex Plus quota"}
+{"post_id": "2095549165426069744", "line": 0, "kind": "model_cost", "harness": null, "note": "'Sol medium... in fast mode is still affordable'"}
+{"post_id": "2095550120796487998", "line": 0, "kind": "model_cost", "harness": null, "note": "'$0.75 / 1M input tokens and $3.75 / 1M output'"}
+{"post_id": "2095550859467776131", "line": 0, "kind": "quota", "harness": "opencode", "note": "'no hard token caps reported' on OpenCode Zen free tier"}
+{"post_id": "2095551594423255511", "line": 0, "kind": "quota", "harness": "opencode", "note": "'Muse Spark 1.3 free on OpenCode Zen still rocking'"}
+{"post_id": "2095552221358199053", "line": 0, "kind": "quota", "harness": "opencode", "note": "'45,300 requests per 5 hours' on OpenCode Go, 'practically unlimited'"}
+{"post_id": "2095552620874068089", "line": 0, "kind": "quota", "harness": null, "note": "'almost unlimited muse spark 1.3 for 5 dollars a month'"}
+{"post_id": "2095553534037033425", "line": 0, "kind": "model_cost", "harness": null, "note": "'no reason to use it' even though free, like garbage courses"}
+{"post_id": "2095554244128669981", "line": 0, "kind": "quota", "harness": null, "note": "hype for GLM's 'unlimited quota' subscription promo"}
+{"post_id": "2095559562531410378", "line": 0, "kind": "quota", "harness": null, "note": "hype reaction to GLM's unlimited-quota promo"}
+{"post_id": "2095563151567651118", "line": 0, "kind": "model_cost", "harness": null, "note": "'glm 5.3 flash... wayy ahead... with cheap ZDR hosting'"}
+{"post_id": "2095569472186916867", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark '$0.04' per run, 'ridiculous value'"}
+{"post_id": "2095569472186916867", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash cost '$3.32' vs Muse's $0.04"}
+{"post_id": "2095569849405624330", "line": 0, "kind": "quota", "harness": "opencode", "note": "'free tokens for meta mode' on OpenCode, appreciated"}
+{"post_id": "2095579130385310055", "line": 0, "kind": "quota", "harness": "opencode", "note": "'Free agents. No limits.' on OpenCode"}
+{"post_id": "2095581978036674872", "line": 0, "kind": "quota", "harness": null, "note": "GLM 5.3 usage 'very less' vs claude max X5"}
+{"post_id": "2095582704662155513", "line": 2, "kind": "quota", "harness": "claude_code", "note": "'Claude Code has very sus limits'"}
+{"post_id": "2095584235516219616", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra 'costing 57% less per task' than Sol"}
+{"post_id": "2095584235516219616", "line": 1, "kind": "model_cost", "harness": null, "note": "Sol costs more per task than the newer Astra"}
+{"post_id": "2095588273011777919", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna 'lost... by roughly 11 times on cost'"}
+{"post_id": "2095588705503420575", "line": 0, "kind": "model_cost", "harness": null, "note": "'muse spark 1.3 beats fable 5 and gpt 5.6 at 1/20th price'"}
+{"post_id": "2095591956458160230", "line": 0, "kind": "quota", "harness": "claude_code", "note": "'$200 max plan I am hitting 5hr limits multiple times a day'"}
+{"post_id": "2095593385696387582", "line": 0, "kind": "quota", "harness": "opencode", "note": "'fantastic!' endorsing Muse Spark free on OpenCode"}
+{"post_id": "2095596324339032474", "line": 0, "kind": "model_cost", "harness": null, "note": "'Astra is cheaper yet performs better than Fable 5.1'"}
+{"post_id": "2095597806547255425", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 'burned 1.8 million tokens with 84 agents'"}
+{"post_id": "2095598374556709030", "line": 0, "kind": "model_cost", "harness": null, "note": "'awesome!' endorsing muse spark's 1/20th price claim"}
+{"post_id": "2095604097378369703", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra cache reads make it '2-3x more expensive than Fable 5.1'"}
+{"post_id": "2095605905928667360", "line": 0, "kind": "unrelated", "harness": null, "note": "'switched to claude max for fable 5.1', no price/limit judgment made"}
+{"post_id": "2095610313752342613", "line": 0, "kind": "model_cost", "harness": null, "note": "Kimi K3 did the job 'for $10,500' vs $47,000"}
+{"post_id": "2095611081762721817", "line": 0, "kind": "model_cost", "harness": null, "note": "'Astra looks great and way cheaper than fable 5.1'"}
+{"post_id": "2095611356883845607", "line": 0, "kind": "model_cost", "harness": null, "note": "'price differences between... Astra and... Luna are astronomical'"}
+{"post_id": "2095612477421805809", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra 'extremely token efficient... a fifth of Fable 5.1 Max'"}
+{"post_id": "2095617998937858310", "line": 0, "kind": "quota", "harness": "opencode", "note": "'muse spark 1.3 is free on opencode go with generous limits'"}
+{"post_id": "2095618868588769485", "line": 0, "kind": "model_cost", "harness": null, "note": "'efficiency gains on coding and agentic workflows are massive'"}
+{"post_id": "2095618892475302358", "line": 0, "kind": "model_cost", "harness": null, "note": "'GPT-5.6 Luna is 25x cheaper than GPT-5.5'"}
+{"post_id": "2095620999408701478", "line": 0, "kind": "unrelated", "harness": null, "note": "guardrails/personality complaint, not cost or usage limits"}
+{"post_id": "2095621145407926633", "line": 0, "kind": "unrelated", "harness": null, "note": "duplicate guardrails complaint, not cost or usage limits"}
+{"post_id": "2095621555225010234", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra '~3x fewer tokens on coding-agent tasks' than Sol"}
+{"post_id": "2095622153307603213", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash 'reasoning + coding while keeping costs low'"}
+{"post_id": "2095622315836887490", "line": 0, "kind": "unrelated", "harness": null, "note": "critiques Astra rollout as PR, not a cost/limit claim"}
+{"post_id": "2095622690107228520", "line": 0, "kind": "unrelated", "harness": null, "note": "'Pure marketing' reply, not cost or limits"}
+{"post_id": "2095625147210432612", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra '≈ $28.55 API cost' vs Sol's $6.61"}
+{"post_id": "2095629341279621345", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra 'priced at $10/$50... Sol was way cheaper'"}
+{"post_id": "2095630619250221450", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra pricier ('cennik skoczył') but uses 1/3 Sol's tokens"}
+{"post_id": "2095633944662114444", "line": 0, "kind": "model_cost", "harness": null, "note": "'1/20th price math never survives real production token counts'"}
+{"post_id": "2095636396463522291", "line": 0, "kind": "model_cost", "harness": null, "note": "'Kimi K3 has been running... for 3 days... only cost $25'"}
+{"post_id": "2095636714983457272", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini Flash Cyber 'small, cheap model', 'pricing is aggressive'"}
+{"post_id": "2095637640397861082", "line": 0, "kind": "model_cost", "harness": null, "note": "'Muse is (near) free. Fable is... the opposite.'"}
+{"post_id": "2095638125024530779", "line": 0, "kind": "model_cost", "harness": null, "note": "'i miss cheap glm 5.3 flash tho'"}
+{"post_id": "2095639131556884777", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark Contributor '劇的にコスト下がったわ' (cost dropped dramatically)"}
+{"post_id": "2095639719275348451", "line": 1, "kind": "model_cost", "harness": null, "note": "'Fableは課金が怖くて使えない' - billing too scary to use"}
+{"post_id": "2095639777697534344", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.3 'price is too good to beat'"}
+{"post_id": "2095639864024932555", "line": 0, "kind": "model_cost", "harness": null, "note": "'Muse Spark 1.3... It Is Astra for the poor'"}
+{"post_id": "2095639977262563517", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra '64% lower cost per rollout' than Fable 5"}
+{"post_id": "2095640190416982155", "line": 0, "kind": "model_cost", "harness": null, "note": "'insane intelligence for the price' using Muse Spark 1.3"}
+{"post_id": "2095640948260708537", "line": 0, "kind": "model_cost", "harness": null, "note": "'GLM 5.3 Flash já é... bem barato' but below top models"}
+{"post_id": "2095641015667523600", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 'used less than half the tokens' of Gemini"}
+{"post_id": "2095641015667523600", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.8 Flash used more tokens than Muse Spark"}
+{"post_id": "2095641436154638842", "line": 0, "kind": "model_cost", "harness": null, "note": "'25 seconds faster for 4.3x the cost is a rough trade'"}

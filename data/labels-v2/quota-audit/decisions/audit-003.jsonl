@@ -1,0 +1,110 @@
+{"post_id": "2094366193318871179", "line": 0, "kind": "model_cost", "harness": null, "note": "Praises Gemini 3.7 Flash's own cost/speed/accuracy balance."}
+{"post_id": "2094368900700094911", "line": 0, "kind": "model_cost", "harness": null, "note": "Recommends GLM 5.3 as better value than a $20/m plan."}
+{"post_id": "2094368941661446415", "line": 0, "kind": "model_cost", "harness": null, "note": "Kimi K3 memory layer costs $7/month, own price framing."}
+{"post_id": "2094368973890740231", "line": 0, "kind": "model_cost", "harness": null, "note": "'4x cheaper' about Kimi K3's own MEP-modelling cost."}
+{"post_id": "2094369471309738412", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash costs a fraction, no API bill required."}
+{"post_id": "2094370427330326719", "line": 0, "kind": "model_cost", "harness": null, "note": "Recommends GLM 5.3 as better value than a $20 plan."}
+{"post_id": "2094371474609959418", "line": 0, "kind": "unrelated", "harness": null, "note": "'Hard limit' refers to shallow research depth, not tokens/quota."}
+{"post_id": "2094371626427310290", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 flash 'free' turned out to bill the author."}
+{"post_id": "2094372542865891602", "line": 0, "kind": "model_cost", "harness": null, "note": "'Token 很耐用' praises Gemini's own token efficiency."}
+{"post_id": "2094372696641683904", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna is cheap/murah, own price-value tradeoff."}
+{"post_id": "2094373049470513493", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 worker's high token spend/appetite, no named plan."}
+{"post_id": "2094373055988732255", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.7 Flash price and speed praised directly."}
+{"post_id": "2094373128168149068", "line": 0, "kind": "model_cost", "harness": null, "note": "Opus 5 'takes more usage' (tokens), no plan named."}
+{"post_id": "2094374469405954245", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna enables free/unlimited voice setup, own cost trait."}
+{"post_id": "2094376781553828098", "line": 0, "kind": "model_cost", "harness": null, "note": "Endorses root's free/unlimited Luna voice setup."}
+{"post_id": "2094383841507000590", "line": 0, "kind": "quota", "harness": "claude_code", "note": "Attacks Anthropic's own plan pricing/limits honesty."}
+{"post_id": "2094390093167415685", "line": 0, "kind": "model_cost", "harness": null, "note": "Recommends Muse Spark 1.2 for cheap vision."}
+{"post_id": "2094394410356150303", "line": 0, "kind": "quota", "harness": "opencode", "note": "opencode+Muse Spark framed as personal AI 'without limits'."}
+{"post_id": "2094404468427358533", "line": 0, "kind": "model_cost", "harness": null, "note": "$0.09/task vs $3.14, GLM-5.3-Flash's own cost per task."}
+{"post_id": "2094410778275139958", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.2 'even cheaper', own value framing."}
+{"post_id": "2094428319848788437", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.2 contributor pricing discount, own price."}
+{"post_id": "2094448105148301817", "line": 0, "kind": "model_cost", "harness": null, "note": "Opus 5 used for planning, 'solid quality, lower cost'."}
+{"post_id": "2094448105148301817", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini Flash used to implement, 'solid quality, lower cost'."}
+{"post_id": "2094448105148301817", "line": 2, "kind": "model_cost", "harness": null, "note": "Sol used to review, 'solid quality, lower cost'."}
+{"post_id": "2094449965762298076", "line": 1, "kind": "model_cost", "harness": null, "note": "Switched to Grok 4.6: 'faster, better, and cheaper'."}
+{"post_id": "2094452009009066016", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.7 Flash '10 veces mas barato', own cost."}
+{"post_id": "2094456471006400852", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna's credit efficiency left plan credits unused, own efficiency."}
+{"post_id": "2094456485413601786", "line": 1, "kind": "both", "harness": "codex", "note": "Luna cheaper and doesn't drain Codex's rate limit."}
+{"post_id": "2094458874489184624", "line": 0, "kind": "model_cost", "harness": null, "note": "'Less usage, higher cost' about Grok 4.6's own consumption."}
+{"post_id": "2094460948111048972", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 flash called cheaper and smarter, own traits."}
+{"post_id": "2094461069209039105", "line": 0, "kind": "model_cost", "harness": null, "note": "Self-hosted GLM-5.3-Flash saves money, own cost trait."}
+{"post_id": "2094461461640966350", "line": 0, "kind": "model_cost", "harness": null, "note": "Spending 25x less than Opus 5, own API cost complaint."}
+{"post_id": "2094462340389318981", "line": 1, "kind": "quota", "harness": "codex", "note": "Barely dents usage; resets to 100% in Codex."}
+{"post_id": "2094463280831955451", "line": 0, "kind": "quota", "harness": "claude_code", "note": "Burnt 33% of weekly capacity on 20x Claude Max plan."}
+{"post_id": "2094463533752713436", "line": 0, "kind": "quota", "harness": "codex", "note": "Building sessions on Sol/Ultra burn through usage limit."}
+{"post_id": "2094463685330718961", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 as the 'cheap lane', own cost positioning."}
+{"post_id": "2094486313986646392", "line": 0, "kind": "quota", "harness": null, "note": "Google's $20 sub value debate; Gemini plan is untracked."}
+{"post_id": "2094492898666430525", "line": 0, "kind": "unrelated", "harness": null, "note": "OpenRouter market-share growth, not a cost/limit claim."}
+{"post_id": "2094497475973242963", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 cost $6.21 on a benchmark run, own API cost."}
+{"post_id": "2094497475973242963", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash cost per completed SWE-bench task."}
+{"post_id": "2094508168919531972", "line": 0, "kind": "model_cost", "harness": null, "note": "Kimi K3 called 'cheap-to-serve', own cost trait."}
+{"post_id": "2094513536361726323", "line": 0, "kind": "quota", "harness": null, "note": "No usage limits hit on a Gemini pro plan; untracked."}
+{"post_id": "2094519859749237044", "line": 0, "kind": "quota", "harness": null, "note": "Luna's free tier praised; no coding context stated."}
+{"post_id": "2094523637592121822", "line": 0, "kind": "unrelated", "harness": null, "note": "Planning vs execution quality, no cost/tokens/limits."}
+{"post_id": "2094526663711138174", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna $25/B tokens, own low price vs Sol/Sonnet/Opus."}
+{"post_id": "2094526663711138174", "line": 1, "kind": "model_cost", "harness": null, "note": "Sol at $200/B tokens, own high price vs Luna."}
+{"post_id": "2094526663711138174", "line": 2, "kind": "model_cost", "harness": null, "note": "Opus at $200/B tokens, own high price vs Luna."}
+{"post_id": "2094530292904333801", "line": 0, "kind": "unrelated", "harness": null, "note": "Over-sensitivity limiting use cases, not cost/tokens/limits."}
+{"post_id": "2094530866819035602", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 flash used cheaply 'for pennies', own cost."}
+{"post_id": "2094533542088753502", "line": 0, "kind": "quota", "harness": "codex", "note": "Unlimited usage in codex with a plus plan, can't hit 5h limit."}
+{"post_id": "2094536456048201953", "line": 0, "kind": "quota", "harness": null, "note": "Muse Code's own coding-plan pricing praised; untracked vendor plan."}
+{"post_id": "2094537245143207943", "line": 0, "kind": "model_cost", "harness": null, "note": "Comparing tokens-per-dollar value of ChatGPT pro plan."}
+{"post_id": "2094537375011545437", "line": 0, "kind": "model_cost", "harness": null, "note": "$5 Muse Spark contributor tier value via proxy caching."}
+{"post_id": "2094541077025845752", "line": 0, "kind": "quota", "harness": null, "note": "Muse Code plan tiers with per-5-hour request caps; untracked."}
+{"post_id": "2094541602312061155", "line": 0, "kind": "quota", "harness": null, "note": "25 requests/5hr Muse Code tier insufficient for real coding."}
+{"post_id": "2094541736152371690", "line": 1, "kind": "both", "harness": null, "note": "Luna 80% cheaper and no more credit-limit run-outs; no coding context."}
+{"post_id": "2094542211681497354", "line": 0, "kind": "quota", "harness": null, "note": "Muse Code $15 tier needed for coding vs $5 chat-only tier."}
+{"post_id": "2094542582411833379", "line": 0, "kind": "quota", "harness": null, "note": "Mocks Muse Code $5 tier marketing claim."}
+{"post_id": "2094543149679223127", "line": 0, "kind": "quota", "harness": null, "note": "GLM/Qwen at $30 cap, 'exhaust monthly quota'; harness untracked."}
+{"post_id": "2094544818093408592", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM 5.3 runs 'at a fraction of the cost', own price."}
+{"post_id": "2094544937824161813", "line": 0, "kind": "quota", "harness": null, "note": "GLM 5.3's limits 'more generous than any other subscription'."}
+{"post_id": "2094545946721783986", "line": 1, "kind": "model_cost", "harness": null, "note": "Kimi K3 matched priciest models on a fraction of the budget."}
+{"post_id": "2094546257771380980", "line": 0, "kind": "quota", "harness": null, "note": "Dismisses appeal of Muse Code's pricing plan."}
+{"post_id": "2094546976172028033", "line": 0, "kind": "quota", "harness": null, "note": "'50 requests every 5 hours is so low', Muse Code plan cap."}
+{"post_id": "2094547690038411752", "line": 0, "kind": "model_cost", "harness": null, "note": "'Kimi k3 is so expensive now', own price complaint."}
+{"post_id": "2094548508565196993", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 output price under 1/4 of Claude Opus 5's."}
+{"post_id": "2094549727115096571", "line": 0, "kind": "quota", "harness": null, "note": "Not worrying about managing limits while using GLM 5.3 Flash."}
+{"post_id": "2094549895508115783", "line": 0, "kind": "both", "harness": null, "note": "Grok 4.6 eats tokens in a loop, maxing weekly limit."}
+{"post_id": "2094549929637323067", "line": 0, "kind": "quota", "harness": null, "note": "Grok 4.6 high-fast 'quickly hitting the limits'."}
+{"post_id": "2094551343935709583", "line": 0, "kind": "quota", "harness": null, "note": "Questions Muse Code's 'requests every 5 hours' cap structure."}
+{"post_id": "2094553348578099364", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash priced at about 1/9 of higher-tier models."}
+{"post_id": "2094554077271044216", "line": 1, "kind": "unrelated", "harness": null, "note": "Role-split praise for planning, not cost/tokens/limits."}
+{"post_id": "2094554908410192056", "line": 0, "kind": "model_cost", "harness": null, "note": "'GLM 5.3 Flash es tan barato', own price."}
+{"post_id": "2094613566452314584", "line": 0, "kind": "model_cost", "harness": null, "note": "$8/month for billions of tokens, own low cost via opencode."}
+{"post_id": "2094613566452314584", "line": 1, "kind": "model_cost", "harness": null, "note": "$8/month for billions of tokens, own low cost for Luna."}
+{"post_id": "2094625232825008443", "line": 0, "kind": "model_cost", "harness": null, "note": "Switch to Muse Spark 1.2 to lower costs, own price trait."}
+{"post_id": "2094628607264186499", "line": 1, "kind": "model_cost", "harness": null, "note": "'opencode muse spark 1.2 is free, why I should pay'."}
+{"post_id": "2094632477511786737", "line": 1, "kind": "quota", "harness": null, "note": "'Grok 4.6 me da mas uso' more usable quota; untracked plan."}
+{"post_id": "2094633664357527620", "line": 0, "kind": "quota", "harness": null, "note": "5-hour Ollama Pro limit burned in under an hour."}
+{"post_id": "2094637315625038079", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM's subscription tier priced 4-8x the API rate, own value."}
+{"post_id": "2094637872104267851", "line": 0, "kind": "quota", "harness": null, "note": "Confirms 5-hour Ollama Pro limit burned quickly."}
+{"post_id": "2094638541599051777", "line": 0, "kind": "model_cost", "harness": null, "note": "Opus 5 'eats your context like hell', own token appetite."}
+{"post_id": "2094639430376079657", "line": 0, "kind": "both", "harness": null, "note": "Better result but burned 3 full 5h limits on $20/mo plan."}
+{"post_id": "2094640976212160773", "line": 0, "kind": "unrelated", "harness": null, "note": "Role split for planning/bugfixing, not cost/tokens/limits."}
+{"post_id": "2094643015713534383", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna cheap in yen with good cost-performance."}
+{"post_id": "2094643285323354185", "line": 0, "kind": "both", "harness": "codex", "note": "Luna cheap and has far more rate-limit headroom than Claude, coding context."}
+{"post_id": "2094643715369562163", "line": 1, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.2 free 1M context and multimodal support."}
+{"post_id": "2094643882009182486", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna's cost/performance disliked vs Chinese models tried."}
+{"post_id": "2094644143956046135", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash still tops value chart despite price hike."}
+{"post_id": "2094646159025344794", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash priced far below Claude Fable in a price table."}
+{"post_id": "2094661838973673818", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash runs on affordable local Mac hardware."}
+{"post_id": "2094673772972494899", "line": 1, "kind": "model_cost", "harness": null, "note": "Sol cheaper but needs multiple prompts vs single-prompt Opus."}
+{"post_id": "2094693205581480291", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3 Flash framed as affordable enough to call repeatedly."}
+{"post_id": "2094697634648707391", "line": 0, "kind": "quota", "harness": null, "note": "Google $20 sub limits nowhere close to OAI's with Luna Max."}
+{"post_id": "2094697634648707391", "line": 1, "kind": "quota", "harness": null, "note": "Gemini 3.7 Flash's Google-plan limits ranked worse than OAI's."}
+{"post_id": "2094699714126197081", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 'wins over price point' vs Kimi K3, own value."}
+{"post_id": "2094701153263276254", "line": 0, "kind": "quota", "harness": "codex", "note": "Not able to finish 5hr limits using Luna in Codex."}
+{"post_id": "2094701153263276254", "line": 1, "kind": "quota", "harness": "codex", "note": "Using Sol in Codex, the 5hr limit 'quickly burned'."}
+{"post_id": "2094701237572980969", "line": 0, "kind": "model_cost", "harness": null, "note": "Muse Spark 1.2 less token-efficient than Grok 4.5."}
+{"post_id": "2094702067046887833", "line": 0, "kind": "model_cost", "harness": null, "note": "Prefers Grok 4.6 for 'better value for the price'."}
+{"post_id": "2094705329346899971", "line": 0, "kind": "model_cost", "harness": null, "note": "Loves GLM-5.3 Flash's capacity compared to its price."}
+{"post_id": "2094705329346899971", "line": 1, "kind": "model_cost", "harness": null, "note": "Prefers Grok/Sol over GLM 5.3 despite it being pricier."}
+{"post_id": "2094705329346899971", "line": 2, "kind": "model_cost", "harness": null, "note": "Prefers Grok 4.6 despite it being 'a little more expansive'."}
+{"post_id": "2094705329346899971", "line": 3, "kind": "model_cost", "harness": null, "note": "Prefers Sol despite it being 'a little more expansive'."}
+{"post_id": "2094707794612003036", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna '25x cheaper than Sol', own price framing."}
+{"post_id": "2094707794612003036", "line": 1, "kind": "model_cost", "harness": null, "note": "Grok 4.6 'tied with frontier... ~5x cheaper', own price."}
+{"post_id": "2094709097891557398", "line": 0, "kind": "model_cost", "harness": null, "note": "Luna cut cost per task from $0.58 to $0.036, 16x cheaper."}
+{"post_id": "2094714588793282851", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.7 Flash 'Murah (karna sering diskon)', own price."}
+{"post_id": "2094714727125664104", "line": 1, "kind": "quota", "harness": "claude_code", "note": "Free Muse Spark beats Opus 5; hard to justify the monthly payment."}
+{"post_id": "2094716716467228919", "line": 0, "kind": "model_cost", "harness": null, "note": "Switched to GLM-5.3 Flash: 'cheaper and better' for agentic work."}

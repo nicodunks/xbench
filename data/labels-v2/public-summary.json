@@ -13,9 +13,14 @@
     "unique_authors": 8685,
     "comments": 7955,
     "classified_posts": 13398,
-    "reviewer_overrides": 441,
+    "reviewer_overrides": 641,
     "excluded_ai_authors": 63,
-    "excluded_posts": 450
+    "excluded_posts": 450,
+    "quota_audit": {
+      "lines_read": 872,
+      "dropped_untracked_plan": 105,
+      "moved_to_harness": 111
+    }
   },
   "recorded_spend_usd": 59.655,
   "attention": {
@@ -237,18 +242,18 @@
       {
         "model": "gpt-6-astra",
         "firsthand": {
-          "n": 15,
+          "n": 14,
           "positive": 11,
           "mixed": 1,
-          "negative": 3,
-          "net_sentiment": 0.5333
+          "negative": 2,
+          "net_sentiment": 0.6429
         },
         "all_expressed": {
-          "n": 139,
-          "positive": 109,
+          "n": 136,
+          "positive": 108,
           "mixed": 8,
-          "negative": 22,
-          "net_sentiment": 0.6259
+          "negative": 20,
+          "net_sentiment": 0.6471
         },
         "endorsements": {
           "n": 16,
@@ -276,11 +281,11 @@
           },
           {
             "day_index": 2,
-            "n": 1,
+            "n": 0,
             "positive": 0,
             "mixed": 0,
-            "negative": 1,
-            "net_sentiment": -1.0
+            "negative": 0,
+            "net_sentiment": null
           },
           {
             "day_index": 3,
@@ -316,9 +321,9 @@
           }
         ],
         "tasks": {
-          "none": 5,
           "multimodal": 3,
           "agents": 3,
+          "none": 4,
           "coding": 3,
           "cost": 1
         },
@@ -430,19 +435,14 @@
             }
           },
           "other": {
-            "n": 1,
+            "n": 0,
             "positive": 0,
             "mixed": 0,
-            "negative": 1,
-            "net_sentiment": -1.0,
+            "negative": 0,
+            "net_sentiment": null,
             "top_aspects": {
               "positive": [],
-              "negative": [
-                [
-                  "no rollout noticed despite pro subscription",
-                  1
-                ]
-              ]
+              "negative": []
             }
           }
         },
@@ -499,10 +499,6 @@
           ],
           "negative": [
             [
-              "no rollout noticed despite pro subscription",
-              1
-            ],
-            [
               "cache read cost in long sessions",
               1
             ],
@@ -517,18 +513,18 @@
       {
         "model": "glm-5.3-flash",
         "firsthand": {
-          "n": 263,
-          "positive": 182,
-          "mixed": 28,
-          "negative": 53,
-          "net_sentiment": 0.4905
+          "n": 253,
+          "positive": 177,
+          "mixed": 26,
+          "negative": 50,
+          "net_sentiment": 0.502
         },
         "all_expressed": {
-          "n": 343,
-          "positive": 251,
-          "mixed": 32,
-          "negative": 60,
-          "net_sentiment": 0.5569
+          "n": 329,
+          "positive": 243,
+          "mixed": 30,
+          "negative": 56,
+          "net_sentiment": 0.5684
         },
         "endorsements": {
           "n": 7,
@@ -540,66 +536,66 @@
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 36,
+            "n": 35,
             "positive": 20,
             "mixed": 5,
-            "negative": 11,
-            "net_sentiment": 0.25
+            "negative": 10,
+            "net_sentiment": 0.2857
           },
           {
             "day_index": 1,
-            "n": 51,
+            "n": 49,
             "positive": 33,
-            "mixed": 9,
-            "negative": 9,
-            "net_sentiment": 0.4706
+            "mixed": 8,
+            "negative": 8,
+            "net_sentiment": 0.5102
           },
           {
             "day_index": 2,
-            "n": 52,
-            "positive": 40,
+            "n": 51,
+            "positive": 39,
             "mixed": 4,
             "negative": 8,
-            "net_sentiment": 0.6154
+            "net_sentiment": 0.6078
           },
           {
             "day_index": 3,
-            "n": 33,
-            "positive": 23,
+            "n": 31,
+            "positive": 21,
             "mixed": 4,
             "negative": 6,
-            "net_sentiment": 0.5152
+            "net_sentiment": 0.4839
           },
           {
             "day_index": 4,
-            "n": 37,
+            "n": 35,
             "positive": 21,
-            "mixed": 7,
-            "negative": 9,
-            "net_sentiment": 0.3243
+            "mixed": 6,
+            "negative": 8,
+            "net_sentiment": 0.3714
           },
           {
             "day_index": 5,
-            "n": 35,
-            "positive": 30,
+            "n": 34,
+            "positive": 29,
             "mixed": 2,
             "negative": 3,
-            "net_sentiment": 0.7714
+            "net_sentiment": 0.7647
           },
           {
             "day_index": 6,
-            "n": 39,
-            "positive": 28,
+            "n": 38,
+            "positive": 27,
             "mixed": 1,
             "negative": 10,
-            "net_sentiment": 0.4615
+            "net_sentiment": 0.4474
           }
         ],
         "tasks": {
           "none": 43,
-          "coding": 116,
+          "coding": 114,
           "multimodal": 17,
-          "cost": 61,
+          "cost": 53,
           "agents": 18,
           "chat": 7,
           "writing": 1
@@ -696,13 +692,17 @@
             }
           },
           "price": {
-            "n": 85,
-            "positive": 66,
-            "mixed": 6,
-            "negative": 13,
-            "net_sentiment": 0.6235,
+            "n": 75,
+            "positive": 61,
+            "mixed": 4,
+            "negative": 10,
+            "net_sentiment": 0.68,
             "top_aspects": {
               "positive": [
+                [
+                  "token consumption",
+                  2
+                ],
                 [
                   "price to performance",
                   2
@@ -714,27 +714,23 @@
                 [
                   "free access solving an urgent need",
                   1
-                ],
-                [
-                  "11x cheaper on matched tasks",
-                  1
                 ]
               ],
               "negative": [
-                [
-                  "rate limited when trying to use",
-                  1
-                ],
                 [
                   "token bloat and benchmaxxed scores",
                   1
                 ],
                 [
-                  "usage cap during peak hours",
+                  "more expensive than claimed",
                   1
                 ],
                 [
-                  "more expensive than claimed",
+                  "cost-value and objective alignment versus deepseek v4 flash",
+                  1
+                ],
+                [
+                  "token consumption",
                   1
                 ]
               ]
@@ -886,6 +882,10 @@
               3
             ],
             [
+              "token consumption",
+              2
+            ],
+            [
               "price to performance",
               2
             ],
@@ -928,10 +928,6 @@
             [
               "quality as research partner",
               1
-            ],
-            [
-              "local deployability on consumer hardware",
-              1
             ]
           ],
           "negative": [
@@ -945,10 +941,6 @@
             ],
             [
               "visual/spatial reasoning error",
-              1
-            ],
-            [
-              "rate limited when trying to use",
               1
             ],
             [
@@ -992,7 +984,11 @@
               1
             ],
             [
-              "usage cap during peak hours",
+              "overthinking on step-by-step prompts",
+              1
+            ],
+            [
+              "still has room for optimization",
               1
             ]
           ],
@@ -1046,15 +1042,15 @@
               1
             ],
             [
-              "quality vs usage/subscription limits",
-              1
-            ],
-            [
               "3d asset generation in blender",
               1
             ],
             [
               "concise, lower end quality",
+              1
+            ],
+            [
+              "cheaper but 25% slower than sol",
               1
             ]
           ]
@@ -1063,18 +1059,18 @@
       {
         "model": "grok-4.6",
         "firsthand": {
-          "n": 229,
-          "positive": 162,
-          "mixed": 15,
-          "negative": 52,
-          "net_sentiment": 0.4803
+          "n": 222,
+          "positive": 158,
+          "mixed": 14,
+          "negative": 50,
+          "net_sentiment": 0.4865
         },
         "all_expressed": {
-          "n": 275,
-          "positive": 205,
-          "mixed": 15,
-          "negative": 55,
-          "net_sentiment": 0.5455
+          "n": 268,
+          "positive": 201,
+          "mixed": 14,
+          "negative": 53,
+          "net_sentiment": 0.5522
         },
         "endorsements": {
           "n": 6,
@@ -1086,11 +1082,11 @@
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 32,
-            "positive": 22,
-            "mixed": 1,
-            "negative": 9,
-            "net_sentiment": 0.4062
+            "n": 29,
+            "positive": 21,
+            "mixed": 0,
+            "negative": 8,
+            "net_sentiment": 0.4483
           },
           {
             "day_index": 1,
@@ -1102,27 +1098,27 @@
           },
           {
             "day_index": 2,
-            "n": 33,
-            "positive": 22,
+            "n": 32,
+            "positive": 21,
             "mixed": 3,
             "negative": 8,
-            "net_sentiment": 0.4242
+            "net_sentiment": 0.4062
           },
           {
             "day_index": 3,
-            "n": 34,
+            "n": 33,
             "positive": 21,
             "mixed": 2,
-            "negative": 11,
-            "net_sentiment": 0.2941
+            "negative": 10,
+            "net_sentiment": 0.3333
           },
           {
             "day_index": 4,
-            "n": 29,
-            "positive": 20,
+            "n": 28,
+            "positive": 19,
             "mixed": 5,
             "negative": 4,
-            "net_sentiment": 0.5517
+            "net_sentiment": 0.5357
           },
           {
             "day_index": 5,
@@ -1134,29 +1130,29 @@
           },
           {
             "day_index": 6,
-            "n": 38,
-            "positive": 30,
+            "n": 37,
+            "positive": 29,
             "mixed": 1,
             "negative": 7,
-            "net_sentiment": 0.6053
+            "net_sentiment": 0.5946
           }
         ],
         "tasks": {
-          "coding": 105,
+          "coding": 103,
           "none": 61,
           "chat": 13,
-          "cost": 17,
+          "cost": 12,
           "agents": 17,
           "writing": 6,
           "multimodal": 10
         },
         "dimensions": {
           "intelligence": {
-            "n": 102,
-            "positive": 68,
+            "n": 101,
+            "positive": 67,
             "mixed": 11,
             "negative": 23,
-            "net_sentiment": 0.4412,
+            "net_sentiment": 0.4356,
             "top_aspects": {
               "positive": [
                 [
@@ -1242,11 +1238,11 @@
             }
           },
           "price": {
-            "n": 31,
-            "positive": 21,
-            "mixed": 4,
-            "negative": 6,
-            "net_sentiment": 0.4839,
+            "n": 25,
+            "positive": 18,
+            "mixed": 3,
+            "negative": 4,
+            "net_sentiment": 0.56,
             "top_aspects": {
               "positive": [
                 [
@@ -1254,15 +1250,15 @@
                   2
                 ],
                 [
-                  "rate limits",
-                  1
-                ],
-                [
                   "cheap for simple q&a tasks",
                   1
                 ],
                 [
                   "cost effectiveness",
+                  1
+                ],
+                [
+                  "cheap and covers most coding tasks",
                   1
                 ]
               ],
@@ -1272,15 +1268,15 @@
                   1
                 ],
                 [
-                  "heavy subscription price vs quality",
-                  1
-                ],
-                [
                   "pricing structure limiting adoption",
                   1
                 ],
                 [
                   "reduced role due to cost/usage",
+                  1
+                ],
+                [
+                  "token consumption",
                   1
                 ]
               ]
@@ -1556,10 +1552,6 @@
               1
             ],
             [
-              "heavy subscription price vs quality",
-              1
-            ],
-            [
               "advertised model missing from picker",
               1
             ],
@@ -1582,13 +1574,13 @@
             [
               "pseudocode-like verbosity",
               1
+            ],
+            [
+              "lacking human tone in writing",
+              1
             ]
           ],
           "mixed": [
-            [
-              "value for cost given weekly quota",
-              1
-            ],
             [
               "complex code handling versus a local model",
               1
@@ -1644,6 +1636,10 @@
             [
               "capability on advanced automation",
               1
+            ],
+            [
+              "value versus gpt and claude, not a full replacement",
+              1
             ]
           ]
         }
@@ -1651,18 +1647,18 @@
       {
         "model": "kimi-k3",
         "firsthand": {
-          "n": 120,
-          "positive": 82,
+          "n": 116,
+          "positive": 80,
           "mixed": 10,
-          "negative": 28,
-          "net_sentiment": 0.45
+          "negative": 26,
+          "net_sentiment": 0.4655
         },
         "all_expressed": {
-          "n": 187,
-          "positive": 131,
+          "n": 183,
+          "positive": 129,
           "mixed": 10,
-          "negative": 46,
-          "net_sentiment": 0.4545
+          "negative": 44,
+          "net_sentiment": 0.4645
         },
         "endorsements": {
           "n": 17,
@@ -1682,11 +1678,11 @@
           },
           {
             "day_index": 1,
-            "n": 22,
-            "positive": 15,
+            "n": 20,
+            "positive": 14,
             "mixed": 1,
-            "negative": 6,
-            "net_sentiment": 0.4091
+            "negative": 5,
+            "net_sentiment": 0.45
           },
           {
             "day_index": 2,
@@ -1706,11 +1702,11 @@
           },
           {
             "day_index": 4,
-            "n": 22,
-            "positive": 17,
+            "n": 20,
+            "positive": 16,
             "mixed": 0,
-            "negative": 5,
-            "net_sentiment": 0.5455
+            "negative": 4,
+            "net_sentiment": 0.6
           },
           {
             "day_index": 5,
@@ -1730,22 +1726,22 @@
           }
         ],
         "tasks": {
-          "coding": 42,
+          "coding": 41,
           "agents": 9,
-          "cost": 21,
-          "none": 30,
-          "chat": 4,
+          "cost": 18,
+          "none": 29,
+          "chat": 5,
           "multimodal": 9,
           "writing": 4,
           "general": 1
         },
         "dimensions": {
           "intelligence": {
-            "n": 56,
+            "n": 55,
             "positive": 40,
-            "mixed": 6,
+            "mixed": 5,
             "negative": 10,
-            "net_sentiment": 0.5357,
+            "net_sentiment": 0.5455,
             "top_aspects": {
               "positive": [
                 [
@@ -1814,11 +1810,11 @@
             }
           },
           "price": {
-            "n": 22,
-            "positive": 11,
+            "n": 19,
+            "positive": 10,
             "mixed": 3,
-            "negative": 8,
-            "net_sentiment": 0.1364,
+            "negative": 6,
+            "net_sentiment": 0.2105,
             "top_aspects": {
               "positive": [
                 [
@@ -1840,10 +1836,6 @@
               ],
               "negative": [
                 [
-                  "usage burned quickly on $100 plan",
-                  2
-                ],
-                [
                   "too expensive",
                   1
                 ],
@@ -1853,6 +1845,10 @@
                 ],
                 [
                   "value for cost",
+                  1
+                ],
+                [
+                  "pricing",
                   1
                 ]
               ]
@@ -1917,11 +1913,11 @@
             }
           },
           "overall": {
-            "n": 16,
-            "positive": 14,
+            "n": 15,
+            "positive": 13,
             "mixed": 0,
             "negative": 2,
-            "net_sentiment": 0.75,
+            "net_sentiment": 0.7333,
             "top_aspects": {
               "positive": [
                 [
@@ -2056,10 +2052,6 @@
           ],
           "negative": [
             [
-              "usage burned quickly on $100 plan",
-              2
-            ],
-            [
               "not close to opus for performance optimization",
               1
             ],
@@ -2114,6 +2106,10 @@
             [
               "voxel quality versus astra",
               1
+            ],
+            [
+              "hype not backed by benchmarks",
+              1
             ]
           ],
           "mixed": [
@@ -2127,10 +2123,6 @@
             ],
             [
               "chat mode appeal versus ux and churn risk",
-              1
-            ],
-            [
-              "excellent quality but low quota",
               1
             ],
             [
@@ -2162,7 +2154,7 @@
               1
             ],
             [
-              "quality versus high token cost",
+              "token consumption",
               1
             ]
           ]
@@ -2171,22 +2163,22 @@
       {
         "model": "muse-spark-1.3",
         "firsthand": {
-          "n": 71,
-          "positive": 47,
+          "n": 67,
+          "positive": 45,
           "mixed": 5,
-          "negative": 19,
-          "net_sentiment": 0.3944
+          "negative": 17,
+          "net_sentiment": 0.4179
         },
         "all_expressed": {
-          "n": 160,
-          "positive": 122,
+          "n": 153,
+          "positive": 117,
           "mixed": 7,
-          "negative": 31,
-          "net_sentiment": 0.5687
+          "negative": 29,
+          "net_sentiment": 0.5752
         },
         "endorsements": {
-          "n": 3,
-          "positive": 3,
+          "n": 2,
+          "positive": 2,
           "mixed": 0,
           "negative": 0,
           "net_sentiment": 1.0
@@ -2234,24 +2226,24 @@
           },
           {
             "day_index": 5,
-            "n": 4,
+            "n": 3,
             "positive": 0,
             "mixed": 1,
-            "negative": 3,
-            "net_sentiment": -0.75
+            "negative": 2,
+            "net_sentiment": -0.6667
           },
           {
             "day_index": 6,
-            "n": 67,
-            "positive": 47,
+            "n": 64,
+            "positive": 45,
             "mixed": 4,
-            "negative": 16,
-            "net_sentiment": 0.4627
+            "negative": 15,
+            "net_sentiment": 0.4688
           }
         ],
         "tasks": {
           "coding": 30,
-          "cost": 17,
+          "cost": 13,
           "multimodal": 6,
           "none": 14,
           "agents": 2,
@@ -2332,11 +2324,11 @@
             }
           },
           "price": {
-            "n": 20,
-            "positive": 18,
+            "n": 17,
+            "positive": 16,
             "mixed": 0,
-            "negative": 2,
-            "net_sentiment": 0.8,
+            "negative": 1,
+            "net_sentiment": 0.8824,
             "top_aspects": {
               "positive": [
                 [
@@ -2357,10 +2349,6 @@
                 ]
               ],
               "negative": [
-                [
-                  "burns through usage quickly",
-                  1
-                ],
                 [
                   "not worth using despite being free",
                   1
@@ -2435,11 +2423,11 @@
             }
           },
           "other": {
-            "n": 9,
+            "n": 8,
             "positive": 2,
             "mixed": 0,
-            "negative": 7,
-            "net_sentiment": -0.5556,
+            "negative": 6,
+            "net_sentiment": -0.5,
             "top_aspects": {
               "positive": [
                 [
@@ -2457,15 +2445,15 @@
                   2
                 ],
                 [
-                  "access despite paid plan",
-                  1
-                ],
-                [
                   "regional availability",
                   1
                 ],
                 [
                   "missing soc2, broken support blocking use",
+                  1
+                ],
+                [
+                  "not available in author's region",
                   1
                 ]
               ]
@@ -2541,10 +2529,6 @@
               2
             ],
             [
-              "access despite paid plan",
-              1
-            ],
-            [
               "handling longer files",
               1
             ],
@@ -2573,10 +2557,6 @@
               1
             ],
             [
-              "burns through usage quickly",
-              1
-            ],
-            [
               "wrong memory updates instead of tracking progress",
               1
             ],
@@ -2594,6 +2574,14 @@
             ],
             [
               "not available in author's region",
+              1
+            ],
+            [
+              "data collection opt-in requirement",
+              1
+            ],
+            [
+              "regional availability restriction",
               1
             ]
           ],
@@ -2632,18 +2620,18 @@
       {
         "model": "gemini-3.7-flash",
         "firsthand": {
-          "n": 235,
-          "positive": 150,
-          "mixed": 27,
-          "negative": 58,
-          "net_sentiment": 0.3915
+          "n": 223,
+          "positive": 144,
+          "mixed": 26,
+          "negative": 53,
+          "net_sentiment": 0.4081
         },
         "all_expressed": {
-          "n": 275,
-          "positive": 179,
-          "mixed": 28,
-          "negative": 68,
-          "net_sentiment": 0.4036
+          "n": 263,
+          "positive": 173,
+          "mixed": 27,
+          "negative": 63,
+          "net_sentiment": 0.4183
         },
         "endorsements": {
           "n": 16,
@@ -2655,51 +2643,51 @@
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 29,
+            "n": 28,
             "positive": 16,
             "mixed": 4,
-            "negative": 9,
-            "net_sentiment": 0.2414
+            "negative": 8,
+            "net_sentiment": 0.2857
           },
           {
             "day_index": 1,
-            "n": 52,
-            "positive": 31,
+            "n": 49,
+            "positive": 30,
             "mixed": 7,
-            "negative": 14,
-            "net_sentiment": 0.3269
+            "negative": 12,
+            "net_sentiment": 0.3673
           },
           {
             "day_index": 2,
-            "n": 43,
-            "positive": 28,
+            "n": 40,
+            "positive": 26,
             "mixed": 2,
-            "negative": 13,
-            "net_sentiment": 0.3488
+            "negative": 12,
+            "net_sentiment": 0.35
           },
           {
             "day_index": 3,
-            "n": 38,
-            "positive": 29,
-            "mixed": 5,
+            "n": 35,
+            "positive": 27,
+            "mixed": 4,
             "negative": 4,
-            "net_sentiment": 0.6579
+            "net_sentiment": 0.6571
           },
           {
             "day_index": 4,
-            "n": 31,
+            "n": 30,
             "positive": 21,
             "mixed": 7,
-            "negative": 3,
-            "net_sentiment": 0.5806
+            "negative": 2,
+            "net_sentiment": 0.6333
           },
           {
             "day_index": 5,
-            "n": 28,
-            "positive": 19,
+            "n": 27,
+            "positive": 18,
             "mixed": 1,
             "negative": 8,
-            "net_sentiment": 0.3929
+            "net_sentiment": 0.3704
           },
           {
             "day_index": 6,
@@ -2711,12 +2699,12 @@
           }
         ],
         "tasks": {
-          "cost": 18,
+          "cost": 9,
           "writing": 7,
-          "none": 64,
-          "coding": 88,
-          "agents": 19,
-          "chat": 19,
+          "none": 63,
+          "coding": 89,
+          "agents": 17,
+          "chat": 18,
           "multimodal": 20
         },
         "dimensions": {
@@ -2766,11 +2754,11 @@
             }
           },
           "speed": {
-            "n": 35,
-            "positive": 25,
-            "mixed": 5,
+            "n": 32,
+            "positive": 23,
+            "mixed": 4,
             "negative": 5,
-            "net_sentiment": 0.5714,
+            "net_sentiment": 0.5625,
             "top_aspects": {
               "positive": [
                 [
@@ -2811,11 +2799,11 @@
             }
           },
           "price": {
-            "n": 31,
-            "positive": 19,
+            "n": 24,
+            "positive": 17,
             "mixed": 3,
-            "negative": 9,
-            "net_sentiment": 0.3226,
+            "negative": 4,
+            "net_sentiment": 0.5417,
             "top_aspects": {
               "positive": [
                 [
@@ -2841,15 +2829,15 @@
                   1
                 ],
                 [
-                  "quota burned quickly",
+                  "worse than near-free alternatives",
                   1
                 ],
                 [
-                  "rate limit consumption and output quality",
+                  "requires more tokens per task despite raw speed",
                   1
                 ],
                 [
-                  "burned plan on one bug",
+                  "token budget limits output",
                   1
                 ]
               ]
@@ -2987,11 +2975,11 @@
             }
           },
           "other": {
-            "n": 20,
-            "positive": 11,
+            "n": 17,
+            "positive": 8,
             "mixed": 3,
             "negative": 6,
-            "net_sentiment": 0.25,
+            "net_sentiment": 0.1176,
             "top_aspects": {
               "positive": [
                 [
@@ -3007,7 +2995,7 @@
                   1
                 ],
                 [
-                  "not running out of credits/quota",
+                  "works well with antigravity cli",
                   1
                 ]
               ],
@@ -3129,19 +3117,11 @@
               1
             ],
             [
-              "quota burned quickly",
-              1
-            ],
-            [
               "bug detection",
               1
             ],
             [
               "api reliability and latency",
-              1
-            ],
-            [
-              "rate limit consumption and output quality",
               1
             ],
             [
@@ -3154,6 +3134,14 @@
             ],
             [
               "speed not worth cleanup work",
+              1
+            ],
+            [
+              "confidently fabricating a fake license approval",
+              1
+            ],
+            [
+              "thoroughness of file reading",
               1
             ]
           ],
@@ -3211,567 +3199,11 @@
               1
             ],
             [
-              "fast with generous quota but auth issues in agy cli",
-              1
-            ],
-            [
               "cheap for bulk agent calls, weak for hard coding",
               1
-            ]
-          ]
-        }
-      },
-      {
-        "model": "gpt-5.6-luna",
-        "firsthand": {
-          "n": 186,
-          "positive": 116,
-          "mixed": 19,
-          "negative": 51,
-          "net_sentiment": 0.3495
-        },
-        "all_expressed": {
-          "n": 235,
-          "positive": 151,
-          "mixed": 20,
-          "negative": 64,
-          "net_sentiment": 0.3702
-        },
-        "endorsements": {
-          "n": 15,
-          "positive": 6,
-          "mixed": 0,
-          "negative": 9,
-          "net_sentiment": -0.2
-        },
-        "daily_firsthand": [
-          {
-            "day_index": 0,
-            "n": 27,
-            "positive": 18,
-            "mixed": 4,
-            "negative": 5,
-            "net_sentiment": 0.4815
-          },
-          {
-            "day_index": 1,
-            "n": 33,
-            "positive": 17,
-            "mixed": 6,
-            "negative": 10,
-            "net_sentiment": 0.2121
-          },
-          {
-            "day_index": 2,
-            "n": 27,
-            "positive": 18,
-            "mixed": 2,
-            "negative": 7,
-            "net_sentiment": 0.4074
-          },
-          {
-            "day_index": 3,
-            "n": 29,
-            "positive": 19,
-            "mixed": 1,
-            "negative": 9,
-            "net_sentiment": 0.3448
-          },
-          {
-            "day_index": 4,
-            "n": 31,
-            "positive": 19,
-            "mixed": 4,
-            "negative": 8,
-            "net_sentiment": 0.3548
-          },
-          {
-            "day_index": 5,
-            "n": 25,
-            "positive": 18,
-            "mixed": 1,
-            "negative": 6,
-            "net_sentiment": 0.48
-          },
-          {
-            "day_index": 6,
-            "n": 19,
-            "positive": 10,
-            "mixed": 1,
-            "negative": 8,
-            "net_sentiment": 0.1053
-          }
-        ],
-        "tasks": {
-          "agents": 16,
-          "coding": 74,
-          "cost": 45,
-          "chat": 12,
-          "none": 28,
-          "multimodal": 5,
-          "writing": 6
-        },
-        "dimensions": {
-          "intelligence": {
-            "n": 84,
-            "positive": 46,
-            "mixed": 7,
-            "negative": 31,
-            "net_sentiment": 0.1786,
-            "top_aspects": {
-              "positive": [
-                [
-                  "autonomously finding and fixing bugs",
-                  1
-                ],
-                [
-                  "stress-free high-quality output",
-                  1
-                ],
-                [
-                  "implementation quality in combo",
-                  1
-                ],
-                [
-                  "adequate for implementation despite being weaker",
-                  1
-                ]
-              ],
-              "negative": [
-                [
-                  "breaks almost as much as it works",
-                  1
-                ],
-                [
-                  "capability on complex tasks",
-                  1
-                ],
-                [
-                  "think turn failure reliability",
-                  1
-                ],
-                [
-                  "looping on long tasks",
-                  1
-                ]
-              ]
-            }
-          },
-          "speed": {
-            "n": 10,
-            "positive": 5,
-            "mixed": 3,
-            "negative": 2,
-            "net_sentiment": 0.3,
-            "top_aspects": {
-              "positive": [
-                [
-                  "token throughput value",
-                  1
-                ],
-                [
-                  "speed",
-                  1
-                ],
-                [
-                  "performance in fast mode",
-                  1
-                ],
-                [
-                  "fast testing role in the workflow",
-                  1
-                ]
-              ],
-              "negative": [
-                [
-                  "slower with worse output",
-                  1
-                ],
-                [
-                  "response speed for sub-agent skill",
-                  1
-                ]
-              ]
-            }
-          },
-          "price": {
-            "n": 67,
-            "positive": 53,
-            "mixed": 8,
-            "negative": 6,
-            "net_sentiment": 0.7015,
-            "top_aspects": {
-              "positive": [
-                [
-                  "price",
-                  2
-                ],
-                [
-                  "pricing",
-                  2
-                ],
-                [
-                  "rarely hitting the token/rate limit",
-                  1
-                ],
-                [
-                  "strong price-to-value even before the comparison",
-                  1
-                ]
-              ],
-              "negative": [
-                [
-                  "worse and pricier than grok",
-                  1
-                ],
-                [
-                  "unexplained limit burn rate",
-                  1
-                ],
-                [
-                  "cost and performance vs chinese models",
-                  1
-                ],
-                [
-                  "trust on critical tasks and usage burn",
-                  1
-                ]
-              ]
-            }
-          },
-          "steerability": {
-            "n": 10,
-            "positive": 4,
-            "mixed": 2,
-            "negative": 4,
-            "net_sentiment": 0.0,
-            "top_aspects": {
-              "positive": [
-                [
-                  "sustained autonomous execution in goal mode",
-                  1
-                ],
-                [
-                  "stays coherent when corrected",
-                  1
-                ],
-                [
-                  "context window works as configured",
-                  1
-                ],
-                [
-                  "gets intent better",
-                  1
-                ]
-              ],
-              "negative": [
-                [
-                  "unusable without sol reviewing",
-                  1
-                ],
-                [
-                  "rework reliability",
-                  1
-                ],
-                [
-                  "doesn't follow rules, messy code",
-                  1
-                ],
-                [
-                  "instruction following",
-                  1
-                ]
-              ]
-            }
-          },
-          "personality": {
-            "n": 2,
-            "positive": 1,
-            "mixed": 0,
-            "negative": 1,
-            "net_sentiment": 0.0,
-            "top_aspects": {
-              "positive": [
-                [
-                  "interactive feel",
-                  1
-                ]
-              ],
-              "negative": [
-                [
-                  "excessive unprompted verbosity",
-                  1
-                ]
-              ]
-            }
-          },
-          "overall": {
-            "n": 11,
-            "positive": 9,
-            "mixed": 0,
-            "negative": 2,
-            "net_sentiment": 0.6364,
-            "top_aspects": {
-              "positive": [
-                [
-                  "overall",
-                  5
-                ],
-                [
-                  "b tier ranking",
-                  1
-                ],
-                [
-                  "amazing after returning to it",
-                  1
-                ],
-                [
-                  "best default choice",
-                  1
-                ]
-              ],
-              "negative": [
-                [
-                  "overall quality versus gemini",
-                  2
-                ],
-                [
-                  "overall",
-                  1
-                ]
-              ]
-            }
-          },
-          "other": {
-            "n": 10,
-            "positive": 4,
-            "mixed": 0,
-            "negative": 6,
-            "net_sentiment": -0.2,
-            "top_aspects": {
-              "positive": [
-                [
-                  "screenshot annotation for agent demos",
-                  1
-                ],
-                [
-                  "reliable daily workhorse",
-                  1
-                ],
-                [
-                  "role as cleanup sweeper",
-                  1
-                ],
-                [
-                  "recommended stack component",
-                  1
-                ]
-              ],
-              "negative": [
-                [
-                  "reliability/usability",
-                  1
-                ],
-                [
-                  "handshake failure bug",
-                  1
-                ],
-                [
-                  "missing webmcp tool support",
-                  1
-                ],
-                [
-                  "availability/uptime (no upstream key)",
-                  1
-                ]
-              ]
-            }
-          }
-        },
-        "aspects": {
-          "positive": [
-            [
-              "overall",
-              5
             ],
             [
-              "price",
-              2
-            ],
-            [
-              "pricing",
-              2
-            ],
-            [
-              "sustained autonomous execution in goal mode",
-              1
-            ],
-            [
-              "autonomously finding and fixing bugs",
-              1
-            ],
-            [
-              "rarely hitting the token/rate limit",
-              1
-            ],
-            [
-              "strong price-to-value even before the comparison",
-              1
-            ],
-            [
-              "b tier ranking",
-              1
-            ],
-            [
-              "stress-free high-quality output",
-              1
-            ],
-            [
-              "unlimited usage and intelligence",
-              1
-            ],
-            [
-              "implementation quality in combo",
-              1
-            ],
-            [
-              "adequate for implementation despite being weaker",
-              1
-            ],
-            [
-              "beating other models on the sequence",
-              1
-            ],
-            [
-              "usage quota sufficient for daily work",
-              1
-            ],
-            [
-              "amazing after returning to it",
-              1
-            ]
-          ],
-          "negative": [
-            [
-              "overall quality versus gemini",
-              2
-            ],
-            [
-              "excessive unprompted verbosity",
-              1
-            ],
-            [
-              "breaks almost as much as it works",
-              1
-            ],
-            [
-              "slower with worse output",
-              1
-            ],
-            [
-              "unusable without sol reviewing",
-              1
-            ],
-            [
-              "capability on complex tasks",
-              1
-            ],
-            [
-              "rework reliability",
-              1
-            ],
-            [
-              "reliability/usability",
-              1
-            ],
-            [
-              "think turn failure reliability",
-              1
-            ],
-            [
-              "looping on long tasks",
-              1
-            ],
-            [
-              "translation stability",
-              1
-            ],
-            [
-              "planning ability",
-              1
-            ],
-            [
-              "planning ability versus the author's own local ai",
-              1
-            ],
-            [
-              "hallucinating file trees when planning",
-              1
-            ],
-            [
-              "worse and pricier than grok",
-              1
-            ]
-          ],
-          "mixed": [
-            [
-              "hallucinated apis and bugs",
-              1
-            ],
-            [
-              "design quality, better than gemini but still weak",
-              1
-            ],
-            [
-              "power versus speed",
-              1
-            ],
-            [
-              "capability vs usage value",
-              1
-            ],
-            [
-              "bounding box accuracy on complex scenes",
-              1
-            ],
-            [
-              "speed versus cost-performance",
-              1
-            ],
-            [
-              "code correctness versus runnability",
-              1
-            ],
-            [
-              "api cost efficiency vs rate limiting",
-              1
-            ],
-            [
-              "good at repetitive tasks, weak planning",
-              1
-            ],
-            [
-              "free but weaker conversation flow",
-              1
-            ],
-            [
-              "fewer errors but long-term reliability uncertain",
-              1
-            ],
-            [
-              "cost-performance vs speed",
-              1
-            ],
-            [
-              "affordability vs intelligence ceiling",
-              1
-            ],
-            [
-              "cheap, good for writing but weak on heavy logic",
-              1
-            ],
-            [
-              "durable but very slow to produce output",
+              "long horizon multistep workflows and debugging",
               1
             ]
           ]
@@ -3780,66 +3212,66 @@
       {
         "model": "glm-5.3",
         "firsthand": {
-          "n": 146,
-          "positive": 87,
-          "mixed": 18,
-          "negative": 41,
-          "net_sentiment": 0.3151
+          "n": 136,
+          "positive": 84,
+          "mixed": 15,
+          "negative": 37,
+          "net_sentiment": 0.3456
         },
         "all_expressed": {
-          "n": 221,
-          "positive": 140,
-          "mixed": 23,
-          "negative": 58,
-          "net_sentiment": 0.371
+          "n": 211,
+          "positive": 138,
+          "mixed": 20,
+          "negative": 53,
+          "net_sentiment": 0.4028
         },
         "endorsements": {
-          "n": 5,
+          "n": 4,
           "positive": 2,
           "mixed": 0,
-          "negative": 3,
-          "net_sentiment": -0.2
+          "negative": 2,
+          "net_sentiment": 0.0
         },
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 18,
+            "n": 16,
             "positive": 7,
             "mixed": 1,
-            "negative": 10,
-            "net_sentiment": -0.1667
+            "negative": 8,
+            "net_sentiment": -0.0625
           },
           {
             "day_index": 1,
-            "n": 15,
+            "n": 14,
             "positive": 12,
-            "mixed": 1,
+            "mixed": 0,
             "negative": 2,
-            "net_sentiment": 0.6667
+            "net_sentiment": 0.7143
           },
           {
             "day_index": 2,
-            "n": 22,
-            "positive": 14,
+            "n": 20,
+            "positive": 12,
             "mixed": 1,
             "negative": 7,
-            "net_sentiment": 0.3182
+            "net_sentiment": 0.25
           },
           {
             "day_index": 3,
-            "n": 25,
-            "positive": 17,
-            "mixed": 2,
-            "negative": 6,
-            "net_sentiment": 0.44
+            "n": 24,
+            "positive": 16,
+            "mixed": 1,
+            "negative": 7,
+            "net_sentiment": 0.375
           },
           {
             "day_index": 4,
-            "n": 20,
+            "n": 17,
             "positive": 8,
-            "mixed": 5,
-            "negative": 7,
-            "net_sentiment": 0.05
+            "mixed": 4,
+            "negative": 5,
+            "net_sentiment": 0.1765
           },
           {
             "day_index": 5,
@@ -3851,18 +3283,18 @@
           },
           {
             "day_index": 6,
-            "n": 34,
+            "n": 33,
             "positive": 22,
-            "mixed": 5,
+            "mixed": 4,
             "negative": 7,
-            "net_sentiment": 0.4412
+            "net_sentiment": 0.4545
           }
         ],
         "tasks": {
           "none": 33,
-          "coding": 61,
+          "coding": 59,
           "multimodal": 6,
-          "cost": 31,
+          "cost": 23,
           "agents": 6,
           "chat": 6,
           "writing": 2,
@@ -3944,17 +3376,13 @@
             }
           },
           "price": {
-            "n": 45,
-            "positive": 26,
-            "mixed": 4,
-            "negative": 15,
-            "net_sentiment": 0.2444,
+            "n": 34,
+            "positive": 22,
+            "mixed": 2,
+            "negative": 10,
+            "net_sentiment": 0.3529,
             "top_aspects": {
               "positive": [
-                [
-                  "generous free token allowance for coding",
-                  1
-                ],
                 [
                   "cheapest and smoothest build",
                   1
@@ -3965,6 +3393,10 @@
                 ],
                 [
                   "pricing and one-shot quality vs grok/gemini",
+                  1
+                ],
+                [
+                  "free public release removing api cost concerns",
                   1
                 ]
               ],
@@ -3978,11 +3410,11 @@
                   1
                 ],
                 [
-                  "free tier minimum payment requirement",
+                  "local hosting hardware cost",
                   1
                 ],
                 [
-                  "local hosting hardware cost",
+                  "cost per task vs token cost",
                   1
                 ]
               ]
@@ -4163,10 +3595,6 @@
               1
             ],
             [
-              "generous free token allowance for coding",
-              1
-            ],
-            [
               "cheapest and smoothest build",
               1
             ],
@@ -4176,6 +3604,10 @@
             ],
             [
               "accuracy needing fewer corrections",
+              1
+            ],
+            [
+              "running locally via quantization/offload",
               1
             ]
           ],
@@ -4213,23 +3645,11 @@
               1
             ],
             [
-              "free tier minimum payment requirement",
-              1
-            ],
-            [
               "local hosting hardware cost",
               1
             ],
             [
-              "quota consumption",
-              1
-            ],
-            [
               "fails to run locally via ollama",
-              1
-            ],
-            [
-              "usage quota vs sol plan cost",
               1
             ],
             [
@@ -4238,6 +3658,18 @@
             ],
             [
               "less room and speed than the flash variant",
+              1
+            ],
+            [
+              "core intelligence vs benchmark gains",
+              1
+            ],
+            [
+              "model size too large to run",
+              1
+            ],
+            [
+              "confidently wrong answers",
               1
             ]
           ],
@@ -4260,10 +3692,6 @@
             ],
             [
               "price value versus verbosity concern",
-              1
-            ],
-            [
-              "output quality versus free-tier limit",
               1
             ],
             [
@@ -4295,11 +3723,563 @@
               1
             ],
             [
-              "usage limits versus price",
+              "driving/navigation task performance",
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "model": "gpt-5.6-luna",
+        "firsthand": {
+          "n": 173,
+          "positive": 106,
+          "mixed": 18,
+          "negative": 49,
+          "net_sentiment": 0.3295
+        },
+        "all_expressed": {
+          "n": 220,
+          "positive": 140,
+          "mixed": 19,
+          "negative": 61,
+          "net_sentiment": 0.3591
+        },
+        "endorsements": {
+          "n": 13,
+          "positive": 5,
+          "mixed": 0,
+          "negative": 8,
+          "net_sentiment": -0.2308
+        },
+        "daily_firsthand": [
+          {
+            "day_index": 0,
+            "n": 22,
+            "positive": 14,
+            "mixed": 3,
+            "negative": 5,
+            "net_sentiment": 0.4091
+          },
+          {
+            "day_index": 1,
+            "n": 32,
+            "positive": 16,
+            "mixed": 6,
+            "negative": 10,
+            "net_sentiment": 0.1875
+          },
+          {
+            "day_index": 2,
+            "n": 27,
+            "positive": 18,
+            "mixed": 2,
+            "negative": 7,
+            "net_sentiment": 0.4074
+          },
+          {
+            "day_index": 3,
+            "n": 25,
+            "positive": 16,
+            "mixed": 1,
+            "negative": 8,
+            "net_sentiment": 0.32
+          },
+          {
+            "day_index": 4,
+            "n": 27,
+            "positive": 16,
+            "mixed": 4,
+            "negative": 7,
+            "net_sentiment": 0.3333
+          },
+          {
+            "day_index": 5,
+            "n": 25,
+            "positive": 18,
+            "mixed": 1,
+            "negative": 6,
+            "net_sentiment": 0.48
+          },
+          {
+            "day_index": 6,
+            "n": 19,
+            "positive": 10,
+            "mixed": 1,
+            "negative": 8,
+            "net_sentiment": 0.1053
+          }
+        ],
+        "tasks": {
+          "agents": 16,
+          "coding": 69,
+          "cost": 38,
+          "chat": 11,
+          "none": 28,
+          "multimodal": 5,
+          "writing": 6
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 84,
+            "positive": 46,
+            "mixed": 7,
+            "negative": 31,
+            "net_sentiment": 0.1786,
+            "top_aspects": {
+              "positive": [
+                [
+                  "autonomously finding and fixing bugs",
+                  1
+                ],
+                [
+                  "stress-free high-quality output",
+                  1
+                ],
+                [
+                  "implementation quality in combo",
+                  1
+                ],
+                [
+                  "adequate for implementation despite being weaker",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "breaks almost as much as it works",
+                  1
+                ],
+                [
+                  "capability on complex tasks",
+                  1
+                ],
+                [
+                  "think turn failure reliability",
+                  1
+                ],
+                [
+                  "looping on long tasks",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 10,
+            "positive": 5,
+            "mixed": 3,
+            "negative": 2,
+            "net_sentiment": 0.3,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token throughput value",
+                  1
+                ],
+                [
+                  "speed",
+                  1
+                ],
+                [
+                  "performance in fast mode",
+                  1
+                ],
+                [
+                  "fast testing role in the workflow",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "slower with worse output",
+                  1
+                ],
+                [
+                  "response speed for sub-agent skill",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 52,
+            "positive": 41,
+            "mixed": 7,
+            "negative": 4,
+            "net_sentiment": 0.7115,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token consumption",
+                  6
+                ],
+                [
+                  "price",
+                  2
+                ],
+                [
+                  "pricing",
+                  2
+                ],
+                [
+                  "rarely hitting the token/rate limit",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "worse and pricier than grok",
+                  1
+                ],
+                [
+                  "cost and performance vs chinese models",
+                  1
+                ],
+                [
+                  "unnecessary given cheaper stack",
+                  1
+                ],
+                [
+                  "pricier, less value",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 10,
+            "positive": 4,
+            "mixed": 2,
+            "negative": 4,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "sustained autonomous execution in goal mode",
+                  1
+                ],
+                [
+                  "stays coherent when corrected",
+                  1
+                ],
+                [
+                  "context window works as configured",
+                  1
+                ],
+                [
+                  "gets intent better",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "unusable without sol reviewing",
+                  1
+                ],
+                [
+                  "rework reliability",
+                  1
+                ],
+                [
+                  "doesn't follow rules, messy code",
+                  1
+                ],
+                [
+                  "instruction following",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 2,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "interactive feel",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "excessive unprompted verbosity",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 11,
+            "positive": 9,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.6364,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  5
+                ],
+                [
+                  "b tier ranking",
+                  1
+                ],
+                [
+                  "amazing after returning to it",
+                  1
+                ],
+                [
+                  "best default choice",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality versus gemini",
+                  2
+                ],
+                [
+                  "overall",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 10,
+            "positive": 4,
+            "mixed": 0,
+            "negative": 6,
+            "net_sentiment": -0.2,
+            "top_aspects": {
+              "positive": [
+                [
+                  "screenshot annotation for agent demos",
+                  1
+                ],
+                [
+                  "reliable daily workhorse",
+                  1
+                ],
+                [
+                  "role as cleanup sweeper",
+                  1
+                ],
+                [
+                  "recommended stack component",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "reliability/usability",
+                  1
+                ],
+                [
+                  "handshake failure bug",
+                  1
+                ],
+                [
+                  "missing webmcp tool support",
+                  1
+                ],
+                [
+                  "availability/uptime (no upstream key)",
+                  1
+                ]
+              ]
+            }
+          }
+        },
+        "aspects": {
+          "positive": [
+            [
+              "token consumption",
+              6
+            ],
+            [
+              "overall",
+              5
+            ],
+            [
+              "price",
+              2
+            ],
+            [
+              "pricing",
+              2
+            ],
+            [
+              "sustained autonomous execution in goal mode",
               1
             ],
             [
-              "driving/navigation task performance",
+              "autonomously finding and fixing bugs",
+              1
+            ],
+            [
+              "rarely hitting the token/rate limit",
+              1
+            ],
+            [
+              "strong price-to-value even before the comparison",
+              1
+            ],
+            [
+              "b tier ranking",
+              1
+            ],
+            [
+              "stress-free high-quality output",
+              1
+            ],
+            [
+              "implementation quality in combo",
+              1
+            ],
+            [
+              "adequate for implementation despite being weaker",
+              1
+            ],
+            [
+              "beating other models on the sequence",
+              1
+            ],
+            [
+              "amazing after returning to it",
+              1
+            ],
+            [
+              "accurate bounding boxes, very cheap",
+              1
+            ]
+          ],
+          "negative": [
+            [
+              "overall quality versus gemini",
+              2
+            ],
+            [
+              "excessive unprompted verbosity",
+              1
+            ],
+            [
+              "breaks almost as much as it works",
+              1
+            ],
+            [
+              "slower with worse output",
+              1
+            ],
+            [
+              "unusable without sol reviewing",
+              1
+            ],
+            [
+              "capability on complex tasks",
+              1
+            ],
+            [
+              "rework reliability",
+              1
+            ],
+            [
+              "reliability/usability",
+              1
+            ],
+            [
+              "think turn failure reliability",
+              1
+            ],
+            [
+              "looping on long tasks",
+              1
+            ],
+            [
+              "translation stability",
+              1
+            ],
+            [
+              "planning ability",
+              1
+            ],
+            [
+              "planning ability versus the author's own local ai",
+              1
+            ],
+            [
+              "hallucinating file trees when planning",
+              1
+            ],
+            [
+              "worse and pricier than grok",
+              1
+            ]
+          ],
+          "mixed": [
+            [
+              "hallucinated apis and bugs",
+              1
+            ],
+            [
+              "design quality, better than gemini but still weak",
+              1
+            ],
+            [
+              "power versus speed",
+              1
+            ],
+            [
+              "bounding box accuracy on complex scenes",
+              1
+            ],
+            [
+              "speed versus cost-performance",
+              1
+            ],
+            [
+              "code correctness versus runnability",
+              1
+            ],
+            [
+              "token consumption",
+              1
+            ],
+            [
+              "good at repetitive tasks, weak planning",
+              1
+            ],
+            [
+              "free but weaker conversation flow",
+              1
+            ],
+            [
+              "fewer errors but long-term reliability uncertain",
+              1
+            ],
+            [
+              "cost-performance vs speed",
+              1
+            ],
+            [
+              "affordability vs intelligence ceiling",
+              1
+            ],
+            [
+              "cheap, good for writing but weak on heavy logic",
+              1
+            ],
+            [
+              "durable but very slow to produce output",
+              1
+            ],
+            [
+              "token limits vs output quality",
               1
             ]
           ]
@@ -4308,18 +4288,18 @@
       {
         "model": "muse-spark-1.2",
         "firsthand": {
-          "n": 128,
-          "positive": 73,
-          "mixed": 14,
-          "negative": 41,
-          "net_sentiment": 0.25
+          "n": 117,
+          "positive": 67,
+          "mixed": 11,
+          "negative": 39,
+          "net_sentiment": 0.2393
         },
         "all_expressed": {
-          "n": 145,
-          "positive": 87,
-          "mixed": 15,
-          "negative": 43,
-          "net_sentiment": 0.3034
+          "n": 132,
+          "positive": 80,
+          "mixed": 12,
+          "negative": 40,
+          "net_sentiment": 0.303
         },
         "endorsements": {
           "n": 3,
@@ -4331,43 +4311,43 @@
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 21,
-            "positive": 12,
-            "mixed": 4,
+            "n": 17,
+            "positive": 9,
+            "mixed": 3,
             "negative": 5,
-            "net_sentiment": 0.3333
+            "net_sentiment": 0.2353
           },
           {
             "day_index": 1,
-            "n": 22,
-            "positive": 14,
+            "n": 20,
+            "positive": 12,
             "mixed": 1,
             "negative": 7,
-            "net_sentiment": 0.3182
+            "net_sentiment": 0.25
           },
           {
             "day_index": 2,
-            "n": 25,
-            "positive": 14,
+            "n": 22,
+            "positive": 12,
             "mixed": 2,
-            "negative": 9,
-            "net_sentiment": 0.2
+            "negative": 8,
+            "net_sentiment": 0.1818
           },
           {
             "day_index": 3,
-            "n": 26,
-            "positive": 16,
-            "mixed": 2,
-            "negative": 8,
-            "net_sentiment": 0.3077
+            "n": 21,
+            "positive": 14,
+            "mixed": 1,
+            "negative": 6,
+            "net_sentiment": 0.381
           },
           {
             "day_index": 4,
-            "n": 22,
-            "positive": 15,
+            "n": 20,
+            "positive": 13,
             "mixed": 4,
             "negative": 3,
-            "net_sentiment": 0.5455
+            "net_sentiment": 0.5
           },
           {
             "day_index": 5,
@@ -4387,21 +4367,21 @@
           }
         ],
         "tasks": {
-          "coding": 64,
+          "coding": 61,
           "none": 29,
           "multimodal": 4,
-          "cost": 20,
           "agents": 8,
+          "cost": 12,
           "writing": 2,
           "chat": 1
         },
         "dimensions": {
           "intelligence": {
-            "n": 59,
-            "positive": 33,
+            "n": 58,
+            "positive": 32,
             "mixed": 5,
             "negative": 21,
-            "net_sentiment": 0.2034,
+            "net_sentiment": 0.1897,
             "top_aspects": {
               "positive": [
                 [
@@ -4479,17 +4459,13 @@
             }
           },
           "price": {
-            "n": 34,
-            "positive": 24,
-            "mixed": 5,
-            "negative": 5,
-            "net_sentiment": 0.5588,
+            "n": 21,
+            "positive": 17,
+            "mixed": 1,
+            "negative": 3,
+            "net_sentiment": 0.6667,
             "top_aspects": {
               "positive": [
-                [
-                  "token value for cost",
-                  2
-                ],
                 [
                   "usability despite being free",
                   1
@@ -4501,6 +4477,10 @@
                 [
                   "coding tasks in a free-tier setup",
                   1
+                ],
+                [
+                  "cost efficiency for coding use",
+                  1
                 ]
               ],
               "negative": [
@@ -4509,15 +4489,11 @@
                   1
                 ],
                 [
-                  "credit consumption pushing toward a paid plan",
-                  1
-                ],
-                [
                   "token consumption",
                   1
                 ],
                 [
-                  "pricing appeal",
+                  "overall quality versus token efficiency",
                   1
                 ]
               ]
@@ -4671,10 +4647,6 @@
               4
             ],
             [
-              "token value for cost",
-              2
-            ],
-            [
               "overall",
               2
             ],
@@ -4719,11 +4691,15 @@
               1
             ],
             [
-              "used for execution in budget setup",
+              "top pick for terminal tool calls",
               1
             ],
             [
-              "top pick for terminal tool calls",
+              "surprisingly good among trial models",
+              1
+            ],
+            [
+              "cost efficiency for coding use",
               1
             ]
           ],
@@ -4785,7 +4761,7 @@
               1
             ],
             [
-              "credit consumption pushing toward a paid plan",
+              "default config broken",
               1
             ]
           ],
@@ -4803,10 +4779,6 @@
               1
             ],
             [
-              "cheap performance versus having to submit code",
-              1
-            ],
-            [
               "model quality vs data privacy trust",
               1
             ],
@@ -4820,14 +4792,6 @@
             ],
             [
               "smart model but data privacy concern",
-              1
-            ],
-            [
-              "usage limits by pricing tier for coding",
-              1
-            ],
-            [
-              "pricing and rate-limit structure",
               1
             ],
             [
@@ -4856,18 +4820,18 @@
       {
         "model": "gemini-3.8-flash",
         "firsthand": {
-          "n": 110,
+          "n": 107,
           "positive": 57,
-          "mixed": 16,
-          "negative": 37,
-          "net_sentiment": 0.1818
+          "mixed": 14,
+          "negative": 36,
+          "net_sentiment": 0.1963
         },
         "all_expressed": {
-          "n": 244,
+          "n": 241,
           "positive": 165,
-          "mixed": 20,
-          "negative": 59,
-          "net_sentiment": 0.4344
+          "mixed": 18,
+          "negative": 58,
+          "net_sentiment": 0.444
         },
         "endorsements": {
           "n": 27,
@@ -4927,17 +4891,17 @@
           },
           {
             "day_index": 6,
-            "n": 61,
+            "n": 58,
             "positive": 29,
-            "mixed": 9,
-            "negative": 23,
-            "net_sentiment": 0.0984
+            "mixed": 7,
+            "negative": 22,
+            "net_sentiment": 0.1207
           }
         ],
         "tasks": {
           "none": 27,
           "multimodal": 19,
-          "coding": 41,
+          "coding": 38,
           "chat": 5,
           "cost": 10,
           "agents": 7,
@@ -4990,11 +4954,11 @@
             }
           },
           "speed": {
-            "n": 23,
+            "n": 22,
             "positive": 14,
-            "mixed": 5,
+            "mixed": 4,
             "negative": 4,
-            "net_sentiment": 0.4348,
+            "net_sentiment": 0.4545,
             "top_aspects": {
               "positive": [
                 [
@@ -5035,11 +4999,11 @@
             }
           },
           "price": {
-            "n": 19,
+            "n": 18,
             "positive": 6,
-            "mixed": 3,
+            "mixed": 2,
             "negative": 10,
-            "net_sentiment": -0.2105,
+            "net_sentiment": -0.2222,
             "top_aspects": {
               "positive": [
                 [
@@ -5167,11 +5131,11 @@
             }
           },
           "other": {
-            "n": 7,
+            "n": 6,
             "positive": 5,
             "mixed": 0,
-            "negative": 2,
-            "net_sentiment": 0.4286,
+            "negative": 1,
+            "net_sentiment": 0.6667,
             "top_aspects": {
               "positive": [
                 [
@@ -5192,10 +5156,6 @@
                 ]
               ],
               "negative": [
-                [
-                  "looping on file reading burning quota",
-                  1
-                ],
                 [
                   "confusing onboarding/subscription docs",
                   1
@@ -5363,15 +5323,7 @@
               1
             ],
             [
-              "speed versus rate limits on plus tier",
-              1
-            ],
-            [
               "output quality vs generation speed",
-              1
-            ],
-            [
-              "quota consumption speed vs instruction following",
               1
             ],
             [
@@ -5389,6 +5341,14 @@
             [
               "output quality versus cost and time",
               1
+            ],
+            [
+              "speed vs visual quality",
+              1
+            ],
+            [
+              "faster tok/s but incomplete tasks",
+              1
             ]
           ]
         }
@@ -5396,18 +5356,18 @@
       {
         "model": "gpt-5.6-sol",
         "firsthand": {
-          "n": 332,
-          "positive": 177,
-          "mixed": 33,
-          "negative": 122,
-          "net_sentiment": 0.1657
+          "n": 308,
+          "positive": 168,
+          "mixed": 30,
+          "negative": 110,
+          "net_sentiment": 0.1883
         },
         "all_expressed": {
-          "n": 395,
-          "positive": 209,
-          "mixed": 33,
-          "negative": 153,
-          "net_sentiment": 0.1418
+          "n": 371,
+          "positive": 200,
+          "mixed": 30,
+          "negative": 141,
+          "net_sentiment": 0.159
         },
         "endorsements": {
           "n": 8,
@@ -5419,51 +5379,51 @@
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 44,
-            "positive": 21,
+            "n": 40,
+            "positive": 20,
             "mixed": 5,
-            "negative": 18,
-            "net_sentiment": 0.0682
+            "negative": 15,
+            "net_sentiment": 0.125
           },
           {
             "day_index": 1,
-            "n": 55,
-            "positive": 32,
+            "n": 49,
+            "positive": 28,
             "mixed": 4,
-            "negative": 19,
-            "net_sentiment": 0.2364
+            "negative": 17,
+            "net_sentiment": 0.2245
           },
           {
             "day_index": 2,
-            "n": 58,
-            "positive": 27,
+            "n": 52,
+            "positive": 25,
             "mixed": 7,
-            "negative": 24,
-            "net_sentiment": 0.0517
+            "negative": 20,
+            "net_sentiment": 0.0962
           },
           {
             "day_index": 3,
-            "n": 55,
-            "positive": 30,
-            "mixed": 4,
-            "negative": 21,
-            "net_sentiment": 0.1636
+            "n": 52,
+            "positive": 29,
+            "mixed": 3,
+            "negative": 20,
+            "net_sentiment": 0.1731
           },
           {
             "day_index": 4,
-            "n": 44,
-            "positive": 29,
+            "n": 38,
+            "positive": 25,
             "mixed": 4,
-            "negative": 11,
-            "net_sentiment": 0.4091
+            "negative": 9,
+            "net_sentiment": 0.4211
           },
           {
             "day_index": 5,
-            "n": 34,
+            "n": 33,
             "positive": 16,
             "mixed": 3,
-            "negative": 15,
-            "net_sentiment": 0.0294
+            "negative": 14,
+            "net_sentiment": 0.0606
           },
           {
             "day_index": 6,
@@ -5476,20 +5436,20 @@
         ],
         "tasks": {
           "none": 43,
-          "coding": 198,
-          "agents": 19,
+          "coding": 193,
+          "cost": 21,
           "writing": 11,
-          "cost": 38,
           "chat": 10,
-          "multimodal": 13
+          "multimodal": 13,
+          "agents": 17
         },
         "dimensions": {
           "intelligence": {
-            "n": 154,
-            "positive": 94,
+            "n": 153,
+            "positive": 93,
             "mixed": 10,
             "negative": 50,
-            "net_sentiment": 0.2857,
+            "net_sentiment": 0.281,
             "top_aspects": {
               "positive": [
                 [
@@ -5530,11 +5490,11 @@
             }
           },
           "speed": {
-            "n": 18,
+            "n": 17,
             "positive": 7,
-            "mixed": 8,
+            "mixed": 7,
             "negative": 3,
-            "net_sentiment": 0.2222,
+            "net_sentiment": 0.2353,
             "top_aspects": {
               "positive": [
                 [
@@ -5571,56 +5531,56 @@
             }
           },
           "price": {
-            "n": 52,
-            "positive": 23,
-            "mixed": 8,
-            "negative": 21,
-            "net_sentiment": 0.0385,
+            "n": 31,
+            "positive": 13,
+            "mixed": 7,
+            "negative": 11,
+            "net_sentiment": 0.0645,
             "top_aspects": {
               "positive": [
-                [
-                  "low hourly token burn rate",
-                  1
-                ],
-                [
-                  "high value extracted per subscription",
-                  1
-                ],
                 [
                   "token cost efficiency vs opus",
                   1
                 ],
                 [
-                  "rate limit efficiency",
+                  "efficient workflow completing a project end to end",
+                  1
+                ],
+                [
+                  "token efficiency and speed vs opus 5",
+                  1
+                ],
+                [
+                  "token efficiency vs opus",
                   1
                 ]
               ],
               "negative": [
                 [
-                  "token consumption draining rate limit",
-                  1
-                ],
-                [
-                  "hitting the 5-hour usage limit",
-                  1
+                  "token consumption",
+                  3
                 ],
                 [
                   "too expensive",
                   1
                 ],
                 [
-                  "quota burned quickly",
+                  "speed and cost",
+                  1
+                ],
+                [
+                  "speed and token burn",
                   1
                 ]
               ]
             }
           },
           "steerability": {
-            "n": 31,
+            "n": 30,
             "positive": 7,
             "mixed": 5,
-            "negative": 19,
-            "net_sentiment": -0.3871,
+            "negative": 18,
+            "net_sentiment": -0.3667,
             "top_aspects": {
               "positive": [
                 [
@@ -5751,11 +5711,11 @@
             }
           },
           "other": {
-            "n": 35,
-            "positive": 16,
+            "n": 32,
+            "positive": 15,
             "mixed": 1,
-            "negative": 18,
-            "net_sentiment": -0.0571,
+            "negative": 16,
+            "net_sentiment": -0.0312,
             "top_aspects": {
               "positive": [
                 [
@@ -5861,19 +5821,15 @@
           ],
           "negative": [
             [
+              "token consumption",
+              3
+            ],
+            [
               "reasoning/interpolation error undermines daily use",
               1
             ],
             [
               "not close to opus for performance optimization",
-              1
-            ],
-            [
-              "token consumption draining rate limit",
-              1
-            ],
-            [
-              "hitting the 5-hour usage limit",
               1
             ],
             [
@@ -5901,14 +5857,6 @@
               1
             ],
             [
-              "quota burned quickly",
-              1
-            ],
-            [
-              "worse usage value than opus",
-              1
-            ],
-            [
               "overall",
               1
             ],
@@ -5918,6 +5866,18 @@
             ],
             [
               "refusal rate on legitimate work",
+              1
+            ],
+            [
+              "design capability",
+              1
+            ],
+            [
+              "overly complex output for simple task",
+              1
+            ],
+            [
+              "analysis speed",
               1
             ]
           ],
@@ -5988,18 +5948,18 @@
       {
         "model": "claude-fable-5.1",
         "firsthand": {
-          "n": 199,
-          "positive": 92,
-          "mixed": 20,
-          "negative": 87,
-          "net_sentiment": 0.0251
+          "n": 178,
+          "positive": 93,
+          "mixed": 17,
+          "negative": 68,
+          "net_sentiment": 0.1404
         },
         "all_expressed": {
-          "n": 331,
-          "positive": 180,
-          "mixed": 31,
-          "negative": 120,
-          "net_sentiment": 0.1813
+          "n": 306,
+          "positive": 181,
+          "mixed": 27,
+          "negative": 98,
+          "net_sentiment": 0.2712
         },
         "endorsements": {
           "n": 17,
@@ -6011,11 +5971,11 @@
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 1,
+            "n": 0,
             "positive": 0,
             "mixed": 0,
-            "negative": 1,
-            "net_sentiment": -1.0
+            "negative": 0,
+            "net_sentiment": null
           },
           {
             "day_index": 1,
@@ -6043,36 +6003,36 @@
           },
           {
             "day_index": 4,
-            "n": 31,
+            "n": 23,
             "positive": 10,
-            "mixed": 2,
-            "negative": 19,
-            "net_sentiment": -0.2903
+            "mixed": 1,
+            "negative": 12,
+            "net_sentiment": -0.087
           },
           {
             "day_index": 5,
-            "n": 52,
+            "n": 48,
             "positive": 25,
             "mixed": 7,
-            "negative": 20,
-            "net_sentiment": 0.0962
+            "negative": 16,
+            "net_sentiment": 0.1875
           },
           {
             "day_index": 6,
-            "n": 116,
-            "positive": 56,
-            "mixed": 11,
-            "negative": 49,
-            "net_sentiment": 0.0603
+            "n": 108,
+            "positive": 57,
+            "mixed": 9,
+            "negative": 42,
+            "net_sentiment": 0.1389
           }
         ],
         "tasks": {
-          "cost": 52,
+          "cost": 31,
           "none": 29,
-          "coding": 90,
+          "coding": 89,
           "multimodal": 9,
           "chat": 5,
-          "agents": 9,
+          "agents": 10,
           "writing": 5
         },
         "dimensions": {
@@ -6122,11 +6082,11 @@
             }
           },
           "speed": {
-            "n": 7,
+            "n": 6,
             "positive": 3,
             "mixed": 0,
-            "negative": 4,
-            "net_sentiment": -0.1429,
+            "negative": 3,
+            "net_sentiment": 0.0,
             "top_aspects": {
               "positive": [
                 [
@@ -6148,10 +6108,6 @@
                   1
                 ],
                 [
-                  "speed and usage limit consumption",
-                  1
-                ],
-                [
                   "speed",
                   1
                 ],
@@ -6163,11 +6119,11 @@
             }
           },
           "price": {
-            "n": 61,
+            "n": 43,
             "positive": 8,
-            "mixed": 8,
-            "negative": 45,
-            "net_sentiment": -0.6066,
+            "mixed": 7,
+            "negative": 28,
+            "net_sentiment": -0.4651,
             "top_aspects": {
               "positive": [
                 [
@@ -6190,18 +6146,18 @@
               "negative": [
                 [
                   "token consumption",
-                  4
-                ],
-                [
-                  "rate limits",
-                  3
+                  7
                 ],
                 [
                   "not worth the cost for my use case",
                   1
                 ],
                 [
-                  "token consumption / rate limits",
+                  "speed and cost vs alternative",
+                  1
+                ],
+                [
+                  "token consumption without clear use case",
                   1
                 ]
               ]
@@ -6323,11 +6279,11 @@
             }
           },
           "other": {
-            "n": 18,
+            "n": 15,
             "positive": 8,
-            "mixed": 1,
-            "negative": 9,
-            "net_sentiment": -0.0556,
+            "mixed": 0,
+            "negative": 7,
+            "net_sentiment": 0.0667,
             "top_aspects": {
               "positive": [
                 [
@@ -6349,19 +6305,19 @@
               ],
               "negative": [
                 [
-                  "no rate-limit boost provided",
-                  1
-                ],
-                [
                   "availability",
                   1
                 ],
                 [
-                  "not available in pro plans",
+                  "restricted output state and watermarking",
                   1
                 ],
                 [
-                  "restricted output state and watermarking",
+                  "model size / bloat",
+                  1
+                ],
+                [
+                  "reliability for production work",
                   1
                 ]
               ]
@@ -6434,15 +6390,7 @@
           "negative": [
             [
               "token consumption",
-              4
-            ],
-            [
-              "rate limits",
-              3
-            ],
-            [
-              "no rate-limit boost provided",
-              1
+              7
             ],
             [
               "refuses account creation/deletion and scolds",
@@ -6465,10 +6413,6 @@
               1
             ],
             [
-              "token consumption / rate limits",
-              1
-            ],
-            [
               "speed and cost vs alternative",
               1
             ],
@@ -6477,33 +6421,45 @@
               1
             ],
             [
-              "rate limits / quota burn",
-              1
-            ],
-            [
               "frequent mistakes after upgrade",
-              1
-            ],
-            [
-              "burned usage credits without finishing job",
               1
             ],
             [
               "boldness and wit in answers",
               1
+            ],
+            [
+              "pokemon gen9 ou test performance",
+              1
+            ],
+            [
+              "overall",
+              1
+            ],
+            [
+              "not worth using",
+              1
+            ],
+            [
+              "incremental improvement",
+              1
+            ],
+            [
+              "incremental upgrade with no differentiation",
+              1
             ]
           ],
           "mixed": [
+            [
+              "token consumption",
+              2
+            ],
             [
               "color picking and cost per scene",
               1
             ],
             [
               "real work quality despite quirks",
-              1
-            ],
-            [
-              "5-hour usage burned in under an hour",
               1
             ],
             [
@@ -6535,14 +6491,6 @@
               1
             ],
             [
-              "shrinking weekly usage limits",
-              1
-            ],
-            [
-              "capability versus cost and quota depletion",
-              1
-            ],
-            [
               "great but too restrictive",
               1
             ],
@@ -6553,6 +6501,14 @@
             [
               "text reconstruction quality vs ai-ish phrasing",
               1
+            ],
+            [
+              "content strategy knowledge vs build usefulness",
+              1
+            ],
+            [
+              "planning quality versus cost",
+              1
             ]
           ]
         }
@@ -6560,18 +6516,18 @@
       {
         "model": "claude-opus-5",
         "firsthand": {
-          "n": 314,
-          "positive": 86,
-          "mixed": 24,
-          "negative": 204,
-          "net_sentiment": -0.3758
+          "n": 301,
+          "positive": 81,
+          "mixed": 23,
+          "negative": 197,
+          "net_sentiment": -0.3854
         },
         "all_expressed": {
-          "n": 363,
-          "positive": 99,
-          "mixed": 24,
-          "negative": 240,
-          "net_sentiment": -0.3884
+          "n": 350,
+          "positive": 94,
+          "mixed": 23,
+          "negative": 233,
+          "net_sentiment": -0.3971
         },
         "endorsements": {
           "n": 3,
@@ -6591,70 +6547,70 @@
           },
           {
             "day_index": 1,
-            "n": 48,
+            "n": 47,
             "positive": 13,
             "mixed": 1,
-            "negative": 34,
-            "net_sentiment": -0.4375
+            "negative": 33,
+            "net_sentiment": -0.4255
           },
           {
             "day_index": 2,
-            "n": 53,
-            "positive": 16,
+            "n": 50,
+            "positive": 14,
             "mixed": 4,
-            "negative": 33,
-            "net_sentiment": -0.3208
+            "negative": 32,
+            "net_sentiment": -0.36
           },
           {
             "day_index": 3,
-            "n": 50,
+            "n": 48,
             "positive": 12,
-            "mixed": 6,
-            "negative": 32,
-            "net_sentiment": -0.4
+            "mixed": 5,
+            "negative": 31,
+            "net_sentiment": -0.3958
           },
           {
             "day_index": 4,
-            "n": 44,
-            "positive": 11,
+            "n": 40,
+            "positive": 10,
             "mixed": 3,
-            "negative": 30,
-            "net_sentiment": -0.4318
+            "negative": 27,
+            "net_sentiment": -0.425
           },
           {
             "day_index": 5,
-            "n": 29,
-            "positive": 14,
+            "n": 27,
+            "positive": 13,
             "mixed": 1,
-            "negative": 14,
+            "negative": 13,
             "net_sentiment": 0.0
           },
           {
             "day_index": 6,
-            "n": 46,
-            "positive": 11,
+            "n": 45,
+            "positive": 10,
             "mixed": 3,
             "negative": 32,
-            "net_sentiment": -0.4565
+            "net_sentiment": -0.4889
           }
         ],
         "tasks": {
-          "coding": 139,
-          "none": 89,
+          "coding": 138,
+          "none": 88,
           "chat": 20,
-          "agents": 12,
-          "cost": 31,
+          "agents": 11,
+          "cost": 21,
           "writing": 13,
           "multimodal": 9,
           "general": 1
         },
         "dimensions": {
           "intelligence": {
-            "n": 126,
+            "n": 125,
             "positive": 43,
-            "mixed": 14,
+            "mixed": 13,
             "negative": 69,
-            "net_sentiment": -0.2063,
+            "net_sentiment": -0.208,
             "top_aspects": {
               "positive": [
                 [
@@ -6723,34 +6679,30 @@
             }
           },
           "price": {
-            "n": 40,
-            "positive": 7,
+            "n": 30,
+            "positive": 3,
             "mixed": 3,
-            "negative": 30,
-            "net_sentiment": -0.575,
+            "negative": 24,
+            "net_sentiment": -0.7,
             "top_aspects": {
               "positive": [
-                [
-                  "subagent heavy usage",
-                  1
-                ],
-                [
-                  "quota lasts about 5 days",
-                  1
-                ],
                 [
                   "planning role quality and cost",
                   1
                 ],
                 [
-                  "rate limits",
+                  "price-to-performance improvement",
+                  1
+                ],
+                [
+                  "cache retention on effort switch",
                   1
                 ]
               ],
               "negative": [
                 [
                   "token consumption",
-                  2
+                  4
                 ],
                 [
                   "cost and speed concerns before switching",
@@ -6903,11 +6855,11 @@
             }
           },
           "other": {
-            "n": 22,
-            "positive": 8,
+            "n": 20,
+            "positive": 7,
             "mixed": 0,
-            "negative": 14,
-            "net_sentiment": -0.2727,
+            "negative": 13,
+            "net_sentiment": -0.3,
             "top_aspects": {
               "positive": [
                 [
@@ -7021,6 +6973,10 @@
               12
             ],
             [
+              "token consumption",
+              4
+            ],
+            [
               "underperforms gpt-5.6 luna max",
               2
             ],
@@ -7034,10 +6990,6 @@
             ],
             [
               "evading ai-detection",
-              2
-            ],
-            [
-              "token consumption",
               2
             ],
             [
@@ -7127,11 +7079,11 @@
               1
             ],
             [
-              "quality decline and worse usage",
+              "used most, but makes slop ui",
               1
             ],
             [
-              "used most, but makes slop ui",
+              "context degradation past 400k",
               1
             ]
           ]
@@ -10315,18 +10267,18 @@
       {
         "model": "claude_code",
         "firsthand": {
-          "n": 465,
-          "positive": 216,
-          "mixed": 34,
-          "negative": 215,
-          "net_sentiment": 0.0022
+          "n": 496,
+          "positive": 218,
+          "mixed": 37,
+          "negative": 241,
+          "net_sentiment": -0.0464
         },
         "all_expressed": {
-          "n": 526,
-          "positive": 252,
-          "mixed": 35,
-          "negative": 239,
-          "net_sentiment": 0.0247
+          "n": 559,
+          "positive": 255,
+          "mixed": 38,
+          "negative": 266,
+          "net_sentiment": -0.0197
         },
         "endorsements": {
           "n": 12,
@@ -10338,27 +10290,27 @@
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 28,
+            "n": 29,
             "positive": 8,
             "mixed": 3,
-            "negative": 17,
-            "net_sentiment": -0.3214
+            "negative": 18,
+            "net_sentiment": -0.3448
           },
           {
             "day_index": 1,
-            "n": 36,
+            "n": 37,
             "positive": 18,
             "mixed": 2,
-            "negative": 16,
-            "net_sentiment": 0.0556
+            "negative": 17,
+            "net_sentiment": 0.027
           },
           {
             "day_index": 2,
-            "n": 46,
-            "positive": 27,
+            "n": 49,
+            "positive": 29,
             "mixed": 1,
-            "negative": 18,
-            "net_sentiment": 0.1957
+            "negative": 19,
+            "net_sentiment": 0.2041
           },
           {
             "day_index": 3,
@@ -10370,33 +10322,33 @@
           },
           {
             "day_index": 4,
-            "n": 56,
+            "n": 67,
             "positive": 23,
-            "mixed": 6,
-            "negative": 27,
-            "net_sentiment": -0.0714
+            "mixed": 7,
+            "negative": 37,
+            "net_sentiment": -0.209
           },
           {
             "day_index": 5,
-            "n": 29,
-            "positive": 15,
+            "n": 37,
+            "positive": 16,
             "mixed": 0,
-            "negative": 14,
-            "net_sentiment": 0.0345
+            "negative": 21,
+            "net_sentiment": -0.1351
           },
           {
             "day_index": 6,
-            "n": 237,
+            "n": 245,
             "positive": 112,
-            "mixed": 23,
-            "negative": 102,
-            "net_sentiment": 0.0422
+            "mixed": 24,
+            "negative": 109,
+            "net_sentiment": 0.0122
           }
         ],
         "tasks": {
-          "coding": 310,
-          "agents": 47,
-          "cost": 94,
+          "coding": 312,
+          "agents": 48,
+          "cost": 122,
           "multimodal": 6,
           "chat": 1,
           "writing": 6,
@@ -10404,13 +10356,17 @@
         },
         "dimensions": {
           "limits": {
-            "n": 115,
-            "positive": 19,
-            "mixed": 6,
-            "negative": 90,
-            "net_sentiment": -0.6174,
+            "n": 146,
+            "positive": 21,
+            "mixed": 9,
+            "negative": 116,
+            "net_sentiment": -0.6507,
             "top_aspects": {
               "positive": [
+                [
+                  "usage limits",
+                  3
+                ],
                 [
                   "ui work role avoids hitting usage limits",
                   1
@@ -10422,27 +10378,23 @@
                 [
                   "usage lasts with heavy daily use",
                   1
-                ],
-                [
-                  "comfortable usage limits after switching back",
-                  1
                 ]
               ],
               "negative": [
+                [
+                  "usage limits",
+                  24
+                ],
                 [
                   "rate limits",
                   6
                 ],
                 [
+                  "plan burn from token use",
+                  4
+                ],
+                [
                   "subscription value",
-                  2
-                ],
-                [
-                  "not worth the subscription",
-                  2
-                ],
-                [
-                  "misleading 20x rate-limit window marketing",
                   2
                 ]
               ]
@@ -10734,6 +10686,10 @@
               3
             ],
             [
+              "usage limits",
+              3
+            ],
+            [
               "building complex apps",
               2
             ],
@@ -10776,16 +10732,20 @@
             [
               "primary tool for real development work",
               1
-            ],
-            [
-              "flexibility to use other models",
-              1
             ]
           ],
           "negative": [
             [
+              "usage limits",
+              24
+            ],
+            [
               "rate limits",
               6
+            ],
+            [
+              "plan burn from token use",
+              4
             ],
             [
               "not for engineering-first devs",
@@ -10833,14 +10793,6 @@
             ],
             [
               "token consumption running in parallel",
-              1
-            ],
-            [
-              "quota limits",
-              1
-            ],
-            [
-              "burned through subscription quickly",
               1
             ]
           ],
@@ -10911,88 +10863,88 @@
       {
         "model": "codex",
         "firsthand": {
-          "n": 395,
-          "positive": 232,
-          "mixed": 18,
-          "negative": 145,
-          "net_sentiment": 0.2203
+          "n": 416,
+          "positive": 241,
+          "mixed": 19,
+          "negative": 156,
+          "net_sentiment": 0.2043
         },
         "all_expressed": {
-          "n": 444,
-          "positive": 263,
-          "mixed": 18,
-          "negative": 163,
-          "net_sentiment": 0.2252
+          "n": 467,
+          "positive": 272,
+          "mixed": 19,
+          "negative": 176,
+          "net_sentiment": 0.2056
         },
         "endorsements": {
-          "n": 18,
+          "n": 20,
           "positive": 13,
           "mixed": 0,
-          "negative": 5,
-          "net_sentiment": 0.4444
+          "negative": 7,
+          "net_sentiment": 0.3
         },
         "daily_firsthand": [
           {
             "day_index": 0,
-            "n": 41,
-            "positive": 27,
+            "n": 44,
+            "positive": 28,
             "mixed": 0,
-            "negative": 14,
-            "net_sentiment": 0.3171
+            "negative": 16,
+            "net_sentiment": 0.2727
           },
           {
             "day_index": 1,
-            "n": 44,
-            "positive": 31,
+            "n": 47,
+            "positive": 33,
             "mixed": 1,
-            "negative": 12,
-            "net_sentiment": 0.4318
+            "negative": 13,
+            "net_sentiment": 0.4255
           },
           {
             "day_index": 2,
-            "n": 49,
+            "n": 51,
             "positive": 31,
             "mixed": 3,
-            "negative": 15,
-            "net_sentiment": 0.3265
+            "negative": 17,
+            "net_sentiment": 0.2745
           },
           {
             "day_index": 3,
-            "n": 62,
+            "n": 64,
             "positive": 29,
-            "mixed": 1,
-            "negative": 32,
-            "net_sentiment": -0.0484
+            "mixed": 2,
+            "negative": 33,
+            "net_sentiment": -0.0625
           },
           {
             "day_index": 4,
-            "n": 59,
-            "positive": 34,
+            "n": 68,
+            "positive": 40,
             "mixed": 3,
-            "negative": 22,
-            "net_sentiment": 0.2034
+            "negative": 25,
+            "net_sentiment": 0.2206
           },
           {
             "day_index": 5,
-            "n": 41,
-            "positive": 29,
+            "n": 43,
+            "positive": 30,
             "mixed": 2,
-            "negative": 10,
-            "net_sentiment": 0.4634
+            "negative": 11,
+            "net_sentiment": 0.4419
           },
           {
             "day_index": 6,
-            "n": 108,
+            "n": 109,
             "positive": 57,
             "mixed": 5,
-            "negative": 46,
-            "net_sentiment": 0.1019
+            "negative": 47,
+            "net_sentiment": 0.0917
           }
         ],
         "tasks": {
-          "coding": 270,
-          "agents": 33,
-          "cost": 80,
+          "coding": 277,
+          "agents": 34,
+          "cost": 93,
           "chat": 1,
           "multimodal": 4,
           "none": 6,
@@ -11000,46 +10952,46 @@
         },
         "dimensions": {
           "limits": {
-            "n": 90,
-            "positive": 36,
-            "mixed": 5,
-            "negative": 49,
-            "net_sentiment": -0.1444,
+            "n": 111,
+            "positive": 45,
+            "mixed": 6,
+            "negative": 60,
+            "net_sentiment": -0.1351,
             "top_aspects": {
               "positive": [
+                [
+                  "usage limits",
+                  9
+                ],
                 [
                   "usage limits generosity",
                   2
                 ],
                 [
-                  "pro pass doesn't count against agentic usage",
+                  "plan burn from token use",
                   2
                 ],
                 [
-                  "usage limits and intelligence",
-                  1
-                ],
-                [
-                  "cheap plan with large luna quota",
-                  1
+                  "pro pass doesn't count against agentic usage",
+                  2
                 ]
               ],
               "negative": [
+                [
+                  "usage limits",
+                  10
+                ],
                 [
                   "rate limits",
                   2
                 ],
                 [
-                  "5-hour rate limit",
+                  "plan burn from token use",
                   2
                 ],
                 [
-                  "usage quota running out",
-                  1
-                ],
-                [
-                  "quota drained by hidden alignment overhead",
-                  1
+                  "5-hour rate limit",
+                  2
                 ]
               ]
             }
@@ -11318,6 +11270,10 @@
         "aspects": {
           "positive": [
             [
+              "usage limits",
+              9
+            ],
+            [
               "overall",
               4
             ],
@@ -11350,6 +11306,10 @@
               2
             ],
             [
+              "plan burn from token use",
+              2
+            ],
+            [
               "pro pass doesn't count against agentic usage",
               2
             ],
@@ -11368,19 +11328,19 @@
             [
               "primary tool",
               1
-            ],
-            [
-              "quality jump in output",
-              1
-            ],
-            [
-              "faster boot time",
-              1
             ]
           ],
           "negative": [
             [
+              "usage limits",
+              10
+            ],
+            [
               "rate limits",
+              2
+            ],
+            [
+              "plan burn from token use",
               2
             ],
             [
@@ -11430,14 +11390,6 @@
             [
               "quota drained by hidden alignment overhead",
               1
-            ],
-            [
-              "value at $100 tier versus grok's $30 tier",
-              1
-            ],
-            [
-              "sol-hours per plan",
-              1
             ]
           ],
           "mixed": [
@@ -11455,6 +11407,10 @@
             ],
             [
               "code execution vs planning judgment",
+              1
+            ],
+            [
+              "usage limits",
               1
             ],
             [
@@ -11510,15 +11466,15 @@
           "net_sentiment": 0.5147
         },
         "all_expressed": {
-          "n": 73,
-          "positive": 54,
+          "n": 77,
+          "positive": 58,
           "mixed": 3,
           "negative": 16,
-          "net_sentiment": 0.5205
+          "net_sentiment": 0.5455
         },
         "endorsements": {
-          "n": 1,
-          "positive": 1,
+          "n": 2,
+          "positive": 2,
           "mixed": 0,
           "negative": 0,
           "net_sentiment": 1.0

@@ -108,6 +108,15 @@ def main():
                     raise ValueError(f"override for unknown post {r['post_id']}")
                 labels[r["post_id"]] = {**r, "overridden": True}; overrides += 1
 
+    # Quota audit: model lines re-read to separate the model's own cost from plan limits (QUOTA_AUDIT.md).
+    audit = Counter()
+    for path in sorted(glob.glob(str(V2 / "quota-audit" / "decisions" / "*.jsonl"))):
+        for line in Path(path).read_text().split("\n"):
+            if line:
+                d = json.loads(line); audit["lines_read"] += 1
+                if d["kind"] in ("quota", "both"):
+                    audit["moved_to_harness" if d.get("harness") else "dropped_untracked_plan"] += 1
+
     # Author exclusion: an author is dropped when the labeler flagged most of their posts as AI-authored.
     by_author = defaultdict(list)
     for pid, r in labels.items():
@@ -258,7 +267,8 @@ def main():
         "corpus": {"unique_posts": len(corpus), "unique_authors": len({r.get("author_id") for r in corpus.values() if r.get("author_id")}),
                    "comments": sum(bool(r.get("is_comment")) for r in corpus.values()), "classified_posts": len(labels), "reviewer_overrides": overrides,
                    "excluded_ai_authors": len(excluded_authors),
-                   "excluded_posts": sum(1 for p in corpus.values() if p.get("author_id") in excluded_authors)},
+                   "excluded_posts": sum(1 for p in corpus.values() if p.get("author_id") in excluded_authors),
+                   "quota_audit": dict(audit)},
         "recorded_spend_usd": OLD["recorded_spend_usd"], "attention": OLD["attention"],
         "sentiment": {"definition": "Firsthand stance: the author used the model or reports a concrete result. One author per model per week. Endorsements are bare agreements with someone else's stance and are shown separately.",
                       "models": model_sentiment, "families": family_sentiment},
