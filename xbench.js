@@ -1,85 +1,819 @@
-const $=s=>document.querySelector(s),NS='http://www.w3.org/2000/svg';
-const names={'claude-fable-5.1':'Claude Fable 5.1','claude-opus-5':'Claude Opus 5','gpt-6-astra':'GPT-6 Astra*','gpt-5.6-sol':'GPT-5.6 Sol','gpt-5.6-luna':'GPT-5.6 Luna','muse-spark-1.3':'Muse Spark 1.3','muse-spark-1.2':'Muse Spark 1.2','gemini-3.8-flash':'Gemini 3.8 Flash','gemini-3.7-flash':'Gemini 3.7 Flash','grok-4.6':'Grok 4.6','glm-5.3':'GLM 5.3','glm-5.3-flash':'GLM 5.3 Flash','kimi-k3':'Kimi K3',claude_code:'Claude Code',codex:'Codex',opencode:'OpenCode',pi:'Pi',grokbot:'Grok Bot',claude:'"Claude"',gpt:'"GPT" / ChatGPT',gemini:'"Gemini"',grok:'"Grok"',glm:'"GLM"',kimi:'"Kimi"',muse:'"Muse"'};
-const logos={'claude-fable-5.1':'anthropic','claude-opus-5':'anthropic','gpt-6-astra':'openai','gpt-5.6-sol':'openai','gpt-5.6-luna':'openai','gemini-3.8-flash':'gemini','gemini-3.7-flash':'gemini','muse-spark-1.3':'meta','muse-spark-1.2':'meta','grok-4.6':'xai','glm-5.3':'zai','glm-5.3-flash':'zai','kimi-k3':'moonshot',claude_code:'anthropic',codex:'openai',grokbot:'xai',claude:'anthropic',gpt:'openai',gemini:'gemini',grok:'xai',glm:'zai',kimi:'moonshot',muse:'meta'};
-const modelOrder=['claude-fable-5.1','claude-opus-5','gpt-6-astra','gpt-5.6-sol','gpt-5.6-luna','muse-spark-1.3','muse-spark-1.2','gemini-3.8-flash','gemini-3.7-flash','grok-4.6','glm-5.3','glm-5.3-flash','kimi-k3'];
-const harnessAll=new Set(['claude_code','codex','opencode','pi','grokbot']);const harnessOrder=['claude_code','codex','grokbot'];const shownHarness=new Set(harnessOrder);
-let DIMS={model:[],harness:[]};const dimName=(kind,id)=>(DIMS[kind].find(d=>d[0]===id)||[id,id])[1];
-const label=x=>names[x]||String(x).replaceAll('_',' ').replace(/\b\w/g,c=>c.toUpperCase());
-const icon=k=>logos[k]?`<img src="assets/logos/${logos[k]}.svg" alt="">`:'<i class="avatar-fallback" style="width:20px;height:20px"></i>';
-const el=(tag,attrs={})=>{const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));return n};
-const addText=(svg,x,y,t,c='svg-label',anchor='start')=>{const n=el('text',{x,y,class:c,'text-anchor':anchor});n.textContent=t;svg.append(n);return n};
-const fmt=n=>new Intl.NumberFormat('en-US').format(n||0);
-const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const pts=v=>v==null?'—':`${v>0?'+':''}${Math.round(v*100)}`;
+const $ = (s) => document.querySelector(s),
+  NS = "http://www.w3.org/2000/svg";
+const names = {
+  "claude-fable-5.1": "Claude Fable 5.1",
+  "claude-opus-5": "Claude Opus 5",
+  "gpt-6-astra": "GPT-6 Astra*",
+  "gpt-5.6-sol": "GPT-5.6 Sol",
+  "gpt-5.6-luna": "GPT-5.6 Luna",
+  "muse-spark-1.3": "Muse Spark 1.3",
+  "muse-spark-1.2": "Muse Spark 1.2",
+  "gemini-3.8-flash": "Gemini 3.8 Flash",
+  "gemini-3.7-flash": "Gemini 3.7 Flash",
+  "grok-4.6": "Grok 4.6",
+  "glm-5.3": "GLM 5.3",
+  "glm-5.3-flash": "GLM 5.3 Flash",
+  "kimi-k3": "Kimi K3",
+  claude_code: "Claude Code",
+  codex: "Codex",
+  opencode: "OpenCode",
+  pi: "Pi",
+  grokbot: "Grok Bot",
+  claude: '"Claude"',
+  gpt: '"GPT" / ChatGPT',
+  gemini: '"Gemini"',
+  grok: '"Grok"',
+  glm: '"GLM"',
+  kimi: '"Kimi"',
+  muse: '"Muse"',
+};
+const logos = {
+  "claude-fable-5.1": "anthropic",
+  "claude-opus-5": "anthropic",
+  "gpt-6-astra": "openai",
+  "gpt-5.6-sol": "openai",
+  "gpt-5.6-luna": "openai",
+  "gemini-3.8-flash": "gemini",
+  "gemini-3.7-flash": "gemini",
+  "muse-spark-1.3": "meta",
+  "muse-spark-1.2": "meta",
+  "grok-4.6": "xai",
+  "glm-5.3": "zai",
+  "glm-5.3-flash": "zai",
+  "kimi-k3": "moonshot",
+  claude_code: "anthropic",
+  codex: "openai",
+  grokbot: "xai",
+  claude: "anthropic",
+  gpt: "openai",
+  gemini: "gemini",
+  grok: "xai",
+  glm: "zai",
+  kimi: "moonshot",
+  muse: "meta",
+};
+const modelOrder = [
+  "claude-fable-5.1",
+  "claude-opus-5",
+  "gpt-6-astra",
+  "gpt-5.6-sol",
+  "gpt-5.6-luna",
+  "muse-spark-1.3",
+  "muse-spark-1.2",
+  "gemini-3.8-flash",
+  "gemini-3.7-flash",
+  "grok-4.6",
+  "glm-5.3",
+  "glm-5.3-flash",
+  "kimi-k3",
+];
+const harnessAll = new Set(["claude_code", "codex", "opencode", "pi", "grokbot"]);
+const harnessOrder = ["claude_code", "codex", "grokbot"];
+const shownHarness = new Set(harnessOrder);
+let DIMS = { model: [], harness: [] };
+const dimName = (kind, id) => (DIMS[kind].find((d) => d[0] === id) || [id, id])[1];
+const label = (x) =>
+  names[x] ||
+  String(x)
+    .replaceAll("_", " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+const icon = (k) =>
+  logos[k]
+    ? `<img src="assets/logos/${logos[k]}.svg" alt="">`
+    : '<i class="avatar-fallback" style="width:20px;height:20px"></i>';
+const el = (tag, attrs = {}) => {
+  const n = document.createElementNS(NS, tag);
+  Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v));
+  return n;
+};
+const addText = (svg, x, y, t, c = "svg-label", anchor = "start") => {
+  const n = el("text", { x, y, class: c, "text-anchor": anchor });
+  n.textContent = t;
+  svg.append(n);
+  return n;
+};
+const fmt = (n) => new Intl.NumberFormat("en-US").format(n || 0);
+const esc = (s) =>
+  String(s || "").replace(
+    /[&<>"']/g,
+    (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c],
+  );
+const pts = (v) => (v == null ? "—" : `${v > 0 ? "+" : ""}${Math.round(v * 100)}`);
 
-let EV={};
+let EV = {};
 
-function heroMesh(){const svg=$('#heroMesh');for(let i=0;i<=12;i++){svg.append(el('path',{d:`M ${70+i*23} ${185-i*13} L ${350+i*23} ${347-i*13}`,class:'mesh-grid'}))}}
-
+function heroMesh() {
+  const svg = $("#heroMesh");
+  for (let i = 0; i <= 12; i++) {
+    svg.append(
+      el("path", {
+        d: `M ${70 + i * 23} ${185 - i * 13} L ${350 + i * 23} ${347 - i * 13}`,
+        class: "mesh-grid",
+      }),
+    );
+  }
+}
 
 /* ---------- evidence cards ---------- */
-const tag=(cls,t)=>`<span class="tag ${cls}">${esc(t)}</span>`;
-function card(p,kind){let verdict='',tags='';if(kind==='sentiment'){const s=p.sentiment;tags=tag(s==='negative'?'neg':s==='mixed'?'mix':'',s)+(p.firsthand?tag('fh','firsthand'):p.endorsement?tag('','endorsement'):tag('','stated'));verdict=`${label(p.model||p.family||p.harness)} · ${p.aspect||''}`}else if(kind==='preference'){verdict=`${label(p.winner)} > ${label(p.loser)}`;tags=(p.firsthand?tag('fh','firsthand'):tag('','stated'))+(p.aspect?tag('',p.aspect):'')}else if(kind==='switching'){verdict=`${label(p.origin)} → ${label(p.destination)}`;tags=tag('fh','completed')}return`<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${esc(verdict)}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason||'')}</p><footer>${tags}</footer><span class="open" aria-hidden="true">↗</span></a>`}
-const renderCards=(root,rows,kind,empty='No counted posts.')=>{root.innerHTML=rows.map(p=>card(p,kind)).join('')||`<div class="evidence-empty">${empty}</div>`};
-const byDate=(a,b)=>new Date(b.created_at)-new Date(a.created_at);
+const tag = (cls, t) => `<span class="tag ${cls}">${esc(t)}</span>`;
+function card(p, kind) {
+  let verdict = "",
+    tags = "";
+  if (kind === "sentiment") {
+    const s = p.sentiment;
+    tags =
+      tag(s === "negative" ? "neg" : s === "mixed" ? "mix" : "", s) +
+      (p.firsthand
+        ? tag("fh", "firsthand")
+        : p.endorsement
+          ? tag("", "endorsement")
+          : tag("", "stated"));
+    verdict = `${label(p.model || p.family || p.harness)} · ${p.aspect || ""}`;
+  } else if (kind === "preference") {
+    verdict = `${label(p.winner)} > ${label(p.loser)}`;
+    tags =
+      (p.firsthand ? tag("fh", "firsthand") : tag("", "stated")) +
+      (p.aspect ? tag("", p.aspect) : "");
+  } else if (kind === "switching") {
+    verdict = `${label(p.origin)} → ${label(p.destination)}`;
+    tags = tag("fh", "completed");
+  }
+  return `<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${esc(verdict)}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason || "")}</p><footer>${tags}</footer><span class="open" aria-hidden="true">↗</span></a>`;
+}
+const renderCards = (root, rows, kind, empty = "No counted posts.") => {
+  root.innerHTML =
+    rows.map((p) => card(p, kind)).join("") || `<div class="evidence-empty">${empty}</div>`;
+};
+const byDate = (a, b) => new Date(b.created_at) - new Date(a.created_at);
 
 /* ---------- sentiment rows with drawers ---------- */
-function spark(daily){const vals=(daily||[]).map(d=>d.net_sentiment);return`<div class="spark" aria-hidden="true">${vals.map((v,i)=>v==null?'<i class="empty"></i>':`<i class="${v>0?'up':v<0?'down':''}" style="height:${Math.max(2,Math.abs(v)*22)}px" title="day ${i+1}: ${pts(v)}"></i>`).join('')}</div>`}
-function delta24(daily){const d=daily||[],last=d[d.length-1],prev=d[d.length-2];if(!last||!prev||last.net_sentiment==null||prev.net_sentiment==null)return null;return last.net_sentiment-prev.net_sentiment}
-function sentimentRows(root,models,evidenceRows,keyField,mode='firsthand'){root.innerHTML='';const list=[...(models||[])].filter(m=>(m[mode]||{}).n>0&&(keyField!=='harness'||shownHarness.has(m.model))),score=m=>m[mode]?.net_sentiment??-9,size=m=>m[mode]?.n||0;list.sort((a,b)=>score(b)-score(a)||size(b)-size(a));list.forEach(m=>{const c=m[mode]||{},tot=c.n||0,net=c.net_sentiment,netClass=net>0.05?'positive':net<-0.05?'negative':'neutral',row=document.createElement('div');row.className='sentiment-row';const sub=mode==='firsthand'?`<b>${tot}</b> firsthand · ${m.all_expressed?.n||0} expressed`:mode==='all_expressed'?`<b>${tot}</b> expressed · ${m.firsthand?.n||0} firsthand`:`<b>${tot}</b> endorsements`;const star=(m.firsthand?.n||0)<30&&!label(m.model).endsWith('*')?'<span class="star">*</span>':'';const kind=harnessOrder.includes(m.model)?'harness':'model',dm=m.dimensions||{},core=Object.entries(dm).filter(([k])=>k!=='overall'&&k!=='other'),solid=core.filter(([,v])=>v.n>=5),praised=solid.filter(([,v])=>v.positive-v.negative>0&&v.net_sentiment>=.15).sort((a,b)=>(b[1].positive-b[1].negative)-(a[1].positive-a[1].negative)).slice(0,2).map(([k])=>dimName(kind,k).toLowerCase()),knocked=solid.filter(([,v])=>v.negative-v.positive>0&&v.net_sentiment<=-.1).sort((a,b)=>(b[1].negative-b[1].positive)-(a[1].negative-a[1].positive)).slice(0,2).map(([k])=>dimName(kind,k).toLowerCase()),dimsLine=(praised.length||knocked.length)?`<span class="dims">${praised.length?`<i>+</i> ${praised.join(', ')}`:''}${praised.length&&knocked.length?' · ':''}${knocked.length?`<u>−</u> ${knocked.join(', ')}`:''}</span>`:'';row.innerHTML=`<div class="sentiment-name"><strong>${label(m.model)}${star}</strong><small>${sub}</small>${dimsLine}</div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${c.positive/tot*100}%"></span><span class="mixed" style="width:${c.mixed/tot*100}%"></span><span class="negative" style="width:${c.negative/tot*100}%"></span></div>${spark(m.daily_firsthand)}<div class="metric-tail ${netClass}">${pts(net)}</div></div>`;root.append(row)});if(!list.length)root.innerHTML='<div class="evidence-empty">Nothing recorded in this mode.</div>'}
-function drawer(node,m,rows,kind){const dm=m.dimensions||{},order=DIMS[kind].map(d=>d[0]),sc=order.filter(k=>dm[k]&&dm[k].n>0).map(k=>{const b=dm[k],n=b.n,net=b.net_sentiment,cls=net>0.05?'positive':net<-0.05?'negative':'neutral',tip=[...(b.top_aspects?.positive||[]).map(([t])=>'+ '+t),...(b.top_aspects?.negative||[]).map(([t])=>'− '+t)].join('\n');return`<div class="score-row${n<5?' thin':''}" title="${esc(tip)}"><span>${dimName(kind,k)}</span><div class="stack"><span class="positive" style="width:${b.positive/n*100}%"></span><span class="mixed" style="width:${b.mixed/n*100}%"></span><span class="negative" style="width:${b.negative/n*100}%"></span></div><b class="${cls}">${pts(net)}</b><small>n${n}</small></div>`}).join(''),tasks=Object.entries(m.tasks||{}).filter(([k])=>k!=='none').sort((x,y)=>y[1]-x[1]).slice(0,6).map(([k,v])=>`<span>${k} <b>${v}</b></span>`).join('');node.innerHTML=`<div class="scorecard">${sc||'<div class="evidence-empty">No firsthand aspects.</div>'}</div>${tasks?`<div class="tasks">${tasks}</div>`:''}<div class="evidence-scroll"></div>`;const fh=rows.filter(r=>r.firsthand).sort(byDate),rest=rows.filter(r=>!r.firsthand).sort(byDate);renderCards(node.querySelector('.evidence-scroll'),[...fh,...rest].slice(0,30),'sentiment')}
-
-
+function spark(daily) {
+  const vals = (daily || []).map((d) => d.net_sentiment);
+  return `<div class="spark" aria-hidden="true">${vals.map((v, i) => (v == null ? '<i class="empty"></i>' : `<i class="${v > 0 ? "up" : v < 0 ? "down" : ""}" style="height:${Math.max(2, Math.abs(v) * 22)}px" title="day ${i + 1}: ${pts(v)}"></i>`)).join("")}</div>`;
+}
+function delta24(daily) {
+  const d = daily || [],
+    last = d[d.length - 1],
+    prev = d[d.length - 2];
+  if (!last || !prev || last.net_sentiment == null || prev.net_sentiment == null) return null;
+  return last.net_sentiment - prev.net_sentiment;
+}
+function sentimentRows(root, models, evidenceRows, keyField, mode = "firsthand") {
+  root.innerHTML = "";
+  const list = [...(models || [])].filter(
+      (m) => (m[mode] || {}).n > 0 && (keyField !== "harness" || shownHarness.has(m.model)),
+    ),
+    score = (m) => m[mode]?.net_sentiment ?? -9,
+    size = (m) => m[mode]?.n || 0;
+  list.sort((a, b) => score(b) - score(a) || size(b) - size(a));
+  list.forEach((m) => {
+    const c = m[mode] || {},
+      tot = c.n || 0,
+      net = c.net_sentiment,
+      netClass = net > 0.05 ? "positive" : net < -0.05 ? "negative" : "neutral",
+      row = document.createElement("div");
+    row.className = "sentiment-row";
+    const sub =
+      mode === "firsthand"
+        ? `<b>${tot}</b> firsthand · ${m.all_expressed?.n || 0} expressed`
+        : mode === "all_expressed"
+          ? `<b>${tot}</b> expressed · ${m.firsthand?.n || 0} firsthand`
+          : `<b>${tot}</b> endorsements`;
+    const star =
+      (m.firsthand?.n || 0) < 30 && !label(m.model).endsWith("*")
+        ? '<span class="star">*</span>'
+        : "";
+    const kind = harnessOrder.includes(m.model) ? "harness" : "model",
+      dm = m.dimensions || {},
+      core = Object.entries(dm).filter(([k]) => k !== "overall" && k !== "other"),
+      solid = core.filter(([, v]) => v.n >= 5),
+      praised = solid
+        .filter(([, v]) => v.positive - v.negative > 0 && v.net_sentiment >= 0.15)
+        .sort((a, b) => b[1].positive - b[1].negative - (a[1].positive - a[1].negative))
+        .slice(0, 2)
+        .map(([k]) => dimName(kind, k).toLowerCase()),
+      knocked = solid
+        .filter(([, v]) => v.negative - v.positive > 0 && v.net_sentiment <= -0.1)
+        .sort((a, b) => b[1].negative - b[1].positive - (a[1].negative - a[1].positive))
+        .slice(0, 2)
+        .map(([k]) => dimName(kind, k).toLowerCase()),
+      dimsLine =
+        praised.length || knocked.length
+          ? `<span class="dims">${praised.length ? `<i>+</i> ${praised.join(", ")}` : ""}${praised.length && knocked.length ? " · " : ""}${knocked.length ? `<u>−</u> ${knocked.join(", ")}` : ""}</span>`
+          : "";
+    row.innerHTML = `<div class="sentiment-name"><strong>${label(m.model)}${star}</strong><small>${sub}</small>${dimsLine}</div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div>${spark(m.daily_firsthand)}<div class="metric-tail ${netClass}">${pts(net)}</div></div>`;
+    root.append(row);
+  });
+  if (!list.length)
+    root.innerHTML = '<div class="evidence-empty">Nothing recorded in this mode.</div>';
+}
+function drawer(node, m, rows, kind) {
+  const dm = m.dimensions || {},
+    order = DIMS[kind].map((d) => d[0]),
+    sc = order
+      .filter((k) => dm[k] && dm[k].n > 0)
+      .map((k) => {
+        const b = dm[k],
+          n = b.n,
+          net = b.net_sentiment,
+          cls = net > 0.05 ? "positive" : net < -0.05 ? "negative" : "neutral",
+          tip = [
+            ...(b.top_aspects?.positive || []).map(([t]) => "+ " + t),
+            ...(b.top_aspects?.negative || []).map(([t]) => "− " + t),
+          ].join("\n");
+        return `<div class="score-row${n < 5 ? " thin" : ""}" title="${esc(tip)}"><span>${dimName(kind, k)}</span><div class="stack"><span class="positive" style="width:${(b.positive / n) * 100}%"></span><span class="mixed" style="width:${(b.mixed / n) * 100}%"></span><span class="negative" style="width:${(b.negative / n) * 100}%"></span></div><b class="${cls}">${pts(net)}</b><small>n${n}</small></div>`;
+      })
+      .join(""),
+    tasks = Object.entries(m.tasks || {})
+      .filter(([k]) => k !== "none")
+      .sort((x, y) => y[1] - x[1])
+      .slice(0, 6)
+      .map(([k, v]) => `<span>${k} <b>${v}</b></span>`)
+      .join("");
+  node.innerHTML = `<div class="scorecard">${sc || '<div class="evidence-empty">No firsthand aspects.</div>'}</div>${tasks ? `<div class="tasks">${tasks}</div>` : ""}<div class="evidence-scroll"></div>`;
+  const fh = rows.filter((r) => r.firsthand).sort(byDate),
+    rest = rows.filter((r) => !r.firsthand).sort(byDate);
+  renderCards(node.querySelector(".evidence-scroll"), [...fh, ...rest].slice(0, 30), "sentiment");
+}
 
 /* ---------- radar ---------- */
-function radar(svg,legend,rows,kind,defaults){const dims=DIMS[kind].filter(d=>d[0]!=='overall'&&d[0]!=='other'),n=dims.length,cx=280,cy=284,R=200,list=[...(rows||[])].filter(m=>(m.firsthand||{}).n>=30&&(kind!=='harness'||shownHarness.has(m.model))).sort((a,b)=>(b.firsthand.net_sentiment??-9)-(a.firsthand.net_sentiment??-9));const angle=i=>-Math.PI/2+i*2*Math.PI/n,rad=v=>R*(v+1)/2,pt=(i,v)=>[cx+Math.cos(angle(i))*rad(v),cy+Math.sin(angle(i))*rad(v)];svg.innerHTML='';
-[-1,-.5,0,.5,1].forEach(v=>{const d=dims.map((_,i)=>pt(i,v)).map(([x,y],i)=>`${i?'L':'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ')+'Z';svg.append(el('path',{d,class:`r-ring${v===0?' zero':v===1?' outer':''}`}))});
-dims.forEach(([id,name],i)=>{const [x,y]=pt(i,1);svg.append(el('line',{x1:cx,y1:cy,x2:x,y2:y,class:'r-axis'}));const [lx,ly]=pt(i,1.17),anchor=Math.abs(Math.cos(angle(i)))<.2?'middle':Math.cos(angle(i))>0?'start':'end';addText(svg,lx,ly+4,({limits:'Limits',efficiency:'Efficiency',dx:'Dev experience',agent:'Agent behaviour',reliability:'Reliability'})[id]||name,'r-label',anchor)});
-addText(svg,cx+4,cy-rad(0)-6,'0','r-label sub');addText(svg,cx+4,cy-rad(1)+12,'+100','r-label sub');addText(svg,cx+4,cy-rad(-1)-4,'−100','r-label sub');
-const val=(m,id)=>{const b=(m.dimensions||{})[id];return b&&b.n?{v:b.net_sentiment,n:b.n}:{v:-1,n:0}};
-const polys=new Map();list.forEach(m=>{const d=dims.map(([id],i)=>{const {v}=val(m,id);return pt(i,v)}).map(([x,y],i)=>`${i?'L':'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ')+'Z';const p=el('path',{d,class:'r-poly'});p.dataset.model=m.model;svg.append(p);polys.set(m.model,p)});
-const marks=el('g');svg.append(marks);
-let sel=defaults.filter(k=>polys.has(k)).slice(0,4),hover=null;
-const cls=k=>{const i=sel.indexOf(k);return`r-poly${i>=0?' on p'+i:''}${hover===k&&i<0?' hover':''}${(sel.length||hover)&&i<0&&hover!==k?' dim':''}`};
-function paint(){marks.innerHTML='';polys.forEach((p,k)=>p.setAttribute('class',cls(k)));const front=[...sel,...(hover&&!sel.includes(hover)?[hover]:[])];front.forEach(k=>{const p=polys.get(k);if(p)svg.insertBefore(p,marks)});front.forEach(k=>{const i=sel.indexOf(k),m=list.find(x=>x.model===k);if(!m)return;dims.forEach(([id],di)=>{const {v,n}=val(m,id),[x,y]=pt(di,v),c=el('circle',{cx:x,cy:y,r:3.2,class:`r-pt ${i>=0?'p'+i:'hov'}${n<5?' thin':''}`});const t=el('title');t.textContent=`${label(k)} · ${dimName(kind,id)} ${pts(v)} on ${n}`;c.append(t);marks.append(c)})});legend.querySelectorAll('.legend-chip').forEach(b=>{const i=sel.indexOf(b.dataset.model);b.className=`legend-chip${i>=0?' on p'+i:''}${hover===b.dataset.model?' hov':''}`});const note=legend.querySelector('.legend-note');if(note)note.textContent=`${sel.length}/4 selected · click a name to add or remove`}
-legend.innerHTML=list.map(m=>`<button class="legend-chip" data-model="${m.model}"><i></i>${logos[m.model]?`<img src="assets/logos/${logos[m.model]}.svg" alt="">`:'<b></b>'}<span>${label(m.model)}</span><small>n${m.firsthand.n}</small></button>`).join('')+'<p class="legend-note">click a name to add it · up to four</p>';
-legend.addEventListener('click',e=>{const b=e.target.closest('.legend-chip');if(!b)return;const k=b.dataset.model;if(sel.includes(k))sel=sel.filter(x=>x!==k);else{if(sel.length>=4)sel.shift();sel.push(k)}paint()});
-legend.addEventListener('mouseover',e=>{const b=e.target.closest('.legend-chip');if(!b||hover===b.dataset.model)return;hover=b.dataset.model;paint()});
-legend.addEventListener('mouseleave',()=>{hover=null;paint()});
-paint()}
+function radar(svg, legend, rows, kind, defaults) {
+  const dims = DIMS[kind].filter((d) => d[0] !== "overall" && d[0] !== "other"),
+    n = dims.length,
+    cx = 280,
+    cy = 284,
+    R = 200,
+    list = [...(rows || [])]
+      .filter(
+        (m) => (m.firsthand || {}).n >= 30 && (kind !== "harness" || shownHarness.has(m.model)),
+      )
+      .sort((a, b) => (b.firsthand.net_sentiment ?? -9) - (a.firsthand.net_sentiment ?? -9));
+  const angle = (i) => -Math.PI / 2 + (i * 2 * Math.PI) / n,
+    rad = (v) => (R * (v + 1)) / 2,
+    pt = (i, v) => [cx + Math.cos(angle(i)) * rad(v), cy + Math.sin(angle(i)) * rad(v)];
+  svg.innerHTML = "";
+  [-1, -0.5, 0, 0.5, 1].forEach((v) => {
+    const d =
+      dims
+        .map((_, i) => pt(i, v))
+        .map(([x, y], i) => `${i ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`)
+        .join(" ") + "Z";
+    svg.append(el("path", { d, class: `r-ring${v === 0 ? " zero" : v === 1 ? " outer" : ""}` }));
+  });
+  dims.forEach(([id, name], i) => {
+    const [x, y] = pt(i, 1);
+    svg.append(el("line", { x1: cx, y1: cy, x2: x, y2: y, class: "r-axis" }));
+    const [lx, ly] = pt(i, 1.17),
+      anchor =
+        Math.abs(Math.cos(angle(i))) < 0.2 ? "middle" : Math.cos(angle(i)) > 0 ? "start" : "end";
+    addText(
+      svg,
+      lx,
+      ly + 4,
+      {
+        limits: "Limits",
+        efficiency: "Efficiency",
+        dx: "Dev experience",
+        agent: "Agent behaviour",
+        reliability: "Reliability",
+      }[id] || name,
+      "r-label",
+      anchor,
+    );
+  });
+  addText(svg, cx + 4, cy - rad(0) - 6, "0", "r-label sub");
+  addText(svg, cx + 4, cy - rad(1) + 12, "+100", "r-label sub");
+  addText(svg, cx + 4, cy - rad(-1) - 4, "−100", "r-label sub");
+  const val = (m, id) => {
+    const b = (m.dimensions || {})[id];
+    return b && b.n ? { v: b.net_sentiment, n: b.n } : { v: -1, n: 0 };
+  };
+  const polys = new Map();
+  list.forEach((m) => {
+    const d =
+      dims
+        .map(([id], i) => {
+          const { v } = val(m, id);
+          return pt(i, v);
+        })
+        .map(([x, y], i) => `${i ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`)
+        .join(" ") + "Z";
+    const p = el("path", { d, class: "r-poly" });
+    p.dataset.model = m.model;
+    svg.append(p);
+    polys.set(m.model, p);
+  });
+  const marks = el("g");
+  svg.append(marks);
+  let sel = defaults.filter((k) => polys.has(k)).slice(0, 4),
+    hover = null;
+  const cls = (k) => {
+    const i = sel.indexOf(k);
+    return `r-poly${i >= 0 ? " on p" + i : ""}${hover === k && i < 0 ? " hover" : ""}${(sel.length || hover) && i < 0 && hover !== k ? " dim" : ""}`;
+  };
+  function paint() {
+    marks.innerHTML = "";
+    polys.forEach((p, k) => p.setAttribute("class", cls(k)));
+    const front = [...sel, ...(hover && !sel.includes(hover) ? [hover] : [])];
+    front.forEach((k) => {
+      const p = polys.get(k);
+      if (p) svg.insertBefore(p, marks);
+    });
+    front.forEach((k) => {
+      const i = sel.indexOf(k),
+        m = list.find((x) => x.model === k);
+      if (!m) return;
+      dims.forEach(([id], di) => {
+        const { v, n } = val(m, id),
+          [x, y] = pt(di, v),
+          c = el("circle", {
+            cx: x,
+            cy: y,
+            r: 3.2,
+            class: `r-pt ${i >= 0 ? "p" + i : "hov"}${n < 5 ? " thin" : ""}`,
+          });
+        const t = el("title");
+        t.textContent = `${label(k)} · ${dimName(kind, id)} ${pts(v)} on ${n}`;
+        c.append(t);
+        marks.append(c);
+      });
+    });
+    legend.querySelectorAll(".legend-chip").forEach((b) => {
+      const i = sel.indexOf(b.dataset.model);
+      b.className = `legend-chip${i >= 0 ? " on p" + i : ""}${hover === b.dataset.model ? " hov" : ""}`;
+    });
+    const note = legend.querySelector(".legend-note");
+    if (note) note.textContent = `${sel.length}/4 selected · click a name to add or remove`;
+  }
+  legend.innerHTML =
+    list
+      .map(
+        (m) =>
+          `<button class="legend-chip" data-model="${m.model}"><i></i>${logos[m.model] ? `<img src="assets/logos/${logos[m.model]}.svg" alt="">` : "<b></b>"}<span>${label(m.model)}</span><small>n${m.firsthand.n}</small></button>`,
+      )
+      .join("") + '<p class="legend-note">click a name to add it · up to four</p>';
+  legend.addEventListener("click", (e) => {
+    const b = e.target.closest(".legend-chip");
+    if (!b) return;
+    const k = b.dataset.model;
+    if (sel.includes(k)) sel = sel.filter((x) => x !== k);
+    else {
+      if (sel.length >= 4) sel.shift();
+      sel.push(k);
+    }
+    paint();
+  });
+  legend.addEventListener("mouseover", (e) => {
+    const b = e.target.closest(".legend-chip");
+    if (!b || hover === b.dataset.model) return;
+    hover = b.dataset.model;
+    paint();
+  });
+  legend.addEventListener("mouseleave", () => {
+    hover = null;
+    paint();
+  });
+  paint();
+}
 
 /* ---------- aspect book: one page per model ---------- */
-function book(root,models,kind,evidenceRows,keyField){const list=[...(models||[])].filter(m=>(m.firsthand||{}).n>0&&(kind!=='harness'||shownHarness.has(m.model))).sort((a,b)=>(b.firsthand.net_sentiment??-9)-(a.firsthand.net_sentiment??-9));root.innerHTML=`<div class="book-picker">${list.map(m=>`<button class="pick" data-model="${m.model}">${icon(m.model)}<span>${label(m.model)}</span></button>`).join('')}</div><div class="book-stage"></div>`;const stage=root.querySelector('.book-stage'),built=new Map();function show(k){const m=list.find(x=>x.model===k);if(!m)return;root.querySelectorAll('.pick').forEach(b=>b.classList.toggle('on',b.dataset.model===k));if(!built.has(k)){const net=m.firsthand.net_sentiment,cls=net>0.05?'positive':net<-0.05?'negative':'neutral',page=document.createElement('section');page.className='book-page';page.innerHTML=`<header class="book-head"><div class="book-name">${icon(m.model)}<strong>${label(m.model)}</strong></div><div class="book-meta"><b class="${cls}">${pts(net)}</b><span>${m.firsthand.n} firsthand · ${m.firsthand.positive} / ${m.firsthand.mixed} / ${m.firsthand.negative}</span></div></header><div class="drawer"></div>`;drawer(page.querySelector('.drawer'),m,evidenceRows.filter(r=>r[keyField]===m.model),kind);built.set(k,page)}stage.innerHTML='';stage.append(built.get(k))}root.querySelector('.book-picker').onclick=e=>{const b=e.target.closest('.pick');if(b)show(b.dataset.model)};if(list.length)show(list[0].model)}
+function book(root, models, kind, evidenceRows, keyField) {
+  const list = [...(models || [])]
+    .filter((m) => (m.firsthand || {}).n > 0 && (kind !== "harness" || shownHarness.has(m.model)))
+    .sort((a, b) => (b.firsthand.net_sentiment ?? -9) - (a.firsthand.net_sentiment ?? -9));
+  root.innerHTML = `<div class="book-picker">${list.map((m) => `<button class="pick" data-model="${m.model}">${icon(m.model)}<span>${label(m.model)}</span></button>`).join("")}</div><div class="book-stage"></div>`;
+  const stage = root.querySelector(".book-stage"),
+    built = new Map();
+  function show(k) {
+    const m = list.find((x) => x.model === k);
+    if (!m) return;
+    root.querySelectorAll(".pick").forEach((b) => b.classList.toggle("on", b.dataset.model === k));
+    if (!built.has(k)) {
+      const net = m.firsthand.net_sentiment,
+        cls = net > 0.05 ? "positive" : net < -0.05 ? "negative" : "neutral",
+        page = document.createElement("section");
+      page.className = "book-page";
+      page.innerHTML = `<header class="book-head"><div class="book-name">${icon(m.model)}<strong>${label(m.model)}</strong></div><div class="book-meta"><b class="${cls}">${pts(net)}</b><span>${m.firsthand.n} firsthand · ${m.firsthand.positive} / ${m.firsthand.mixed} / ${m.firsthand.negative}</span></div></header><div class="drawer"></div>`;
+      drawer(
+        page.querySelector(".drawer"),
+        m,
+        evidenceRows.filter((r) => r[keyField] === m.model),
+        kind,
+      );
+      built.set(k, page);
+    }
+    stage.innerHTML = "";
+    stage.append(built.get(k));
+  }
+  root.querySelector(".book-picker").onclick = (e) => {
+    const b = e.target.closest(".pick");
+    if (b) show(b.dataset.model);
+  };
+  if (list.length) show(list[0].model);
+}
 
 /* ---------- matrices and ratings ---------- */
-function matrix(root,items,order,evidenceRows,evidenceRoot,labelNode,small=false){const byPair=new Map((items||[]).map(b=>[[...b.models].sort().join('|'),b])),head=order.map(m=>{const w=label(m).split(' '),cut=w.length>1?Math.ceil(w.length/2):1,l1=w.slice(0,cut).join(' '),l2=w.slice(cut).join(' ');return`<th><span class="matrix-col">${icon(m)}<span>${l1}${l2?`<br>${l2}`:''}</span></span></th>`}).join(''),rows=order.map(row=>`<tr><th><span class="matrix-row">${icon(row)}${label(row)}</span></th>${order.map(col=>{if(row===col)return'<td class="matrix-diagonal"></td>';const b=byPair.get([row,col].sort().join('|'));if(!b)return'<td class="matrix-empty">·</td>';const w=b.votes?.[row]||0,l=b.votes?.[col]||0,n=w+l,share=n?w/n:.5,kind=w===l?'tie':w>l?'lead':'trail',strength=Math.min(.32,.04+n*.012),ids=(b.evidence_ids||[]).join(',');return`<td><button class="matrix-cell ${kind}${n<5?' thin':''}" style="--strength:${strength}" data-evidence="${ids}" data-pair="${label(row)} vs ${label(col)}" aria-label="${label(row)} ${w}, ${label(col)} ${l}"><b>${w}–${l}</b><small>${Math.round(share*100)}% · n${n}</small></button></td>`}).join('')}</tr>`).join('');root.innerHTML=`<table class="battle-matrix${small?' small':''}"><thead><tr><th>row wins</th>${head}</tr></thead><tbody>${rows}</tbody></table>`;root.onclick=e=>{const cell=e.target.closest('.matrix-cell');if(!cell)return;const ids=new Set(cell.dataset.evidence.split(','));labelNode.textContent=`${cell.dataset.pair} · opens on X ↗`;renderCards(evidenceRoot,evidenceRows.filter(p=>ids.has(String(p.post_id))).sort(byDate),'preference');evidenceRoot.scrollIntoView({block:'nearest',behavior:'smooth'})}}
-function ratings(root,rows){rows=(rows||[]).filter(r=>!harnessAll.has(r.model)||shownHarness.has(r.model));if(!rows?.length){root.innerHTML='<div class="evidence-empty">Not enough connected comparisons.</div>';return}const lo=Math.min(...rows.map(r=>r.low_95)),hi=Math.max(...rows.map(r=>r.high_95)),span=Math.max(1,hi-lo);root.innerHTML=[...rows].sort((a,b)=>b.rating-a.rating).map(r=>{const l=(r.low_95-lo)/span*100,w=(r.high_95-r.low_95)/span*100,m=(r.rating-lo)/span*100;return`<div class="rating-row"><div class="rating-name">${icon(r.model)}<span>${label(r.model)} <small style="color:var(--b48)">· ${r.votes} votes</small></span></div><div class="rating-range" aria-label="${r.rating}; interval ${r.low_95} to ${r.high_95}"><i style="left:${l}%;width:${w}%"></i><b style="left:${m}%"></b></div><strong class="rating-score">${r.rating}</strong></div>`}).join('')}
+function matrix(root, items, order, evidenceRows, evidenceRoot, labelNode, small = false) {
+  const byPair = new Map((items || []).map((b) => [[...b.models].sort().join("|"), b])),
+    head = order
+      .map((m) => {
+        const w = label(m).split(" "),
+          cut = w.length > 1 ? Math.ceil(w.length / 2) : 1,
+          l1 = w.slice(0, cut).join(" "),
+          l2 = w.slice(cut).join(" ");
+        return `<th><span class="matrix-col">${icon(m)}<span>${l1}${l2 ? `<br>${l2}` : ""}</span></span></th>`;
+      })
+      .join(""),
+    rows = order
+      .map(
+        (row) =>
+          `<tr><th><span class="matrix-row">${icon(row)}${label(row)}</span></th>${order
+            .map((col) => {
+              if (row === col) return '<td class="matrix-diagonal"></td>';
+              const b = byPair.get([row, col].sort().join("|"));
+              if (!b) return '<td class="matrix-empty">·</td>';
+              const w = b.votes?.[row] || 0,
+                l = b.votes?.[col] || 0,
+                n = w + l,
+                share = n ? w / n : 0.5,
+                kind = w === l ? "tie" : w > l ? "lead" : "trail",
+                strength = Math.min(0.32, 0.04 + n * 0.012),
+                ids = (b.evidence_ids || []).join(",");
+              return `<td><button class="matrix-cell ${kind}${n < 5 ? " thin" : ""}" style="--strength:${strength}" data-evidence="${ids}" data-pair="${label(row)} vs ${label(col)}" aria-label="${label(row)} ${w}, ${label(col)} ${l}"><b>${w}–${l}</b><small>${Math.round(share * 100)}% · n${n}</small></button></td>`;
+            })
+            .join("")}</tr>`,
+      )
+      .join("");
+  root.innerHTML = `<table class="battle-matrix${small ? " small" : ""}"><thead><tr><th>row wins</th>${head}</tr></thead><tbody>${rows}</tbody></table>`;
+  root.onclick = (e) => {
+    const cell = e.target.closest(".matrix-cell");
+    if (!cell) return;
+    const ids = new Set(cell.dataset.evidence.split(","));
+    labelNode.textContent = `${cell.dataset.pair} · opens on X ↗`;
+    renderCards(
+      evidenceRoot,
+      evidenceRows.filter((p) => ids.has(String(p.post_id))).sort(byDate),
+      "preference",
+    );
+    evidenceRoot.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  };
+}
+function ratings(root, rows) {
+  rows = (rows || []).filter((r) => !harnessAll.has(r.model) || shownHarness.has(r.model));
+  if (!rows?.length) {
+    root.innerHTML = '<div class="evidence-empty">Not enough connected comparisons.</div>';
+    return;
+  }
+  const lo = Math.min(...rows.map((r) => r.low_95)),
+    hi = Math.max(...rows.map((r) => r.high_95)),
+    span = Math.max(1, hi - lo);
+  root.innerHTML = [...rows]
+    .sort((a, b) => b.rating - a.rating)
+    .map((r) => {
+      const l = ((r.low_95 - lo) / span) * 100,
+        w = ((r.high_95 - r.low_95) / span) * 100,
+        m = ((r.rating - lo) / span) * 100;
+      return `<div class="rating-row"><div class="rating-name">${icon(r.model)}<span>${label(r.model)} <small style="color:var(--b48)">· ${r.votes} votes</small></span></div><div class="rating-range" aria-label="${r.rating}; interval ${r.low_95} to ${r.high_95}"><i style="left:${l}%;width:${w}%"></i><b style="left:${m}%"></b></div><strong class="rating-score">${r.rating}</strong></div>`;
+    })
+    .join("");
+}
 
 /* ---------- switching: two-column sankey ---------- */
-function sankey(svg,items,evidenceRows,evidenceRoot,labelNode){svg.innerHTML='';const flows=Object.entries(items||{}).map(([pair,count])=>{const [a,b]=pair.split(' -> ');return{a,b,count}}).filter(f=>f.count>0);if(!flows.length){svg.setAttribute('viewBox','0 0 1180 120');svg.style.height='120px';addText(svg,590,65,'No completed switches','svg-value','middle');return}
-const out=new Map(),inn=new Map();flows.forEach(f=>{out.set(f.a,(out.get(f.a)||0)+f.count);inn.set(f.b,(inn.get(f.b)||0)+f.count)});const total=flows.reduce((s,f)=>s+f.count,0);const L=[...out.entries()].sort((x,y)=>y[1]-x[1]||x[0].localeCompare(y[0])),R=[...inn.entries()].sort((x,y)=>y[1]-x[1]||x[0].localeCompare(y[0]));
-const gap=24,unit=Math.max(16,Math.min(26,(560-gap*Math.max(L.length,R.length))/total)),H=Math.max(200,Math.max(L.length,R.length)*gap+total*unit+48),xl=330,xr=850,nw=12,top=24;svg.setAttribute('viewBox',`0 0 1180 ${H}`);svg.style.height=svg.closest('.flow-duel')?'':`${H}px`;
-svg.innerHTML='<defs><pattern id="stripe-s" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#f2f2ed" stroke-width="2"/></pattern></defs>';
-const pos=(list,x,side)=>{let y=top;const m=new Map();list.forEach(([k,n])=>{const h=n*unit;m.set(k,{y,h,cursor:y});svg.append(el('rect',{x,y,width:nw,height:h,class:`s-node ${side}`}));if(side==='left'){addText(svg,x-16,y+h/2+5,`${label(k)}  ·  ${n} out`,'s-label','end')}else{addText(svg,x+nw+16,y+h/2+5,`${label(k)}  ·  ${n} in`,'s-label')}y+=h+gap});return m};
-const lm=pos(L,xl,'left'),rm=pos(R,xr,'right');
-flows.sort((x,y)=>(lm.get(x.a).y-lm.get(y.a).y)||(rm.get(x.b).y-rm.get(y.b).y));
-const ribbons=[];flows.forEach(f=>{const a=lm.get(f.a),b=rm.get(f.b),h=f.count*unit,y0=a.cursor,y1=b.cursor;a.cursor+=h;b.cursor+=h;const x0=xl+nw,x1=xr,cx=(x0+x1)/2,d=`M ${x0} ${y0} C ${cx} ${y0}, ${cx} ${y1}, ${x1} ${y1} L ${x1} ${y1+h} C ${cx} ${y1+h}, ${cx} ${y0+h}, ${x0} ${y0+h} Z`,r=el('path',{d,class:'s-ribbon'});r.dataset.a=f.a;r.dataset.b=f.b;r.dataset.count=f.count;const t=el('title');t.textContent=`${label(f.a)} → ${label(f.b)} · ${f.count}`;r.append(t);svg.append(r);ribbons.push(r)});
-svg.onclick=e=>{const r=e.target.closest('.s-ribbon');if(!r)return;ribbons.forEach(x=>x.classList.toggle('on',x===r));if(labelNode)labelNode.textContent=`${label(r.dataset.a)} → ${label(r.dataset.b)} · ${r.dataset.count} · opens on X ↗`;renderCards(evidenceRoot,evidenceRows.filter(p=>p.origin===r.dataset.a&&p.destination===r.dataset.b).sort(byDate),'switching')}}
+function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
+  svg.innerHTML = "";
+  const flows = Object.entries(items || {})
+    .map(([pair, count]) => {
+      const [a, b] = pair.split(" -> ");
+      return { a, b, count };
+    })
+    .filter((f) => f.count > 0);
+  if (!flows.length) {
+    svg.setAttribute("viewBox", "0 0 1180 120");
+    svg.style.height = "120px";
+    addText(svg, 590, 65, "No completed switches", "svg-value", "middle");
+    return;
+  }
+  const out = new Map(),
+    inn = new Map();
+  flows.forEach((f) => {
+    out.set(f.a, (out.get(f.a) || 0) + f.count);
+    inn.set(f.b, (inn.get(f.b) || 0) + f.count);
+  });
+  const total = flows.reduce((s, f) => s + f.count, 0);
+  const L = [...out.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0])),
+    R = [...inn.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+  const gap = 24,
+    unit = Math.max(16, Math.min(26, (560 - gap * Math.max(L.length, R.length)) / total)),
+    H = Math.max(200, Math.max(L.length, R.length) * gap + total * unit + 48),
+    xl = 330,
+    xr = 850,
+    nw = 12,
+    top = 24;
+  svg.setAttribute("viewBox", `0 0 1180 ${H}`);
+  svg.style.height = svg.closest(".flow-duel") ? "" : `${H}px`;
+  svg.innerHTML =
+    '<defs><pattern id="stripe-s" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#f2f2ed" stroke-width="2"/></pattern></defs>';
+  const pos = (list, x, side) => {
+    let y = top;
+    const m = new Map();
+    list.forEach(([k, n]) => {
+      const h = n * unit;
+      m.set(k, { y, h, cursor: y });
+      svg.append(el("rect", { x, y, width: nw, height: h, class: `s-node ${side}` }));
+      if (side === "left") {
+        addText(svg, x - 16, y + h / 2 + 5, `${label(k)}  ·  ${n} out`, "s-label", "end");
+      } else {
+        addText(svg, x + nw + 16, y + h / 2 + 5, `${label(k)}  ·  ${n} in`, "s-label");
+      }
+      y += h + gap;
+    });
+    return m;
+  };
+  const lm = pos(L, xl, "left"),
+    rm = pos(R, xr, "right");
+  flows.sort((x, y) => lm.get(x.a).y - lm.get(y.a).y || rm.get(x.b).y - rm.get(y.b).y);
+  const ribbons = [];
+  flows.forEach((f) => {
+    const a = lm.get(f.a),
+      b = rm.get(f.b),
+      h = f.count * unit,
+      y0 = a.cursor,
+      y1 = b.cursor;
+    a.cursor += h;
+    b.cursor += h;
+    const x0 = xl + nw,
+      x1 = xr,
+      cx = (x0 + x1) / 2,
+      d = `M ${x0} ${y0} C ${cx} ${y0}, ${cx} ${y1}, ${x1} ${y1} L ${x1} ${y1 + h} C ${cx} ${y1 + h}, ${cx} ${y0 + h}, ${x0} ${y0 + h} Z`,
+      r = el("path", { d, class: "s-ribbon" });
+    r.dataset.a = f.a;
+    r.dataset.b = f.b;
+    r.dataset.count = f.count;
+    const t = el("title");
+    t.textContent = `${label(f.a)} → ${label(f.b)} · ${f.count}`;
+    r.append(t);
+    svg.append(r);
+    ribbons.push(r);
+  });
+  svg.onclick = (e) => {
+    const r = e.target.closest(".s-ribbon");
+    if (!r) return;
+    ribbons.forEach((x) => x.classList.toggle("on", x === r));
+    if (labelNode)
+      labelNode.textContent = `${label(r.dataset.a)} → ${label(r.dataset.b)} · ${r.dataset.count} · opens on X ↗`;
+    renderCards(
+      evidenceRoot,
+      evidenceRows
+        .filter((p) => p.origin === r.dataset.a && p.destination === r.dataset.b)
+        .sort(byDate),
+      "switching",
+    );
+  };
+}
 
 /* ---------- harness duel ---------- */
-function harnessDuel(h){const pair=(h.head_to_head||[]).find(b=>b.models.includes('claude_code')&&b.models.includes('codex'))||{votes:{},n:0},cc=pair.votes?.claude_code||0,cx=pair.votes?.codex||0,n=cc+cx,sw=h.switches?.by_direction||{},ccx=sw['claude_code -> codex']||0,cxc=sw['codex -> claude_code']||0,ccSent=(h.sentiment||[]).find(m=>m.model==='claude_code')?.firsthand||{},cxSent=(h.sentiment||[]).find(m=>m.model==='codex')?.firsthand||{};$('#harnessDuel').innerHTML=`<p class="duel-title">direct head-to-head, people who used both</p><div class="duel-rows"><div class="duel-r win"><span class="duel-who">${icon('codex')}Codex</span><div class="duel-bar"><i style="width:${n?cx/n*100:0}%"></i></div><strong>${cx}</strong></div><div class="duel-r"><span class="duel-who">${icon('claude_code')}Claude Code</span><div class="duel-bar"><i style="width:${n?cc/n*100:0}%"></i></div><strong>${cc}</strong></div></div><p class="duel-read">${n?`${Math.round(cx/n*100)}% chose Codex · ${n} votes`:'No direct comparisons this week.'}</p><div class="chooser-result"><span>completed switches between the two</span><strong>${ccx+cxc}</strong><small>${ccx} to Codex · ${cxc} back to Claude Code</small></div>`;$('#harnessFieldNote').textContent='preference and switching kept separate'}
+function harnessDuel(h) {
+  const pair = (h.head_to_head || []).find(
+      (b) => b.models.includes("claude_code") && b.models.includes("codex"),
+    ) || { votes: {}, n: 0 },
+    cc = pair.votes?.claude_code || 0,
+    cx = pair.votes?.codex || 0,
+    n = cc + cx,
+    sw = h.switches?.by_direction || {},
+    ccx = sw["claude_code -> codex"] || 0,
+    cxc = sw["codex -> claude_code"] || 0,
+    ccSent = (h.sentiment || []).find((m) => m.model === "claude_code")?.firsthand || {},
+    cxSent = (h.sentiment || []).find((m) => m.model === "codex")?.firsthand || {};
+  $("#harnessDuel").innerHTML =
+    `<p class="duel-title">direct head-to-head, people who used both</p><div class="duel-rows"><div class="duel-r win"><span class="duel-who">${icon("codex")}Codex</span><div class="duel-bar"><i style="width:${n ? (cx / n) * 100 : 0}%"></i></div><strong>${cx}</strong></div><div class="duel-r"><span class="duel-who">${icon("claude_code")}Claude Code</span><div class="duel-bar"><i style="width:${n ? (cc / n) * 100 : 0}%"></i></div><strong>${cc}</strong></div></div><p class="duel-read">${n ? `${Math.round((cx / n) * 100)}% chose Codex · ${n} votes` : "No direct comparisons this week."}</p><div class="chooser-result"><span>completed switches between the two</span><strong>${ccx + cxc}</strong><small>${ccx} to Codex · ${cxc} back to Claude Code</small></div>`;
+  $("#harnessFieldNote").textContent = "preference and switching kept separate";
+}
 
 /* ---------- hero mural ---------- */
-function mural(rows){const root=$('#muralGrid'),posts=rows.filter(p=>p.firsthand).sort(byDate);if(!posts.length){root.innerHTML='<p class="mural-loading">The conversation is quiet.</p>';return}const c=(p,i,enter=false)=>{const axis=i%2?'flip-x':'flip-y',who=label(p.model||p.harness||p.family);return`<a class="mural-card ${axis}${enter?' is-entering':''}" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${esc(who)} · ${esc(p.sentiment)}</b><small>${esc(p.aspect||'')}</small></span></header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">↗</span></a>`};let pool=posts.slice(0,400);pool.sort(()=>Math.random()-.5);root.innerHTML=pool.slice(0,6).map((p,i)=>c(p,i)).join('');if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&pool.length>6){let cursor=6;setInterval(()=>{const cells=[...root.children],i=cursor%cells.length,current=cells[i];if(!current)return;current.classList.add('is-flipping');setTimeout(()=>{if(!current.parentNode)return;current.outerHTML=c(pool[cursor%pool.length],i,true);cursor++},260)},3400)}}
+function mural(rows) {
+  const root = $("#muralGrid"),
+    posts = rows.filter((p) => p.firsthand).sort(byDate);
+  if (!posts.length) {
+    root.innerHTML = '<p class="mural-loading">The conversation is quiet.</p>';
+    return;
+  }
+  const c = (p, i, enter = false) => {
+    const axis = i % 2 ? "flip-x" : "flip-y",
+      who = label(p.model || p.harness || p.family);
+    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${esc(who)} · ${esc(p.sentiment)}</b><small>${esc(p.aspect || "")}</small></span></header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">↗</span></a>`;
+  };
+  let pool = posts.slice(0, 400);
+  pool.sort(() => Math.random() - 0.5);
+  root.innerHTML = pool
+    .slice(0, 6)
+    .map((p, i) => c(p, i))
+    .join("");
+  if (!matchMedia("(prefers-reduced-motion: reduce)").matches && pool.length > 6) {
+    let cursor = 6;
+    setInterval(() => {
+      const cells = [...root.children],
+        i = cursor % cells.length,
+        current = cells[i];
+      if (!current) return;
+      current.classList.add("is-flipping");
+      setTimeout(() => {
+        if (!current.parentNode) return;
+        current.outerHTML = c(pool[cursor % pool.length], i, true);
+        cursor++;
+      }, 260);
+    }, 3400);
+  }
+}
 
 /* ---------- method ---------- */
-function method(s,ev){const c=s.corpus||{},rows=[['posts classified',fmt(c.classified_posts),'one language-model pass per post, no keyword rules'],['reviewer corrections',fmt(c.reviewer_overrides),'flagged and sampled posts re-labeled by hand; replace the record wholesale'],['accounts excluded',fmt(c.excluded_ai_authors),`${fmt(c.excluded_posts)} posts from reply bots and spam accounts dropped before counting`],['quota audit',fmt(c.quota_audit?.lines_read),`model lines about cost re-read: ${fmt(c.quota_audit?.moved_to_harness)} plan-limit complaints moved to the harness, ${fmt(c.quota_audit?.dropped_untracked_plan)} on untracked plans dropped`],['model stances recorded',fmt(ev.sentiment?.length),`${fmt(ev.sentiment?.filter(r=>r.firsthand).length)} firsthand · ${fmt(ev.family_sentiment?.length)} on unversioned names`],['harness stances recorded',fmt(ev.harness_sentiment?.length),`${fmt(ev.harness_sentiment?.filter(r=>r.firsthand).length)} firsthand across five harnesses`],['preferences recorded',fmt(ev.preference?.length),`${fmt(s.preference?.firsthand_votes)} firsthand votes scored · ${fmt(s.preference?.benchmark_reposts)} benchmark reposts set aside`],['completed switches',fmt((ev.switching?.length||0)+(ev.harness_switching?.length||0)),`${fmt(ev.switching?.length)} between models · ${fmt(ev.harness_switching?.length)} between harnesses`]];$('#methodTable').innerHTML=`<div class="quality-row"><span>measure</span><span>count</span><span>note</span></div>${rows.map(([a,b,c])=>`<div class="quality-row"><strong>${a}</strong><span class="quality-status">${b}</span><span>${c}</span></div>`).join('')}`}
+function method(s, ev) {
+  const c = s.corpus || {},
+    rows = [
+      [
+        "posts classified",
+        fmt(c.classified_posts),
+        "one language-model pass per post, no keyword rules",
+      ],
+      [
+        "reviewer corrections",
+        fmt(c.reviewer_overrides),
+        "flagged and sampled posts re-labeled by hand; replace the record wholesale",
+      ],
+      [
+        "accounts excluded",
+        fmt(c.excluded_ai_authors),
+        `${fmt(c.excluded_posts)} posts from reply bots and spam accounts dropped before counting`,
+      ],
+      [
+        "quota audit",
+        fmt(c.quota_audit?.lines_read),
+        `model lines about cost re-read: ${fmt(c.quota_audit?.moved_to_harness)} plan-limit complaints moved to the harness, ${fmt(c.quota_audit?.dropped_untracked_plan)} on untracked plans dropped`,
+      ],
+      [
+        "model stances recorded",
+        fmt(ev.sentiment?.length),
+        `${fmt(ev.sentiment?.filter((r) => r.firsthand).length)} firsthand · ${fmt(ev.family_sentiment?.length)} on unversioned names`,
+      ],
+      [
+        "harness stances recorded",
+        fmt(ev.harness_sentiment?.length),
+        `${fmt(ev.harness_sentiment?.filter((r) => r.firsthand).length)} firsthand across five harnesses`,
+      ],
+      [
+        "preferences recorded",
+        fmt(ev.preference?.length),
+        `${fmt(s.preference?.firsthand_votes)} firsthand votes scored · ${fmt(s.preference?.benchmark_reposts)} benchmark reposts set aside`,
+      ],
+      [
+        "completed switches",
+        fmt((ev.switching?.length || 0) + (ev.harness_switching?.length || 0)),
+        `${fmt(ev.switching?.length)} between models · ${fmt(ev.harness_switching?.length)} between harnesses`,
+      ],
+    ];
+  $("#methodTable").innerHTML =
+    `<div class="quality-row"><span>measure</span><span>count</span><span>note</span></div>${rows.map(([a, b, c]) => `<div class="quality-row"><strong>${a}</strong><span class="quality-status">${b}</span><span>${c}</span></div>`).join("")}`;
+}
 
-async function init(){heroMesh();$('#trackedModels').innerHTML=modelOrder.map(m=>`<span>${icon(m)}${label(m)}</span>`).join('');$('#trackedHarnesses').innerHTML=harnessOrder.map(m=>`<span>${icon(m)}${label(m)}</span>`).join('');try{const [summary,ev]=await Promise.all([fetch('data/labels-v2/public-summary.json').then(r=>r.json()),fetch('data/labels-v2/public-evidence.json').then(r=>r.json())]);EV=ev;DIMS=summary.dimensions||DIMS;const corpus=summary.corpus||{},w=summary.window||{};$('#statPosts').textContent=fmt(corpus.unique_posts);$('#statAuthors').textContent=fmt(corpus.unique_authors);$('#statFirsthand').textContent=fmt([...(ev.sentiment||[]),...(ev.harness_sentiment||[]),...(ev.family_sentiment||[])].filter(r=>r.firsthand).length);$('#statOverrides').textContent=fmt(corpus.reviewer_overrides);const fmtDay=d=>new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});$('#footWindow').textContent=`window ${fmtDay(w.start)} to ${fmtDay(w.end)}`;
-const modelRows=summary.sentiment.models,drawModels=mode=>sentimentRows($('#sentimentRows'),modelRows,ev.sentiment||[],'model',mode);drawModels('firsthand');$('#sentimentMode').onclick=e=>{const b=e.target.closest('button');if(!b)return;[...e.currentTarget.children].forEach(x=>x.classList.toggle('on',x===b));drawModels(b.dataset.mode)};
-radar($('#radarModels'),$('#radarModelsLegend'),summary.sentiment.models,'model',['claude-fable-5.1','gpt-5.6-sol','glm-5.3-flash','grok-4.6']);radar($('#radarHarness'),$('#radarHarnessLegend'),(summary.harnesses||{}).sentiment,'harness',['claude_code','codex','grokbot']);book($('#aspectModels'),summary.sentiment.models,'model',ev.sentiment||[],'model');book($('#aspectHarness'),(summary.harnesses||{}).sentiment,'harness',ev.harness_sentiment||[],'harness');
-const pref=summary.preference,h2h=pref.head_to_head||[];matrix($('#battleList'),h2h,modelOrder,ev.preference||[],$('#battleEvidence'),$('#battleEvidenceLabel'));renderCards($('#battleEvidence'),(ev.preference||[]).filter(p=>p.firsthand).sort(byDate).slice(0,40),'preference');$('#preferenceTotals').textContent=`${fmt(pref.firsthand_votes)} votes · ${fmt(pref.distinct_authors)} people · ${h2h.length} matchups`;ratings($('#ratingChart'),pref.xbenchpref?.ratings);$('#ratingCount').textContent=fmt(pref.firsthand_votes);$('#ratingMatchups').textContent=h2h.length;
-sankey($('#switchChart'),summary.switching.by_origin_destination,ev.switching||[],$('#switchEvidence'),$('#switchEvidenceLabel'));$('#switchingCount').textContent=`${summary.switching.verified_completed_switches} completed`;renderCards($('#switchEvidence'),(ev.switching||[]).sort(byDate),'switching');
-const h=summary.harnesses||{};sentimentRows($('#harnessRows'),h.sentiment,ev.harness_sentiment||[],'harness');harnessDuel(h);matrix($('#harnessMatrix'),h.head_to_head,harnessOrder,ev.harness||[],$('#harnessEvidence'),$('#harnessEvidenceLabel'),true);ratings($('#harnessRating'),h.ratings);renderCards($('#harnessEvidence'),(ev.harness||[]).filter(p=>p.firsthand).sort(byDate).slice(0,40),'preference');sankey($('#harnessSwitchChart'),Object.fromEntries(Object.entries(h.switches?.by_direction||{}).filter(([k])=>k.split(' -> ').every(x=>shownHarness.has(x)))),(ev.harness_switching||[]).filter(p=>shownHarness.has(p.origin)&&shownHarness.has(p.destination)),$('#harnessSwitchEvidence'),$('#harnessSwitchEvidenceLabel'));{const hs=(ev.harness_switching||[]).filter(p=>shownHarness.has(p.origin)&&shownHarness.has(p.destination));$('#harnessSwitchCount').textContent=`${hs.length}`;renderCards($('#harnessSwitchEvidence'),hs.sort(byDate),'switching')}
-method(summary,ev);mural([...(ev.sentiment||[]),...(ev.harness_sentiment||[])])}catch(err){console.error(err);document.body.classList.add('data-error');$('#footWindow').textContent='data could not load'}}
+async function init() {
+  heroMesh();
+  $("#trackedModels").innerHTML = modelOrder
+    .map((m) => `<span>${icon(m)}${label(m)}</span>`)
+    .join("");
+  $("#trackedHarnesses").innerHTML = harnessOrder
+    .map((m) => `<span>${icon(m)}${label(m)}</span>`)
+    .join("");
+  try {
+    const [summary, ev] = await Promise.all([
+      fetch("data/labels-v2/public-summary.json").then((r) => r.json()),
+      fetch("data/labels-v2/public-evidence.json").then((r) => r.json()),
+    ]);
+    EV = ev;
+    DIMS = summary.dimensions || DIMS;
+    const corpus = summary.corpus || {},
+      w = summary.window || {};
+    $("#statPosts").textContent = fmt(corpus.unique_posts);
+    $("#statAuthors").textContent = fmt(corpus.unique_authors);
+    $("#statFirsthand").textContent = fmt(
+      [
+        ...(ev.sentiment || []),
+        ...(ev.harness_sentiment || []),
+        ...(ev.family_sentiment || []),
+      ].filter((r) => r.firsthand).length,
+    );
+    $("#statOverrides").textContent = fmt(corpus.reviewer_overrides);
+    const fmtDay = (d) =>
+      new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    $("#footWindow").textContent = `window ${fmtDay(w.start)} to ${fmtDay(w.end)}`;
+    const modelRows = summary.sentiment.models,
+      drawModels = (mode) =>
+        sentimentRows($("#sentimentRows"), modelRows, ev.sentiment || [], "model", mode);
+    drawModels("firsthand");
+    $("#sentimentMode").onclick = (e) => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      [...e.currentTarget.children].forEach((x) => x.classList.toggle("on", x === b));
+      drawModels(b.dataset.mode);
+    };
+    radar($("#radarModels"), $("#radarModelsLegend"), summary.sentiment.models, "model", [
+      "claude-fable-5.1",
+      "gpt-5.6-sol",
+      "glm-5.3-flash",
+      "grok-4.6",
+    ]);
+    radar(
+      $("#radarHarness"),
+      $("#radarHarnessLegend"),
+      (summary.harnesses || {}).sentiment,
+      "harness",
+      ["claude_code", "codex", "grokbot"],
+    );
+    book($("#aspectModels"), summary.sentiment.models, "model", ev.sentiment || [], "model");
+    book(
+      $("#aspectHarness"),
+      (summary.harnesses || {}).sentiment,
+      "harness",
+      ev.harness_sentiment || [],
+      "harness",
+    );
+    const pref = summary.preference,
+      h2h = pref.head_to_head || [];
+    matrix(
+      $("#battleList"),
+      h2h,
+      modelOrder,
+      ev.preference || [],
+      $("#battleEvidence"),
+      $("#battleEvidenceLabel"),
+    );
+    renderCards(
+      $("#battleEvidence"),
+      (ev.preference || [])
+        .filter((p) => p.firsthand)
+        .sort(byDate)
+        .slice(0, 40),
+      "preference",
+    );
+    $("#preferenceTotals").textContent =
+      `${fmt(pref.firsthand_votes)} votes · ${fmt(pref.distinct_authors)} people · ${h2h.length} matchups`;
+    ratings($("#ratingChart"), pref.xbenchpref?.ratings);
+    $("#ratingCount").textContent = fmt(pref.firsthand_votes);
+    $("#ratingMatchups").textContent = h2h.length;
+    sankey(
+      $("#switchChart"),
+      summary.switching.by_origin_destination,
+      ev.switching || [],
+      $("#switchEvidence"),
+      $("#switchEvidenceLabel"),
+    );
+    $("#switchingCount").textContent = `${summary.switching.verified_completed_switches} completed`;
+    renderCards($("#switchEvidence"), (ev.switching || []).sort(byDate), "switching");
+    const h = summary.harnesses || {};
+    sentimentRows($("#harnessRows"), h.sentiment, ev.harness_sentiment || [], "harness");
+    harnessDuel(h);
+    matrix(
+      $("#harnessMatrix"),
+      h.head_to_head,
+      harnessOrder,
+      ev.harness || [],
+      $("#harnessEvidence"),
+      $("#harnessEvidenceLabel"),
+      true,
+    );
+    ratings($("#harnessRating"), h.ratings);
+    renderCards(
+      $("#harnessEvidence"),
+      (ev.harness || [])
+        .filter((p) => p.firsthand)
+        .sort(byDate)
+        .slice(0, 40),
+      "preference",
+    );
+    sankey(
+      $("#harnessSwitchChart"),
+      Object.fromEntries(
+        Object.entries(h.switches?.by_direction || {}).filter(([k]) =>
+          k.split(" -> ").every((x) => shownHarness.has(x)),
+        ),
+      ),
+      (ev.harness_switching || []).filter(
+        (p) => shownHarness.has(p.origin) && shownHarness.has(p.destination),
+      ),
+      $("#harnessSwitchEvidence"),
+      $("#harnessSwitchEvidenceLabel"),
+    );
+    {
+      const hs = (ev.harness_switching || []).filter(
+        (p) => shownHarness.has(p.origin) && shownHarness.has(p.destination),
+      );
+      $("#harnessSwitchCount").textContent = `${hs.length}`;
+      renderCards($("#harnessSwitchEvidence"), hs.sort(byDate), "switching");
+    }
+    method(summary, ev);
+    mural([...(ev.sentiment || []), ...(ev.harness_sentiment || [])]);
+  } catch (err) {
+    console.error(err);
+    document.body.classList.add("data-error");
+    $("#footWindow").textContent = "data could not load";
+  }
+}
 init();
