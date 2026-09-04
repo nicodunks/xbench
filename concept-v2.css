@@ -1,0 +1,27 @@
+@import url("concept.css?v=20");
+/* v2 additions: sentiment modes, sparklines, aspect drawers, harness matrix, method table */
+.tracked header+div+header{border-top:1px dashed var(--b28)}
+.mode-switch{display:flex;gap:2px;border:1px dashed var(--b28)}.mode-switch button{padding:8px 12px;border:0;background:transparent;color:var(--b48);font:10px XMono,"Andale Mono",monospace;text-transform:uppercase;letter-spacing:.06em;cursor:pointer}.mode-switch button.on{background:var(--blue);color:var(--ink)}.mode-switch button:hover:not(.on){color:var(--blue)}
+.pattern-key .key-note{margin-left:auto;color:var(--b28)}
+.sentiment-axis{grid-template-columns:210px 1fr 90px 60px}
+.sentiment-row{grid-template-columns:210px 1fr;cursor:pointer;transition:background .15s}.sentiment-row:hover{background:var(--b07)}.sentiment-row.open{background:var(--b07)}
+.sentiment-main{grid-template-columns:1fr 90px 60px}
+.sentiment-name small{display:block;font-size:9px}
+.sentiment-name small b{font-weight:400;color:var(--b70)}
+.spark{height:24px;display:flex;align-items:flex-end;gap:2px;border-bottom:1px solid var(--b18)}.spark i{display:block;flex:1;min-height:1px;background:var(--b28)}.spark i.up{background:var(--signal-blue)}.spark i.down{background:rgba(255,120,120,.6)}.spark i.empty{background:transparent;border-bottom:1px dotted var(--b28)}
+.metric-tail{font-size:18px}
+.drawer{grid-column:1/-1;display:none;margin-top:14px;padding:18px 0 4px;border-top:1px dashed var(--b18);cursor:default}.sentiment-row.open .drawer{display:block}
+.aspects{display:grid;grid-template-columns:1fr 1fr;gap:26px}.aspects h4{margin:0 0 10px;color:var(--b48);font-size:9px;font-weight:400;text-transform:uppercase;letter-spacing:.08em}.aspects h4:before{content:"// "}.aspects ul{margin:0;padding:0;list-style:none}.aspects li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:5px 0;border-bottom:1px dotted var(--b15);color:var(--b70);font-size:11px}.aspects li b{font-weight:400;color:var(--b48)}.aspects .positive li:first-child{color:var(--blue)}.aspects .negative li:first-child{color:rgba(255,150,150,.9)}
+.tasks{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 0}.tasks span{padding:3px 8px;border:1px solid var(--b18);color:var(--b48);font-size:9px;text-transform:uppercase}.tasks span b{font-weight:400;color:var(--b70)}
+.drawer .evidence-scroll{margin-top:16px;border-top:1px dashed var(--b18)}
+.counted-tweet footer{gap:10px;flex-wrap:wrap}.counted-tweet footer .tag{padding:1px 5px;border:1px solid var(--b28)}.counted-tweet footer .tag.fh{border-color:var(--signal-blue);color:var(--signal-blue)}.counted-tweet footer .tag.neg{border-color:rgba(255,120,120,.5);color:rgba(255,150,150,.9)}.counted-tweet footer .tag.mix{border-style:dashed}
+.counted-tweet .why{display:-webkit-box;overflow:hidden;margin:0 0 10px;color:var(--b48);font-size:9px;line-height:1.45;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.battle-matrix.small thead th{width:96px}.battle-matrix.small td{width:96px}.battle-matrix.small thead th:first-child,.battle-matrix.small tbody th{width:150px}
+.preference-duel .duel-lines{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;margin:16px 0}.duel-lines>div{height:26px;border:1px solid var(--b28)}.duel-lines>div i{display:block;height:100%;background:var(--blue)}.duel-lines>div:last-child i{margin-left:auto;background:repeating-linear-gradient(135deg,var(--blue) 0 1px,transparent 1px 4px)}.duel-lines span{color:var(--b48);font-size:9px;text-transform:uppercase}
+.switch-list{margin:0;padding:0;list-style:none}.switch-list li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:9px 0;border-bottom:1px dashed var(--b15);font-size:12px}.switch-list li span:before{content:"> ";color:var(--b48)}.switch-list li b{font-weight:400;font-size:16px}.switch-list li span{color:var(--b70)}
+.harness-grid{grid-template-columns:1.1fr .9fr}.preference-duel{border-right:1px dashed var(--b28)}.attention-duel{border-right:0}
+.quality-row{grid-template-columns:1.4fr .6fr 2fr}
+.method-tag,.rating-state{max-width:420px;white-space:normal;text-align:right}
+@media(max-width:980px){.harness-grid{grid-template-columns:1fr}.preference-duel{border-right:0;border-bottom:1px dashed var(--b28)}.aspects{grid-template-columns:1fr}.sentiment-axis{display:none}}
+@media(max-width:680px){.sentiment-main{grid-template-columns:1fr 60px 50px}.mode-switch{flex-wrap:wrap}}
+.readme-block p:nth-child(odd){color:var(--blue);font-size:9px;text-transform:uppercase;letter-spacing:.08em;margin-top:14px}.readme-block p:first-child{margin-top:0}
