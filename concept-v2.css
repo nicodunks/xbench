@@ -70,4 +70,4 @@
 /* hero: title and subtitle only */
 .hero-copy{justify-content:center;padding-top:60px;padding-bottom:60px}.hero-copy .hero-status{margin-top:64px}.hero-copy:before{display:none}.hero h1{font-size:clamp(64px,7vw,112px);letter-spacing:-.06em}.subtitle{margin:22px 0 0;color:var(--b70);font-size:15px;letter-spacing:.2em;text-transform:uppercase}.subtitle:before{content:"// ";color:var(--b28)}
 .counted-tweet header,.mural-card header{gap:0}.counted-tweet header span,.mural-card header span{min-width:0}
-.battle-matrix .matrix-cell.thin{--strength:.03;border-color:var(--b15);color:var(--b48)}.battle-matrix .matrix-cell.thin small{color:var(--b28)}.battle-matrix .matrix-cell.thin:hover,.battle-matrix .matrix-cell.thin:focus-visible{color:var(--blue)}
+.battle-matrix .matrix-cell.thin{--strength:0;background:transparent;border-color:var(--b07);color:var(--b18)}.battle-matrix .matrix-cell.thin small{color:var(--b15)}.battle-matrix .matrix-cell.thin:hover,.battle-matrix .matrix-cell.thin:focus-visible{color:var(--blue)}
