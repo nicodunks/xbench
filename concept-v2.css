@@ -94,7 +94,7 @@
 /* dialled-back terminal chrome */
 .subtitle:before{content:""}.wordmark span{margin-left:8px;color:var(--b48)}
 .window-chip:before,.window-chip:after{content:""}
-.rail a span{display:inline-block;width:30px;color:var(--b28)}.rail a{text-transform:capitalize}.rail p{color:var(--b48);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.rail a span{display:inline-block;width:30px;color:var(--b28)}.rail p{color:var(--b48);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
 .method-tag:before,.method-tag:after,.rating-state:before,.rating-state:after{content:""}
 .manifest strong:after{content:"";animation:none}.manifest span:before{content:""}
 .file-label:before{content:""}.file-label{text-transform:uppercase}
