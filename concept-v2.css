@@ -107,3 +107,7 @@
 /* notes */
 .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:0}.note{padding:24px 28px;border-right:1px dashed var(--b18)}.note:last-child{border-right:0}.note h4{margin:0 0 12px;font-size:12px;font-weight:400;letter-spacing:.06em;text-transform:uppercase;color:var(--blue)}.note p{margin:0 0 12px;color:var(--b70);font-size:13px;line-height:1.7}.note p:last-child{margin-bottom:0}
 @media(max-width:980px){.notes{grid-template-columns:1fr}.note{border-right:0;border-bottom:1px dashed var(--b18)}}
+
+/* hero: larger wordmark, framed mural */
+.hero h1{font-size:clamp(84px,9vw,150px)}.subtitle{font-size:17px;margin-top:26px}
+.hero-index{padding:18px;border:1px dashed var(--b48);position:relative}.hero-index:before{content:"+";display:block;position:absolute;top:-7px;left:-1px;background:var(--ink);color:var(--blue);line-height:1}.hero-index:after{content:"+";position:absolute;top:-7px;right:-1px;background:var(--ink);color:var(--blue);line-height:1}.file-label{margin-bottom:12px}
