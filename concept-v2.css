@@ -82,3 +82,6 @@
 .book-page{border-bottom:0}
 .tracked>div+div{border-top:1px dashed var(--b28)}
 .tracked{margin:0;border-left:0;border-right:0}@media(max-width:680px){.tracked{margin:0}}
+
+/* duel rows */
+.duel-rows{display:flex;flex-direction:column;gap:14px;margin:26px 0 16px}.duel-r{display:grid;grid-template-columns:150px 1fr 60px;gap:16px;align-items:center}.duel-who{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--b70)}.duel-who img{width:18px;height:18px;filter:grayscale(1) invert(1) brightness(2)}.duel-bar{height:30px;border:1px solid var(--b28)}.duel-bar i{display:block;height:100%;background:repeating-linear-gradient(135deg,var(--blue) 0 1px,transparent 1px 5px)}.duel-r strong{font-weight:400;font-size:30px;letter-spacing:-.04em;text-align:right;color:var(--b70)}.duel-r.win .duel-who{color:var(--blue)}.duel-r.win .duel-bar i{background:var(--signal-blue)}.duel-r.win strong{color:var(--signal-blue)}.duel-read{margin:0 0 6px;color:var(--b70)}
