@@ -66,3 +66,6 @@
 /* aspect book */
 .book{padding:0 28px 8px}.book-page{padding:26px 0 22px;border-bottom:1px dashed var(--b18)}.book-page:last-child{border-bottom:0}.book-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin-bottom:16px}.book-name{display:flex;align-items:center;gap:10px}.book-name img{width:20px;height:20px;filter:grayscale(1) invert(1) brightness(2)}.book-name strong{font-weight:400;font-size:18px;letter-spacing:-.02em}.book-name strong:before{content:"> ";color:var(--b48)}.book-meta{display:flex;align-items:baseline;gap:14px;color:var(--b48);font-size:10px;text-transform:uppercase;letter-spacing:.05em}.book-meta b{font-weight:400;font-size:20px;letter-spacing:0;text-transform:none}.book-meta b.positive{color:var(--signal-blue)}.book-meta b.negative{color:rgba(255,120,120,.75)}.book-meta b.neutral{color:var(--b48)}
 .book .drawer{display:block;margin:0;padding:0;border:0}.book .scorecard{margin-bottom:10px}
+
+/* hero: title and subtitle only */
+.hero-copy{justify-content:center;padding-top:80px}.hero-copy:before{display:none}.hero h1{font-size:clamp(64px,7vw,112px);letter-spacing:-.06em}.subtitle{margin:22px 0 0;color:var(--b70);font-size:15px;letter-spacing:.2em;text-transform:uppercase}.subtitle:before{content:"// ";color:var(--b28)}
