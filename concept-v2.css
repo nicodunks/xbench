@@ -89,3 +89,4 @@
 /* duel + flow side by side */
 .harness-grid{grid-template-columns:.85fr 1.15fr}.flow-duel{padding:34px 30px 10px}.flow-duel .sankey{width:100%;height:auto;margin-top:8px}.flow-duel .sankey .s-label{font-size:22px}.flow-duel .duel-title{margin-bottom:8px}
 .chapter-head>p:empty{display:none}
+.flow-duel{display:flex;flex-direction:column;justify-content:flex-start}.flow-duel .sankey{margin-top:0}.harness-grid{min-height:0}
