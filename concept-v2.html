@@ -8,7 +8,7 @@
 <body>
   <header class="topbar">
     <a class="wordmark" href="#top"><span>[</span><strong>XBENCH</strong><span>] v2</span></a>
-    <nav><a href="#sentiment">[sentiment]</a><a href="#switching">[switching]</a><a href="#preference">[head-to-head]</a><a href="#harnesses">[harnesses]</a><a href="#aspects">[aspects]</a><a href="#method">[method]</a></nav>
+    <nav><a href="#sentiment">[sentiment]</a><a href="#switching">[switching]</a><a href="#preference">[head-to-head]</a><a href="#harnesses">[harnesses]</a><a href="#aspects">[reasons]</a><a href="#method">[method]</a></nav>
     <div class="window-chip"><i></i><span>rolling 7d</span></div>
   </header>
   <main id="top">
@@ -23,7 +23,7 @@
     <section class="manifest"><div><span>posts read</span><strong id="statPosts">—</strong></div><div><span>people heard</span><strong id="statAuthors">—</strong></div><div><span>firsthand opinions</span><strong id="statFirsthand">—</strong></div><div><span>reviewer corrections</span><strong id="statOverrides">—</strong></div></section>
     <section class="tracked"><div id="trackedModels"></div><div id="trackedHarnesses"></div></section>
     <div class="report-shell">
-      <aside class="rail"><p>INDEX.md</p><a href="#sentiment">- [01] sentiment</a><a href="#switching">- [02] switching</a><a href="#preference">- [03] head-to-head</a><a href="#harnesses">- [04] harnesses</a><a href="#aspects">- [05] aspects</a><a href="#method">- [06] method</a></aside>
+      <aside class="rail"><p>INDEX.md</p><a href="#sentiment">- [01] sentiment</a><a href="#switching">- [02] switching</a><a href="#preference">- [03] head-to-head</a><a href="#harnesses">- [04] harnesses</a><a href="#aspects">- [05] reasons</a><a href="#method">- [06] method</a></aside>
       <div class="report">
         <section class="chapter" id="sentiment">
           <header class="chapter-head"><div><span>## 01</span><h2>Sentiment</h2></div><p>What people said after using a model.</p></header>
@@ -45,7 +45,7 @@
           <article class="panel"><div class="panel-head"><div><p class="label">[ all three ]</p><h3>Harness matrix and rating</h3></div><div class="method-tag">select a cell for the posts</div></div><div class="matrix-scroll"><div id="harnessMatrix"></div></div><div class="rating-chart" id="harnessRating"></div><div class="counted-evidence"><div class="evidence-heading"><span>[ the posts ]</span><small id="harnessEvidenceLabel">opens on X ↗</small></div><div class="evidence-scroll" id="harnessEvidence"></div></div><footer><span>read the interval, not the point</span></footer></article>
         </section>
         <section class="chapter" id="aspects">
-          <header class="chapter-head"><div><span>## 05</span><h2>Aspects</h2></div><p>Why people felt the way they did. Every stance names a reason, filed under one of five dimensions.</p></header>
+          <header class="chapter-head"><div><span>## 05</span><h2>Reasons</h2></div><p>The reasons for people's sentiments, preferences, and switches.</p></header>
           <article class="panel radar-panel"><div class="panel-head"><div><p class="label">[ shape of each model ]</p><h3>Where the shapes overlap</h3></div><div class="method-tag">outer ring +100 · middle 0 · centre −100 · select up to four</div></div><div class="radar-wrap"><svg class="radar" id="radarModels" viewBox="0 0 560 560"></svg><div class="radar-legend" id="radarModelsLegend"></div></div><footer><span>hollow point: fewer than five people · models under 30 authors left off</span><span>hover a name to preview it</span></footer></article>
           <article class="panel radar-panel"><div class="panel-head"><div><p class="label">[ shape of each harness ]</p><h3>Where the tools trade off</h3></div><div class="method-tag">same scale</div></div><div class="radar-wrap"><svg class="radar" id="radarHarness" viewBox="0 0 560 560"></svg><div class="radar-legend" id="radarHarnessLegend"></div></div><footer><span>hover a name to preview it</span></footer></article>
           <article class="panel"><div class="panel-head"><div><p class="label">[ model by model ]</p><h3>Why each model is liked and disliked</h3></div><div class="method-tag">pick a model</div></div><div class="book" id="aspectModels"></div><footer><span>dimensions with fewer than five people are dimmed</span></footer></article>
