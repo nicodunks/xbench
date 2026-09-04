@@ -9,6 +9,7 @@ from the stored X count queries; no new X calls happen here.
 from __future__ import annotations
 
 import glob
+import hashlib
 import json
 import math
 import random
@@ -21,7 +22,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 V2 = DATA / "labels-v2"
-OLD = json.loads((DATA / "rolling-7d" / "public-summary.json").read_text())
+OLD = json.loads((DATA / "window.json").read_text())
 MODELS = OLD["taxonomy"]["tracked_model_ids"]
 HARNESSES = ["claude_code", "codex", "opencode", "pi", "grokbot"]
 FAMILIES = ["claude", "gpt", "gemini", "grok", "glm", "kimi", "muse"]
@@ -84,7 +85,10 @@ def collapsed(rows):
 
 def main():
     corpus = {}
-    for line in (DATA / "agent-rebuild" / "corpus.jsonl").read_text().split("\n"):
+    corpus_path = DATA / "private" / "corpus.jsonl"
+    if not corpus_path.exists():
+        raise SystemExit("data/private/corpus.jsonl is not distributed with the repo; see README (Data) to rebuild.")
+    for line in corpus_path.read_text().split("\n"):
         if line:
             r = json.loads(line); corpus[r["post_id"]] = r
     labels = {}
@@ -126,8 +130,10 @@ def main():
     # per-post labeler only partly flagged. Listed with reasons in excluded-authors.json.
     reviewer_excluded_path = V2 / "excluded-authors.json"
     if reviewer_excluded_path.exists():
-        for row in json.loads(reviewer_excluded_path.read_text()):
-            excluded_authors.add(str(row["author_id"]))
+        hashed = {row["author_sha256"] for row in json.loads(reviewer_excluded_path.read_text())}
+        for a in {p.get("author_id") for p in corpus.values() if p.get("author_id")}:
+            if hashlib.sha256(str(a).encode()).hexdigest() in hashed:
+                excluded_authors.add(str(a))
 
     # Aspect dimensions: free-text aspects mapped onto a fixed vocabulary (ASPECT_DIMENSIONS.md).
     MODEL_DIMS = ["intelligence", "speed", "price", "steerability", "personality", "overall", "other"]

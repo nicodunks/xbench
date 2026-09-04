@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Split corpus.jsonl into labeling batches for the v2 classification run.
+"""Split the private corpus into labeling batches.
+
+Full batches (with post text) go to data/private/batches, which is not committed.
+A text-free index of the same batches goes to data/labels-v2/batches so the
+validator can check coverage without the corpus.
 
 Each batch is a compact JSONL of the fields a labeler needs. Batches are
 transport units only. Output goes to data/labels-v2/batches/.
@@ -10,7 +14,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CORPUS = ROOT / "data" / "agent-rebuild" / "corpus.jsonl"
+CORPUS = ROOT / "data" / "private" / "corpus.jsonl"
+PRIVATE = ROOT / "data" / "private" / "batches"
 OUT = ROOT / "data" / "labels-v2"
 BATCH = 100
 
@@ -19,6 +24,7 @@ def main() -> None:
     rows = [json.loads(l) for l in CORPUS.read_text().split("\n") if l]
     rows.sort(key=lambda r: (r["created_at"], r["post_id"]))
     (OUT / "batches").mkdir(parents=True, exist_ok=True)
+    PRIVATE.mkdir(parents=True, exist_ok=True)
     (OUT / "labels").mkdir(parents=True, exist_ok=True)
     for old in (OUT / "batches").glob("batch-*.jsonl"):
         old.unlink()
@@ -36,7 +42,10 @@ def main() -> None:
                 "text": r.get("text", ""),
                 "root_text": r.get("root_text", "") or None,
             }, ensure_ascii=False))
-        (OUT / "batches" / name).write_text("\n".join(lines) + "\n")
+        (PRIVATE / name).write_text("\n".join(lines) + "\n")
+        public = [json.dumps({"post_id": r["post_id"], "created_at": r["created_at"], "lang": r.get("lang"),
+                              "is_reply": bool(r.get("is_comment"))}) for r in part]
+        (OUT / "batches" / name).write_text("\n".join(public) + "\n")
         manifest.append({"file": name, "posts": len(part)})
     (OUT / "batch-manifest.json").write_text(json.dumps(
         {"batch_size": BATCH, "posts": len(rows), "batches": manifest}, indent=2) + "\n")

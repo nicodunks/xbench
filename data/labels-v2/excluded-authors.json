@@ -1,5 +1,17 @@
 [
-  {"author_id": "1720665183188922368", "posts": 242, "reason": "Grok-style reply account answering mentions with formatted benchmark and news summaries; 65 posts flagged ai_author by the labeler, the rest are the same voice."},
-  {"author_id": "2059857807634251776", "posts": 39, "reason": "Copy-pasted reseller spam ('I found a hidden gem: one-click API replacement for Codex and Claude Code')."},
-  {"author_id": "2031678662274437120", "posts": 20, "reason": "Automated 'Top-5 Best Value LLM Models of the Day' table poster."}
+  {
+    "posts": 242,
+    "reason": "Grok-style reply account answering mentions with formatted benchmark and news summaries; 65 posts flagged ai_author by the labeler, the rest are the same voice.",
+    "author_sha256": "7a3ec5f5942cbec1d17e67b0ef3cf7e05336b6920e9363e7f310a96cd27aa09b"
+  },
+  {
+    "posts": 39,
+    "reason": "Copy-pasted reseller spam ('I found a hidden gem: one-click API replacement for Codex and Claude Code').",
+    "author_sha256": "a666b842aa4c6f9da24d163f617c4f8ea81c18b80869c9d18430f750b22844ca"
+  },
+  {
+    "posts": 20,
+    "reason": "Automated 'Top-5 Best Value LLM Models of the Day' table poster.",
+    "author_sha256": "1de8300456e3bd6c10750c4c7501c457b17d843f3839983d69f8e3ebc8fd9a5b"
+  }
 ]

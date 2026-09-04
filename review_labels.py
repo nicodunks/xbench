@@ -43,7 +43,10 @@ def main() -> None:
     names = sys.argv[1:] or sorted(p.name for p in (V2 / "labels").glob("batch-*.jsonl"))
     rng = random.Random("xbench-review")
     for name in names:
-        posts = {r["post_id"]: r for r in read_jsonl(V2 / "batches" / name)}
+        src = V2.parent / "private" / "batches" / name
+        if not src.exists():
+            raise SystemExit("review needs the private batches (post text); see README (Data)")
+        posts = {r["post_id"]: r for r in read_jsonl(src)}
         labels = read_jsonl(V2 / "labels" / name)
         flagged = [l for l in labels if l.get("uncertain") or l.get("ai_author")]
         rest = [l for l in labels if not (l.get("uncertain") or l.get("ai_author"))]

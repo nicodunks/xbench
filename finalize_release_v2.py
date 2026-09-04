@@ -14,7 +14,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CORPUS = ROOT / "data" / "agent-rebuild" / "corpus.jsonl"
+CORPUS = ROOT / "data" / "private" / "corpus.jsonl"
+PRIVATE_BATCHES = ROOT / "data" / "private" / "batches"
 V2 = ROOT / "data" / "labels-v2"
 
 
@@ -22,9 +23,9 @@ def jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text().split("\n") if line]
 
 
-corpus = jsonl(CORPUS)
-corpus_ids = {str(r["post_id"]) for r in corpus}
-if len(corpus_ids) != len(corpus):
+corpus = jsonl(CORPUS) if CORPUS.exists() else None
+corpus_ids = {str(r["post_id"]) for r in corpus} if corpus else None
+if corpus and len(corpus_ids) != len(corpus):
     raise ValueError("corpus has duplicate post ids")
 
 manifest_in = json.loads((V2 / "batch-manifest.json").read_text())
@@ -47,7 +48,7 @@ for input_path in sorted(glob.glob(str(V2 / "batches" / "batch-*.jsonl"))):
         label_ids[pid] = name
     batch_checks.append({"batch": name, "posts": len(batch), "status": "pass"})
 
-if set(label_ids) != corpus_ids:
+if corpus_ids is not None and set(label_ids) != corpus_ids:
     missing = len(corpus_ids - set(label_ids)); extra = len(set(label_ids) - corpus_ids)
     raise ValueError(f"one-pass coverage failed: missing={missing} extra={extra}")
 
@@ -69,14 +70,16 @@ for section, rows in evidence.items():
             raise ValueError(f"public identity field found in {section}")
 
 files = [
-    CORPUS, V2 / "batch-manifest.json", V2 / "overrides.jsonl", V2 / "excluded-authors.json",
+    V2 / "batch-manifest.json", V2 / "overrides.jsonl", V2 / "excluded-authors.json",
     V2 / "public-summary.json", V2 / "public-evidence.json",
     *sorted(Path(p) for p in glob.glob(str(V2 / "batches" / "batch-*.jsonl"))),
     *sorted(Path(p) for p in glob.glob(str(V2 / "labels" / "batch-*.jsonl"))),
-    ROOT / "AGENT_CLASSIFICATION_PROMPT.md", ROOT / "prepare_label_batches.py",
-    ROOT / "validate_labels.py", ROOT / "review_labels.py", ROOT / "build_release_v2.py",
-    ROOT / "finalize_release_v2.py",
+    ROOT / "AGENT_CLASSIFICATION_PROMPT.md", ROOT / "ASPECT_DIMENSIONS.md", ROOT / "QUOTA_AUDIT.md",
+    ROOT / "prepare_label_batches.py", ROOT / "validate_labels.py", ROOT / "review_labels.py",
+    ROOT / "build_release_v2.py", ROOT / "finalize_release_v2.py",
 ]
+if CORPUS.exists():
+    files.insert(0, CORPUS)
 
 
 def digest(path: Path) -> str:
@@ -97,7 +100,8 @@ manifest = {
         "batch_input_manifest": manifest_in.get("batches", manifest_in) if isinstance(manifest_in, dict) else manifest_in,
         "reviewer_overrides": len(set(override_ids)),
         "duplicate_override_lines": duplicate_overrides,
-        "coverage": "pass",
+        "coverage": "pass" if corpus_ids is not None else "labels match batch index; corpus not present",
+        "corpus_distributed": False,
     },
     "public_counts": {
         "model_sentiment_evidence": len(evidence.get("sentiment", [])),
