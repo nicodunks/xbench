@@ -76,3 +76,7 @@
 .tracked>div{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;padding:0}.tracked>div span{padding:14px 10px;border-right:1px dashed var(--b18);text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tracked>div span:last-child{border-right:0}.tracked>div span:before{content:""}
 @media(max-width:980px){.tracked>div{grid-auto-flow:row;grid-template-columns:repeat(4,1fr)}.tracked>div span{border-right:0;border-bottom:1px dashed var(--b18)}}
 .tracked>div span{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;padding:16px 8px;font-size:10.5px;line-height:1.3;color:var(--b90);white-space:normal;overflow:visible}.tracked>div span img{width:20px;height:20px;flex:0 0 20px;filter:grayscale(1) invert(1) brightness(2)}
+
+/* book picker */
+.book-picker{display:flex;flex-wrap:wrap;gap:6px;padding:18px 0 6px;border-bottom:1px dashed var(--b18)}.pick{display:flex;align-items:center;gap:7px;padding:7px 11px;border:1px solid var(--b18);background:transparent;color:var(--b48);font:11px XMono,"Andale Mono",monospace;cursor:pointer;transition:color .15s,border-color .15s,background .15s}.pick img{width:14px;height:14px;filter:grayscale(1) invert(1) brightness(2)}.pick:hover{color:var(--blue);border-color:var(--b48)}.pick.on{color:var(--ink);background:var(--blue);border-color:var(--blue)}.pick.on img{filter:grayscale(1)}
+.book-page{border-bottom:0}
