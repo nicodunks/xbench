@@ -1,0 +1,250 @@
+{"aspect": "review role quality and cost", "dimension": "price"}
+{"aspect": "reviewer role no issues", "dimension": "overall"}
+{"aspect": "reviewing quality and cost", "dimension": "price"}
+{"aspect": "rework reliability", "dimension": "steerability"}
+{"aspect": "rewrote a complex physics engine in c", "dimension": "intelligence"}
+{"aspect": "ridiculously faster than astra", "dimension": "speed"}
+{"aspect": "robustness (\"tough guy\")", "dimension": "intelligence"}
+{"aspect": "roi at quota cap pricing", "dimension": "price"}
+{"aspect": "role as cleanup sweeper", "dimension": "other"}
+{"aspect": "role as primary attacker", "dimension": "other"}
+{"aspect": "role as substitute", "dimension": "other"}
+{"aspect": "role fit as orchestrator", "dimension": "other"}
+{"aspect": "role fit as worker", "dimension": "other"}
+{"aspect": "role in multi-model agent pipeline", "dimension": "other"}
+{"aspect": "role in orchestrated coding workflow", "dimension": "other"}
+{"aspect": "role split for backend", "dimension": "other"}
+{"aspect": "role split for frontend", "dimension": "other"}
+{"aspect": "role split for research and docs", "dimension": "other"}
+{"aspect": "role split for sub execution", "dimension": "other"}
+{"aspect": "role: code review and evaluation", "dimension": "other"}
+{"aspect": "role: planning, requirements, and bugfixing", "dimension": "other"}
+{"aspect": "rollout being a limited pr move rather than real access", "dimension": "other"}
+{"aspect": "rollout speed", "dimension": "other"}
+{"aspect": "rough ranking by value", "dimension": "price"}
+{"aspect": "routing reliability", "dimension": "other"}
+{"aspect": "rule-following and code quality", "dimension": "steerability"}
+{"aspect": "rumored coding ability", "dimension": "intelligence"}
+{"aspect": "runnable on limited hardware", "dimension": "other"}
+{"aspect": "running cost over days", "dimension": "price"}
+{"aspect": "running locally via quantization/offload", "dimension": "other"}
+{"aspect": "running many parallel jobs from one model", "dimension": "speed"}
+{"aspect": "running well on a local mac cluster", "dimension": "other"}
+{"aspect": "runs seamlessly on affordable local hardware", "dimension": "price"}
+{"aspect": "runs without hitting limits", "dimension": "other"}
+{"aspect": "safety filtering behavior", "dimension": "personality"}
+{"aspect": "safety prompts blocking vulnerability research", "dimension": "personality"}
+{"aspect": "safety score", "dimension": "personality"}
+{"aspect": "same pelican svg test", "dimension": "overall"}
+{"aspect": "same price as previous flash, expensive vs glm", "dimension": "price"}
+{"aspect": "same-session flash comparison", "dimension": "overall"}
+{"aspect": "scales throughput well with more nodes", "dimension": "speed"}
+{"aspect": "scanning the repo to confirm it's fake", "dimension": "intelligence"}
+{"aspect": "science benchmark improvement", "dimension": "intelligence"}
+{"aspect": "science benchmark score", "dimension": "intelligence"}
+{"aspect": "scientific research capability improvement", "dimension": "intelligence"}
+{"aspect": "scope creep on simple tasks", "dimension": "steerability"}
+{"aspect": "scope discipline and verbosity", "dimension": "steerability"}
+{"aspect": "score and cost on deepswe", "dimension": "price"}
+{"aspect": "score vs cost on intelligence index", "dimension": "price"}
+{"aspect": "score vs token/step efficiency", "dimension": "price"}
+{"aspect": "screenshot annotation for agent demos", "dimension": "other"}
+{"aspect": "screenshot quality of generated ui", "dimension": "intelligence"}
+{"aspect": "security audit without downgrading model", "dimension": "intelligence"}
+{"aspect": "seen as a rebrand rather than real upgrade", "dimension": "overall"}
+{"aspect": "seen as ahead of gemini 3.8 flash", "dimension": "overall"}
+{"aspect": "self-contradicts during verification", "dimension": "intelligence"}
+{"aspect": "self-doubting loop erasing its own responses", "dimension": "intelligence"}
+{"aspect": "self-hosted, replaces subscriptions", "dimension": "price"}
+{"aspect": "self-hosting cost efficiency versus api", "dimension": "price"}
+{"aspect": "self-hosting cost versus subscription value", "dimension": "price"}
+{"aspect": "self-modifying config behavior", "dimension": "other"}
+{"aspect": "serious improvement over sol in frontend design", "dimension": "intelligence"}
+{"aspect": "serious mode intelligence without performance layer", "dimension": "intelligence"}
+{"aspect": "server capacity shortage", "dimension": "other"}
+{"aspect": "server congestion causing 14-hour run", "dimension": "other"}
+{"aspect": "server congestion during peak demand", "dimension": "other"}
+{"aspect": "server errors / reliability", "dimension": "other"}
+{"aspect": "service downtime", "dimension": "other"}
+{"aspect": "service errors preventing use", "dimension": "other"}
+{"aspect": "service outage", "dimension": "other"}
+{"aspect": "service outage/downtime", "dimension": "other"}
+{"aspect": "session cache reset bug", "dimension": "other"}
+{"aspect": "shallow reasoning depth", "dimension": "intelligence"}
+{"aspect": "share of tokens routed on a gateway", "dimension": "other"}
+{"aspect": "sharper animation look", "dimension": "intelligence"}
+{"aspect": "sharpness of responses", "dimension": "intelligence"}
+{"aspect": "shell and bash command reasoning", "dimension": "intelligence"}
+{"aspect": "shipped and widely used", "dimension": "other"}
+{"aspect": "shipped more of the generated world", "dimension": "intelligence"}
+{"aspect": "shipped updates on three projects", "dimension": "intelligence"}
+{"aspect": "shogi match loss but lower cost", "dimension": "price"}
+{"aspect": "shogi match outcome", "dimension": "intelligence"}
+{"aspect": "shogi match win but higher cost", "dimension": "price"}
+{"aspect": "showcase quality", "dimension": "intelligence"}
+{"aspect": "shown svg image looks great", "dimension": "intelligence"}
+{"aspect": "shrinking weekly usage limits", "dimension": "other"}
+{"aspect": "side-by-side coding preference", "dimension": "intelligence"}
+{"aspect": "side-by-side coding test preference", "dimension": "intelligence"}
+{"aspect": "significance of the update", "dimension": "overall"}
+{"aspect": "silent degraded output incident", "dimension": "intelligence"}
+{"aspect": "silent fallback/routing bug", "dimension": "other"}
+{"aspect": "silently downgraded to a weaker model", "dimension": "other"}
+{"aspect": "silently swapped for a weaker model", "dimension": "other"}
+{"aspect": "silhouette clarity in animation", "dimension": "intelligence"}
+{"aspect": "simple daily tasks", "dimension": "overall"}
+{"aspect": "simpler implementations and changes", "dimension": "intelligence"}
+{"aspect": "simulated video generation quality", "dimension": "intelligence"}
+{"aspect": "simulation output quality", "dimension": "intelligence"}
+{"aspect": "simulator accuracy and timing error", "dimension": "intelligence"}
+{"aspect": "single-turn animation code generation quality", "dimension": "intelligence"}
+{"aspect": "site design generation", "dimension": "intelligence"}
+{"aspect": "site design planning", "dimension": "intelligence"}
+{"aspect": "sits in the generous model pool on the $20 plan", "dimension": "price"}
+{"aspect": "skeptical hype will be met", "dimension": "overall"}
+{"aspect": "slick quality but loses on cost-efficiency to terra", "dimension": "price"}
+{"aspect": "slop output", "dimension": "intelligence"}
+{"aspect": "sloppy mistakes", "dimension": "intelligence"}
+{"aspect": "slow and high cost per task", "dimension": "price"}
+{"aspect": "slow decode speed on local quantized run", "dimension": "speed"}
+{"aspect": "slow on simple tasks and weak computer use", "dimension": "intelligence"}
+{"aspect": "slow or no response, provider overloaded", "dimension": "other"}
+{"aspect": "slow or unresponsive, provider overloaded", "dimension": "other"}
+{"aspect": "slow planning phase", "dimension": "speed"}
+{"aspect": "slow speed", "dimension": "speed"}
+{"aspect": "slow speed / no usability", "dimension": "speed"}
+{"aspect": "slow speed vs glm", "dimension": "speed"}
+{"aspect": "slow to complete tasks", "dimension": "speed"}
+{"aspect": "slow, 14 minutes on task", "dimension": "speed"}
+{"aspect": "slow/sluggish behavior (siesta joke)", "dimension": "speed"}
+{"aspect": "slower and more verbose than gemini 3.1 pro", "dimension": "speed"}
+{"aspect": "slower on a computer-use task", "dimension": "speed"}
+{"aspect": "slower than glm 5.3 flash", "dimension": "speed"}
+{"aspect": "slower with worse output", "dimension": "speed"}
+{"aspect": "slowness on easy tasks", "dimension": "speed"}
+{"aspect": "smart but tiring to use", "dimension": "steerability"}
+{"aspect": "smart model but data privacy concern", "dimension": "other"}
+{"aspect": "smart, feels free", "dimension": "price"}
+{"aspect": "smarter than luna via free tier", "dimension": "intelligence"}
+{"aspect": "smartest but costly and slow", "dimension": "price"}
+{"aspect": "smartest cheap model shipped yet", "dimension": "price"}
+{"aspect": "smokes sol on design", "dimension": "intelligence"}
+{"aspect": "smooth building experience", "dimension": "steerability"}
+{"aspect": "smooth experience, dream to work with", "dimension": "steerability"}
+{"aspect": "smooth local inference on dual spark hardware", "dimension": "other"}
+{"aspect": "software development performance", "dimension": "intelligence"}
+{"aspect": "sol outage broke workflow", "dimension": "other"}
+{"aspect": "solid output quality", "dimension": "intelligence"}
+{"aspect": "solved a stuck bug easily", "dimension": "intelligence"}
+{"aspect": "solving a historical cipher puzzle", "dimension": "intelligence"}
+{"aspect": "solving difficult performance problem", "dimension": "intelligence"}
+{"aspect": "solving hard tasks after others fail", "dimension": "intelligence"}
+{"aspect": "solving open math problem", "dimension": "intelligence"}
+{"aspect": "solving the hard problem", "dimension": "intelligence"}
+{"aspect": "sovereign local agent design", "dimension": "other"}
+{"aspect": "spec discussion/collaboration quality", "dimension": "steerability"}
+{"aspect": "speed", "dimension": "speed"}
+{"aspect": "speed (400 tps)", "dimension": "speed"}
+{"aspect": "speed (tokens per second)", "dimension": "speed"}
+{"aspect": "speed (tps)", "dimension": "speed"}
+{"aspect": "speed (tps) vs prior version", "dimension": "speed"}
+{"aspect": "speed accuracy and cost balance", "dimension": "price"}
+{"aspect": "speed and accuracy", "dimension": "speed"}
+{"aspect": "speed and accuracy on well-defined tasks", "dimension": "speed"}
+{"aspect": "speed and affordability in fast mode", "dimension": "price"}
+{"aspect": "speed and availability", "dimension": "speed"}
+{"aspect": "speed and context for video production", "dimension": "speed"}
+{"aspect": "speed and cost", "dimension": "price"}
+{"aspect": "speed and cost efficiency", "dimension": "price"}
+{"aspect": "speed and cost for same result", "dimension": "price"}
+{"aspect": "speed and cost of bim modeling work", "dimension": "price"}
+{"aspect": "speed and cost vs alternative", "dimension": "price"}
+{"aspect": "speed and cost vs fable 5.1", "dimension": "price"}
+{"aspect": "speed and cost vs muse spark", "dimension": "price"}
+{"aspect": "speed and creativity finding vulns", "dimension": "speed"}
+{"aspect": "speed and design quality", "dimension": "speed"}
+{"aspect": "speed and efficiency", "dimension": "speed"}
+{"aspect": "speed and fewest fixes needed", "dimension": "speed"}
+{"aspect": "speed and first-run correctness", "dimension": "speed"}
+{"aspect": "speed and generous usage", "dimension": "speed"}
+{"aspect": "speed and hallucination rate", "dimension": "speed"}
+{"aspect": "speed and impressiveness", "dimension": "speed"}
+{"aspect": "speed and instruction following", "dimension": "speed"}
+{"aspect": "speed and low verbosity", "dimension": "speed"}
+{"aspect": "speed and output quality", "dimension": "speed"}
+{"aspect": "speed and pacing", "dimension": "speed"}
+{"aspect": "speed and parameter scale", "dimension": "speed"}
+{"aspect": "speed and persona complaints", "dimension": "speed"}
+{"aspect": "speed and professionalism", "dimension": "speed"}
+{"aspect": "speed and quality", "dimension": "speed"}
+{"aspect": "speed and quality as daily driver", "dimension": "speed"}
+{"aspect": "speed and quality combination shown in the demo", "dimension": "speed"}
+{"aspect": "speed and quality shown in the 3d build showcase", "dimension": "speed"}
+{"aspect": "speed and quality vs deepseek", "dimension": "speed"}
+{"aspect": "speed and reasoning for agentic workflows", "dimension": "speed"}
+{"aspect": "speed and reliability", "dimension": "speed"}
+{"aspect": "speed and reliability as main driver", "dimension": "speed"}
+{"aspect": "speed and reliability without runtime errors", "dimension": "speed"}
+{"aspect": "speed and result quality", "dimension": "speed"}
+{"aspect": "speed and server congestion", "dimension": "speed"}
+{"aspect": "speed and solidity in refactoring", "dimension": "speed"}
+{"aspect": "speed and starting subscription limits", "dimension": "speed"}
+{"aspect": "speed and task completion", "dimension": "speed"}
+{"aspect": "speed and token burn", "dimension": "price"}
+{"aspect": "speed and token efficiency", "dimension": "price"}
+{"aspect": "speed and usage limit consumption", "dimension": "speed"}
+{"aspect": "speed and value versus glitches", "dimension": "price"}
+{"aspect": "speed at equal quality", "dimension": "speed"}
+{"aspect": "speed at similar quality", "dimension": "speed"}
+{"aspect": "speed compared to deepseek flash", "dimension": "speed"}
+{"aspect": "speed comparison", "dimension": "speed"}
+{"aspect": "speed despite lower tok/s", "dimension": "speed"}
+{"aspect": "speed for coding workflows", "dimension": "speed"}
+{"aspect": "speed for focused work", "dimension": "speed"}
+{"aspect": "speed in home lab", "dimension": "speed"}
+{"aspect": "speed not worth cleanup work", "dimension": "speed"}
+{"aspect": "speed of implementation", "dimension": "speed"}
+{"aspect": "speed on acceptance-test tasks", "dimension": "speed"}
+{"aspect": "speed on coding tasks", "dimension": "speed"}
+{"aspect": "speed on custom benchmark", "dimension": "speed"}
+{"aspect": "speed on flappy bird clone task", "dimension": "speed"}
+{"aspect": "speed on meaningful work", "dimension": "speed"}
+{"aspect": "speed on simple tasks", "dimension": "speed"}
+{"aspect": "speed on the 2048 task", "dimension": "speed"}
+{"aspect": "speed on well-defined tasks", "dimension": "speed"}
+{"aspect": "speed quality and cost", "dimension": "price"}
+{"aspect": "speed regression from 4.5", "dimension": "speed"}
+{"aspect": "speed relative to cursor/grok", "dimension": "speed"}
+{"aspect": "speed relative to gemini flash", "dimension": "speed"}
+{"aspect": "speed relative to kimi k3", "dimension": "speed"}
+{"aspect": "speed relative to muse spark 1.3", "dimension": "speed"}
+{"aspect": "speed reputation", "dimension": "speed"}
+{"aspect": "speed stays flat as tokens grow", "dimension": "speed"}
+{"aspect": "speed to minimize distraction", "dimension": "speed"}
+{"aspect": "speed under fast mode", "dimension": "speed"}
+{"aspect": "speed under multi-user load", "dimension": "speed"}
+{"aspect": "speed versus competition", "dimension": "speed"}
+{"aspect": "speed versus cost-performance", "dimension": "price"}
+{"aspect": "speed versus hallucination", "dimension": "speed"}
+{"aspect": "speed versus hallucination reliability", "dimension": "speed"}
+{"aspect": "speed versus its reputation", "dimension": "speed"}
+{"aspect": "speed versus qwen", "dimension": "speed"}
+{"aspect": "speed versus rate limits on plus tier", "dimension": "speed"}
+{"aspect": "speed versus reasoning depth", "dimension": "speed"}
+{"aspect": "speed versus reliability and honesty", "dimension": "speed"}
+{"aspect": "speed vs alternative", "dimension": "speed"}
+{"aspect": "speed vs hallucination and syntax errors", "dimension": "speed"}
+{"aspect": "speed vs quality tradeoff", "dimension": "speed"}
+{"aspect": "speed vs sustained coding performance", "dimension": "speed"}
+{"aspect": "speed vs tok/s benchmark", "dimension": "speed"}
+{"aspect": "speed vs visual quality", "dimension": "speed"}
+{"aspect": "speed vs wasted token cost", "dimension": "price"}
+{"aspect": "speed, accuracy, and stability under load", "dimension": "speed"}
+{"aspect": "speed, better than flash", "dimension": "speed"}
+{"aspect": "speed, context size, and price", "dimension": "price"}
+{"aspect": "speed, cost, and accuracy", "dimension": "price"}
+{"aspect": "speed, cost, and coding quality claims", "dimension": "price"}
+{"aspect": "speed, cost, and overthinking versus deepseek", "dimension": "price"}
+{"aspect": "speed, established use in coding", "dimension": "speed"}
+{"aspect": "speed, stability, and price", "dimension": "price"}
+{"aspect": "speed, token efficiency, code quality", "dimension": "price"}

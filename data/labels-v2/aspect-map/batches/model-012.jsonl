@@ -1,0 +1,250 @@
+{"aspect": "speed-to-size tradeoff"}
+{"aspect": "speedrun task completion time"}
+{"aspect": "stability, no outages"}
+{"aspect": "stable long-horizon coding completion"}
+{"aspect": "stable performance with a dedicated harness"}
+{"aspect": "standing up to abusive users"}
+{"aspect": "starting subscription value"}
+{"aspect": "stated first choice"}
+{"aspect": "stated second choice"}
+{"aspect": "staying in scope, low verbosity"}
+{"aspect": "staying on goal in long contexts"}
+{"aspect": "staying up during a provider outage"}
+{"aspect": "stays coherent when corrected"}
+{"aspect": "steady meaningful progress versus wasted tokens"}
+{"aspect": "steady progress with meaningful prs"}
+{"aspect": "steep discount enabling heavy usage"}
+{"aspect": "steerability and real-world results"}
+{"aspect": "still best value despite price hike"}
+{"aspect": "still expensive, promised 25% discount not experienced"}
+{"aspect": "still has room for optimization"}
+{"aspect": "still leads on several agentic tasks"}
+{"aspect": "still leads some benchmarks but losing agentic ones"}
+{"aspect": "still preferred despite alternatives"}
+{"aspect": "still wins for stock analysis despite being displaced"}
+{"aspect": "stilted corporate tone"}
+{"aspect": "stops mid-task without continuing"}
+{"aspect": "stored structure beats more raw tokens"}
+{"aspect": "straight to working code without mockups"}
+{"aspect": "stress-free high-quality output"}
+{"aspect": "stretches $200 plan to 100b tokens"}
+{"aspect": "stretching usage limits via cheap subagent routing"}
+{"aspect": "strictly coding task performance, 37% better than deepseek"}
+{"aspect": "strong and cheap base model"}
+{"aspect": "strong benchmark performance"}
+{"aspect": "strong frontier model"}
+{"aspect": "strong on coding and long-horizon agentic tasks"}
+{"aspect": "strong overall but weak at coding"}
+{"aspect": "strong overall except creative writing"}
+{"aspect": "strong performance on dgx sparks infra"}
+{"aspect": "strong price-to-value even before the comparison"}
+{"aspect": "strong visual detail in leaked build"}
+{"aspect": "stronger but flawed or too expensive"}
+{"aspect": "structural edges over context window size"}
+{"aspect": "structural engineering advice quality"}
+{"aspect": "structure over flat token search"}
+{"aspect": "structured output quality"}
+{"aspect": "struggles/reliability"}
+{"aspect": "struggling with task"}
+{"aspect": "stuck fixing subagent messes"}
+{"aspect": "stuck in loop"}
+{"aspect": "stuck on complex, long-context tasks"}
+{"aspect": "subagent delegation results"}
+{"aspect": "subagent deleted parent's code changes"}
+{"aspect": "subagent heavy usage"}
+{"aspect": "submission kept failing"}
+{"aspect": "subscription cost"}
+{"aspect": "subscription tier priced 4-8x the api rate"}
+{"aspect": "subscription usage limits"}
+{"aspect": "subscription value for the price"}
+{"aspect": "subscription value vs alternatives"}
+{"aspect": "subsidized token value"}
+{"aspect": "success rate and cost vs cursor"}
+{"aspect": "sudden capability degradation"}
+{"aspect": "sudden intelligence degradation"}
+{"aspect": "sufficiency for needs"}
+{"aspect": "sufficient capability"}
+{"aspect": "sufficient for building an mvp"}
+{"aspect": "sufficient for most faculty work"}
+{"aspect": "sufficient for simple conversation"}
+{"aspect": "sufficient for workflow"}
+{"aspect": "sufficient reasoning effort setting"}
+{"aspect": "sufficient without vision features"}
+{"aspect": "sufficient, no need to upgrade"}
+{"aspect": "suitable for cli coding"}
+{"aspect": "superior and daily driver"}
+{"aspect": "supervisor role"}
+{"aspect": "surpassing frontier models"}
+{"aspect": "surprise impact overshadowed by bigger launches"}
+{"aspect": "surprising cost-quality results"}
+{"aspect": "surprising terminal bench result"}
+{"aspect": "surprisingly capable for reasoning-heavy tasks"}
+{"aspect": "surprisingly good among trial models"}
+{"aspect": "surprisingly good at certain tasks, better than expected"}
+{"aspect": "surprisingly good context handling"}
+{"aspect": "surprisingly strong"}
+{"aspect": "surprisingly strong performance"}
+{"aspect": "suspected benchmark gaming"}
+{"aspect": "sustained autonomous execution in goal mode"}
+{"aspect": "sustained frontier position"}
+{"aspect": "sustained performance over time"}
+{"aspect": "svg design quality"}
+{"aspect": "svg design, no sharp corners"}
+{"aspect": "svg frontend design detail"}
+{"aspect": "svg generation quality"}
+{"aspect": "svg generation speed and quality"}
+{"aspect": "svg output at zero reasoning tokens"}
+{"aspect": "svg quality, no shortcuts"}
+{"aspect": "swe-bench accuracy despite higher cost"}
+{"aspect": "switched to"}
+{"aspect": "switching to as primary multimodal model"}
+{"aspect": "sycophancy and code shortcuts"}
+{"aspect": "system success rate over months"}
+{"aspect": "task completeness"}
+{"aspect": "task completion"}
+{"aspect": "task completion effectiveness"}
+{"aspect": "task completion rate, one tag-parsing failure"}
+{"aspect": "task completion reliability"}
+{"aspect": "task completion slowed dramatically"}
+{"aspect": "task completion speed"}
+{"aspect": "task completion speed and quality"}
+{"aspect": "task cost efficiency"}
+{"aspect": "task cost pricing"}
+{"aspect": "task execution role in custom harness"}
+{"aspect": "task fit for some workflows"}
+{"aspect": "task handling and cost"}
+{"aspect": "task-specific performance"}
+{"aspect": "tb4 capability score"}
+{"aspect": "tb4 win via harness swap"}
+{"aspect": "tencent hy4 blind benchmark score"}
+{"aspect": "tencent internal blind-test evaluation"}
+{"aspect": "terminal bench 3.0 score"}
+{"aspect": "terminal bench 4.0 ranking"}
+{"aspect": "terminal bench and deepswe scores"}
+{"aspect": "terminal bench performance"}
+{"aspect": "terminal bench ranking legitimacy"}
+{"aspect": "terminal bench result"}
+{"aspect": "terminal bench science score"}
+{"aspect": "terminal bench score"}
+{"aspect": "terminal bench score credibility"}
+{"aspect": "terminal coding benchmark score"}
+{"aspect": "terminal-bench 2.1 score"}
+{"aspect": "terminal-bench 4.0 pass rate"}
+{"aspect": "terminal-bench 4.0 ranking"}
+{"aspect": "terminal-bench 4.0 score"}
+{"aspect": "terminal-bench 4.0 score claim"}
+{"aspect": "terminal-bench agent benchmark"}
+{"aspect": "terminal-bench leadership among open-source models"}
+{"aspect": "terminal-bench score"}
+{"aspect": "terminal-bench score approaching opus tier"}
+{"aspect": "terminal-bench score at lower cost"}
+{"aspect": "terminal-bench score, open and fast"}
+{"aspect": "terminal-bench-science leaderboard score"}
+{"aspect": "terminal-bench-science score"}
+{"aspect": "terminal-bench-science score vs fable 5"}
+{"aspect": "terminal-bench/deepswe ties or beats"}
+{"aspect": "terminal-bench/frontiermath/exploitbench scores"}
+{"aspect": "terminalbench 4.0 ranking"}
+{"aspect": "terrific coding model for implementation"}
+{"aspect": "test coverage quality"}
+{"aspect": "test performance"}
+{"aspect": "test results quality"}
+{"aspect": "text reconstruction quality vs ai-ish phrasing"}
+{"aspect": "think turn failure reliability"}
+{"aspect": "thinking depth and research limits"}
+{"aspect": "third repost of comparison"}
+{"aspect": "thorough but slow migration"}
+{"aspect": "thoroughness and fewer mistakes"}
+{"aspect": "thoroughness of file reading"}
+{"aspect": "thoroughness on edge cases versus time taken"}
+{"aspect": "thoroughness on unspecified details"}
+{"aspect": "thoroughness versus opus 5"}
+{"aspect": "thread-style writing quality"}
+{"aspect": "three.js 3d world building"}
+{"aspect": "three.js integration and controls"}
+{"aspect": "threejs apartment test quality"}
+{"aspect": "threejs vibe-check performance"}
+{"aspect": "throughput (tokens per second)"}
+{"aspect": "throughput on own hardware"}
+{"aspect": "throughput optimization 39 to 64 tps"}
+{"aspect": "throughput versus deepseek on same hardware"}
+{"aspect": "tier ranking placement"}
+{"aspect": "tier ranking placement above grok"}
+{"aspect": "time and dollar cost per test"}
+{"aspect": "time and token efficiency"}
+{"aspect": "time to first token"}
+{"aspect": "time to task completion"}
+{"aspect": "timely open-weight release for agentic coding"}
+{"aspect": "token bloat and benchmaxxed scores"}
+{"aspect": "token budget limits output"}
+{"aspect": "token burn vs quality gain"}
+{"aspect": "token burn, limited to deep audits"}
+{"aspect": "token consumption"}
+{"aspect": "token consumption / rate limits"}
+{"aspect": "token consumption and file garbage"}
+{"aspect": "token consumption as orchestrator"}
+{"aspect": "token consumption at max reasoning"}
+{"aspect": "token consumption cost"}
+{"aspect": "token consumption draining rate limit"}
+{"aspect": "token consumption during long tasks"}
+{"aspect": "token consumption in multi-agent runs"}
+{"aspect": "token consumption on high reasoning"}
+{"aspect": "token consumption rate"}
+{"aspect": "token consumption running out fast despite high spend"}
+{"aspect": "token consumption vs plan tier"}
+{"aspect": "token consumption vs sol"}
+{"aspect": "token consumption without clear use case"}
+{"aspect": "token consumption without quality gain"}
+{"aspect": "token consumption, speed, and quality vs 5.0"}
+{"aspect": "token consumption/cost"}
+{"aspect": "token consumption/limits"}
+{"aspect": "token cost efficiency vs opus"}
+{"aspect": "token cost for equal-quality output"}
+{"aspect": "token cost per task"}
+{"aspect": "token cost per volume used"}
+{"aspect": "token cost savings replacing background tasks"}
+{"aspect": "token cost vs coding benchmark performance"}
+{"aspect": "token efficiency"}
+{"aspect": "token efficiency and cost"}
+{"aspect": "token efficiency and cost per task"}
+{"aspect": "token efficiency and hallucination rate"}
+{"aspect": "token efficiency and long-horizon execution versus sol"}
+{"aspect": "token efficiency and output quality"}
+{"aspect": "token efficiency and pass rate"}
+{"aspect": "token efficiency and speed"}
+{"aspect": "token efficiency and speed vs opus 5"}
+{"aspect": "token efficiency and success rate"}
+{"aspect": "token efficiency at high thinking levels"}
+{"aspect": "token efficiency for long task"}
+{"aspect": "token efficiency for the score achieved"}
+{"aspect": "token efficiency per completed task"}
+{"aspect": "token efficiency per task"}
+{"aspect": "token efficiency versus alternative"}
+{"aspect": "token efficiency vs luna"}
+{"aspect": "token efficiency vs opus"}
+{"aspect": "token efficiency vs prior benchmarks"}
+{"aspect": "token generation causing delays and timeouts"}
+{"aspect": "token limits vs output quality"}
+{"aspect": "token looping / limits"}
+{"aspect": "token pricing despite price-cut claims"}
+{"aspect": "token throughput"}
+{"aspect": "token throughput value"}
+{"aspect": "token usage blamed on harness, not the model"}
+{"aspect": "token value"}
+{"aspect": "token value at chatgpt pro price"}
+{"aspect": "token value for cost"}
+{"aspect": "token value for money"}
+{"aspect": "token waste versus output produced"}
+{"aspect": "token/cost efficiency versus anthropic models"}
+{"aspect": "tokens and calls per task"}
+{"aspect": "tokens needed to succeed"}
+{"aspect": "tokens per second"}
+{"aspect": "tokens per second speed"}
+{"aspect": "tokens spent per task"}
+{"aspect": "tokens-per-second speed ranking"}
+{"aspect": "tokens/sec inference speed"}
+{"aspect": "tone imitates claude"}
+{"aspect": "too expensive"}
+{"aspect": "too verbose and costly"}
+{"aspect": "took 15 minutes to run a script"}
+{"aspect": "tool call and token efficiency"}

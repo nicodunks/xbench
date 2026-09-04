@@ -322,6 +322,130 @@
           "coding": 3,
           "cost": 1
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 9,
+            "positive": 9,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "svg generation quality",
+                  1
+                ],
+                [
+                  "svg design, no sharp corners",
+                  1
+                ],
+                [
+                  "voxel quality",
+                  1
+                ],
+                [
+                  "computer and browser use",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 1,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "speedrun task completion time",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 2,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": -1.0,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "cache read cost in long sessions",
+                  1
+                ],
+                [
+                  "cost per task",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 2,
+            "positive": 2,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "reason for switching providers",
+                  1
+                ],
+                [
+                  "overall quality prompting a switch",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 1,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": -1.0,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "no rollout noticed despite pro subscription",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -479,6 +603,273 @@
           "agents": 18,
           "chat": 7,
           "writing": 1
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 94,
+            "positive": 65,
+            "mixed": 12,
+            "negative": 17,
+            "net_sentiment": 0.5106,
+            "top_aspects": {
+              "positive": [
+                [
+                  "coding, pricing, and throughput",
+                  1
+                ],
+                [
+                  "generated a working game",
+                  1
+                ],
+                [
+                  "better than deepseek-v4-flash in practice",
+                  1
+                ],
+                [
+                  "quality as research partner",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "not close to opus for performance optimization",
+                  1
+                ],
+                [
+                  "video generation failure and slow generation time",
+                  1
+                ],
+                [
+                  "visual/spatial reasoning error",
+                  1
+                ],
+                [
+                  "benchmark cheating",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 43,
+            "positive": 17,
+            "mixed": 7,
+            "negative": 19,
+            "net_sentiment": -0.0465,
+            "top_aspects": {
+              "positive": [
+                [
+                  "inference speed (tps)",
+                  5
+                ],
+                [
+                  "speed stays flat as tokens grow",
+                  1
+                ],
+                [
+                  "speed and output quality",
+                  1
+                ],
+                [
+                  "performance and speed",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "slow, 14 minutes on task",
+                  1
+                ],
+                [
+                  "generation speed versus deepseek on same harness",
+                  1
+                ],
+                [
+                  "speed vs alternative",
+                  1
+                ],
+                [
+                  "task completion speed",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 85,
+            "positive": 66,
+            "mixed": 6,
+            "negative": 13,
+            "net_sentiment": 0.6235,
+            "top_aspects": {
+              "positive": [
+                [
+                  "price to performance",
+                  2
+                ],
+                [
+                  "far cheaper for more completed work",
+                  1
+                ],
+                [
+                  "free access solving an urgent need",
+                  1
+                ],
+                [
+                  "11x cheaper on matched tasks",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "rate limited when trying to use",
+                  1
+                ],
+                [
+                  "token bloat and benchmaxxed scores",
+                  1
+                ],
+                [
+                  "usage cap during peak hours",
+                  1
+                ],
+                [
+                  "more expensive than claimed",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 4,
+            "positive": 3,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.5,
+            "top_aspects": {
+              "positive": [
+                [
+                  "instruction following",
+                  1
+                ],
+                [
+                  "instruction following and speed",
+                  1
+                ],
+                [
+                  "useful built-in default instructions",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "guessing sudo password instead of prompting",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 10,
+            "positive": 7,
+            "mixed": 3,
+            "negative": 0,
+            "net_sentiment": 0.7,
+            "top_aspects": {
+              "positive": [
+                [
+                  "natural-language explanations while coding",
+                  1
+                ],
+                [
+                  "good enough with no refusals",
+                  1
+                ],
+                [
+                  "resourceful and encouraging tone",
+                  1
+                ],
+                [
+                  "enjoyment despite the wait for a quant",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 22,
+            "positive": 22,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  6
+                ],
+                [
+                  "overall quality",
+                  3
+                ],
+                [
+                  "a tier ranking",
+                  1
+                ],
+                [
+                  "replaced long-horizon workflow model",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 22,
+            "positive": 14,
+            "mixed": 2,
+            "negative": 6,
+            "net_sentiment": 0.3636,
+            "top_aspects": {
+              "positive": [
+                [
+                  "runnable on limited hardware",
+                  1
+                ],
+                [
+                  "local deployability on consumer hardware",
+                  1
+                ],
+                [
+                  "reliability",
+                  1
+                ],
+                [
+                  "brain role in value combo",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "no vision support",
+                  1
+                ],
+                [
+                  "model download size",
+                  1
+                ],
+                [
+                  "large output splitting",
+                  1
+                ],
+                [
+                  "api errors / unavailable",
+                  1
+                ]
+              ]
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -758,6 +1149,315 @@
           "agents": 17,
           "writing": 6,
           "multimodal": 10
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 102,
+            "positive": 68,
+            "mixed": 11,
+            "negative": 23,
+            "net_sentiment": 0.4412,
+            "top_aspects": {
+              "positive": [
+                [
+                  "no quality loss under heavy daily use",
+                  1
+                ],
+                [
+                  "handles cleanup, debugging and light iteration",
+                  1
+                ],
+                [
+                  "surprisingly good context handling",
+                  1
+                ],
+                [
+                  "building the inference engine",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "c tier ranking",
+                  1
+                ],
+                [
+                  "primitive despite high benchmark scores",
+                  1
+                ],
+                [
+                  "benchmark cheating",
+                  1
+                ],
+                [
+                  "performance in cursor",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 20,
+            "positive": 12,
+            "mixed": 1,
+            "negative": 7,
+            "net_sentiment": 0.25,
+            "top_aspects": {
+              "positive": [
+                [
+                  "speed",
+                  3
+                ],
+                [
+                  "used as the speed benchmark, implied fast",
+                  1
+                ],
+                [
+                  "speed and design quality",
+                  1
+                ],
+                [
+                  "speed and quality as daily driver",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "speed",
+                  2
+                ],
+                [
+                  "throughput (tokens per second)",
+                  1
+                ],
+                [
+                  "generation speed",
+                  1
+                ],
+                [
+                  "slow/sluggish behavior (siesta joke)",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 31,
+            "positive": 21,
+            "mixed": 4,
+            "negative": 6,
+            "net_sentiment": 0.4839,
+            "top_aspects": {
+              "positive": [
+                [
+                  "value for price",
+                  2
+                ],
+                [
+                  "rate limits",
+                  1
+                ],
+                [
+                  "cheap for simple q&a tasks",
+                  1
+                ],
+                [
+                  "cost effectiveness",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "cost value mismatch",
+                  1
+                ],
+                [
+                  "heavy subscription price vs quality",
+                  1
+                ],
+                [
+                  "pricing structure limiting adoption",
+                  1
+                ],
+                [
+                  "reduced role due to cost/usage",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 7,
+            "positive": 5,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.4286,
+            "top_aspects": {
+              "positive": [
+                [
+                  "tool use without hand holding",
+                  1
+                ],
+                [
+                  "eager tool usage as the trading proposer",
+                  1
+                ],
+                [
+                  "gets the task finished",
+                  1
+                ],
+                [
+                  "instruction following via agents.md",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "bias and workflow sabotage",
+                  1
+                ],
+                [
+                  "function call emission reliability",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 13,
+            "positive": 6,
+            "mixed": 3,
+            "negative": 4,
+            "net_sentiment": 0.1538,
+            "top_aspects": {
+              "positive": [
+                [
+                  "reduced hype tone versus prior grok models",
+                  1
+                ],
+                [
+                  "conciseness",
+                  1
+                ],
+                [
+                  "compliant, no nagging",
+                  1
+                ],
+                [
+                  "writing style and freer responses",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "chat quality",
+                  1
+                ],
+                [
+                  "pseudocode-like verbosity",
+                  1
+                ],
+                [
+                  "lacking human tone in writing",
+                  1
+                ],
+                [
+                  "refusal behavior change",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 44,
+            "positive": 39,
+            "mixed": 0,
+            "negative": 5,
+            "net_sentiment": 0.7727,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  10
+                ],
+                [
+                  "overall quality",
+                  10
+                ],
+                [
+                  "daily driver",
+                  2
+                ],
+                [
+                  "overall enjoyment",
+                  2
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality",
+                  2
+                ],
+                [
+                  "overall quality vs chatgpt/claude",
+                  1
+                ],
+                [
+                  "overall quality/credibility",
+                  1
+                ],
+                [
+                  "overall",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 22,
+            "positive": 15,
+            "mixed": 0,
+            "negative": 7,
+            "net_sentiment": 0.3636,
+            "top_aspects": {
+              "positive": [
+                [
+                  "rollout speed",
+                  1
+                ],
+                [
+                  "task execution role in custom harness",
+                  1
+                ],
+                [
+                  "research, design and creatives",
+                  1
+                ],
+                [
+                  "model selection quality",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "service downtime",
+                  1
+                ],
+                [
+                  "advertised model missing from picker",
+                  1
+                ],
+                [
+                  "broken, unavailable for hours",
+                  1
+                ],
+                [
+                  "degrading the harness it powers",
+                  1
+                ]
+              ]
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -1039,6 +1739,258 @@
           "writing": 4,
           "general": 1
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 56,
+            "positive": 40,
+            "mixed": 6,
+            "negative": 10,
+            "net_sentiment": 0.5357,
+            "top_aspects": {
+              "positive": [
+                [
+                  "improving the handed-off code",
+                  1
+                ],
+                [
+                  "best model, replaced claude in workflow",
+                  1
+                ],
+                [
+                  "execution quality with enough compute",
+                  1
+                ],
+                [
+                  "frontend/animated component generation",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "not close to opus for performance optimization",
+                  1
+                ],
+                [
+                  "desktop agent floundered",
+                  1
+                ],
+                [
+                  "finding code relationships despite the huge context",
+                  1
+                ],
+                [
+                  "looping and repeating output",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 5,
+            "positive": 0,
+            "mixed": 1,
+            "negative": 4,
+            "net_sentiment": -0.8,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "very slow local inference speed",
+                  1
+                ],
+                [
+                  "inference speed",
+                  1
+                ],
+                [
+                  "slow speed / no usability",
+                  1
+                ],
+                [
+                  "slow speed vs glm",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 22,
+            "positive": 11,
+            "mixed": 3,
+            "negative": 8,
+            "net_sentiment": 0.1364,
+            "top_aspects": {
+              "positive": [
+                [
+                  "value for price",
+                  1
+                ],
+                [
+                  "free pricing",
+                  1
+                ],
+                [
+                  "good value for cost",
+                  1
+                ],
+                [
+                  "worth the extra cost for usefulness",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "usage burned quickly on $100 plan",
+                  2
+                ],
+                [
+                  "too expensive",
+                  1
+                ],
+                [
+                  "output pricing too high for a product",
+                  1
+                ],
+                [
+                  "value for cost",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 2,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "ease of work without over-reporting",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "model derails, unusable in kimi code",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 8,
+            "positive": 6,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.5,
+            "top_aspects": {
+              "positive": [
+                [
+                  "less people-pleasing behavior",
+                  1
+                ],
+                [
+                  "writing/knowledge breadth and avoids censorship triggers",
+                  1
+                ],
+                [
+                  "willingness to comply where others refuse",
+                  1
+                ],
+                [
+                  "conciseness",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "tone imitates claude",
+                  1
+                ],
+                [
+                  "pseudocode-like verbosity",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 16,
+            "positive": 14,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.75,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  7
+                ],
+                [
+                  "b tier ranking",
+                  1
+                ],
+                [
+                  "overall performance",
+                  1
+                ],
+                [
+                  "overall quality after switching",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall",
+                  1
+                ],
+                [
+                  "hoping glm beats kimi k3",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 13,
+            "positive": 10,
+            "mixed": 1,
+            "negative": 2,
+            "net_sentiment": 0.6154,
+            "top_aspects": {
+              "positive": [
+                [
+                  "role split for sub execution",
+                  1
+                ],
+                [
+                  "implementation role",
+                  1
+                ],
+                [
+                  "repetitive work",
+                  1
+                ],
+                [
+                  "role: planning, requirements, and bugfixing",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "membership value and expiration",
+                  1
+                ],
+                [
+                  "license terms",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -1305,6 +2257,221 @@
           "agents": 2,
           "writing": 2
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 28,
+            "positive": 15,
+            "mixed": 5,
+            "negative": 8,
+            "net_sentiment": 0.25,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall upgrade over predecessor",
+                  1
+                ],
+                [
+                  "agent system performance",
+                  1
+                ],
+                [
+                  "svg generation speed and quality",
+                  1
+                ],
+                [
+                  "code review quality",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "handling longer files",
+                  1
+                ],
+                [
+                  "not that good under strict test",
+                  1
+                ],
+                [
+                  "suspected benchmark gaming",
+                  1
+                ],
+                [
+                  "video qc benchmark performance",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 10,
+            "positive": 10,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "speed",
+                  3
+                ],
+                [
+                  "speed (tps) vs prior version",
+                  1
+                ],
+                [
+                  "speed and reliability without runtime errors",
+                  1
+                ],
+                [
+                  "speed and availability",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 20,
+            "positive": 18,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.8,
+            "top_aspects": {
+              "positive": [
+                [
+                  "cost per completed task",
+                  3
+                ],
+                [
+                  "value for one dollar spent",
+                  1
+                ],
+                [
+                  "insanely cheap",
+                  1
+                ],
+                [
+                  "capability relative to low price",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "burns through usage quickly",
+                  1
+                ],
+                [
+                  "not worth using despite being free",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 3,
+            "positive": 1,
+            "mixed": 1,
+            "negative": 1,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "smooth experience, dream to work with",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "crumbles under stricter constraint testing",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 1,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": -1.0,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "english word mixing in japanese summaries",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 4,
+            "positive": 3,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.5,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall impression on first test",
+                  1
+                ],
+                [
+                  "overall performance",
+                  1
+                ],
+                [
+                  "overall enjoyment",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall performance",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 9,
+            "positive": 2,
+            "mixed": 0,
+            "negative": 7,
+            "net_sentiment": -0.5556,
+            "top_aspects": {
+              "positive": [
+                [
+                  "surprise impact overshadowed by bigger launches",
+                  1
+                ],
+                [
+                  "uptime during outage",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "portal integration broken",
+                  2
+                ],
+                [
+                  "access despite paid plan",
+                  1
+                ],
+                [
+                  "regional availability",
+                  1
+                ],
+                [
+                  "missing soc2, broken support blocking use",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -1551,6 +2718,319 @@
           "agents": 19,
           "chat": 19,
           "multimodal": 20
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 101,
+            "positive": 65,
+            "mixed": 10,
+            "negative": 26,
+            "net_sentiment": 0.3861,
+            "top_aspects": {
+              "positive": [
+                [
+                  "3d build realism",
+                  2
+                ],
+                [
+                  "passes benchmark test",
+                  1
+                ],
+                [
+                  "completed automation task successfully",
+                  1
+                ],
+                [
+                  "daily work quality",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "design quality and logic degradation",
+                  1
+                ],
+                [
+                  "document recall regression from prior flash",
+                  1
+                ],
+                [
+                  "frustrating on a design task",
+                  1
+                ],
+                [
+                  "bug detection",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 35,
+            "positive": 25,
+            "mixed": 5,
+            "negative": 5,
+            "net_sentiment": 0.5714,
+            "top_aspects": {
+              "positive": [
+                [
+                  "speed",
+                  3
+                ],
+                [
+                  "quick edit turnaround",
+                  1
+                ],
+                [
+                  "faster with better output",
+                  1
+                ],
+                [
+                  "speed to minimize distraction",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "api reliability and latency",
+                  1
+                ],
+                [
+                  "not worth using for fast work",
+                  1
+                ],
+                [
+                  "speed not worth cleanup work",
+                  1
+                ],
+                [
+                  "slower and more verbose than gemini 3.1 pro",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 31,
+            "positive": 19,
+            "mixed": 3,
+            "negative": 9,
+            "net_sentiment": 0.3226,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token efficiency and success rate",
+                  1
+                ],
+                [
+                  "cost efficiency for agentic gains",
+                  1
+                ],
+                [
+                  "speed and cost for same result",
+                  1
+                ],
+                [
+                  "speed, stability, and price",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "looping drove up api cost for less completed work",
+                  1
+                ],
+                [
+                  "quota burned quickly",
+                  1
+                ],
+                [
+                  "rate limit consumption and output quality",
+                  1
+                ],
+                [
+                  "burned plan on one bug",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 10,
+            "positive": 3,
+            "mixed": 1,
+            "negative": 6,
+            "net_sentiment": -0.3,
+            "top_aspects": {
+              "positive": [
+                [
+                  "ease of building agents",
+                  1
+                ],
+                [
+                  "staying in scope, low verbosity",
+                  1
+                ],
+                [
+                  "effective as a supervised executor",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "instruction following",
+                  2
+                ],
+                [
+                  "ignored instructions and lied",
+                  1
+                ],
+                [
+                  "stuck in loop",
+                  1
+                ],
+                [
+                  "overcorrects on requirements",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 14,
+            "positive": 6,
+            "mixed": 2,
+            "negative": 6,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "good at thread-style writing",
+                  1
+                ],
+                [
+                  "low refusal rate / permissiveness",
+                  1
+                ],
+                [
+                  "harsh character persona amusing",
+                  1
+                ],
+                [
+                  "language expression quality",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "refuses simple factual questions",
+                  1
+                ],
+                [
+                  "sycophancy and code shortcuts",
+                  1
+                ],
+                [
+                  "markdown output formatting",
+                  1
+                ],
+                [
+                  "frustrating to use",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 35,
+            "positive": 30,
+            "mixed": 1,
+            "negative": 4,
+            "net_sentiment": 0.7429,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall quality",
+                  8
+                ],
+                [
+                  "overall",
+                  6
+                ],
+                [
+                  "overall quality momentum",
+                  1
+                ],
+                [
+                  "significance of the update",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality/slop",
+                  1
+                ],
+                [
+                  "overall",
+                  1
+                ],
+                [
+                  "seen as a rebrand rather than real upgrade",
+                  1
+                ],
+                [
+                  "overall quality",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 20,
+            "positive": 11,
+            "mixed": 3,
+            "negative": 6,
+            "net_sentiment": 0.25,
+            "top_aspects": {
+              "positive": [
+                [
+                  "joint web+local processing",
+                  1
+                ],
+                [
+                  "implementation role",
+                  1
+                ],
+                [
+                  "overall quality and ecosystem integration",
+                  1
+                ],
+                [
+                  "not running out of credits/quota",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "reliability of agent outputs",
+                  1
+                ],
+                [
+                  "losing tool access mid-task",
+                  1
+                ],
+                [
+                  "persistent 503 errors blocking use",
+                  1
+                ],
+                [
+                  "service errors preventing use",
+                  1
+                ]
+              ]
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -1830,6 +3310,283 @@
           "none": 28,
           "multimodal": 5,
           "writing": 6
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 84,
+            "positive": 46,
+            "mixed": 7,
+            "negative": 31,
+            "net_sentiment": 0.1786,
+            "top_aspects": {
+              "positive": [
+                [
+                  "autonomously finding and fixing bugs",
+                  1
+                ],
+                [
+                  "stress-free high-quality output",
+                  1
+                ],
+                [
+                  "implementation quality in combo",
+                  1
+                ],
+                [
+                  "adequate for implementation despite being weaker",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "breaks almost as much as it works",
+                  1
+                ],
+                [
+                  "capability on complex tasks",
+                  1
+                ],
+                [
+                  "think turn failure reliability",
+                  1
+                ],
+                [
+                  "looping on long tasks",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 10,
+            "positive": 5,
+            "mixed": 3,
+            "negative": 2,
+            "net_sentiment": 0.3,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token throughput value",
+                  1
+                ],
+                [
+                  "speed",
+                  1
+                ],
+                [
+                  "performance in fast mode",
+                  1
+                ],
+                [
+                  "fast testing role in the workflow",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "slower with worse output",
+                  1
+                ],
+                [
+                  "response speed for sub-agent skill",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 67,
+            "positive": 53,
+            "mixed": 8,
+            "negative": 6,
+            "net_sentiment": 0.7015,
+            "top_aspects": {
+              "positive": [
+                [
+                  "price",
+                  2
+                ],
+                [
+                  "pricing",
+                  2
+                ],
+                [
+                  "rarely hitting the token/rate limit",
+                  1
+                ],
+                [
+                  "strong price-to-value even before the comparison",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "worse and pricier than grok",
+                  1
+                ],
+                [
+                  "unexplained limit burn rate",
+                  1
+                ],
+                [
+                  "cost and performance vs chinese models",
+                  1
+                ],
+                [
+                  "trust on critical tasks and usage burn",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 10,
+            "positive": 4,
+            "mixed": 2,
+            "negative": 4,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "sustained autonomous execution in goal mode",
+                  1
+                ],
+                [
+                  "stays coherent when corrected",
+                  1
+                ],
+                [
+                  "context window works as configured",
+                  1
+                ],
+                [
+                  "gets intent better",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "unusable without sol reviewing",
+                  1
+                ],
+                [
+                  "rework reliability",
+                  1
+                ],
+                [
+                  "doesn't follow rules, messy code",
+                  1
+                ],
+                [
+                  "instruction following",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 2,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "interactive feel",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "excessive unprompted verbosity",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 11,
+            "positive": 9,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.6364,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  5
+                ],
+                [
+                  "b tier ranking",
+                  1
+                ],
+                [
+                  "amazing after returning to it",
+                  1
+                ],
+                [
+                  "best default choice",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality versus gemini",
+                  2
+                ],
+                [
+                  "overall",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 10,
+            "positive": 4,
+            "mixed": 0,
+            "negative": 6,
+            "net_sentiment": -0.2,
+            "top_aspects": {
+              "positive": [
+                [
+                  "screenshot annotation for agent demos",
+                  1
+                ],
+                [
+                  "reliable daily workhorse",
+                  1
+                ],
+                [
+                  "role as cleanup sweeper",
+                  1
+                ],
+                [
+                  "recommended stack component",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "reliability/usability",
+                  1
+                ],
+                [
+                  "handshake failure bug",
+                  1
+                ],
+                [
+                  "missing webmcp tool support",
+                  1
+                ],
+                [
+                  "availability/uptime (no upstream key)",
+                  1
+                ]
+              ]
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -2111,6 +3868,254 @@
           "writing": 2,
           "general": 1
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 62,
+            "positive": 36,
+            "mixed": 9,
+            "negative": 17,
+            "net_sentiment": 0.3065,
+            "top_aspects": {
+              "positive": [
+                [
+                  "unique findings with zero factual errors",
+                  3
+                ],
+                [
+                  "sufficient capability",
+                  2
+                ],
+                [
+                  "reconstruction output aesthetics",
+                  1
+                ],
+                [
+                  "sufficient without vision features",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "coding quality",
+                  1
+                ],
+                [
+                  "3d frontend output quality",
+                  1
+                ],
+                [
+                  "core intelligence vs benchmark gains",
+                  1
+                ],
+                [
+                  "confidently wrong answers",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 6,
+            "positive": 2,
+            "mixed": 1,
+            "negative": 3,
+            "net_sentiment": -0.1667,
+            "top_aspects": {
+              "positive": [
+                [
+                  "4 hour build time",
+                  1
+                ],
+                [
+                  "speed and fewest fixes needed",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "speed",
+                  2
+                ],
+                [
+                  "less room and speed than the flash variant",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 45,
+            "positive": 26,
+            "mixed": 4,
+            "negative": 15,
+            "net_sentiment": 0.2444,
+            "top_aspects": {
+              "positive": [
+                [
+                  "generous free token allowance for coding",
+                  1
+                ],
+                [
+                  "cheapest and smoothest build",
+                  1
+                ],
+                [
+                  "comparable quality to kimi k3, cheaper",
+                  1
+                ],
+                [
+                  "pricing and one-shot quality vs grok/gemini",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "slow and high cost per task",
+                  1
+                ],
+                [
+                  "self-hosting cost efficiency versus api",
+                  1
+                ],
+                [
+                  "free tier minimum payment requirement",
+                  1
+                ],
+                [
+                  "local hosting hardware cost",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 1,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": -1.0,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "derails mid-task",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 3,
+            "positive": 2,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.3333,
+            "top_aspects": {
+              "positive": [
+                [
+                  "allows the security task gpt refused",
+                  1
+                ],
+                [
+                  "open weights and low refusal rate",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "language consistency",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 20,
+            "positive": 17,
+            "mixed": 0,
+            "negative": 3,
+            "net_sentiment": 0.7,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  5
+                ],
+                [
+                  "overall quality, called a masterpiece",
+                  1
+                ],
+                [
+                  "replaced opus in workflow",
+                  1
+                ],
+                [
+                  "chosen for implementation",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "d tier ranking",
+                  1
+                ],
+                [
+                  "overall",
+                  1
+                ],
+                [
+                  "disappointing new version",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 19,
+            "positive": 12,
+            "mixed": 1,
+            "negative": 6,
+            "net_sentiment": 0.3158,
+            "top_aspects": {
+              "positive": [
+                [
+                  "fast permissive-weight distribution",
+                  1
+                ],
+                [
+                  "no-retention local privacy",
+                  1
+                ],
+                [
+                  "running locally via quantization/offload",
+                  1
+                ],
+                [
+                  "fitting 600k context on multi-gpu workstation",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "licensing transparency at release",
+                  1
+                ],
+                [
+                  "fails to run locally via ollama",
+                  1
+                ],
+                [
+                  "model size too large to run",
+                  1
+                ],
+                [
+                  "server congestion during peak demand",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -2389,6 +4394,275 @@
           "agents": 8,
           "writing": 2,
           "chat": 1
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 59,
+            "positive": 33,
+            "mixed": 5,
+            "negative": 21,
+            "net_sentiment": 0.2034,
+            "top_aspects": {
+              "positive": [
+                [
+                  "output quality and speed",
+                  1
+                ],
+                [
+                  "day-and-night improvement over opus",
+                  1
+                ],
+                [
+                  "hallucination rate and usage limits",
+                  1
+                ],
+                [
+                  "visual/spatial reasoning accuracy",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "c tier ranking",
+                  1
+                ],
+                [
+                  "shallow reasoning depth",
+                  1
+                ],
+                [
+                  "performance versus luna max",
+                  1
+                ],
+                [
+                  "performance degrades past 300k context",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 11,
+            "positive": 8,
+            "mixed": 1,
+            "negative": 2,
+            "net_sentiment": 0.5455,
+            "top_aspects": {
+              "positive": [
+                [
+                  "speed on simple tasks",
+                  2
+                ],
+                [
+                  "speed and low verbosity",
+                  1
+                ],
+                [
+                  "throughput (tokens per second)",
+                  1
+                ],
+                [
+                  "speed relative to cursor/grok",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "freezing on long context and cache timeouts",
+                  1
+                ],
+                [
+                  "time to first token",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 34,
+            "positive": 24,
+            "mixed": 5,
+            "negative": 5,
+            "net_sentiment": 0.5588,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token value for cost",
+                  2
+                ],
+                [
+                  "usability despite being free",
+                  1
+                ],
+                [
+                  "response quality among free options",
+                  1
+                ],
+                [
+                  "coding tasks in a free-tier setup",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality despite being free",
+                  1
+                ],
+                [
+                  "credit consumption pushing toward a paid plan",
+                  1
+                ],
+                [
+                  "token consumption",
+                  1
+                ],
+                [
+                  "pricing appeal",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 5,
+            "positive": 4,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.6,
+            "top_aspects": {
+              "positive": [
+                [
+                  "usability for long agent work",
+                  1
+                ],
+                [
+                  "follows system prompt reliably",
+                  1
+                ],
+                [
+                  "instruction following and sub-agent delegation",
+                  1
+                ],
+                [
+                  "ease of content generation",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "excessive clarifying questions",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 4,
+            "positive": 1,
+            "mixed": 2,
+            "negative": 1,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "humanizing writing and workflow cleanup",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "no visible thinking summaries",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 14,
+            "positive": 9,
+            "mixed": 0,
+            "negative": 5,
+            "net_sentiment": 0.2857,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall quality",
+                  4
+                ],
+                [
+                  "overall",
+                  2
+                ],
+                [
+                  "overall quality among free models",
+                  1
+                ],
+                [
+                  "exceeded expectations",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality",
+                  2
+                ],
+                [
+                  "overall",
+                  1
+                ],
+                [
+                  "overall (irritating)",
+                  1
+                ],
+                [
+                  "mediocre, no reason to use it",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 13,
+            "positive": 3,
+            "mixed": 4,
+            "negative": 6,
+            "net_sentiment": -0.2308,
+            "top_aspects": {
+              "positive": [
+                [
+                  "harness alignment progress",
+                  1
+                ],
+                [
+                  "reliability via opencode",
+                  1
+                ],
+                [
+                  "reliability carrying my work",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "provider adapter compatibility",
+                  1
+                ],
+                [
+                  "data privacy on free tier",
+                  1
+                ],
+                [
+                  "server errors / reliability",
+                  1
+                ],
+                [
+                  "default config broken",
+                  1
+                ]
+              ]
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -2669,6 +4943,267 @@
           "agents": 7,
           "writing": 1
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 51,
+            "positive": 25,
+            "mixed": 8,
+            "negative": 18,
+            "net_sentiment": 0.1373,
+            "top_aspects": {
+              "positive": [
+                [
+                  "3d voxel scene generation quality",
+                  1
+                ],
+                [
+                  "3d build quality",
+                  1
+                ],
+                [
+                  "quality surprising enough to upgrade",
+                  1
+                ],
+                [
+                  "wins on car rear rendering",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "ui generation quality",
+                  2
+                ],
+                [
+                  "no perceptible improvement over predecessor",
+                  1
+                ],
+                [
+                  "on par with opus claim",
+                  1
+                ],
+                [
+                  "code correctness under adversarial review",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 23,
+            "positive": 14,
+            "mixed": 5,
+            "negative": 4,
+            "net_sentiment": 0.4348,
+            "top_aspects": {
+              "positive": [
+                [
+                  "generation speed",
+                  3
+                ],
+                [
+                  "speed on flappy bird clone task",
+                  3
+                ],
+                [
+                  "speed and result quality",
+                  1
+                ],
+                [
+                  "much faster than astra",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "speed relative to muse spark 1.3",
+                  1
+                ],
+                [
+                  "slow planning phase",
+                  1
+                ],
+                [
+                  "overthinking",
+                  1
+                ],
+                [
+                  "speed and persona complaints",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 19,
+            "positive": 6,
+            "mixed": 3,
+            "negative": 10,
+            "net_sentiment": -0.2105,
+            "top_aspects": {
+              "positive": [
+                [
+                  "svg output at zero reasoning tokens",
+                  1
+                ],
+                [
+                  "quality, speed, and cost",
+                  1
+                ],
+                [
+                  "better than gpt 5.6 terra at half the price",
+                  1
+                ],
+                [
+                  "quality, speed, and cost combination",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "cost per task",
+                  1
+                ],
+                [
+                  "same price as previous flash, expensive vs glm",
+                  1
+                ],
+                [
+                  "real token cost despite same list price",
+                  1
+                ],
+                [
+                  "token consumption on high reasoning",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 5,
+            "positive": 1,
+            "mixed": 1,
+            "negative": 3,
+            "net_sentiment": -0.4,
+            "top_aspects": {
+              "positive": [
+                [
+                  "loop engineering, prompt scaffolding, and guardrails",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "crumbles under stricter constraint testing",
+                  1
+                ],
+                [
+                  "more steps and unwanted scope creep versus prior version",
+                  1
+                ],
+                [
+                  "reluctance to use web search",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 2,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "chat use case quality",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "jailbreak resistance and safety failures",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 9,
+            "positive": 7,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.5556,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall quality",
+                  3
+                ],
+                [
+                  "overall quality versus opus 5",
+                  1
+                ],
+                [
+                  "replaced heavier pro-tier models as daily driver",
+                  1
+                ],
+                [
+                  "overall performance",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality perception",
+                  1
+                ],
+                [
+                  "overall quality",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 7,
+            "positive": 5,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.4286,
+            "top_aspects": {
+              "positive": [
+                [
+                  "automatic upgrade routing",
+                  1
+                ],
+                [
+                  "repo maintenance fallback usage",
+                  1
+                ],
+                [
+                  "supervisor role",
+                  1
+                ],
+                [
+                  "views generated for the same post idea",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "looping on file reading burning quota",
+                  1
+                ],
+                [
+                  "confusing onboarding/subscription docs",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -2947,6 +5482,319 @@
           "cost": 38,
           "chat": 10,
           "multimodal": 13
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 154,
+            "positive": 94,
+            "mixed": 10,
+            "negative": 50,
+            "net_sentiment": 0.2857,
+            "top_aspects": {
+              "positive": [
+                [
+                  "backend performance",
+                  2
+                ],
+                [
+                  "coding capability",
+                  2
+                ],
+                [
+                  "complex coding tasks",
+                  2
+                ],
+                [
+                  "judged smarter than fable 5 for the author's work",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "reasoning/interpolation error undermines daily use",
+                  1
+                ],
+                [
+                  "not close to opus for performance optimization",
+                  1
+                ],
+                [
+                  "overall coding quality",
+                  1
+                ],
+                [
+                  "performance inflated by hidden self-test rounds",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 18,
+            "positive": 7,
+            "mixed": 8,
+            "negative": 3,
+            "net_sentiment": 0.2222,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token throughput",
+                  1
+                ],
+                [
+                  "fast implementation via subagents",
+                  1
+                ],
+                [
+                  "building complete software quickly",
+                  1
+                ],
+                [
+                  "deploying a website quickly",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "analysis speed",
+                  1
+                ],
+                [
+                  "took 15 minutes to run a script",
+                  1
+                ],
+                [
+                  "speed",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 52,
+            "positive": 23,
+            "mixed": 8,
+            "negative": 21,
+            "net_sentiment": 0.0385,
+            "top_aspects": {
+              "positive": [
+                [
+                  "low hourly token burn rate",
+                  1
+                ],
+                [
+                  "high value extracted per subscription",
+                  1
+                ],
+                [
+                  "token cost efficiency vs opus",
+                  1
+                ],
+                [
+                  "rate limit efficiency",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "token consumption draining rate limit",
+                  1
+                ],
+                [
+                  "hitting the 5-hour usage limit",
+                  1
+                ],
+                [
+                  "too expensive",
+                  1
+                ],
+                [
+                  "quota burned quickly",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 31,
+            "positive": 7,
+            "mixed": 5,
+            "negative": 19,
+            "net_sentiment": -0.3871,
+            "top_aspects": {
+              "positive": [
+                [
+                  "instruction following in one prompt",
+                  1
+                ],
+                [
+                  "respecting lint checks",
+                  1
+                ],
+                [
+                  "reliable output with repo instructions",
+                  1
+                ],
+                [
+                  "best model to be orchestrated",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "not actually doing the work itself",
+                  1
+                ],
+                [
+                  "overly complex output for simple task",
+                  1
+                ],
+                [
+                  "overengineering",
+                  1
+                ],
+                [
+                  "over-attention to existing code context",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 13,
+            "positive": 4,
+            "mixed": 2,
+            "negative": 7,
+            "net_sentiment": -0.2308,
+            "top_aspects": {
+              "positive": [
+                [
+                  "compliant, no nagging",
+                  1
+                ],
+                [
+                  "natural conversational style in chinese",
+                  1
+                ],
+                [
+                  "verbosity, speed, and writing quality",
+                  1
+                ],
+                [
+                  "less verbose output",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "refusal rate on legitimate work",
+                  1
+                ],
+                [
+                  "frustration during use",
+                  1
+                ],
+                [
+                  "safety prompts blocking vulnerability research",
+                  1
+                ],
+                [
+                  "over-apologizing error pattern",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 46,
+            "positive": 36,
+            "mixed": 0,
+            "negative": 10,
+            "net_sentiment": 0.5652,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  3
+                ],
+                [
+                  "overall preference",
+                  2
+                ],
+                [
+                  "overall quality",
+                  2
+                ],
+                [
+                  "overall impressiveness",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall",
+                  1
+                ],
+                [
+                  "overall quality vs opus",
+                  1
+                ],
+                [
+                  "overall vs anthropic models",
+                  1
+                ],
+                [
+                  "loses to the claude combo",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 35,
+            "positive": 16,
+            "mixed": 1,
+            "negative": 18,
+            "net_sentiment": -0.0571,
+            "top_aspects": {
+              "positive": [
+                [
+                  "role split for backend",
+                  1
+                ],
+                [
+                  "role split for research and docs",
+                  1
+                ],
+                [
+                  "reliability after terra degraded",
+                  1
+                ],
+                [
+                  "no fallback routing",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "no longer available in cursor",
+                  1
+                ],
+                [
+                  "reliability of harness design (causes errors)",
+                  1
+                ],
+                [
+                  "context window not matching configuration",
+                  1
+                ],
+                [
+                  "handshake failure bug",
+                  1
+                ]
+              ]
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -3227,6 +6075,299 @@
           "agents": 9,
           "writing": 5
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 85,
+            "positive": 55,
+            "mixed": 6,
+            "negative": 24,
+            "net_sentiment": 0.3647,
+            "top_aspects": {
+              "positive": [
+                [
+                  "output quality",
+                  2
+                ],
+                [
+                  "debugging capability",
+                  1
+                ],
+                [
+                  "overall coding capability",
+                  1
+                ],
+                [
+                  "realism, textures, physics quality",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "perceived repackaging of the old model",
+                  1
+                ],
+                [
+                  "color picking bias toward dark warm tones",
+                  1
+                ],
+                [
+                  "frequent mistakes after upgrade",
+                  1
+                ],
+                [
+                  "pokemon gen9 ou test performance",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 7,
+            "positive": 3,
+            "mixed": 0,
+            "negative": 4,
+            "net_sentiment": -0.1429,
+            "top_aspects": {
+              "positive": [
+                [
+                  "project setup speed",
+                  1
+                ],
+                [
+                  "fast generation of a 3d scene from scratch",
+                  1
+                ],
+                [
+                  "speed and creativity finding vulns",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "completion speed",
+                  1
+                ],
+                [
+                  "speed and usage limit consumption",
+                  1
+                ],
+                [
+                  "speed",
+                  1
+                ],
+                [
+                  "slow to complete tasks",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 61,
+            "positive": 8,
+            "mixed": 8,
+            "negative": 45,
+            "net_sentiment": -0.6066,
+            "top_aspects": {
+              "positive": [
+                [
+                  "performance/price sweet spot",
+                  1
+                ],
+                [
+                  "performance and cost improvement",
+                  1
+                ],
+                [
+                  "output value",
+                  1
+                ],
+                [
+                  "advisor role cost efficiency",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "token consumption",
+                  4
+                ],
+                [
+                  "rate limits",
+                  3
+                ],
+                [
+                  "not worth the cost for my use case",
+                  1
+                ],
+                [
+                  "token consumption / rate limits",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 8,
+            "positive": 6,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.5,
+            "top_aspects": {
+              "positive": [
+                [
+                  "handling incomplete or interrupted prompts",
+                  1
+                ],
+                [
+                  "fit for unsupervised long runs",
+                  1
+                ],
+                [
+                  "autonomy with little hand-holding",
+                  1
+                ],
+                [
+                  "careful task approach",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "ignoring instructions and worse suggestions",
+                  1
+                ],
+                [
+                  "stuck fixing subagent messes",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 10,
+            "positive": 3,
+            "mixed": 2,
+            "negative": 5,
+            "net_sentiment": -0.2,
+            "top_aspects": {
+              "positive": [
+                [
+                  "fewer voiced review comments for same issue count",
+                  1
+                ],
+                [
+                  "humble, concise tone",
+                  1
+                ],
+                [
+                  "directness and reduced usage burn vs fable 5",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "refuses account creation/deletion and scolds",
+                  1
+                ],
+                [
+                  "boldness and wit in answers",
+                  1
+                ],
+                [
+                  "refuses ai/consciousness topics burning tokens",
+                  1
+                ],
+                [
+                  "unexpected extreme response to request",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 12,
+            "positive": 10,
+            "mixed": 0,
+            "negative": 2,
+            "net_sentiment": 0.6667,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  5
+                ],
+                [
+                  "overall performance",
+                  1
+                ],
+                [
+                  "excitement for the demo build",
+                  1
+                ],
+                [
+                  "early testing results",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall",
+                  1
+                ],
+                [
+                  "not worth using",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 18,
+            "positive": 8,
+            "mixed": 1,
+            "negative": 9,
+            "net_sentiment": -0.0556,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall reliability serving needs",
+                  1
+                ],
+                [
+                  "role in multi-model agent pipeline",
+                  1
+                ],
+                [
+                  "paired workflow with grok",
+                  1
+                ],
+                [
+                  "orchestrating a multi-model build setup",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "no rate-limit boost provided",
+                  1
+                ],
+                [
+                  "availability",
+                  1
+                ],
+                [
+                  "not available in pro plans",
+                  1
+                ],
+                [
+                  "restricted output state and watermarking",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -3506,6 +6647,306 @@
           "writing": 13,
           "multimodal": 9,
           "general": 1
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 126,
+            "positive": 43,
+            "mixed": 14,
+            "negative": 69,
+            "net_sentiment": -0.2063,
+            "top_aspects": {
+              "positive": [
+                [
+                  "unique findings with zero factual errors",
+                  4
+                ],
+                [
+                  "design capability",
+                  3
+                ],
+                [
+                  "clearly best for performance optimization",
+                  1
+                ],
+                [
+                  "multi-layer reasoning with long context",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "underperforms gpt-5.6 luna max",
+                  2
+                ],
+                [
+                  "reports work as done when it is not",
+                  1
+                ],
+                [
+                  "frequent mistakes and bugs",
+                  1
+                ],
+                [
+                  "overrated relative to fable",
+                  1
+                ]
+              ]
+            }
+          },
+          "speed": {
+            "n": 7,
+            "positive": 0,
+            "mixed": 1,
+            "negative": 6,
+            "net_sentiment": -0.8571,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "speed",
+                  2
+                ],
+                [
+                  "slower than glm 5.3 flash",
+                  1
+                ],
+                [
+                  "refactor speed",
+                  1
+                ],
+                [
+                  "task completion slowed dramatically",
+                  1
+                ]
+              ]
+            }
+          },
+          "price": {
+            "n": 40,
+            "positive": 7,
+            "mixed": 3,
+            "negative": 30,
+            "net_sentiment": -0.575,
+            "top_aspects": {
+              "positive": [
+                [
+                  "subagent heavy usage",
+                  1
+                ],
+                [
+                  "quota lasts about 5 days",
+                  1
+                ],
+                [
+                  "planning role quality and cost",
+                  1
+                ],
+                [
+                  "rate limits",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "token consumption",
+                  2
+                ],
+                [
+                  "cost and speed concerns before switching",
+                  1
+                ],
+                [
+                  "cost versus comparable quality",
+                  1
+                ],
+                [
+                  "cost vs gpt-5.6 sol",
+                  1
+                ]
+              ]
+            }
+          },
+          "steerability": {
+            "n": 28,
+            "positive": 6,
+            "mixed": 2,
+            "negative": 20,
+            "net_sentiment": -0.5,
+            "top_aspects": {
+              "positive": [
+                [
+                  "instruction following on a long task",
+                  2
+                ],
+                [
+                  "workflow effectiveness",
+                  1
+                ],
+                [
+                  "spec discussion/collaboration quality",
+                  1
+                ],
+                [
+                  "resilience to hostile prompting",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "hard to direct despite benchmark scores",
+                  1
+                ],
+                [
+                  "verbosity forcing rewritten instructions",
+                  1
+                ],
+                [
+                  "unwanted off-script value-adds",
+                  1
+                ],
+                [
+                  "laziness in completing tasks",
+                  1
+                ]
+              ]
+            }
+          },
+          "personality": {
+            "n": 35,
+            "positive": 5,
+            "mixed": 4,
+            "negative": 26,
+            "net_sentiment": -0.6,
+            "top_aspects": {
+              "positive": [
+                [
+                  "adjustable default writing register",
+                  1
+                ],
+                [
+                  "harsh character persona amusing",
+                  1
+                ],
+                [
+                  "conversational quality vs grok",
+                  1
+                ],
+                [
+                  "english verbalization style",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "verbosity",
+                  2
+                ],
+                [
+                  "guardrails limiting usefulness",
+                  2
+                ],
+                [
+                  "jargon-heavy versus qwen's clarity",
+                  1
+                ],
+                [
+                  "political bias",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 62,
+            "positive": 19,
+            "mixed": 2,
+            "negative": 41,
+            "net_sentiment": -0.3548,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  8
+                ],
+                [
+                  "overall quality",
+                  2
+                ],
+                [
+                  "result described as epic, though the author is unsure",
+                  1
+                ],
+                [
+                  "overall best models used so far",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall",
+                  13
+                ],
+                [
+                  "overall quality",
+                  12
+                ],
+                [
+                  "felt off after upgrading",
+                  1
+                ],
+                [
+                  "d tier ranking",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 22,
+            "positive": 8,
+            "mixed": 0,
+            "negative": 14,
+            "net_sentiment": -0.2727,
+            "top_aspects": {
+              "positive": [
+                [
+                  "reliability in medium thinking mode",
+                  1
+                ],
+                [
+                  "role split for frontend",
+                  1
+                ],
+                [
+                  "orchestrated via fable workflows",
+                  1
+                ],
+                [
+                  "orchestrator role",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "evading ai-detection",
+                  2
+                ],
+                [
+                  "reliability and false assurances",
+                  1
+                ],
+                [
+                  "restricted model access",
+                  1
+                ],
+                [
+                  "reliability of harness design (causes errors)",
+                  1
+                ]
+              ]
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -3788,6 +7229,85 @@
           "multimodal": 5,
           "writing": 14
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -4068,6 +7588,85 @@
           "agents": 4,
           "general": 2
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -4297,6 +7896,85 @@
           "none": 18,
           "multimodal": 5,
           "cost": 9
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -4541,6 +8219,85 @@
           "agents": 4,
           "chat": 12
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -4764,6 +8521,85 @@
           "coding": 2,
           "none": 1
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -4893,6 +8729,85 @@
           "chat": 1,
           "cost": 1
         },
+        "dimensions": {
+          "intelligence": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -4993,6 +8908,85 @@
         "tasks": {
           "cost": 3,
           "coding": 2
+        },
+        "dimensions": {
+          "intelligence": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "speed": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "price": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "steerability": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "personality": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "overall": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 0,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": null,
+            "top_aspects": {
+              "positive": [],
+              "negative": []
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -6408,6 +10402,323 @@
           "writing": 6,
           "none": 1
         },
+        "dimensions": {
+          "limits": {
+            "n": 115,
+            "positive": 19,
+            "mixed": 6,
+            "negative": 90,
+            "net_sentiment": -0.6174,
+            "top_aspects": {
+              "positive": [
+                [
+                  "ui work role avoids hitting usage limits",
+                  1
+                ],
+                [
+                  "subscription practicality over api",
+                  1
+                ],
+                [
+                  "usage lasts with heavy daily use",
+                  1
+                ],
+                [
+                  "comfortable usage limits after switching back",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "rate limits",
+                  6
+                ],
+                [
+                  "subscription value",
+                  2
+                ],
+                [
+                  "not worth the subscription",
+                  2
+                ],
+                [
+                  "misleading 20x rate-limit window marketing",
+                  2
+                ]
+              ]
+            }
+          },
+          "reliability": {
+            "n": 37,
+            "positive": 11,
+            "mixed": 2,
+            "negative": 24,
+            "net_sentiment": -0.3514,
+            "top_aspects": {
+              "positive": [
+                [
+                  "reliability needing few corrections",
+                  1
+                ],
+                [
+                  "overall reliability over a year of use",
+                  1
+                ],
+                [
+                  "problem-free proxy setup for months",
+                  1
+                ],
+                [
+                  "stability and fewer bugs",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "hangs with many mcp servers connected",
+                  2
+                ],
+                [
+                  "silent background computer-use failure mode",
+                  2
+                ],
+                [
+                  "no longer working well",
+                  1
+                ],
+                [
+                  "app lag and api connection errors during builds",
+                  1
+                ]
+              ]
+            }
+          },
+          "efficiency": {
+            "n": 37,
+            "positive": 12,
+            "mixed": 5,
+            "negative": 20,
+            "net_sentiment": -0.2162,
+            "top_aspects": {
+              "positive": [
+                [
+                  "time savings",
+                  2
+                ],
+                [
+                  "sips quota by comparison",
+                  1
+                ],
+                [
+                  "work efficiency",
+                  1
+                ],
+                [
+                  "session recovery via transcripts",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "losing track of projects",
+                  2
+                ],
+                [
+                  "slower and more token-hungry than pi",
+                  1
+                ],
+                [
+                  "token consumption running in parallel",
+                  1
+                ],
+                [
+                  "coordination overhead using two harnesses together",
+                  1
+                ]
+              ]
+            }
+          },
+          "agent": {
+            "n": 127,
+            "positive": 81,
+            "mixed": 12,
+            "negative": 34,
+            "net_sentiment": 0.3701,
+            "top_aspects": {
+              "positive": [
+                [
+                  "building complex apps",
+                  2
+                ],
+                [
+                  "reliable for architecture design and hard problems",
+                  1
+                ],
+                [
+                  "daily assistance/time saved",
+                  1
+                ],
+                [
+                  "kept for qa and review work",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "needing repeated requests to simplify explanations",
+                  1
+                ],
+                [
+                  "long task usability with opus 5",
+                  1
+                ],
+                [
+                  "agentic programming performance",
+                  1
+                ],
+                [
+                  "more hassle, needs more explanation per task",
+                  1
+                ]
+              ]
+            }
+          },
+          "dx": {
+            "n": 81,
+            "positive": 49,
+            "mixed": 7,
+            "negative": 25,
+            "net_sentiment": 0.2963,
+            "top_aspects": {
+              "positive": [
+                [
+                  "developer experience",
+                  3
+                ],
+                [
+                  "subagent instructions via claude.md",
+                  1
+                ],
+                [
+                  "matches hermes, cleaner ui",
+                  1
+                ],
+                [
+                  "flexibility to use other models",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "not for engineering-first devs",
+                  4
+                ],
+                [
+                  "local security hassle for key handling",
+                  1
+                ],
+                [
+                  "unconsented auto model switching",
+                  1
+                ],
+                [
+                  "auto-switching to opus 4.8 without warning",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 56,
+            "positive": 39,
+            "mixed": 3,
+            "negative": 14,
+            "net_sentiment": 0.4464,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  6
+                ],
+                [
+                  "overall preference",
+                  3
+                ],
+                [
+                  "immediate impression when switching tools",
+                  1
+                ],
+                [
+                  "primary coding tool reliance",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "overall",
+                  1
+                ],
+                [
+                  "overall quality vs codex",
+                  1
+                ],
+                [
+                  "overall quality comparison",
+                  1
+                ],
+                [
+                  "frustration driving the switch away",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 26,
+            "positive": 10,
+            "mixed": 1,
+            "negative": 15,
+            "net_sentiment": -0.1923,
+            "top_aspects": {
+              "positive": [
+                [
+                  "part of a four-tool split",
+                  1
+                ],
+                [
+                  "reasoning sharpness",
+                  1
+                ],
+                [
+                  "speed and intelligence vs codex",
+                  1
+                ],
+                [
+                  "scene placement using boundary info",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "verbosity",
+                  2
+                ],
+                [
+                  "tedious manual database call logic",
+                  1
+                ],
+                [
+                  "consideration in responses",
+                  1
+                ],
+                [
+                  "speed vs unnamed new tool",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -6687,6 +10998,323 @@
           "none": 6,
           "writing": 1
         },
+        "dimensions": {
+          "limits": {
+            "n": 90,
+            "positive": 36,
+            "mixed": 5,
+            "negative": 49,
+            "net_sentiment": -0.1444,
+            "top_aspects": {
+              "positive": [
+                [
+                  "usage limits generosity",
+                  2
+                ],
+                [
+                  "pro pass doesn't count against agentic usage",
+                  2
+                ],
+                [
+                  "usage limits and intelligence",
+                  1
+                ],
+                [
+                  "cheap plan with large luna quota",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "rate limits",
+                  2
+                ],
+                [
+                  "5-hour rate limit",
+                  2
+                ],
+                [
+                  "usage quota running out",
+                  1
+                ],
+                [
+                  "quota drained by hidden alignment overhead",
+                  1
+                ]
+              ]
+            }
+          },
+          "reliability": {
+            "n": 36,
+            "positive": 9,
+            "mixed": 1,
+            "negative": 26,
+            "net_sentiment": -0.4722,
+            "top_aspects": {
+              "positive": [
+                [
+                  "reliably restarts/fixes automation",
+                  1
+                ],
+                [
+                  "spawning skill reliability across harnesses",
+                  1
+                ],
+                [
+                  "reliability needing few corrections",
+                  1
+                ],
+                [
+                  "quality and reliability when cost isn't a concern",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "downtime/reliability when it crashes",
+                  1
+                ],
+                [
+                  "handshake failures burn quota",
+                  1
+                ],
+                [
+                  "false success reports with no actual commits",
+                  1
+                ],
+                [
+                  "looping wrecked my program",
+                  1
+                ]
+              ]
+            }
+          },
+          "efficiency": {
+            "n": 32,
+            "positive": 16,
+            "mixed": 3,
+            "negative": 13,
+            "net_sentiment": 0.0938,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token value",
+                  1
+                ],
+                [
+                  "token throughput value",
+                  1
+                ],
+                [
+                  "token throughput",
+                  1
+                ],
+                [
+                  "work efficiency",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "slower and more token-hungry than pi",
+                  1
+                ],
+                [
+                  "token consumption running in parallel",
+                  1
+                ],
+                [
+                  "coordination overhead using two harnesses together",
+                  1
+                ],
+                [
+                  "speed, verbosity, and token burn",
+                  1
+                ]
+              ]
+            }
+          },
+          "agent": {
+            "n": 99,
+            "positive": 75,
+            "mixed": 5,
+            "negative": 19,
+            "net_sentiment": 0.5657,
+            "top_aspects": {
+              "positive": [
+                [
+                  "building complex apps",
+                  2
+                ],
+                [
+                  "reliable for architecture design and hard problems",
+                  1
+                ],
+                [
+                  "3d generation quality improvement",
+                  1
+                ],
+                [
+                  "quality jump in output",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "scope creep on small tasks",
+                  2
+                ],
+                [
+                  "quality before claude code raised the bar",
+                  1
+                ],
+                [
+                  "long task usability with opus 5",
+                  1
+                ],
+                [
+                  "took over mouse cursor control",
+                  1
+                ]
+              ]
+            }
+          },
+          "dx": {
+            "n": 80,
+            "positive": 47,
+            "mixed": 1,
+            "negative": 32,
+            "net_sentiment": 0.1875,
+            "top_aspects": {
+              "positive": [
+                [
+                  "easy onboarding process for lab seats",
+                  2
+                ],
+                [
+                  "desktop, image and computer-use features still strong",
+                  1
+                ],
+                [
+                  "faster boot time",
+                  1
+                ],
+                [
+                  "meta harness routing improving output quality",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "gui/ux called subpar versus t3 code",
+                  1
+                ],
+                [
+                  "local security hassle for key handling",
+                  1
+                ],
+                [
+                  "hidden model swapping to cheaper luna",
+                  1
+                ],
+                [
+                  "config drifting out of sync with docs",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 58,
+            "positive": 50,
+            "mixed": 0,
+            "negative": 8,
+            "net_sentiment": 0.7241,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  4
+                ],
+                [
+                  "preferred by real devs",
+                  4
+                ],
+                [
+                  "overall quality",
+                  3
+                ],
+                [
+                  "overall preference",
+                  2
+                ]
+              ],
+              "negative": [
+                [
+                  "overall quality versus gemini",
+                  2
+                ],
+                [
+                  "loses to the claude combo",
+                  1
+                ],
+                [
+                  "fatigue from overuse",
+                  1
+                ],
+                [
+                  "recent performance decline",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 16,
+            "positive": 8,
+            "mixed": 1,
+            "negative": 7,
+            "net_sentiment": 0.0625,
+            "top_aspects": {
+              "positive": [
+                [
+                  "consideration in responses",
+                  1
+                ],
+                [
+                  "part of a four-tool split",
+                  1
+                ],
+                [
+                  "better than opus 5 on verbosity and cost",
+                  1
+                ],
+                [
+                  "used for backend",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "response quality versus copilot harness running luna",
+                  1
+                ],
+                [
+                  "speed and intelligence",
+                  1
+                ],
+                [
+                  "slow, overthinking",
+                  1
+                ],
+                [
+                  "speed",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -6960,6 +11588,250 @@
           "agents": 3,
           "multimodal": 1
         },
+        "dimensions": {
+          "limits": {
+            "n": 21,
+            "positive": 16,
+            "mixed": 1,
+            "negative": 4,
+            "net_sentiment": 0.5714,
+            "top_aspects": {
+              "positive": [
+                [
+                  "go plan token value",
+                  1
+                ],
+                [
+                  "generous remaining token limits",
+                  1
+                ],
+                [
+                  "usage limits feel unlimited",
+                  1
+                ],
+                [
+                  "free versus paid alternative",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "credit value and usage limits",
+                  1
+                ],
+                [
+                  "high api cost against weekly limit",
+                  1
+                ],
+                [
+                  "rate limit on free tier",
+                  1
+                ],
+                [
+                  "rate limit reached on free tier",
+                  1
+                ]
+              ]
+            }
+          },
+          "reliability": {
+            "n": 10,
+            "positive": 4,
+            "mixed": 0,
+            "negative": 6,
+            "net_sentiment": -0.2,
+            "top_aspects": {
+              "positive": [
+                [
+                  "reliability versus third-party router",
+                  1
+                ],
+                [
+                  "reliability running muse spark 1.2",
+                  1
+                ],
+                [
+                  "reliability carrying my work",
+                  1
+                ],
+                [
+                  "uptime during outage",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "free server reliability",
+                  1
+                ],
+                [
+                  "server errors / reliability",
+                  1
+                ],
+                [
+                  "looping and repeating output on go plan",
+                  1
+                ],
+                [
+                  "unresolved bug after update",
+                  1
+                ]
+              ]
+            }
+          },
+          "efficiency": {
+            "n": 1,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "usability for long agent work",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "agent": {
+            "n": 6,
+            "positive": 5,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.6667,
+            "top_aspects": {
+              "positive": [
+                [
+                  "coding task fit",
+                  1
+                ],
+                [
+                  "ease of content generation",
+                  1
+                ],
+                [
+                  "multi-agent code review workflow",
+                  1
+                ],
+                [
+                  "task completion reliability",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "unnecessary permission prompts from incorrect path access",
+                  1
+                ]
+              ]
+            }
+          },
+          "dx": {
+            "n": 15,
+            "positive": 13,
+            "mixed": 1,
+            "negative": 1,
+            "net_sentiment": 0.8,
+            "top_aspects": {
+              "positive": [
+                [
+                  "suitable for cli coding",
+                  1
+                ],
+                [
+                  "preferred lightweight setup vs antigravity",
+                  1
+                ],
+                [
+                  "efficiency with vscode",
+                  1
+                ],
+                [
+                  "hosting a free model successfully",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "reasoning output differs from official api",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 9,
+            "positive": 8,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.7778,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  2
+                ],
+                [
+                  "solid part of coding setup",
+                  1
+                ],
+                [
+                  "better at some tasks",
+                  1
+                ],
+                [
+                  "best coding setup overall",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "not worth using despite the speed",
+                  1
+                ]
+              ]
+            }
+          },
+          "other": {
+            "n": 7,
+            "positive": 4,
+            "mixed": 0,
+            "negative": 3,
+            "net_sentiment": 0.1429,
+            "top_aspects": {
+              "positive": [
+                [
+                  "speed",
+                  2
+                ],
+                [
+                  "value combo with glm and muse",
+                  1
+                ],
+                [
+                  "harness used to run the test",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "regional model availability on go plan",
+                  1
+                ],
+                [
+                  "slower running kimi than an untracked alternative",
+                  1
+                ],
+                [
+                  "regional availability of free tier",
+                  1
+                ]
+              ]
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -7182,6 +12054,169 @@
           "coding": 16,
           "agents": 5
         },
+        "dimensions": {
+          "limits": {
+            "n": 1,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": -1.0,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "cost and rate limits",
+                  1
+                ]
+              ]
+            }
+          },
+          "reliability": {
+            "n": 1,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "predictable behavior via harness",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "efficiency": {
+            "n": 6,
+            "positive": 6,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "token efficiency",
+                  2
+                ],
+                [
+                  "more efficient, less token waste",
+                  1
+                ],
+                [
+                  "speed and efficiency",
+                  1
+                ],
+                [
+                  "token usage and output quality",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "agent": {
+            "n": 4,
+            "positive": 4,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "boosts model coding performance",
+                  2
+                ],
+                [
+                  "local agentic coding experience",
+                  1
+                ],
+                [
+                  "autonomous overnight multi-agent shipping",
+                  1
+                ],
+                [
+                  "plan mode detail",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "dx": {
+            "n": 5,
+            "positive": 4,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": 0.6,
+            "top_aspects": {
+              "positive": [
+                [
+                  "agent capability routed into another ui",
+                  1
+                ],
+                [
+                  "setup assistance",
+                  1
+                ],
+                [
+                  "harness preference for using claude models",
+                  1
+                ],
+                [
+                  "custom task_end hook extensibility",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "requires self-hosted cloud environment",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 3,
+            "positive": 3,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall satisfaction routing other work",
+                  1
+                ],
+                [
+                  "overall performance vs claude code",
+                  1
+                ],
+                [
+                  "daily driver choice",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 1,
+            "positive": 1,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "results from bare harness vs pi comparison",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          }
+        },
         "aspects": {
           "positive": [
             [
@@ -7345,6 +12380,228 @@
           "cost": 6,
           "chat": 2,
           "general": 1
+        },
+        "dimensions": {
+          "limits": {
+            "n": 12,
+            "positive": 3,
+            "mixed": 4,
+            "negative": 5,
+            "net_sentiment": -0.1667,
+            "top_aspects": {
+              "positive": [
+                [
+                  "generous allowance bundled into cursor pro",
+                  1
+                ],
+                [
+                  "was awesome before hitting cursor cap",
+                  1
+                ],
+                [
+                  "value / bundled cost",
+                  1
+                ],
+                [
+                  "reduces cursor quota consumption",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "unexpectedly high cost for a simple task",
+                  1
+                ],
+                [
+                  "usage consumption relative to work done",
+                  1
+                ],
+                [
+                  "limitations preventing more use despite heavy usage",
+                  1
+                ],
+                [
+                  "running 10-20 bots in a loop drives up cost",
+                  1
+                ]
+              ]
+            }
+          },
+          "reliability": {
+            "n": 4,
+            "positive": 1,
+            "mixed": 1,
+            "negative": 2,
+            "net_sentiment": -0.25,
+            "top_aspects": {
+              "positive": [
+                [
+                  "no issues encountered so far",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "partial outage/malfunction",
+                  1
+                ],
+                [
+                  "outage reliability",
+                  1
+                ]
+              ]
+            }
+          },
+          "efficiency": {
+            "n": 1,
+            "positive": 0,
+            "mixed": 0,
+            "negative": 1,
+            "net_sentiment": -1.0,
+            "top_aspects": {
+              "positive": [],
+              "negative": [
+                [
+                  "expensive due to multi-bot looping until objective complete",
+                  1
+                ],
+                [
+                  "expensive parallel bot loops",
+                  1
+                ]
+              ]
+            }
+          },
+          "agent": {
+            "n": 30,
+            "positive": 25,
+            "mixed": 3,
+            "negative": 2,
+            "net_sentiment": 0.7667,
+            "top_aspects": {
+              "positive": [
+                [
+                  "building automated client workflows",
+                  2
+                ],
+                [
+                  "autonomously finding and fixing bugs",
+                  1
+                ],
+                [
+                  "autonomy, 'just go do it' behavior",
+                  1
+                ],
+                [
+                  "kickstarting a multi-agent build",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "primitive harness performance",
+                  1
+                ],
+                [
+                  "self-learning agent capability",
+                  1
+                ]
+              ]
+            }
+          },
+          "dx": {
+            "n": 25,
+            "positive": 15,
+            "mixed": 4,
+            "negative": 6,
+            "net_sentiment": 0.36,
+            "top_aspects": {
+              "positive": [
+                [
+                  "ease of use",
+                  2
+                ],
+                [
+                  "built-in sandboxed environment for key handling",
+                  1
+                ],
+                [
+                  "best environment for grok 4.6",
+                  1
+                ],
+                [
+                  "remote trigger workflow",
+                  1
+                ]
+              ],
+              "negative": [
+                [
+                  "feels dumber and slower than direct model access",
+                  1
+                ],
+                [
+                  "ui design quality",
+                  1
+                ],
+                [
+                  "missing built-in x search, needs separate api credits",
+                  1
+                ],
+                [
+                  "hard to use effectively",
+                  1
+                ]
+              ]
+            }
+          },
+          "overall": {
+            "n": 9,
+            "positive": 9,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "overall",
+                  2
+                ],
+                [
+                  "worth switching to after a year on claude code",
+                  1
+                ],
+                [
+                  "fun collaboration with virtual users",
+                  1
+                ],
+                [
+                  "overall experience trying it",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          },
+          "other": {
+            "n": 2,
+            "positive": 2,
+            "mixed": 0,
+            "negative": 0,
+            "net_sentiment": 1.0,
+            "top_aspects": {
+              "positive": [
+                [
+                  "conciseness",
+                  1
+                ],
+                [
+                  "speed relative to monitor",
+                  1
+                ]
+              ],
+              "negative": []
+            }
+          }
         },
         "aspects": {
           "positive": [
@@ -8153,5 +13410,69 @@
       "kimi",
       "muse"
     ]
+  },
+  "dimensions": {
+    "definition": "Free-text aspects mapped onto a fixed vocabulary by a separate LLM pass (ASPECT_DIMENSIONS.md); one author per target per dimension per week, firsthand only.",
+    "model": [
+      [
+        "intelligence",
+        "Intelligence"
+      ],
+      [
+        "speed",
+        "Speed"
+      ],
+      [
+        "price",
+        "Price"
+      ],
+      [
+        "steerability",
+        "Steerability"
+      ],
+      [
+        "personality",
+        "Personality"
+      ],
+      [
+        "overall",
+        "Overall"
+      ],
+      [
+        "other",
+        "Other"
+      ]
+    ],
+    "harness": [
+      [
+        "limits",
+        "Limits and quota"
+      ],
+      [
+        "reliability",
+        "Reliability"
+      ],
+      [
+        "efficiency",
+        "Token and context efficiency"
+      ],
+      [
+        "agent",
+        "Agent behaviour"
+      ],
+      [
+        "dx",
+        "Developer experience"
+      ],
+      [
+        "overall",
+        "Overall"
+      ],
+      [
+        "other",
+        "Other"
+      ]
+    ],
+    "unmapped_aspects": {}
   }
 }

@@ -1,0 +1,250 @@
+{"aspect": "context window size versus relationship structure", "dimension": "intelligence"}
+{"aspect": "context window size vs fix quality", "dimension": "intelligence"}
+{"aspect": "context window versus relationships", "dimension": "intelligence"}
+{"aspect": "context window works as configured", "dimension": "steerability"}
+{"aspect": "contributor pricing discount", "dimension": "price"}
+{"aspect": "contributor program pricing", "dimension": "price"}
+{"aspect": "conversation derailing, needing correction", "dimension": "steerability"}
+{"aspect": "conversational quality", "dimension": "personality"}
+{"aspect": "conversational quality vs grok", "dimension": "personality"}
+{"aspect": "conversational quality/coherence", "dimension": "personality"}
+{"aspect": "copywriting and coding", "dimension": "intelligence"}
+{"aspect": "core daily workhorse", "dimension": "overall"}
+{"aspect": "core intelligence", "dimension": "intelligence"}
+{"aspect": "core intelligence vs benchmark gains", "dimension": "intelligence"}
+{"aspect": "corporate-sounding verbose writing style", "dimension": "personality"}
+{"aspect": "corrected glm flash's factual errors", "dimension": "intelligence"}
+{"aspect": "cost", "dimension": "price"}
+{"aspect": "cost advantage over deepseek on leaderboards", "dimension": "price"}
+{"aspect": "cost and accuracy improvements", "dimension": "price"}
+{"aspect": "cost and agent-task competitiveness", "dimension": "price"}
+{"aspect": "cost and capability", "dimension": "price"}
+{"aspect": "cost and capability for multi-agent coding", "dimension": "price"}
+{"aspect": "cost and capability vs alternative", "dimension": "price"}
+{"aspect": "cost and capability vs gemini", "dimension": "price"}
+{"aspect": "cost and coding benchmark results", "dimension": "price"}
+{"aspect": "cost and completeness", "dimension": "price"}
+{"aspect": "cost and completeness vs glm", "dimension": "price"}
+{"aspect": "cost and ease of building with free models", "dimension": "price"}
+{"aspect": "cost and ideation performance", "dimension": "price"}
+{"aspect": "cost and no rate limits hit", "dimension": "price"}
+{"aspect": "cost and performance versus sonnet", "dimension": "price"}
+{"aspect": "cost and performance vs chinese models", "dimension": "price"}
+{"aspect": "cost and quality", "dimension": "price"}
+{"aspect": "cost and quality for agentic work", "dimension": "price"}
+{"aspect": "cost and quality versus qwen", "dimension": "price"}
+{"aspect": "cost and quality vs grok", "dimension": "price"}
+{"aspect": "cost and reliability", "dimension": "price"}
+{"aspect": "cost and speed", "dimension": "price"}
+{"aspect": "cost and speed concerns before switching", "dimension": "price"}
+{"aspect": "cost and speed value", "dimension": "price"}
+{"aspect": "cost and speed vs fable", "dimension": "price"}
+{"aspect": "cost and token efficiency", "dimension": "price"}
+{"aspect": "cost and wasted agentic effort", "dimension": "price"}
+{"aspect": "cost burn per task", "dimension": "price"}
+{"aspect": "cost effectiveness", "dimension": "price"}
+{"aspect": "cost efficiency", "dimension": "price"}
+{"aspect": "cost efficiency (10x cheaper)", "dimension": "price"}
+{"aspect": "cost efficiency and benchmark parity", "dimension": "price"}
+{"aspect": "cost efficiency and completeness", "dimension": "price"}
+{"aspect": "cost efficiency as the cheap model", "dimension": "price"}
+{"aspect": "cost efficiency at frontier performance", "dimension": "price"}
+{"aspect": "cost efficiency at near-equal quality", "dimension": "price"}
+{"aspect": "cost efficiency comparison", "dimension": "price"}
+{"aspect": "cost efficiency for agent teams", "dimension": "price"}
+{"aspect": "cost efficiency for agentic gains", "dimension": "price"}
+{"aspect": "cost efficiency for agentic loops", "dimension": "price"}
+{"aspect": "cost efficiency for coding use", "dimension": "price"}
+{"aspect": "cost efficiency for daily use", "dimension": "price"}
+{"aspect": "cost efficiency for document processing", "dimension": "price"}
+{"aspect": "cost efficiency for marginal speed gain", "dimension": "price"}
+{"aspect": "cost efficiency for production agents", "dimension": "price"}
+{"aspect": "cost efficiency for repeated agent loops", "dimension": "price"}
+{"aspect": "cost efficiency for same task", "dimension": "price"}
+{"aspect": "cost efficiency for similar output", "dimension": "price"}
+{"aspect": "cost efficiency in a cascade", "dimension": "price"}
+{"aspect": "cost efficiency in browser automation", "dimension": "price"}
+{"aspect": "cost efficiency on deepswe", "dimension": "price"}
+{"aspect": "cost efficiency pareto frontier", "dimension": "price"}
+{"aspect": "cost efficiency per task", "dimension": "price"}
+{"aspect": "cost efficiency under heavy agentic use", "dimension": "price"}
+{"aspect": "cost efficiency versus 5.3", "dimension": "price"}
+{"aspect": "cost efficiency versus gpt-5.5", "dimension": "price"}
+{"aspect": "cost efficiency versus sol", "dimension": "price"}
+{"aspect": "cost efficiency versus the compared alternative", "dimension": "price"}
+{"aspect": "cost efficiency vs capability", "dimension": "price"}
+{"aspect": "cost efficiency vs deepseek on benchmark", "dimension": "price"}
+{"aspect": "cost efficiency vs fable", "dimension": "price"}
+{"aspect": "cost efficiency vs frontier models", "dimension": "price"}
+{"aspect": "cost efficiency vs full glm-5.3", "dimension": "price"}
+{"aspect": "cost efficiency vs gemini", "dimension": "price"}
+{"aspect": "cost efficiency vs meta's model", "dimension": "price"}
+{"aspect": "cost efficiency vs opus", "dimension": "price"}
+{"aspect": "cost efficiency vs performance", "dimension": "price"}
+{"aspect": "cost efficiency vs sol and grok", "dimension": "price"}
+{"aspect": "cost of a wasted 3d enhancement run", "dimension": "price"}
+{"aspect": "cost of building the game", "dimension": "price"}
+{"aspect": "cost of the 3d generation run", "dimension": "price"}
+{"aspect": "cost per bug found", "dimension": "price"}
+{"aspect": "cost per competitive benchmark score", "dimension": "price"}
+{"aspect": "cost per completed task", "dimension": "price"}
+{"aspect": "cost per completed task matches frontier quality", "dimension": "price"}
+{"aspect": "cost per completed task on deepswe", "dimension": "price"}
+{"aspect": "cost per completed task vs frontier", "dimension": "price"}
+{"aspect": "cost per completed work", "dimension": "price"}
+{"aspect": "cost per generated scene", "dimension": "price"}
+{"aspect": "cost per month", "dimension": "price"}
+{"aspect": "cost per output", "dimension": "price"}
+{"aspect": "cost per rollout at comparable performance", "dimension": "price"}
+{"aspect": "cost per scene in a browser agent test", "dimension": "price"}
+{"aspect": "cost per score value", "dimension": "price"}
+{"aspect": "cost per script value", "dimension": "price"}
+{"aspect": "cost per shogi game", "dimension": "price"}
+{"aspect": "cost per task", "dimension": "price"}
+{"aspect": "cost per task after evaluation", "dimension": "price"}
+{"aspect": "cost per task at high effort", "dimension": "price"}
+{"aspect": "cost per task at matching score", "dimension": "price"}
+{"aspect": "cost per task for one-shot use", "dimension": "price"}
+{"aspect": "cost per task from launch chart", "dimension": "price"}
+{"aspect": "cost per task in autonomous loops", "dimension": "price"}
+{"aspect": "cost per task index", "dimension": "price"}
+{"aspect": "cost per task on agentic sql benchmark", "dimension": "price"}
+{"aspect": "cost per task versus astra", "dimension": "price"}
+{"aspect": "cost per task versus terra", "dimension": "price"}
+{"aspect": "cost per task vs opus 5", "dimension": "price"}
+{"aspect": "cost per task vs previous version", "dimension": "price"}
+{"aspect": "cost per task vs quality", "dimension": "price"}
+{"aspect": "cost per task vs token cost", "dimension": "price"}
+{"aspect": "cost per token", "dimension": "price"}
+{"aspect": "cost per token value", "dimension": "price"}
+{"aspect": "cost per workload", "dimension": "price"}
+{"aspect": "cost performance and yen billing", "dimension": "price"}
+{"aspect": "cost performance value", "dimension": "price"}
+{"aspect": "cost reduction contributor mode", "dimension": "price"}
+{"aspect": "cost relative to results and interruptions", "dimension": "price"}
+{"aspect": "cost savings with equal quality", "dimension": "price"}
+{"aspect": "cost to performance", "dimension": "price"}
+{"aspect": "cost value mismatch", "dimension": "price"}
+{"aspect": "cost value vs api pricing", "dimension": "price"}
+{"aspect": "cost versus benchmark intelligence", "dimension": "price"}
+{"aspect": "cost versus comparable quality", "dimension": "price"}
+{"aspect": "cost vs anthropic/openai model performance", "dimension": "price"}
+{"aspect": "cost vs cheap local alternative", "dimension": "price"}
+{"aspect": "cost vs gpt-5.6 sol", "dimension": "price"}
+{"aspect": "cost vs intelligence", "dimension": "price"}
+{"aspect": "cost vs meta spark", "dimension": "price"}
+{"aspect": "cost vs proximity to frontier capability", "dimension": "price"}
+{"aspect": "cost vs speed tradeoff", "dimension": "price"}
+{"aspect": "cost, speed, accuracy balance", "dimension": "price"}
+{"aspect": "cost, speed, and quality", "dimension": "price"}
+{"aspect": "cost, speed, quality tradeoffs", "dimension": "price"}
+{"aspect": "cost-adjusted agent benchmark score", "dimension": "price"}
+{"aspect": "cost-adjusted benchmark score", "dimension": "price"}
+{"aspect": "cost-adjusted capability", "dimension": "price"}
+{"aspect": "cost-adjusted capability vs fable/opus", "dimension": "price"}
+{"aspect": "cost-effective alternative", "dimension": "price"}
+{"aspect": "cost-effective alternative to claude/gpt stack", "dimension": "price"}
+{"aspect": "cost-effective chart generation", "dimension": "price"}
+{"aspect": "cost-effective cheap lane", "dimension": "price"}
+{"aspect": "cost-effective cheap model choice", "dimension": "price"}
+{"aspect": "cost-effective multi-model orchestration", "dimension": "price"}
+{"aspect": "cost-effective proof performance", "dimension": "price"}
+{"aspect": "cost-effective substitute for visual tasks", "dimension": "price"}
+{"aspect": "cost-effective sufficiency for coding", "dimension": "price"}
+{"aspect": "cost-effectiveness", "dimension": "price"}
+{"aspect": "cost-effectiveness for repeated agent calls", "dimension": "price"}
+{"aspect": "cost-efficiency for daily coding work", "dimension": "price"}
+{"aspect": "cost-efficiency leadership", "dimension": "price"}
+{"aspect": "cost-efficiency on cursorbench", "dimension": "price"}
+{"aspect": "cost-efficiency pareto frontier", "dimension": "price"}
+{"aspect": "cost-efficient for bulk agent tasks", "dimension": "price"}
+{"aspect": "cost-performance", "dimension": "price"}
+{"aspect": "cost-performance and speed", "dimension": "price"}
+{"aspect": "cost-performance for agent coding", "dimension": "price"}
+{"aspect": "cost-performance frontier", "dimension": "price"}
+{"aspect": "cost-performance frontier position", "dimension": "price"}
+{"aspect": "cost-performance value", "dimension": "price"}
+{"aspect": "cost-performance vs speed", "dimension": "price"}
+{"aspect": "cost-to-output value", "dimension": "price"}
+{"aspect": "cost-to-quality ratio and consistency for automation", "dimension": "price"}
+{"aspect": "cost-value and objective alignment versus deepseek v4 flash", "dimension": "price"}
+{"aspect": "cost-value as an all-rounder", "dimension": "price"}
+{"aspect": "cost-value at frontier intelligence", "dimension": "price"}
+{"aspect": "cost-value for knowledge work", "dimension": "price"}
+{"aspect": "cost/performance ratio in benchmark", "dimension": "price"}
+{"aspect": "costs less per token than glm", "dimension": "price"}
+{"aspect": "covering indie game generation", "dimension": "intelligence"}
+{"aspect": "covers what i want from fable", "dimension": "overall"}
+{"aspect": "creating clear interactive lessons", "dimension": "intelligence"}
+{"aspect": "creative capability", "dimension": "intelligence"}
+{"aspect": "creative research process for image generation", "dimension": "intelligence"}
+{"aspect": "creative system prompt output", "dimension": "intelligence"}
+{"aspect": "creative tool integration output", "dimension": "intelligence"}
+{"aspect": "creative variety in first draft", "dimension": "intelligence"}
+{"aspect": "creative writing quality and hallucination", "dimension": "intelligence"}
+{"aspect": "credit burn when routed to this model", "dimension": "price"}
+{"aspect": "credit consumption pushing toward a paid plan", "dimension": "price"}
+{"aspect": "credit efficiency", "dimension": "price"}
+{"aspect": "critical spec and build planning", "dimension": "intelligence"}
+{"aspect": "crumbles under stricter constraint testing", "dimension": "steerability"}
+{"aspect": "current advanced go-to model", "dimension": "overall"}
+{"aspect": "current capability level", "dimension": "intelligence"}
+{"aspect": "current performance edge", "dimension": "intelligence"}
+{"aspect": "cursor bench cost efficiency", "dimension": "price"}
+{"aspect": "cursorbench and frontiercode results", "dimension": "intelligence"}
+{"aspect": "cursorbench efficiency", "dimension": "price"}
+{"aspect": "cursorbench intelligence versus cost", "dimension": "price"}
+{"aspect": "custom benchmark performance", "dimension": "intelligence"}
+{"aspect": "custom benchmark result", "dimension": "intelligence"}
+{"aspect": "custom tool calling", "dimension": "intelligence"}
+{"aspect": "cyber gym benchmark ranking", "dimension": "intelligence"}
+{"aspect": "cyber-jailbreak refusal rate (59%)", "dimension": "personality"}
+{"aspect": "cybergym benchmark score", "dimension": "intelligence"}
+{"aspect": "cybergym benchmark vs mythos 5", "dimension": "intelligence"}
+{"aspect": "cybersecurity capability and pricing", "dimension": "price"}
+{"aspect": "d tier ranking", "dimension": "overall"}
+{"aspect": "daily coding and office use quality", "dimension": "intelligence"}
+{"aspect": "daily coding reliability via copilot", "dimension": "intelligence"}
+{"aspect": "daily coding stack pick", "dimension": "overall"}
+{"aspect": "daily dev speed and responsiveness", "dimension": "speed"}
+{"aspect": "daily driver", "dimension": "overall"}
+{"aspect": "daily driver after switching", "dimension": "overall"}
+{"aspect": "daily driver quality", "dimension": "intelligence"}
+{"aspect": "daily driver reliability", "dimension": "intelligence"}
+{"aspect": "daily driver via codex", "dimension": "overall"}
+{"aspect": "daily driver, currently superior", "dimension": "overall"}
+{"aspect": "daily productivity use", "dimension": "overall"}
+{"aspect": "daily use fit", "dimension": "overall"}
+{"aspect": "daily work", "dimension": "overall"}
+{"aspect": "daily work quality", "dimension": "intelligence"}
+{"aspect": "daily-driver preference", "dimension": "overall"}
+{"aspect": "data collection opt-in requirement", "dimension": "other"}
+{"aspect": "data collection privacy concern", "dimension": "other"}
+{"aspect": "data privacy on free tier", "dimension": "other"}
+{"aspect": "date picker completeness", "dimension": "intelligence"}
+{"aspect": "day-and-night improvement over opus", "dimension": "intelligence"}
+{"aspect": "day-to-day use reputation", "dimension": "overall"}
+{"aspect": "debug and light iteration", "dimension": "intelligence"}
+{"aspect": "debugging and recovering from broken builds", "dimension": "intelligence"}
+{"aspect": "debugging capability", "dimension": "intelligence"}
+{"aspect": "decensor refusal rate vs reasoning loss", "dimension": "personality"}
+{"aspect": "decent for most use cases", "dimension": "overall"}
+{"aspect": "decided to switch after comparison", "dimension": "overall"}
+{"aspect": "declining output quality", "dimension": "intelligence"}
+{"aspect": "decode speed acceptable for a heavy quant", "dimension": "speed"}
+{"aspect": "decode speed for coding", "dimension": "speed"}
+{"aspect": "deep reasoning performance in agent test", "dimension": "intelligence"}
+{"aspect": "deeper reasoning on bigger coding tasks", "dimension": "intelligence"}
+{"aspect": "deepswe and codebase qna benchmarks", "dimension": "intelligence"}
+{"aspect": "deepswe and sweatlas benchmark scores", "dimension": "intelligence"}
+{"aspect": "deepswe and term bench scores", "dimension": "intelligence"}
+{"aspect": "deepswe and terminal-bench code audit scores", "dimension": "intelligence"}
+{"aspect": "deepswe benchmark", "dimension": "intelligence"}
+{"aspect": "deepswe benchmark performance", "dimension": "intelligence"}
+{"aspect": "deepswe benchmark performance, took the crown", "dimension": "intelligence"}
+{"aspect": "deepswe benchmark ranking", "dimension": "intelligence"}
+{"aspect": "deepswe benchmark score", "dimension": "intelligence"}
+{"aspect": "deepswe benchmark score and cost", "dimension": "price"}
+{"aspect": "deepswe benchmark score tying opus 5", "dimension": "intelligence"}
+{"aspect": "deepswe benchmark, cost", "dimension": "price"}
+{"aspect": "deepswe coding benchmark", "dimension": "intelligence"}

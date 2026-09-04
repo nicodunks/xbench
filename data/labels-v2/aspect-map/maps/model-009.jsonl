@@ -1,0 +1,250 @@
+{"aspect": "planning use", "dimension": "intelligence"}
+{"aspect": "planning versus execution quality", "dimension": "intelligence"}
+{"aspect": "planning versus implementation capability", "dimension": "intelligence"}
+{"aspect": "planning-then-execution workflow", "dimension": "intelligence"}
+{"aspect": "plant species id from photos", "dimension": "intelligence"}
+{"aspect": "pokemon gen9 ou test", "dimension": "intelligence"}
+{"aspect": "pokemon gen9 ou test performance", "dimension": "intelligence"}
+{"aspect": "pokemon speedrun completion time", "dimension": "speed"}
+{"aspect": "polish language errors and translation quality", "dimension": "intelligence"}
+{"aspect": "political bias", "dimension": "personality"}
+{"aspect": "poor cost-performance", "dimension": "price"}
+{"aspect": "poor fit as narrative ending", "dimension": "intelligence"}
+{"aspect": "poor narration/verbosity", "dimension": "personality"}
+{"aspect": "poor visual quality in shown svg", "dimension": "intelligence"}
+{"aspect": "popularity as the go-to choice", "dimension": "overall"}
+{"aspect": "portal integration broken", "dimension": "other"}
+{"aspect": "post-launch quantization fear", "dimension": "intelligence"}
+{"aspect": "post-training economics on open weights", "dimension": "price"}
+{"aspect": "post-training gains framed as a new base model", "dimension": "intelligence"}
+{"aspect": "post-training gains on terminal-bench", "dimension": "intelligence"}
+{"aspect": "post-training gains over new base models", "dimension": "intelligence"}
+{"aspect": "post-training rl quality despite smaller base", "dimension": "intelligence"}
+{"aspect": "post-training scaling efficiency", "dimension": "intelligence"}
+{"aspect": "potential for developer tools", "dimension": "intelligence"}
+{"aspect": "potential versus data-privacy trust", "dimension": "other"}
+{"aspect": "power level fit between grok and sol", "dimension": "intelligence"}
+{"aspect": "power user frustration", "dimension": "other"}
+{"aspect": "power versus speed", "dimension": "speed"}
+{"aspect": "power vs cost and session limits", "dimension": "price"}
+{"aspect": "powerpoint deck generation", "dimension": "intelligence"}
+{"aspect": "powerpoint deck quality", "dimension": "intelligence"}
+{"aspect": "pr quality, tests, and documentation discipline", "dimension": "intelligence"}
+{"aspect": "pr response quality", "dimension": "intelligence"}
+{"aspect": "practical impact for shipping work", "dimension": "intelligence"}
+{"aspect": "practical value over hype", "dimension": "overall"}
+{"aspect": "precision and speed in cursor cli", "dimension": "speed"}
+{"aspect": "predictability vs whims", "dimension": "steerability"}
+{"aspect": "predicted cost", "dimension": "price"}
+{"aspect": "predicted cost effectiveness", "dimension": "price"}
+{"aspect": "predicted disappointment from politics", "dimension": "other"}
+{"aspect": "predicted head-to-head outcome", "dimension": "overall"}
+{"aspect": "predicted overall performance", "dimension": "overall"}
+{"aspect": "predicted strength", "dimension": "intelligence"}
+{"aspect": "predicted to be better on release", "dimension": "overall"}
+{"aspect": "predicted to be far stronger", "dimension": "intelligence"}
+{"aspect": "predicted to be weaker than astra", "dimension": "intelligence"}
+{"aspect": "predicted usage limits", "dimension": "other"}
+{"aspect": "predicted winner of the two", "dimension": "overall"}
+{"aspect": "predicts ahead and confirms proactively", "dimension": "intelligence"}
+{"aspect": "preferred after seeing comparison", "dimension": "overall"}
+{"aspect": "preferred against by google engineers", "dimension": "overall"}
+{"aspect": "preferred against in jetski coding tests", "dimension": "intelligence"}
+{"aspect": "preferred alternative", "dimension": "overall"}
+{"aspect": "preferred choice besides image generation", "dimension": "overall"}
+{"aspect": "preferred despite higher cost", "dimension": "price"}
+{"aspect": "preferred effort setting for sessions", "dimension": "steerability"}
+{"aspect": "preferred less than earlier opus version", "dimension": "overall"}
+{"aspect": "preferred model to work with", "dimension": "overall"}
+{"aspect": "preferred output in shown comparison", "dimension": "overall"}
+{"aspect": "preferred over claude opus in coding tests", "dimension": "intelligence"}
+{"aspect": "preferred over fable 5.1", "dimension": "overall"}
+{"aspect": "preferred over opus 5 by engineers", "dimension": "overall"}
+{"aspect": "preferred over opus in coding tests", "dimension": "intelligence"}
+{"aspect": "preferred over opus in jetski coding tests", "dimension": "intelligence"}
+{"aspect": "preferred side in animation comparison", "dimension": "intelligence"}
+{"aspect": "preferred value", "dimension": "price"}
+{"aspect": "preferred working style", "dimension": "personality"}
+{"aspect": "preserves original text nuance", "dimension": "intelligence"}
+{"aspect": "price", "dimension": "price"}
+{"aspect": "price advantage vs gemini flash", "dimension": "price"}
+{"aspect": "price and performance", "dimension": "price"}
+{"aspect": "price and reliability", "dimension": "price"}
+{"aspect": "price and speed", "dimension": "price"}
+{"aspect": "price and token efficiency", "dimension": "price"}
+{"aspect": "price and token waste", "dimension": "price"}
+{"aspect": "price competitiveness", "dimension": "price"}
+{"aspect": "price cut", "dimension": "price"}
+{"aspect": "price cut with capability increase", "dimension": "price"}
+{"aspect": "price drop", "dimension": "price"}
+{"aspect": "price enabling repeated calls", "dimension": "price"}
+{"aspect": "price increases without warning and api instability", "dimension": "price"}
+{"aspect": "price is very cheap", "dimension": "price"}
+{"aspect": "price justifying pipeline use", "dimension": "price"}
+{"aspect": "price not worth it", "dimension": "price"}
+{"aspect": "price per task", "dimension": "price"}
+{"aspect": "price per task inconsistency", "dimension": "price"}
+{"aspect": "price per token", "dimension": "price"}
+{"aspect": "price point value", "dimension": "price"}
+{"aspect": "price relative to claude", "dimension": "price"}
+{"aspect": "price relative to luna", "dimension": "price"}
+{"aspect": "price relative to performance", "dimension": "price"}
+{"aspect": "price to intelligence ratio", "dimension": "price"}
+{"aspect": "price to performance", "dimension": "price"}
+{"aspect": "price to performance for the build", "dimension": "price"}
+{"aspect": "price to performance ratio", "dimension": "price"}
+{"aspect": "price to performance vs opus", "dimension": "price"}
+{"aspect": "price too high", "dimension": "price"}
+{"aspect": "price under 1/10th of comparable models", "dimension": "price"}
+{"aspect": "price value", "dimension": "price"}
+{"aspect": "price value versus verbosity concern", "dimension": "price"}
+{"aspect": "price versus data trade-off value", "dimension": "price"}
+{"aspect": "price versus fable 5.1", "dimension": "price"}
+{"aspect": "price versus gemini 3.8 flash", "dimension": "price"}
+{"aspect": "price versus performance", "dimension": "price"}
+{"aspect": "price versus request limits for real coding", "dimension": "price"}
+{"aspect": "price vs capability tier", "dimension": "price"}
+{"aspect": "price vs marginal intelligence gain", "dimension": "price"}
+{"aspect": "price vs performance", "dimension": "price"}
+{"aspect": "price vs performance vs fable 5.1", "dimension": "price"}
+{"aspect": "price vs value for marketing", "dimension": "price"}
+{"aspect": "price-performance and benchmark scores", "dimension": "price"}
+{"aspect": "price-performance balance", "dimension": "price"}
+{"aspect": "price-performance benchmarks in production", "dimension": "price"}
+{"aspect": "price-performance ratio", "dimension": "price"}
+{"aspect": "price-performance value", "dimension": "price"}
+{"aspect": "price-to-performance improvement", "dimension": "price"}
+{"aspect": "price/performance", "dimension": "price"}
+{"aspect": "price/performance value", "dimension": "price"}
+{"aspect": "price/performance vs fable", "dimension": "price"}
+{"aspect": "price/performance vs fable 5 and gpt 5.6", "dimension": "price"}
+{"aspect": "pricier but faster than glm-5.3-flash", "dimension": "price"}
+{"aspect": "pricier than glm-5.3-flash", "dimension": "price"}
+{"aspect": "pricier, less value", "dimension": "price"}
+{"aspect": "pricing", "dimension": "price"}
+{"aspect": "pricing and cost efficiency", "dimension": "price"}
+{"aspect": "pricing and efficiency", "dimension": "price"}
+{"aspect": "pricing and efficiency vs sol", "dimension": "price"}
+{"aspect": "pricing and interruption frequency improvements", "dimension": "price"}
+{"aspect": "pricing and no credit limits", "dimension": "price"}
+{"aspect": "pricing and one-shot quality vs grok/gemini", "dimension": "price"}
+{"aspect": "pricing and product direction", "dimension": "price"}
+{"aspect": "pricing and rate-limit structure", "dimension": "price"}
+{"aspect": "pricing and token efficiency", "dimension": "price"}
+{"aspect": "pricing and value", "dimension": "price"}
+{"aspect": "pricing appeal", "dimension": "price"}
+{"aspect": "pricing claims versus benchmark score jump", "dimension": "price"}
+{"aspect": "pricing compared to glm 5.3 flash", "dimension": "price"}
+{"aspect": "pricing enabling more retry loops", "dimension": "price"}
+{"aspect": "pricing on agentic workloads", "dimension": "price"}
+{"aspect": "pricing on contributor tier", "dimension": "price"}
+{"aspect": "pricing plan change", "dimension": "price"}
+{"aspect": "pricing structure limiting adoption", "dimension": "price"}
+{"aspect": "pricing value", "dimension": "price"}
+{"aspect": "pricing versus hallucination rate", "dimension": "price"}
+{"aspect": "pricing versus sol and opus 5", "dimension": "price"}
+{"aspect": "pricing vs competitor", "dimension": "price"}
+{"aspect": "pricing vs fable 5", "dimension": "price"}
+{"aspect": "pricing vs token efficiency and hallucination", "dimension": "price"}
+{"aspect": "pricing/cost of usage credits", "dimension": "price"}
+{"aspect": "primitive despite high benchmark scores", "dimension": "intelligence"}
+{"aspect": "proactive handling of unstated context", "dimension": "steerability"}
+{"aspect": "produced an impressive kid-built game", "dimension": "intelligence"}
+{"aspect": "product momentum from new releases", "dimension": "other"}
+{"aspect": "product testing and bug fixing reliability", "dimension": "intelligence"}
+{"aspect": "production rollout matters", "dimension": "other"}
+{"aspect": "programming suitability", "dimension": "intelligence"}
+{"aspect": "project failed after a month paired with codex", "dimension": "intelligence"}
+{"aspect": "project setup speed", "dimension": "speed"}
+{"aspect": "project-breaking reliability", "dimension": "intelligence"}
+{"aspect": "promising intermediate results", "dimension": "intelligence"}
+{"aspect": "promising results in a trading bot build", "dimension": "intelligence"}
+{"aspect": "prompt injection via auto mode", "dimension": "other"}
+{"aspect": "prompt technique effectiveness", "dimension": "steerability"}
+{"aspect": "prompts needed to complete task", "dimension": "steerability"}
+{"aspect": "prose aesthetics", "dimension": "personality"}
+{"aspect": "prose speed vs structured decode", "dimension": "speed"}
+{"aspect": "prose writing quality and speed", "dimension": "intelligence"}
+{"aspect": "provider adapter compatibility", "dimension": "other"}
+{"aspect": "proxy caching and pricing value", "dimension": "price"}
+{"aspect": "pseudocode-like verbosity", "dimension": "personality"}
+{"aspect": "pure intelligence indices", "dimension": "intelligence"}
+{"aspect": "quality", "dimension": "intelligence"}
+{"aspect": "quality after switching from kiro", "dimension": "intelligence"}
+{"aspect": "quality after using fable", "dimension": "intelligence"}
+{"aspect": "quality and cost versus speed", "dimension": "intelligence"}
+{"aspect": "quality and cost vs sol", "dimension": "intelligence"}
+{"aspect": "quality and price", "dimension": "intelligence"}
+{"aspect": "quality and price vs luna", "dimension": "intelligence"}
+{"aspect": "quality and price vs opus", "dimension": "intelligence"}
+{"aspect": "quality and price vs opus 5", "dimension": "intelligence"}
+{"aspect": "quality and speed", "dimension": "intelligence"}
+{"aspect": "quality and usage limits", "dimension": "intelligence"}
+{"aspect": "quality and usage limits vs alternatives", "dimension": "intelligence"}
+{"aspect": "quality as a fable substitute", "dimension": "intelligence"}
+{"aspect": "quality as a free model", "dimension": "intelligence"}
+{"aspect": "quality as research partner", "dimension": "intelligence"}
+{"aspect": "quality at high effort", "dimension": "intelligence"}
+{"aspect": "quality at low quantization", "dimension": "intelligence"}
+{"aspect": "quality at lower reasoning effort and session length", "dimension": "intelligence"}
+{"aspect": "quality at nvfp4 quantization", "dimension": "intelligence"}
+{"aspect": "quality at opus 5 level", "dimension": "intelligence"}
+{"aspect": "quality attributed to knowledge cutoff", "dimension": "intelligence"}
+{"aspect": "quality benchmark nearly matched locally", "dimension": "intelligence"}
+{"aspect": "quality compared to muse spark 1.2", "dimension": "intelligence"}
+{"aspect": "quality decline and worse usage", "dimension": "intelligence"}
+{"aspect": "quality defended against bait criticism", "dimension": "intelligence"}
+{"aspect": "quality despite shared knowledge cutoff", "dimension": "intelligence"}
+{"aspect": "quality differs between antigravity and the gemini app", "dimension": "intelligence"}
+{"aspect": "quality drop from silent model swap", "dimension": "intelligence"}
+{"aspect": "quality frustration", "dimension": "intelligence"}
+{"aspect": "quality gaps vs fable5 but very cheap", "dimension": "intelligence"}
+{"aspect": "quality good but pricey no local", "dimension": "intelligence"}
+{"aspect": "quality improvement", "dimension": "intelligence"}
+{"aspect": "quality improvement and free access", "dimension": "intelligence"}
+{"aspect": "quality improvement but high cost", "dimension": "intelligence"}
+{"aspect": "quality in opencode contributor mode", "dimension": "intelligence"}
+{"aspect": "quality jump but slow prefill", "dimension": "intelligence"}
+{"aspect": "quality jump in output", "dimension": "intelligence"}
+{"aspect": "quality justifying price for niche use", "dimension": "intelligence"}
+{"aspect": "quality loss from token-saving trick", "dimension": "intelligence"}
+{"aspect": "quality matched by an alternative", "dimension": "intelligence"}
+{"aspect": "quality of conversations while coding", "dimension": "intelligence"}
+{"aspect": "quality of free edition", "dimension": "intelligence"}
+{"aspect": "quality of generated build", "dimension": "intelligence"}
+{"aspect": "quality of mars simulation build", "dimension": "intelligence"}
+{"aspect": "quality of showcased demo projects", "dimension": "intelligence"}
+{"aspect": "quality of the creative response", "dimension": "intelligence"}
+{"aspect": "quality of the generated response text", "dimension": "intelligence"}
+{"aspect": "quality of the taj mahal build", "dimension": "intelligence"}
+{"aspect": "quality on narrow bounded tasks", "dimension": "intelligence"}
+{"aspect": "quality parity after switch", "dimension": "intelligence"}
+{"aspect": "quality parity after switching", "dimension": "intelligence"}
+{"aspect": "quality parity after switching from sol", "dimension": "intelligence"}
+{"aspect": "quality per cost", "dimension": "price"}
+{"aspect": "quality per dollar spent", "dimension": "price"}
+{"aspect": "quality relative to deepseek as a worker", "dimension": "intelligence"}
+{"aspect": "quality relative to price", "dimension": "price"}
+{"aspect": "quality scaling with reasoning effort", "dimension": "intelligence"}
+{"aspect": "quality sometimes better and cheaper than opus", "dimension": "intelligence"}
+{"aspect": "quality surprising enough to upgrade", "dimension": "intelligence"}
+{"aspect": "quality tier versus cost", "dimension": "price"}
+{"aspect": "quality varies by prompt", "dimension": "intelligence"}
+{"aspect": "quality versus cost", "dimension": "price"}
+{"aspect": "quality versus fable", "dimension": "intelligence"}
+{"aspect": "quality versus fable 5.1", "dimension": "intelligence"}
+{"aspect": "quality versus future pricing", "dimension": "intelligence"}
+{"aspect": "quality versus high token cost", "dimension": "price"}
+{"aspect": "quality versus luna", "dimension": "intelligence"}
+{"aspect": "quality versus muse spark 1.2", "dimension": "intelligence"}
+{"aspect": "quality versus price", "dimension": "price"}
+{"aspect": "quality versus price value", "dimension": "price"}
+{"aspect": "quality versus speed", "dimension": "intelligence"}
+{"aspect": "quality versus speed and token cost", "dimension": "intelligence"}
+{"aspect": "quality versus speed tradeoff", "dimension": "intelligence"}
+{"aspect": "quality versus time spent", "dimension": "intelligence"}
+{"aspect": "quality versus visual glitches", "dimension": "intelligence"}
+{"aspect": "quality via non-native harnesses", "dimension": "intelligence"}
+{"aspect": "quality via the api", "dimension": "intelligence"}
+{"aspect": "quality vs cost pareto position", "dimension": "price"}
+{"aspect": "quality vs fable 5 benchmark", "dimension": "intelligence"}

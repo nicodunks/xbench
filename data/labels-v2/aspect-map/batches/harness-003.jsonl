@@ -1,0 +1,250 @@
+{"aspect": "rate limits"}
+{"aspect": "rate limits / quota burn"}
+{"aspect": "rate limits and token usage"}
+{"aspect": "rate limits consumed fixing bad output"}
+{"aspect": "rate limits even on max plan"}
+{"aspect": "rate limits hit within seconds"}
+{"aspect": "rate limits lasting longer"}
+{"aspect": "rate limits on max plan"}
+{"aspect": "rate limits on the $20 plan"}
+{"aspect": "rate/usage limits versus codex"}
+{"aspect": "reading files before edits catches drift"}
+{"aspect": "real loc reduction vs inflated hype"}
+{"aspect": "real-world capability"}
+{"aspect": "reason for cancelling subscription"}
+{"aspect": "reasoning output differs from official api"}
+{"aspect": "reasoning quality"}
+{"aspect": "reasoning sharpness"}
+{"aspect": "reasons cited for leaving claude code"}
+{"aspect": "recent agentic updates"}
+{"aspect": "recent performance"}
+{"aspect": "recent performance decline"}
+{"aspect": "recently preferred over claude code"}
+{"aspect": "recommendation despite reset issues"}
+{"aspect": "recommended alternative"}
+{"aspect": "recommended as a reliable backup agent"}
+{"aspect": "recommended combination"}
+{"aspect": "recommended everyday tool"}
+{"aspect": "recommended over cursor"}
+{"aspect": "recommended replacement for cursor"}
+{"aspect": "recommended tool"}
+{"aspect": "reconfiguring api keys per client"}
+{"aspect": "reduced step-by-step progress reporting"}
+{"aspect": "reduced usage via better prompting"}
+{"aspect": "reduces cursor quota consumption"}
+{"aspect": "reducing solo workload via document review"}
+{"aspect": "regional availability of free tier"}
+{"aspect": "regional model availability on go plan"}
+{"aspect": "regret over subscription cost"}
+{"aspect": "reliability after harness switch"}
+{"aspect": "reliability and quality"}
+{"aspect": "reliability as backup tool"}
+{"aspect": "reliability carrying my work"}
+{"aspect": "reliability needing few corrections"}
+{"aspect": "reliability of usage caps"}
+{"aspect": "reliability on full feature completion"}
+{"aspect": "reliability on straightforward fixes"}
+{"aspect": "reliability running muse spark 1.2"}
+{"aspect": "reliability versus third-party router"}
+{"aspect": "reliable for architecture design and hard problems"}
+{"aspect": "reliable over weeks of iteration"}
+{"aspect": "reliably restarts/fixes automation"}
+{"aspect": "remote control session auto-archiving"}
+{"aspect": "remote host capability"}
+{"aspect": "remote mobile access"}
+{"aspect": "remote session persistence across vps restarts"}
+{"aspect": "remote trigger workflow"}
+{"aspect": "removed access to fable 5 model in vs code extension"}
+{"aspect": "removed onboarding hassle"}
+{"aspect": "repl-based computer/browser use design"}
+{"aspect": "replaces other tools"}
+{"aspect": "replacing daily-driver tool"}
+{"aspect": "repo-level work capability"}
+{"aspect": "requires self-hosted cloud environment"}
+{"aspect": "research and image gathering"}
+{"aspect": "research needing repeated correction"}
+{"aspect": "reserve capacity extends usage limits"}
+{"aspect": "reset frequency prompting heavier use"}
+{"aspect": "respecting lint checks"}
+{"aspect": "response clarity and actionability"}
+{"aspect": "response quality versus copilot harness running luna"}
+{"aspect": "response speed"}
+{"aspect": "response speed and consistency"}
+{"aspect": "responsive on long project threads"}
+{"aspect": "restrained context/cost usage"}
+{"aspect": "restrictive refusals vs cursor autonomy"}
+{"aspect": "restrictive usage limit taking 2-3 days"}
+{"aspect": "result quality"}
+{"aspect": "results from bare harness vs pi comparison"}
+{"aspect": "retention vs cursor"}
+{"aspect": "reusing existing dossiers for a strong first result"}
+{"aspect": "revenue from one request"}
+{"aspect": "review cost"}
+{"aspect": "review loops not converging"}
+{"aspect": "review role avoids hitting usage limits"}
+{"aspect": "rewrite efficiency improvement"}
+{"aspect": "richness of tools and integrations"}
+{"aspect": "robustness to nonsensical prompt injections"}
+{"aspect": "roi / cost-benefit"}
+{"aspect": "role fit for hands-on work"}
+{"aspect": "role split for audit"}
+{"aspect": "role split for execution"}
+{"aspect": "role split for external-facing slack and deploy actions"}
+{"aspect": "role split for graphical-operation tasks"}
+{"aspect": "role split for non-engineer workflow"}
+{"aspect": "role split for research and drafting"}
+{"aspect": "role split for simple command-line tasks"}
+{"aspect": "role: driving the overall process"}
+{"aspect": "role: implementation and verification"}
+{"aspect": "running 10-20 bots in a loop drives up cost"}
+{"aspect": "running in parallel with claude code to isolate root cause"}
+{"aspect": "running in parallel with codex to isolate root cause"}
+{"aspect": "running out of session tokens"}
+{"aspect": "running the free model well"}
+{"aspect": "runtime verification beyond tests"}
+{"aspect": "safety of execution mode"}
+{"aspect": "sandbox escape vulnerability"}
+{"aspect": "sandboxed autonomous execution comfort"}
+{"aspect": "sandboxed key handling"}
+{"aspect": "satisfaction after switching from cursor"}
+{"aspect": "satisfaction with current setup"}
+{"aspect": "scene placement using boundary info"}
+{"aspect": "scope creep on small tasks"}
+{"aspect": "seamless cli agent orchestration"}
+{"aspect": "secretary-like daily assistant fit"}
+{"aspect": "secretary-like fit in daily routine"}
+{"aspect": "self-learning agent capability"}
+{"aspect": "separate usage quotas for chat versus coding"}
+{"aspect": "server errors / reliability"}
+{"aspect": "service outage"}
+{"aspect": "service outage/downtime"}
+{"aspect": "session limits"}
+{"aspect": "session rate limits"}
+{"aspect": "session recovery via transcripts"}
+{"aspect": "session state persistence across restarts"}
+{"aspect": "session url leakage in commits"}
+{"aspect": "setup assistance"}
+{"aspect": "setup complexity and workflow taxonomy"}
+{"aspect": "setup complexity versus a simple app"}
+{"aspect": "setup speed for a full project"}
+{"aspect": "setup time"}
+{"aspect": "shared memory across agents"}
+{"aspect": "shared memory bridge workflow"}
+{"aspect": "shared rate-limited quota api design"}
+{"aspect": "shipping apps efficiently"}
+{"aspect": "shipping output vs discussing theory"}
+{"aspect": "shipping speed vs maintenance"}
+{"aspect": "ships working output directly"}
+{"aspect": "short session/context limits"}
+{"aspect": "shots needed, token consumption, and speed"}
+{"aspect": "showing what it is doing"}
+{"aspect": "side panel opening during composer use"}
+{"aspect": "significance for non-programmers"}
+{"aspect": "silent background computer-use failure mode"}
+{"aspect": "silently ignoring the other harness's config files"}
+{"aspect": "single window reduces context switching"}
+{"aspect": "single-file instruction design"}
+{"aspect": "single-line simplicity"}
+{"aspect": "sips quota by comparison"}
+{"aspect": "site rebuild speed"}
+{"aspect": "skill enables effortless review workflow"}
+{"aspect": "skills spec implementation"}
+{"aspect": "slow to complete tasks"}
+{"aspect": "slow, overthinking"}
+{"aspect": "slower and more token-hungry than pi"}
+{"aspect": "slower running kimi than an untracked alternative"}
+{"aspect": "smooth building experience"}
+{"aspect": "smooth experience, dream to work with"}
+{"aspect": "smoothed rate limits vs pay-as-you-go"}
+{"aspect": "sol missing from model selector"}
+{"aspect": "sol missing from selector"}
+{"aspect": "sol outage broke workflow"}
+{"aspect": "sol to custom fallback bug"}
+{"aspect": "sol vanishing from model selector"}
+{"aspect": "sol-hours per plan"}
+{"aspect": "solid part of coding setup"}
+{"aspect": "solving bugs the other tool could not"}
+{"aspect": "solving the task"}
+{"aspect": "spawning skill reliability across harnesses"}
+{"aspect": "speed"}
+{"aspect": "speed and build quality"}
+{"aspect": "speed and efficiency"}
+{"aspect": "speed and intelligence"}
+{"aspect": "speed and intelligence vs codex"}
+{"aspect": "speed and output quality vs chatgpt web"}
+{"aspect": "speed and power for game development"}
+{"aspect": "speed and ram usage"}
+{"aspect": "speed and token efficiency"}
+{"aspect": "speed compared to cursor"}
+{"aspect": "speed of building a landing page"}
+{"aspect": "speed on basic tasks prompting diversification"}
+{"aspect": "speed on max ultra plan"}
+{"aspect": "speed relative to monitor"}
+{"aspect": "speed vs token efficiency tradeoff"}
+{"aspect": "speed vs unnamed new tool"}
+{"aspect": "speed, verbosity, and token burn"}
+{"aspect": "splitting design work from implementation"}
+{"aspect": "stability"}
+{"aspect": "stability and fewer bugs"}
+{"aspect": "stability and pass rate"}
+{"aspect": "stability during frequent updates"}
+{"aspect": "startup context bloated by shared memory files"}
+{"aspect": "staying up during reported outages"}
+{"aspect": "steady pace of code fixes during downtime"}
+{"aspect": "sticking with despite claude's limits"}
+{"aspect": "sticking with it / overall satisfaction"}
+{"aspect": "strong for code review"}
+{"aspect": "struggles with tasks another agent could solve"}
+{"aspect": "subagent context isolation"}
+{"aspect": "subagent instructions via claude.md"}
+{"aspect": "subscription being cancelled"}
+{"aspect": "subscription cost regret"}
+{"aspect": "subscription practicality over api"}
+{"aspect": "subscription price"}
+{"aspect": "subscription restricted to native harness"}
+{"aspect": "subscription spend"}
+{"aspect": "subscription token value vs list rate"}
+{"aspect": "subscription used in best setup"}
+{"aspect": "subscription value"}
+{"aspect": "subsidized token value"}
+{"aspect": "success rate and cost vs cursor"}
+{"aspect": "success rate and cost vs cursor with same model"}
+{"aspect": "sufficiency as sole dev setup"}
+{"aspect": "sufficiency for my needs"}
+{"aspect": "sufficient day-to-day replacement"}
+{"aspect": "sufficient for workflow"}
+{"aspect": "sufficient replacement for claude code"}
+{"aspect": "suitable for cli coding"}
+{"aspect": "suited for long-running agentic tasks"}
+{"aspect": "superior to domestic alternatives"}
+{"aspect": "surpassing codex cli"}
+{"aspect": "surviving despite cursor partnership ending"}
+{"aspect": "switch destination after months of frustration"}
+{"aspect": "switched and stayed"}
+{"aspect": "switched from cursor"}
+{"aspect": "switching cost avoidance"}
+{"aspect": "switching recommendation"}
+{"aspect": "tab-based navigation and minimalism"}
+{"aspect": "taking action via connected mcp tools"}
+{"aspect": "task completion after switching"}
+{"aspect": "task completion reliability"}
+{"aspect": "task completion slowed dramatically"}
+{"aspect": "task speed"}
+{"aspect": "task stuck 13.5 hours waiting on an approval step"}
+{"aspect": "tedious manual database call logic"}
+{"aspect": "terminal automation usability"}
+{"aspect": "terminal coding experience"}
+{"aspect": "terminal control for power users"}
+{"aspect": "terminal experience"}
+{"aspect": "terminal-bench 4.0 pass rate"}
+{"aspect": "terminal-bench 4.0 ranking"}
+{"aspect": "terminal-bench 4.0 ranking drop"}
+{"aspect": "terminal-bench harness ranking"}
+{"aspect": "terminal-only workflow constraint"}
+{"aspect": "tight usage limits on pro plan"}
+{"aspect": "time savings"}
+{"aspect": "token consumption"}
+{"aspect": "token consumption on pro plan"}
+{"aspect": "token consumption running in parallel"}
+{"aspect": "token efficiency"}
+{"aspect": "token efficiency and result quality"}

@@ -1,0 +1,250 @@
+{"aspect": "deepswe coding benchmark score"}
+{"aspect": "deepswe cost-efficiency benchmark"}
+{"aspect": "deepswe leaderboard ranking"}
+{"aspect": "deepswe long-task benchmark score"}
+{"aspect": "deepswe performance vs larger models"}
+{"aspect": "deepswe score vs cost"}
+{"aspect": "deepswe v1.1 benchmark"}
+{"aspect": "deepswe v1.1 benchmark score"}
+{"aspect": "deepswe v1.1 score"}
+{"aspect": "deepswe/sweatlas benchmarks"}
+{"aspect": "default choice for agent teams"}
+{"aspect": "default config broken"}
+{"aspect": "degraded quality"}
+{"aspect": "degraded reasoning performance"}
+{"aspect": "degrading the harness it powers"}
+{"aspect": "delaying launch over a benchmark discrepancy"}
+{"aspect": "delaying launch to verify a benchmark discrepancy"}
+{"aspect": "delegating long-running work"}
+{"aspect": "deleted user's files"}
+{"aspect": "delivering the 3d build quality users want"}
+{"aspect": "demo performance"}
+{"aspect": "demo quality impression"}
+{"aspect": "deploying a website quickly"}
+{"aspect": "deployment review quality"}
+{"aspect": "depth of code review reasoning"}
+{"aspect": "depth, speed, accuracy"}
+{"aspect": "derailing on edge cases"}
+{"aspect": "derails mid-task"}
+{"aspect": "design and frontend attention to detail"}
+{"aspect": "design and price"}
+{"aspect": "design capability"}
+{"aspect": "design quality"}
+{"aspect": "design quality and logic degradation"}
+{"aspect": "design quality and price"}
+{"aspect": "design quality and price vs glm/kimi"}
+{"aspect": "design quality and speed"}
+{"aspect": "design quality, better than gemini but still weak"}
+{"aspect": "design reproducibility"}
+{"aspect": "design strength vs weak complex reasoning"}
+{"aspect": "design task performance"}
+{"aspect": "design task quality"}
+{"aspect": "design task quality vs luna"}
+{"aspect": "design, writing, taste, and speed quality"}
+{"aspect": "desktop agent floundered"}
+{"aspect": "destination after switching from grok"}
+{"aspect": "destroyed project structure requiring restore"}
+{"aspect": "detail"}
+{"aspect": "detail accuracy reproducing designs"}
+{"aspect": "detail quality of the early build output"}
+{"aspect": "diagnostic accuracy in stress test"}
+{"aspect": "did well on the coding task"}
+{"aspect": "difficult to work with"}
+{"aspect": "directness and reduced usage burn vs fable 5"}
+{"aspect": "directness and usage burn vs fable 5"}
+{"aspect": "disappearing from model selector"}
+{"aspect": "disappearing from selector"}
+{"aspect": "disappointing new version"}
+{"aspect": "disciplined zero-trade strategy"}
+{"aspect": "dismissed as overhyped"}
+{"aspect": "dismissing astra hype"}
+{"aspect": "disproportionate response to a simple request"}
+{"aspect": "distillation quality"}
+{"aspect": "distrust of benchmark gains ('benchmaxing')"}
+{"aspect": "document output quality vs speed"}
+{"aspect": "document processing cost and quality tradeoff"}
+{"aspect": "document recall regression from prior flash"}
+{"aspect": "does not fit 128 gb at 3-bit"}
+{"aspect": "doesn't compete with codex"}
+{"aspect": "doesn't follow rules, messy code"}
+{"aspect": "doing most of the author's cad model building"}
+{"aspect": "downgrades responses under filter"}
+{"aspect": "downtime during outage"}
+{"aspect": "downtime/outage"}
+{"aspect": "driving prod deploys via cloud agent"}
+{"aspect": "driving/navigation task performance"}
+{"aspect": "duplicated helper functions"}
+{"aspect": "durable but very slow to produce output"}
+{"aspect": "eager tool usage as the trading proposer"}
+{"aspect": "early output quality"}
+{"aspect": "early performance"}
+{"aspect": "early testing results"}
+{"aspect": "ease of building agents"}
+{"aspect": "ease of content generation"}
+{"aspect": "ease of integration into an agent runtime"}
+{"aspect": "ease of onboarding"}
+{"aspect": "ease of work"}
+{"aspect": "ease of work without over-reporting"}
+{"aspect": "ease of working with"}
+{"aspect": "easy to try via antigravity"}
+{"aspect": "ecosystem adoption and normalization"}
+{"aspect": "edge in detail over gemini"}
+{"aspect": "edge on harder tasks"}
+{"aspect": "edges out on coding evals and cheaper with open weights"}
+{"aspect": "editable 3d-printable geometry from a prompt"}
+{"aspect": "effective as a supervised executor"}
+{"aspect": "effective cost vs rate card"}
+{"aspect": "effective cost with cache reads"}
+{"aspect": "effective orchestrator model"}
+{"aspect": "effectiveness vs linked setup"}
+{"aspect": "efficiency"}
+{"aspect": "efficiency and usability regression"}
+{"aspect": "efficiency gains on coding and agentic workflows"}
+{"aspect": "efficiency on cursorbench"}
+{"aspect": "efficiency price ranking"}
+{"aspect": "efficiency ranking"}
+{"aspect": "efficiency relative to model size, not novel"}
+{"aspect": "efficiency step forward"}
+{"aspect": "efficient default choice"}
+{"aspect": "efficient multi-model orchestration setup"}
+{"aspect": "efficient role as architect"}
+{"aspect": "efficient token usage at competitive performance"}
+{"aspect": "efficient workflow completing a project end to end"}
+{"aspect": "effort setting daily use"}
+{"aspect": "effort switching without breaking prompt cache"}
+{"aspect": "emotional expression and character consistency"}
+{"aspect": "emotional support and sycophancy"}
+{"aspect": "emotional/creative video output"}
+{"aspect": "enabling non-developers to build games"}
+{"aspect": "engineer coding preference"}
+{"aspect": "engineer preference"}
+{"aspect": "engineer preference over it"}
+{"aspect": "engineer preference over opus"}
+{"aspect": "engineering loop automation"}
+{"aspect": "engineers prefer against it"}
+{"aspect": "engineers prefer it on coding"}
+{"aspect": "engineers preferred against it"}
+{"aspect": "engineers preferred it over opus"}
+{"aspect": "engineers preferred it over opus in head-to-head tests"}
+{"aspect": "english verbalization style"}
+{"aspect": "english word mixing in japanese summaries"}
+{"aspect": "enjoyable conversations"}
+{"aspect": "enjoyable daily use vs weak planning"}
+{"aspect": "enjoyment and fun to work with"}
+{"aspect": "enjoyment despite the wait for a quant"}
+{"aspect": "enterprise complex work performance"}
+{"aspect": "enterprise pricing"}
+{"aspect": "enterprise security/hardening use"}
+{"aspect": "entity resolution over raw token count"}
+{"aspect": "essential planner and reviewer role"}
+{"aspect": "evading ai-detection"}
+{"aspect": "evals and price"}
+{"aspect": "evals and price vs flash"}
+{"aspect": "evaluation role in workflow"}
+{"aspect": "everyday knowledge work quality"}
+{"aspect": "everyday real-world performance"}
+{"aspect": "everyday task performance"}
+{"aspect": "everyday work"}
+{"aspect": "exaggerated refusal on nuclear topic"}
+{"aspect": "exceeded expectations"}
+{"aspect": "exceeds online claims about art generation performance"}
+{"aspect": "excellent quality but low quota"}
+{"aspect": "excessive clarifying questions"}
+{"aspect": "excessive context consumption"}
+{"aspect": "excessive token use before intervention, strong result after"}
+{"aspect": "excessive unprompted verbosity"}
+{"aspect": "excessive verbosity/pleading explanations"}
+{"aspect": "excitement for the demo build"}
+{"aspect": "execution quality vs blunt reasoning trace display"}
+{"aspect": "execution quality with enough compute"}
+{"aspect": "execution speed"}
+{"aspect": "exhausting/overly demanding to use"}
+{"aspect": "exhausts quota in 1.5 days"}
+{"aspect": "expected game generation improvement"}
+{"aspect": "expected only incremental score gains"}
+{"aspect": "expected quality"}
+{"aspect": "expected ranking"}
+{"aspect": "expected to outperform"}
+{"aspect": "expected upgrade for game generation"}
+{"aspect": "expensive tokens and heavy usage brakes"}
+{"aspect": "experience and lower cost"}
+{"aspect": "exploit and vulnerability discovery capability"}
+{"aspect": "exploit benchmark performance and low output tokens"}
+{"aspect": "exploit benchmark score"}
+{"aspect": "exploit chain completion capability"}
+{"aspect": "exploit detection on unseen vulnerabilities"}
+{"aspect": "exploitation capability on terminal-bench"}
+{"aspect": "extending usage limits via planning-only role"}
+{"aspect": "extracting design intent from pdf drawings"}
+{"aspect": "extracting pmi and design intent from engineering pdfs"}
+{"aspect": "extreme response to a simple request"}
+{"aspect": "fact-checking accuracy with minor caveats"}
+{"aspect": "factual accuracy"}
+{"aspect": "failed to complete requirements"}
+{"aspect": "failed to correctly mark items as read"}
+{"aspect": "failed to fix emergency bug"}
+{"aspect": "failed to run"}
+{"aspect": "failed to solve a hard problem"}
+{"aspect": "failing to complete a turn"}
+{"aspect": "failing to solve a stuck problem"}
+{"aspect": "fails to run locally via ollama"}
+{"aspect": "fair comparison tier for a small model"}
+{"aspect": "fake implementations or overengineering"}
+{"aspect": "false positive detection boxes"}
+{"aspect": "far cheaper for more completed work"}
+{"aspect": "far less bug fixing needed"}
+{"aspect": "fast after context and cache tuning"}
+{"aspect": "fast and precise but wish capability were stronger"}
+{"aspect": "fast but sometimes incomplete implementations"}
+{"aspect": "fast drafts but not full replacement"}
+{"aspect": "fast first draft on real task"}
+{"aspect": "fast fix but design still stuck"}
+{"aspect": "fast for updating docs after sessions"}
+{"aspect": "fast generation of a 3d scene from scratch"}
+{"aspect": "fast implementation via subagents"}
+{"aspect": "fast inference with occasional mistakes"}
+{"aspect": "fast low-cost auditing"}
+{"aspect": "fast mode quota cost vs speed gain"}
+{"aspect": "fast permissive-weight distribution"}
+{"aspect": "fast testing role in the workflow"}
+{"aspect": "fast with generous quota but auth issues in agy cli"}
+{"aspect": "fast, smooth workflow"}
+{"aspect": "faster and better result than luna"}
+{"aspect": "faster and cheaper"}
+{"aspect": "faster immediate resolution"}
+{"aspect": "faster on a computer-use task"}
+{"aspect": "faster than opus 5"}
+{"aspect": "faster tok/s but incomplete tasks"}
+{"aspect": "faster with better output"}
+{"aspect": "faster with better quality"}
+{"aspect": "feature completeness"}
+{"aspect": "feature completeness in output"}
+{"aspect": "feature development and debugging vs qwen"}
+{"aspect": "feels dumb"}
+{"aspect": "feels like an ultra junior with no memory"}
+{"aspect": "feels like unpaid data labeling"}
+{"aspect": "feels nerfed/weakened currently"}
+{"aspect": "feels outdated after fable"}
+{"aspect": "felt off after upgrading"}
+{"aspect": "fewer errors but long-term reliability uncertain"}
+{"aspect": "fewer errors, more quality results vs opus"}
+{"aspect": "fewer refusals and restrictions"}
+{"aspect": "fewer safety tripwire interruptions"}
+{"aspect": "fewer tool calls and tokens, asks before acting"}
+{"aspect": "fewer tool calls over raw token speed"}
+{"aspect": "fewer turns, tool calls, and tokens"}
+{"aspect": "fewer voiced review comments for same issue count"}
+{"aspect": "file management assistance"}
+{"aspect": "finally a usable/accessible model"}
+{"aspect": "finding code relationships despite the huge context"}
+{"aspect": "finding/detecting issues"}
+{"aspect": "finishes multi-day agent work"}
+{"aspect": "finishes tasks faster and cheaper"}
+{"aspect": "finishing the repair and beating luna"}
+{"aspect": "first choice for tasks"}
+{"aspect": "first impressions running locally"}
+{"aspect": "first place on noise bench"}
+{"aspect": "first version usable seriously"}
+{"aspect": "first vs second choice"}
+{"aspect": "first-class citizen experience"}
+{"aspect": "fit as the executive model"}

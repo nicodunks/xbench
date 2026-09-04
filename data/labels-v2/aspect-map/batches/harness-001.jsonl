@@ -1,0 +1,250 @@
+{"aspect": "default design instincts (spacing, balance, 3d)"}
+{"aspect": "default spending behavior on long tasks"}
+{"aspect": "default workflow tool"}
+{"aspect": "delegation/autonomous task capability"}
+{"aspect": "deleted user's files"}
+{"aspect": "deny rules not enforced (permission bypass)"}
+{"aspect": "depth of technique learned"}
+{"aspect": "design capability via /design command"}
+{"aspect": "design system quality"}
+{"aspect": "desktop app experience"}
+{"aspect": "desktop ui"}
+{"aspect": "desktop, image and computer-use features still strong"}
+{"aspect": "desktop-app parity with claude code/codex"}
+{"aspect": "dev bandwidth multiplier for roadmap work"}
+{"aspect": "dev tool quality, liking it more lately"}
+{"aspect": "developer experience"}
+{"aspect": "development speed"}
+{"aspect": "diagram generation skill"}
+{"aspect": "did well building the release, limit headroom"}
+{"aspect": "diff visibility after update"}
+{"aspect": "docker template builds"}
+{"aspect": "does everything better"}
+{"aspect": "doesn't work well in the cli"}
+{"aspect": "downgraded plan, less value"}
+{"aspect": "downtime/reliability when it crashes"}
+{"aspect": "drafting email replies speed"}
+{"aspect": "dropped after performance disparity"}
+{"aspect": "early testing results"}
+{"aspect": "ease of building from documentation"}
+{"aspect": "ease of content generation"}
+{"aspect": "ease of subscription/setup process"}
+{"aspect": "ease of use"}
+{"aspect": "ease of use and productivity"}
+{"aspect": "ease of use vs setup complexity"}
+{"aspect": "ease of use, no need to worry about technical setup"}
+{"aspect": "easy onboarding process for lab seats"}
+{"aspect": "easy to use but toy-like vs hermes"}
+{"aspect": "easy tool creation and publishing"}
+{"aspect": "editable base_instructions"}
+{"aspect": "effectiveness vs linked setup"}
+{"aspect": "efficiency versus cost/skill barrier"}
+{"aspect": "efficiency with vscode"}
+{"aspect": "efficient workflow completing a project end to end"}
+{"aspect": "effort switching still breaks cache per docs"}
+{"aspect": "eight months of exclusive use"}
+{"aspect": "enabling solo full-stack freelance work"}
+{"aspect": "engineering rigor"}
+{"aspect": "engineering task performance"}
+{"aspect": "engineering/firmware-software tasks"}
+{"aspect": "enjoyable chat but tight usage cap"}
+{"aspect": "entitlement/model roster sync bug on macos"}
+{"aspect": "error 529 downtime"}
+{"aspect": "error processing bug"}
+{"aspect": "established integrated workflow"}
+{"aspect": "evidence-based audit findings"}
+{"aspect": "exceptional output, quota burns fast"}
+{"aspect": "excessive .d.ts inspection"}
+{"aspect": "excessive approval prompts"}
+{"aspect": "exclusive tool of choice"}
+{"aspect": "executing builds under an orchestrator"}
+{"aspect": "execution role"}
+{"aspect": "expensive due to multi-bot looping until objective complete"}
+{"aspect": "expensive parallel bot loops"}
+{"aspect": "expensive relative to gemini quota"}
+{"aspect": "expensive subscription"}
+{"aspect": "faded first-line text after update"}
+{"aspect": "failed to correctly mark items as read"}
+{"aspect": "fallback bug, not a real removal"}
+{"aspect": "fallback hides entitlement bug as user setting"}
+{"aspect": "falls back to ui form submission"}
+{"aspect": "false success reports with no actual commits"}
+{"aspect": "false-positive safety flagging"}
+{"aspect": "far costlier per gold result"}
+{"aspect": "fast but introduces bugs"}
+{"aspect": "fast generation of a 3d scene from scratch"}
+{"aspect": "fast output role"}
+{"aspect": "faster boot time"}
+{"aspect": "faster quota burn, feels dumber"}
+{"aspect": "faster than local setup"}
+{"aspect": "fastest-growing share in developer survey"}
+{"aspect": "fatigue from overuse"}
+{"aspect": "feels dumber and slower than direct model access"}
+{"aspect": "fell out of use, overtaken by codex"}
+{"aspect": "fewer safety tripwire interruptions"}
+{"aspect": "fewer tokens and better results than claude"}
+{"aspect": "first-class citizen experience"}
+{"aspect": "fit by task type"}
+{"aspect": "fit for longer feature work"}
+{"aspect": "fit for openai ecosystem users"}
+{"aspect": "fit for smaller changes and test review"}
+{"aspect": "fixed input bar improving long-session readability"}
+{"aspect": "flexibility to use other models"}
+{"aspect": "flexible data access methods"}
+{"aspect": "flexible host architecture"}
+{"aspect": "flexible task-based usage"}
+{"aspect": "following unwritten instructions"}
+{"aspect": "forced git commit attribution"}
+{"aspect": "forced switch after account suspension"}
+{"aspect": "forgetting evidence rules"}
+{"aspect": "free access to run the model"}
+{"aspect": "free access with no limits"}
+{"aspect": "free access worked"}
+{"aspect": "free quota for daily research tasks"}
+{"aspect": "free server reliability"}
+{"aspect": "free tier generosity versus muse code paid tier"}
+{"aspect": "free tier generosity vs captcha friction"}
+{"aspect": "free tier removes need to pay"}
+{"aspect": "free tier still working well"}
+{"aspect": "free tier with no limits"}
+{"aspect": "free versus $200/month cost"}
+{"aspect": "free versus paid alternative"}
+{"aspect": "free without limits"}
+{"aspect": "freeing up time by automating work"}
+{"aspect": "frequent capacity errors"}
+{"aspect": "frequent quota resets feel generous"}
+{"aspect": "frontend development preference"}
+{"aspect": "frustration driving the switch away"}
+{"aspect": "full delegation workflow speed"}
+{"aspect": "full feature compatibility via proxy"}
+{"aspect": "full model availability"}
+{"aspect": "fullstack coding quality"}
+{"aspect": "fun collaboration with virtual users"}
+{"aspect": "fun, versatile building"}
+{"aspect": "future advantage from using it"}
+{"aspect": "gcloud cli interaction"}
+{"aspect": "generating spoken video content"}
+{"aspect": "generic design style"}
+{"aspect": "generosity of rate limits"}
+{"aspect": "generous allowance bundled into cursor pro"}
+{"aspect": "generous free tier pricing"}
+{"aspect": "generous free usage limits"}
+{"aspect": "generous remaining token limits"}
+{"aspect": "generous usage limits"}
+{"aspect": "gets work done without moralizing"}
+{"aspect": "giving instructions remotely from work"}
+{"aspect": "go plan token value"}
+{"aspect": "good for framing specs and dev"}
+{"aspect": "good harness undermined by underlying model"}
+{"aspect": "good only with cheap models"}
+{"aspect": "got stuck without progress"}
+{"aspect": "gradually being dropped too"}
+{"aspect": "grep+read approach over rag"}
+{"aspect": "grok 4.6 in grok build beats sol in codex"}
+{"aspect": "gui/ux called subpar versus t3 code"}
+{"aspect": "hallucination and verbosity"}
+{"aspect": "handing off whole tasks"}
+{"aspect": "handles most tasks within limits"}
+{"aspect": "handles tasks without needing tutorials"}
+{"aspect": "handling coding workload"}
+{"aspect": "handling complex tasks"}
+{"aspect": "handling real features"}
+{"aspect": "handling unity scene data via folder instructions"}
+{"aspect": "handling vague instructions"}
+{"aspect": "handshake failures burn quota"}
+{"aspect": "hangs with many mcp servers connected"}
+{"aspect": "hard to switch away from once used"}
+{"aspect": "hard to use effectively"}
+{"aspect": "harness breaks rules on long context"}
+{"aspect": "harness constraint strictness and pass rate"}
+{"aspect": "harness constraints and token usage"}
+{"aspect": "harness preference for using claude models"}
+{"aspect": "harness quality"}
+{"aspect": "harness quality vs cursor"}
+{"aspect": "harness reliability after switch"}
+{"aspect": "harness used to run the test"}
+{"aspect": "having the feature first"}
+{"aspect": "heavy context and refactoring role"}
+{"aspect": "heavy task architecture/design role"}
+{"aspect": "heavy usage building mcps"}
+{"aspect": "hidden model swapping to cheaper luna"}
+{"aspect": "hierarchical agent organization"}
+{"aspect": "high accuracy but refuses captcha solving"}
+{"aspect": "high api cost against weekly limit"}
+{"aspect": "highest task pass rate"}
+{"aspect": "hitting 5-hour rate limits"}
+{"aspect": "hitting quota caps on chatgpt plus"}
+{"aspect": "honest limits and pricing complaints"}
+{"aspect": "hosting a free model successfully"}
+{"aspect": "hosting an effectively unlimited free tier"}
+{"aspect": "huge token allowance per dollar"}
+{"aspect": "huge usage limits"}
+{"aspect": "hype not worth chasing"}
+{"aspect": "identical icons for effort levels"}
+{"aspect": "ignores instructions, keeps re-analyzing screenshots itself"}
+{"aspect": "image editing quality"}
+{"aspect": "image generation capability"}
+{"aspect": "immature integration"}
+{"aspect": "immediate impression when switching tools"}
+{"aspect": "implementation workflow"}
+{"aspect": "impressive yet frustrating"}
+{"aspect": "improved front-end work recently"}
+{"aspect": "improving harness options"}
+{"aspect": "incorrect model redirect"}
+{"aspect": "increasing usage"}
+{"aspect": "indexing and extracting data from another service"}
+{"aspect": "indispensability after hearing the design praise"}
+{"aspect": "inferior compared to sol in pi"}
+{"aspect": "inferior to cursor / stigmatized user base"}
+{"aspect": "information placement accuracy"}
+{"aspect": "instruction following, less hassle"}
+{"aspect": "instructions fade with bloat"}
+{"aspect": "insufficient alone, had to pay for both"}
+{"aspect": "insufficient replacement for work"}
+{"aspect": "insufficient token allowance"}
+{"aspect": "integration and connectivity enjoyment"}
+{"aspect": "interaction/ux needs alignment"}
+{"aspect": "interchangeable roles when alternating harnesses"}
+{"aspect": "issue completion rate under the same limits"}
+{"aspect": "issue completion under rate limits"}
+{"aspect": "issue detection thoroughness"}
+{"aspect": "just get it and work"}
+{"aspect": "keep one subscription"}
+{"aspect": "keeps working without hitting limits"}
+{"aspect": "kept as one of three tools for the year"}
+{"aspect": "kept for qa and review work"}
+{"aspect": "kickstarting a multi-agent build"}
+{"aspect": "lacks conversational interaction"}
+{"aspect": "leading market share in developer survey"}
+{"aspect": "left it for grok build"}
+{"aspect": "left the max plan"}
+{"aspect": "lighter weight than hermes"}
+{"aspect": "lightweight remote usability via ssh/vps"}
+{"aspect": "lightweight vs laggy prior tool"}
+{"aspect": "limitations preventing more use despite heavy usage"}
+{"aspect": "limits issue resolved"}
+{"aspect": "local agentic coding experience"}
+{"aspect": "local security hassle for key handling"}
+{"aspect": "log investigation and troubleshooting delegation"}
+{"aspect": "logic errors need correction"}
+{"aspect": "long build sessions never finishing"}
+{"aspect": "long task usability with opus 5"}
+{"aspect": "long wait after asking a question"}
+{"aspect": "long-horizon depth"}
+{"aspect": "long-horizon reliability"}
+{"aspect": "long-report output quality"}
+{"aspect": "long-running browser task automation"}
+{"aspect": "long-running task performance"}
+{"aspect": "look and feel, backend and finance tasks"}
+{"aspect": "looping and repeating output on go plan"}
+{"aspect": "looping on long tasks despite thoroughness"}
+{"aspect": "looping wrecked my program"}
+{"aspect": "looping/wasting credits on simple tasks"}
+{"aspect": "loses to the claude combo"}
+{"aspect": "losing competitive ground to new releases"}
+{"aspect": "losing session at prompt"}
+{"aspect": "losing track of projects"}
+{"aspect": "loyalty, no need to switch"}
+{"aspect": "maintaining claude.md/agent.md config files"}
+{"aspect": "mandated, not preferred"}
+{"aspect": "market dominance"}

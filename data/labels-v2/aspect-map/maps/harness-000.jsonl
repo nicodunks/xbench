@@ -1,0 +1,250 @@
+{"aspect": "$200 a month subscription", "dimension": "limits"}
+{"aspect": "$200 subscription avoided", "dimension": "limits"}
+{"aspect": "$200/month subscription cost", "dimension": "limits"}
+{"aspect": "17% usage cut coming", "dimension": "limits"}
+{"aspect": "1m context window full billing", "dimension": "limits"}
+{"aspect": "20x usage-limit marketing claim", "dimension": "limits"}
+{"aspect": "3 hour build time", "dimension": "agent"}
+{"aspect": "3d generation quality improvement", "dimension": "agent"}
+{"aspect": "3d prototype modeling", "dimension": "agent"}
+{"aspect": "404 errors reproduced across cli and app", "dimension": "reliability"}
+{"aspect": "5 hour session limit leniency", "dimension": "limits"}
+{"aspect": "5 hour usage limit on max plan", "dimension": "limits"}
+{"aspect": "5 hour usage limits", "dimension": "limits"}
+{"aspect": "5-hour limit back on plus, frequent resets", "dimension": "limits"}
+{"aspect": "5-hour limit burns fast on a light task", "dimension": "limits"}
+{"aspect": "5-hour limit consumed quickly", "dimension": "limits"}
+{"aspect": "5-hour limit hit", "dimension": "limits"}
+{"aspect": "5-hour limit tier forces a weak model for serious work", "dimension": "limits"}
+{"aspect": "5-hour quota limits", "dimension": "limits"}
+{"aspect": "5-hour rate limit", "dimension": "limits"}
+{"aspect": "5-hour rate limit blocking task completion", "dimension": "limits"}
+{"aspect": "5-hour session quota used up in seconds", "dimension": "limits"}
+{"aspect": "5-hour session rate limits", "dimension": "limits"}
+{"aspect": "5-hour usage limit", "dimension": "limits"}
+{"aspect": "5-hour usage limits", "dimension": "limits"}
+{"aspect": "abandoned sessions feeding procrastination", "dimension": "other"}
+{"aspect": "absorbing migrated cursor users", "dimension": "other"}
+{"aspect": "access downgrade/restriction", "dimension": "limits"}
+{"aspect": "account bans versus reliability on complex tasks", "dimension": "reliability"}
+{"aspect": "account got suspended", "dimension": "other"}
+{"aspect": "account linking ux", "dimension": "dx"}
+{"aspect": "account switching on usage limits", "dimension": "limits"}
+{"aspect": "adversarial code review catching real bugs", "dimension": "agent"}
+{"aspect": "affordable access to chinese models", "dimension": "dx"}
+{"aspect": "affordable access to non-us models", "dimension": "dx"}
+{"aspect": "affordable setup worked wonders", "dimension": "dx"}
+{"aspect": "agent capability routed into another ui", "dimension": "dx"}
+{"aspect": "agent loop orchestration", "dimension": "agent"}
+{"aspect": "agent usage burn rate", "dimension": "limits"}
+{"aspect": "agentic flow distinctiveness", "dimension": "agent"}
+{"aspect": "agentic programming performance", "dimension": "agent"}
+{"aspect": "agentic task execution", "dimension": "agent"}
+{"aspect": "agentic workflow effectiveness", "dimension": "agent"}
+{"aspect": "agents kanban view ux", "dimension": "dx"}
+{"aspect": "ai slop phrasing creeping into own writing", "dimension": "other"}
+{"aspect": "always-on backup session reliability", "dimension": "reliability"}
+{"aspect": "api cost", "dimension": "limits"}
+{"aspect": "app blocks switching into codex mode", "dimension": "reliability"}
+{"aspect": "app design", "dimension": "dx"}
+{"aspect": "app lag and api connection errors during builds", "dimension": "reliability"}
+{"aspect": "approval-prompt ux", "dimension": "agent"}
+{"aspect": "auto mode broke, excessive permission prompts on cd", "dimension": "reliability"}
+{"aspect": "auto mode prompt injection", "dimension": "reliability"}
+{"aspect": "auto mode security vulnerability", "dimension": "reliability"}
+{"aspect": "auto-switching to opus 4.8 without warning", "dimension": "dx"}
+{"aspect": "automatic git execution security risk", "dimension": "agent"}
+{"aspect": "automating a video-creation pipeline", "dimension": "agent"}
+{"aspect": "automating reel ideas, scripts, editing, and thumbnails", "dimension": "agent"}
+{"aspect": "automating tedious browser chores", "dimension": "agent"}
+{"aspect": "autonomous auto mode", "dimension": "agent"}
+{"aspect": "autonomous execution vs suggestion only", "dimension": "agent"}
+{"aspect": "autonomous grinding while retaining approval control", "dimension": "agent"}
+{"aspect": "autonomous mass production of clips", "dimension": "agent"}
+{"aspect": "autonomous multi-day task execution", "dimension": "agent"}
+{"aspect": "autonomous multi-file planning, testing, and gui operation", "dimension": "agent"}
+{"aspect": "autonomous overnight build", "dimension": "agent"}
+{"aspect": "autonomous overnight multi-agent shipping", "dimension": "agent"}
+{"aspect": "autonomous safety when user steps away", "dimension": "agent"}
+{"aspect": "autonomous screen capture behavior", "dimension": "agent"}
+{"aspect": "autonomous server management including a deletion", "dimension": "agent"}
+{"aspect": "autonomous task handoff across the limit reset", "dimension": "agent"}
+{"aspect": "autonomous terminal runs", "dimension": "agent"}
+{"aspect": "autonomous voice-cloning integration", "dimension": "agent"}
+{"aspect": "autonomously finding and fixing bugs", "dimension": "agent"}
+{"aspect": "autonomy in penetration testing with skill pack", "dimension": "agent"}
+{"aspect": "autonomy, 'just go do it' behavior", "dimension": "agent"}
+{"aspect": "autonomy, first agent that 'gets it'", "dimension": "agent"}
+{"aspect": "avoiding rate limit issues while orchestrating", "dimension": "limits"}
+{"aspect": "avoiding usage limits", "dimension": "limits"}
+{"aspect": "background computer use autonomy", "dimension": "agent"}
+{"aspect": "background computer use without losing cursor", "dimension": "dx"}
+{"aspect": "background computer-use automation", "dimension": "agent"}
+{"aspect": "become the baseline for terminal agents", "dimension": "overall"}
+{"aspect": "being surpassed by claude code cli", "dimension": "overall"}
+{"aspect": "best coding setup overall", "dimension": "overall"}
+{"aspect": "best environment for grok 4.6", "dimension": "dx"}
+{"aspect": "best for large repo-wide changes", "dimension": "agent"}
+{"aspect": "best solution found", "dimension": "overall"}
+{"aspect": "better at a lot of stuff", "dimension": "overall"}
+{"aspect": "better at some tasks", "dimension": "overall"}
+{"aspect": "better combo and rate limits", "dimension": "limits"}
+{"aspect": "better design instincts out of the box", "dimension": "agent"}
+{"aspect": "better performance than in antigravity", "dimension": "overall"}
+{"aspect": "better results leaving it unsupervised for hours", "dimension": "agent"}
+{"aspect": "better than opus 5 on verbosity and cost", "dimension": "other"}
+{"aspect": "boosts model coding performance", "dimension": "agent"}
+{"aspect": "broad surface coverage", "dimension": "dx"}
+{"aspect": "broken cli needing repair", "dimension": "reliability"}
+{"aspect": "browser automation", "dimension": "agent"}
+{"aspect": "browser extension integration", "dimension": "dx"}
+{"aspect": "browser operations and quick fixes", "dimension": "agent"}
+{"aspect": "bug fixing", "dimension": "agent"}
+{"aspect": "bug-fixing capability", "dimension": "agent"}
+{"aspect": "building a client-side tool", "dimension": "agent"}
+{"aspect": "building a custom skill for ad variant generation", "dimension": "dx"}
+{"aspect": "building apps without issues", "dimension": "reliability"}
+{"aspect": "building automated client workflows", "dimension": "agent"}
+{"aspect": "building automation products", "dimension": "agent"}
+{"aspect": "building complete software quickly", "dimension": "agent"}
+{"aspect": "building complex apps", "dimension": "agent"}
+{"aspect": "building custom skills/tools", "dimension": "dx"}
+{"aspect": "building from a single instruction inside visual studio", "dimension": "dx"}
+{"aspect": "building persistent ai agents", "dimension": "agent"}
+{"aspect": "building workflows via api", "dimension": "dx"}
+{"aspect": "built an interactive exam-practice tool", "dimension": "agent"}
+{"aspect": "built-in browser convenience", "dimension": "dx"}
+{"aspect": "built-in sandboxed environment for key handling", "dimension": "dx"}
+{"aspect": "built-in skill absorbed a custom agent project", "dimension": "dx"}
+{"aspect": "bundled always-on linux box for agent workflows", "dimension": "dx"}
+{"aspect": "bundled always-on linux vm for running other agents", "dimension": "dx"}
+{"aspect": "burned through subscription quickly", "dimension": "limits"}
+{"aspect": "burning through team plan limits quickly", "dimension": "limits"}
+{"aspect": "burns weekly quota fast", "dimension": "limits"}
+{"aspect": "business admin automation", "dimension": "agent"}
+{"aspect": "cache context reprocessing efficiency", "dimension": "efficiency"}
+{"aspect": "cache hit rate lowering effective cost", "dimension": "efficiency"}
+{"aspect": "calling other ai models from within it", "dimension": "dx"}
+{"aspect": "can't convert artifact to claude design", "dimension": "dx"}
+{"aspect": "cancelled paid subscription", "dimension": "limits"}
+{"aspect": "cancelled the max plan", "dimension": "limits"}
+{"aspect": "cancelled the subscription", "dimension": "limits"}
+{"aspect": "cannot afford the subscription", "dimension": "limits"}
+{"aspect": "capability benchmark vs unnamed tool", "dimension": "overall"}
+{"aspect": "capability of built assistant", "dimension": "agent"}
+{"aspect": "capability to take over admin-style work", "dimension": "agent"}
+{"aspect": "capability vs weekly quota consumption", "dimension": "limits"}
+{"aspect": "capacity errors", "dimension": "reliability"}
+{"aspect": "capacity limits and errors", "dimension": "reliability"}
+{"aspect": "catching up on a codex-only feature", "dimension": "dx"}
+{"aspect": "caught up and overtook claude code", "dimension": "overall"}
+{"aspect": "chat interface versus terminal ux", "dimension": "dx"}
+{"aspect": "cheap plan with large luna quota", "dimension": "limits"}
+{"aspect": "chosen as new workhorse", "dimension": "overall"}
+{"aspect": "chosen coding tool", "dimension": "overall"}
+{"aspect": "chosen for agentic tasks", "dimension": "agent"}
+{"aspect": "chosen switch destination", "dimension": "overall"}
+{"aspect": "clean ux but data-fetch reliability issues", "dimension": "reliability"}
+{"aspect": "clever creative workflow shown by someone else", "dimension": "agent"}
+{"aspect": "cli batch auditing effectiveness", "dimension": "agent"}
+{"aspect": "cli ergonomics", "dimension": "dx"}
+{"aspect": "cli experience", "dimension": "dx"}
+{"aspect": "cli/skill/cron complexity barrier", "dimension": "dx"}
+{"aspect": "cloud coding agent capability", "dimension": "agent"}
+{"aspect": "cloud/remote execution feature keeping them from switching", "dimension": "dx"}
+{"aspect": "cluttered desktop app features", "dimension": "dx"}
+{"aspect": "code cleanliness and understanding", "dimension": "agent"}
+{"aspect": "code execution vs planning judgment", "dimension": "agent"}
+{"aspect": "code review", "dimension": "agent"}
+{"aspect": "code review use", "dimension": "agent"}
+{"aspect": "codebase understanding without guidance", "dimension": "agent"}
+{"aspect": "codex cloud seems stalled/unmaintained", "dimension": "reliability"}
+{"aspect": "coding ability vs grok bot", "dimension": "overall"}
+{"aspect": "coding output quality", "dimension": "agent"}
+{"aspect": "coding task fit", "dimension": "agent"}
+{"aspect": "coding vs desk/systems management", "dimension": "agent"}
+{"aspect": "combined workflow automation potential", "dimension": "agent"}
+{"aspect": "combo effectiveness", "dimension": "agent"}
+{"aspect": "combo with kimi", "dimension": "dx"}
+{"aspect": "combo workflow", "dimension": "agent"}
+{"aspect": "comfort and familiarity", "dimension": "dx"}
+{"aspect": "comfortable usage limits after switching back", "dimension": "limits"}
+{"aspect": "communication management overhead", "dimension": "agent"}
+{"aspect": "complementary workflow with claude code", "dimension": "agent"}
+{"aspect": "complementary workflow with codex", "dimension": "agent"}
+{"aspect": "completed after meandering", "dimension": "agent"}
+{"aspect": "completing task successfully", "dimension": "agent"}
+{"aspect": "completing work in a single day", "dimension": "agent"}
+{"aspect": "complex task handling", "dimension": "agent"}
+{"aspect": "compliant way to run it", "dimension": "other"}
+{"aspect": "composer overhead", "dimension": "efficiency"}
+{"aspect": "compute for the price not worth it", "dimension": "limits"}
+{"aspect": "computer and browser use implementation", "dimension": "dx"}
+{"aspect": "computer use feature", "dimension": "dx"}
+{"aspect": "computer-use feature return", "dimension": "dx"}
+{"aspect": "concise clear output", "dimension": "other"}
+{"aspect": "concise replies over claude's", "dimension": "other"}
+{"aspect": "conciseness", "dimension": "other"}
+{"aspect": "conciseness instruction adherence in long sessions", "dimension": "efficiency"}
+{"aspect": "config drifting out of sync with docs", "dimension": "dx"}
+{"aspect": "confusing multi-environment setup", "dimension": "dx"}
+{"aspect": "consideration in responses", "dimension": "other"}
+{"aspect": "considering as replacement", "dimension": "overall"}
+{"aspect": "consistency across cli and desktop clients", "dimension": "dx"}
+{"aspect": "consistency across desktop client", "dimension": "dx"}
+{"aspect": "consistency across interfaces", "dimension": "dx"}
+{"aspect": "consolidated subscription workflow", "dimension": "limits"}
+{"aspect": "constant token spend to keep agents running", "dimension": "efficiency"}
+{"aspect": "constraint strength versus token waste", "dimension": "efficiency"}
+{"aspect": "context bloat on long tasks", "dimension": "efficiency"}
+{"aspect": "context engineering quality", "dimension": "efficiency"}
+{"aspect": "context loss on task handoff", "dimension": "efficiency"}
+{"aspect": "context management for long-running tasks", "dimension": "efficiency"}
+{"aspect": "context overhead vs cursor", "dimension": "efficiency"}
+{"aspect": "context requirements versus overall usage", "dimension": "efficiency"}
+{"aspect": "context/memory reuse across sessions", "dimension": "efficiency"}
+{"aspect": "conversational interaction capability", "dimension": "dx"}
+{"aspect": "coordination overhead using two harnesses together", "dimension": "efficiency"}
+{"aspect": "cost", "dimension": "limits"}
+{"aspect": "cost and ease of building with free models", "dimension": "limits"}
+{"aspect": "cost and rate limits", "dimension": "limits"}
+{"aspect": "cost burn per task", "dimension": "limits"}
+{"aspect": "cost effective review alternative", "dimension": "limits"}
+{"aspect": "cost effectiveness", "dimension": "limits"}
+{"aspect": "cost effectiveness of $200 plan", "dimension": "limits"}
+{"aspect": "cost efficiency after cache-hit fix", "dimension": "efficiency"}
+{"aspect": "cost efficient review usage", "dimension": "limits"}
+{"aspect": "cost of browser/computer-use tasks", "dimension": "limits"}
+{"aspect": "cost of reviewing saves", "dimension": "limits"}
+{"aspect": "cost per token vs cursor", "dimension": "efficiency"}
+{"aspect": "cost relative to glm-5.3", "dimension": "limits"}
+{"aspect": "cost, speed, quality tradeoffs", "dimension": "limits"}
+{"aspect": "credibility among serious developers", "dimension": "overall"}
+{"aspect": "credit burn during permission stalls", "dimension": "limits"}
+{"aspect": "credit consumption", "dimension": "limits"}
+{"aspect": "credit consumption higher expected", "dimension": "limits"}
+{"aspect": "credit limits too small", "dimension": "limits"}
+{"aspect": "credit value and usage limits", "dimension": "limits"}
+{"aspect": "cross-platform template sharing", "dimension": "dx"}
+{"aspect": "cross-project memory access", "dimension": "efficiency"}
+{"aspect": "cumbersome image attachment", "dimension": "dx"}
+{"aspect": "cumbersome image attachment before github cli upload", "dimension": "dx"}
+{"aspect": "current capability", "dimension": "agent"}
+{"aspect": "custom skill effectiveness", "dimension": "dx"}
+{"aspect": "custom task_end hook extensibility", "dimension": "dx"}
+{"aspect": "customizability and minimalism", "dimension": "dx"}
+{"aspect": "customizable task-specific personas", "dimension": "dx"}
+{"aspect": "daily assistance/time saved", "dimension": "agent"}
+{"aspect": "daily driver", "dimension": "overall"}
+{"aspect": "daily driver autonomy", "dimension": "agent"}
+{"aspect": "daily driver choice", "dimension": "overall"}
+{"aspect": "daily driver preference", "dimension": "overall"}
+{"aspect": "daily driver vs claude code", "dimension": "overall"}
+{"aspect": "daily split-screen workflow, wants popout browser", "dimension": "dx"}
+{"aspect": "daily usage resets", "dimension": "limits"}
+{"aspect": "daily work capability and image generation", "dimension": "agent"}
+{"aspect": "database nuked autonomous run", "dimension": "agent"}
+{"aspect": "day-to-day coding ux versus cursor", "dimension": "dx"}
+{"aspect": "day-to-day usefulness vs benchmark scores", "dimension": "agent"}
+{"aspect": "deep infra work", "dimension": "agent"}
+{"aspect": "deeper reasoning", "dimension": "agent"}

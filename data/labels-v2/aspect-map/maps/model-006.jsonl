@@ -1,0 +1,250 @@
+{"aspect": "image to svg conversion", "dimension": "intelligence"}
+{"aspect": "image-to-3d detail level", "dimension": "intelligence"}
+{"aspect": "image-to-webgl output quality", "dimension": "intelligence"}
+{"aspect": "implementation completeness", "dimension": "intelligence"}
+{"aspect": "implementation quality in combo", "dimension": "intelligence"}
+{"aspect": "implementation role", "dimension": "other"}
+{"aspect": "implementation role quality and cost", "dimension": "price"}
+{"aspect": "impressed after hermes model degraded", "dimension": "intelligence"}
+{"aspect": "impressed yesterday", "dimension": "overall"}
+{"aspect": "impression of coding capability, not yet tested", "dimension": "intelligence"}
+{"aspect": "impressive after switching this week", "dimension": "overall"}
+{"aspect": "impressive agent output", "dimension": "intelligence"}
+{"aspect": "impressive at this price point", "dimension": "price"}
+{"aspect": "impressive capability on release", "dimension": "intelligence"}
+{"aspect": "impressive deepseek replacement", "dimension": "intelligence"}
+{"aspect": "impressive despite being only the flash tier", "dimension": "intelligence"}
+{"aspect": "impressive enough to prompt heavy usage", "dimension": "overall"}
+{"aspect": "impressive first impression", "dimension": "overall"}
+{"aspect": "impressive leaked frontend output", "dimension": "intelligence"}
+{"aspect": "impressive leaked outputs", "dimension": "intelligence"}
+{"aspect": "impressive output", "dimension": "intelligence"}
+{"aspect": "impressive release", "dimension": "overall"}
+{"aspect": "impressively strong across varied tasks", "dimension": "intelligence"}
+{"aspect": "improved since original launch", "dimension": "intelligence"}
+{"aspect": "improved translation and reasoning", "dimension": "intelligence"}
+{"aspect": "improvement over 3.7 flash", "dimension": "intelligence"}
+{"aspect": "improvement over current fable 5", "dimension": "intelligence"}
+{"aspect": "improvement over predecessor", "dimension": "intelligence"}
+{"aspect": "improving the handed-off code", "dimension": "intelligence"}
+{"aspect": "incoherent output", "dimension": "intelligence"}
+{"aspect": "incompetence on tasks", "dimension": "intelligence"}
+{"aspect": "inconsistent correctness", "dimension": "intelligence"}
+{"aspect": "inconsistent usage quota tracking", "dimension": "other"}
+{"aspect": "increasing personal usage", "dimension": "overall"}
+{"aspect": "increasing usage frequency", "dimension": "overall"}
+{"aspect": "incremental improvement", "dimension": "intelligence"}
+{"aspect": "incremental upgrade with no differentiation", "dimension": "intelligence"}
+{"aspect": "independence vs high fix-commit count", "dimension": "steerability"}
+{"aspect": "independent moderator role", "dimension": "other"}
+{"aspect": "index edge but weak hard reasoning", "dimension": "intelligence"}
+{"aspect": "index score and cost efficiency", "dimension": "price"}
+{"aspect": "index score versus cost", "dimension": "price"}
+{"aspect": "industry standard status", "dimension": "other"}
+{"aspect": "inference cost", "dimension": "price"}
+{"aspect": "inference cost comparison", "dimension": "price"}
+{"aspect": "inference efficiency vs newer launches", "dimension": "speed"}
+{"aspect": "inference speed", "dimension": "speed"}
+{"aspect": "inference speed (tps)", "dimension": "speed"}
+{"aspect": "inference speed after cuda rewrite", "dimension": "speed"}
+{"aspect": "inference throughput reputation", "dimension": "speed"}
+{"aspect": "inferior to tencent hy4 deep thinking", "dimension": "intelligence"}
+{"aspect": "inferring/picking up on context", "dimension": "intelligence"}
+{"aspect": "initial drafts versus editing quality", "dimension": "intelligence"}
+{"aspect": "inner browser control issue", "dimension": "other"}
+{"aspect": "innovative predictive training", "dimension": "intelligence"}
+{"aspect": "input/output/cache pricing and token efficiency", "dimension": "price"}
+{"aspect": "insanely cheap", "dimension": "price"}
+{"aspect": "insanely good in current workflow", "dimension": "overall"}
+{"aspect": "instability when tuning", "dimension": "other"}
+{"aspect": "instruction following", "dimension": "steerability"}
+{"aspect": "instruction following and speed", "dimension": "steerability"}
+{"aspect": "instruction following and sub-agent delegation", "dimension": "steerability"}
+{"aspect": "instruction following in one prompt", "dimension": "steerability"}
+{"aspect": "instruction following in reasoning", "dimension": "steerability"}
+{"aspect": "instruction following on a long task", "dimension": "steerability"}
+{"aspect": "instruction following on table selection", "dimension": "steerability"}
+{"aspect": "instruction following via agents.md", "dimension": "steerability"}
+{"aspect": "insufferable tone", "dimension": "personality"}
+{"aspect": "integration and connectivity enjoyment", "dimension": "other"}
+{"aspect": "intelligence", "dimension": "intelligence"}
+{"aspect": "intelligence and cost", "dimension": "intelligence"}
+{"aspect": "intelligence and cost versus glm", "dimension": "intelligence"}
+{"aspect": "intelligence and cost versus sol", "dimension": "intelligence"}
+{"aspect": "intelligence and speed", "dimension": "intelligence"}
+{"aspect": "intelligence and speed vs muse spark", "dimension": "intelligence"}
+{"aspect": "intelligence benches vs coding efficiency and cost-per-task", "dimension": "intelligence"}
+{"aspect": "intelligence benchmark score 61 vs 59", "dimension": "intelligence"}
+{"aspect": "intelligence despite cheap price", "dimension": "intelligence"}
+{"aspect": "intelligence for price", "dimension": "price"}
+{"aspect": "intelligence for the author's work", "dimension": "intelligence"}
+{"aspect": "intelligence improvement", "dimension": "intelligence"}
+{"aspect": "intelligence improvement over fable 5", "dimension": "intelligence"}
+{"aspect": "intelligence improving over time", "dimension": "intelligence"}
+{"aspect": "intelligence index lead in architecture tasks", "dimension": "intelligence"}
+{"aspect": "intelligence index ranking", "dimension": "intelligence"}
+{"aspect": "intelligence index ranking on agentic knowledge work", "dimension": "intelligence"}
+{"aspect": "intelligence index score", "dimension": "intelligence"}
+{"aspect": "intelligence index score gap", "dimension": "intelligence"}
+{"aspect": "intelligence level judged worth the price", "dimension": "price"}
+{"aspect": "intelligence on hard tasks", "dimension": "intelligence"}
+{"aspect": "intelligence over speed trade-off", "dimension": "intelligence"}
+{"aspect": "intelligence per dollar", "dimension": "price"}
+{"aspect": "intelligence relative to competitors", "dimension": "intelligence"}
+{"aspect": "intelligence versus cost at medium setting", "dimension": "price"}
+{"aspect": "intelligence versus work ethic", "dimension": "intelligence"}
+{"aspect": "intelligence via free-tier subscription", "dimension": "intelligence"}
+{"aspect": "intelligence vs cost per task", "dimension": "price"}
+{"aspect": "intelligence vs friendliness trade-off", "dimension": "intelligence"}
+{"aspect": "intelligence vs speed frontier position", "dimension": "intelligence"}
+{"aspect": "intelligence vs speed tradeoff", "dimension": "intelligence"}
+{"aspect": "intelligence-vs-cost pareto position", "dimension": "price"}
+{"aspect": "intelligence/capability", "dimension": "intelligence"}
+{"aspect": "intelligence/quality", "dimension": "intelligence"}
+{"aspect": "intent recognition sensitivity", "dimension": "steerability"}
+{"aspect": "intent understanding vs overconfidence", "dimension": "intelligence"}
+{"aspect": "interactive feel", "dimension": "personality"}
+{"aspect": "interchangeable general use", "dimension": "overall"}
+{"aspect": "interest sparked by posted benchmark numbers", "dimension": "intelligence"}
+{"aspect": "interestingness ranking", "dimension": "personality"}
+{"aspect": "interior detail on zero-shot generation", "dimension": "intelligence"}
+{"aspect": "internal coding test preference", "dimension": "intelligence"}
+{"aspect": "internal engineer coding preference", "dimension": "intelligence"}
+{"aspect": "internal jetski head-to-head test", "dimension": "intelligence"}
+{"aspect": "intro price competitiveness", "dimension": "price"}
+{"aspect": "introduced bugs requiring cleanup", "dimension": "intelligence"}
+{"aspect": "intuitiveness", "dimension": "personality"}
+{"aspect": "invented fake api endpoints", "dimension": "intelligence"}
+{"aspect": "ios swift dev quality", "dimension": "intelligence"}
+{"aspect": "irrelevant tool calls and hallucination", "dimension": "intelligence"}
+{"aspect": "jailbreak and honeypot cheating susceptibility", "dimension": "personality"}
+{"aspect": "jailbreak refusal benchmark score", "dimension": "personality"}
+{"aspect": "jailbreak resistance and safety failures", "dimension": "personality"}
+{"aspect": "japanese language conciseness", "dimension": "personality"}
+{"aspect": "japanese language quality", "dimension": "intelligence"}
+{"aspect": "japanese language verbosity", "dimension": "personality"}
+{"aspect": "japanese output conciseness", "dimension": "personality"}
+{"aspect": "japanese translation clarity", "dimension": "intelligence"}
+{"aspect": "jargon-heavy versus qwen's clarity", "dimension": "personality"}
+{"aspect": "jetski coding test preference", "dimension": "intelligence"}
+{"aspect": "joint web+local processing", "dimension": "other"}
+{"aspect": "judged smarter than fable 5 for the author's work", "dimension": "intelligence"}
+{"aspect": "kernel task coding performance", "dimension": "intelligence"}
+{"aspect": "knowledge work and human-facing writing", "dimension": "intelligence"}
+{"aspect": "kv cache and concurrency handling", "dimension": "speed"}
+{"aspect": "kv cache efficiency", "dimension": "speed"}
+{"aspect": "lack of positive feedback online", "dimension": "other"}
+{"aspect": "lacking human tone in writing", "dimension": "personality"}
+{"aspect": "lacks vision/multimodal support", "dimension": "other"}
+{"aspect": "language consistency", "dimension": "personality"}
+{"aspect": "language expression quality", "dimension": "personality"}
+{"aspect": "large benchmark jump from 1.2", "dimension": "intelligence"}
+{"aspect": "large monorepo coding", "dimension": "intelligence"}
+{"aspect": "large output splitting", "dimension": "other"}
+{"aspect": "large-scale code rewrite quality", "dimension": "intelligence"}
+{"aspect": "last resort for the hardest tasks", "dimension": "intelligence"}
+{"aspect": "launch benchmark scores", "dimension": "intelligence"}
+{"aspect": "launch benchmark scores (frontiermath, deepswe)", "dimension": "intelligence"}
+{"aspect": "launch benchmark sweep", "dimension": "intelligence"}
+{"aspect": "launch benchmark sweep vs sol", "dimension": "intelligence"}
+{"aspect": "launch-page benchmark scores", "dimension": "intelligence"}
+{"aspect": "laziness", "dimension": "steerability"}
+{"aspect": "laziness and context management", "dimension": "steerability"}
+{"aspect": "laziness in completing tasks", "dimension": "steerability"}
+{"aspect": "leaderboard lead", "dimension": "intelligence"}
+{"aspect": "leaderboard ranking", "dimension": "intelligence"}
+{"aspect": "leaderboard ranking and pricing", "dimension": "intelligence"}
+{"aspect": "leaderboard ranking on intelligence/coding", "dimension": "intelligence"}
+{"aspect": "leading benchmark scores", "dimension": "intelligence"}
+{"aspect": "leads chinese-model benchmarks", "dimension": "intelligence"}
+{"aspect": "leads on every shared benchmark", "dimension": "intelligence"}
+{"aspect": "leaked outputs vs competitiveness", "dimension": "intelligence"}
+{"aspect": "legal agent task performance", "dimension": "intelligence"}
+{"aspect": "legal drafting and citations", "dimension": "intelligence"}
+{"aspect": "legal drafting and writing quality", "dimension": "intelligence"}
+{"aspect": "legal-issue benchmark score", "dimension": "intelligence"}
+{"aspect": "less insufferable, better output", "dimension": "personality"}
+{"aspect": "less people-pleasing behavior", "dimension": "personality"}
+{"aspect": "less preferred model to work with", "dimension": "overall"}
+{"aspect": "less room and speed than the flash variant", "dimension": "speed"}
+{"aspect": "less smart than free-tier alternatives", "dimension": "intelligence"}
+{"aspect": "less verbose output", "dimension": "personality"}
+{"aspect": "license terms", "dimension": "other"}
+{"aspect": "licensing transparency at release", "dimension": "other"}
+{"aspect": "liked but pricier than flash models", "dimension": "price"}
+{"aspect": "liked for hermes sessions", "dimension": "overall"}
+{"aspect": "limited usage per plan", "dimension": "other"}
+{"aspect": "literary critique ability", "dimension": "intelligence"}
+{"aspect": "live build capability", "dimension": "intelligence"}
+{"aspect": "local agentic coding experience", "dimension": "intelligence"}
+{"aspect": "local build capability", "dimension": "intelligence"}
+{"aspect": "local deployability on consumer hardware", "dimension": "other"}
+{"aspect": "local deployment capability", "dimension": "other"}
+{"aspect": "local deployment feasibility", "dimension": "other"}
+{"aspect": "local generation quality on own hardware", "dimension": "intelligence"}
+{"aspect": "local gpu inference reliance", "dimension": "other"}
+{"aspect": "local hosting hardware cost", "dimension": "price"}
+{"aspect": "local inference performance on single gpu", "dimension": "speed"}
+{"aspect": "local inference speed", "dimension": "speed"}
+{"aspect": "local inference speed on mac", "dimension": "speed"}
+{"aspect": "local inference throughput out of the box", "dimension": "speed"}
+{"aspect": "local runner support via gguf quantization", "dimension": "other"}
+{"aspect": "logic puzzle accuracy", "dimension": "intelligence"}
+{"aspect": "long agentic task reliability", "dimension": "intelligence"}
+{"aspect": "long browser-operation performance", "dimension": "intelligence"}
+{"aspect": "long code file integrity", "dimension": "intelligence"}
+{"aspect": "long code reliability", "dimension": "intelligence"}
+{"aspect": "long context benchmark score", "dimension": "intelligence"}
+{"aspect": "long context score jump", "dimension": "intelligence"}
+{"aspect": "long context without retrieval structure", "dimension": "intelligence"}
+{"aspect": "long horizon coding benchmark", "dimension": "intelligence"}
+{"aspect": "long horizon multistep workflows and debugging", "dimension": "intelligence"}
+{"aspect": "long task completion speed and token cost", "dimension": "speed"}
+{"aspect": "long-code reliability", "dimension": "intelligence"}
+{"aspect": "long-context and agentic coding benchmark hype", "dimension": "intelligence"}
+{"aspect": "long-context degradation", "dimension": "intelligence"}
+{"aspect": "long-context hallucination/degradation", "dimension": "intelligence"}
+{"aspect": "long-context multimodal benchmark improvement", "dimension": "intelligence"}
+{"aspect": "long-context value positioning", "dimension": "price"}
+{"aspect": "long-horizon coding benchmark score", "dimension": "intelligence"}
+{"aspect": "long-horizon coding speed and cost", "dimension": "speed"}
+{"aspect": "long-horizon hard swe tasks", "dimension": "intelligence"}
+{"aspect": "long-horizon performance jump for search agents", "dimension": "intelligence"}
+{"aspect": "long-horizon task capability", "dimension": "intelligence"}
+{"aspect": "long-running agent capability", "dimension": "intelligence"}
+{"aspect": "long-running agent output", "dimension": "intelligence"}
+{"aspect": "long-running agent session handling", "dimension": "intelligence"}
+{"aspect": "long-running agentic task jump", "dimension": "intelligence"}
+{"aspect": "long-running autonomous work", "dimension": "intelligence"}
+{"aspect": "long-running task capability", "dimension": "intelligence"}
+{"aspect": "long-running task performance", "dimension": "intelligence"}
+{"aspect": "long-video scanning approach", "dimension": "intelligence"}
+{"aspect": "loop engineering, prompt scaffolding, and guardrails", "dimension": "steerability"}
+{"aspect": "looped without resolving issue", "dimension": "intelligence"}
+{"aspect": "looping and repeating output", "dimension": "intelligence"}
+{"aspect": "looping drove up api cost for less completed work", "dimension": "price"}
+{"aspect": "looping on almost any prompt", "dimension": "intelligence"}
+{"aspect": "looping on file reading burning quota", "dimension": "other"}
+{"aspect": "looping on long tasks", "dimension": "intelligence"}
+{"aspect": "looping on long tasks despite thoroughness", "dimension": "intelligence"}
+{"aspect": "looping wrecked my program", "dimension": "intelligence"}
+{"aspect": "loses coherence when corrected", "dimension": "steerability"}
+{"aspect": "loses on token management", "dimension": "speed"}
+{"aspect": "loses svg frontend comparison", "dimension": "intelligence"}
+{"aspect": "loses to luna on hard tasks", "dimension": "intelligence"}
+{"aspect": "loses to the claude combo", "dimension": "overall"}
+{"aspect": "losing appeal over time", "dimension": "overall"}
+{"aspect": "losing context after few prompts", "dimension": "intelligence"}
+{"aspect": "losing context on long agentic tasks", "dimension": "intelligence"}
+{"aspect": "losing ground on math to newest gpt", "dimension": "intelligence"}
+{"aspect": "losing tool access mid-task", "dimension": "other"}
+{"aspect": "losing track on long running tasks", "dimension": "intelligence"}
+{"aspect": "lost benchmark comparison to hy4", "dimension": "intelligence"}
+{"aspect": "lost shogi match, far cheaper", "dimension": "price"}
+{"aspect": "lost to muse spark 1.3 on my benchmark", "dimension": "intelligence"}
+{"aspect": "lost token-efficiency comparison", "dimension": "speed"}
+{"aspect": "low cost", "dimension": "price"}
+{"aspect": "low cost enabling heavy usage", "dimension": "price"}
+{"aspect": "low cost value for most tasks", "dimension": "price"}
+{"aspect": "low cost via high cache hit rate", "dimension": "price"}
+{"aspect": "low hallucination rate", "dimension": "intelligence"}

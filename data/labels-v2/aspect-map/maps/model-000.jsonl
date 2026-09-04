@@ -1,0 +1,250 @@
+{"aspect": "$5 tier marketing inaccurate for shipping projects", "dimension": "price"}
+{"aspect": "$6k of tokens consumed in a day", "dimension": "price"}
+{"aspect": "11x cheaper on matched tasks", "dimension": "price"}
+{"aspect": "12-hour unsupervised agent run", "dimension": "intelligence"}
+{"aspect": "13x cheaper and insanely fast per the reported benchmarks", "dimension": "price"}
+{"aspect": "13x cheaper same game", "dimension": "price"}
+{"aspect": "16h40m build time, quality good", "dimension": "speed"}
+{"aspect": "1m context window full billing", "dimension": "price"}
+{"aspect": "2 hours, bug never fixed", "dimension": "intelligence"}
+{"aspect": "28-hour runtime and 200m tokens on one task", "dimension": "speed"}
+{"aspect": "3d animation rendering quality", "dimension": "intelligence"}
+{"aspect": "3d asset generation", "dimension": "intelligence"}
+{"aspect": "3d asset generation (complex vehicle in blender)", "dimension": "intelligence"}
+{"aspect": "3d asset generation demo", "dimension": "intelligence"}
+{"aspect": "3d asset generation from a single prompt", "dimension": "intelligence"}
+{"aspect": "3d asset generation in blender", "dimension": "intelligence"}
+{"aspect": "3d asset generation quality", "dimension": "intelligence"}
+{"aspect": "3d build quality", "dimension": "intelligence"}
+{"aspect": "3d build realism", "dimension": "intelligence"}
+{"aspect": "3d building quality", "dimension": "intelligence"}
+{"aspect": "3d demo visual quality", "dimension": "intelligence"}
+{"aspect": "3d design quality", "dimension": "intelligence"}
+{"aspect": "3d frontend output quality", "dimension": "intelligence"}
+{"aspect": "3d generation cost vs prompt count", "dimension": "price"}
+{"aspect": "3d generation detail and completeness", "dimension": "intelligence"}
+{"aspect": "3d generation performance", "dimension": "intelligence"}
+{"aspect": "3d generation quality", "dimension": "intelligence"}
+{"aspect": "3d generation quality improvement", "dimension": "intelligence"}
+{"aspect": "3d generation quality vs earlier voxel tests", "dimension": "intelligence"}
+{"aspect": "3d generation quality vs other models", "dimension": "intelligence"}
+{"aspect": "3d jellyfish generation quality and speed", "dimension": "intelligence"}
+{"aspect": "3d mars colony sim depth", "dimension": "intelligence"}
+{"aspect": "3d mesh generation quality", "dimension": "intelligence"}
+{"aspect": "3d model generation", "dimension": "intelligence"}
+{"aspect": "3d object richness from simple prompts", "dimension": "intelligence"}
+{"aspect": "3d output quality", "dimension": "intelligence"}
+{"aspect": "3d output quality (defending against criticism)", "dimension": "intelligence"}
+{"aspect": "3d prototype generation speed", "dimension": "speed"}
+{"aspect": "3d scene generation with three.js", "dimension": "intelligence"}
+{"aspect": "3d scene graphics quality", "dimension": "intelligence"}
+{"aspect": "3d three.js demo quality", "dimension": "intelligence"}
+{"aspect": "3d voxel build quality", "dimension": "intelligence"}
+{"aspect": "3d voxel garden generation quality", "dimension": "intelligence"}
+{"aspect": "3d voxel scene generation", "dimension": "intelligence"}
+{"aspect": "3d voxel scene generation quality", "dimension": "intelligence"}
+{"aspect": "3d work in blender", "dimension": "intelligence"}
+{"aspect": "3d world generation quality", "dimension": "intelligence"}
+{"aspect": "4 hour build time", "dimension": "speed"}
+{"aspect": "4x cheaper cost claim", "dimension": "price"}
+{"aspect": "5-hour rate limit burn", "dimension": "price"}
+{"aspect": "5-hour rate limit burned in under an hour", "dimension": "price"}
+{"aspect": "5-hour rate limit burned quickly", "dimension": "price"}
+{"aspect": "5-hour usage burned in under an hour", "dimension": "price"}
+{"aspect": "5-hour usage window insufficient", "dimension": "price"}
+{"aspect": "503 errors under high demand but model itself fine", "dimension": "other"}
+{"aspect": "5x cost decrease versus previous vendor", "dimension": "price"}
+{"aspect": "a tier ranking", "dimension": "overall"}
+{"aspect": "aa coding index ranking", "dimension": "intelligence"}
+{"aspect": "aa intelligence index ranking", "dimension": "intelligence"}
+{"aspect": "aa intelligence index score", "dimension": "intelligence"}
+{"aspect": "aa-briefcase benchmark score by effort level", "dimension": "intelligence"}
+{"aspect": "aaie benchmark score", "dimension": "intelligence"}
+{"aspect": "aaie score improvement", "dimension": "intelligence"}
+{"aspect": "aaie score jump vs prior version", "dimension": "intelligence"}
+{"aspect": "aaii and deepswe benchmark scores", "dimension": "intelligence"}
+{"aspect": "abstract art generation taste and speed", "dimension": "intelligence"}
+{"aspect": "absurdly cheap", "dimension": "price"}
+{"aspect": "absurdly fast, tier 1 for coding", "dimension": "intelligence"}
+{"aspect": "acceptable quality, not awful", "dimension": "intelligence"}
+{"aspect": "access despite paid plan", "dimension": "other"}
+{"aspect": "access generosity", "dimension": "other"}
+{"aspect": "access via claude max subscription", "dimension": "other"}
+{"aspect": "accuracy and cost efficiency", "dimension": "intelligence"}
+{"aspect": "accuracy and glitch improvements from model refinements", "dimension": "intelligence"}
+{"aspect": "accuracy despite high hallucination stat", "dimension": "intelligence"}
+{"aspect": "accuracy for quick work", "dimension": "intelligence"}
+{"aspect": "accuracy needing fewer corrections", "dimension": "intelligence"}
+{"aspect": "accuracy on its own", "dimension": "intelligence"}
+{"aspect": "accuracy on simple mistakes", "dimension": "intelligence"}
+{"aspect": "accuracy on task", "dimension": "intelligence"}
+{"aspect": "accuracy regression and fabricated data", "dimension": "intelligence"}
+{"aspect": "accuracy vs cost tradeoff in reported benchmark", "dimension": "price"}
+{"aspect": "accuracy vs local alternative", "dimension": "intelligence"}
+{"aspect": "accurate bounding boxes, very cheap", "dimension": "intelligence"}
+{"aspect": "accurate form field extraction", "dimension": "intelligence"}
+{"aspect": "accurately reproducing design details", "dimension": "intelligence"}
+{"aspect": "acting as technical lead delegating work", "dimension": "intelligence"}
+{"aspect": "actual capability", "dimension": "intelligence"}
+{"aspect": "actual code output quality", "dimension": "intelligence"}
+{"aspect": "actual coding work quality", "dimension": "intelligence"}
+{"aspect": "actual cost higher than expected", "dimension": "price"}
+{"aspect": "actually shipped and available vs rumored release", "dimension": "other"}
+{"aspect": "actually shipped and used long-term", "dimension": "other"}
+{"aspect": "actually solves the problem", "dimension": "intelligence"}
+{"aspect": "ad copywriting quality", "dimension": "intelligence"}
+{"aspect": "adequate for implementation despite being weaker", "dimension": "intelligence"}
+{"aspect": "adjustable default writing register", "dimension": "personality"}
+{"aspect": "adoption within opencode", "dimension": "other"}
+{"aspect": "advanced test results", "dimension": "intelligence"}
+{"aspect": "advancing agentic coding", "dimension": "intelligence"}
+{"aspect": "adversarial review", "dimension": "intelligence"}
+{"aspect": "advertised model missing from picker", "dimension": "other"}
+{"aspect": "advertised price vs production cost", "dimension": "price"}
+{"aspect": "advisor role cost efficiency", "dimension": "price"}
+{"aspect": "aesthetics of output", "dimension": "intelligence"}
+{"aspect": "affection", "dimension": "personality"}
+{"aspect": "affordability", "dimension": "price"}
+{"aspect": "affordability and overall quality", "dimension": "price"}
+{"aspect": "affordability compared to alternatives", "dimension": "price"}
+{"aspect": "affordability for a home iot project", "dimension": "price"}
+{"aspect": "affordability vs intelligence ceiling", "dimension": "price"}
+{"aspect": "affordable access", "dimension": "price"}
+{"aspect": "affordable pricing via reseller", "dimension": "price"}
+{"aspect": "affordable setup worked wonders", "dimension": "price"}
+{"aspect": "agent and coding benchmark scores", "dimension": "intelligence"}
+{"aspect": "agent arena net improvement ranking", "dimension": "intelligence"}
+{"aspect": "agent arena ranking improvement over 3.7", "dimension": "intelligence"}
+{"aspect": "agent benchmark performance", "dimension": "intelligence"}
+{"aspect": "agent capabilities", "dimension": "intelligence"}
+{"aspect": "agent coding capability expectations", "dimension": "intelligence"}
+{"aspect": "agent cost versus open-weight models", "dimension": "price"}
+{"aspect": "agent loop performance", "dimension": "intelligence"}
+{"aspect": "agent system performance", "dimension": "intelligence"}
+{"aspect": "agent task speed gap", "dimension": "speed"}
+{"aspect": "agent team performance and low cost", "dimension": "intelligence"}
+{"aspect": "agent upgrade", "dimension": "overall"}
+{"aspect": "agent/cyber suite performance and cost", "dimension": "intelligence"}
+{"aspect": "agentic benchmark gains over fable 5.1", "dimension": "intelligence"}
+{"aspect": "agentic benchmark performance", "dimension": "intelligence"}
+{"aspect": "agentic benchmark scores", "dimension": "intelligence"}
+{"aspect": "agentic benchmarks", "dimension": "intelligence"}
+{"aspect": "agentic coding benchmark score", "dimension": "intelligence"}
+{"aspect": "agentic flow regression versus intelligence and visual taste", "dimension": "intelligence"}
+{"aspect": "agentic index benchmark ranking", "dimension": "intelligence"}
+{"aspect": "agentic index score", "dimension": "intelligence"}
+{"aspect": "agentic reasoning and multi-step tasks", "dimension": "intelligence"}
+{"aspect": "agentic reasoning improvement", "dimension": "intelligence"}
+{"aspect": "agentic reliability regression", "dimension": "intelligence"}
+{"aspect": "agentic reliability vs chat strength", "dimension": "intelligence"}
+{"aspect": "agentic setup task completion under quota limit", "dimension": "intelligence"}
+{"aspect": "agentic task performance", "dimension": "intelligence"}
+{"aspect": "agentic use viable", "dimension": "intelligence"}
+{"aspect": "agentic video understanding accuracy", "dimension": "intelligence"}
+{"aspect": "agentic video workflow for manuals", "dimension": "intelligence"}
+{"aspect": "agentic work capability", "dimension": "intelligence"}
+{"aspect": "agentic work ranking", "dimension": "intelligence"}
+{"aspect": "agentic workflow capability", "dimension": "intelligence"}
+{"aspect": "agentic workflow delegation to cloud vms", "dimension": "intelligence"}
+{"aspect": "agentic, text and coding gains", "dimension": "intelligence"}
+{"aspect": "agi-era hype", "dimension": "overall"}
+{"aspect": "ahead in coding", "dimension": "intelligence"}
+{"aspect": "ahead of rivals with cheap zdr hosting", "dimension": "price"}
+{"aspect": "algorithm project performance", "dimension": "intelligence"}
+{"aspect": "allows the security task gpt refused", "dimension": "personality"}
+{"aspect": "alternative to anthropic models", "dimension": "other"}
+{"aspect": "amazing after returning to it", "dimension": "overall"}
+{"aspect": "amazing after the switch", "dimension": "overall"}
+{"aspect": "ambiguous/complex work", "dimension": "intelligence"}
+{"aspect": "amount of training data", "dimension": "other"}
+{"aspect": "amusing erratic panic behavior", "dimension": "personality"}
+{"aspect": "analysis speed", "dimension": "speed"}
+{"aspect": "android release delay", "dimension": "other"}
+{"aspect": "animation and web dev", "dimension": "intelligence"}
+{"aspect": "animation ending visual choice", "dimension": "intelligence"}
+{"aspect": "animation generation", "dimension": "intelligence"}
+{"aspect": "animation quality", "dimension": "intelligence"}
+{"aspect": "anime style animation output", "dimension": "intelligence"}
+{"aspect": "announced pricing", "dimension": "price"}
+{"aspect": "answer quality", "dimension": "intelligence"}
+{"aspect": "anticipated capability", "dimension": "intelligence"}
+{"aspect": "anticipated overall capability", "dimension": "intelligence"}
+{"aspect": "anticipated pick", "dimension": "overall"}
+{"aspect": "api cost", "dimension": "price"}
+{"aspect": "api cost efficiency vs rate limiting", "dimension": "price"}
+{"aspect": "api errors / unavailable", "dimension": "other"}
+{"aspect": "api reliability and latency", "dimension": "speed"}
+{"aspect": "api work performance", "dimension": "intelligence"}
+{"aspect": "app design quality", "dimension": "intelligence"}
+{"aspect": "app quality", "dimension": "intelligence"}
+{"aspect": "app upgrade vs architecture", "dimension": "intelligence"}
+{"aspect": "app-building reliability", "dimension": "intelligence"}
+{"aspect": "appeal based on appearance", "dimension": "other"}
+{"aspect": "arc-agi-3 benchmark jump", "dimension": "intelligence"}
+{"aspect": "arc-agi-3 benchmark lead", "dimension": "intelligence"}
+{"aspect": "arc-agi-3 benchmark saturation", "dimension": "intelligence"}
+{"aspect": "arc-agi-3 benchmark score", "dimension": "intelligence"}
+{"aspect": "arc-agi-3 score", "dimension": "intelligence"}
+{"aspect": "arc-agi-3 score jump", "dimension": "intelligence"}
+{"aspect": "arc-agi-3/exploitbench/benchcad scores", "dimension": "intelligence"}
+{"aspect": "arc-agi-3/frontiermath/sre-bench scores", "dimension": "intelligence"}
+{"aspect": "architect and supervisor role", "dimension": "intelligence"}
+{"aspect": "arena ai code leaderboard ranking", "dimension": "intelligence"}
+{"aspect": "art style humanlike quality", "dimension": "intelligence"}
+{"aspect": "artificial analysis benchmark score", "dimension": "intelligence"}
+{"aspect": "artificial analysis index", "dimension": "intelligence"}
+{"aspect": "artificial analysis index score", "dimension": "intelligence"}
+{"aspect": "artificial analysis intelligence index", "dimension": "intelligence"}
+{"aspect": "artificial analysis intelligence index score", "dimension": "intelligence"}
+{"aspect": "artificial intelligence index score", "dimension": "intelligence"}
+{"aspect": "assisting with technical review", "dimension": "intelligence"}
+{"aspect": "astonishing", "dimension": "overall"}
+{"aspect": "attacking infra on impossible tasks", "dimension": "intelligence"}
+{"aspect": "audit quality", "dimension": "intelligence"}
+{"aspect": "auto mode exploit success rate", "dimension": "intelligence"}
+{"aspect": "automatic upgrade routing", "dimension": "other"}
+{"aspect": "automation bench score improvement", "dimension": "intelligence"}
+{"aspect": "autonomous 3d modeling", "dimension": "intelligence"}
+{"aspect": "autonomous 3d scene generation", "dimension": "intelligence"}
+{"aspect": "autonomous code generation vs 3d asset fidelity", "dimension": "intelligence"}
+{"aspect": "autonomous engineering reasoning", "dimension": "intelligence"}
+{"aspect": "autonomous engineering task automation", "dimension": "intelligence"}
+{"aspect": "autonomous message sending in vs code", "dimension": "intelligence"}
+{"aspect": "autonomous ml pipeline building", "dimension": "intelligence"}
+{"aspect": "autonomous server management including a deletion", "dimension": "intelligence"}
+{"aspect": "autonomous task/context orchestration", "dimension": "intelligence"}
+{"aspect": "autonomous tool use and complex tasks", "dimension": "intelligence"}
+{"aspect": "autonomous tool-driving without mcp", "dimension": "intelligence"}
+{"aspect": "autonomously finding and fixing bugs", "dimension": "intelligence"}
+{"aspect": "autonomy / agentic execution", "dimension": "intelligence"}
+{"aspect": "autonomy in playing and testing games", "dimension": "intelligence"}
+{"aspect": "autonomy vs repair-commit rate", "dimension": "intelligence"}
+{"aspect": "autonomy with little hand-holding", "dimension": "steerability"}
+{"aspect": "availability", "dimension": "other"}
+{"aspect": "availability across all modes", "dimension": "other"}
+{"aspect": "availability during outage", "dimension": "other"}
+{"aspect": "availability/uptime", "dimension": "other"}
+{"aspect": "availability/uptime (no upstream key)", "dimension": "other"}
+{"aspect": "avoiding nonsensical output", "dimension": "intelligence"}
+{"aspect": "b tier ranking", "dimension": "overall"}
+{"aspect": "backend and agentic tasks", "dimension": "intelligence"}
+{"aspect": "backend coding performance", "dimension": "intelligence"}
+{"aspect": "backend development", "dimension": "intelligence"}
+{"aspect": "backend development, optimizing and fixing bugs", "dimension": "intelligence"}
+{"aspect": "backend performance", "dimension": "intelligence"}
+{"aspect": "background job performance and cost", "dimension": "intelligence"}
+{"aspect": "backup model role", "dimension": "other"}
+{"aspect": "backup reliability", "dimension": "other"}
+{"aspect": "basic design output", "dimension": "intelligence"}
+{"aspect": "basic mistakes despite good video generation", "dimension": "intelligence"}
+{"aspect": "basic output vs fable", "dimension": "intelligence"}
+{"aspect": "beat fable in my own benchmark, cheaper", "dimension": "intelligence"}
+{"aspect": "beat luna in his own tests", "dimension": "intelligence"}
+{"aspect": "beat luna on the full sequence", "dimension": "intelligence"}
+{"aspect": "beat opus 5 separating real incidents", "dimension": "intelligence"}
+{"aspect": "beat sol on terminal bench", "dimension": "intelligence"}
+{"aspect": "beaten at coding by muse spark 1.3", "dimension": "intelligence"}
+{"aspect": "beaten by a 4090-sized qwen model", "dimension": "intelligence"}
+{"aspect": "beaten by a small task-specific model", "dimension": "intelligence"}
+{"aspect": "beaten by glm-5.3 on coding score", "dimension": "intelligence"}
+{"aspect": "beaten by hy4 in blind evals", "dimension": "intelligence"}

@@ -1,0 +1,165 @@
+{"aspect": "token rationing via priority queues", "dimension": "limits"}
+{"aspect": "token spend optimization", "dimension": "efficiency"}
+{"aspect": "token throughput", "dimension": "efficiency"}
+{"aspect": "token throughput value", "dimension": "efficiency"}
+{"aspect": "token usage and output quality", "dimension": "efficiency"}
+{"aspect": "token usage burning through subscription", "dimension": "limits"}
+{"aspect": "token usage value", "dimension": "efficiency"}
+{"aspect": "token value", "dimension": "efficiency"}
+{"aspect": "too few credits", "dimension": "limits"}
+{"aspect": "too slow and expensive", "dimension": "limits"}
+{"aspect": "took over all coding work", "dimension": "agent"}
+{"aspect": "took over mouse cursor control", "dimension": "agent"}
+{"aspect": "took over the full coding workload", "dimension": "agent"}
+{"aspect": "tool call efficiency", "dimension": "efficiency"}
+{"aspect": "tool exploration", "dimension": "agent"}
+{"aspect": "tool-use aggressiveness versus visibility", "dimension": "agent"}
+{"aspect": "tooling completeness vs alternatives", "dimension": "dx"}
+{"aspect": "tools worth keeping for building and reviewing", "dimension": "dx"}
+{"aspect": "top code quality but burns tokens and money", "dimension": "efficiency"}
+{"aspect": "top reasoning, poor token quota", "dimension": "limits"}
+{"aspect": "top tool despite rate limits and pricing", "dimension": "limits"}
+{"aspect": "transparency showing its work", "dimension": "agent"}
+{"aspect": "trust built from being a full-time user now diversifying", "dimension": "other"}
+{"aspect": "trust in messy repos", "dimension": "agent"}
+{"aspect": "trust with tool use", "dimension": "agent"}
+{"aspect": "trusted most for repo-wide changes", "dimension": "agent"}
+{"aspect": "trustworthiness of output", "dimension": "agent"}
+{"aspect": "trustworthiness of stated limits", "dimension": "limits"}
+{"aspect": "ui design quality", "dimension": "dx"}
+{"aspect": "ui improvement help", "dimension": "agent"}
+{"aspect": "ui minimalism vs feature clutter", "dimension": "dx"}
+{"aspect": "ui mockups and visual design quality", "dimension": "agent"}
+{"aspect": "ui quality", "dimension": "dx"}
+{"aspect": "ui work role avoids hitting usage limits", "dimension": "limits"}
+{"aspect": "ui/visual design quality", "dimension": "agent"}
+{"aspect": "unattended browser automation", "dimension": "agent"}
+{"aspect": "unattended cloud browser automation vs write access risk", "dimension": "agent"}
+{"aspect": "unconsented auto model switching", "dimension": "dx"}
+{"aspect": "underused paid quota", "dimension": "limits"}
+{"aspect": "unexpected large downloads while tethering", "dimension": "other"}
+{"aspect": "unexpectedly consuming cursor quota", "dimension": "limits"}
+{"aspect": "unexpectedly high cost for a simple task", "dimension": "limits"}
+{"aspect": "unexplained limit burn rate", "dimension": "limits"}
+{"aspect": "unnecessary permission prompts from incorrect path access", "dimension": "agent"}
+{"aspect": "unpredictable usage metering", "dimension": "limits"}
+{"aspect": "unresolved bug after update", "dimension": "reliability"}
+{"aspect": "unresponsive/overloaded", "dimension": "reliability"}
+{"aspect": "untrustworthy completion summaries", "dimension": "agent"}
+{"aspect": "unusable during outage", "dimension": "reliability"}
+{"aspect": "update stability", "dimension": "reliability"}
+{"aspect": "uptime during outage", "dimension": "reliability"}
+{"aspect": "usability for beginners", "dimension": "dx"}
+{"aspect": "usability for long agent work", "dimension": "efficiency"}
+{"aspect": "usability for multi-hour agent work", "dimension": "efficiency"}
+{"aspect": "usable across harnesses like hermes", "dimension": "dx"}
+{"aspect": "usable without pay-as-you-go billing", "dimension": "limits"}
+{"aspect": "usage allowance", "dimension": "limits"}
+{"aspect": "usage allowance per subscription cost", "dimension": "limits"}
+{"aspect": "usage allowance vs resets", "dimension": "limits"}
+{"aspect": "usage burns too fast", "dimension": "limits"}
+{"aspect": "usage cap ends session", "dimension": "limits"}
+{"aspect": "usage capacity consumption/rate limits", "dimension": "limits"}
+{"aspect": "usage consumption relative to work done", "dimension": "limits"}
+{"aspect": "usage credits run out faster than expected", "dimension": "limits"}
+{"aspect": "usage duration before rationing", "dimension": "limits"}
+{"aspect": "usage efficiency", "dimension": "efficiency"}
+{"aspect": "usage efficiency per agent", "dimension": "efficiency"}
+{"aspect": "usage lasts with heavy daily use", "dimension": "limits"}
+{"aspect": "usage limit comfort", "dimension": "limits"}
+{"aspect": "usage limit reductions", "dimension": "limits"}
+{"aspect": "usage limit resets", "dimension": "limits"}
+{"aspect": "usage limits", "dimension": "limits"}
+{"aspect": "usage limits and intelligence", "dimension": "limits"}
+{"aspect": "usage limits and pricing", "dimension": "limits"}
+{"aspect": "usage limits and pricing versus claude", "dimension": "limits"}
+{"aspect": "usage limits and restrictions", "dimension": "limits"}
+{"aspect": "usage limits consumed quickly", "dimension": "limits"}
+{"aspect": "usage limits contrasted with gpt/codex flexibility", "dimension": "limits"}
+{"aspect": "usage limits exhausted quickly", "dimension": "limits"}
+{"aspect": "usage limits experience", "dimension": "limits"}
+{"aspect": "usage limits feel unlimited", "dimension": "limits"}
+{"aspect": "usage limits generosity", "dimension": "limits"}
+{"aspect": "usage limits killing sessions mid-refactor", "dimension": "limits"}
+{"aspect": "usage limits not hit", "dimension": "limits"}
+{"aspect": "usage limits overstated", "dimension": "limits"}
+{"aspect": "usage limits reliability", "dimension": "limits"}
+{"aspect": "usage limits running out", "dimension": "limits"}
+{"aspect": "usage limits vs marketing claims", "dimension": "limits"}
+{"aspect": "usage quota running out", "dimension": "limits"}
+{"aspect": "usage quota vs prior fast tier", "dimension": "limits"}
+{"aspect": "usage reset causing an outage", "dimension": "reliability"}
+{"aspect": "usage share growing over claude code", "dimension": "other"}
+{"aspect": "usage transparency", "dimension": "limits"}
+{"aspect": "usage-limit drama", "dimension": "limits"}
+{"aspect": "usage/rate limits versus claude", "dimension": "limits"}
+{"aspect": "used for backend", "dimension": "other"}
+{"aspect": "used to analyze agent behavior on long tasks", "dimension": "other"}
+{"aspect": "used to build the project", "dimension": "agent"}
+{"aspect": "used to fix another tool", "dimension": "agent"}
+{"aspect": "usefulness for work", "dimension": "overall"}
+{"aspect": "using it as a personal second-brain idea", "dimension": "other"}
+{"aspect": "using it as the planner", "dimension": "agent"}
+{"aspect": "ux", "dimension": "dx"}
+{"aspect": "ux for non-technical users", "dimension": "dx"}
+{"aspect": "ux friction (notifications, manual commands)", "dimension": "dx"}
+{"aspect": "ux relative to codex", "dimension": "dx"}
+{"aspect": "ux versus cursor", "dimension": "dx"}
+{"aspect": "value / bundled cost", "dimension": "limits"}
+{"aspect": "value and efficiency for everyday swe work", "dimension": "efficiency"}
+{"aspect": "value at $100 tier versus grok's $30 tier", "dimension": "limits"}
+{"aspect": "value balance of quota and intelligence", "dimension": "limits"}
+{"aspect": "value beyond token savings", "dimension": "efficiency"}
+{"aspect": "value combo with glm and muse", "dimension": "other"}
+{"aspect": "value for $200/month plan", "dimension": "limits"}
+{"aspect": "value for everyday swe work", "dimension": "limits"}
+{"aspect": "value for experienced developers", "dimension": "dx"}
+{"aspect": "value for high-quota heavy model users", "dimension": "limits"}
+{"aspect": "value for money", "dimension": "limits"}
+{"aspect": "value for tokens on subscription", "dimension": "limits"}
+{"aspect": "value for unlimited usage", "dimension": "limits"}
+{"aspect": "value per dollar versus performance", "dimension": "limits"}
+{"aspect": "value vs paid ide switch", "dimension": "dx"}
+{"aspect": "vendor lock-in", "dimension": "other"}
+{"aspect": "verbose formulaic writing style", "dimension": "other"}
+{"aspect": "verbosity", "dimension": "other"}
+{"aspect": "verbosity and cost", "dimension": "limits"}
+{"aspect": "verbosity style", "dimension": "other"}
+{"aspect": "versatility beyond coding tasks", "dimension": "agent"}
+{"aspect": "very low monthly cost for high token volume", "dimension": "limits"}
+{"aspect": "very slow performance", "dimension": "other"}
+{"aspect": "viability for building websites", "dimension": "agent"}
+{"aspect": "video editing detail quality without review", "dimension": "agent"}
+{"aspect": "video generation and detail adjustment", "dimension": "agent"}
+{"aspect": "video-based bug triage workflow", "dimension": "agent"}
+{"aspect": "video-related output quality", "dimension": "agent"}
+{"aspect": "video/screenshot generation capability", "dimension": "agent"}
+{"aspect": "visual design catching up to opus", "dimension": "agent"}
+{"aspect": "voice input", "dimension": "dx"}
+{"aspect": "wanting all harnesses in one app", "dimension": "dx"}
+{"aspect": "was awesome before hitting cursor cap", "dimension": "limits"}
+{"aspect": "web search results complement claude code for quick research", "dimension": "dx"}
+{"aspect": "web search results complement codex for quick research", "dimension": "dx"}
+{"aspect": "weekly limit 'increase' is really a cut", "dimension": "limits"}
+{"aspect": "weekly limit cut framed as an increase", "dimension": "limits"}
+{"aspect": "weekly limit hit fast", "dimension": "limits"}
+{"aspect": "weekly limits burning fast", "dimension": "limits"}
+{"aspect": "weekly rate limits", "dimension": "limits"}
+{"aspect": "weekly usage limit reduction from sep 14", "dimension": "limits"}
+{"aspect": "weekly usage limits value", "dimension": "limits"}
+{"aspect": "weekly usage limits vanish quickly", "dimension": "limits"}
+{"aspect": "well-scoped tasks", "dimension": "agent"}
+{"aspect": "why they stay on a dual-tool workflow", "dimension": "dx"}
+{"aspect": "willingness to pay for max plan", "dimension": "limits"}
+{"aspect": "windows app update distribution", "dimension": "dx"}
+{"aspect": "windows desktop local-command execution bug", "dimension": "reliability"}
+{"aspect": "work efficiency", "dimension": "efficiency"}
+{"aspect": "workaround extends usage under 5h limits", "dimension": "limits"}
+{"aspect": "worker reports success with no commit", "dimension": "agent"}
+{"aspect": "worker reports success with zero actual commits", "dimension": "agent"}
+{"aspect": "workflow migration value", "dimension": "dx"}
+{"aspect": "workflow smoothness", "dimension": "dx"}
+{"aspect": "worth switching to after a year on claude code", "dimension": "overall"}
+{"aspect": "would rather be using this", "dimension": "overall"}
+{"aspect": "writing complete app in unfamiliar language", "dimension": "agent"}
+{"aspect": "x20 plan feels unlimited", "dimension": "limits"}

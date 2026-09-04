@@ -1,0 +1,250 @@
+{"aspect": "default design instincts (spacing, balance, 3d)", "dimension": "agent"}
+{"aspect": "default spending behavior on long tasks", "dimension": "efficiency"}
+{"aspect": "default workflow tool", "dimension": "dx"}
+{"aspect": "delegation/autonomous task capability", "dimension": "agent"}
+{"aspect": "deleted user's files", "dimension": "reliability"}
+{"aspect": "deny rules not enforced (permission bypass)", "dimension": "agent"}
+{"aspect": "depth of technique learned", "dimension": "efficiency"}
+{"aspect": "design capability via /design command", "dimension": "dx"}
+{"aspect": "design system quality", "dimension": "agent"}
+{"aspect": "desktop app experience", "dimension": "dx"}
+{"aspect": "desktop ui", "dimension": "dx"}
+{"aspect": "desktop, image and computer-use features still strong", "dimension": "dx"}
+{"aspect": "desktop-app parity with claude code/codex", "dimension": "dx"}
+{"aspect": "dev bandwidth multiplier for roadmap work", "dimension": "agent"}
+{"aspect": "dev tool quality, liking it more lately", "dimension": "overall"}
+{"aspect": "developer experience", "dimension": "dx"}
+{"aspect": "development speed", "dimension": "agent"}
+{"aspect": "diagram generation skill", "dimension": "agent"}
+{"aspect": "did well building the release, limit headroom", "dimension": "limits"}
+{"aspect": "diff visibility after update", "dimension": "dx"}
+{"aspect": "docker template builds", "dimension": "agent"}
+{"aspect": "does everything better", "dimension": "overall"}
+{"aspect": "doesn't work well in the cli", "dimension": "dx"}
+{"aspect": "downgraded plan, less value", "dimension": "limits"}
+{"aspect": "downtime/reliability when it crashes", "dimension": "reliability"}
+{"aspect": "drafting email replies speed", "dimension": "agent"}
+{"aspect": "dropped after performance disparity", "dimension": "overall"}
+{"aspect": "early testing results", "dimension": "overall"}
+{"aspect": "ease of building from documentation", "dimension": "dx"}
+{"aspect": "ease of content generation", "dimension": "agent"}
+{"aspect": "ease of subscription/setup process", "dimension": "dx"}
+{"aspect": "ease of use", "dimension": "dx"}
+{"aspect": "ease of use and productivity", "dimension": "dx"}
+{"aspect": "ease of use vs setup complexity", "dimension": "dx"}
+{"aspect": "ease of use, no need to worry about technical setup", "dimension": "dx"}
+{"aspect": "easy onboarding process for lab seats", "dimension": "dx"}
+{"aspect": "easy to use but toy-like vs hermes", "dimension": "dx"}
+{"aspect": "easy tool creation and publishing", "dimension": "dx"}
+{"aspect": "editable base_instructions", "dimension": "dx"}
+{"aspect": "effectiveness vs linked setup", "dimension": "dx"}
+{"aspect": "efficiency versus cost/skill barrier", "dimension": "efficiency"}
+{"aspect": "efficiency with vscode", "dimension": "dx"}
+{"aspect": "efficient workflow completing a project end to end", "dimension": "agent"}
+{"aspect": "effort switching still breaks cache per docs", "dimension": "efficiency"}
+{"aspect": "eight months of exclusive use", "dimension": "overall"}
+{"aspect": "enabling solo full-stack freelance work", "dimension": "agent"}
+{"aspect": "engineering rigor", "dimension": "agent"}
+{"aspect": "engineering task performance", "dimension": "agent"}
+{"aspect": "engineering/firmware-software tasks", "dimension": "agent"}
+{"aspect": "enjoyable chat but tight usage cap", "dimension": "limits"}
+{"aspect": "entitlement/model roster sync bug on macos", "dimension": "reliability"}
+{"aspect": "error 529 downtime", "dimension": "reliability"}
+{"aspect": "error processing bug", "dimension": "reliability"}
+{"aspect": "established integrated workflow", "dimension": "dx"}
+{"aspect": "evidence-based audit findings", "dimension": "agent"}
+{"aspect": "exceptional output, quota burns fast", "dimension": "limits"}
+{"aspect": "excessive .d.ts inspection", "dimension": "efficiency"}
+{"aspect": "excessive approval prompts", "dimension": "agent"}
+{"aspect": "exclusive tool of choice", "dimension": "overall"}
+{"aspect": "executing builds under an orchestrator", "dimension": "agent"}
+{"aspect": "execution role", "dimension": "agent"}
+{"aspect": "expensive due to multi-bot looping until objective complete", "dimension": "efficiency"}
+{"aspect": "expensive parallel bot loops", "dimension": "efficiency"}
+{"aspect": "expensive relative to gemini quota", "dimension": "limits"}
+{"aspect": "expensive subscription", "dimension": "limits"}
+{"aspect": "faded first-line text after update", "dimension": "dx"}
+{"aspect": "failed to correctly mark items as read", "dimension": "reliability"}
+{"aspect": "fallback bug, not a real removal", "dimension": "reliability"}
+{"aspect": "fallback hides entitlement bug as user setting", "dimension": "reliability"}
+{"aspect": "falls back to ui form submission", "dimension": "agent"}
+{"aspect": "false success reports with no actual commits", "dimension": "reliability"}
+{"aspect": "false-positive safety flagging", "dimension": "agent"}
+{"aspect": "far costlier per gold result", "dimension": "limits"}
+{"aspect": "fast but introduces bugs", "dimension": "reliability"}
+{"aspect": "fast generation of a 3d scene from scratch", "dimension": "agent"}
+{"aspect": "fast output role", "dimension": "agent"}
+{"aspect": "faster boot time", "dimension": "dx"}
+{"aspect": "faster quota burn, feels dumber", "dimension": "limits"}
+{"aspect": "faster than local setup", "dimension": "dx"}
+{"aspect": "fastest-growing share in developer survey", "dimension": "other"}
+{"aspect": "fatigue from overuse", "dimension": "overall"}
+{"aspect": "feels dumber and slower than direct model access", "dimension": "dx"}
+{"aspect": "fell out of use, overtaken by codex", "dimension": "overall"}
+{"aspect": "fewer safety tripwire interruptions", "dimension": "agent"}
+{"aspect": "fewer tokens and better results than claude", "dimension": "efficiency"}
+{"aspect": "first-class citizen experience", "dimension": "dx"}
+{"aspect": "fit by task type", "dimension": "agent"}
+{"aspect": "fit for longer feature work", "dimension": "agent"}
+{"aspect": "fit for openai ecosystem users", "dimension": "dx"}
+{"aspect": "fit for smaller changes and test review", "dimension": "agent"}
+{"aspect": "fixed input bar improving long-session readability", "dimension": "dx"}
+{"aspect": "flexibility to use other models", "dimension": "dx"}
+{"aspect": "flexible data access methods", "dimension": "dx"}
+{"aspect": "flexible host architecture", "dimension": "dx"}
+{"aspect": "flexible task-based usage", "dimension": "agent"}
+{"aspect": "following unwritten instructions", "dimension": "agent"}
+{"aspect": "forced git commit attribution", "dimension": "agent"}
+{"aspect": "forced switch after account suspension", "dimension": "other"}
+{"aspect": "forgetting evidence rules", "dimension": "efficiency"}
+{"aspect": "free access to run the model", "dimension": "limits"}
+{"aspect": "free access with no limits", "dimension": "limits"}
+{"aspect": "free access worked", "dimension": "limits"}
+{"aspect": "free quota for daily research tasks", "dimension": "limits"}
+{"aspect": "free server reliability", "dimension": "reliability"}
+{"aspect": "free tier generosity versus muse code paid tier", "dimension": "limits"}
+{"aspect": "free tier generosity vs captcha friction", "dimension": "limits"}
+{"aspect": "free tier removes need to pay", "dimension": "limits"}
+{"aspect": "free tier still working well", "dimension": "limits"}
+{"aspect": "free tier with no limits", "dimension": "limits"}
+{"aspect": "free versus $200/month cost", "dimension": "limits"}
+{"aspect": "free versus paid alternative", "dimension": "limits"}
+{"aspect": "free without limits", "dimension": "limits"}
+{"aspect": "freeing up time by automating work", "dimension": "agent"}
+{"aspect": "frequent capacity errors", "dimension": "reliability"}
+{"aspect": "frequent quota resets feel generous", "dimension": "limits"}
+{"aspect": "frontend development preference", "dimension": "agent"}
+{"aspect": "frustration driving the switch away", "dimension": "overall"}
+{"aspect": "full delegation workflow speed", "dimension": "agent"}
+{"aspect": "full feature compatibility via proxy", "dimension": "dx"}
+{"aspect": "full model availability", "dimension": "dx"}
+{"aspect": "fullstack coding quality", "dimension": "agent"}
+{"aspect": "fun collaboration with virtual users", "dimension": "overall"}
+{"aspect": "fun, versatile building", "dimension": "overall"}
+{"aspect": "future advantage from using it", "dimension": "overall"}
+{"aspect": "gcloud cli interaction", "dimension": "dx"}
+{"aspect": "generating spoken video content", "dimension": "agent"}
+{"aspect": "generic design style", "dimension": "agent"}
+{"aspect": "generosity of rate limits", "dimension": "limits"}
+{"aspect": "generous allowance bundled into cursor pro", "dimension": "limits"}
+{"aspect": "generous free tier pricing", "dimension": "limits"}
+{"aspect": "generous free usage limits", "dimension": "limits"}
+{"aspect": "generous remaining token limits", "dimension": "limits"}
+{"aspect": "generous usage limits", "dimension": "limits"}
+{"aspect": "gets work done without moralizing", "dimension": "agent"}
+{"aspect": "giving instructions remotely from work", "dimension": "dx"}
+{"aspect": "go plan token value", "dimension": "limits"}
+{"aspect": "good for framing specs and dev", "dimension": "agent"}
+{"aspect": "good harness undermined by underlying model", "dimension": "agent"}
+{"aspect": "good only with cheap models", "dimension": "dx"}
+{"aspect": "got stuck without progress", "dimension": "reliability"}
+{"aspect": "gradually being dropped too", "dimension": "overall"}
+{"aspect": "grep+read approach over rag", "dimension": "agent"}
+{"aspect": "grok 4.6 in grok build beats sol in codex", "dimension": "overall"}
+{"aspect": "gui/ux called subpar versus t3 code", "dimension": "dx"}
+{"aspect": "hallucination and verbosity", "dimension": "reliability"}
+{"aspect": "handing off whole tasks", "dimension": "agent"}
+{"aspect": "handles most tasks within limits", "dimension": "limits"}
+{"aspect": "handles tasks without needing tutorials", "dimension": "dx"}
+{"aspect": "handling coding workload", "dimension": "agent"}
+{"aspect": "handling complex tasks", "dimension": "agent"}
+{"aspect": "handling real features", "dimension": "agent"}
+{"aspect": "handling unity scene data via folder instructions", "dimension": "agent"}
+{"aspect": "handling vague instructions", "dimension": "agent"}
+{"aspect": "handshake failures burn quota", "dimension": "reliability"}
+{"aspect": "hangs with many mcp servers connected", "dimension": "reliability"}
+{"aspect": "hard to switch away from once used", "dimension": "overall"}
+{"aspect": "hard to use effectively", "dimension": "dx"}
+{"aspect": "harness breaks rules on long context", "dimension": "efficiency"}
+{"aspect": "harness constraint strictness and pass rate", "dimension": "agent"}
+{"aspect": "harness constraints and token usage", "dimension": "efficiency"}
+{"aspect": "harness preference for using claude models", "dimension": "dx"}
+{"aspect": "harness quality", "dimension": "overall"}
+{"aspect": "harness quality vs cursor", "dimension": "overall"}
+{"aspect": "harness reliability after switch", "dimension": "reliability"}
+{"aspect": "harness used to run the test", "dimension": "other"}
+{"aspect": "having the feature first", "dimension": "dx"}
+{"aspect": "heavy context and refactoring role", "dimension": "agent"}
+{"aspect": "heavy task architecture/design role", "dimension": "agent"}
+{"aspect": "heavy usage building mcps", "dimension": "dx"}
+{"aspect": "hidden model swapping to cheaper luna", "dimension": "dx"}
+{"aspect": "hierarchical agent organization", "dimension": "agent"}
+{"aspect": "high accuracy but refuses captcha solving", "dimension": "agent"}
+{"aspect": "high api cost against weekly limit", "dimension": "limits"}
+{"aspect": "highest task pass rate", "dimension": "agent"}
+{"aspect": "hitting 5-hour rate limits", "dimension": "limits"}
+{"aspect": "hitting quota caps on chatgpt plus", "dimension": "limits"}
+{"aspect": "honest limits and pricing complaints", "dimension": "limits"}
+{"aspect": "hosting a free model successfully", "dimension": "dx"}
+{"aspect": "hosting an effectively unlimited free tier", "dimension": "limits"}
+{"aspect": "huge token allowance per dollar", "dimension": "limits"}
+{"aspect": "huge usage limits", "dimension": "limits"}
+{"aspect": "hype not worth chasing", "dimension": "overall"}
+{"aspect": "identical icons for effort levels", "dimension": "dx"}
+{"aspect": "ignores instructions, keeps re-analyzing screenshots itself", "dimension": "agent"}
+{"aspect": "image editing quality", "dimension": "agent"}
+{"aspect": "image generation capability", "dimension": "agent"}
+{"aspect": "immature integration", "dimension": "dx"}
+{"aspect": "immediate impression when switching tools", "dimension": "overall"}
+{"aspect": "implementation workflow", "dimension": "agent"}
+{"aspect": "impressive yet frustrating", "dimension": "overall"}
+{"aspect": "improved front-end work recently", "dimension": "agent"}
+{"aspect": "improving harness options", "dimension": "dx"}
+{"aspect": "incorrect model redirect", "dimension": "dx"}
+{"aspect": "increasing usage", "dimension": "other"}
+{"aspect": "indexing and extracting data from another service", "dimension": "dx"}
+{"aspect": "indispensability after hearing the design praise", "dimension": "overall"}
+{"aspect": "inferior compared to sol in pi", "dimension": "overall"}
+{"aspect": "inferior to cursor / stigmatized user base", "dimension": "overall"}
+{"aspect": "information placement accuracy", "dimension": "agent"}
+{"aspect": "instruction following, less hassle", "dimension": "agent"}
+{"aspect": "instructions fade with bloat", "dimension": "efficiency"}
+{"aspect": "insufficient alone, had to pay for both", "dimension": "limits"}
+{"aspect": "insufficient replacement for work", "dimension": "overall"}
+{"aspect": "insufficient token allowance", "dimension": "limits"}
+{"aspect": "integration and connectivity enjoyment", "dimension": "dx"}
+{"aspect": "interaction/ux needs alignment", "dimension": "dx"}
+{"aspect": "interchangeable roles when alternating harnesses", "dimension": "agent"}
+{"aspect": "issue completion rate under the same limits", "dimension": "agent"}
+{"aspect": "issue completion under rate limits", "dimension": "agent"}
+{"aspect": "issue detection thoroughness", "dimension": "agent"}
+{"aspect": "just get it and work", "dimension": "agent"}
+{"aspect": "keep one subscription", "dimension": "limits"}
+{"aspect": "keeps working without hitting limits", "dimension": "limits"}
+{"aspect": "kept as one of three tools for the year", "dimension": "overall"}
+{"aspect": "kept for qa and review work", "dimension": "agent"}
+{"aspect": "kickstarting a multi-agent build", "dimension": "agent"}
+{"aspect": "lacks conversational interaction", "dimension": "dx"}
+{"aspect": "leading market share in developer survey", "dimension": "other"}
+{"aspect": "left it for grok build", "dimension": "overall"}
+{"aspect": "left the max plan", "dimension": "limits"}
+{"aspect": "lighter weight than hermes", "dimension": "dx"}
+{"aspect": "lightweight remote usability via ssh/vps", "dimension": "dx"}
+{"aspect": "lightweight vs laggy prior tool", "dimension": "dx"}
+{"aspect": "limitations preventing more use despite heavy usage", "dimension": "limits"}
+{"aspect": "limits issue resolved", "dimension": "limits"}
+{"aspect": "local agentic coding experience", "dimension": "agent"}
+{"aspect": "local security hassle for key handling", "dimension": "dx"}
+{"aspect": "log investigation and troubleshooting delegation", "dimension": "agent"}
+{"aspect": "logic errors need correction", "dimension": "agent"}
+{"aspect": "long build sessions never finishing", "dimension": "reliability"}
+{"aspect": "long task usability with opus 5", "dimension": "agent"}
+{"aspect": "long wait after asking a question", "dimension": "reliability"}
+{"aspect": "long-horizon depth", "dimension": "agent"}
+{"aspect": "long-horizon reliability", "dimension": "reliability"}
+{"aspect": "long-report output quality", "dimension": "agent"}
+{"aspect": "long-running browser task automation", "dimension": "agent"}
+{"aspect": "long-running task performance", "dimension": "agent"}
+{"aspect": "look and feel, backend and finance tasks", "dimension": "dx"}
+{"aspect": "looping and repeating output on go plan", "dimension": "reliability"}
+{"aspect": "looping on long tasks despite thoroughness", "dimension": "reliability"}
+{"aspect": "looping wrecked my program", "dimension": "reliability"}
+{"aspect": "looping/wasting credits on simple tasks", "dimension": "efficiency"}
+{"aspect": "loses to the claude combo", "dimension": "overall"}
+{"aspect": "losing competitive ground to new releases", "dimension": "overall"}
+{"aspect": "losing session at prompt", "dimension": "reliability"}
+{"aspect": "losing track of projects", "dimension": "efficiency"}
+{"aspect": "loyalty, no need to switch", "dimension": "overall"}
+{"aspect": "maintaining claude.md/agent.md config files", "dimension": "dx"}
+{"aspect": "mandated, not preferred", "dimension": "other"}
+{"aspect": "market dominance", "dimension": "other"}

@@ -1,0 +1,165 @@
+{"aspect": "token rationing via priority queues"}
+{"aspect": "token spend optimization"}
+{"aspect": "token throughput"}
+{"aspect": "token throughput value"}
+{"aspect": "token usage and output quality"}
+{"aspect": "token usage burning through subscription"}
+{"aspect": "token usage value"}
+{"aspect": "token value"}
+{"aspect": "too few credits"}
+{"aspect": "too slow and expensive"}
+{"aspect": "took over all coding work"}
+{"aspect": "took over mouse cursor control"}
+{"aspect": "took over the full coding workload"}
+{"aspect": "tool call efficiency"}
+{"aspect": "tool exploration"}
+{"aspect": "tool-use aggressiveness versus visibility"}
+{"aspect": "tooling completeness vs alternatives"}
+{"aspect": "tools worth keeping for building and reviewing"}
+{"aspect": "top code quality but burns tokens and money"}
+{"aspect": "top reasoning, poor token quota"}
+{"aspect": "top tool despite rate limits and pricing"}
+{"aspect": "transparency showing its work"}
+{"aspect": "trust built from being a full-time user now diversifying"}
+{"aspect": "trust in messy repos"}
+{"aspect": "trust with tool use"}
+{"aspect": "trusted most for repo-wide changes"}
+{"aspect": "trustworthiness of output"}
+{"aspect": "trustworthiness of stated limits"}
+{"aspect": "ui design quality"}
+{"aspect": "ui improvement help"}
+{"aspect": "ui minimalism vs feature clutter"}
+{"aspect": "ui mockups and visual design quality"}
+{"aspect": "ui quality"}
+{"aspect": "ui work role avoids hitting usage limits"}
+{"aspect": "ui/visual design quality"}
+{"aspect": "unattended browser automation"}
+{"aspect": "unattended cloud browser automation vs write access risk"}
+{"aspect": "unconsented auto model switching"}
+{"aspect": "underused paid quota"}
+{"aspect": "unexpected large downloads while tethering"}
+{"aspect": "unexpectedly consuming cursor quota"}
+{"aspect": "unexpectedly high cost for a simple task"}
+{"aspect": "unexplained limit burn rate"}
+{"aspect": "unnecessary permission prompts from incorrect path access"}
+{"aspect": "unpredictable usage metering"}
+{"aspect": "unresolved bug after update"}
+{"aspect": "unresponsive/overloaded"}
+{"aspect": "untrustworthy completion summaries"}
+{"aspect": "unusable during outage"}
+{"aspect": "update stability"}
+{"aspect": "uptime during outage"}
+{"aspect": "usability for beginners"}
+{"aspect": "usability for long agent work"}
+{"aspect": "usability for multi-hour agent work"}
+{"aspect": "usable across harnesses like hermes"}
+{"aspect": "usable without pay-as-you-go billing"}
+{"aspect": "usage allowance"}
+{"aspect": "usage allowance per subscription cost"}
+{"aspect": "usage allowance vs resets"}
+{"aspect": "usage burns too fast"}
+{"aspect": "usage cap ends session"}
+{"aspect": "usage capacity consumption/rate limits"}
+{"aspect": "usage consumption relative to work done"}
+{"aspect": "usage credits run out faster than expected"}
+{"aspect": "usage duration before rationing"}
+{"aspect": "usage efficiency"}
+{"aspect": "usage efficiency per agent"}
+{"aspect": "usage lasts with heavy daily use"}
+{"aspect": "usage limit comfort"}
+{"aspect": "usage limit reductions"}
+{"aspect": "usage limit resets"}
+{"aspect": "usage limits"}
+{"aspect": "usage limits and intelligence"}
+{"aspect": "usage limits and pricing"}
+{"aspect": "usage limits and pricing versus claude"}
+{"aspect": "usage limits and restrictions"}
+{"aspect": "usage limits consumed quickly"}
+{"aspect": "usage limits contrasted with gpt/codex flexibility"}
+{"aspect": "usage limits exhausted quickly"}
+{"aspect": "usage limits experience"}
+{"aspect": "usage limits feel unlimited"}
+{"aspect": "usage limits generosity"}
+{"aspect": "usage limits killing sessions mid-refactor"}
+{"aspect": "usage limits not hit"}
+{"aspect": "usage limits overstated"}
+{"aspect": "usage limits reliability"}
+{"aspect": "usage limits running out"}
+{"aspect": "usage limits vs marketing claims"}
+{"aspect": "usage quota running out"}
+{"aspect": "usage quota vs prior fast tier"}
+{"aspect": "usage reset causing an outage"}
+{"aspect": "usage share growing over claude code"}
+{"aspect": "usage transparency"}
+{"aspect": "usage-limit drama"}
+{"aspect": "usage/rate limits versus claude"}
+{"aspect": "used for backend"}
+{"aspect": "used to analyze agent behavior on long tasks"}
+{"aspect": "used to build the project"}
+{"aspect": "used to fix another tool"}
+{"aspect": "usefulness for work"}
+{"aspect": "using it as a personal second-brain idea"}
+{"aspect": "using it as the planner"}
+{"aspect": "ux"}
+{"aspect": "ux for non-technical users"}
+{"aspect": "ux friction (notifications, manual commands)"}
+{"aspect": "ux relative to codex"}
+{"aspect": "ux versus cursor"}
+{"aspect": "value / bundled cost"}
+{"aspect": "value and efficiency for everyday swe work"}
+{"aspect": "value at $100 tier versus grok's $30 tier"}
+{"aspect": "value balance of quota and intelligence"}
+{"aspect": "value beyond token savings"}
+{"aspect": "value combo with glm and muse"}
+{"aspect": "value for $200/month plan"}
+{"aspect": "value for everyday swe work"}
+{"aspect": "value for experienced developers"}
+{"aspect": "value for high-quota heavy model users"}
+{"aspect": "value for money"}
+{"aspect": "value for tokens on subscription"}
+{"aspect": "value for unlimited usage"}
+{"aspect": "value per dollar versus performance"}
+{"aspect": "value vs paid ide switch"}
+{"aspect": "vendor lock-in"}
+{"aspect": "verbose formulaic writing style"}
+{"aspect": "verbosity"}
+{"aspect": "verbosity and cost"}
+{"aspect": "verbosity style"}
+{"aspect": "versatility beyond coding tasks"}
+{"aspect": "very low monthly cost for high token volume"}
+{"aspect": "very slow performance"}
+{"aspect": "viability for building websites"}
+{"aspect": "video editing detail quality without review"}
+{"aspect": "video generation and detail adjustment"}
+{"aspect": "video-based bug triage workflow"}
+{"aspect": "video-related output quality"}
+{"aspect": "video/screenshot generation capability"}
+{"aspect": "visual design catching up to opus"}
+{"aspect": "voice input"}
+{"aspect": "wanting all harnesses in one app"}
+{"aspect": "was awesome before hitting cursor cap"}
+{"aspect": "web search results complement claude code for quick research"}
+{"aspect": "web search results complement codex for quick research"}
+{"aspect": "weekly limit 'increase' is really a cut"}
+{"aspect": "weekly limit cut framed as an increase"}
+{"aspect": "weekly limit hit fast"}
+{"aspect": "weekly limits burning fast"}
+{"aspect": "weekly rate limits"}
+{"aspect": "weekly usage limit reduction from sep 14"}
+{"aspect": "weekly usage limits value"}
+{"aspect": "weekly usage limits vanish quickly"}
+{"aspect": "well-scoped tasks"}
+{"aspect": "why they stay on a dual-tool workflow"}
+{"aspect": "willingness to pay for max plan"}
+{"aspect": "windows app update distribution"}
+{"aspect": "windows desktop local-command execution bug"}
+{"aspect": "work efficiency"}
+{"aspect": "workaround extends usage under 5h limits"}
+{"aspect": "worker reports success with no commit"}
+{"aspect": "worker reports success with zero actual commits"}
+{"aspect": "workflow migration value"}
+{"aspect": "workflow smoothness"}
+{"aspect": "worth switching to after a year on claude code"}
+{"aspect": "would rather be using this"}
+{"aspect": "writing complete app in unfamiliar language"}
+{"aspect": "x20 plan feels unlimited"}

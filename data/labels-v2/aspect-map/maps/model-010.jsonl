@@ -1,0 +1,250 @@
+{"aspect": "quality vs glm-5.3", "dimension": "intelligence"}
+{"aspect": "quality vs opus 5", "dimension": "intelligence"}
+{"aspect": "quality vs opus expectations", "dimension": "intelligence"}
+{"aspect": "quality vs previous version", "dimension": "intelligence"}
+{"aspect": "quality vs prior opus versions", "dimension": "intelligence"}
+{"aspect": "quality vs prior version", "dimension": "intelligence"}
+{"aspect": "quality vs sol", "dimension": "intelligence"}
+{"aspect": "quality vs token burn", "dimension": "price"}
+{"aspect": "quality vs untracked models", "dimension": "intelligence"}
+{"aspect": "quality vs usage/subscription limits", "dimension": "price"}
+{"aspect": "quality, speed, and cost", "dimension": "price"}
+{"aspect": "quality, speed, and cost combination", "dimension": "price"}
+{"aspect": "quantization speed vs reasoning quality", "dimension": "intelligence"}
+{"aspect": "quantum-circuit benchmark pass rate", "dimension": "intelligence"}
+{"aspect": "quick edit turnaround", "dimension": "speed"}
+{"aspect": "quick projects and brainstorming", "dimension": "other"}
+{"aspect": "quick to act without over-thinking", "dimension": "speed"}
+{"aspect": "quickly implemented a hard task despite back-and-forth", "dimension": "speed"}
+{"aspect": "quiet upgrade beating the previous version", "dimension": "intelligence"}
+{"aspect": "quota burn at extra high effort", "dimension": "price"}
+{"aspect": "quota burned quickly", "dimension": "price"}
+{"aspect": "quota burns quickly", "dimension": "price"}
+{"aspect": "quota consumption", "dimension": "price"}
+{"aspect": "quota consumption speed", "dimension": "price"}
+{"aspect": "quota consumption speed vs instruction following", "dimension": "price"}
+{"aspect": "quota headroom under heavy use", "dimension": "price"}
+{"aspect": "quota lasts about 5 days", "dimension": "price"}
+{"aspect": "raised the bar for small models", "dimension": "intelligence"}
+{"aspect": "raising the bar", "dimension": "intelligence"}
+{"aspect": "rambles at length and runs up costs", "dimension": "personality"}
+{"aspect": "ranked ahead of grok in benchmarks", "dimension": "intelligence"}
+{"aspect": "ranked below sol and fable", "dimension": "intelligence"}
+{"aspect": "ranking accuracy", "dimension": "intelligence"}
+{"aspect": "ranking against other models", "dimension": "intelligence"}
+{"aspect": "rapid capability gains release over release", "dimension": "intelligence"}
+{"aspect": "rapid complex build from few prompts", "dimension": "steerability"}
+{"aspect": "rapid improvement cadence", "dimension": "intelligence"}
+{"aspect": "rapid usage limit consumption", "dimension": "price"}
+{"aspect": "rarely hitting the token/rate limit", "dimension": "price"}
+{"aspect": "rate limit burned by single prompt", "dimension": "price"}
+{"aspect": "rate limit consumption and output quality", "dimension": "price"}
+{"aspect": "rate limit consumption for trivial message", "dimension": "price"}
+{"aspect": "rate limit efficiency", "dimension": "price"}
+{"aspect": "rate limit exhaustion", "dimension": "price"}
+{"aspect": "rate limit headroom", "dimension": "price"}
+{"aspect": "rate limited when trying to use", "dimension": "price"}
+{"aspect": "rate limits", "dimension": "price"}
+{"aspect": "rate limits / quota burn", "dimension": "price"}
+{"aspect": "rate limits hit fast", "dimension": "price"}
+{"aspect": "rate limits too small despite prepaid tokens", "dimension": "price"}
+{"aspect": "rate limits versus fable 5", "dimension": "price"}
+{"aspect": "raw intelligence", "dimension": "intelligence"}
+{"aspect": "raw intelligence and capability", "dimension": "intelligence"}
+{"aspect": "raw intelligence versus scale", "dimension": "intelligence"}
+{"aspect": "reached global first tier", "dimension": "intelligence"}
+{"aspect": "reaching glm-5.3/kimi k3 class", "dimension": "intelligence"}
+{"aspect": "reaching kimi k3-level capability", "dimension": "intelligence"}
+{"aspect": "reaction to long-context benchmark win", "dimension": "intelligence"}
+{"aspect": "real quality exceeds benchmark scores", "dimension": "intelligence"}
+{"aspect": "real token cost despite same list price", "dimension": "price"}
+{"aspect": "real work quality despite quirks", "dimension": "intelligence"}
+{"aspect": "real-time data and agentic coding per release notes", "dimension": "other"}
+{"aspect": "real-time x info access", "dimension": "other"}
+{"aspect": "real-time x search capability", "dimension": "other"}
+{"aspect": "real-world capability", "dimension": "intelligence"}
+{"aspect": "real-world coding usability vs benchmarks", "dimension": "intelligence"}
+{"aspect": "real-world output quality on opencode", "dimension": "intelligence"}
+{"aspect": "real-world performance", "dimension": "intelligence"}
+{"aspect": "real-world performance vs benchmark claims", "dimension": "intelligence"}
+{"aspect": "real-world performance vs benchmark hype", "dimension": "intelligence"}
+{"aspect": "real-world results value", "dimension": "intelligence"}
+{"aspect": "real-world usability despite benchmark score", "dimension": "intelligence"}
+{"aspect": "real-world use vs benchmark performance", "dimension": "intelligence"}
+{"aspect": "realism, textures, physics quality", "dimension": "intelligence"}
+{"aspect": "rear-view rendering quality", "dimension": "intelligence"}
+{"aspect": "reason for switching away from grok", "dimension": "overall"}
+{"aspect": "reason for switching providers", "dimension": "overall"}
+{"aspect": "reasoning", "dimension": "intelligence"}
+{"aspect": "reasoning and coding at low cost", "dimension": "price"}
+{"aspect": "reasoning and computer-use gains", "dimension": "intelligence"}
+{"aspect": "reasoning approach performance", "dimension": "intelligence"}
+{"aspect": "reasoning benchmark performance", "dimension": "intelligence"}
+{"aspect": "reasoning benchmark ranking", "dimension": "intelligence"}
+{"aspect": "reasoning capability at high effort", "dimension": "intelligence"}
+{"aspect": "reasoning depth", "dimension": "intelligence"}
+{"aspect": "reasoning for planning", "dimension": "intelligence"}
+{"aspect": "reasoning legibility", "dimension": "intelligence"}
+{"aspect": "reasoning model results", "dimension": "intelligence"}
+{"aspect": "reasoning on a complex nuanced prompt", "dimension": "intelligence"}
+{"aspect": "reasoning on complex nuanced topics", "dimension": "intelligence"}
+{"aspect": "reasoning quality at matched effort levels", "dimension": "intelligence"}
+{"aspect": "reasoning quality at matched high effort", "dimension": "intelligence"}
+{"aspect": "reasoning quality degraded", "dimension": "intelligence"}
+{"aspect": "reasoning quality regression vs opus 4", "dimension": "intelligence"}
+{"aspect": "reasoning step efficiency versus score", "dimension": "intelligence"}
+{"aspect": "reasoning strength", "dimension": "intelligence"}
+{"aspect": "reasoning/intelligence quality", "dimension": "intelligence"}
+{"aspect": "reasoning/interpolation error undermines daily use", "dimension": "intelligence"}
+{"aspect": "reasoning/thinking quality", "dimension": "intelligence"}
+{"aspect": "recall accuracy on real-world event", "dimension": "intelligence"}
+{"aspect": "recent coding quality decline", "dimension": "intelligence"}
+{"aspect": "recent quality decline", "dimension": "intelligence"}
+{"aspect": "recognizing niche objects", "dimension": "intelligence"}
+{"aspect": "recommended", "dimension": "overall"}
+{"aspect": "recommended alternative", "dimension": "overall"}
+{"aspect": "recommended choice", "dimension": "overall"}
+{"aspect": "recommended for chinese language tasks", "dimension": "intelligence"}
+{"aspect": "recommended for scaled production use", "dimension": "intelligence"}
+{"aspect": "recommended low-cost option", "dimension": "price"}
+{"aspect": "recommended model within opencode go", "dimension": "overall"}
+{"aspect": "recommended over claude", "dimension": "overall"}
+{"aspect": "recommended overall", "dimension": "overall"}
+{"aspect": "recommended pick, better usage", "dimension": "price"}
+{"aspect": "recommended stack component", "dimension": "other"}
+{"aspect": "reconstruction output aesthetics", "dimension": "intelligence"}
+{"aspect": "recurring error blocking use", "dimension": "intelligence"}
+{"aspect": "recurring workhorse tasks", "dimension": "other"}
+{"aspect": "reduced hype tone versus prior grok models", "dimension": "personality"}
+{"aspect": "reduced need for explicit instructions", "dimension": "steerability"}
+{"aspect": "reduced role due to cost/usage", "dimension": "price"}
+{"aspect": "reduced to chat-only use", "dimension": "other"}
+{"aspect": "reduced verbosity/slop", "dimension": "personality"}
+{"aspect": "reducing quota usage by switching backend model", "dimension": "price"}
+{"aspect": "refactor heavy lifting", "dimension": "intelligence"}
+{"aspect": "refactor speed", "dimension": "speed"}
+{"aspect": "refusal behavior change", "dimension": "personality"}
+{"aspect": "refusal rate", "dimension": "personality"}
+{"aspect": "refusal rate and nagging", "dimension": "personality"}
+{"aspect": "refusal rate on legitimate work", "dimension": "personality"}
+{"aspect": "refusal removal enabling exploitation", "dimension": "personality"}
+{"aspect": "refuses account creation/deletion and scolds", "dimension": "personality"}
+{"aspect": "refuses ai/consciousness topics burning tokens", "dimension": "personality"}
+{"aspect": "refuses simple factual questions", "dimension": "personality"}
+{"aspect": "refuses trivial requests", "dimension": "personality"}
+{"aspect": "refusing to analyze external code", "dimension": "personality"}
+{"aspect": "refusing to entertain the question", "dimension": "personality"}
+{"aspect": "regional availability", "dimension": "other"}
+{"aspect": "regional availability restriction", "dimension": "other"}
+{"aspect": "regression from opus 4.6", "dimension": "intelligence"}
+{"aspect": "regression from opus 4.8", "dimension": "intelligence"}
+{"aspect": "regression on clean code output", "dimension": "intelligence"}
+{"aspect": "regression versus prior version", "dimension": "intelligence"}
+{"aspect": "regression vs fable 5", "dimension": "intelligence"}
+{"aspect": "regression vs glm 5.2", "dimension": "intelligence"}
+{"aspect": "regression vs previous version", "dimension": "intelligence"}
+{"aspect": "regression vs prior version on quality/speed", "dimension": "intelligence"}
+{"aspect": "regressions vs 5.5 on agent suite", "dimension": "intelligence"}
+{"aspect": "release hype", "dimension": "other"}
+{"aspect": "reliability", "dimension": "other"}
+{"aspect": "reliability after terra degraded", "dimension": "other"}
+{"aspect": "reliability and false assurances", "dimension": "other"}
+{"aspect": "reliability and quality", "dimension": "intelligence"}
+{"aspect": "reliability and speed on agentic tasks", "dimension": "speed"}
+{"aspect": "reliability and speed versus data logging", "dimension": "speed"}
+{"aspect": "reliability as fact-check oracle", "dimension": "intelligence"}
+{"aspect": "reliability as workhorse", "dimension": "other"}
+{"aspect": "reliability carrying my work", "dimension": "other"}
+{"aspect": "reliability depends on reading full context", "dimension": "other"}
+{"aspect": "reliability during platform-wide outage", "dimension": "other"}
+{"aspect": "reliability during unresolved issues", "dimension": "other"}
+{"aspect": "reliability for important tasks", "dimension": "other"}
+{"aspect": "reliability for production work", "dimension": "other"}
+{"aspect": "reliability for real work", "dimension": "other"}
+{"aspect": "reliability for this kind of task", "dimension": "other"}
+{"aspect": "reliability improvement over previous version", "dimension": "intelligence"}
+{"aspect": "reliability in long research tasks", "dimension": "other"}
+{"aspect": "reliability in medium thinking mode", "dimension": "other"}
+{"aspect": "reliability no outages", "dimension": "other"}
+{"aspect": "reliability of agent outputs", "dimension": "other"}
+{"aspect": "reliability of harness design (causes errors)", "dimension": "other"}
+{"aspect": "reliability on complex workflows", "dimension": "other"}
+{"aspect": "reliability on normal prs", "dimension": "other"}
+{"aspect": "reliability over claude subscription", "dimension": "other"}
+{"aspect": "reliability regression", "dimension": "other"}
+{"aspect": "reliability versus qwen (no infinite loops)", "dimension": "other"}
+{"aspect": "reliability via opencode", "dimension": "other"}
+{"aspect": "reliability, broke project", "dimension": "other"}
+{"aspect": "reliability, needs correction", "dimension": "other"}
+{"aspect": "reliability/uptime", "dimension": "other"}
+{"aspect": "reliability/usability", "dimension": "other"}
+{"aspect": "reliable coding and memory tracking", "dimension": "intelligence"}
+{"aspect": "reliable daily workhorse", "dimension": "other"}
+{"aspect": "reliable fallback for hard problems", "dimension": "intelligence"}
+{"aspect": "reliable for 3am debugging", "dimension": "intelligence"}
+{"aspect": "reliable for planning and first pass", "dimension": "intelligence"}
+{"aspect": "reliable lifesaver in a pinch", "dimension": "overall"}
+{"aspect": "reliable one-shot completion", "dimension": "steerability"}
+{"aspect": "reliable output with repo instructions", "dimension": "steerability"}
+{"aspect": "reliable requirements drafting and code audit", "dimension": "intelligence"}
+{"aspect": "reluctance to use web search", "dimension": "steerability"}
+{"aspect": "reluctance/performance on administrative work", "dimension": "intelligence"}
+{"aspect": "repeatable gains from a prompt technique", "dimension": "intelligence"}
+{"aspect": "repeated task failure", "dimension": "intelligence"}
+{"aspect": "repetitive work", "dimension": "other"}
+{"aspect": "replaced by glm-5.3-flash", "dimension": "overall"}
+{"aspect": "replaced claude in workflow", "dimension": "overall"}
+{"aspect": "replaced heavier pro-tier models as daily driver", "dimension": "overall"}
+{"aspect": "replaced long-horizon workflow model", "dimension": "overall"}
+{"aspect": "replaced opus", "dimension": "overall"}
+{"aspect": "replaced opus for long-horizon work", "dimension": "overall"}
+{"aspect": "replaced opus in workflow", "dimension": "overall"}
+{"aspect": "replacing hours of manual research with better output", "dimension": "intelligence"}
+{"aspect": "replacing opus across tasks", "dimension": "overall"}
+{"aspect": "replacing opus and fable in large monorepo projects", "dimension": "overall"}
+{"aspect": "replacing traditional cv workflows", "dimension": "other"}
+{"aspect": "repo maintenance fallback usage", "dimension": "other"}
+{"aspect": "reported benchmark win", "dimension": "intelligence"}
+{"aspect": "reported cybersecurity capabilities", "dimension": "intelligence"}
+{"aspect": "reported degradation vs overall upgrade", "dimension": "intelligence"}
+{"aspect": "reported leap forward in new tests", "dimension": "intelligence"}
+{"aspect": "reported performance and pricing vs fable 5.1", "dimension": "price"}
+{"aspect": "reported pricing", "dimension": "price"}
+{"aspect": "reported pricing vs fable 5.1", "dimension": "price"}
+{"aspect": "reported terminal-bench win", "dimension": "intelligence"}
+{"aspect": "reported test ranking", "dimension": "intelligence"}
+{"aspect": "reportedly impressive output for long-running agents", "dimension": "intelligence"}
+{"aspect": "reports work as done when it is not", "dimension": "intelligence"}
+{"aspect": "repository question answering", "dimension": "intelligence"}
+{"aspect": "reproducing benchmark score under real conditions", "dimension": "intelligence"}
+{"aspect": "reputation across tasks except design", "dimension": "overall"}
+{"aspect": "reputation/ranking", "dimension": "overall"}
+{"aspect": "reputed fit for coding", "dimension": "intelligence"}
+{"aspect": "requires more tokens per task despite raw speed", "dimension": "price"}
+{"aspect": "research accuracy", "dimension": "intelligence"}
+{"aspect": "research depth", "dimension": "intelligence"}
+{"aspect": "research quality improving from weak baseline", "dimension": "intelligence"}
+{"aspect": "research reliability", "dimension": "other"}
+{"aspect": "research tasks", "dimension": "other"}
+{"aspect": "research, design and creatives", "dimension": "other"}
+{"aspect": "reserved for difficult tasks", "dimension": "other"}
+{"aspect": "resilience to hostile prompting", "dimension": "steerability"}
+{"aspect": "resistance to prompt influence", "dimension": "steerability"}
+{"aspect": "resisting infra attacks on impossible tasks", "dimension": "other"}
+{"aspect": "resolved issue where others looped", "dimension": "intelligence"}
+{"aspect": "resolving an urgent problem", "dimension": "intelligence"}
+{"aspect": "resourceful and encouraging tone", "dimension": "personality"}
+{"aspect": "respecting lint checks", "dimension": "steerability"}
+{"aspect": "response quality among free options", "dimension": "price"}
+{"aspect": "response quality and availability", "dimension": "intelligence"}
+{"aspect": "response speed for sub-agent skill", "dimension": "speed"}
+{"aspect": "response speed improvement for light tasks", "dimension": "speed"}
+{"aspect": "responsiveness vs literalness", "dimension": "steerability"}
+{"aspect": "restored productivity", "dimension": "overall"}
+{"aspect": "restricted model access", "dimension": "other"}
+{"aspect": "restricted output state and watermarking", "dimension": "other"}
+{"aspect": "result described as epic, though the author is unsure", "dimension": "overall"}
+{"aspect": "result quality vs speed for same tokens", "dimension": "intelligence"}
+{"aspect": "revenue generated building with it", "dimension": "intelligence"}
+{"aspect": "review and plan tasks", "dimension": "other"}
+{"aspect": "review cost vs cheaper alternative", "dimension": "price"}

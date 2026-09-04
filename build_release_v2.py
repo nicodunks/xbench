@@ -120,6 +120,26 @@ def main():
         for row in json.loads(reviewer_excluded_path.read_text()):
             excluded_authors.add(str(row["author_id"]))
 
+    # Aspect dimensions: free-text aspects mapped onto a fixed vocabulary (ASPECT_DIMENSIONS.md).
+    MODEL_DIMS = ["intelligence", "speed", "price", "steerability", "personality", "overall", "other"]
+    HARNESS_DIMS = ["limits", "reliability", "efficiency", "agent", "dx", "overall", "other"]
+    aspect_map = {"model": {}, "harness": {}}
+    for path in sorted(glob.glob(str(V2 / "aspect-map" / "maps" / "*.jsonl"))):
+        kind = "model" if Path(path).name.startswith("model") else "harness"
+        for line in Path(path).read_text().split("\n"):
+            if line:
+                r = json.loads(line); aspect_map[kind][r["aspect"].strip().lower()] = r["dimension"]
+    unmapped = Counter()
+    def dimension(target, aspect):
+        if target in FAMILIES:
+            return None
+        kind = "harness" if target in HARNESSES else "model"
+        key = (aspect or "overall").strip().lower()
+        d = aspect_map[kind].get(key)
+        if d is None:
+            unmapped[kind] += 1; d = "overall" if key in ("overall", "") else "other"
+        return d
+
     start = datetime.fromisoformat(OLD["window"]["start"].replace("Z", "+00:00"))
     end = datetime.fromisoformat(OLD["window"]["end"].replace("Z", "+00:00"))
     width = (end - start) / 7
@@ -136,10 +156,12 @@ def main():
                 "day_index": day_index(raw["created_at"]), "text": raw.get("text", ""), "reason": d.get("reason", "")}
         for s in d.get("sentiment", []):
             sentiment.append({**base, "target": s["target"], "label": s["label"], "firsthand": bool(s.get("firsthand")),
-                              "endorsement": bool(s.get("endorsement")), "task": s.get("task", "none"), "aspect": s.get("aspect", "overall")})
+                              "endorsement": bool(s.get("endorsement")), "task": s.get("task", "none"), "aspect": s.get("aspect", "overall"),
+                              "dimension": dimension(s["target"], s.get("aspect"))})
         for p in d.get("preferences", []):
             preferences.append({**base, "winner": p["winner"], "loser": p["loser"], "firsthand": bool(p.get("firsthand")),
-                                "benchmark": bool(p.get("benchmark")), "task": p.get("task", "none"), "aspect": p.get("aspect", "overall")})
+                                "benchmark": bool(p.get("benchmark")), "task": p.get("task", "none"), "aspect": p.get("aspect", "overall"),
+                                "dimension": dimension(p["winner"], p.get("aspect"))})
         for s in d.get("switches", []):
             if s.get("completed") is True and s["origin"] != s["destination"]:
                 switches.append({**base, "origin": s["origin"], "destination": s["destination"]})
@@ -177,8 +199,20 @@ def main():
             if r["target"] == target and r["firsthand"]:
                 aspects[r["label"]][r["aspect"].strip().lower()] += 1
         tasks = Counter(r["task"] for r in rows if r["firsthand"])
+        # One author / target / dimension / week, firsthand only.
+        dim_groups = defaultdict(list); dim_aspects = defaultdict(lambda: defaultdict(Counter))
+        for r in sentiment:
+            if r["target"] == target and r["firsthand"]:
+                dim_groups[(r["author_id"], r["dimension"])].append(r)
+                dim_aspects[r["dimension"]][r["label"]][r["aspect"].strip().lower()] += 1
+        dim_rows = defaultdict(list)
+        for (author, dim), items in dim_groups.items():
+            dim_rows[dim].append({"label": collapsed(items)})
+        dims = HARNESS_DIMS if target in HARNESSES else MODEL_DIMS
+        dimensions = {d: {**block(dim_rows.get(d, [])),
+                          "top_aspects": {k: dim_aspects[d][k].most_common(4) for k in ("positive", "negative")}} for d in dims}
         return {"model": target, "firsthand": block(fh), "all_expressed": block(rows), "endorsements": block(endorse),
-                "daily_firsthand": history, "tasks": dict(tasks),
+                "daily_firsthand": history, "tasks": dict(tasks), "dimensions": dimensions,
                 "aspects": {k: aspects[k].most_common(15) for k in ("positive", "negative", "mixed")}}
 
     model_sentiment = sorted([sentiment_row(m) for m in MODELS],
@@ -245,6 +279,10 @@ def main():
                       "vs_field": battles(harness_vs_field),
                       "switches": {"n": len(harness_switches), "by_direction": dict(Counter(f'{r["origin"]} -> {r["destination"]}' for r in harness_switches))}},
         "taxonomy": {**OLD["taxonomy"], "harness_ids": HARNESSES, "family_ids": FAMILIES},
+        "dimensions": {"definition": "Free-text aspects mapped onto a fixed vocabulary by a separate LLM pass (ASPECT_DIMENSIONS.md); one author per target per dimension per week, firsthand only.",
+                       "model": [["intelligence", "Intelligence"], ["speed", "Speed"], ["price", "Price"], ["steerability", "Steerability"], ["personality", "Personality"], ["overall", "Overall"], ["other", "Other"]],
+                       "harness": [["limits", "Limits and quota"], ["reliability", "Reliability"], ["efficiency", "Token and context efficiency"], ["agent", "Agent behaviour"], ["dx", "Developer experience"], ["overall", "Overall"], ["other", "Other"]],
+                       "unmapped_aspects": dict(unmapped)},
     }
 
     def public(row, **extra):
@@ -253,13 +291,13 @@ def main():
                 "reason": row.get("reason", ""), **extra}
     evidence = {
         "schema_version": "3.0",
-        "sentiment": [public(r, model=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"])
+        "sentiment": [public(r, model=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"], dimension=r["dimension"])
                       for r in sentiment if r["target"] in MODELS],
         "family_sentiment": [public(r, family=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"])
                              for r in sentiment if r["target"] in FAMILIES],
         "preference": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"], day_index=r["day_index"]) for r in model_events_all],
         "switching": [public(r, origin=r["origin"], destination=r["destination"], day_index=r["day_index"]) for r in model_switches],
-        "harness_sentiment": [public(r, harness=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"])
+        "harness_sentiment": [public(r, harness=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"], dimension=r["dimension"])
                               for r in sentiment if r["target"] in HARNESSES],
         "harness": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"], day_index=r["day_index"]) for r in harness_events + harness_vs_field],
         "harness_switching": [public(r, origin=r["origin"], destination=r["destination"], day_index=r["day_index"]) for r in harness_switches],
@@ -268,6 +306,7 @@ def main():
     (V2 / "public-evidence.json").write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps({
         "excluded_ai_authors": len(excluded_authors),
+        "unmapped_aspects": dict(unmapped),
         "sentiment_lines": len(sentiment),
         "model_firsthand_authors": {m["model"]: m["firsthand"]["n"] for m in model_sentiment},
         "harness_firsthand_authors": {m["model"]: m["firsthand"]["n"] for m in harness_sentiment},

@@ -1,0 +1,250 @@
+{"aspect": "fit for authors work", "dimension": "intelligence"}
+{"aspect": "fit for simple day-to-day tasks", "dimension": "intelligence"}
+{"aspect": "fit for ui design vs long sessions", "dimension": "intelligence"}
+{"aspect": "fit for unsupervised long runs", "dimension": "steerability"}
+{"aspect": "fit for video production", "dimension": "intelligence"}
+{"aspect": "fit without vision needs", "dimension": "other"}
+{"aspect": "fitting 600k context on multi-gpu workstation", "dimension": "other"}
+{"aspect": "fixed a prior recurring issue", "dimension": "intelligence"}
+{"aspect": "fixing a bug the other model couldn't", "dimension": "intelligence"}
+{"aspect": "fixing broken commit message generation", "dimension": "intelligence"}
+{"aspect": "fixing image generation errors", "dimension": "intelligence"}
+{"aspect": "fixing prior issues from output", "dimension": "intelligence"}
+{"aspect": "fixing tui rendering bug", "dimension": "intelligence"}
+{"aspect": "flagging stuck states instead of silently looping", "dimension": "steerability"}
+{"aspect": "fleet default choice", "dimension": "other"}
+{"aspect": "flutter code quality", "dimension": "intelligence"}
+{"aspect": "follow-through vs overengineering tendency", "dimension": "steerability"}
+{"aspect": "following structured pass/fail instructions", "dimension": "steerability"}
+{"aspect": "follows system prompt reliably", "dimension": "steerability"}
+{"aspect": "forced confirmation before consequential actions", "dimension": "steerability"}
+{"aspect": "forgetting recently edited files", "dimension": "intelligence"}
+{"aspect": "formulaic phrasing ('never')", "dimension": "personality"}
+{"aspect": "fraction of the cost", "dimension": "price"}
+{"aspect": "free 1m context and multimodal support", "dimension": "price"}
+{"aspect": "free access", "dimension": "price"}
+{"aspect": "free access but flaky reliability", "dimension": "price"}
+{"aspect": "free access saving quota", "dimension": "price"}
+{"aspect": "free access solving an urgent need", "dimension": "price"}
+{"aspect": "free access vs data privacy", "dimension": "price"}
+{"aspect": "free access with no limits", "dimension": "price"}
+{"aspect": "free availability on opencode", "dimension": "price"}
+{"aspect": "free but weaker conversation flow", "dimension": "price"}
+{"aspect": "free pricing", "dimension": "price"}
+{"aspect": "free public release removing api cost concerns", "dimension": "price"}
+{"aspect": "free tier access", "dimension": "price"}
+{"aspect": "free tier availability for coding", "dimension": "price"}
+{"aspect": "free tier intelligence-to-price ratio", "dimension": "price"}
+{"aspect": "free tier minimum payment requirement", "dimension": "price"}
+{"aspect": "free tier removes need to pay", "dimension": "price"}
+{"aspect": "free tier still working well", "dimension": "price"}
+{"aspect": "free tier value", "dimension": "price"}
+{"aspect": "free tier with no limits", "dimension": "price"}
+{"aspect": "free token usage", "dimension": "price"}
+{"aspect": "free unlimited voice use", "dimension": "price"}
+{"aspect": "free with generous limits", "dimension": "price"}
+{"aspect": "free without limits", "dimension": "price"}
+{"aspect": "free-tier usage value", "dimension": "price"}
+{"aspect": "freezing on long context and cache timeouts", "dimension": "speed"}
+{"aspect": "frequent mistakes after upgrade", "dimension": "intelligence"}
+{"aspect": "frequent mistakes and bugs", "dimension": "intelligence"}
+{"aspect": "friendliness", "dimension": "personality"}
+{"aspect": "friendliness vs sharpness", "dimension": "personality"}
+{"aspect": "frontend accuracy vs detail quality", "dimension": "intelligence"}
+{"aspect": "frontend agent quality", "dimension": "intelligence"}
+{"aspect": "frontend and three.js work", "dimension": "intelligence"}
+{"aspect": "frontend design", "dimension": "intelligence"}
+{"aspect": "frontend design and taste", "dimension": "intelligence"}
+{"aspect": "frontend design capability", "dimension": "intelligence"}
+{"aspect": "frontend design capability shown in comparison", "dimension": "intelligence"}
+{"aspect": "frontend design quality", "dimension": "intelligence"}
+{"aspect": "frontend development quality", "dimension": "intelligence"}
+{"aspect": "frontend development ranking", "dimension": "intelligence"}
+{"aspect": "frontend development, best in class", "dimension": "intelligence"}
+{"aspect": "frontend generation impressive", "dimension": "intelligence"}
+{"aspect": "frontend generation quality", "dimension": "intelligence"}
+{"aspect": "frontend outputs look good", "dimension": "intelligence"}
+{"aspect": "frontend tasks", "dimension": "intelligence"}
+{"aspect": "frontend ui quality", "dimension": "intelligence"}
+{"aspect": "frontend/animated component generation", "dimension": "intelligence"}
+{"aspect": "frontier capability", "dimension": "intelligence"}
+{"aspect": "frontier capability and pricing", "dimension": "intelligence"}
+{"aspect": "frontier capability at low price", "dimension": "price"}
+{"aspect": "frontier capability at premium price", "dimension": "price"}
+{"aspect": "frontier coding and agentic performance", "dimension": "intelligence"}
+{"aspect": "frontier coding strength", "dimension": "intelligence"}
+{"aspect": "frontier intelligence and refusal rate", "dimension": "intelligence"}
+{"aspect": "frontier intelligence, no refusals", "dimension": "intelligence"}
+{"aspect": "frontier-ish performance for cheap", "dimension": "price"}
+{"aspect": "frontiermath tier 4 benchmark gap", "dimension": "intelligence"}
+{"aspect": "frontiermath tier 4 score gap", "dimension": "intelligence"}
+{"aspect": "frontiermath tier 4(v2) benchmark score", "dimension": "intelligence"}
+{"aspect": "frontiermath/deepswe scores", "dimension": "intelligence"}
+{"aspect": "frontiermath/deepswe/gpqa benchmark scores", "dimension": "intelligence"}
+{"aspect": "frontierswe v2 benchmark score", "dimension": "intelligence"}
+{"aspect": "frontierswe v2 score", "dimension": "intelligence"}
+{"aspect": "frustrating on a design task", "dimension": "intelligence"}
+{"aspect": "frustrating to use", "dimension": "personality"}
+{"aspect": "frustrating unpredictable behavior", "dimension": "steerability"}
+{"aspect": "frustration during use", "dimension": "personality"}
+{"aspect": "full app shipped in one pass", "dimension": "intelligence"}
+{"aspect": "fun and generous usage limits", "dimension": "price"}
+{"aspect": "fun rapid prototyping for gamedev", "dimension": "intelligence"}
+{"aspect": "fun to use for game dev", "dimension": "intelligence"}
+{"aspect": "function call emission reliability", "dimension": "steerability"}
+{"aspect": "gains over 3.7 flash", "dimension": "intelligence"}
+{"aspect": "game asset/logic generation", "dimension": "intelligence"}
+{"aspect": "gameplay quality in build test", "dimension": "intelligence"}
+{"aspect": "gameplay smoothness and low cost", "dimension": "intelligence"}
+{"aspect": "garbage loops filling the context", "dimension": "steerability"}
+{"aspect": "gave up mid task", "dimension": "steerability"}
+{"aspect": "gdpval-aa v2 elo score", "dimension": "intelligence"}
+{"aspect": "generated a working game", "dimension": "intelligence"}
+{"aspect": "generating full game from few prompts", "dimension": "intelligence"}
+{"aspect": "generation speed", "dimension": "speed"}
+{"aspect": "generation speed for agentic tasks", "dimension": "speed"}
+{"aspect": "generation speed tokens/sec", "dimension": "speed"}
+{"aspect": "generation speed versus deepseek on same harness", "dimension": "speed"}
+{"aspect": "generative art glitch turned out amusing", "dimension": "intelligence"}
+{"aspect": "generative art quality varied, needed steering", "dimension": "intelligence"}
+{"aspect": "generous access", "dimension": "price"}
+{"aspect": "generous cheaper alternative to deepseek", "dimension": "price"}
+{"aspect": "generous free token allowance for coding", "dimension": "price"}
+{"aspect": "generous rate limits and low price", "dimension": "price"}
+{"aspect": "generous usage limits and strong output", "dimension": "price"}
+{"aspect": "genuine competitiveness vs benchmaxxing claims", "dimension": "intelligence"}
+{"aspect": "gets intent better", "dimension": "steerability"}
+{"aspect": "gets more work done", "dimension": "intelligence"}
+{"aspect": "gets the task finished", "dimension": "steerability"}
+{"aspect": "getting offsec work done", "dimension": "intelligence"}
+{"aspect": "getting stuck / wasted tokens on hard problem", "dimension": "intelligence"}
+{"aspect": "getting stuck/hanging during use", "dimension": "speed"}
+{"aspect": "getting the work actually done", "dimension": "intelligence"}
+{"aspect": "gives more usable quota", "dimension": "price"}
+{"aspect": "going fully free", "dimension": "price"}
+{"aspect": "good at planning", "dimension": "intelligence"}
+{"aspect": "good at repetitive tasks, weak planning", "dimension": "intelligence"}
+{"aspect": "good at thread-style writing", "dimension": "personality"}
+{"aspect": "good enough for latency-sensitive tasks", "dimension": "speed"}
+{"aspect": "good enough with no refusals", "dimension": "personality"}
+{"aspect": "good fit for small first-pass tasks", "dimension": "intelligence"}
+{"aspect": "good for short tasks, not long autonomous work", "dimension": "steerability"}
+{"aspect": "good for targeted coding tasks", "dimension": "intelligence"}
+{"aspect": "good price and tool-calling capability", "dimension": "price"}
+{"aspect": "good value for cost", "dimension": "price"}
+{"aspect": "good value vs data privacy concern", "dimension": "price"}
+{"aspect": "got stuck without progress", "dimension": "intelligence"}
+{"aspect": "gpqa diamond leaderboard ranking", "dimension": "intelligence"}
+{"aspect": "gradually taking over daily tasks", "dimension": "intelligence"}
+{"aspect": "graphics quality vs other models", "dimension": "intelligence"}
+{"aspect": "great but too restrictive", "dimension": "personality"}
+{"aspect": "grounded responses", "dimension": "intelligence"}
+{"aspect": "guardrails limiting usefulness", "dimension": "personality"}
+{"aspect": "guessing sudo password instead of prompting", "dimension": "steerability"}
+{"aspect": "half the cost at matching score", "dimension": "price"}
+{"aspect": "hallucinated apis and bugs", "dimension": "intelligence"}
+{"aspect": "hallucinated data in code audit", "dimension": "intelligence"}
+{"aspect": "hallucinating file trees when planning", "dimension": "intelligence"}
+{"aspect": "hallucination and inaction on tasks", "dimension": "intelligence"}
+{"aspect": "hallucination rate", "dimension": "intelligence"}
+{"aspect": "hallucination rate and usage limits", "dimension": "intelligence"}
+{"aspect": "hallucination rate benchmark", "dimension": "intelligence"}
+{"aspect": "hallucination rate on vision task", "dimension": "intelligence"}
+{"aspect": "hallucination/confabulation", "dimension": "intelligence"}
+{"aspect": "handdrawn animation style", "dimension": "intelligence"}
+{"aspect": "handles cleanup, debugging and light iteration", "dimension": "intelligence"}
+{"aspect": "handles coding tasks fine", "dimension": "intelligence"}
+{"aspect": "handles complex work gemini can't", "dimension": "intelligence"}
+{"aspect": "handles complexity with fewer errors", "dimension": "intelligence"}
+{"aspect": "handles local hardware well", "dimension": "other"}
+{"aspect": "handles most daily work", "dimension": "intelligence"}
+{"aspect": "handles routine work", "dimension": "intelligence"}
+{"aspect": "handling a large 40k line file", "dimension": "intelligence"}
+{"aspect": "handling a large file", "dimension": "intelligence"}
+{"aspect": "handling articles and simple tasks quickly", "dimension": "speed"}
+{"aspect": "handling complex problems", "dimension": "intelligence"}
+{"aspect": "handling complex simulation", "dimension": "intelligence"}
+{"aspect": "handling correction gracefully", "dimension": "steerability"}
+{"aspect": "handling developer workloads in cursor", "dimension": "intelligence"}
+{"aspect": "handling higher difficulty work", "dimension": "intelligence"}
+{"aspect": "handling incomplete or interrupted prompts", "dimension": "steerability"}
+{"aspect": "handling legal document correspondence", "dimension": "intelligence"}
+{"aspect": "handling long code without degrading", "dimension": "intelligence"}
+{"aspect": "handling long complex tasks", "dimension": "intelligence"}
+{"aspect": "handling long inputs up to 100k characters", "dimension": "intelligence"}
+{"aspect": "handling longer files", "dimension": "intelligence"}
+{"aspect": "handling mid-task instruction changes in long sessions", "dimension": "steerability"}
+{"aspect": "handling multi-tool workflow in one pass", "dimension": "intelligence"}
+{"aspect": "handling non-narrow tasks", "dimension": "intelligence"}
+{"aspect": "handling open-ended tasks without supervision", "dimension": "steerability"}
+{"aspect": "handling parallel specialist agents", "dimension": "intelligence"}
+{"aspect": "handling small changes", "dimension": "intelligence"}
+{"aspect": "handling the harder remaining tasks", "dimension": "intelligence"}
+{"aspect": "handoff execution without repeating diagnosis", "dimension": "intelligence"}
+{"aspect": "handshake failure bug", "dimension": "other"}
+{"aspect": "hard reasoning benchmarks", "dimension": "intelligence"}
+{"aspect": "hard task performance", "dimension": "intelligence"}
+{"aspect": "hard task performance and cheap usage", "dimension": "intelligence"}
+{"aspect": "hard to direct despite benchmark scores", "dimension": "steerability"}
+{"aspect": "hard to steer", "dimension": "steerability"}
+{"aspect": "hard to stop using it", "dimension": "overall"}
+{"aspect": "hard to switch away from once used", "dimension": "overall"}
+{"aspect": "hardest benchmark evaluations", "dimension": "intelligence"}
+{"aspect": "hardest remaining tasks", "dimension": "intelligence"}
+{"aspect": "harness alignment progress", "dimension": "other"}
+{"aspect": "harsh character persona amusing", "dimension": "personality"}
+{"aspect": "harvey legal agent benchmark score", "dimension": "intelligence"}
+{"aspect": "head-to-head benchmark wins across categories", "dimension": "intelligence"}
+{"aspect": "head-to-head coding test preference", "dimension": "intelligence"}
+{"aspect": "heavy agentic tasks", "dimension": "intelligence"}
+{"aspect": "heavy daily use", "dimension": "overall"}
+{"aspect": "heavy subscription price vs quality", "dimension": "price"}
+{"aspect": "heavy token consumption", "dimension": "price"}
+{"aspect": "held back over cyber-capability concerns", "dimension": "other"}
+{"aspect": "helped with a task", "dimension": "overall"}
+{"aspect": "helpful troubleshooting answer", "dimension": "intelligence"}
+{"aspect": "helpfulness completing coding task", "dimension": "intelligence"}
+{"aspect": "hidden wrong answers", "dimension": "intelligence"}
+{"aspect": "high cost versus luna", "dimension": "price"}
+{"aspect": "high first-pass success rate", "dimension": "intelligence"}
+{"aspect": "high hallucination rate", "dimension": "intelligence"}
+{"aspect": "high token consumption rate", "dimension": "price"}
+{"aspect": "high usage per single prompt", "dimension": "price"}
+{"aspect": "high value extracted per subscription", "dimension": "price"}
+{"aspect": "high-value output capability", "dimension": "intelligence"}
+{"aspect": "higher cost per task", "dimension": "price"}
+{"aspect": "higher intelligence index score", "dimension": "intelligence"}
+{"aspect": "historical post-training quality skepticism", "dimension": "intelligence"}
+{"aspect": "hitting rate limits repeatedly on the max plan", "dimension": "price"}
+{"aspect": "hitting the 5-hour usage limit", "dimension": "price"}
+{"aspect": "hle-verified and legal agent benchmark scores", "dimension": "intelligence"}
+{"aspect": "holding a quality bar over shipping fast", "dimension": "intelligence"}
+{"aspect": "holds up in long sessions", "dimension": "intelligence"}
+{"aspect": "honesty and directness", "dimension": "personality"}
+{"aspect": "honeypot safety test pass rate", "dimension": "personality"}
+{"aspect": "honeypot/cheat resistance", "dimension": "personality"}
+{"aspect": "hoped efficient combo setup", "dimension": "other"}
+{"aspect": "hoping glm beats kimi k3", "dimension": "overall"}
+{"aspect": "how long usage limits last", "dimension": "price"}
+{"aspect": "human preference rate in a cited paper", "dimension": "intelligence"}
+{"aspect": "humanity's last exam score", "dimension": "intelligence"}
+{"aspect": "humanizing writing and workflow cleanup", "dimension": "personality"}
+{"aspect": "humble, concise tone", "dimension": "personality"}
+{"aspect": "hype not backed by benchmarks", "dimension": "intelligence"}
+{"aspect": "hype versus substance", "dimension": "overall"}
+{"aspect": "hype vs agent benchmark results", "dimension": "intelligence"}
+{"aspect": "hype vs delivered results", "dimension": "overall"}
+{"aspect": "hype vs substance of the launch", "dimension": "overall"}
+{"aspect": "hyped capability improvements", "dimension": "intelligence"}
+{"aspect": "idea exchange and data analysis", "dimension": "intelligence"}
+{"aspect": "ignored instructions and burned budget on costly agents", "dimension": "steerability"}
+{"aspect": "ignored instructions and lied", "dimension": "steerability"}
+{"aspect": "ignoring instructions and session context in prs", "dimension": "steerability"}
+{"aspect": "ignoring instructions and worse suggestions", "dimension": "steerability"}
+{"aspect": "ignoring the request to write unrelated tests", "dimension": "steerability"}
+{"aspect": "image generation", "dimension": "intelligence"}
+{"aspect": "image generation accuracy for beach scene", "dimension": "intelligence"}
+{"aspect": "image generation for presentations", "dimension": "intelligence"}
+{"aspect": "image generation quality", "dimension": "intelligence"}
+{"aspect": "image generation replacing prior tool", "dimension": "intelligence"}
+{"aspect": "image quality", "dimension": "intelligence"}

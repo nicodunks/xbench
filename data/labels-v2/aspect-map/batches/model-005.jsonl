@@ -1,0 +1,250 @@
+{"aspect": "fit for authors work"}
+{"aspect": "fit for simple day-to-day tasks"}
+{"aspect": "fit for ui design vs long sessions"}
+{"aspect": "fit for unsupervised long runs"}
+{"aspect": "fit for video production"}
+{"aspect": "fit without vision needs"}
+{"aspect": "fitting 600k context on multi-gpu workstation"}
+{"aspect": "fixed a prior recurring issue"}
+{"aspect": "fixing a bug the other model couldn't"}
+{"aspect": "fixing broken commit message generation"}
+{"aspect": "fixing image generation errors"}
+{"aspect": "fixing prior issues from output"}
+{"aspect": "fixing tui rendering bug"}
+{"aspect": "flagging stuck states instead of silently looping"}
+{"aspect": "fleet default choice"}
+{"aspect": "flutter code quality"}
+{"aspect": "follow-through vs overengineering tendency"}
+{"aspect": "following structured pass/fail instructions"}
+{"aspect": "follows system prompt reliably"}
+{"aspect": "forced confirmation before consequential actions"}
+{"aspect": "forgetting recently edited files"}
+{"aspect": "formulaic phrasing ('never')"}
+{"aspect": "fraction of the cost"}
+{"aspect": "free 1m context and multimodal support"}
+{"aspect": "free access"}
+{"aspect": "free access but flaky reliability"}
+{"aspect": "free access saving quota"}
+{"aspect": "free access solving an urgent need"}
+{"aspect": "free access vs data privacy"}
+{"aspect": "free access with no limits"}
+{"aspect": "free availability on opencode"}
+{"aspect": "free but weaker conversation flow"}
+{"aspect": "free pricing"}
+{"aspect": "free public release removing api cost concerns"}
+{"aspect": "free tier access"}
+{"aspect": "free tier availability for coding"}
+{"aspect": "free tier intelligence-to-price ratio"}
+{"aspect": "free tier minimum payment requirement"}
+{"aspect": "free tier removes need to pay"}
+{"aspect": "free tier still working well"}
+{"aspect": "free tier value"}
+{"aspect": "free tier with no limits"}
+{"aspect": "free token usage"}
+{"aspect": "free unlimited voice use"}
+{"aspect": "free with generous limits"}
+{"aspect": "free without limits"}
+{"aspect": "free-tier usage value"}
+{"aspect": "freezing on long context and cache timeouts"}
+{"aspect": "frequent mistakes after upgrade"}
+{"aspect": "frequent mistakes and bugs"}
+{"aspect": "friendliness"}
+{"aspect": "friendliness vs sharpness"}
+{"aspect": "frontend accuracy vs detail quality"}
+{"aspect": "frontend agent quality"}
+{"aspect": "frontend and three.js work"}
+{"aspect": "frontend design"}
+{"aspect": "frontend design and taste"}
+{"aspect": "frontend design capability"}
+{"aspect": "frontend design capability shown in comparison"}
+{"aspect": "frontend design quality"}
+{"aspect": "frontend development quality"}
+{"aspect": "frontend development ranking"}
+{"aspect": "frontend development, best in class"}
+{"aspect": "frontend generation impressive"}
+{"aspect": "frontend generation quality"}
+{"aspect": "frontend outputs look good"}
+{"aspect": "frontend tasks"}
+{"aspect": "frontend ui quality"}
+{"aspect": "frontend/animated component generation"}
+{"aspect": "frontier capability"}
+{"aspect": "frontier capability and pricing"}
+{"aspect": "frontier capability at low price"}
+{"aspect": "frontier capability at premium price"}
+{"aspect": "frontier coding and agentic performance"}
+{"aspect": "frontier coding strength"}
+{"aspect": "frontier intelligence and refusal rate"}
+{"aspect": "frontier intelligence, no refusals"}
+{"aspect": "frontier-ish performance for cheap"}
+{"aspect": "frontiermath tier 4 benchmark gap"}
+{"aspect": "frontiermath tier 4 score gap"}
+{"aspect": "frontiermath tier 4(v2) benchmark score"}
+{"aspect": "frontiermath/deepswe scores"}
+{"aspect": "frontiermath/deepswe/gpqa benchmark scores"}
+{"aspect": "frontierswe v2 benchmark score"}
+{"aspect": "frontierswe v2 score"}
+{"aspect": "frustrating on a design task"}
+{"aspect": "frustrating to use"}
+{"aspect": "frustrating unpredictable behavior"}
+{"aspect": "frustration during use"}
+{"aspect": "full app shipped in one pass"}
+{"aspect": "fun and generous usage limits"}
+{"aspect": "fun rapid prototyping for gamedev"}
+{"aspect": "fun to use for game dev"}
+{"aspect": "function call emission reliability"}
+{"aspect": "gains over 3.7 flash"}
+{"aspect": "game asset/logic generation"}
+{"aspect": "gameplay quality in build test"}
+{"aspect": "gameplay smoothness and low cost"}
+{"aspect": "garbage loops filling the context"}
+{"aspect": "gave up mid task"}
+{"aspect": "gdpval-aa v2 elo score"}
+{"aspect": "generated a working game"}
+{"aspect": "generating full game from few prompts"}
+{"aspect": "generation speed"}
+{"aspect": "generation speed for agentic tasks"}
+{"aspect": "generation speed tokens/sec"}
+{"aspect": "generation speed versus deepseek on same harness"}
+{"aspect": "generative art glitch turned out amusing"}
+{"aspect": "generative art quality varied, needed steering"}
+{"aspect": "generous access"}
+{"aspect": "generous cheaper alternative to deepseek"}
+{"aspect": "generous free token allowance for coding"}
+{"aspect": "generous rate limits and low price"}
+{"aspect": "generous usage limits and strong output"}
+{"aspect": "genuine competitiveness vs benchmaxxing claims"}
+{"aspect": "gets intent better"}
+{"aspect": "gets more work done"}
+{"aspect": "gets the task finished"}
+{"aspect": "getting offsec work done"}
+{"aspect": "getting stuck / wasted tokens on hard problem"}
+{"aspect": "getting stuck/hanging during use"}
+{"aspect": "getting the work actually done"}
+{"aspect": "gives more usable quota"}
+{"aspect": "going fully free"}
+{"aspect": "good at planning"}
+{"aspect": "good at repetitive tasks, weak planning"}
+{"aspect": "good at thread-style writing"}
+{"aspect": "good enough for latency-sensitive tasks"}
+{"aspect": "good enough with no refusals"}
+{"aspect": "good fit for small first-pass tasks"}
+{"aspect": "good for short tasks, not long autonomous work"}
+{"aspect": "good for targeted coding tasks"}
+{"aspect": "good price and tool-calling capability"}
+{"aspect": "good value for cost"}
+{"aspect": "good value vs data privacy concern"}
+{"aspect": "got stuck without progress"}
+{"aspect": "gpqa diamond leaderboard ranking"}
+{"aspect": "gradually taking over daily tasks"}
+{"aspect": "graphics quality vs other models"}
+{"aspect": "great but too restrictive"}
+{"aspect": "grounded responses"}
+{"aspect": "guardrails limiting usefulness"}
+{"aspect": "guessing sudo password instead of prompting"}
+{"aspect": "half the cost at matching score"}
+{"aspect": "hallucinated apis and bugs"}
+{"aspect": "hallucinated data in code audit"}
+{"aspect": "hallucinating file trees when planning"}
+{"aspect": "hallucination and inaction on tasks"}
+{"aspect": "hallucination rate"}
+{"aspect": "hallucination rate and usage limits"}
+{"aspect": "hallucination rate benchmark"}
+{"aspect": "hallucination rate on vision task"}
+{"aspect": "hallucination/confabulation"}
+{"aspect": "handdrawn animation style"}
+{"aspect": "handles cleanup, debugging and light iteration"}
+{"aspect": "handles coding tasks fine"}
+{"aspect": "handles complex work gemini can't"}
+{"aspect": "handles complexity with fewer errors"}
+{"aspect": "handles local hardware well"}
+{"aspect": "handles most daily work"}
+{"aspect": "handles routine work"}
+{"aspect": "handling a large 40k line file"}
+{"aspect": "handling a large file"}
+{"aspect": "handling articles and simple tasks quickly"}
+{"aspect": "handling complex problems"}
+{"aspect": "handling complex simulation"}
+{"aspect": "handling correction gracefully"}
+{"aspect": "handling developer workloads in cursor"}
+{"aspect": "handling higher difficulty work"}
+{"aspect": "handling incomplete or interrupted prompts"}
+{"aspect": "handling legal document correspondence"}
+{"aspect": "handling long code without degrading"}
+{"aspect": "handling long complex tasks"}
+{"aspect": "handling long inputs up to 100k characters"}
+{"aspect": "handling longer files"}
+{"aspect": "handling mid-task instruction changes in long sessions"}
+{"aspect": "handling multi-tool workflow in one pass"}
+{"aspect": "handling non-narrow tasks"}
+{"aspect": "handling open-ended tasks without supervision"}
+{"aspect": "handling parallel specialist agents"}
+{"aspect": "handling small changes"}
+{"aspect": "handling the harder remaining tasks"}
+{"aspect": "handoff execution without repeating diagnosis"}
+{"aspect": "handshake failure bug"}
+{"aspect": "hard reasoning benchmarks"}
+{"aspect": "hard task performance"}
+{"aspect": "hard task performance and cheap usage"}
+{"aspect": "hard to direct despite benchmark scores"}
+{"aspect": "hard to steer"}
+{"aspect": "hard to stop using it"}
+{"aspect": "hard to switch away from once used"}
+{"aspect": "hardest benchmark evaluations"}
+{"aspect": "hardest remaining tasks"}
+{"aspect": "harness alignment progress"}
+{"aspect": "harsh character persona amusing"}
+{"aspect": "harvey legal agent benchmark score"}
+{"aspect": "head-to-head benchmark wins across categories"}
+{"aspect": "head-to-head coding test preference"}
+{"aspect": "heavy agentic tasks"}
+{"aspect": "heavy daily use"}
+{"aspect": "heavy subscription price vs quality"}
+{"aspect": "heavy token consumption"}
+{"aspect": "held back over cyber-capability concerns"}
+{"aspect": "helped with a task"}
+{"aspect": "helpful troubleshooting answer"}
+{"aspect": "helpfulness completing coding task"}
+{"aspect": "hidden wrong answers"}
+{"aspect": "high cost versus luna"}
+{"aspect": "high first-pass success rate"}
+{"aspect": "high hallucination rate"}
+{"aspect": "high token consumption rate"}
+{"aspect": "high usage per single prompt"}
+{"aspect": "high value extracted per subscription"}
+{"aspect": "high-value output capability"}
+{"aspect": "higher cost per task"}
+{"aspect": "higher intelligence index score"}
+{"aspect": "historical post-training quality skepticism"}
+{"aspect": "hitting rate limits repeatedly on the max plan"}
+{"aspect": "hitting the 5-hour usage limit"}
+{"aspect": "hle-verified and legal agent benchmark scores"}
+{"aspect": "holding a quality bar over shipping fast"}
+{"aspect": "holds up in long sessions"}
+{"aspect": "honesty and directness"}
+{"aspect": "honeypot safety test pass rate"}
+{"aspect": "honeypot/cheat resistance"}
+{"aspect": "hoped efficient combo setup"}
+{"aspect": "hoping glm beats kimi k3"}
+{"aspect": "how long usage limits last"}
+{"aspect": "human preference rate in a cited paper"}
+{"aspect": "humanity's last exam score"}
+{"aspect": "humanizing writing and workflow cleanup"}
+{"aspect": "humble, concise tone"}
+{"aspect": "hype not backed by benchmarks"}
+{"aspect": "hype versus substance"}
+{"aspect": "hype vs agent benchmark results"}
+{"aspect": "hype vs delivered results"}
+{"aspect": "hype vs substance of the launch"}
+{"aspect": "hyped capability improvements"}
+{"aspect": "idea exchange and data analysis"}
+{"aspect": "ignored instructions and burned budget on costly agents"}
+{"aspect": "ignored instructions and lied"}
+{"aspect": "ignoring instructions and session context in prs"}
+{"aspect": "ignoring instructions and worse suggestions"}
+{"aspect": "ignoring the request to write unrelated tests"}
+{"aspect": "image generation"}
+{"aspect": "image generation accuracy for beach scene"}
+{"aspect": "image generation for presentations"}
+{"aspect": "image generation quality"}
+{"aspect": "image generation replacing prior tool"}
+{"aspect": "image quality"}

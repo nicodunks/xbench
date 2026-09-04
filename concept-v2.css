@@ -31,5 +31,12 @@
 /* sankey */
 .sankey .s-node{fill:var(--blue)}.sankey .s-node.right{fill:url(#stripe-s)}.sankey .s-ribbon{fill:var(--signal-blue);opacity:.28;stroke:none;cursor:pointer;transition:opacity .15s}.sankey .s-ribbon:hover,.sankey .s-ribbon.on{opacity:.85}.sankey .s-label{fill:var(--blue);font:12px XMono,"Andale Mono",monospace}.sankey .s-count{fill:var(--b48);font:10px XMono,"Andale Mono",monospace}.sankey .s-tip{fill:var(--blue);font:11px XMono,"Andale Mono",monospace;pointer-events:none}
 /* drawers open by default */
-.sentiment-row{cursor:default}.sentiment-row .sentiment-name{cursor:pointer}.sentiment-row.open{background:transparent}.sentiment-row .drawer{display:block}.sentiment-row.closed .drawer{display:none}.sentiment-name strong .star{color:var(--b48)}
+.sentiment-row{cursor:pointer}.sentiment-row.open{background:var(--b07)}.sentiment-row .drawer{display:none}.sentiment-row.open .drawer{display:block;cursor:default}.sentiment-name strong .star{color:var(--b48)}
 .drawer .evidence-scroll .counted-tweet{flex-basis:300px;min-height:150px}
+
+/* inline dimension summary under each name */
+.sentiment-name .dims{display:block;margin-top:4px;color:var(--b48);font-size:9px;line-height:1.5}.sentiment-name .dims b{font-weight:400;color:var(--b70)}.sentiment-name .dims i{font-style:normal;color:var(--signal-blue)}.sentiment-name .dims u{text-decoration:none;color:rgba(255,150,150,.85)}
+/* dimension scorecard inside the drawer */
+.scorecard{display:grid;grid-template-columns:repeat(2,1fr);gap:4px 28px;margin-bottom:6px}.score-row{display:grid;grid-template-columns:150px 1fr 44px 40px;gap:10px;align-items:center;padding:5px 0;border-bottom:1px dotted var(--b15);font-size:10px}.score-row span{color:var(--b70)}.score-row .stack{height:12px}.score-row b{font-weight:400;text-align:right}.score-row b.positive{color:var(--signal-blue)}.score-row b.negative{color:rgba(255,150,150,.9)}.score-row b.neutral{color:var(--b48)}.score-row small{color:var(--b48);text-align:right}.score-row.thin{opacity:.45}
+/* aspect heatmap */
+.heat{width:max-content;min-width:100%;border-collapse:separate;border-spacing:3px}.heat th{font-weight:400}.heat thead th{height:auto;padding:0 6px 10px;color:var(--b70);font-size:11px;line-height:1.25;text-align:center;vertical-align:bottom;width:118px}.heat thead th:first-child,.heat tbody th{position:sticky;left:0;z-index:2;width:170px;background:var(--ink);text-align:left}.heat tbody th .matrix-row{font-size:11px}.heat td{width:118px;height:52px}.heat .matrix-cell.thin{opacity:.42}.heat .matrix-cell b{font-size:13px}.heat .matrix-cell small{font-size:8px}

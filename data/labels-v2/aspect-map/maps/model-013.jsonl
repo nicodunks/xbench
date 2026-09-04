@@ -1,0 +1,250 @@
+{"aspect": "tool calling and multimodality", "dimension": "intelligence"}
+{"aspect": "tool use as the trading proposer", "dimension": "intelligence"}
+{"aspect": "tool use in a linux environment", "dimension": "intelligence"}
+{"aspect": "tool use without hand holding", "dimension": "steerability"}
+{"aspect": "tool-like predictability", "dimension": "steerability"}
+{"aspect": "top coding benchmark ranking", "dimension": "intelligence"}
+{"aspect": "top deepswe score at lower cost", "dimension": "price"}
+{"aspect": "top of the minebench leaderboard", "dimension": "intelligence"}
+{"aspect": "top open-weight benchmark score", "dimension": "intelligence"}
+{"aspect": "top performance", "dimension": "intelligence"}
+{"aspect": "top pick among free models", "dimension": "price"}
+{"aspect": "top pick for terminal tool calls", "dimension": "intelligence"}
+{"aspect": "top-end capability but insane pricing", "dimension": "price"}
+{"aspect": "top-tier but overkill for most users", "dimension": "intelligence"}
+{"aspect": "top-tier capability", "dimension": "intelligence"}
+{"aspect": "topping a leaderboard", "dimension": "intelligence"}
+{"aspect": "tracking relations across many files", "dimension": "intelligence"}
+{"aspect": "trailing claude despite frequent releases", "dimension": "intelligence"}
+{"aspect": "trails grok tonight", "dimension": "intelligence"}
+{"aspect": "training data advantage from claude code", "dimension": "intelligence"}
+{"aspect": "trains on user data", "dimension": "other"}
+{"aspect": "transformative capability", "dimension": "intelligence"}
+{"aspect": "translation accuracy", "dimension": "intelligence"}
+{"aspect": "translation completeness", "dimension": "intelligence"}
+{"aspect": "translation stability", "dimension": "intelligence"}
+{"aspect": "trivial vs novel task handling", "dimension": "intelligence"}
+{"aspect": "trust after pricing and limits issues", "dimension": "price"}
+{"aspect": "trust on critical tasks and usage burn", "dimension": "price"}
+{"aspect": "turns and cost efficiency", "dimension": "price"}
+{"aspect": "ui design quality", "dimension": "intelligence"}
+{"aspect": "ui design tournament result", "dimension": "intelligence"}
+{"aspect": "ui generation preferred less than solaris", "dimension": "intelligence"}
+{"aspect": "ui generation quality", "dimension": "intelligence"}
+{"aspect": "ui improvement quality", "dimension": "intelligence"}
+{"aspect": "ui migration output quality", "dimension": "intelligence"}
+{"aspect": "ui mockups and visual design quality", "dimension": "intelligence"}
+{"aspect": "ui quality, speed, design sense", "dimension": "intelligence"}
+{"aspect": "ui/visual design quality", "dimension": "intelligence"}
+{"aspect": "unaffected by outage", "dimension": "other"}
+{"aspect": "unaffected by service issues during outage", "dimension": "other"}
+{"aspect": "unaffected by the multi-platform outage", "dimension": "other"}
+{"aspect": "unattended long-run reliability", "dimension": "steerability"}
+{"aspect": "unblocking a hard problem", "dimension": "intelligence"}
+{"aspect": "uncensored, no guardrails", "dimension": "personality"}
+{"aspect": "unclear pronoun antecedents in formal writing", "dimension": "intelligence"}
+{"aspect": "unclear usefulness, unfixed quality", "dimension": "overall"}
+{"aspect": "underperformed gemini 3.7 flash in tests", "dimension": "intelligence"}
+{"aspect": "underperforming sol", "dimension": "intelligence"}
+{"aspect": "underperforms gpt-5.6 luna max", "dimension": "intelligence"}
+{"aspect": "underperforms vs benchmarks", "dimension": "intelligence"}
+{"aspect": "underrated", "dimension": "overall"}
+{"aspect": "underrated capability", "dimension": "intelligence"}
+{"aspect": "underrated in tier list, deserves top tier", "dimension": "intelligence"}
+{"aspect": "underrated overall performance", "dimension": "intelligence"}
+{"aspect": "underrated speed-intelligence ratio", "dimension": "intelligence"}
+{"aspect": "underrated value, wants cheap flash variant", "dimension": "price"}
+{"aspect": "understanding its own product lineup", "dimension": "intelligence"}
+{"aspect": "understanding user intent", "dimension": "intelligence"}
+{"aspect": "underwhelming demo output", "dimension": "intelligence"}
+{"aspect": "underwhelming real-world intelligence gains", "dimension": "intelligence"}
+{"aspect": "underwhelming release", "dimension": "overall"}
+{"aspect": "unexpected extreme response to request", "dimension": "personality"}
+{"aspect": "unexpectedly not free", "dimension": "price"}
+{"aspect": "unexplained limit burn rate", "dimension": "price"}
+{"aspect": "unhelpful responses to error logs", "dimension": "intelligence"}
+{"aspect": "unhelpful/irrelevant responses", "dimension": "intelligence"}
+{"aspect": "unique findings with zero factual errors", "dimension": "intelligence"}
+{"aspect": "universal daily driver", "dimension": "overall"}
+{"aspect": "unlimited free-tier chats", "dimension": "price"}
+{"aspect": "unlimited quota promo excitement", "dimension": "price"}
+{"aspect": "unlimited quota promo hype", "dimension": "price"}
+{"aspect": "unlimited requests for the price", "dimension": "price"}
+{"aspect": "unlimited usage and intelligence", "dimension": "price"}
+{"aspect": "unnecessary given cheaper stack", "dimension": "price"}
+{"aspect": "unnecessary vision capability for their needs", "dimension": "intelligence"}
+{"aspect": "unproductive looping in codex", "dimension": "steerability"}
+{"aspect": "unproductive looping, no progress", "dimension": "steerability"}
+{"aspect": "unproven sustained real-world performance", "dimension": "intelligence"}
+{"aspect": "unresponsive to argument", "dimension": "steerability"}
+{"aspect": "unspecified dissatisfaction", "dimension": "overall"}
+{"aspect": "unsupported parameter error today", "dimension": "other"}
+{"aspect": "untried sales workflow use case", "dimension": "other"}
+{"aspect": "unusable", "dimension": "overall"}
+{"aspect": "unusable despite faster loading", "dimension": "overall"}
+{"aspect": "unusable within rate limits", "dimension": "price"}
+{"aspect": "unusable without sol reviewing", "dimension": "steerability"}
+{"aspect": "unwanted off-script value-adds", "dimension": "steerability"}
+{"aspect": "uptime and reliability", "dimension": "other"}
+{"aspect": "uptime during outage", "dimension": "other"}
+{"aspect": "uptime reliability silent oom", "dimension": "other"}
+{"aspect": "usability degrading with continued use", "dimension": "steerability"}
+{"aspect": "usability despite being free", "dimension": "price"}
+{"aspect": "usability for long agent work", "dimension": "steerability"}
+{"aspect": "usability for multi-hour agent work", "dimension": "steerability"}
+{"aspect": "usability improvement over predecessor", "dimension": "intelligence"}
+{"aspect": "usability in actual work", "dimension": "overall"}
+{"aspect": "usability on large coding projects", "dimension": "intelligence"}
+{"aspect": "usability per quota allowance", "dimension": "price"}
+{"aspect": "usage and recent quality", "dimension": "overall"}
+{"aspect": "usage burn at high effort", "dimension": "price"}
+{"aspect": "usage burned quickly on $100 plan", "dimension": "price"}
+{"aspect": "usage cap during peak hours", "dimension": "price"}
+{"aspect": "usage capacity consumption/rate limits", "dimension": "price"}
+{"aspect": "usage consumption", "dimension": "price"}
+{"aspect": "usage duration on pro+ plan", "dimension": "price"}
+{"aspect": "usage experience this past week", "dimension": "overall"}
+{"aspect": "usage limit consumption", "dimension": "price"}
+{"aspect": "usage limit efficiency", "dimension": "price"}
+{"aspect": "usage limits", "dimension": "price"}
+{"aspect": "usage limits and resets", "dimension": "price"}
+{"aspect": "usage limits by pricing tier for coding", "dimension": "price"}
+{"aspect": "usage limits days after launch", "dimension": "price"}
+{"aspect": "usage limits despite high price", "dimension": "price"}
+{"aspect": "usage limits feel unlimited", "dimension": "price"}
+{"aspect": "usage limits generosity", "dimension": "price"}
+{"aspect": "usage limits management", "dimension": "price"}
+{"aspect": "usage limits not hit", "dimension": "price"}
+{"aspect": "usage limits on plus plan", "dimension": "price"}
+{"aspect": "usage limits running out", "dimension": "price"}
+{"aspect": "usage limits versus price", "dimension": "price"}
+{"aspect": "usage limits vs claude", "dimension": "price"}
+{"aspect": "usage limits vs comparable quality", "dimension": "price"}
+{"aspect": "usage limits/value", "dimension": "price"}
+{"aspect": "usage quota efficiency at scale", "dimension": "price"}
+{"aspect": "usage quota per dollar", "dimension": "price"}
+{"aspect": "usage quota per plan cost", "dimension": "price"}
+{"aspect": "usage quota per subscription dollar", "dimension": "price"}
+{"aspect": "usage quota sufficient for daily work", "dimension": "price"}
+{"aspect": "usage quota vs sol plan cost", "dimension": "price"}
+{"aspect": "usage value on $20 plan", "dimension": "price"}
+{"aspect": "used as delegation manager", "dimension": "other"}
+{"aspect": "used as the speed benchmark, implied fast", "dimension": "speed"}
+{"aspect": "used for execution in budget setup", "dimension": "price"}
+{"aspect": "used less quota than luna", "dimension": "price"}
+{"aspect": "used more often as reliable alternative", "dimension": "overall"}
+{"aspect": "used most, but makes slop ui", "dimension": "intelligence"}
+{"aspect": "used to fix luna's mistakes", "dimension": "intelligence"}
+{"aspect": "used when more power needed", "dimension": "intelligence"}
+{"aspect": "useful built-in default instructions", "dimension": "steerability"}
+{"aspect": "usefulness for simpler tasks in max mode", "dimension": "intelligence"}
+{"aspect": "using it as a cross-vendor fixer agent", "dimension": "intelligence"}
+{"aspect": "usually available and cheap fallback", "dimension": "price"}
+{"aspect": "ux and design quality", "dimension": "intelligence"}
+{"aspect": "ux and taste regression", "dimension": "intelligence"}
+{"aspect": "validating a mathematical proof", "dimension": "intelligence"}
+{"aspect": "vals finance/harvey legal benchmark", "dimension": "intelligence"}
+{"aspect": "value and effectiveness", "dimension": "price"}
+{"aspect": "value and frequent resets", "dimension": "price"}
+{"aspect": "value as a pricier backup option", "dimension": "price"}
+{"aspect": "value as opus-level substitute", "dimension": "price"}
+{"aspect": "value at $15 output pricing", "dimension": "price"}
+{"aspect": "value at 6x lower cost", "dimension": "price"}
+{"aspect": "value at flash pricing vs flagships", "dimension": "price"}
+{"aspect": "value for cost", "dimension": "price"}
+{"aspect": "value for cost given weekly quota", "dimension": "price"}
+{"aspect": "value for cost per task", "dimension": "price"}
+{"aspect": "value for cursor users", "dimension": "price"}
+{"aspect": "value for money", "dimension": "price"}
+{"aspect": "value for money as contributor", "dimension": "price"}
+{"aspect": "value for non-power users", "dimension": "price"}
+{"aspect": "value for one dollar spent", "dimension": "price"}
+{"aspect": "value for price", "dimension": "price"}
+{"aspect": "value for price relative to top-tier models", "dimension": "price"}
+{"aspect": "value for retirees", "dimension": "price"}
+{"aspect": "value for tokens spent", "dimension": "price"}
+{"aspect": "value for typical coding tasks", "dimension": "price"}
+{"aspect": "value from free token allotment", "dimension": "price"}
+{"aspect": "value from the zai light plan", "dimension": "price"}
+{"aspect": "value on the free tier", "dimension": "price"}
+{"aspect": "value over gemini hype", "dimension": "price"}
+{"aspect": "value per cost", "dimension": "price"}
+{"aspect": "value per intelligence point", "dimension": "price"}
+{"aspect": "value pick over flawed/expensive rival", "dimension": "price"}
+{"aspect": "value relative to pricier rival", "dimension": "price"}
+{"aspect": "value satisfaction", "dimension": "price"}
+{"aspect": "value tier price/performance", "dimension": "price"}
+{"aspect": "value versus becoming a full replacement", "dimension": "price"}
+{"aspect": "value versus free alternative", "dimension": "price"}
+{"aspect": "value versus gpt and claude, not a full replacement", "dimension": "price"}
+{"aspect": "value versus preferred alternatives", "dimension": "price"}
+{"aspect": "value versus quantized hy4", "dimension": "price"}
+{"aspect": "value via opencode plan", "dimension": "price"}
+{"aspect": "value vs pricier glm 5.2", "dimension": "price"}
+{"aspect": "value/price-performance", "dimension": "price"}
+{"aspect": "vendor-claimed low pricing", "dimension": "price"}
+{"aspect": "vendor-reported patch correctness in security testing", "dimension": "intelligence"}
+{"aspect": "verbose output token usage", "dimension": "price"}
+{"aspect": "verbose over-explaining", "dimension": "personality"}
+{"aspect": "verbose unhelpful output", "dimension": "personality"}
+{"aspect": "verbosity", "dimension": "personality"}
+{"aspect": "verbosity and cost", "dimension": "price"}
+{"aspect": "verbosity and jargon", "dimension": "personality"}
+{"aspect": "verbosity and unreliable findings", "dimension": "intelligence"}
+{"aspect": "verbosity breaking existing skills", "dimension": "steerability"}
+{"aspect": "verbosity despite simple request", "dimension": "personality"}
+{"aspect": "verbosity forcing rewritten instructions", "dimension": "steerability"}
+{"aspect": "verbosity, speed, and writing quality", "dimension": "personality"}
+{"aspect": "versatility across tasks including coding", "dimension": "intelligence"}
+{"aspect": "very low monthly cost for high token volume", "dimension": "price"}
+{"aspect": "very slow local inference speed", "dimension": "speed"}
+{"aspect": "vibe coding quality", "dimension": "intelligence"}
+{"aspect": "video editing", "dimension": "intelligence"}
+{"aspect": "video editing speed and quality", "dimension": "intelligence"}
+{"aspect": "video generation failure and slow generation time", "dimension": "intelligence"}
+{"aspect": "video generation quality", "dimension": "intelligence"}
+{"aspect": "video input capability", "dimension": "intelligence"}
+{"aspect": "video output quality", "dimension": "intelligence"}
+{"aspect": "video qc benchmark performance", "dimension": "intelligence"}
+{"aspect": "video token efficiency vs unease at autonomy", "dimension": "price"}
+{"aspect": "views generated for the same post idea", "dimension": "other"}
+{"aspect": "vision and spatial awareness", "dimension": "intelligence"}
+{"aspect": "vision capability quality", "dimension": "intelligence"}
+{"aspect": "vision cost efficiency", "dimension": "price"}
+{"aspect": "vision precision result mismatch", "dimension": "intelligence"}
+{"aspect": "vision quality for bank statement pdfs", "dimension": "intelligence"}
+{"aspect": "vision strength vs general mediocrity", "dimension": "intelligence"}
+{"aspect": "vision task performance", "dimension": "intelligence"}
+{"aspect": "visual audit on hand-drawn circuits", "dimension": "intelligence"}
+{"aspect": "visual design catching up to opus", "dimension": "intelligence"}
+{"aspect": "visual design quality", "dimension": "intelligence"}
+{"aspect": "visual design quality of demoed results", "dimension": "intelligence"}
+{"aspect": "visual effect quality", "dimension": "intelligence"}
+{"aspect": "visual output quality", "dimension": "intelligence"}
+{"aspect": "visual quality of the demo output", "dimension": "intelligence"}
+{"aspect": "visual quality vs other models", "dimension": "intelligence"}
+{"aspect": "visual reasoning quality vs deepseek", "dimension": "intelligence"}
+{"aspect": "visual-spatial reasoning and 3d building", "dimension": "intelligence"}
+{"aspect": "visual/spatial reasoning accuracy", "dimension": "intelligence"}
+{"aspect": "visual/spatial reasoning error", "dimension": "intelligence"}
+{"aspect": "voice quality contribution", "dimension": "intelligence"}
+{"aspect": "voxel 3d scene generation quality and speed", "dimension": "intelligence"}
+{"aspect": "voxel build quality/speed", "dimension": "intelligence"}
+{"aspect": "voxel diorama generation failure", "dimension": "intelligence"}
+{"aspect": "voxel generation scale vs quality", "dimension": "intelligence"}
+{"aspect": "voxel quality", "dimension": "intelligence"}
+{"aspect": "voxel quality versus astra", "dimension": "intelligence"}
+{"aspect": "voxel style quality versus speed stability", "dimension": "intelligence"}
+{"aspect": "vram requirements for self-hosting", "dimension": "other"}
+{"aspect": "vulnerability detection benchmark", "dimension": "intelligence"}
+{"aspect": "vulnerability discovery capability", "dimension": "intelligence"}
+{"aspect": "vulnerability-detection speed", "dimension": "speed"}
+{"aspect": "wall-clock speed on agentic work", "dimension": "speed"}
+{"aspect": "wasting plan credits on it", "dimension": "price"}
+{"aspect": "watermark-free content", "dimension": "other"}
+{"aspect": "watermarked output", "dimension": "other"}
+{"aspect": "web design capability", "dimension": "intelligence"}
+{"aspect": "web development capability", "dimension": "intelligence"}
+{"aspect": "web development output quality", "dimension": "intelligence"}
+{"aspect": "web ui generation speed", "dimension": "speed"}
+{"aspect": "webdev arena ranking gain", "dimension": "intelligence"}

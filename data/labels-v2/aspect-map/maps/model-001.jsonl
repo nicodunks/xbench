@@ -1,0 +1,250 @@
+{"aspect": "beaten by qwen 3.8 flash next", "dimension": "intelligence"}
+{"aspect": "beaten by qwen 3.8 max in reported comparison", "dimension": "intelligence"}
+{"aspect": "beaten by qwen3.8 max benchmark", "dimension": "intelligence"}
+{"aspect": "beaten by qwen3.8-max in benchmarks", "dimension": "intelligence"}
+{"aspect": "beaten by tiny finetuned model on narrow task", "dimension": "intelligence"}
+{"aspect": "beaten on same svg test", "dimension": "intelligence"}
+{"aspect": "beaten on terminal bench", "dimension": "intelligence"}
+{"aspect": "beaten via harness swap", "dimension": "intelligence"}
+{"aspect": "beating astra on deepswe benchmark", "dimension": "intelligence"}
+{"aspect": "beating every model in every benchmark area", "dimension": "intelligence"}
+{"aspect": "beating gpt-5.6 on benchmarks", "dimension": "intelligence"}
+{"aspect": "beating grok 4.6 on benchmarks", "dimension": "intelligence"}
+{"aspect": "beating openai's release cadence", "dimension": "other"}
+{"aspect": "beating other models on the sequence", "dimension": "intelligence"}
+{"aspect": "beating rival models", "dimension": "intelligence"}
+{"aspect": "beats larger models at lower cost", "dimension": "price"}
+{"aspect": "beats muse across nine benchmarks", "dimension": "intelligence"}
+{"aspect": "beats on benchmark brief", "dimension": "intelligence"}
+{"aspect": "beats opus 5 on intelligence index", "dimension": "intelligence"}
+{"aspect": "beats sonnet 5 across benchmarks", "dimension": "intelligence"}
+{"aspect": "became really usable", "dimension": "overall"}
+{"aspect": "behind on intelligence, leads on cost-efficiency", "dimension": "price"}
+{"aspect": "being an outdated choice", "dimension": "intelligence"}
+{"aspect": "being gated behind restrictions", "dimension": "other"}
+{"aspect": "being given real work versus being dismissed", "dimension": "other"}
+{"aspect": "being replaced by glm", "dimension": "intelligence"}
+{"aspect": "being replaced for most tasks", "dimension": "intelligence"}
+{"aspect": "being so cheap", "dimension": "price"}
+{"aspect": "benchmark cheating", "dimension": "intelligence"}
+{"aspect": "benchmark closeness to opus 5 and gpt-5.6", "dimension": "intelligence"}
+{"aspect": "benchmark comparison", "dimension": "intelligence"}
+{"aspect": "benchmark dominance over fable 5.1", "dimension": "intelligence"}
+{"aspect": "benchmark gains versus pro-plan access", "dimension": "intelligence"}
+{"aspect": "benchmark gap over sol", "dimension": "intelligence"}
+{"aspect": "benchmark gap versus astra", "dimension": "intelligence"}
+{"aspect": "benchmark growth rate", "dimension": "intelligence"}
+{"aspect": "benchmark improvement and cost", "dimension": "price"}
+{"aspect": "benchmark improvements vs rivals", "dimension": "intelligence"}
+{"aspect": "benchmark inflation versus growing appeal", "dimension": "intelligence"}
+{"aspect": "benchmark inflation/quality", "dimension": "intelligence"}
+{"aspect": "benchmark intelligence ranking", "dimension": "intelligence"}
+{"aspect": "benchmark intelligence score", "dimension": "intelligence"}
+{"aspect": "benchmark jump 55.0 to 75.4 deepswe", "dimension": "intelligence"}
+{"aspect": "benchmark lead across arc-agi-3/exploitbench/etc", "dimension": "intelligence"}
+{"aspect": "benchmark lead shrinking vs open weights", "dimension": "intelligence"}
+{"aspect": "benchmark leadership vs token cost", "dimension": "price"}
+{"aspect": "benchmark legitimacy", "dimension": "intelligence"}
+{"aspect": "benchmark margin", "dimension": "intelligence"}
+{"aspect": "benchmark margin vs day-to-day reputation", "dimension": "intelligence"}
+{"aspect": "benchmark numbers (arc-agi-3, exploitbench)", "dimension": "intelligence"}
+{"aspect": "benchmark performance", "dimension": "intelligence"}
+{"aspect": "benchmark performance across domains", "dimension": "intelligence"}
+{"aspect": "benchmark performance and price", "dimension": "price"}
+{"aspect": "benchmark performance and pricing value", "dimension": "price"}
+{"aspect": "benchmark performance for the price", "dimension": "price"}
+{"aspect": "benchmark performance on terminal-bench-science", "dimension": "intelligence"}
+{"aspect": "benchmark performance vs cost", "dimension": "price"}
+{"aspect": "benchmark performance vs frontier models", "dimension": "intelligence"}
+{"aspect": "benchmark performance vs gpt-5.6 sol", "dimension": "intelligence"}
+{"aspect": "benchmark rank and token price value", "dimension": "price"}
+{"aspect": "benchmark ranking", "dimension": "intelligence"}
+{"aspect": "benchmark ranking against other cloud llms", "dimension": "intelligence"}
+{"aspect": "benchmark ranking improvement", "dimension": "intelligence"}
+{"aspect": "benchmark ranking position", "dimension": "intelligence"}
+{"aspect": "benchmark ranking strength", "dimension": "intelligence"}
+{"aspect": "benchmark ranking value", "dimension": "intelligence"}
+{"aspect": "benchmark ranking vs closed models", "dimension": "intelligence"}
+{"aspect": "benchmark results (leaked evals)", "dimension": "intelligence"}
+{"aspect": "benchmark score", "dimension": "intelligence"}
+{"aspect": "benchmark score and price", "dimension": "price"}
+{"aspect": "benchmark score and price advantage", "dimension": "price"}
+{"aspect": "benchmark score at equal token cost", "dimension": "price"}
+{"aspect": "benchmark score at lower price", "dimension": "price"}
+{"aspect": "benchmark score comparison", "dimension": "intelligence"}
+{"aspect": "benchmark score credibility", "dimension": "intelligence"}
+{"aspect": "benchmark score doubling vs prior gen", "dimension": "intelligence"}
+{"aspect": "benchmark score margin", "dimension": "intelligence"}
+{"aspect": "benchmark score still unproven", "dimension": "intelligence"}
+{"aspect": "benchmark score to cost ratio", "dimension": "price"}
+{"aspect": "benchmark score versus hy4", "dimension": "intelligence"}
+{"aspect": "benchmark score vs opus 5", "dimension": "intelligence"}
+{"aspect": "benchmark score vs sol", "dimension": "intelligence"}
+{"aspect": "benchmark score vs sol max", "dimension": "intelligence"}
+{"aspect": "benchmark scores", "dimension": "intelligence"}
+{"aspect": "benchmark scores across evals", "dimension": "intelligence"}
+{"aspect": "benchmark scores and price enabling real-workflow testing", "dimension": "price"}
+{"aspect": "benchmark strength vs sloppy frontend agent work", "dimension": "intelligence"}
+{"aspect": "benchmark sweep across four tests", "dimension": "intelligence"}
+{"aspect": "benchmark sweep at launch", "dimension": "intelligence"}
+{"aspect": "benchmark sweep results", "dimension": "intelligence"}
+{"aspect": "benchmark the author judges grok against", "dimension": "intelligence"}
+{"aspect": "benchmark tier and open weights", "dimension": "intelligence"}
+{"aspect": "benchmark tier parity", "dimension": "intelligence"}
+{"aspect": "benchmark win this week", "dimension": "intelligence"}
+{"aspect": "benchmark wins over opus 5 at lower cost", "dimension": "price"}
+{"aspect": "benchmark-driven pick after seeing parity score", "dimension": "intelligence"}
+{"aspect": "benchmarked well on own eval suite", "dimension": "intelligence"}
+{"aspect": "benchmarks and cache improvement", "dimension": "intelligence"}
+{"aspect": "benchmaxxed", "dimension": "intelligence"}
+{"aspect": "benchmaxxed agentic performance", "dimension": "intelligence"}
+{"aspect": "best claude score still trailing astra", "dimension": "intelligence"}
+{"aspect": "best default choice", "dimension": "overall"}
+{"aspect": "best for beginners", "dimension": "overall"}
+{"aspect": "best local-hardware model under budget", "dimension": "price"}
+{"aspect": "best model once given tools", "dimension": "intelligence"}
+{"aspect": "best model to be orchestrated", "dimension": "steerability"}
+{"aspect": "best model to run all day", "dimension": "price"}
+{"aspect": "best model, replaced claude in workflow", "dimension": "intelligence"}
+{"aspect": "best of google's lineup but hallucinates", "dimension": "intelligence"}
+{"aspect": "best performer on real tasks", "dimension": "intelligence"}
+{"aspect": "best result but slower, burns rate limits", "dimension": "speed"}
+{"aspect": "best svg result so far", "dimension": "intelligence"}
+{"aspect": "better and cheaper", "dimension": "price"}
+{"aspect": "better and cost effective", "dimension": "price"}
+{"aspect": "better at computer tasks and vision", "dimension": "intelligence"}
+{"aspect": "better for real production work", "dimension": "intelligence"}
+{"aspect": "better for this task", "dimension": "intelligence"}
+{"aspect": "better performance but higher cost", "dimension": "price"}
+{"aspect": "better quality at near-free cost", "dimension": "price"}
+{"aspect": "better results than codex", "dimension": "intelligence"}
+{"aspect": "better than deepseek-v4-flash in practice", "dimension": "intelligence"}
+{"aspect": "better than gemini", "dimension": "intelligence"}
+{"aspect": "better than gpt 5.6 terra at half the price", "dimension": "price"}
+{"aspect": "better than opus 5 on verbosity and cost", "dimension": "price"}
+{"aspect": "better value for casual users", "dimension": "price"}
+{"aspect": "better value than a $20 plan", "dimension": "price"}
+{"aspect": "better value than a $20/m plan", "dimension": "price"}
+{"aspect": "better value than gemini", "dimension": "price"}
+{"aspect": "better value than hype", "dimension": "price"}
+{"aspect": "better value than luna", "dimension": "price"}
+{"aspect": "bias and workflow sabotage", "dimension": "steerability"}
+{"aspect": "bias favoring the agent it evaluates", "dimension": "personality"}
+{"aspect": "billing concerns preventing use", "dimension": "price"}
+{"aspect": "biosafety query refusal calibration", "dimension": "personality"}
+{"aspect": "biosecurity benchmark performance", "dimension": "intelligence"}
+{"aspect": "biosecurity benchmark ranking", "dimension": "intelligence"}
+{"aspect": "blank first canvas failure", "dimension": "intelligence"}
+{"aspect": "blind eval score", "dimension": "intelligence"}
+{"aspect": "blind pick evaluation vs hunyuan hy4", "dimension": "intelligence"}
+{"aspect": "bluebench cybersecurity task score", "dimension": "intelligence"}
+{"aspect": "bluebench score, best open-weight model", "dimension": "intelligence"}
+{"aspect": "boldness and wit in answers", "dimension": "personality"}
+{"aspect": "bounding box accuracy on complex scenes", "dimension": "intelligence"}
+{"aspect": "bounding box detection quality", "dimension": "intelligence"}
+{"aspect": "brain role in value combo", "dimension": "other"}
+{"aspect": "breaks almost as much as it works", "dimension": "intelligence"}
+{"aspect": "bridgebench comparison score", "dimension": "intelligence"}
+{"aspect": "brief frontier ranking", "dimension": "intelligence"}
+{"aspect": "broken access / not working at all", "dimension": "other"}
+{"aspect": "broken design output", "dimension": "intelligence"}
+{"aspect": "broken output/behavior", "dimension": "intelligence"}
+{"aspect": "broken via cursor auto mode", "dimension": "other"}
+{"aspect": "broken, unavailable for hours", "dimension": "other"}
+{"aspect": "browser automation ease", "dimension": "intelligence"}
+{"aspect": "budget alternative to astra", "dimension": "price"}
+{"aspect": "bug detection", "dimension": "intelligence"}
+{"aspect": "bug finding and fixing", "dimension": "intelligence"}
+{"aspect": "bug fixing capability", "dimension": "intelligence"}
+{"aspect": "bug visibility", "dimension": "intelligence"}
+{"aspect": "bugs but detectable", "dimension": "intelligence"}
+{"aspect": "build speed", "dimension": "speed"}
+{"aspect": "builder role", "dimension": "intelligence"}
+{"aspect": "building a full game", "dimension": "intelligence"}
+{"aspect": "building a game", "dimension": "intelligence"}
+{"aspect": "building a missing utility", "dimension": "intelligence"}
+{"aspect": "building a multiplayer game", "dimension": "intelligence"}
+{"aspect": "building a working game for a toddler for free", "dimension": "intelligence"}
+{"aspect": "building a working multi-agent crew", "dimension": "intelligence"}
+{"aspect": "building apps with no coding knowledge", "dimension": "intelligence"}
+{"aspect": "building apps without issues", "dimension": "intelligence"}
+{"aspect": "building complete software quickly", "dimension": "speed"}
+{"aspect": "building the inference engine", "dimension": "intelligence"}
+{"aspect": "building things", "dimension": "intelligence"}
+{"aspect": "building web software", "dimension": "intelligence"}
+{"aspect": "bulk writing tasks role", "dimension": "intelligence"}
+{"aspect": "burned plan on one bug", "dimension": "price"}
+{"aspect": "burned tokens fast on lowest plan", "dimension": "price"}
+{"aspect": "burned usage credits without finishing job", "dimension": "price"}
+{"aspect": "burns through 5h usage window", "dimension": "price"}
+{"aspect": "burns through context/limits from deeper thinking", "dimension": "price"}
+{"aspect": "burns through usage quickly", "dimension": "price"}
+{"aspect": "burnt tokens, skipped frontend tests", "dimension": "intelligence"}
+{"aspect": "business workflow benchmark score", "dimension": "intelligence"}
+{"aspect": "buzz and popularity", "dimension": "overall"}
+{"aspect": "c tier ranking", "dimension": "intelligence"}
+{"aspect": "cache cost efficiency", "dimension": "price"}
+{"aspect": "cache cost reduction", "dimension": "price"}
+{"aspect": "cache duration cost issue", "dimension": "price"}
+{"aspect": "cache hit rate lowering effective cost", "dimension": "price"}
+{"aspect": "cache miss cost", "dimension": "price"}
+{"aspect": "cache read cost in long sessions", "dimension": "price"}
+{"aspect": "cache retention on effort switch", "dimension": "price"}
+{"aspect": "cached-turn pricing", "dimension": "price"}
+{"aspect": "cad model building capability", "dimension": "intelligence"}
+{"aspect": "capability", "dimension": "intelligence"}
+{"aspect": "capability across simple vs complex tasks", "dimension": "intelligence"}
+{"aspect": "capability across two weeks of use", "dimension": "intelligence"}
+{"aspect": "capability and 1m native context versus qwen3.8", "dimension": "intelligence"}
+{"aspect": "capability and conciseness improvements", "dimension": "intelligence"}
+{"aspect": "capability and performance", "dimension": "intelligence"}
+{"aspect": "capability and speed", "dimension": "intelligence"}
+{"aspect": "capability and token efficiency claim", "dimension": "intelligence"}
+{"aspect": "capability and usage limits", "dimension": "intelligence"}
+{"aspect": "capability at certain tasks", "dimension": "intelligence"}
+{"aspect": "capability comparable to sol", "dimension": "intelligence"}
+{"aspect": "capability comparable to sonnet 5", "dimension": "intelligence"}
+{"aspect": "capability compared to fable 5", "dimension": "intelligence"}
+{"aspect": "capability compared to sol", "dimension": "intelligence"}
+{"aspect": "capability could replace claude", "dimension": "intelligence"}
+{"aspect": "capability for agent workflows", "dimension": "intelligence"}
+{"aspect": "capability for complex builds", "dimension": "intelligence"}
+{"aspect": "capability for complex tasks", "dimension": "intelligence"}
+{"aspect": "capability for hardest tasks", "dimension": "intelligence"}
+{"aspect": "capability for serious/production building", "dimension": "intelligence"}
+{"aspect": "capability for simple document tasks", "dimension": "intelligence"}
+{"aspect": "capability gain versus communication/speed trade-off", "dimension": "intelligence"}
+{"aspect": "capability growth versus deepseek", "dimension": "intelligence"}
+{"aspect": "capability hype", "dimension": "intelligence"}
+{"aspect": "capability improvement over previous version", "dimension": "intelligence"}
+{"aspect": "capability jump", "dimension": "intelligence"}
+{"aspect": "capability jump in coding and autonomous work", "dimension": "intelligence"}
+{"aspect": "capability jump on exploit benchmarks", "dimension": "intelligence"}
+{"aspect": "capability leap", "dimension": "intelligence"}
+{"aspect": "capability leap from 1.0 to 1.3", "dimension": "intelligence"}
+{"aspect": "capability leap over predecessor", "dimension": "intelligence"}
+{"aspect": "capability nearing fable for free", "dimension": "price"}
+{"aspect": "capability on advanced automation", "dimension": "intelligence"}
+{"aspect": "capability on complex tasks", "dimension": "intelligence"}
+{"aspect": "capability parity with sol", "dimension": "intelligence"}
+{"aspect": "capability per price versus predecessor", "dimension": "price"}
+{"aspect": "capability preview comparison", "dimension": "intelligence"}
+{"aspect": "capability regression", "dimension": "intelligence"}
+{"aspect": "capability regression after official release", "dimension": "intelligence"}
+{"aspect": "capability relative to cost", "dimension": "price"}
+{"aspect": "capability relative to low price", "dimension": "price"}
+{"aspect": "capability relative to pricier alternative", "dimension": "price"}
+{"aspect": "capability relative to prior tool after switching", "dimension": "intelligence"}
+{"aspect": "capability relative to typical business use", "dimension": "intelligence"}
+{"aspect": "capability shortfalls requiring upgrade", "dimension": "intelligence"}
+{"aspect": "capability tier", "dimension": "intelligence"}
+{"aspect": "capability versus cost and quota depletion", "dimension": "price"}
+{"aspect": "capability vs 3.7 flash from preview", "dimension": "intelligence"}
+{"aspect": "capability vs connection reliability", "dimension": "intelligence"}
+{"aspect": "capability vs frontier labs", "dimension": "intelligence"}
+{"aspect": "capability vs glm", "dimension": "intelligence"}
+{"aspect": "capability vs m3", "dimension": "intelligence"}
+{"aspect": "capability vs opus 5", "dimension": "intelligence"}
+{"aspect": "capability vs sol", "dimension": "intelligence"}
+{"aspect": "capability vs usage value", "dimension": "price"}
+{"aspect": "capable but exhausting abstract output", "dimension": "personality"}

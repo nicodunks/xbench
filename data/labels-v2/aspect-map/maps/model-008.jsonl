@@ -1,0 +1,250 @@
+{"aspect": "over-commenting code", "dimension": "personality"}
+{"aspect": "over-delivering and breaking things", "dimension": "steerability"}
+{"aspect": "over-engineering and speed at xhigh vs high effort", "dimension": "steerability"}
+{"aspect": "over-engineering, rabbit-holing on tasks", "dimension": "steerability"}
+{"aspect": "over-engineering, unnecessary workflow stacking", "dimension": "steerability"}
+{"aspect": "over-engineers simple tasks despite strong coding skill", "dimension": "steerability"}
+{"aspect": "over-optimizing benchmarks over real-world quality", "dimension": "intelligence"}
+{"aspect": "over-sensitivity limiting use to simple tasks", "dimension": "personality"}
+{"aspect": "overall", "dimension": "overall"}
+{"aspect": "overall (dismissive reaction)", "dimension": "overall"}
+{"aspect": "overall (exceeded expectations)", "dimension": "overall"}
+{"aspect": "overall (irritating)", "dimension": "overall"}
+{"aspect": "overall (marketing hype)", "dimension": "overall"}
+{"aspect": "overall after switching", "dimension": "overall"}
+{"aspect": "overall behavior", "dimension": "overall"}
+{"aspect": "overall benchmark dominance", "dimension": "intelligence"}
+{"aspect": "overall benchmark ranking", "dimension": "intelligence"}
+{"aspect": "overall benchmark scores", "dimension": "intelligence"}
+{"aspect": "overall best model claim", "dimension": "overall"}
+{"aspect": "overall best models used so far", "dimension": "overall"}
+{"aspect": "overall best on visual task", "dimension": "intelligence"}
+{"aspect": "overall betting choice", "dimension": "overall"}
+{"aspect": "overall capability", "dimension": "intelligence"}
+{"aspect": "overall capability and cost value", "dimension": "intelligence"}
+{"aspect": "overall capability gap", "dimension": "intelligence"}
+{"aspect": "overall capability lead", "dimension": "intelligence"}
+{"aspect": "overall capability leap", "dimension": "intelligence"}
+{"aspect": "overall capability step-change", "dimension": "intelligence"}
+{"aspect": "overall capability versus codex/sol", "dimension": "intelligence"}
+{"aspect": "overall capability vs local model", "dimension": "intelligence"}
+{"aspect": "overall coding capability", "dimension": "intelligence"}
+{"aspect": "overall coding quality", "dimension": "intelligence"}
+{"aspect": "overall competence", "dimension": "intelligence"}
+{"aspect": "overall enjoyment", "dimension": "overall"}
+{"aspect": "overall enthusiasm", "dimension": "overall"}
+{"aspect": "overall experience", "dimension": "overall"}
+{"aspect": "overall fit for everyday users", "dimension": "other"}
+{"aspect": "overall for coding", "dimension": "intelligence"}
+{"aspect": "overall frustration, wants new model", "dimension": "overall"}
+{"aspect": "overall hype", "dimension": "overall"}
+{"aspect": "overall importance and capability", "dimension": "intelligence"}
+{"aspect": "overall impression", "dimension": "overall"}
+{"aspect": "overall impression in a head-to-head video", "dimension": "overall"}
+{"aspect": "overall impression on first test", "dimension": "overall"}
+{"aspect": "overall impressiveness", "dimension": "overall"}
+{"aspect": "overall improvement", "dimension": "intelligence"}
+{"aspect": "overall improvement over fable 5", "dimension": "intelligence"}
+{"aspect": "overall improvement over previous flash version", "dimension": "intelligence"}
+{"aspect": "overall intelligence", "dimension": "intelligence"}
+{"aspect": "overall intelligence value", "dimension": "intelligence"}
+{"aspect": "overall intelligence vs glm", "dimension": "intelligence"}
+{"aspect": "overall level from hands-on testing", "dimension": "overall"}
+{"aspect": "overall likeability", "dimension": "overall"}
+{"aspect": "overall model quality", "dimension": "overall"}
+{"aspect": "overall model strength", "dimension": "intelligence"}
+{"aspect": "overall output quality", "dimension": "intelligence"}
+{"aspect": "overall perceived quality", "dimension": "overall"}
+{"aspect": "overall performance", "dimension": "overall"}
+{"aspect": "overall performance balancing cost/speed on visual task", "dimension": "price"}
+{"aspect": "overall performance versus deepseek v4 flash", "dimension": "intelligence"}
+{"aspect": "overall performance vs claude", "dimension": "intelligence"}
+{"aspect": "overall performance vs gpt", "dimension": "intelligence"}
+{"aspect": "overall performance vs grok", "dimension": "intelligence"}
+{"aspect": "overall pick", "dimension": "overall"}
+{"aspect": "overall poll pick", "dimension": "overall"}
+{"aspect": "overall potential", "dimension": "overall"}
+{"aspect": "overall preference", "dimension": "overall"}
+{"aspect": "overall preference among free models", "dimension": "overall"}
+{"aspect": "overall preference as daily model", "dimension": "overall"}
+{"aspect": "overall preference in a four-way comparison", "dimension": "overall"}
+{"aspect": "overall preference migration", "dimension": "overall"}
+{"aspect": "overall preference pick", "dimension": "overall"}
+{"aspect": "overall preference ranking", "dimension": "overall"}
+{"aspect": "overall productivity", "dimension": "overall"}
+{"aspect": "overall quality", "dimension": "overall"}
+{"aspect": "overall quality (hype)", "dimension": "overall"}
+{"aspect": "overall quality after months of use", "dimension": "overall"}
+{"aspect": "overall quality after switch", "dimension": "overall"}
+{"aspect": "overall quality after switching", "dimension": "overall"}
+{"aspect": "overall quality alongside the astra demo", "dimension": "overall"}
+{"aspect": "overall quality among free models", "dimension": "overall"}
+{"aspect": "overall quality and ecosystem integration", "dimension": "other"}
+{"aspect": "overall quality and value as default model", "dimension": "price"}
+{"aspect": "overall quality and vision support", "dimension": "intelligence"}
+{"aspect": "overall quality as free model", "dimension": "price"}
+{"aspect": "overall quality comparison", "dimension": "overall"}
+{"aspect": "overall quality decline", "dimension": "intelligence"}
+{"aspect": "overall quality despite being free", "dimension": "price"}
+{"aspect": "overall quality doubted", "dimension": "overall"}
+{"aspect": "overall quality in cursor", "dimension": "intelligence"}
+{"aspect": "overall quality momentum", "dimension": "overall"}
+{"aspect": "overall quality over predecessor", "dimension": "intelligence"}
+{"aspect": "overall quality parity with grok", "dimension": "overall"}
+{"aspect": "overall quality parity with sol", "dimension": "overall"}
+{"aspect": "overall quality perception", "dimension": "overall"}
+{"aspect": "overall quality prompting a switch", "dimension": "overall"}
+{"aspect": "overall quality regression", "dimension": "intelligence"}
+{"aspect": "overall quality versus fable and opus", "dimension": "overall"}
+{"aspect": "overall quality versus gemini", "dimension": "overall"}
+{"aspect": "overall quality versus opus 5", "dimension": "overall"}
+{"aspect": "overall quality versus token efficiency", "dimension": "price"}
+{"aspect": "overall quality vs benchmark distrust", "dimension": "overall"}
+{"aspect": "overall quality vs chatgpt/claude", "dimension": "overall"}
+{"aspect": "overall quality vs claude 4.6", "dimension": "overall"}
+{"aspect": "overall quality vs gemini 3.1 pro", "dimension": "overall"}
+{"aspect": "overall quality vs grok 4.5", "dimension": "overall"}
+{"aspect": "overall quality vs opus", "dimension": "overall"}
+{"aspect": "overall quality vs opus 5", "dimension": "overall"}
+{"aspect": "overall quality vs sol", "dimension": "overall"}
+{"aspect": "overall quality vs speed and cost", "dimension": "price"}
+{"aspect": "overall quality with hermes pairing", "dimension": "overall"}
+{"aspect": "overall quality, called a masterpiece", "dimension": "overall"}
+{"aspect": "overall quality, dismissing exaggerated criticism", "dimension": "overall"}
+{"aspect": "overall quality, enjoyable to use", "dimension": "personality"}
+{"aspect": "overall quality/credibility", "dimension": "overall"}
+{"aspect": "overall quality/slop", "dimension": "overall"}
+{"aspect": "overall ranking", "dimension": "overall"}
+{"aspect": "overall ranking (intelligence, speed, cost)", "dimension": "overall"}
+{"aspect": "overall ranking across ideation, mockup, refinement", "dimension": "intelligence"}
+{"aspect": "overall ranking from use", "dimension": "overall"}
+{"aspect": "overall rating out of 10", "dimension": "overall"}
+{"aspect": "overall recommendation", "dimension": "overall"}
+{"aspect": "overall reliability", "dimension": "other"}
+{"aspect": "overall reliability serving needs", "dimension": "other"}
+{"aspect": "overall result quality", "dimension": "intelligence"}
+{"aspect": "overall satisfaction", "dimension": "overall"}
+{"aspect": "overall satisfaction after switching", "dimension": "overall"}
+{"aspect": "overall sharpness", "dimension": "intelligence"}
+{"aspect": "overall since switching", "dimension": "overall"}
+{"aspect": "overall strength", "dimension": "intelligence"}
+{"aspect": "overall strength as a balanced model", "dimension": "intelligence"}
+{"aspect": "overall upgrade over predecessor", "dimension": "intelligence"}
+{"aspect": "overall usability", "dimension": "other"}
+{"aspect": "overall usage", "dimension": "other"}
+{"aspect": "overall usefulness", "dimension": "overall"}
+{"aspect": "overall versatility across writing, reasoning, code", "dimension": "intelligence"}
+{"aspect": "overall vs anthropic models", "dimension": "overall"}
+{"aspect": "overall, better than the prior version", "dimension": "intelligence"}
+{"aspect": "overall, new go-to model", "dimension": "overall"}
+{"aspect": "overall, top choice", "dimension": "overall"}
+{"aspect": "overcomplicates solutions", "dimension": "steerability"}
+{"aspect": "overcorrects on requirements", "dimension": "steerability"}
+{"aspect": "overengineering", "dimension": "steerability"}
+{"aspect": "overhyped basic bug-finding", "dimension": "intelligence"}
+{"aspect": "overhyped marginal lead over fable", "dimension": "intelligence"}
+{"aspect": "overhyped, marginal gain over sol", "dimension": "intelligence"}
+{"aspect": "overinflated hype vs incremental gains", "dimension": "intelligence"}
+{"aspect": "overly complex output for simple task", "dimension": "steerability"}
+{"aspect": "overly verbose responses", "dimension": "personality"}
+{"aspect": "overrated relative to fable", "dimension": "intelligence"}
+{"aspect": "overspecification, needs babying", "dimension": "steerability"}
+{"aspect": "overtaken quickly", "dimension": "intelligence"}
+{"aspect": "overtaking a rival on release day", "dimension": "intelligence"}
+{"aspect": "overthinking", "dimension": "speed"}
+{"aspect": "overthinking on step-by-step prompts", "dimension": "speed"}
+{"aspect": "overthinking simple prompts", "dimension": "speed"}
+{"aspect": "own 12-task benchmark pass rate", "dimension": "intelligence"}
+{"aspect": "painful/awkward writing style", "dimension": "personality"}
+{"aspect": "paired workflow with grok", "dimension": "other"}
+{"aspect": "palette drift and price versus kimi", "dimension": "price"}
+{"aspect": "parallel agent processing called an innovation", "dimension": "intelligence"}
+{"aspect": "parallel thread/task orchestration shown in a video demo", "dimension": "intelligence"}
+{"aspect": "parameter efficiency at 320b/18b active", "dimension": "other"}
+{"aspect": "pareto chart benchmark comparison", "dimension": "intelligence"}
+{"aspect": "pareto efficiency at low cost", "dimension": "price"}
+{"aspect": "pareto front on intelligence vs cost", "dimension": "price"}
+{"aspect": "parity with luna as worker model", "dimension": "intelligence"}
+{"aspect": "pass rate and efficiency on cursorbench", "dimension": "intelligence"}
+{"aspect": "pass rate and step efficiency", "dimension": "intelligence"}
+{"aspect": "passed long-context stability tests", "dimension": "intelligence"}
+{"aspect": "passes benchmark test", "dimension": "intelligence"}
+{"aspect": "passing implementation craftsman test via buddy system", "dimension": "intelligence"}
+{"aspect": "path handling causing permission prompts", "dimension": "other"}
+{"aspect": "pelican svg comparison", "dimension": "intelligence"}
+{"aspect": "perceived as strongest new model", "dimension": "intelligence"}
+{"aspect": "perceived decline in coding quality", "dimension": "intelligence"}
+{"aspect": "perceived downgrade in capability", "dimension": "intelligence"}
+{"aspect": "perceived intelligence", "dimension": "intelligence"}
+{"aspect": "perceived intelligence decline post-release", "dimension": "intelligence"}
+{"aspect": "perceived intelligence drop", "dimension": "intelligence"}
+{"aspect": "perceived overall quality", "dimension": "overall"}
+{"aspect": "perceived quality decline", "dimension": "intelligence"}
+{"aspect": "perceived quality degradation", "dimension": "intelligence"}
+{"aspect": "perceived quality versus benchmark", "dimension": "intelligence"}
+{"aspect": "perceived quality, unusable via hermes", "dimension": "other"}
+{"aspect": "perceived repackaging of the old model", "dimension": "intelligence"}
+{"aspect": "perceived risk", "dimension": "other"}
+{"aspect": "perceived steady improvement in coding tasks", "dimension": "intelligence"}
+{"aspect": "perceived tier ranking", "dimension": "overall"}
+{"aspect": "perceived weakness", "dimension": "overall"}
+{"aspect": "performance", "dimension": "overall"}
+{"aspect": "performance and cost improvement", "dimension": "price"}
+{"aspect": "performance and speed", "dimension": "speed"}
+{"aspect": "performance at flash pricing", "dimension": "price"}
+{"aspect": "performance at high fast setting", "dimension": "speed"}
+{"aspect": "performance at high reasoning effort", "dimension": "intelligence"}
+{"aspect": "performance at max/high effort", "dimension": "intelligence"}
+{"aspect": "performance degrades past 300k context", "dimension": "intelligence"}
+{"aspect": "performance for the price", "dimension": "price"}
+{"aspect": "performance improvement after switch", "dimension": "intelligence"}
+{"aspect": "performance in cursor", "dimension": "intelligence"}
+{"aspect": "performance in fast mode", "dimension": "speed"}
+{"aspect": "performance inflated by hidden self-test rounds", "dimension": "intelligence"}
+{"aspect": "performance on complex scientific workflow tasks", "dimension": "intelligence"}
+{"aspect": "performance on new tasks vs codex", "dimension": "intelligence"}
+{"aspect": "performance on our tasks", "dimension": "intelligence"}
+{"aspect": "performance on small tasks", "dimension": "intelligence"}
+{"aspect": "performance on tight tasks", "dimension": "intelligence"}
+{"aspect": "performance optimization capability", "dimension": "intelligence"}
+{"aspect": "performance per price", "dimension": "price"}
+{"aspect": "performance running sol/luna versus cursor", "dimension": "intelligence"}
+{"aspect": "performance running through devin", "dimension": "intelligence"}
+{"aspect": "performance since switching, pending a possible nerf", "dimension": "intelligence"}
+{"aspect": "performance varies by runtime platform", "dimension": "other"}
+{"aspect": "performance varies mobile vs home setup", "dimension": "other"}
+{"aspect": "performance versus an older claude opus version", "dimension": "intelligence"}
+{"aspect": "performance versus luna max", "dimension": "intelligence"}
+{"aspect": "performance via antigravity", "dimension": "intelligence"}
+{"aspect": "performance via cursor", "dimension": "intelligence"}
+{"aspect": "performance vs deepseek v4", "dimension": "intelligence"}
+{"aspect": "performance vs opus at high fast setting", "dimension": "intelligence"}
+{"aspect": "performance vs swe-1.7 on devin", "dimension": "intelligence"}
+{"aspect": "performance/price sweet spot", "dimension": "price"}
+{"aspect": "performing very well right now", "dimension": "overall"}
+{"aspect": "persistent 503 errors blocking use", "dimension": "other"}
+{"aspect": "persistent task-graph tracking on long builds", "dimension": "intelligence"}
+{"aspect": "personal favorite", "dimension": "overall"}
+{"aspect": "personal favorite ranking", "dimension": "overall"}
+{"aspect": "personal opencode go ranking", "dimension": "overall"}
+{"aspect": "personal top-5 favorite model", "dimension": "overall"}
+{"aspect": "personality feels stern", "dimension": "personality"}
+{"aspect": "personality return vs context reset", "dimension": "personality"}
+{"aspect": "personality versus output quality", "dimension": "personality"}
+{"aspect": "picked as predicted winner", "dimension": "overall"}
+{"aspect": "picking up a failed bug fix", "dimension": "intelligence"}
+{"aspect": "pixel art style quality", "dimension": "intelligence"}
+{"aspect": "plan-review workflow effectiveness", "dimension": "intelligence"}
+{"aspect": "planner/decider role paired with claude works well", "dimension": "intelligence"}
+{"aspect": "planning ability", "dimension": "intelligence"}
+{"aspect": "planning ability versus the author's own local ai", "dimension": "intelligence"}
+{"aspect": "planning and coding quality", "dimension": "intelligence"}
+{"aspect": "planning and judgment quality", "dimension": "intelligence"}
+{"aspect": "planning capability", "dimension": "intelligence"}
+{"aspect": "planning for complex tasks", "dimension": "intelligence"}
+{"aspect": "planning mode quality", "dimension": "intelligence"}
+{"aspect": "planning oversight and qa role", "dimension": "intelligence"}
+{"aspect": "planning phase of a coding task", "dimension": "intelligence"}
+{"aspect": "planning quality", "dimension": "intelligence"}
+{"aspect": "planning quality versus cost", "dimension": "price"}
+{"aspect": "planning role quality and cost", "dimension": "price"}

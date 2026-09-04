@@ -1,0 +1,250 @@
+{"aspect": "speed-to-size tradeoff", "dimension": "speed"}
+{"aspect": "speedrun task completion time", "dimension": "speed"}
+{"aspect": "stability, no outages", "dimension": "other"}
+{"aspect": "stable long-horizon coding completion", "dimension": "intelligence"}
+{"aspect": "stable performance with a dedicated harness", "dimension": "other"}
+{"aspect": "standing up to abusive users", "dimension": "personality"}
+{"aspect": "starting subscription value", "dimension": "price"}
+{"aspect": "stated first choice", "dimension": "overall"}
+{"aspect": "stated second choice", "dimension": "overall"}
+{"aspect": "staying in scope, low verbosity", "dimension": "steerability"}
+{"aspect": "staying on goal in long contexts", "dimension": "steerability"}
+{"aspect": "staying up during a provider outage", "dimension": "other"}
+{"aspect": "stays coherent when corrected", "dimension": "steerability"}
+{"aspect": "steady meaningful progress versus wasted tokens", "dimension": "price"}
+{"aspect": "steady progress with meaningful prs", "dimension": "intelligence"}
+{"aspect": "steep discount enabling heavy usage", "dimension": "price"}
+{"aspect": "steerability and real-world results", "dimension": "steerability"}
+{"aspect": "still best value despite price hike", "dimension": "price"}
+{"aspect": "still expensive, promised 25% discount not experienced", "dimension": "price"}
+{"aspect": "still has room for optimization", "dimension": "intelligence"}
+{"aspect": "still leads on several agentic tasks", "dimension": "intelligence"}
+{"aspect": "still leads some benchmarks but losing agentic ones", "dimension": "intelligence"}
+{"aspect": "still preferred despite alternatives", "dimension": "overall"}
+{"aspect": "still wins for stock analysis despite being displaced", "dimension": "intelligence"}
+{"aspect": "stilted corporate tone", "dimension": "personality"}
+{"aspect": "stops mid-task without continuing", "dimension": "steerability"}
+{"aspect": "stored structure beats more raw tokens", "dimension": "price"}
+{"aspect": "straight to working code without mockups", "dimension": "intelligence"}
+{"aspect": "stress-free high-quality output", "dimension": "intelligence"}
+{"aspect": "stretches $200 plan to 100b tokens", "dimension": "price"}
+{"aspect": "stretching usage limits via cheap subagent routing", "dimension": "price"}
+{"aspect": "strictly coding task performance, 37% better than deepseek", "dimension": "intelligence"}
+{"aspect": "strong and cheap base model", "dimension": "price"}
+{"aspect": "strong benchmark performance", "dimension": "intelligence"}
+{"aspect": "strong frontier model", "dimension": "intelligence"}
+{"aspect": "strong on coding and long-horizon agentic tasks", "dimension": "intelligence"}
+{"aspect": "strong overall but weak at coding", "dimension": "intelligence"}
+{"aspect": "strong overall except creative writing", "dimension": "intelligence"}
+{"aspect": "strong performance on dgx sparks infra", "dimension": "intelligence"}
+{"aspect": "strong price-to-value even before the comparison", "dimension": "price"}
+{"aspect": "strong visual detail in leaked build", "dimension": "intelligence"}
+{"aspect": "stronger but flawed or too expensive", "dimension": "price"}
+{"aspect": "structural edges over context window size", "dimension": "intelligence"}
+{"aspect": "structural engineering advice quality", "dimension": "intelligence"}
+{"aspect": "structure over flat token search", "dimension": "intelligence"}
+{"aspect": "structured output quality", "dimension": "intelligence"}
+{"aspect": "struggles/reliability", "dimension": "other"}
+{"aspect": "struggling with task", "dimension": "intelligence"}
+{"aspect": "stuck fixing subagent messes", "dimension": "steerability"}
+{"aspect": "stuck in loop", "dimension": "steerability"}
+{"aspect": "stuck on complex, long-context tasks", "dimension": "intelligence"}
+{"aspect": "subagent delegation results", "dimension": "intelligence"}
+{"aspect": "subagent deleted parent's code changes", "dimension": "steerability"}
+{"aspect": "subagent heavy usage", "dimension": "price"}
+{"aspect": "submission kept failing", "dimension": "intelligence"}
+{"aspect": "subscription cost", "dimension": "price"}
+{"aspect": "subscription tier priced 4-8x the api rate", "dimension": "price"}
+{"aspect": "subscription usage limits", "dimension": "price"}
+{"aspect": "subscription value for the price", "dimension": "price"}
+{"aspect": "subscription value vs alternatives", "dimension": "price"}
+{"aspect": "subsidized token value", "dimension": "price"}
+{"aspect": "success rate and cost vs cursor", "dimension": "price"}
+{"aspect": "sudden capability degradation", "dimension": "intelligence"}
+{"aspect": "sudden intelligence degradation", "dimension": "intelligence"}
+{"aspect": "sufficiency for needs", "dimension": "overall"}
+{"aspect": "sufficient capability", "dimension": "intelligence"}
+{"aspect": "sufficient for building an mvp", "dimension": "intelligence"}
+{"aspect": "sufficient for most faculty work", "dimension": "intelligence"}
+{"aspect": "sufficient for simple conversation", "dimension": "intelligence"}
+{"aspect": "sufficient for workflow", "dimension": "overall"}
+{"aspect": "sufficient reasoning effort setting", "dimension": "intelligence"}
+{"aspect": "sufficient without vision features", "dimension": "intelligence"}
+{"aspect": "sufficient, no need to upgrade", "dimension": "overall"}
+{"aspect": "suitable for cli coding", "dimension": "intelligence"}
+{"aspect": "superior and daily driver", "dimension": "overall"}
+{"aspect": "supervisor role", "dimension": "other"}
+{"aspect": "surpassing frontier models", "dimension": "intelligence"}
+{"aspect": "surprise impact overshadowed by bigger launches", "dimension": "other"}
+{"aspect": "surprising cost-quality results", "dimension": "price"}
+{"aspect": "surprising terminal bench result", "dimension": "intelligence"}
+{"aspect": "surprisingly capable for reasoning-heavy tasks", "dimension": "intelligence"}
+{"aspect": "surprisingly good among trial models", "dimension": "intelligence"}
+{"aspect": "surprisingly good at certain tasks, better than expected", "dimension": "intelligence"}
+{"aspect": "surprisingly good context handling", "dimension": "intelligence"}
+{"aspect": "surprisingly strong", "dimension": "intelligence"}
+{"aspect": "surprisingly strong performance", "dimension": "intelligence"}
+{"aspect": "suspected benchmark gaming", "dimension": "intelligence"}
+{"aspect": "sustained autonomous execution in goal mode", "dimension": "steerability"}
+{"aspect": "sustained frontier position", "dimension": "intelligence"}
+{"aspect": "sustained performance over time", "dimension": "intelligence"}
+{"aspect": "svg design quality", "dimension": "intelligence"}
+{"aspect": "svg design, no sharp corners", "dimension": "intelligence"}
+{"aspect": "svg frontend design detail", "dimension": "intelligence"}
+{"aspect": "svg generation quality", "dimension": "intelligence"}
+{"aspect": "svg generation speed and quality", "dimension": "intelligence"}
+{"aspect": "svg output at zero reasoning tokens", "dimension": "price"}
+{"aspect": "svg quality, no shortcuts", "dimension": "intelligence"}
+{"aspect": "swe-bench accuracy despite higher cost", "dimension": "price"}
+{"aspect": "switched to", "dimension": "overall"}
+{"aspect": "switching to as primary multimodal model", "dimension": "other"}
+{"aspect": "sycophancy and code shortcuts", "dimension": "personality"}
+{"aspect": "system success rate over months", "dimension": "intelligence"}
+{"aspect": "task completeness", "dimension": "intelligence"}
+{"aspect": "task completion", "dimension": "intelligence"}
+{"aspect": "task completion effectiveness", "dimension": "intelligence"}
+{"aspect": "task completion rate, one tag-parsing failure", "dimension": "intelligence"}
+{"aspect": "task completion reliability", "dimension": "intelligence"}
+{"aspect": "task completion slowed dramatically", "dimension": "speed"}
+{"aspect": "task completion speed", "dimension": "speed"}
+{"aspect": "task completion speed and quality", "dimension": "intelligence"}
+{"aspect": "task cost efficiency", "dimension": "price"}
+{"aspect": "task cost pricing", "dimension": "price"}
+{"aspect": "task execution role in custom harness", "dimension": "other"}
+{"aspect": "task fit for some workflows", "dimension": "intelligence"}
+{"aspect": "task handling and cost", "dimension": "price"}
+{"aspect": "task-specific performance", "dimension": "intelligence"}
+{"aspect": "tb4 capability score", "dimension": "intelligence"}
+{"aspect": "tb4 win via harness swap", "dimension": "intelligence"}
+{"aspect": "tencent hy4 blind benchmark score", "dimension": "intelligence"}
+{"aspect": "tencent internal blind-test evaluation", "dimension": "intelligence"}
+{"aspect": "terminal bench 3.0 score", "dimension": "intelligence"}
+{"aspect": "terminal bench 4.0 ranking", "dimension": "intelligence"}
+{"aspect": "terminal bench and deepswe scores", "dimension": "intelligence"}
+{"aspect": "terminal bench performance", "dimension": "intelligence"}
+{"aspect": "terminal bench ranking legitimacy", "dimension": "intelligence"}
+{"aspect": "terminal bench result", "dimension": "intelligence"}
+{"aspect": "terminal bench science score", "dimension": "intelligence"}
+{"aspect": "terminal bench score", "dimension": "intelligence"}
+{"aspect": "terminal bench score credibility", "dimension": "intelligence"}
+{"aspect": "terminal coding benchmark score", "dimension": "intelligence"}
+{"aspect": "terminal-bench 2.1 score", "dimension": "intelligence"}
+{"aspect": "terminal-bench 4.0 pass rate", "dimension": "intelligence"}
+{"aspect": "terminal-bench 4.0 ranking", "dimension": "intelligence"}
+{"aspect": "terminal-bench 4.0 score", "dimension": "intelligence"}
+{"aspect": "terminal-bench 4.0 score claim", "dimension": "intelligence"}
+{"aspect": "terminal-bench agent benchmark", "dimension": "intelligence"}
+{"aspect": "terminal-bench leadership among open-source models", "dimension": "intelligence"}
+{"aspect": "terminal-bench score", "dimension": "intelligence"}
+{"aspect": "terminal-bench score approaching opus tier", "dimension": "intelligence"}
+{"aspect": "terminal-bench score at lower cost", "dimension": "price"}
+{"aspect": "terminal-bench score, open and fast", "dimension": "intelligence"}
+{"aspect": "terminal-bench-science leaderboard score", "dimension": "intelligence"}
+{"aspect": "terminal-bench-science score", "dimension": "intelligence"}
+{"aspect": "terminal-bench-science score vs fable 5", "dimension": "intelligence"}
+{"aspect": "terminal-bench/deepswe ties or beats", "dimension": "intelligence"}
+{"aspect": "terminal-bench/frontiermath/exploitbench scores", "dimension": "intelligence"}
+{"aspect": "terminalbench 4.0 ranking", "dimension": "intelligence"}
+{"aspect": "terrific coding model for implementation", "dimension": "intelligence"}
+{"aspect": "test coverage quality", "dimension": "intelligence"}
+{"aspect": "test performance", "dimension": "intelligence"}
+{"aspect": "test results quality", "dimension": "intelligence"}
+{"aspect": "text reconstruction quality vs ai-ish phrasing", "dimension": "personality"}
+{"aspect": "think turn failure reliability", "dimension": "intelligence"}
+{"aspect": "thinking depth and research limits", "dimension": "intelligence"}
+{"aspect": "third repost of comparison", "dimension": "other"}
+{"aspect": "thorough but slow migration", "dimension": "speed"}
+{"aspect": "thoroughness and fewer mistakes", "dimension": "intelligence"}
+{"aspect": "thoroughness of file reading", "dimension": "intelligence"}
+{"aspect": "thoroughness on edge cases versus time taken", "dimension": "speed"}
+{"aspect": "thoroughness on unspecified details", "dimension": "intelligence"}
+{"aspect": "thoroughness versus opus 5", "dimension": "intelligence"}
+{"aspect": "thread-style writing quality", "dimension": "personality"}
+{"aspect": "three.js 3d world building", "dimension": "intelligence"}
+{"aspect": "three.js integration and controls", "dimension": "intelligence"}
+{"aspect": "threejs apartment test quality", "dimension": "intelligence"}
+{"aspect": "threejs vibe-check performance", "dimension": "intelligence"}
+{"aspect": "throughput (tokens per second)", "dimension": "speed"}
+{"aspect": "throughput on own hardware", "dimension": "speed"}
+{"aspect": "throughput optimization 39 to 64 tps", "dimension": "speed"}
+{"aspect": "throughput versus deepseek on same hardware", "dimension": "speed"}
+{"aspect": "tier ranking placement", "dimension": "intelligence"}
+{"aspect": "tier ranking placement above grok", "dimension": "intelligence"}
+{"aspect": "time and dollar cost per test", "dimension": "price"}
+{"aspect": "time and token efficiency", "dimension": "price"}
+{"aspect": "time to first token", "dimension": "speed"}
+{"aspect": "time to task completion", "dimension": "speed"}
+{"aspect": "timely open-weight release for agentic coding", "dimension": "other"}
+{"aspect": "token bloat and benchmaxxed scores", "dimension": "price"}
+{"aspect": "token budget limits output", "dimension": "price"}
+{"aspect": "token burn vs quality gain", "dimension": "price"}
+{"aspect": "token burn, limited to deep audits", "dimension": "price"}
+{"aspect": "token consumption", "dimension": "price"}
+{"aspect": "token consumption / rate limits", "dimension": "price"}
+{"aspect": "token consumption and file garbage", "dimension": "price"}
+{"aspect": "token consumption as orchestrator", "dimension": "price"}
+{"aspect": "token consumption at max reasoning", "dimension": "price"}
+{"aspect": "token consumption cost", "dimension": "price"}
+{"aspect": "token consumption draining rate limit", "dimension": "price"}
+{"aspect": "token consumption during long tasks", "dimension": "price"}
+{"aspect": "token consumption in multi-agent runs", "dimension": "price"}
+{"aspect": "token consumption on high reasoning", "dimension": "price"}
+{"aspect": "token consumption rate", "dimension": "price"}
+{"aspect": "token consumption running out fast despite high spend", "dimension": "price"}
+{"aspect": "token consumption vs plan tier", "dimension": "price"}
+{"aspect": "token consumption vs sol", "dimension": "price"}
+{"aspect": "token consumption without clear use case", "dimension": "price"}
+{"aspect": "token consumption without quality gain", "dimension": "price"}
+{"aspect": "token consumption, speed, and quality vs 5.0", "dimension": "price"}
+{"aspect": "token consumption/cost", "dimension": "price"}
+{"aspect": "token consumption/limits", "dimension": "price"}
+{"aspect": "token cost efficiency vs opus", "dimension": "price"}
+{"aspect": "token cost for equal-quality output", "dimension": "price"}
+{"aspect": "token cost per task", "dimension": "price"}
+{"aspect": "token cost per volume used", "dimension": "price"}
+{"aspect": "token cost savings replacing background tasks", "dimension": "price"}
+{"aspect": "token cost vs coding benchmark performance", "dimension": "price"}
+{"aspect": "token efficiency", "dimension": "price"}
+{"aspect": "token efficiency and cost", "dimension": "price"}
+{"aspect": "token efficiency and cost per task", "dimension": "price"}
+{"aspect": "token efficiency and hallucination rate", "dimension": "price"}
+{"aspect": "token efficiency and long-horizon execution versus sol", "dimension": "price"}
+{"aspect": "token efficiency and output quality", "dimension": "price"}
+{"aspect": "token efficiency and pass rate", "dimension": "price"}
+{"aspect": "token efficiency and speed", "dimension": "price"}
+{"aspect": "token efficiency and speed vs opus 5", "dimension": "price"}
+{"aspect": "token efficiency and success rate", "dimension": "price"}
+{"aspect": "token efficiency at high thinking levels", "dimension": "price"}
+{"aspect": "token efficiency for long task", "dimension": "price"}
+{"aspect": "token efficiency for the score achieved", "dimension": "price"}
+{"aspect": "token efficiency per completed task", "dimension": "price"}
+{"aspect": "token efficiency per task", "dimension": "price"}
+{"aspect": "token efficiency versus alternative", "dimension": "price"}
+{"aspect": "token efficiency vs luna", "dimension": "price"}
+{"aspect": "token efficiency vs opus", "dimension": "price"}
+{"aspect": "token efficiency vs prior benchmarks", "dimension": "price"}
+{"aspect": "token generation causing delays and timeouts", "dimension": "speed"}
+{"aspect": "token limits vs output quality", "dimension": "price"}
+{"aspect": "token looping / limits", "dimension": "price"}
+{"aspect": "token pricing despite price-cut claims", "dimension": "price"}
+{"aspect": "token throughput", "dimension": "speed"}
+{"aspect": "token throughput value", "dimension": "speed"}
+{"aspect": "token usage blamed on harness, not the model", "dimension": "price"}
+{"aspect": "token value", "dimension": "price"}
+{"aspect": "token value at chatgpt pro price", "dimension": "price"}
+{"aspect": "token value for cost", "dimension": "price"}
+{"aspect": "token value for money", "dimension": "price"}
+{"aspect": "token waste versus output produced", "dimension": "price"}
+{"aspect": "token/cost efficiency versus anthropic models", "dimension": "price"}
+{"aspect": "tokens and calls per task", "dimension": "price"}
+{"aspect": "tokens needed to succeed", "dimension": "price"}
+{"aspect": "tokens per second", "dimension": "speed"}
+{"aspect": "tokens per second speed", "dimension": "speed"}
+{"aspect": "tokens spent per task", "dimension": "price"}
+{"aspect": "tokens-per-second speed ranking", "dimension": "speed"}
+{"aspect": "tokens/sec inference speed", "dimension": "speed"}
+{"aspect": "tone imitates claude", "dimension": "personality"}
+{"aspect": "too expensive", "dimension": "price"}
+{"aspect": "too verbose and costly", "dimension": "price"}
+{"aspect": "took 15 minutes to run a script", "dimension": "speed"}
+{"aspect": "tool call and token efficiency", "dimension": "price"}
