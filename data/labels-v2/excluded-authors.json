@@ -1,0 +1,5 @@
+[
+  {"author_id": "1720665183188922368", "posts": 242, "reason": "Grok-style reply account answering mentions with formatted benchmark and news summaries; 65 posts flagged ai_author by the labeler, the rest are the same voice."},
+  {"author_id": "2059857807634251776", "posts": 39, "reason": "Copy-pasted reseller spam ('I found a hidden gem: one-click API replacement for Codex and Claude Code')."},
+  {"author_id": "2031678662274437120", "posts": 20, "reason": "Automated 'Top-5 Best Value LLM Models of the Day' table poster."}
+]

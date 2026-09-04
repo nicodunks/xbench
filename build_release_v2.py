@@ -97,12 +97,28 @@ def main():
                 labels[r["post_id"]] = r
     if set(labels) != set(corpus):
         raise ValueError(f"labels incomplete: {len(labels)}/{len(corpus)}")
+    # Reviewer overrides replace the labeler's record wholesale.
+    overrides_path = V2 / "overrides.jsonl"
+    overrides = 0
+    if overrides_path.exists():
+        for line in overrides_path.read_text().split("\n"):
+            if line:
+                r = json.loads(line)
+                if r["post_id"] not in labels:
+                    raise ValueError(f"override for unknown post {r['post_id']}")
+                labels[r["post_id"]] = {**r, "overridden": True}; overrides += 1
 
     # Author exclusion: an author is dropped when the labeler flagged most of their posts as AI-authored.
     by_author = defaultdict(list)
     for pid, r in labels.items():
         by_author[corpus[pid].get("author_id")].append(bool(r.get("ai_author")))
     excluded_authors = {a for a, flags in by_author.items() if a and sum(flags) * 2 > len(flags)}
+    # Reviewer exclusions: high-volume reply bots and spam accounts whose posts the
+    # per-post labeler only partly flagged. Listed with reasons in excluded-authors.json.
+    reviewer_excluded_path = V2 / "excluded-authors.json"
+    if reviewer_excluded_path.exists():
+        for row in json.loads(reviewer_excluded_path.read_text()):
+            excluded_authors.add(str(row["author_id"]))
 
     start = datetime.fromisoformat(OLD["window"]["start"].replace("Z", "+00:00"))
     end = datetime.fromisoformat(OLD["window"]["end"].replace("Z", "+00:00"))
@@ -206,7 +222,7 @@ def main():
         "schema_version": "4.0", "release": "labels-v2", "source": "Official X API v2 stored corpus",
         "window": OLD["window"],
         "corpus": {"unique_posts": len(corpus), "unique_authors": len({r.get("author_id") for r in corpus.values() if r.get("author_id")}),
-                   "comments": sum(bool(r.get("is_comment")) for r in corpus.values()), "classified_posts": len(labels),
+                   "comments": sum(bool(r.get("is_comment")) for r in corpus.values()), "classified_posts": len(labels), "reviewer_overrides": overrides,
                    "excluded_ai_authors": len(excluded_authors),
                    "excluded_posts": sum(1 for p in corpus.values() if p.get("author_id") in excluded_authors)},
         "recorded_spend_usd": OLD["recorded_spend_usd"], "attention": OLD["attention"],

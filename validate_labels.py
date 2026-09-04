@@ -29,9 +29,14 @@ def read_jsonl(path: Path) -> list[dict]:
     return [json.loads(l) for l in path.read_text().split("\n") if l.strip()]
 
 
+CANONICAL = MODELS | HARNESSES | FAMILIES
+
+
 def check_id(value, errors, where):
     if not isinstance(value, str) or not value or set(value) - ID_CHARS:
         errors.append(f"{where}: bad id {value!r}")
+    elif value not in CANONICAL:
+        errors.append(f"{where}: non-canonical id {value!r}")
 
 
 def validate_batch(name: str) -> dict:
@@ -52,7 +57,7 @@ def validate_batch(name: str) -> dict:
     for reason, n in reasons.items():
         if n > 1:
             errors.append(f"reason repeated {n}x: {reason[:80]!r}")
-    stats = Counter()
+    stats = Counter({k: 0 for k in ("relevant", "uncertain", "ai_author", "sentiment", "sentiment_firsthand", "sentiment_endorsement", "harness_sentiment", "preferences", "harness_preferences", "switches")})
     for r in out:
         pid = r.get("post_id")
         for key in ("relevant", "ai_author", "uncertain"):
