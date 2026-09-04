@@ -71,3 +71,7 @@
 .hero-copy{justify-content:center;padding-top:60px;padding-bottom:60px}.hero-copy .hero-status{margin-top:64px}.hero-copy:before{display:none}.hero h1{font-size:clamp(64px,7vw,112px);letter-spacing:-.06em}.subtitle{margin:22px 0 0;color:var(--b70);font-size:15px;letter-spacing:.2em;text-transform:uppercase}.subtitle:before{content:"// ";color:var(--b28)}
 .counted-tweet header,.mural-card header{gap:0}.counted-tweet header span,.mural-card header span{min-width:0}
 .battle-matrix .matrix-cell.thin{--strength:0;background:transparent;border-color:var(--b07);color:var(--b18)}.battle-matrix .matrix-cell.thin small{color:var(--b15)}.battle-matrix .matrix-cell.thin:hover,.battle-matrix .matrix-cell.thin:focus-visible{color:var(--blue)}
+
+/* tracked strip: even columns */
+.tracked>div{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;padding:0}.tracked>div span{padding:14px 10px;border-right:1px dashed var(--b18);text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tracked>div span:last-child{border-right:0}.tracked>div span:before{content:""}
+@media(max-width:980px){.tracked>div{grid-auto-flow:row;grid-template-columns:repeat(4,1fr)}.tracked>div span{border-right:0;border-bottom:1px dashed var(--b18)}}
