@@ -55,3 +55,10 @@
 .legend-chip.on.p0 span,.legend-chip.on.p0 small{color:var(--signal-blue)}.legend-chip.on.p1 span,.legend-chip.on.p1 small{color:var(--blue)}.legend-chip.on.p2 span,.legend-chip.on.p2 small{color:rgba(255,150,150,.95)}.legend-chip.on.p3 span,.legend-chip.on.p3 small{color:rgba(255,222,140,.98)}.legend-chip.on.p1 i{border-top-style:dashed}.legend-chip.on.p2 i{border-top-style:dotted}.legend-chip.on.p3 i{border-top-style:dashed}
 .method-tag .star,.sentiment-name .star{color:var(--b48)}
 .legend-chip span{white-space:nowrap}
+
+/* bigger rail */
+.report-shell{grid-template-columns:270px minmax(0,1fr)}.rail{padding:56px 30px;gap:20px;font-size:15px}.rail p{font-size:14px}
+/* radar legend: larger */
+.legend-chip{grid-template-columns:20px 18px 1fr auto;padding:8px 10px;font-size:13px}.legend-chip small{font-size:11px}.legend-chip img{width:18px;height:18px}.radar-wrap{grid-template-columns:minmax(0,1fr) 340px}
+/* sankey labels */
+.sankey .s-label{font-size:13px}
