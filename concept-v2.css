@@ -40,3 +40,19 @@
 .scorecard{display:grid;grid-template-columns:repeat(2,1fr);gap:4px 28px;margin-bottom:6px}.score-row{display:grid;grid-template-columns:150px 1fr 44px 40px;gap:10px;align-items:center;padding:5px 0;border-bottom:1px dotted var(--b15);font-size:10px}.score-row span{color:var(--b70)}.score-row .stack{height:12px}.score-row b{font-weight:400;text-align:right}.score-row b.positive{color:var(--signal-blue)}.score-row b.negative{color:rgba(255,150,150,.9)}.score-row b.neutral{color:var(--b48)}.score-row small{color:var(--b48);text-align:right}.score-row.thin{opacity:.45}
 /* aspect heatmap */
 .heat{width:max-content;min-width:100%;border-collapse:separate;border-spacing:3px}.heat th{font-weight:400}.heat thead th{height:auto;padding:0 6px 10px;color:var(--b70);font-size:11px;line-height:1.25;text-align:center;vertical-align:bottom;width:118px}.heat thead th:first-child,.heat tbody th{position:sticky;left:0;z-index:2;width:170px;background:var(--ink);text-align:left}.heat tbody th .matrix-row{font-size:11px}.heat td{width:118px;height:52px}.heat .matrix-cell.thin{opacity:.42}.heat .matrix-cell b{font-size:13px}.heat .matrix-cell small{font-size:8px}
+
+/* ---------- hero light ---------- */
+.hero{position:relative;isolation:isolate;overflow:hidden}.hero-light{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}.hero>.hero-copy,.hero>.hero-index{position:relative;z-index:1}
+.mandate{margin:26px 0 0;color:var(--b70);font-size:13px;letter-spacing:.22em;text-transform:uppercase;background:linear-gradient(100deg,rgba(242,242,237,.55) 0%,rgba(242,242,237,.55) 38%,#fff8e4 50%,rgba(242,242,237,.55) 62%,rgba(242,242,237,.55) 100%);background-size:260% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 7s ease-in-out infinite}.mandate span{-webkit-text-fill-color:var(--b28)}
+@keyframes sheen{0%{background-position:120% 0}55%{background-position:-40% 0}100%{background-position:-40% 0}}
+.lede{margin-top:30px}
+/* the mural catches the light */
+.mural-grid{background:rgba(242,242,237,.22);box-shadow:0 0 0 1px rgba(242,242,237,.06),0 30px 80px -40px rgba(255,244,214,.25)}
+.mural-card{background:rgba(17,19,17,.86);backdrop-filter:blur(2px)}
+.mural-card:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 90% at 100% 0%,rgba(255,246,220,.13),transparent 55%);opacity:.9;transition:opacity .4s}
+.mural-card:hover:before{opacity:1;background:radial-gradient(120% 90% at 100% 0%,rgba(255,246,220,.22),transparent 60%)}
+.mural-card.is-entering:before{animation:glint .9s ease-out}
+@keyframes glint{0%{background:radial-gradient(60% 60% at 100% 0%,rgba(255,250,235,.55),transparent 70%)}100%{background:radial-gradient(120% 90% at 100% 0%,rgba(255,246,220,.13),transparent 55%)}}
+.mural-card b{color:#f7f2e3}
+.hero-copy:before{color:rgba(255,246,220,.28)}
+@media(prefers-reduced-motion:reduce){.mandate{animation:none;background-position:50% 0}}
