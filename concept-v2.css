@@ -19,9 +19,17 @@
 .battle-matrix.small thead th{width:96px}.battle-matrix.small td{width:96px}.battle-matrix.small thead th:first-child,.battle-matrix.small tbody th{width:150px}
 .preference-duel .duel-lines{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;margin:16px 0}.duel-lines>div{height:26px;border:1px solid var(--b28)}.duel-lines>div i{display:block;height:100%;background:var(--blue)}.duel-lines>div:last-child i{margin-left:auto;background:repeating-linear-gradient(135deg,var(--blue) 0 1px,transparent 1px 4px)}.duel-lines span{color:var(--b48);font-size:9px;text-transform:uppercase}
 .switch-list{margin:0;padding:0;list-style:none}.switch-list li{display:grid;grid-template-columns:1fr auto;gap:12px;padding:9px 0;border-bottom:1px dashed var(--b15);font-size:12px}.switch-list li span:before{content:"> ";color:var(--b48)}.switch-list li b{font-weight:400;font-size:16px}.switch-list li span{color:var(--b70)}
-.harness-grid{grid-template-columns:1.1fr .9fr}.preference-duel{border-right:1px dashed var(--b28)}.attention-duel{border-right:0}
+.harness-grid{grid-template-columns:1.1fr .9fr}.attention-duel .switch-list{margin-top:4px}.preference-duel{border-right:1px dashed var(--b28)}.attention-duel{border-right:0}
 .quality-row{grid-template-columns:1.4fr .6fr 2fr}
 .method-tag,.rating-state{max-width:420px;white-space:normal;text-align:right}
 @media(max-width:980px){.harness-grid{grid-template-columns:1fr}.preference-duel{border-right:0;border-bottom:1px dashed var(--b28)}.aspects{grid-template-columns:1fr}.sentiment-axis{display:none}}
 @media(max-width:680px){.sentiment-main{grid-template-columns:1fr 60px 50px}.mode-switch{flex-wrap:wrap}}
 .readme-block p:nth-child(odd){color:var(--blue);font-size:9px;text-transform:uppercase;letter-spacing:.08em;margin-top:14px}.readme-block p:first-child{margin-top:0}
+
+/* horizontal matrix headers */
+.battle-matrix thead th{width:92px;height:auto;padding-bottom:10px;vertical-align:bottom}.matrix-col{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:7px;height:auto;writing-mode:horizontal-tb;transform:none;color:var(--b70);font-size:11px;line-height:1.25;text-align:center}.matrix-col img{width:20px;height:20px}.battle-matrix td{width:92px}.battle-matrix.small thead th,.battle-matrix.small td{width:118px}.battle-matrix.small .matrix-col{font-size:12px}.matrix-row{font-size:11px}
+/* sankey */
+.sankey .s-node{fill:var(--blue)}.sankey .s-node.right{fill:url(#stripe-s)}.sankey .s-ribbon{fill:var(--signal-blue);opacity:.28;stroke:none;cursor:pointer;transition:opacity .15s}.sankey .s-ribbon:hover,.sankey .s-ribbon.on{opacity:.85}.sankey .s-label{fill:var(--blue);font:12px XMono,"Andale Mono",monospace}.sankey .s-count{fill:var(--b48);font:10px XMono,"Andale Mono",monospace}.sankey .s-tip{fill:var(--blue);font:11px XMono,"Andale Mono",monospace;pointer-events:none}
+/* drawers open by default */
+.sentiment-row{cursor:default}.sentiment-row .sentiment-name{cursor:pointer}.sentiment-row.open{background:transparent}.sentiment-row .drawer{display:block}.sentiment-row.closed .drawer{display:none}.sentiment-name strong .star{color:var(--b48)}
+.drawer .evidence-scroll .counted-tweet{flex-basis:300px;min-height:150px}
