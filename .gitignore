@@ -1,3 +1,4 @@
 .env.x
+.env
 __pycache__/
 .DS_Store
