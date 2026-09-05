@@ -302,3 +302,9 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .sentiment-main{grid-template-columns:1fr 64px 76px}.sentiment-axis{grid-template-columns:210px 1fr 64px 76px}.sentiment-main .n{font-size:12.5px;color:var(--b48);text-align:right;padding-right:6px}
 .rank{width:32px;font-size:12.5px}
 @media(max-width:680px){.sentiment-main{grid-template-columns:1fr 44px 56px}.mural-tags{display:none!important}.mural-card p{-webkit-line-clamp:4}}
+/* mural chips: one scrollable strip under the tweet */
+.mural-card{display:flex;flex-direction:column}.mural-card p{flex:0 0 auto;-webkit-line-clamp:3}
+.mural-tags{display:flex!important;flex:0 0 auto;flex-wrap:nowrap;justify-content:flex-start;margin:auto 0 0;padding:8px 44px 0 0;max-width:none;gap:5px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.mural-tags::-webkit-scrollbar{display:none}.mural-tags .who{flex:0 0 auto}
+.mural-card header{flex-wrap:nowrap}.mural-card header>span:not(.mural-tags){max-width:none;flex:1 1 auto}
+@media(max-width:680px){.mural-card p{-webkit-line-clamp:3}}

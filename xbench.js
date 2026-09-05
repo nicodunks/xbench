@@ -659,7 +659,7 @@ function mural(rows) {
     const lines = (p.lines && p.lines.length ? p.lines : [{ target: p.target, sentiment: p.sentiment }]).slice(0, 3);
     const tags = `<span class="mural-tags">${lines.map((l) => `<span class="who">${icon(l.target)}<span>${esc(label(l.target))}</span><em class="tab ${esc(l.sentiment)}">${esc(l.sentiment)}</em></span>`).join("")}</span>`;
     const avatar = p.avatar ? `<img src="${p.avatar}" alt="" loading="lazy" onerror="this.remove()">` : "";
-    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span>${tags}</header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
+    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span></header><p>${esc(p.text)}</p>${tags}<span class="mural-open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
   };
   for (let i = posts.length - 1; i > 0; i--) {
     const k = Math.floor(Math.random() * (i + 1));
