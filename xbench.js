@@ -277,9 +277,6 @@ function radar(svg, legend, rows, kind, defaults) {
       anchor,
     );
   });
-  addText(svg, cx + 4, cy - rad(0) - 6, "0", "r-label sub");
-  addText(svg, cx + 4, cy - rad(1) + 12, "+100", "r-label sub");
-  addText(svg, cx + 4, cy - rad(-1) - 4, "−100", "r-label sub");
   const val = (m, id) => {
     const b = (m.dimensions || {})[id];
     return b && b.n ? { v: b.net_sentiment, n: b.n } : { v: -1, n: 0 };
