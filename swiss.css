@@ -149,11 +149,11 @@ a{color:inherit}
 .chapter-head{position:relative}
 .guest{position:absolute;bottom:-14px;height:220px;width:auto;pointer-events:none;filter:drop-shadow(0 8px 0 rgba(18,18,18,.07))}
 .g-sam{right:40px;rotate:-5deg}
-.g-elon{right:56px;rotate:6deg;height:210px}
-.g-boris{right:230px;rotate:-7deg;height:200px;bottom:-10px}
-.g-tibo{right:30px;rotate:5deg;height:215px}
+.g-elon{right:150px;rotate:6deg;height:260px;bottom:-34px}
+.g-boris{right:330px;rotate:-7deg;height:250px;bottom:-30px}
+.g-tibo{right:90px;rotate:5deg;height:265px;bottom:-34px}
 .chapter-head>p{max-width:520px}
-@media(max-width:1180px){.guest{height:160px}.g-boris{right:170px;height:150px}}
+@media(max-width:1180px){.guest{height:170px;bottom:-14px}.g-boris{right:200px;height:160px}.g-elon{right:60px}.g-tibo{right:20px}}
 @media(max-width:680px){.guest{display:none}.stage .crowd{display:none}}
 
 /* battle engine styles */
