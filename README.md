@@ -90,6 +90,13 @@ firsthand authors carry an asterisk. An English-only rerun leaves every model
 rank unchanged. Pi and OpenCode are in the data but not on the page; their
 samples were too thin.
 
+## Running it again
+
+Two guides for the agent that maintains this: [`X_API_GUIDE.md`](X_API_GUIDE.md)
+for what to ask X for on a $10 day, and
+[`AGENT_LABELING_GUIDE.md`](AGENT_LABELING_GUIDE.md) for how the labeling and
+review pass is run.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). The most useful contribution is a
