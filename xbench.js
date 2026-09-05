@@ -656,7 +656,8 @@ function mural(rows) {
   const c = (p, i, enter = false) => {
     const axis = i % 2 ? "flip-x" : "flip-y";
     const who = p.username ? `<b>${esc(p.name || p.username)}</b><small>@${esc(p.username)}</small>` : `<b>${esc(label(p.target))}</b><small>${esc(p.aspect || "")}</small>`;
-    const foot = `<footer class="mural-foot"><span class="who">${icon(p.target)}<span>${esc(label(p.target))}</span></span><em class="tab ${esc(p.sentiment)}">${esc(p.sentiment)}</em></footer>`;
+    const lines = (p.lines && p.lines.length ? p.lines : [{ target: p.target, sentiment: p.sentiment }]).slice(0, 3);
+    const foot = `<footer class="mural-foot">${lines.map((l) => `<span class="who">${icon(l.target)}<span>${esc(label(l.target))}</span><em class="tab ${esc(l.sentiment)}">${esc(l.sentiment)}</em></span>`).join("")}</footer>`;
     const avatar = p.avatar ? `<img src="${p.avatar}" alt="" loading="lazy" onerror="this.remove()">` : "";
     return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span></header><p>${esc(p.text)}</p>${foot}<span class="mural-open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
   };
@@ -865,10 +866,18 @@ async function init() {
       renderCards($("#harnessSwitchEvidence"), hs.sort(byDate), "switching");
     }
     method(summary, ev);
+    const byPost = new Map();
+    for (const r of [...(ev.sentiment || []), ...(ev.harness_sentiment || [])]) {
+      if (!r.firsthand) continue;
+      const t = r.model || r.harness;
+      const arr = byPost.get(r.post_id) || [];
+      if (!arr.some((x) => x.target === t)) arr.push({ target: t, sentiment: r.sentiment });
+      byPost.set(r.post_id, arr);
+    }
     mural(
       hero.posts && hero.posts.length
-        ? hero.posts
-        : [...(ev.sentiment || []), ...(ev.harness_sentiment || [])].filter((r) => r.firsthand).map((r) => ({ ...r, target: r.model || r.harness })),
+        ? hero.posts.map((p) => ({ ...p, lines: byPost.get(p.post_id) || [] }))
+        : [...byPost.entries()].map(([post_id, lines]) => ({ ...(ev.sentiment || []).concat(ev.harness_sentiment || []).find((r) => r.post_id === post_id), post_id, target: lines[0].target, sentiment: lines[0].sentiment, lines })),
     );
   } catch (err) {
     console.error(err);
