@@ -186,3 +186,8 @@ a{color:inherit}
 .sentiment-name strong img{filter:grayscale(1)!important}
 .counted-tweet:hover .open,.mural-card:hover .mural-open{color:var(--paper);background:var(--inkc);border-color:var(--inkc)}
 .s-logo{filter:grayscale(1)}.s-count{font-size:44px;font-weight:800;fill:var(--inkc);letter-spacing:-.02em}.s-name{font-size:15px;fill:var(--b70)}
+/* duel chart type up, height held */
+.preference-duel .duel-title{font-size:12.5px;margin:18px 0 10px}.preference-duel .duel-title:first-child{margin-top:0}
+.dimbars{margin:6px 0 4px}.dimrow{grid-template-columns:34px 1fr 190px 1fr 34px;gap:12px;padding:6px 0;font-size:15px;line-height:1.2}.dimrow b{font-size:16px}.dimrow .dl,.dimrow .dr{height:14px}
+.daybars{margin:6px 0 4px;gap:10px}.day .cols{height:60px}.day .cols i{width:14px}.day small{font-size:12.5px}.daykey{font-size:13px;margin-top:0}.daykey i{width:14px;height:9px}
+.tug{margin:12px 0 8px}
