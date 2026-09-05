@@ -1,107 +1,131 @@
 # Xbench
 
-**Measuring the Mandate of Heaven.** Seven days of firsthand opinion on X
-about frontier AI models and the coding harnesses people run them in.
+**Measuring the Mandate of Heaven.** Seven days of firsthand opinion on X about frontier AI models and the coding harnesses people run them in.
 
 Live: https://nicodunks.github.io/xbench/
+Repo: https://github.com/nicodunks/xbench
 
-Xbench reads every post, one at a time, with a language model working from a
-written contract, then a reviewer checks the flagged ones. Only firsthand
-experience is scored. Every number on the page links back to the posts that
-produced it.
+## Setup
 
-## What's on the page
-
-- **Sentiment** — one author, one stance per model per week, as positives
-  minus negatives on a −100 to +100 scale.
-- **Switching** — completed, first-person moves between models and between
-  harnesses.
-- **Head-to-head** — direct comparisons by people who used both, and
-  XbenchPref, a Bradley-Terry rating on the Elo scale with bootstrap intervals.
-- **Harnesses** — Claude Code, Codex and Grok Bot, scored apart from the
-  models they run. Limits, quotas and subscription complaints land here.
-- **Reasons** — every stance's reason filed under five dimensions for models
-  (intelligence, speed, price, steerability, personality) and five for
-  harnesses (limits, reliability, efficiency, agent behaviour, developer
-  experience), as radars and per-model pages.
-- **Methods, limitations and open questions.**
-
-Tracked models are exact versions only. An unversioned name rolls up to a
-family and is never scored as a specific model.
-
-## Run it locally
+The page is static. Run it locally with:
 
 ```bash
 python3 -m http.server 4173
 ```
 
-Open `http://127.0.0.1:4173/`. The page is static: `index.html`, `xbench.css`,
-`xbench.js`, and two JSON files under `data/labels-v2/`.
+and open `http://127.0.0.1:4173/`. Everything the page shows comes from `index.html`, `xbench.css`, `swiss.css`, `xbench.js` and two JSON files under `data/labels-v2/`: `public-summary.json` (every chart) and `public-evidence.json` (every counted post, with its reason and a link back to X).
 
-## How posts are labeled
+The pipeline pulls posts from the official X API, labels every post with a language model working from [`AGENT_CLASSIFICATION_PROMPT.md`](AGENT_CLASSIFICATION_PROMPT.md), has a reviewer re-read the flagged ones, and aggregates with `build_release_v2.py`. The raw corpus stays in `data/private/`, which is ignored. Every label for every post is public by id, so any number on the page can be audited. To run a collection day or a labeling pass, see [`X_API_GUIDE.md`](X_API_GUIDE.md) and [`AGENT_LABELING_GUIDE.md`](AGENT_LABELING_GUIDE.md). Contributions go through [CONTRIBUTING.md](CONTRIBUTING.md); the most useful one is a disputed label with the post link. MIT for the code, post texts belong to their authors, see [LICENSE](LICENSE).
 
-1. `prepare_label_batches.py` splits the corpus into batches of 100.
-2. Each batch is read by a language-model labeler against
-   [`AGENT_CLASSIFICATION_PROMPT.md`](AGENT_CLASSIFICATION_PROMPT.md). No
-   keyword rules. Every post gets a quoted reason and its stances,
-   preferences and switches.
-3. `validate_labels.py` checks coverage, order, canonical ids and reason
-   uniqueness for every batch.
-4. A reviewer re-reads flagged posts plus a sample per batch and writes
-   full-record overrides to `data/labels-v2/overrides.jsonl`.
-5. [`ASPECT_DIMENSIONS.md`](ASPECT_DIMENSIONS.md) maps each free-text reason
-   to a dimension (`validate_aspect_map.py`).
-6. [`QUOTA_AUDIT.md`](QUOTA_AUDIT.md) re-reads every model line about cost or
-   limits and moves plan-limit complaints to the harness
-   (`validate_quota_audit.py`, `apply_quota_audit.py`).
-7. `build_release_v2.py` aggregates. `finalize_release_v2.py` checks coverage
-   and privacy and writes a manifest with a digest of every input and output.
+The write-up below is the original post, reproduced as written.
 
-## Data
+---
 
-```
-data/window.json                       the window, attention counts and taxonomy for this release
-data/labels-v2/batches/                batch index: post ids, timestamps, language (no text)
-data/labels-v2/labels/                 labeler output, one file per batch
-data/labels-v2/overrides.jsonl         reviewer overrides, applied wholesale
-data/labels-v2/excluded-authors.json   removed reply-bot and spam accounts, as hashed ids
-data/labels-v2/aspect-map/             free-text reason → dimension
-data/labels-v2/quota-audit/            cost-vs-limit decisions
-data/labels-v2/public-summary.json     everything the page charts
-data/labels-v2/public-evidence.json    every counted post: text, reason, link to X
-data/labels-v2/release-manifest.json   coverage checks and sha256 of every file
-```
+# Xbench: Twitter Vibes as an AI Eval
 
-The raw corpus (text of all 23,275 posts in the current window) is **not** in the repo. It
-lives in `data/private/`, which is ignored. What is public is every post that
-was counted, with its reason and a link, and every label for every post by id.
-That is enough to audit any number on the page; it is not enough to rebuild
-the release from scratch. If you need the corpus for research, open an issue.
+## Maybe attention is all you need for evals too
 
-Public files carry post text and links, never author or profile fields.
-Quoted posts are reproduced under X's terms; see [LICENSE](LICENSE) for
-removal requests.
+Today's AI evals no longer reflect how frontier users feel about the models.
 
-## Known limits
+Revenue and adoption are probably the most valuable real world evals right now, but I believe that both are lagging indicators of a much fuzzier and more important measure that we call the twitter vibe, or “the mandate of heaven”.
 
-Single labeler pass with roughly ten percent human review. One week of data,
-ending a few hours after GPT-6 Astra launched. Models with fewer than 30
-firsthand authors carry an asterisk. An English-only rerun leaves every model
-rank unchanged. Pi and OpenCode are in the data but not on the page; their
-samples were too thin.
+I attempt to measure this with Xbench.
 
-## Running it again
+According to Xbench -- Codex is dominating Claude Code, Astra has the highest model sentiment, GLM 5.3 Flash tops model preferences, GPT 5.6 Sol over-engineers, and people really don't like Opus 5.
 
-Two guides for the agent that maintains this: [`X_API_GUIDE.md`](X_API_GUIDE.md)
-for what to ask X for on a $10 day, and
-[`AGENT_LABELING_GUIDE.md`](AGENT_LABELING_GUIDE.md) for how the labeling and
-review pass is run.
+People think Fable 5.1 is brilliant, but they are too mad at Anthropic to really admit it.
 
-## Contributing
+See Xbench here:
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). The most useful contribution is a
-disputed label with the post link and the contract clause it breaks.
+https://nicodunks.github.io/xbench/
 
-## License
+## The Eval Problem:
 
-MIT for the code. Post texts belong to their authors.
+It’s clear to everyone on twitter that the AI industry has a serious eval problem. Gemini is accused of benchmaxxing, no eval measures how frustrating Opus 5 is to use, AA panics to update their evals, and GPT-6-Astra does not report on many of the go-to evals of yesterday.
+
+Update! AA just released an update, moving Astra up to the #2 spot. It is now sits equidistant between Fable 5.1 and Muse Spark 1.3... which...
+
+Astra launched and according to its model card, it is another Mythos preview moment. It solves ARC-AGI-3 and ExploitBench...
+
+Without going too deep here, you should assume self-reported evals to be very rigorous, a little skewed, and completely insufficient.
+
+That is why we need other, different ways to capture the obvious gap we all feel between a model card and what we experience every day as users on the frontier.
+
+I suggest we measure the twitter vibe, or the mandate of heaven.
+
+## Prior Examples of the Mandate of Heaven
+
+We can tell when the vibe shifts. If you’re deep enough on twitter it’s visceral. We felt it late Summer 2024 with Sonnet 3.5 and Cursor for code, and in late Spring 2025 with Claude Code. It usually takes 6-12 months for impacts on adoption and ARR to land, while other companies sometime grow revenue and valuation faster.
+
+The trend continues now, but in OpenAI’s favor. About 6 months ago OpenAI recaptured the Mandate of Heaven with GPT 5.5-5.6 and Codex. Most of those in the know switched to Codex a while ago.
+
+Today, Twitter rallies against Claudish, unforced communication blunders, infra instability, what looks like tokenmaxxing, and more at Anthropic.
+
+Corporate America is still talking about Cowork, but by new year Codex will be all the rage. I predict OAI revenue will surpass Ant's by March '27 if things stay this way any longer (but what do i I know).
+
+## Xbench Experiment and Methodology:
+
+I built XBENCH to see if we could measure the Mandate of Heaven. It’s far from perfect – heavily limited by both my personal budget on x-api calls and the ceiling of whatever rigor one can really get to in a day and a half of building and writing – but I believe it reflects the truth on twitter.
+
+I polled all mentions of thirteen LLM models (details on which towards the bottom) and the top 5 coding agent harnesses. I sampled ~13% of them, which pulled 23,275 posts/replies/quotes from 14,454 twitter users over the last 7 days.
+
+I then had Fable 5.1 fan out dozens of Sonnet 5 subagents in parallel to analyze every single message, not relying on brittle key word matching or any pre-baked code, but actually reasoning over every single message. We logged all messages, but only counted messages that communicated a first hand user experience towards metrics.
+
+Claude filtered out anything vague, promotional messages, second hand reviews and stories, and bots. Qualifying messages were assigned a preference between positive, mixed, negative or not expressed. And every message that mentioned multiple models or harnesses was reasoned over to determine if there was a clear stated preference or even an explicit mention of switching usage from one model or harness to another.
+
+## Xbench Findings:
+
+Xbench's findings seemed to resonate strongly with today’s twitter vibes. See below for a bulleted list of call outs and judge for yourself.
+
+Codex is kicking butt rn.
+
+- GPT-6 Astra after one day has the highest sentiment of all 13 models (+64%, n 110) and the top model intelligence score (+76 on 71 posts).
+- Opus 5 is extremely disliked. It is the least preferred model of the 13, scores worst on personality (-65), and is the only model that scores net negative.
+- People prefer Codex to Claude Code 121:60 (67%) and people are clearly switching to Codex. 29 people switched to Codex while only 9 switched to Claude Code.
+- The biggest advantage Codex has over Claude code is on limits and quota, where Codex wins 41 to 13; Claude Code's limits sentiment is -64 against Codex's -31.
+- People really like Grok Bot. It wins head to head preference against Codex & Claude 46:20.
+- Price is the biggest factor in winning on preferences for models (at least within the frontier). GLM 5.3 Flash sits at #1st place on preferences.
+- GPT 5.6 Sol beats Opus 5 in preference 25:14 (64%)
+- Fable 5.1 is admired for its intelligence, but complaints about token consumption and price hold it back towards the bottom of the preference ladder.
+- Fable 5.1 beats Opus 5 20:9 and beats Sol 17:10 in direct comparisons
+- What people dislike most about GPT 5.6 Sol is that it over-engineers and is hard to steer.
+- Filtering for English barely moves results, and what movement there is actually favors the Chinese OSS models
+
+Below are findings that I believe are either a bit inaccurate or are probably explained away due to other biases and limitations
+
+- Fable 5.1 is the second worst preference score, and is lower than GLM 5.3 Flash on stated intelligence differences. Fable 5 and 5.1 are obviously smarter.
+- Codex's worst dimension is reliability at -52, and most of those posts are from the September 3 outage. Codex is generally very performant and reliable.
+- Kimi K3 remains suspiciously high on explicit preferences and sentiment. I suspect there is a SF vs non SF twitter divide here, some paying for influence, or maybe just too little sample size.
+- Grok Bot beats Claude Code 25:8 (76%) and Codex 21:12, taking 8 direct switchers from Claude Code and 5 from Codex.
+
+## Issues and limitations
+
+### 1) Bad vibes towards Anthropic, and tailwinds for OSS
+
+Another issue, to really overgeneralize and state it plainly, is that people on twitter are very upset with Anthropic right now and that carries over to how they publicly discuss their models and products.
+
+The opposite is true towards open source models. There is a secular trend towards open source, and all things relatively equal an open source or underdog model will peform much better on Xbench.
+
+### 2) Twitter is owned by SpaceX and leans very pro-Elon.
+
+There’s two trillion dollars of SpaceX stock making its weight felt on twitter. While I root for Elon, It’s hard to take Gavin Baker seriously when he’s on a book tour calling Grok Bot another “Claude Code moment”.
+
+I feel that the love for Grok 4.6 and Grok Build is mostly legitimate, but the Grok Bot heat feels possibly a bit manufactured.
+
+## Where this goes and how to improve things:
+
+- I only used ~$150 in x-api costs to pull data over the prior 7 days. $100-$200 a day + the last 30 days would be a far more robust signal. I would expect some directional change in my results, and way more meaningful confidence intervals. Evals aren't cheap though.
+- I should rank the intensity of sentiment and let that impact weighting.
+- Not all twitter signal is created equally – in fact, I will possibly explore making this SF only (sorry NYC). Unfortunately, twitter posts mostly do not contain location data. To do this, we must read against every author, and that is $0.01 a read. I would probably need to 100-200x my costs to make this robust and statistically significant using only SF.
+- I would like to include more models – Deepseek would be fun to include, and I would predict it would rank towards the top of Xbench if OpenCode is any signal.
+- I feel i got pretty deep in <36 hours, but with a full week this would be far more rigorous.
+
+## Models and harnesses compared:
+
+The thirteen models are Claude Fable 5.1, Claude Opus 5, GPT-6 Astra, GPT-5.6 Sol, GPT-5.6 Luna, Muse Spark 1.3, Muse Spark 1.2, Gemini 3.8 Flash, Gemini 3.7 Flash, Grok 4.6, GLM 5.3, GLM 5.3 Flash, and Kimi K3. The harnesses are Claude Code, Codex, and Grok Bot, with OpenCode and Pi collected but left off the page because their samples were too thin.
+
+## Link to Xbench
+
+https://nicodunks.github.io/xbench/
+
+Originally posted on X: https://x.com/nicochristie/status/2096284789766819924
