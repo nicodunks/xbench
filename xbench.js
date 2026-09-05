@@ -633,8 +633,7 @@ function harnessDuel(h, rows) {
     <p class="duel-title">what each one wins on</p>
     <div class="dimbars">${byDim.map((x) => `<div class="dimrow"><b>${x.cx}</b><div class="dl"><i style="width:${(x.cx / dimMax) * 100}%"></i></div><span>${dimName("harness", x.d)}</span><div class="dr"><i style="width:${(x.cc / dimMax) * 100}%"></i></div><b>${x.cc}</b></div>`).join("")}</div>
     <p class="duel-title">votes by day</p>
-    <div class="daybars">${days.map((d, i) => `<div class="day"><div class="cols"><i class="c1" style="height:${(d.cx / dayMax) * 100}%"></i><i class="c2" style="height:${(d.cc / dayMax) * 100}%"></i></div><small>${i + 1}</small></div>`).join("")}<div class="daykey"><span><i class="c1"></i>Codex</span><span><i class="c2"></i>Claude Code</span></div></div>
-    <div class="chooser-result"><span>completed switches between the two</span><strong>${ccx + cxc}</strong><small>${ccx} to Codex · ${cxc} back to Claude Code</small></div>`;
+    <div class="daybars">${days.map((d, i) => `<div class="day"><div class="cols"><i class="c1" style="height:${(d.cx / dayMax) * 100}%"></i><i class="c2" style="height:${(d.cc / dayMax) * 100}%"></i></div><small>${i + 1}</small></div>`).join("")}<div class="daykey"><span><i class="c1"></i>Codex</span><span><i class="c2"></i>Claude Code</span></div></div>`;
 }
 
 /* ---------- hero mural ---------- */
