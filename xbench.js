@@ -577,6 +577,17 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
     if (r) showTag(r);
   });
   svg.addEventListener("mouseleave", () => showTag(ribbons.find((x) => x.classList.contains("on"))));
+  if (svg.id === "switchChart" && rm.has("grok-4.6")) {
+    const wrap = svg.parentElement, node = rm.get("grok-4.6"), n = R.find(([k]) => k === "grok-4.6")[1];
+    let img = wrap.querySelector(".g-elon");
+    if (!img) { img = document.createElement("img"); img.className = "guest g-elon"; img.src = "assets/stickers/elon.png"; img.alt = ""; wrap.append(img); }
+    const place = () => {
+      const sc = svg.clientWidth / 1180, yc = (node.y + (n * unit) / 2) * sc;
+      img.style.left = `${(xr + nw + 230) * sc}px`;
+      img.style.top = `${yc - img.offsetHeight / 2 + 20}px`;
+    };
+    place(); img.onload = place; window.addEventListener("resize", place);
+  }
   svg.onclick = (e) => {
     const r = e.target.closest(".s-ribbon");
     if (!r) return;
