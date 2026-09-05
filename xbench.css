@@ -291,3 +291,7 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .mural-tags .tab.positive{border-color:var(--signal-blue);color:var(--signal-blue)}.mural-tags .tab.negative{border-color:var(--red);color:rgba(255,120,120,.9)}.mural-tags .tab.mixed{color:var(--b48)}
 .mural-card p{-webkit-line-clamp:4}.mural-grid{grid-template-rows:repeat(3,170px)}
 @media(max-width:680px){.mural-tags{max-width:100%;justify-content:flex-start;margin-left:0;flex-basis:100%}.mural-card header{flex-wrap:wrap}.mural-card p{-webkit-line-clamp:3}}
+/* mural chips: flow side by side, right-aligned, wrapping only when they must */
+.mural-card header>span:not(.mural-tags){flex:0 1 auto;max-width:44%}
+.mural-tags{flex:1 1 auto;max-width:none;min-width:0;gap:4px 5px}
+.mural-tags .who{padding:2px 5px 2px 4px;font-size:10px;gap:4px}.mural-tags .who img{width:11px;height:11px}.mural-tags .tab{font-size:8.5px;padding:1px 4px;letter-spacing:.04em}
