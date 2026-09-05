@@ -852,3 +852,71 @@ document.addEventListener("click", (e) => {
     i.classList.toggle("open");
   }
 });
+
+/* hero battle: Codex and Clawd cross the floor, face each other, and trade lasers and bubbles */
+(function battle() {
+  const st = document.querySelector(".stage");
+  if (!st || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const A = { el: st.querySelector(".codex-f"), x: 0.28, v: 0.06, y: 0, vy: 0, next: 0, face: 1, kind: "laser" };
+  const B = { el: st.querySelector(".clawd-f"), x: 0.66, v: -0.05, y: 0, vy: 0, next: 0, face: -1, kind: "bubble" };
+  if (!A.el || !B.el) return;
+  const shots = [];
+  let last = 0, visible = true, fireA = 1.2, fireB = 2.1;
+  const W = () => st.clientWidth;
+  const H = () => st.clientHeight;
+  const rnd = (a, b) => a + Math.random() * (b - a);
+  function fire(from, to) {
+    const el = document.createElement("i");
+    el.className = "shot " + from.kind;
+    st.append(el);
+    const fw = from.el.offsetWidth, fh = from.el.offsetHeight;
+    const dir = to.x > from.x ? 1 : -1;
+    const s = { el, x: from.x * W() + fw / 2 + dir * fw * 0.45, y: from.y + fh * (from.kind === "laser" ? 0.55 : 0.5), vx: dir * (from.kind === "laser" ? 520 : 150), vy: from.kind === "bubble" ? rnd(10, 40) : 0, life: 2.2, to, kind: from.kind };
+    shots.push(s);
+  }
+  function step(now) {
+    requestAnimationFrame(step);
+    if (!visible) { last = now; return; }
+    const dt = Math.min(0.05, (now - last) / 1000 || 0);
+    last = now;
+    const w = W();
+    for (const f of [A, B]) {
+      const other = f === A ? B : A;
+      f.next -= dt;
+      if (f.next <= 0) {
+        f.next = rnd(1.4, 3.2);
+        const r = Math.random();
+        if (r < 0.45) f.v = Math.sign(other.x - f.x || 1) * rnd(0.05, 0.16);
+        else if (r < 0.75) f.v = -Math.sign(other.x - f.x || 1) * rnd(0.04, 0.1);
+        else f.v = (Math.random() < 0.5 ? -1 : 1) * rnd(0.12, 0.22);
+        if (Math.random() < 0.5 && f.y === 0) f.vy = rnd(260, 420);
+      }
+      f.x += f.v * dt;
+      const fw = f.el.offsetWidth / w;
+      if (f.x < 0.02) { f.x = 0.02; f.v = Math.abs(f.v); }
+      if (f.x > 1 - fw - 0.02) { f.x = 1 - fw - 0.02; f.v = -Math.abs(f.v); }
+      if (f.y > 0 || f.vy > 0) { f.vy -= 1100 * dt; f.y += f.vy * dt; if (f.y <= 0) { f.y = 0; f.vy = 0; } }
+      const face = other.x + other.el.offsetWidth / w / 2 > f.x + fw / 2 ? 1 : -1;
+      f.face = face;
+      const squash = f.y > 0 ? 1.03 : 1;
+      f.el.style.transform = `translate(${f.x * w}px, ${-f.y}px) scaleX(${face}) scaleY(${squash})`;
+    }
+    fireA -= dt; fireB -= dt;
+    if (fireA <= 0) { fire(A, B); fireA = rnd(1.6, 3.4); }
+    if (fireB <= 0) { fire(B, A); fireB = rnd(1.2, 2.6); }
+    for (let i = shots.length - 1; i >= 0; i--) {
+      const s = shots[i];
+      s.x += s.vx * dt; s.y += s.vy * dt; s.life -= dt;
+      if (s.kind === "bubble") s.x += Math.sin(now / 180 + i) * 20 * dt;
+      s.el.style.transform = `translate(${s.x}px, ${-s.y}px)`;
+      const t = s.to, tx = t.x * w, tw = t.el.offsetWidth, th = t.el.offsetHeight;
+      const hit = s.x > tx + tw * 0.2 && s.x < tx + tw * 0.8 && s.y > t.y && s.y < t.y + th;
+      if (hit || s.life <= 0 || s.x < -60 || s.x > w + 60) {
+        if (hit) { t.el.classList.add("hit"); setTimeout(() => t.el.classList.remove("hit"), 180); t.vy = t.y === 0 ? 180 : t.vy; }
+        s.el.remove(); shots.splice(i, 1);
+      }
+    }
+  }
+  new IntersectionObserver((e) => { visible = e[0].isIntersecting; }).observe(st);
+  requestAnimationFrame(step);
+})();
