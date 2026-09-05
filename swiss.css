@@ -1,0 +1,108 @@
+/* Swiss variant. Loaded after xbench.css on swiss.html only. Paper, ink, one blue, one rust. */
+:root{--paper:#f6f6f3;--inkc:#121212;--blue:var(--inkc);--ink:var(--paper);--signal-blue:#2b4bd6;--rust:#b5502e;--red:rgba(181,80,46,.6);
+--b90:rgba(18,18,18,.90);--b70:rgba(18,18,18,.68);--b48:rgba(18,18,18,.46);--b28:rgba(18,18,18,.22);--b18:rgba(18,18,18,.14);--b15:rgba(18,18,18,.12);--b07:rgba(18,18,18,.045)}
+*,*:before,*:after{font-family:"Inter","Helvetica Neue",Helvetica,Arial,sans-serif!important}
+html{background:var(--paper)}body{background:var(--paper);color:var(--inkc);letter-spacing:0;font-weight:400}
+svg text{font-family:"Inter","Helvetica Neue",Helvetica,Arial,sans-serif!important}
+/* strip the terminal ornaments */
+.window-chip:before,.window-chip:after,.file-label:before,.manifest span:before,.manifest strong:after,.tracked>div span:before,.method-tag:before,.method-tag:after,.rating-state:before,.rating-state:after,.duel-row>span:before,.quality-row strong:before,.aspects h4:before,.switch-list li span:before,.book-name strong:before,.evidence-card:before,.subtitle:before,.sentiment-name strong:before{content:none!important;display:none}
+.window-chip i{border-radius:50%;background:var(--signal-blue)}
+/* type */
+.wordmark strong{font-weight:800;letter-spacing:-.03em;font-size:17px}
+.topbar{background:rgba(246,246,243,.94);border-bottom-color:var(--inkc)}.topbar nav a{color:var(--b70);text-transform:none;letter-spacing:0;font-size:13.5px}.topbar nav a:hover{color:var(--inkc)}
+.hero h1{font-weight:800;letter-spacing:-.05em;color:var(--inkc)}.subtitle{color:var(--b70);text-transform:none;letter-spacing:-.01em;font-size:22px;font-weight:400}.lede{color:var(--b70)}
+.chapter h2{font-weight:700;letter-spacing:-.04em}.chapter-head span{color:var(--signal-blue);font-weight:500}
+.panel-head h3{font-weight:600;letter-spacing:-.02em}.prompt,.label,.method-tag,.file-label,.manifest span,.tracked header,.rail p,.duel-title,.book-meta,.evidence-heading,.matrix-note,.rating-explainer,.panel footer,.scroll-cue,.site-footer,.aspects h4,.tasks span,.legend-note,.chooser-result span,.chooser-result small,.readme-block p:nth-child(odd),.note h4{letter-spacing:.08em;font-weight:500}
+.manifest strong{font-weight:700;letter-spacing:-.03em}.manifest>div:before{color:var(--signal-blue);font-weight:300;font-size:16px}
+.rail a{color:var(--b70)}.rail a:hover,.rail a.on{color:var(--inkc)}.rail a span{color:var(--signal-blue)}
+/* hairlines and registration marks */
+.chapter-head{position:relative}.chapter-head:after{content:"+";position:absolute;right:0;top:-4px;color:var(--rust);font-weight:300;font-size:18px;line-height:1}
+.panel{border-color:var(--b28)}.hero-index{border-color:var(--inkc)}
+/* logos on paper */
+img[src*="logos"]{filter:grayscale(1)!important}.pick.on img{filter:grayscale(1) invert(1)!important}.mode-switch button.on{background:var(--inkc);color:var(--paper)}
+.mural-card img,.counted-tweet img{filter:grayscale(1)}
+/* the two accents: blue for positive and lead, rust for negative and trail */
+.stack .negative,.harness-sentiment-row .negative{background:repeating-linear-gradient(135deg,var(--rust) 0 1.5px,transparent 1.5px 6px)}
+.pattern-key .negative-mark{border-color:var(--rust);background:repeating-linear-gradient(135deg,var(--rust) 0 1.5px,transparent 1.5px 5px)}
+.spark i.down{background:var(--rust)}.spark i{background:var(--b28)}
+.score-row b.negative,.book-meta b.negative,.harness-sentiment-row>b.negative,.aspects .negative li:first-child,.sentiment-name .dims u,.metric-tail.negative,.tag.negative{color:var(--rust)}
+.aspects .positive li:first-child,.metric-tail.positive,.tag.positive{color:var(--signal-blue)}
+.matrix-cell{border-color:var(--b18)}.matrix-cell.lead{border-color:var(--signal-blue);background:rgba(43,75,214,var(--strength,.12))}.matrix-cell.trail{border-color:rgba(181,80,46,.55);background:rgba(181,80,46,var(--strength,.08))}
+.matrix-cell.lead b,.heat .matrix-cell.lead b{color:var(--inkc)}
+.r-poly.p2{stroke:var(--rust);fill:rgba(181,80,46,.08)}.r-pt.p2{fill:var(--rust);stroke:var(--rust)}.legend-chip.on.p2 i,.p2 i{border-color:var(--rust)}
+.r-poly.p3{stroke:var(--inkc);fill:rgba(18,18,18,.04);stroke-dasharray:9 3 2 3}.r-pt.p3{fill:var(--inkc);stroke:var(--inkc)}.legend-chip.on.p3 i,.p3 i{border-color:var(--inkc)}
+.r-poly.p1{fill:rgba(18,18,18,.05)}.p0,.r-pt.thin.p1,.r-pt.thin.p2,.r-pt.thin.p3{fill:var(--paper)}
+.s-node.right{fill:var(--inkc);opacity:.35}.s-ribbon{opacity:.22}.s-ribbon:hover,.sankey .s-ribbon.on{opacity:.8}
+.rating-range b{background:var(--signal-blue)}.rating-range i:before,.rating-range i:after{border-left-color:var(--inkc)}
+.duel-bar i,.duel-lines>div i,.duel-meter i{background:var(--signal-blue)}
+.harness-sentiment-row>b.positive,.book-meta b.positive,.score-row b.positive{color:var(--signal-blue)}
+.readme-block{border-left-color:var(--signal-blue);background:var(--b07)}
+.legend-chip.on{background:var(--b07)}.pick.on{background:var(--inkc);border-color:var(--inkc)}
+.info{border-color:var(--b48)}.info:after{background:var(--paper);border-color:var(--inkc);box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.mural-open,.counted-tweet .open{color:var(--b28)}
+.evidence-card p{color:var(--inkc)}
+.site-footer{border-top-color:var(--inkc)}
+a{color:inherit}
+/* hairlines: every dashed or dotted rule in the base, made solid per side */
+.topbar{border-bottom-style:solid!important}
+.hero{border-bottom-style:solid!important}
+.manifest{border-bottom-style:solid!important}
+.manifest>div{border-right-style:solid!important}
+.tracked{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important}
+.tracked header{border-bottom-style:solid!important}
+.rail{border-right-style:solid!important}
+.panel{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
+.panel-head{border-bottom-style:solid!important}
+.chart-scroll::-webkit-scrollbar-track{border-top-style:solid!important}
+.scroll-cue{border-bottom-style:solid!important}
+.panel footer{border-top-style:solid!important}
+.sentiment-row{border-bottom-style:solid!important}
+.hold-note{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
+.matrix-note{border-bottom-style:solid!important}
+.rating-explainer{border-bottom-style:solid!important}
+.rating-row{border-bottom-style:solid!important}
+.rating-range:before{border-top-style:solid!important}
+.counted-evidence{border-top-style:solid!important}
+.counted-tweet{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
+.attention-duel{border-right-style:solid!important}
+.chooser-result{border-top-style:solid!important}
+.evidence-viewport{border-bottom-style:solid!important;border-top-style:solid!important}
+.evidence-card{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
+.quality-row{border-bottom-style:solid!important}
+.site-footer{border-top-style:solid!important}
+.attention-duel{border-bottom-style:solid!important}
+.manifest>div:nth-child(-n+2){border-bottom-style:solid!important}
+/* xbench */
+
+/* v2 additions: sentiment modes, sparklines, aspect drawers, harness matrix, method table */
+.tracked header+div+header{border-top-style:solid!important}
+.mode-switch{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
+.spark i.empty{border-bottom-style:solid!important}
+.drawer{border-top-style:solid!important}
+.aspects li{border-bottom-style:solid!important}
+.drawer .evidence-scroll{border-top-style:solid!important}
+.switch-list li{border-bottom-style:solid!important}
+.preference-duel{border-right-style:solid!important}
+.preference-duel{border-bottom-style:solid!important}
+.score-row{border-bottom-style:solid!important}
+.radar-legend{border-left-style:solid!important}
+.legend-chip.on.p1 i{border-top-style:solid!important}
+.legend-chip.on.p2 i{border-top-style:solid!important}
+.legend-chip.on.p3 i{border-top-style:solid!important}
+.radar-legend{border-top-style:solid!important}
+.legend-chip.on.p1 i{border-top-style:solid!important}
+.legend-chip.on.p2 i{border-top-style:solid!important}
+.legend-chip.on.p3 i{border-top-style:solid!important}
+.book-page{border-bottom-style:solid!important}
+.tracked>div span{border-right-style:solid!important}
+.tracked>div span{border-bottom-style:solid!important}
+/* book picker */
+.book-picker{border-bottom-style:solid!important}
+.tracked>div+div{border-top-style:solid!important}
+.note{border-right-style:solid!important}
+.note{border-bottom-style:solid!important}
+.hero-index{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
+.preference-duel{border-bottom-style:solid!important}
+.radar-legend{border-top-style:solid!important}
+.note{border-bottom-style:solid!important}
+.tracked>div span{border-bottom-style:solid!important;border-right-style:solid!important}
