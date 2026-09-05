@@ -298,3 +298,7 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .mural-card header{flex-wrap:wrap;row-gap:6px}.mural-tags{flex:1 1 250px;justify-content:flex-end}
 .mural-card header>span:not(.mural-tags){max-width:none}
 .mural-tags{flex:1 1 330px}
+/* sentiment rows: rank, then bar, n, net */
+.sentiment-main{grid-template-columns:1fr 64px 76px}.sentiment-axis{grid-template-columns:210px 1fr 64px 76px}.sentiment-main .n{font-size:12.5px;color:var(--b48);text-align:right;padding-right:6px}
+.rank{width:32px;font-size:12.5px}
+@media(max-width:680px){.sentiment-main{grid-template-columns:1fr 44px 56px}.mural-tags{display:none!important}.mural-card p{-webkit-line-clamp:4}}
