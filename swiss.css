@@ -118,3 +118,5 @@ a{color:inherit}
 .legend-chip.on.p3 span,.legend-chip.on.p3 small{color:var(--inkc)!important}
 .legend-chip.on.p3 i{border-color:var(--inkc)!important;border-top-style:solid!important;border-top-width:3px}
 .r-poly.p3{stroke:var(--inkc);stroke-width:2.5;stroke-dasharray:none;fill:rgba(18,18,18,.05)}
+/* hero: bigger title and subtitle, no lede */
+.hero h1{font-size:clamp(72px,9vw,132px)}.subtitle{font-size:clamp(22px,2.4vw,32px);margin-top:18px}@media(max-width:680px){.hero h1{font-size:56px}.subtitle{font-size:20px}}
