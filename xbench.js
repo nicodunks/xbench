@@ -843,3 +843,13 @@ async function init() {
   }
 }
 init();
+
+/* info-tap: tap toggles an explainer on touch screens */
+document.addEventListener("click", (e) => {
+  const i = e.target.closest(".info");
+  document.querySelectorAll(".info.open").forEach((x) => x !== i && x.classList.remove("open"));
+  if (i) {
+    e.preventDefault();
+    i.classList.toggle("open");
+  }
+});
