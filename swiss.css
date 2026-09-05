@@ -191,3 +191,4 @@ a{color:inherit}
 .dimbars{margin:6px 0 4px}.dimrow{grid-template-columns:34px 1fr 190px 1fr 34px;gap:12px;padding:6px 0;font-size:15px;line-height:1.2}.dimrow b{font-size:16px}.dimrow .dl,.dimrow .dr{height:14px}
 .daybars{margin:6px 0 4px;gap:10px}.day .cols{height:60px}.day .cols i{width:14px}.day small{font-size:12.5px}.daykey{font-size:13px;margin-top:0}.daykey i{width:14px;height:9px}
 .tug{margin:12px 0 8px}
+.mural-foot img{filter:grayscale(1)!important}.mural-foot .tab.positive{background:var(--signal-blue);border-color:var(--signal-blue);color:var(--paper)}.mural-foot .tab.negative{background:var(--rust);border-color:var(--rust);color:var(--paper)}.mural-foot .tab.mixed{background:var(--grey);border-color:var(--grey);color:var(--inkc)}

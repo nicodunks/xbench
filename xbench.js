@@ -655,9 +655,10 @@ function mural(rows) {
   }
   const c = (p, i, enter = false) => {
     const axis = i % 2 ? "flip-x" : "flip-y";
-    const who = p.username ? `<b>${esc(p.name || p.username)}</b><small>@${esc(p.username)} · ${esc(label(p.target))} · ${esc(p.sentiment)}</small>` : `<b>${esc(label(p.target))} · ${esc(p.sentiment)}</b><small>${esc(p.aspect || "")}</small>`;
+    const who = p.username ? `<b>${esc(p.name || p.username)}</b><small>@${esc(p.username)}</small>` : `<b>${esc(label(p.target))}</b><small>${esc(p.aspect || "")}</small>`;
+    const foot = `<footer class="mural-foot">${icon(p.target)}<span>${esc(label(p.target))}</span><em class="tab ${esc(p.sentiment)}">${esc(p.sentiment)}</em></footer>`;
     const avatar = p.avatar ? `<img src="${p.avatar}" alt="" loading="lazy" onerror="this.remove()">` : "";
-    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span></header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
+    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span></header><p>${esc(p.text)}</p>${foot}<span class="mural-open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
   };
   for (let i = posts.length - 1; i > 0; i--) {
     const k = Math.floor(Math.random() * (i + 1));

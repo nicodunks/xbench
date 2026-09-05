@@ -240,3 +240,10 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .s-logo{filter:grayscale(1) invert(1) brightness(2)}.s-count{font-size:30px}
 .s-count{font-size:44px}.s-name{font-size:15px;fill:var(--b70)}
 .counted-tweet .why{margin-bottom:34px}
+/* mural footer: logo, model, sentiment tab */
+.mural-card{display:flex;flex-direction:column}.mural-card p{-webkit-line-clamp:3;margin-top:8px}
+.mural-foot{display:flex;align-items:center;gap:7px;margin-top:auto;padding-top:8px;font-size:11px;color:var(--b70)}
+.mural-foot img{width:14px;height:14px;filter:grayscale(1) invert(1) brightness(2)}.mural-foot span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mural-foot .tab{font-style:normal;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border:1px solid var(--b28);color:var(--b70)}
+.mural-foot .tab.positive{border-color:var(--signal-blue);color:var(--signal-blue)}.mural-foot .tab.negative{border-color:var(--red);color:rgba(255,120,120,.9)}.mural-foot .tab.mixed{color:var(--b48)}
+.mural-open{bottom:10px}
