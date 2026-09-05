@@ -199,3 +199,5 @@ a{color:inherit}
 @keyframes flipInX{0%{transform:rotateX(-90deg);background:var(--grey);color:transparent}35%{background:var(--grey);color:transparent}100%{transform:rotateX(0);background:var(--paper)}}
 .radar-cap{font-weight:500}
 .pow{background:var(--rust);color:var(--paper)}
+.tug{margin:14px 0 22px}.preference-duel .tug + .duel-title{margin-top:26px;padding-top:22px;border-top:1px solid var(--b18)}
+.dimbars{margin:10px 0 8px}.preference-duel .dimbars + .duel-title{margin-top:26px;padding-top:20px;border-top:1px solid var(--b15)}
