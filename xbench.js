@@ -1,4 +1,5 @@
 const DATA_V = "2026-09-05a";
+const X_MARK = '<svg class="xmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 const $ = (s) => document.querySelector(s),
   NS = "http://www.w3.org/2000/svg";
 const names = {
@@ -140,7 +141,7 @@ function card(p, kind) {
     verdict = `${icon(p.origin)}${esc(label(p.origin))} <em>→</em> ${icon(p.destination)}${esc(label(p.destination))}`;
     tags = tag("fh", "completed");
   }
-  return `<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${verdict}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason || "")}</p><footer>${tags}</footer><span class="open" aria-hidden="true">↗</span></a>`;
+  return `<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${verdict}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason || "")}</p><footer>${tags}</footer><span class="open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
 }
 const renderCards = (root, rows, kind, empty = "No counted posts.") => {
   root.innerHTML =
@@ -648,7 +649,7 @@ function mural(rows) {
     const axis = i % 2 ? "flip-x" : "flip-y";
     const who = p.username ? `<b>${esc(p.name || p.username)}</b><small>@${esc(p.username)} · ${esc(label(p.target))} · ${esc(p.sentiment)}</small>` : `<b>${esc(label(p.target))} · ${esc(p.sentiment)}</b><small>${esc(p.aspect || "")}</small>`;
     const avatar = p.avatar ? `<img src="${p.avatar}" alt="" loading="lazy" onerror="this.remove()">` : "";
-    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span></header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">↗</span></a>`;
+    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span></header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
   };
   for (let i = posts.length - 1; i > 0; i--) {
     const k = Math.floor(Math.random() * (i + 1));

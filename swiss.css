@@ -184,3 +184,4 @@ a{color:inherit}
 .daykey{grid-column:1/-1;display:flex;gap:16px;font-size:11px;color:var(--b48);margin-top:2px}.daykey span{display:flex;align-items:center;gap:6px}.daykey i{display:inline-block;width:12px;height:8px}
 .preference-duel .chooser-result{margin-top:8px}
 .sentiment-name strong img{filter:grayscale(1)!important}
+.counted-tweet:hover .open,.mural-card:hover .mural-open{color:var(--paper);background:var(--inkc);border-color:var(--inkc)}
