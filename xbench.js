@@ -523,8 +523,9 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
       if (duelCol && logos[k]) {
         const S = Math.min(96, Math.max(44, h * 0.9)), yc = y + h / 2,
           ix = side === "left" ? x - 24 - S : x + nw + 24;
-        svg.append(el("image", { href: `assets/logos/${logos[k]}.svg`, x: ix, y: yc - S / 2, width: S, height: S, class: "s-logo" }));
-        addText(svg, side === "left" ? ix - 14 : ix + S + 14, yc + 7, `${n}`, "s-label s-count", side === "left" ? "end" : "start");
+        svg.append(el("image", { href: `assets/logos/${logos[k]}.svg`, x: ix, y: yc - S / 2 - 10, width: S, height: S, class: "s-logo" }));
+        addText(svg, ix + S / 2, yc + S / 2 + 12, label(k), "s-label s-name", "middle");
+        addText(svg, side === "left" ? ix - 18 : ix + S + 18, yc + 14, `${n}`, "s-label s-count", side === "left" ? "end" : "start");
       } else if (side === "left") {
         addText(svg, x - 16, y + h / 2 + 5, `${label(k)}  ·  ${n} out`, "s-label", "end");
       } else {
