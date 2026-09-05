@@ -111,3 +111,10 @@ a{color:inherit}
 .rail{gap:28px;padding-top:72px;font-size:18px}.rail p{margin-bottom:30px;font-size:12px}.rail a{display:flex;align-items:baseline;color:var(--b70)}.rail a span{width:44px;font-size:13px;color:var(--signal-blue)}.rail a:hover{color:var(--inkc)}
 .legend-chip.on,.legend-chip.on small,.legend-chip.on.p0,.legend-chip.on.p1,.legend-chip.on.p2,.legend-chip.on.p3{color:var(--inkc)!important}.legend-chip.on small{color:var(--b70)!important}
 .s-tag rect{fill:var(--paper);stroke:var(--inkc)}.s-tag text{fill:var(--inkc)}.s-tag .s-tag-n{font-weight:700}.s-tag .s-tag-who{fill:var(--b70)}.counted-tweet b em{color:var(--b48)}
+/* radar legend: four readable series colors, no yellow */
+.legend-chip.on.p0 span,.legend-chip.on.p0 small{color:var(--signal-blue)!important}
+.legend-chip.on.p1 span,.legend-chip.on.p1 small{color:var(--inkc)!important}
+.legend-chip.on.p2 span,.legend-chip.on.p2 small{color:var(--rust)!important}
+.legend-chip.on.p3 span,.legend-chip.on.p3 small{color:var(--inkc)!important}
+.legend-chip.on.p3 i{border-color:var(--inkc)!important;border-top-style:solid!important;border-top-width:3px}
+.r-poly.p3{stroke:var(--inkc);stroke-width:2.5;stroke-dasharray:none;fill:rgba(18,18,18,.05)}
