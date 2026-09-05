@@ -43,7 +43,7 @@ img[src*="logos"]{filter:grayscale(1)!important}.pick.on img{filter:grayscale(1)
 .evidence-card p{color:var(--inkc)}
 .site-footer{border-top-color:var(--inkc)}
 a{color:inherit}
-/* hairlines: every dashed or dotted rule in the base, made solid per side */
+/* hairlines: every dashed or dotted rule in the base, made solid per side, media queries preserved */
 .topbar{border-bottom-style:solid!important}
 .hero{border-bottom-style:solid!important}
 .manifest{border-bottom-style:solid!important}
@@ -70,8 +70,6 @@ a{color:inherit}
 .evidence-card{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
 .quality-row{border-bottom-style:solid!important}
 .site-footer{border-top-style:solid!important}
-.attention-duel{border-bottom-style:solid!important}
-.manifest>div:nth-child(-n+2){border-bottom-style:solid!important}
 /* xbench */
 
 /* v2 additions: sentiment modes, sparklines, aspect drawers, harness matrix, method table */
@@ -83,26 +81,29 @@ a{color:inherit}
 .drawer .evidence-scroll{border-top-style:solid!important}
 .switch-list li{border-bottom-style:solid!important}
 .preference-duel{border-right-style:solid!important}
-.preference-duel{border-bottom-style:solid!important}
 .score-row{border-bottom-style:solid!important}
 .radar-legend{border-left-style:solid!important}
-.legend-chip.on.p1 i{border-top-style:solid!important}
-.legend-chip.on.p2 i{border-top-style:solid!important}
-.legend-chip.on.p3 i{border-top-style:solid!important}
-.radar-legend{border-top-style:solid!important}
-.legend-chip.on.p1 i{border-top-style:solid!important}
-.legend-chip.on.p2 i{border-top-style:solid!important}
-.legend-chip.on.p3 i{border-top-style:solid!important}
 .book-page{border-bottom-style:solid!important}
 .tracked>div span{border-right-style:solid!important}
-.tracked>div span{border-bottom-style:solid!important}
 /* book picker */
 .book-picker{border-bottom-style:solid!important}
 .tracked>div+div{border-top-style:solid!important}
 .note{border-right-style:solid!important}
-.note{border-bottom-style:solid!important}
 .hero-index{border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-top-style:solid!important}
-.preference-duel{border-bottom-style:solid!important}
-.radar-legend{border-top-style:solid!important}
-.note{border-bottom-style:solid!important}
-.tracked>div span{border-bottom-style:solid!important;border-right-style:solid!important}
+@media(max-width:980px){.attention-duel{border-bottom-style:solid!important}}
+@media(max-width:680px){.manifest>div:nth-child(-n+2){border-bottom-style:solid!important}}
+@media(max-width:980px){.preference-duel{border-bottom-style:solid!important}}
+@media(max-width:980px){.radar-legend{border-top-style:solid!important}}
+@media(max-width:980px){.tracked>div span{border-bottom-style:solid!important}}
+@media(max-width:980px){.note{border-bottom-style:solid!important}}
+@media(max-width:980px){.preference-duel{border-bottom-style:solid!important}.radar-legend{border-top-style:solid!important}.note{border-bottom-style:solid!important}.tracked>div span{border-bottom-style:solid!important;border-right-style:solid!important}}
+/* plain fills: blue positive, grey mixed, rust negative; solid black nodes both sides of the sankeys; lift the lightest text */
+:root{--b48:rgba(18,18,18,.56);--grey:#c9c9c4}
+.stack .mixed,.harness-sentiment-row .mixed,.score-row .stack .mixed{background:var(--grey)}
+.stack .negative,.harness-sentiment-row .negative,.score-row .stack .negative{background:var(--rust)}
+.pattern-key .hatched{border-color:var(--grey);background:var(--grey)}.pattern-key .negative-mark{border-color:var(--rust);background:var(--rust)}
+.vote-strip i.right,.duel-lines>div:last-child i,.duel-row:nth-child(3) .duel-meter i,.harness-history i{background:var(--grey);border-color:var(--grey)}
+.s-node,.s-node.right{fill:var(--inkc);opacity:1}
+.pattern-key .key-note,.matrix-empty,.mural-open,.counted-tweet .open,.legend-note,.sentiment-axis,.mural-card small,.counted-tweet small,.counted-tweet header small,.matrix-cell small,.heat .matrix-cell small,.vote-strip span,.versus{color:var(--b48)}
+.spark i{background:var(--grey)}
+.sankey .s-node,.sankey .s-node.right,svg .s-node.right{fill:var(--inkc)!important;opacity:1!important}
