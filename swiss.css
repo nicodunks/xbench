@@ -142,8 +142,6 @@ a{color:inherit}
 .stage .fighter{position:absolute;bottom:3px;height:96px;width:auto;transform-origin:50% 100%}
 .stage .codex-f{left:calc(50% - 150px);animation:codexBounce 3.2s ease-in-out infinite,codexJump 9s ease-in-out infinite}
 .stage .clawd-f{left:calc(50% + 40px);height:70px;animation:clawdScuttle 4s ease-in-out infinite,clawdHop 7s ease-in-out infinite}
-.stage .crowd{position:absolute;bottom:3px;height:118px;width:auto;filter:grayscale(1) contrast(.9);opacity:.35}
-.stage .crowd-l{left:7%}.stage .crowd-r{right:7%}
 @keyframes codexBounce{0%,100%{transform:translateY(0) scaleY(1)}50%{transform:translateY(-4px) scaleY(1.02)}}
 @keyframes codexJump{0%,72%,100%{translate:0 0}78%{translate:28px -46px}84%{translate:52px 0}90%{translate:26px -14px}94%{translate:0 0}}
 @keyframes clawdScuttle{0%,100%{transform:translateX(0)}50%{transform:translateX(-28px)}}
@@ -152,3 +150,14 @@ a{color:inherit}
 @media(max-width:680px){.hero-copy{gap:18px}.roon{height:120px}.stage{height:104px;margin:0 12px}.stage .fighter{height:64px}.stage .clawd-f{height:48px;left:calc(50% + 20px)}.stage .codex-f{left:calc(50% - 100px)}.stage .crowd{height:80px;opacity:.28}.stage .crowd-l{left:2%}.stage .crowd-r{right:2%}}
 @media(prefers-reduced-motion:reduce){.stage .fighter{animation:none}}
 .hero-copy{flex-direction:row;justify-content:flex-start;padding-top:0}
+
+/* chapter guests: big, slightly off kilter, in the empty right half of a chapter header */
+.chapter-head{position:relative}
+.guest{position:absolute;bottom:-14px;height:220px;width:auto;pointer-events:none;filter:drop-shadow(0 8px 0 rgba(18,18,18,.07))}
+.g-sam{right:40px;rotate:-5deg}
+.g-elon{right:56px;rotate:6deg;height:210px}
+.g-boris{right:230px;rotate:-7deg;height:200px;bottom:-10px}
+.g-tibo{right:30px;rotate:5deg;height:215px}
+.chapter-head>p{max-width:520px}
+@media(max-width:1180px){.guest{height:160px}.g-boris{right:170px;height:150px}}
+@media(max-width:680px){.guest{display:none}.stage .crowd{display:none}}
