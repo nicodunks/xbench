@@ -282,3 +282,12 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 /* mural: room for two rows of chips */
 .mural-grid{grid-template-rows:repeat(3,182px)}.mural-foot{min-height:56px;align-content:flex-end}
 @media(max-width:680px){.mural-grid{grid-template-rows:repeat(3,172px)}}
+/* mural: chips live in the header, right of the name */
+.mural-card header{display:flex;align-items:flex-start;gap:9px}.mural-card header>span:not(.mural-tags){min-width:0;flex:0 1 auto}
+.mural-tags{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;align-content:flex-start;gap:4px 6px;max-width:58%;flex:0 1 auto}
+.mural-tags .who{display:inline-flex;align-items:center;gap:5px;padding:2px 6px 2px 5px;border:1px solid var(--b28);border-radius:3px;font-size:10.5px;color:var(--b70);white-space:nowrap}
+.mural-tags .who img{width:12px;height:12px;filter:grayscale(1) invert(1) brightness(2)}
+.mural-tags .tab{display:inline-block;font-style:normal;font-size:9px;letter-spacing:.06em;text-transform:uppercase;padding:1px 5px;border:1px solid var(--b28);margin-left:2px}
+.mural-tags .tab.positive{border-color:var(--signal-blue);color:var(--signal-blue)}.mural-tags .tab.negative{border-color:var(--red);color:rgba(255,120,120,.9)}.mural-tags .tab.mixed{color:var(--b48)}
+.mural-card p{-webkit-line-clamp:4}.mural-grid{grid-template-rows:repeat(3,170px)}
+@media(max-width:680px){.mural-tags{max-width:100%;justify-content:flex-start;margin-left:0;flex-basis:100%}.mural-card header{flex-wrap:wrap}.mural-card p{-webkit-line-clamp:3}}

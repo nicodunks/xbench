@@ -201,3 +201,4 @@ a{color:inherit}
 .pow{background:var(--rust);color:var(--paper)}
 .tug{margin:14px 0 22px}.preference-duel .tug + .duel-title{margin-top:26px;padding-top:22px;border-top:1px solid var(--b18)}
 .dimbars{margin:10px 0 8px}.preference-duel .dimbars + .duel-title{margin-top:26px;padding-top:20px;border-top:1px solid var(--b15)}
+.mural-tags .who img{filter:grayscale(1)!important}.mural-tags .tab.positive{background:var(--signal-blue);border-color:var(--signal-blue);color:var(--paper)}.mural-tags .tab.negative{background:var(--rust);border-color:var(--rust);color:var(--paper)}.mural-tags .tab.mixed{background:var(--grey);border-color:var(--grey);color:var(--inkc)}.mural-card .mural-tags em.tab{display:inline-block}
