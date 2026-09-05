@@ -192,3 +192,10 @@ a{color:inherit}
 .daybars{margin:6px 0 4px;gap:10px}.day .cols{height:60px}.day .cols i{width:14px}.day small{font-size:12.5px}.daykey{font-size:13px;margin-top:0}.daykey i{width:14px;height:9px}
 .tug{margin:12px 0 8px}
 .mural-foot img{filter:grayscale(1)!important}.mural-foot .tab.positive{background:var(--signal-blue);border-color:var(--signal-blue);color:var(--paper)}.mural-foot .tab.negative{background:var(--rust);border-color:var(--rust);color:var(--paper)}.mural-foot .tab.mixed{background:var(--grey);border-color:var(--grey);color:var(--inkc)}
+/* flips on paper: no black card mid-animation */
+@keyframes flipOutY{0%{transform:rotateY(0);background:var(--paper)}80%{color:transparent}100%{transform:rotateY(90deg);background:var(--grey);color:transparent}}
+@keyframes flipInY{0%{transform:rotateY(-90deg);background:var(--grey);color:transparent}35%{background:var(--grey);color:transparent}100%{transform:rotateY(0);background:var(--paper)}}
+@keyframes flipOutX{0%{transform:rotateX(0);background:var(--paper)}80%{color:transparent}100%{transform:rotateX(90deg);background:var(--grey);color:transparent}}
+@keyframes flipInX{0%{transform:rotateX(-90deg);background:var(--grey);color:transparent}35%{background:var(--grey);color:transparent}100%{transform:rotateX(0);background:var(--paper)}}
+.mural-card.is-flipping img,.mural-card.is-flipping .mural-foot,.mural-card.is-flipping .mural-open,.mural-card.is-entering img,.mural-card.is-entering .mural-foot,.mural-card.is-entering .mural-open{opacity:0;transition:opacity .2s}
+.mural-card.is-entering{animation-fill-mode:both}
