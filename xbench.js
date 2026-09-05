@@ -169,7 +169,7 @@ function sentimentRows(root, models, evidenceRows, keyField, mode = "firsthand")
     score = (m) => m[mode]?.net_sentiment ?? -9,
     size = (m) => m[mode]?.n || 0;
   list.sort((a, b) => score(b) - score(a) || size(b) - size(a));
-  list.forEach((m) => {
+  list.forEach((m, rank) => {
     const c = m[mode] || {},
       tot = c.n || 0,
       net = c.net_sentiment,
@@ -199,7 +199,7 @@ function sentimentRows(root, models, evidenceRows, keyField, mode = "firsthand")
         praised.length || knocked.length
           ? `<span class="dims">${praised.length ? `<i>+</i> ${praised.join(", ")}` : ""}${praised.length && knocked.length ? " · " : ""}${knocked.length ? `<u>−</u> ${knocked.join(", ")}` : ""}</span>`
           : "";
-    row.innerHTML = `<div class="sentiment-name"><strong>${icon(m.model)}${label(m.model)}${star}</strong><small>${sub}</small></div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div><div class="metric-tail ${netClass}">${pts(net)}%</div></div>`;
+    row.innerHTML = `<div class="sentiment-name"><strong><em class="rank">${String(rank + 1).padStart(2, "0")}</em>${icon(m.model)}${label(m.model)}${star}</strong><small>${sub}</small></div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div><div class="metric-tail ${netClass}">${pts(net)}%</div></div>`;
     root.append(row);
   });
   if (!list.length)
@@ -465,11 +465,11 @@ function ratings(root, rows) {
     span = Math.max(1, hi - lo);
   root.innerHTML = [...rows]
     .sort((a, b) => b.rating - a.rating)
-    .map((r) => {
+    .map((r, i) => {
       const l = ((r.low_95 - lo) / span) * 100,
         w = ((r.high_95 - r.low_95) / span) * 100,
         m = ((r.rating - lo) / span) * 100;
-      return `<div class="rating-row"><div class="rating-name">${icon(r.model)}<span>${label(r.model)} <small style="color:var(--b48)">· ${r.votes} votes</small></span></div><div class="rating-range" aria-label="${r.rating}; interval ${r.low_95} to ${r.high_95}"><i style="left:${l}%;width:${w}%"></i><b style="left:${m}%"></b></div><strong class="rating-score">${r.rating}</strong></div>`;
+      return `<div class="rating-row"><div class="rating-name"><em class="rank">${String(i + 1).padStart(2, "0")}</em>${icon(r.model)}<span>${label(r.model)} <small style="color:var(--b48)">· ${r.votes} votes</small></span></div><div class="rating-range" aria-label="${r.rating}; interval ${r.low_95} to ${r.high_95}"><i style="left:${l}%;width:${w}%"></i><b style="left:${m}%"></b></div><strong class="rating-score">${r.rating}</strong></div>`;
     })
     .join("");
 }
@@ -974,3 +974,14 @@ document.addEventListener("click", (e) => {
   new IntersectionObserver((e) => { visible = e[0].isIntersecting; }).observe(st);
   requestAnimationFrame(step);
 })();
+
+/* reasons: one panel each, toggled between models and harnesses */
+document.querySelectorAll(".kind-switch").forEach((sw) => {
+  sw.addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    sw.querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
+    const panel = sw.closest(".panel");
+    panel.querySelectorAll("[data-kind]").forEach((el) => { el.hidden = el.dataset.kind !== b.dataset.kind; });
+  });
+});
