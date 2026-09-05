@@ -28,7 +28,27 @@ def round_icon(size, ring=0):
     return base.resize((size, size), Image.LANCZOS)
 
 
-round_icon(32, ring=1).save(out / "cursor.png")
+def arrow_cursor(size=32):
+    """Classic arrow silhouette, filled with the source image, thin light edge. Hotspot is the tip at (1,1)."""
+    S = size * 8
+    # Macintosh-style arrow, in a 32-unit box
+    pts = [(1, 1), (1, 25), (7, 19), (12, 30), (16, 28), (11, 17), (20, 17)]
+    poly = [(x * S / 32, y * S / 32) for x, y in pts]
+    mask = Image.new("L", (S, S), 0)
+    ImageDraw.Draw(mask).polygon(poly, fill=255)
+    fill = img.resize((S, S), Image.LANCZOS)
+    # zoom the face into the arrow: crop the middle 70% so eyes and grin land in the wide part
+    # frame the face: the source is centred, so take the middle band and push it into the arrow's wide part
+    fill = fill.crop((int(S * 0.22), int(S * 0.12), int(S * 0.78), int(S * 0.68))).resize((S, S), Image.LANCZOS)
+    cur = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    cur.paste(fill, (0, 0), mask)
+    edge = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    ImageDraw.Draw(edge).polygon(poly, outline=(242, 242, 237, 255), width=max(2, S // 40))
+    cur.alpha_composite(edge)
+    return cur.resize((size, size), Image.LANCZOS)
+
+
+arrow_cursor(32).save(out / "cursor.png")
 
 
 def font(sz):

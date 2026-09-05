@@ -26,12 +26,19 @@ def main() -> None:
     (OUT / "batches").mkdir(parents=True, exist_ok=True)
     PRIVATE.mkdir(parents=True, exist_ok=True)
     (OUT / "labels").mkdir(parents=True, exist_ok=True)
-    for old in (OUT / "batches").glob("batch-*.jsonl"):
-        old.unlink()
-    manifest = []
+    # Incremental: posts already in a batch keep their batch; new posts go in new batches after the last one.
+    have = set()
+    existing = sorted((OUT / "batches").glob("batch-*.jsonl"))
+    for path in existing:
+        for l in path.read_text().split("\n"):
+            if l:
+                have.add(json.loads(l)["post_id"])
+    rows = [r for r in rows if r["post_id"] not in have]
+    first = len(existing)
+    manifest = json.loads((OUT / "batch-manifest.json").read_text())["batches"] if (OUT / "batch-manifest.json").exists() else []
     for i in range(0, len(rows), BATCH):
         part = rows[i:i + BATCH]
-        name = f"batch-{i // BATCH:03d}.jsonl"
+        name = f"batch-{first + i // BATCH:03d}.jsonl"
         lines = []
         for r in part:
             lines.append(json.dumps({
@@ -48,8 +55,8 @@ def main() -> None:
         (OUT / "batches" / name).write_text("\n".join(public) + "\n")
         manifest.append({"file": name, "posts": len(part)})
     (OUT / "batch-manifest.json").write_text(json.dumps(
-        {"batch_size": BATCH, "posts": len(rows), "batches": manifest}, indent=2) + "\n")
-    print(f"{len(rows)} posts -> {len(manifest)} batches")
+        {"batch_size": BATCH, "posts": sum(m["posts"] for m in manifest), "batches": manifest}, indent=2) + "\n")
+    print(f"{len(rows)} new posts -> batches {first:03d}..{len(manifest) - 1:03d} ({len(manifest)} total)")
 
 
 if __name__ == "__main__":

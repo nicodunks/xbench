@@ -99,8 +99,10 @@ def main():
                 if r["post_id"] in labels:
                     raise ValueError(f"duplicate label {r['post_id']}")
                 labels[r["post_id"]] = r
-    if set(labels) != set(corpus):
-        raise ValueError(f"labels incomplete: {len(labels)}/{len(corpus)}")
+    missing = set(corpus) - set(labels)
+    if missing:
+        raise ValueError(f"labels incomplete: {len(missing)} corpus posts unlabeled")
+    labels = {pid: labels[pid] for pid in corpus}
     # Reviewer overrides replace the labeler's record wholesale.
     overrides_path = V2 / "overrides.jsonl"
     overrides = 0

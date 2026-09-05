@@ -48,9 +48,8 @@ for input_path in sorted(glob.glob(str(V2 / "batches" / "batch-*.jsonl"))):
         label_ids[pid] = name
     batch_checks.append({"batch": name, "posts": len(batch), "status": "pass"})
 
-if corpus_ids is not None and set(label_ids) != corpus_ids:
-    missing = len(corpus_ids - set(label_ids)); extra = len(set(label_ids) - corpus_ids)
-    raise ValueError(f"one-pass coverage failed: missing={missing} extra={extra}")
+if corpus_ids is not None and not corpus_ids <= set(label_ids):
+    raise ValueError(f"coverage failed: {len(corpus_ids - set(label_ids))} corpus posts unlabeled")
 
 overrides = jsonl(V2 / "overrides.jsonl") if (V2 / "overrides.jsonl").exists() else []
 override_ids = [str(r["post_id"]) for r in overrides]

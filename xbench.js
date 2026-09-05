@@ -592,33 +592,31 @@ function harnessDuel(h) {
 /* ---------- hero mural ---------- */
 function mural(rows) {
   const root = $("#muralGrid"),
-    posts = rows.filter((p) => p.firsthand).sort(byDate);
+    posts = [...rows];
   if (!posts.length) {
     root.innerHTML = '<p class="mural-loading">The conversation is quiet.</p>';
     return;
   }
   const c = (p, i, enter = false) => {
-    const axis = i % 2 ? "flip-x" : "flip-y",
-      who = label(p.model || p.harness || p.family);
-    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${esc(who)} · ${esc(p.sentiment)}</b><small>${esc(p.aspect || "")}</small></span></header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">↗</span></a>`;
+    const axis = i % 2 ? "flip-x" : "flip-y";
+    const who = p.username ? `<b>${esc(p.name || p.username)}</b><small>@${esc(p.username)} · ${esc(label(p.target))} · ${esc(p.sentiment)}</small>` : `<b>${esc(label(p.target))} · ${esc(p.sentiment)}</b><small>${esc(p.aspect || "")}</small>`;
+    const avatar = p.avatar ? `<img src="${p.avatar}" alt="" loading="lazy" onerror="this.remove()">` : "";
+    return `<a class="mural-card ${axis}${enter ? " is-entering" : ""}" href="${p.url}" target="_blank" rel="noreferrer"><header>${avatar}<span>${who}</span></header><p>${esc(p.text)}</p><span class="mural-open" aria-hidden="true">↗</span></a>`;
   };
-  let pool = posts.slice(0, 400);
-  pool.sort(() => Math.random() - 0.5);
-  root.innerHTML = pool
-    .slice(0, 6)
-    .map((p, i) => c(p, i))
-    .join("");
-  if (!matchMedia("(prefers-reduced-motion: reduce)").matches && pool.length > 6) {
+  for (let i = posts.length - 1; i > 0; i--) {
+    const k = Math.floor(Math.random() * (i + 1));
+    [posts[i], posts[k]] = [posts[k], posts[i]];
+  }
+  root.innerHTML = posts.slice(0, 6).map((p, i) => c(p, i)).join("");
+  if (!matchMedia("(prefers-reduced-motion: reduce)").matches && posts.length > 6) {
     let cursor = 6;
     setInterval(() => {
-      const cells = [...root.children],
-        i = cursor % cells.length,
-        current = cells[i];
+      const cells = [...root.children], i = cursor % cells.length, current = cells[i];
       if (!current) return;
       current.classList.add("is-flipping");
       setTimeout(() => {
         if (!current.parentNode) return;
-        current.outerHTML = c(pool[cursor % pool.length], i, true);
+        current.outerHTML = c(posts[cursor % posts.length], i, true);
         cursor++;
       }, 260);
     }, 3400);
@@ -683,9 +681,10 @@ async function init() {
     .map((m) => `<span>${icon(m)}${label(m)}</span>`)
     .join("");
   try {
-    const [summary, ev] = await Promise.all([
+    const [summary, ev, hero] = await Promise.all([
       fetch("data/labels-v2/public-summary.json").then((r) => r.json()),
       fetch("data/labels-v2/public-evidence.json").then((r) => r.json()),
+      fetch("data/labels-v2/hero.json").then((r) => (r.ok ? r.json() : { posts: [] })).catch(() => ({ posts: [] })),
     ]);
     EV = ev;
     DIMS = summary.dimensions || DIMS;
@@ -809,7 +808,11 @@ async function init() {
       renderCards($("#harnessSwitchEvidence"), hs.sort(byDate), "switching");
     }
     method(summary, ev);
-    mural([...(ev.sentiment || []), ...(ev.harness_sentiment || [])]);
+    mural(
+      hero.posts && hero.posts.length
+        ? hero.posts
+        : [...(ev.sentiment || []), ...(ev.harness_sentiment || [])].filter((r) => r.firsthand).map((r) => ({ ...r, target: r.model || r.harness })),
+    );
   } catch (err) {
     console.error(err);
     document.body.classList.add("data-error");
