@@ -609,7 +609,6 @@ function harnessDuel(h) {
     cxSent = (h.sentiment || []).find((m) => m.model === "codex")?.firsthand || {};
   $("#harnessDuel").innerHTML =
     `<p class="duel-title">direct head-to-head, people who used both</p><div class="duel-rows"><div class="duel-r win"><span class="duel-who">${icon("codex")}Codex</span><div class="duel-bar"><i style="width:${n ? (cx / n) * 100 : 0}%"></i></div><strong>${cx}</strong></div><div class="duel-r"><span class="duel-who">${icon("claude_code")}Claude Code</span><div class="duel-bar"><i style="width:${n ? (cc / n) * 100 : 0}%"></i></div><strong>${cc}</strong></div></div><p class="duel-read">${n ? `${Math.round((cx / n) * 100)}% chose Codex · ${n} votes` : "No direct comparisons this week."}</p><div class="chooser-result"><span>completed switches between the two</span><strong>${ccx + cxc}</strong><small>${ccx} to Codex · ${cxc} back to Claude Code</small></div>`;
-  $("#harnessFieldNote").textContent = "preference and switching kept separate";
 }
 
 /* ---------- hero mural ---------- */
