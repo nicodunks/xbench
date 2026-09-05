@@ -264,3 +264,5 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 @media(max-width:680px){.pow{display:none}}
 .pow{top:-34px;right:26px}.panel:has(> .pow) .panel-head{padding-right:210px}
 @media(max-width:1100px){.pow{top:-24px;bottom:auto;right:10px}.panel:has(> .pow) .panel-head{padding-right:150px}}
+.pow{width:124px;height:124px;padding:16px;top:-42px;right:22px;font-size:12px}.pow b{font-size:17px}
+@media(max-width:1100px){.pow{width:104px;height:104px;font-size:10.5px;padding:12px;top:-34px}}
