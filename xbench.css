@@ -275,3 +275,10 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .pow{width:132px;height:132px;padding:30px 26px;font-size:10.5px;line-height:1.15;top:-58px;letter-spacing:.03em}.pow b{font-size:15px;margin:2px 0}.pow.left{top:-54px}
 @media(max-width:1100px){.pow{width:104px;height:104px;padding:22px 18px;font-size:9px;top:-44px}.pow b{font-size:12px}}
 .mural-foot{flex-wrap:wrap;gap:6px 10px}.mural-foot .who{gap:6px}.mural-foot .who .tab{margin-left:2px}
+/* callouts: rectangles with a little spiky edge */
+.pow{width:auto;height:auto;min-width:0;padding:14px 22px;top:-26px;font-size:11.5px;line-height:1.2;white-space:nowrap;clip-path:polygon(0.0% 0.0%,7.1% 5.0%,14.3% 0.0%,21.4% 5.0%,28.6% 0.0%,35.7% 5.0%,42.9% 0.0%,50.0% 5.0%,57.1% 0.0%,64.3% 5.0%,71.4% 0.0%,78.6% 5.0%,85.7% 0.0%,92.9% 5.0%,100.0% 0.0%,95.0% 16.7%,100.0% 33.3%,95.0% 50.0%,100.0% 66.7%,95.0% 83.3%,100.0% 100.0%,92.9% 95.0%,85.7% 100.0%,78.6% 95.0%,71.4% 100.0%,64.3% 95.0%,57.1% 100.0%,50.0% 95.0%,42.9% 100.0%,35.7% 95.0%,28.6% 100.0%,21.4% 95.0%,14.3% 100.0%,7.1% 95.0%,0.0% 100.0%,5.0% 83.3%,0.0% 66.7%,5.0% 50.0%,0.0% 33.3%,5.0% 16.7%);rotate:var(--r,-3deg)}
+.pow b{display:inline;font-size:14px;margin:0 4px}.pow.left{top:-26px;left:200px}
+@media(max-width:1100px){.pow{padding:11px 16px;font-size:10px;top:-22px}.pow b{font-size:12px}}
+/* mural: room for two rows of chips */
+.mural-grid{grid-template-rows:repeat(3,182px)}.mural-foot{min-height:56px;align-content:flex-end}
+@media(max-width:680px){.mural-grid{grid-template-rows:repeat(3,172px)}}
