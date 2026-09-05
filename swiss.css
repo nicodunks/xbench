@@ -149,7 +149,7 @@ a{color:inherit}
 .chapter-head{position:relative}
 .guest{position:absolute;bottom:-14px;height:220px;width:auto;pointer-events:none;filter:drop-shadow(0 8px 0 rgba(18,18,18,.07))}
 .g-sam{right:40px;rotate:-5deg}
-.panel{position:relative}.g-elon{position:absolute;bottom:auto;height:230px;rotate:6deg;pointer-events:none;z-index:3}
+.panel{position:relative}.g-elon{position:absolute;bottom:auto;height:190px;rotate:6deg;pointer-events:none;z-index:3}
 .g-boris{right:400px;rotate:-7deg;height:250px;bottom:-100px}
 .g-tibo{right:160px;rotate:5deg;height:265px;bottom:-104px}
 .chapter-head>p{max-width:520px}

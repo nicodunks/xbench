@@ -584,7 +584,8 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
     if (!img) { img = document.createElement("img"); img.className = "guest g-elon"; img.src = "assets/stickers/elon.png"; img.alt = ""; wrap.append(img); }
     const place = () => {
       const sc = svg.clientWidth / 1180, yc = (node.y + (n * unit) / 2) * sc;
-      img.style.left = `${(xr + nw + 165) * sc}px`;
+      const want = (xr + nw + 120) * sc, maxLeft = wrap.clientWidth - img.offsetWidth - 12;
+      img.style.left = `${Math.max(scroller.offsetLeft + (xr + nw + 40) * sc, Math.min(want, maxLeft))}px`;
       img.style.top = `${scroller.offsetTop + yc - img.offsetHeight / 2 + 20}px`;
     };
     place(); img.onload = place; window.addEventListener("resize", place);
