@@ -174,3 +174,12 @@ a{color:inherit}
 .chapter-head:has(.g-boris){z-index:2}
 @media(max-width:680px){.g-elon{display:none}}
 .s-tag .s-tag-n{font-size:40px;font-weight:800;letter-spacing:-.02em}.s-tag .s-tag-who{font-size:15px}.s-tag rect{stroke-width:1.5}
+
+/* the duel chart */
+.tug{display:grid;grid-template-columns:auto auto 1fr auto auto;gap:12px;align-items:center;margin:14px 0 8px}.tug b{font-weight:700;font-size:26px;letter-spacing:-.03em}.tug b.positive{color:var(--signal-blue)}
+.tug-bar{height:28px;border:1px solid var(--b28);background:var(--grey)}.tug-bar i{display:block;height:100%;background:var(--signal-blue)}
+.dimbars{margin:12px 0 22px}.dimrow{display:grid;grid-template-columns:28px 1fr 150px 1fr 28px;gap:10px;align-items:center;padding:5px 0;border-bottom:1px solid var(--b15);font-size:12.5px}.dimrow b{font-weight:600;color:var(--b70)}.dimrow b:first-child{text-align:right;color:var(--signal-blue)}.dimrow span{text-align:center;color:var(--b70)}
+.dimrow .dl,.dimrow .dr{height:12px}.dimrow .dl{display:flex;justify-content:flex-end}.dimrow .dl i{display:block;height:100%;background:var(--signal-blue)}.dimrow .dr i{display:block;height:100%;background:var(--inkc)}
+.daybars{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;align-items:end;margin:10px 0 22px}.day{display:flex;flex-direction:column;align-items:center;gap:6px}.day .cols{display:flex;gap:3px;align-items:flex-end;height:64px;width:100%;justify-content:center}.day .cols i{display:block;width:12px;min-height:1px}.c1{background:var(--signal-blue)}.c2{background:var(--inkc)}.day small{font-size:10.5px;color:var(--b48)}
+.daykey{grid-column:1/-1;display:flex;gap:16px;font-size:11px;color:var(--b48);margin-top:2px}.daykey span{display:flex;align-items:center;gap:6px}.daykey i{display:inline-block;width:12px;height:8px}
+.preference-duel .chooser-result{margin-top:8px}

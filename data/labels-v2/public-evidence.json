@@ -143068,6 +143068,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "sufficient day-to-day replacement",
+      "dimension": "overall",
       "day_index": 0
     },
     {
@@ -143082,6 +143083,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "usability for multi-hour agent work",
+      "dimension": "efficiency",
       "day_index": 0
     },
     {
@@ -143096,6 +143098,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "quota efficiency for same workload",
+      "dimension": "efficiency",
       "day_index": 0
     },
     {
@@ -143110,6 +143113,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits",
+      "dimension": "limits",
       "day_index": 0
     },
     {
@@ -143124,6 +143128,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage allowance",
+      "dimension": "limits",
       "day_index": 0
     },
     {
@@ -143138,6 +143143,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "agentic programming performance",
+      "dimension": "agent",
       "day_index": 0
     },
     {
@@ -143152,6 +143158,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "usage efficiency",
+      "dimension": "efficiency",
       "day_index": 0
     },
     {
@@ -143166,6 +143173,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "daily usage resets",
+      "dimension": "limits",
       "day_index": 0
     },
     {
@@ -143180,6 +143188,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "handling quota problems transparently",
+      "dimension": "limits",
       "day_index": 0
     },
     {
@@ -143194,6 +143203,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "switch destination after months of frustration",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -143208,6 +143218,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "workflow migration value",
+      "dimension": "dx",
       "day_index": 1
     },
     {
@@ -143222,6 +143233,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limit comfort",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -143236,6 +143248,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "subscription value",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -143250,6 +143263,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall CLI standing",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -143264,6 +143278,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall day-to-day tool choice",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -143278,6 +143293,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "token consumption efficiency",
+      "dimension": "efficiency",
       "day_index": 1
     },
     {
@@ -143292,6 +143308,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value for money",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -143306,6 +143323,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "tool exploration",
+      "dimension": "agent",
       "day_index": 1
     },
     {
@@ -143320,6 +143338,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall execution and user care",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143334,6 +143353,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -143348,6 +143368,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "trust",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -143362,6 +143383,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage duration before rationing",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -143376,6 +143398,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "CLI experience",
+      "dimension": "dx",
       "day_index": 1
     },
     {
@@ -143390,6 +143413,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "issue detection thoroughness",
+      "dimension": "agent",
       "day_index": 1
     },
     {
@@ -143404,6 +143428,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall harness quality",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -143418,6 +143443,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "optimization efficiency",
+      "dimension": "efficiency",
       "day_index": 1
     },
     {
@@ -143432,6 +143458,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "anticipated ease of use",
+      "dimension": "dx",
       "day_index": 1
     },
     {
@@ -143446,6 +143473,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "capability and control",
+      "dimension": "agent",
       "day_index": 1
     },
     {
@@ -143460,6 +143488,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "quality, precision, end-to-end completion",
+      "dimension": "agent",
       "day_index": 1
     },
     {
@@ -143474,6 +143503,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "design simplicity",
+      "dimension": "dx",
       "day_index": 1
     },
     {
@@ -143488,6 +143518,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall experience",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -143502,6 +143533,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "value for money at $20",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -143516,6 +143548,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "free versus $200/month cost",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -143530,6 +143563,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "productivity",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -143544,6 +143578,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "clarity of 20x usage-limit terms",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143558,6 +143593,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "primary workflow suitability",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143572,6 +143608,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "5-hour rate limit",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143586,6 +143623,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "trustworthiness of output",
+      "dimension": "agent",
       "day_index": 2
     },
     {
@@ -143600,6 +143638,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage allowance longevity",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143614,6 +143653,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "recently preferred over Claude Code",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143628,6 +143668,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "fixing a stuck coding session",
+      "dimension": "reliability",
       "day_index": 2
     },
     {
@@ -143642,6 +143683,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "complex task handling",
+      "dimension": "agent",
       "day_index": 2
     },
     {
@@ -143656,6 +143698,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall harness combo",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143670,6 +143713,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "image generation built into workflow",
+      "dimension": "dx",
       "day_index": 2
     },
     {
@@ -143684,6 +143728,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "desktop app utility",
+      "dimension": "dx",
       "day_index": 2
     },
     {
@@ -143698,6 +143743,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "desktop app feel versus Claude Code",
+      "dimension": "dx",
       "day_index": 2
     },
     {
@@ -143712,6 +143758,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "value of $20 subscription",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143726,6 +143773,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "weekly usage value",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143740,6 +143788,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "UI minimalism vs feature clutter",
+      "dimension": "dx",
       "day_index": 2
     },
     {
@@ -143754,6 +143803,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limit parity",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143768,6 +143818,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed and intelligence",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -143782,6 +143833,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "automatic image generation in output",
+      "dimension": "agent",
       "day_index": 2
     },
     {
@@ -143796,6 +143848,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "subscription value and resets",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143810,6 +143863,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage allowance",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143824,6 +143878,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143838,6 +143893,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cost effectiveness",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143852,6 +143908,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "personal harness ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143866,6 +143923,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "personal harness ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143880,6 +143938,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "personal harness ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143894,6 +143953,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reliability of usage caps",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143908,6 +143968,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "migrating primary coding harness",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143922,6 +143983,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "subscription plan value",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143936,6 +143998,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "5-hour usage limit restriction",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143950,6 +144013,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "generosity of rate limits",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -143964,6 +144028,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall CLI ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143978,6 +144043,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall CLI ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -143992,6 +144058,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall CLI ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144006,6 +144073,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall CLI ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144020,6 +144088,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall CLI ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144034,6 +144103,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall CLI ranking",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144048,6 +144118,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall quality",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144062,6 +144133,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "engineering and UX quality",
+      "dimension": "dx",
       "day_index": 2
     },
     {
@@ -144076,6 +144148,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "Grok 4.6 in Grok Build beats Sol in Codex",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144090,6 +144163,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "bug-fixing capability",
+      "dimension": "agent",
       "day_index": 2
     },
     {
@@ -144104,6 +144178,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "bug-fixing capability",
+      "dimension": "agent",
       "day_index": 2
     },
     {
@@ -144118,6 +144193,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "overall performance",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144132,6 +144208,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "reliability for repetitive tasks",
+      "dimension": "reliability",
       "day_index": 2
     },
     {
@@ -144146,6 +144223,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "build speed",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -144160,6 +144238,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall preference after switching",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -144174,6 +144253,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "weekly usage limits value",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144188,6 +144268,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "ease of use",
+      "dimension": "dx",
       "day_index": 2
     },
     {
@@ -144202,6 +144283,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "5-hour Claude Code cap feels as generous as Codex weekly",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -144216,6 +144298,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits reliability",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144230,6 +144313,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "default design instincts (spacing, balance, 3D)",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144244,6 +144328,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144258,6 +144343,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "performance on new tasks",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144272,6 +144358,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall, except for the cloud feature",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144286,6 +144373,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "forced switch after account suspension",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144300,6 +144388,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "code review use",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144314,6 +144403,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "code-writing quality",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144328,6 +144418,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "terminal experience",
+      "dimension": "dx",
       "day_index": 3
     },
     {
@@ -144342,6 +144433,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "cost efficiency for simple app generation",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144356,6 +144448,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "speed to build the same tools",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144370,6 +144463,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value of the 20x usage plan",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144384,6 +144478,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "rate limit efficiency",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144398,6 +144493,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage transparency",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144412,6 +144508,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed and intelligence overall",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144426,6 +144523,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall reliance",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144440,6 +144538,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "which one to keep if forced to pick just one",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144454,6 +144553,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144468,6 +144568,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "code quality",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144482,6 +144583,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "showing what it is doing",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144496,6 +144598,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall gut preference, no stated reason",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144510,6 +144613,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "usage share growing over Claude Code",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144524,6 +144628,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall pro-plan pick",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144538,6 +144643,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall pro-plan pick",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144552,6 +144658,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall preference",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144566,6 +144673,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall pro-plan pick",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144580,6 +144688,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144594,6 +144703,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "complex task handling",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144608,6 +144718,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144622,6 +144733,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "preferred coding harness",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144636,6 +144748,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "task speed",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144650,6 +144763,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value for tokens on subscription",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144664,6 +144778,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "browser and computer use reliability",
+      "dimension": "reliability",
       "day_index": 3
     },
     {
@@ -144678,6 +144793,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "remote control feature reliability",
+      "dimension": "reliability",
       "day_index": 3
     },
     {
@@ -144692,6 +144808,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall preference",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144706,6 +144823,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall coding experience",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144720,6 +144838,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cost efficiency of harness usage",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144734,6 +144853,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "coding capability",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144748,6 +144868,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "price",
+      "dimension": "limits",
       "day_index": 3
     },
     {
@@ -144762,6 +144883,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "TUI usability",
+      "dimension": "dx",
       "day_index": 3
     },
     {
@@ -144776,6 +144898,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "computer use quality",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144790,6 +144913,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "solving bugs the other tool could not",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -144804,6 +144928,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall capability",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144818,6 +144943,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "permissions/UX usability",
+      "dimension": "dx",
       "day_index": 3
     },
     {
@@ -144832,6 +144958,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "permissions/UX usability",
+      "dimension": "dx",
       "day_index": 3
     },
     {
@@ -144846,6 +144973,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "token longevity per session",
+      "dimension": "efficiency",
       "day_index": 3
     },
     {
@@ -144860,6 +144988,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall app-building ranking",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -144874,6 +145003,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "coding capability",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -144888,6 +145018,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "compaction and remote-control UX",
+      "dimension": "efficiency",
       "day_index": 3
     },
     {
@@ -144902,6 +145033,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "current capability",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -144916,6 +145048,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "stability",
+      "dimension": "reliability",
       "day_index": 4
     },
     {
@@ -144930,6 +145063,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "remote control and browser use",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -144944,6 +145078,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "needing less user-supplied domain knowledge",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -144958,6 +145093,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "pick for the next 5 years",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -144972,6 +145108,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall preference",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -144986,6 +145123,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "no reason to switch",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145000,6 +145138,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "token efficiency after equal-time use",
+      "dimension": "efficiency",
       "day_index": 4
     },
     {
@@ -145014,6 +145153,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage allowance per subscription cost",
+      "dimension": "limits",
       "day_index": 4
     },
     {
@@ -145028,6 +145168,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall preference after switching",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145042,6 +145183,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "harness switch after cost/quality tradeoff",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145056,6 +145198,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "switching primary coding harness",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145070,6 +145213,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "affordability driving harness choice",
+      "dimension": "other",
       "day_index": 4
     },
     {
@@ -145084,6 +145228,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "visibility during long-running tasks",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145098,6 +145243,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall ranking",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145112,6 +145258,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "self-learning agent capability",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145126,6 +145273,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall ranking",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145140,6 +145288,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall ranking",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145154,6 +145303,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall ranking",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145168,6 +145318,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall capability",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145182,6 +145333,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall daily driver",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145196,6 +145348,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "multi-bot orchestration ease",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145210,6 +145363,7 @@
       "firsthand": false,
       "task": "agents",
       "aspect": "cloud plus local execution support",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -145224,6 +145378,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "mobile visibility while building",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -145238,6 +145393,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "mobile visibility while building",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -145252,6 +145408,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "session separation vs single-thread context",
+      "dimension": "efficiency",
       "day_index": 4
     },
     {
@@ -145266,6 +145423,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "overall reliability",
+      "dimension": "other",
       "day_index": 4
     },
     {
@@ -145280,6 +145438,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "anticipated value once on Astra",
+      "dimension": "other",
       "day_index": 4
     },
     {
@@ -145294,6 +145453,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reasons cited for leaving Claude Code",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145308,6 +145468,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "utility as a command-line agent",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -145322,6 +145483,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "utility as a command-line agent",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -145336,6 +145498,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "usage limits generosity",
+      "dimension": "limits",
       "day_index": 4
     },
     {
@@ -145350,6 +145513,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reliability finishing a task",
+      "dimension": "reliability",
       "day_index": 4
     },
     {
@@ -145364,6 +145528,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "reading files and fixing based on results",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145378,6 +145543,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "token usage and output quality",
+      "dimension": "efficiency",
       "day_index": 4
     },
     {
@@ -145392,6 +145558,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "capability coverage",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -145406,6 +145573,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage efficiency per agent",
+      "dimension": "efficiency",
       "day_index": 4
     },
     {
@@ -145420,6 +145588,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "token efficiency and result quality",
+      "dimension": "efficiency",
       "day_index": 4
     },
     {
@@ -145434,6 +145603,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "preference shift over two months",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145448,6 +145618,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cost of code review",
+      "dimension": "limits",
       "day_index": 4
     },
     {
@@ -145462,6 +145633,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "daily driver vs claude code",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145476,6 +145648,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "usefulness for work",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145490,6 +145663,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall day-to-day value",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -145504,6 +145678,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall coding agent performance",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145518,6 +145693,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall coding agent performance",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145532,6 +145708,7 @@
       "firsthand": false,
       "task": "agents",
       "aspect": "local file memory vs cloud agent memory",
+      "dimension": "efficiency",
       "day_index": 4
     },
     {
@@ -145546,6 +145723,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "harness reliability after switch",
+      "dimension": "reliability",
       "day_index": 4
     },
     {
@@ -145560,6 +145738,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "ease of use",
+      "dimension": "dx",
       "day_index": 4
     },
     {
@@ -145574,6 +145753,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "issue completion rate under the same limits",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145588,6 +145768,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "coding output quality",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145602,6 +145783,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "pass rate",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145616,6 +145798,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "pass rate",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145630,6 +145813,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "pass rate",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145644,6 +145828,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "secretary-like daily assistant fit",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145658,6 +145843,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "secretary-like daily assistant fit",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145672,6 +145858,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "development speed",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -145686,6 +145873,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "default spending behavior on long tasks",
+      "dimension": "efficiency",
       "day_index": 5
     },
     {
@@ -145700,6 +145888,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "subscription spend",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -145714,6 +145903,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "pass rate and stability",
+      "dimension": "reliability",
       "day_index": 5
     },
     {
@@ -145728,6 +145918,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "pass rate and stability",
+      "dimension": "reliability",
       "day_index": 5
     },
     {
@@ -145742,6 +145933,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "pass rate and stability",
+      "dimension": "reliability",
       "day_index": 5
     },
     {
@@ -145756,6 +145948,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "engineering task performance",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -145770,6 +145963,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "agent orchestration setup",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -145784,6 +145978,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "harness quality",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145798,6 +145993,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "harness quality",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145812,6 +146008,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "plugin support and quota consumption",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -145826,6 +146023,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall pick among coding assistants",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145840,6 +146038,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "consistency across interfaces",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -145854,6 +146053,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "customizability and minimalism",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -145868,6 +146068,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall coding capability",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -145882,6 +146083,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall choice after switching",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145896,6 +146098,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cost of chaining automated resume calls",
+      "dimension": "efficiency",
       "day_index": 5
     },
     {
@@ -145910,6 +146113,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "caught up and overtook Claude Code",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145924,6 +146128,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall preference",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145938,6 +146143,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "continuing work after hitting a usage limit",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -145952,6 +146158,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall performance",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145966,6 +146173,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "replacing Claude after hitting limits",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -145980,6 +146188,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "daily driver preference",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -145994,6 +146203,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "daily driver preference",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146008,6 +146218,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "keep one subscription",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146022,6 +146233,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "conversational interaction capability",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146036,6 +146248,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "UX",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146050,6 +146263,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "replacing the subscription stack",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146064,6 +146278,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "replacing the subscription stack",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146078,6 +146293,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "response speed",
+      "dimension": "other",
       "day_index": 5
     },
     {
@@ -146092,6 +146308,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed and build quality",
+      "dimension": "other",
       "day_index": 5
     },
     {
@@ -146106,6 +146323,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall quality",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146120,6 +146338,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "gets work done without moralizing",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -146134,6 +146353,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "task completion reliability",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -146148,6 +146368,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "token consumption per task",
+      "dimension": "efficiency",
       "day_index": 5
     },
     {
@@ -146162,6 +146383,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "handling coding workload",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -146176,6 +146398,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "compute given per usage",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146190,6 +146413,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "engineering rigor",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -146204,6 +146428,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "usage limits",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146218,6 +146443,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall usage",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146232,6 +146458,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall switch to GrokBot",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146246,6 +146473,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "tool usage reliability",
+      "dimension": "reliability",
       "day_index": 5
     },
     {
@@ -146260,6 +146488,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "handling complex tasks",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -146274,6 +146503,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall capability lead",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146288,6 +146518,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "UX for non-technical users",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146302,6 +146533,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "UX for non-technical users",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146316,6 +146548,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "monitor feature",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146330,6 +146563,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "preferred if not for Codex credit limits",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146344,6 +146578,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "compatibility with existing workflow",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146358,6 +146593,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage value for subscription price",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146372,6 +146608,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reliability with format changes",
+      "dimension": "reliability",
       "day_index": 5
     },
     {
@@ -146386,6 +146623,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "adapting to format changes",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -146400,6 +146638,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage depletion rate",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146414,6 +146653,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "recommended coding harness",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146428,6 +146668,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "reliability of output review",
+      "dimension": "reliability",
       "day_index": 5
     },
     {
@@ -146442,6 +146683,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "frontend task performance",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -146456,6 +146698,7 @@
       "firsthand": true,
       "task": "multimodal",
       "aspect": "image paste speed",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146470,6 +146713,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "preferred pick among solo builders",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146484,6 +146728,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "ease of sticking with familiar workflow",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146498,6 +146743,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall coding workflow choice",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146512,6 +146758,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "ease of prompting/communication",
+      "dimension": "dx",
       "day_index": 5
     },
     {
@@ -146526,6 +146773,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limit generosity",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146540,6 +146788,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "perceived generosity toward users",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -146554,6 +146803,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall results after switching",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -146568,6 +146818,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "personal fit",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146582,6 +146833,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "slightly more comfortable",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146596,6 +146848,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall developer preference",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146610,6 +146863,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value for money",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146624,6 +146878,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cli usage value under plan limits",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146638,6 +146893,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed",
+      "dimension": "other",
       "day_index": 6
     },
     {
@@ -146652,6 +146908,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "token consumption during long tasks",
+      "dimension": "other",
       "day_index": 6
     },
     {
@@ -146666,6 +146923,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "poll pick for $200/month coding tool",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146680,6 +146938,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall harness quality",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146694,6 +146953,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall harness quality",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146708,6 +146968,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall harness quality",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146722,6 +146983,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "app quality",
+      "dimension": "other",
       "day_index": 6
     },
     {
@@ -146736,6 +146998,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "poll pick for $200/month coding tool",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146750,6 +147013,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "chosen after cancelling Claude accounts",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146764,6 +147028,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "reset timing after switching",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146778,6 +147043,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall coding workflow fit",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146792,6 +147058,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "usage resets and model access",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146806,6 +147073,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits per subscription cost",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146820,6 +147088,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits driving churn",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146834,6 +147103,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "ability to gift a full subscription",
+      "dimension": "other",
       "day_index": 6
     },
     {
@@ -146848,6 +147118,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "transparency and control of remote task execution",
+      "dimension": "agent",
       "day_index": 6
     },
     {
@@ -146862,6 +147133,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reliability after Opus 5 became a liability",
+      "dimension": "reliability",
       "day_index": 6
     },
     {
@@ -146876,6 +147148,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "committing to one harness",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146890,6 +147163,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146904,6 +147178,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "capability comparison",
+      "dimension": "agent",
       "day_index": 6
     },
     {
@@ -146918,6 +147193,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "autonomy",
+      "dimension": "agent",
       "day_index": 6
     },
     {
@@ -146932,6 +147208,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "autonomy",
+      "dimension": "agent",
       "day_index": 6
     },
     {
@@ -146946,6 +147223,7 @@
       "firsthand": true,
       "task": "none",
       "aspect": "future development outlook",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146960,6 +147238,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall harness quality",
+      "dimension": "overall",
       "day_index": 6
     },
     {
@@ -146974,6 +147253,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "which tool to rely on when usage runs out",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -146988,6 +147268,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "starting new sessions from phone",
+      "dimension": "dx",
       "day_index": 6
     },
     {
@@ -147002,6 +147283,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall preference",
+      "dimension": "overall",
       "day_index": 0
     },
     {
@@ -147016,6 +147298,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "usability for multi-hour agent work",
+      "dimension": "steerability",
       "day_index": 0
     },
     {
@@ -147030,6 +147313,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cost per month",
+      "dimension": "price",
       "day_index": 0
     },
     {
@@ -147044,6 +147328,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "personal ranking after Opus frustration",
+      "dimension": null,
       "day_index": 0
     },
     {
@@ -147058,6 +147343,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "personal ranking after Opus frustration",
+      "dimension": "overall",
       "day_index": 0
     },
     {
@@ -147072,6 +147358,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "task completion reliability",
+      "dimension": "agent",
       "day_index": 0
     },
     {
@@ -147086,6 +147373,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "refusal rate",
+      "dimension": "personality",
       "day_index": 0
     },
     {
@@ -147100,6 +147388,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits and pricing",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -147114,6 +147403,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall competitiveness",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -147128,6 +147418,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall since switching",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -147142,6 +147433,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value for money",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -147156,6 +147448,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall quality comparison",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -147170,6 +147463,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "cost effectiveness",
+      "dimension": "price",
       "day_index": 1
     },
     {
@@ -147184,6 +147478,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall harness choice",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -147198,6 +147493,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "starting subscription value",
+      "dimension": "price",
       "day_index": 1
     },
     {
@@ -147212,6 +147508,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall relief from switching",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -147226,6 +147523,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall relief from switching",
+      "dimension": "overall",
       "day_index": 1
     },
     {
@@ -147240,6 +147538,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "verbosity and cost",
+      "dimension": "limits",
       "day_index": 1
     },
     {
@@ -147254,6 +147553,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "intelligence",
+      "dimension": null,
       "day_index": 1
     },
     {
@@ -147268,6 +147568,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "ease of use",
+      "dimension": "dx",
       "day_index": 2
     },
     {
@@ -147282,6 +147583,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "weekly usage limit value",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -147296,6 +147598,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "output quality",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -147310,6 +147613,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage allowance",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -147324,6 +147628,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "daily task reliability",
+      "dimension": "reliability",
       "day_index": 2
     },
     {
@@ -147338,6 +147643,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits",
+      "dimension": null,
       "day_index": 2
     },
     {
@@ -147352,6 +147658,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "workflow smoothness",
+      "dimension": "steerability",
       "day_index": 2
     },
     {
@@ -147366,6 +147673,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage quota per dollar",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -147380,6 +147688,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "coding suitability ranking",
+      "dimension": null,
       "day_index": 2
     },
     {
@@ -147394,6 +147703,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall best AI",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -147408,6 +147718,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed on matched prompts",
+      "dimension": "agent",
       "day_index": 2
     },
     {
@@ -147422,6 +147733,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "code writing quality",
+      "dimension": null,
       "day_index": 2
     },
     {
@@ -147436,6 +147748,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "affordability on a $20 budget",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -147450,6 +147763,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "time to complete the same task",
+      "dimension": null,
       "day_index": 2
     },
     {
@@ -147464,6 +147778,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "subscription cost",
+      "dimension": "price",
       "day_index": 2
     },
     {
@@ -147478,6 +147793,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "build speed",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -147492,6 +147808,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "build speed",
+      "dimension": "other",
       "day_index": 2
     },
     {
@@ -147506,6 +147823,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "output quality",
+      "dimension": "intelligence",
       "day_index": 2
     },
     {
@@ -147520,6 +147838,7 @@
       "firsthand": true,
       "task": "writing",
       "aspect": "CV writing quality",
+      "dimension": null,
       "day_index": 2
     },
     {
@@ -147534,6 +147853,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "usage volume for similar quality",
+      "dimension": "limits",
       "day_index": 2
     },
     {
@@ -147548,6 +147868,7 @@
       "firsthand": true,
       "task": "none",
       "aspect": "years of loyalty ended feeling betrayed",
+      "dimension": "overall",
       "day_index": 2
     },
     {
@@ -147562,6 +147883,7 @@
       "firsthand": false,
       "task": "writing",
       "aspect": "prose quality versus tool-speak",
+      "dimension": null,
       "day_index": 2
     },
     {
@@ -147576,6 +147898,7 @@
       "firsthand": true,
       "task": "writing",
       "aspect": "writing quality in Polish",
+      "dimension": null,
       "day_index": 2
     },
     {
@@ -147590,6 +147913,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "getting tasks actually done",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147604,6 +147928,7 @@
       "firsthand": false,
       "task": "cost",
       "aspect": "value for the $20/mo plan",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147618,6 +147943,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "performance on new tasks",
+      "dimension": "agent",
       "day_index": 3
     },
     {
@@ -147632,6 +147958,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "building web software",
+      "dimension": "intelligence",
       "day_index": 3
     },
     {
@@ -147646,6 +147973,7 @@
       "firsthand": false,
       "task": "writing",
       "aspect": "fit for writing tasks",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147660,6 +147988,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "project success rate",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147674,6 +148003,7 @@
       "firsthand": true,
       "task": "none",
       "aspect": "overall quality",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -147688,6 +148018,7 @@
       "firsthand": false,
       "task": "none",
       "aspect": "suggested replacement",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -147702,6 +148033,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "ranked pick for next coding tool",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -147716,6 +148048,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "ranked pick for next coding tool",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -147730,6 +148063,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "ranked pick for next coding tool",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -147744,6 +148078,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "access generosity",
+      "dimension": "other",
       "day_index": 3
     },
     {
@@ -147758,6 +148093,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "shots needed and speed",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147772,6 +148108,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall capability",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147786,6 +148123,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed",
+      "dimension": "speed",
       "day_index": 3
     },
     {
@@ -147800,6 +148138,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage/rate limits",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147814,6 +148153,7 @@
       "firsthand": true,
       "task": "chat",
       "aspect": "knowledge-base use case",
+      "dimension": null,
       "day_index": 3
     },
     {
@@ -147828,6 +148168,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reliability building a landing page",
+      "dimension": "reliability",
       "day_index": 3
     },
     {
@@ -147842,6 +148183,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reliability building a landing page",
+      "dimension": "reliability",
       "day_index": 3
     },
     {
@@ -147856,6 +148198,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall app-building ranking",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -147870,6 +148213,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall app-building ranking",
+      "dimension": "overall",
       "day_index": 3
     },
     {
@@ -147884,6 +148228,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cost efficiency in browser automation",
+      "dimension": "price",
       "day_index": 4
     },
     {
@@ -147898,6 +148243,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -147912,6 +148258,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -147926,6 +148273,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -147940,6 +148288,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "would rather be using this",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -147954,6 +148303,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall coding vs design capability",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -147968,6 +148318,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall recommendation",
+      "dimension": "other",
       "day_index": 4
     },
     {
@@ -147982,6 +148333,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -147996,6 +148348,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "sidebar UX annoyance",
+      "dimension": null,
       "day_index": 4
     },
     {
@@ -148010,6 +148363,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -148024,6 +148378,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "usage limits",
+      "dimension": "limits",
       "day_index": 4
     },
     {
@@ -148038,6 +148393,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "cost efficiency for agent teams",
+      "dimension": "price",
       "day_index": 4
     },
     {
@@ -148052,6 +148408,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value for money",
+      "dimension": "price",
       "day_index": 4
     },
     {
@@ -148066,6 +148423,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "simpler alternative to confusing naming",
+      "dimension": null,
       "day_index": 4
     },
     {
@@ -148080,6 +148438,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "prompt efficiency",
+      "dimension": "efficiency",
       "day_index": 4
     },
     {
@@ -148094,6 +148453,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "UI/visual design quality",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -148108,6 +148468,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "overall capability",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -148122,6 +148483,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "overall capability",
+      "dimension": "overall",
       "day_index": 4
     },
     {
@@ -148136,6 +148498,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "multi-bot orchestration ease",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -148150,6 +148513,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "unattended browser automation",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -148164,6 +148528,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "autonomous execution vs suggestion only",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -148178,6 +148543,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "shipping output vs discussing theory",
+      "dimension": "agent",
       "day_index": 4
     },
     {
@@ -148192,6 +148558,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "engineering task performance",
+      "dimension": null,
       "day_index": 5
     },
     {
@@ -148206,6 +148573,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall pick among coding assistants",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -148220,6 +148588,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "speed and design quality",
+      "dimension": null,
       "day_index": 5
     },
     {
@@ -148234,6 +148603,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "chosen for agentic tasks",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -148248,6 +148618,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "concise replies over Claude's",
+      "dimension": "other",
       "day_index": 5
     },
     {
@@ -148262,6 +148633,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "output quality",
+      "dimension": "intelligence",
       "day_index": 5
     },
     {
@@ -148276,6 +148648,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "overall capability",
+      "dimension": null,
       "day_index": 5
     },
     {
@@ -148290,6 +148663,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall performance",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -148304,6 +148678,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "primary versus backup role",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -148318,6 +148693,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall quality",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -148332,6 +148708,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value for money",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -148346,6 +148723,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall preference over Claude",
+      "dimension": "overall",
       "day_index": 5
     },
     {
@@ -148360,6 +148738,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "tool usage reliability",
+      "dimension": "other",
       "day_index": 5
     },
     {
@@ -148374,6 +148753,7 @@
       "firsthand": true,
       "task": "cost",
       "aspect": "value leading to cancellation",
+      "dimension": "limits",
       "day_index": 5
     },
     {
@@ -148388,6 +148768,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "personality/behavior drift",
+      "dimension": "agent",
       "day_index": 5
     },
     {
@@ -148402,6 +148783,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "maturity with long context",
+      "dimension": "efficiency",
       "day_index": 5
     },
     {
@@ -148416,6 +148798,7 @@
       "firsthand": true,
       "task": "agents",
       "aspect": "speed",
+      "dimension": "other",
       "day_index": 5
     },
     {
@@ -148430,6 +148813,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "reliability when quota runs out",
+      "dimension": "reliability",
       "day_index": 5
     },
     {
@@ -148444,6 +148828,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "context window for long sessions",
+      "dimension": null,
       "day_index": 6
     },
     {
@@ -148458,6 +148843,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "PCB layout capability",
+      "dimension": "agent",
       "day_index": 6
     },
     {
@@ -148472,6 +148858,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "poll pick for $200/month coding tool",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -148486,6 +148873,7 @@
       "firsthand": false,
       "task": "coding",
       "aspect": "poll pick for $200/month coding tool",
+      "dimension": "limits",
       "day_index": 6
     },
     {
@@ -148500,6 +148888,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "design quality",
+      "dimension": null,
       "day_index": 6
     },
     {
@@ -148514,6 +148903,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "overall coding capability",
+      "dimension": "agent",
       "day_index": 6
     },
     {
@@ -148528,6 +148918,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "relatively better BIOS output",
+      "dimension": "other",
       "day_index": 6
     },
     {
@@ -148542,6 +148933,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "review thoroughness",
+      "dimension": "other",
       "day_index": 6
     },
     {
@@ -148556,6 +148948,7 @@
       "firsthand": true,
       "task": "coding",
       "aspect": "review thoroughness",
+      "dimension": "other",
       "day_index": 6
     }
   ],

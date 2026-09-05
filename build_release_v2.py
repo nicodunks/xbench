@@ -317,7 +317,7 @@ def main():
         "switching": [public(r, origin=r["origin"], destination=r["destination"], day_index=r["day_index"]) for r in model_switches],
         "harness_sentiment": [public(r, harness=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"], dimension=r["dimension"])
                               for r in sentiment if r["target"] in HARNESSES],
-        "harness": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"], day_index=r["day_index"]) for r in harness_events + harness_vs_field],
+        "harness": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"], dimension=r["dimension"], day_index=r["day_index"]) for r in harness_events + harness_vs_field],
         "harness_switching": [public(r, origin=r["origin"], destination=r["destination"], day_index=r["day_index"]) for r in harness_switches],
     }
     (V2 / "public-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n")

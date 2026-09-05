@@ -1028,7 +1028,7 @@
     "data/labels-v2/overrides.jsonl": "5c6186dc3c03829c6f67b303ec5e8cc1822ae3457144f79bd4912535fe8cd3c8",
     "data/labels-v2/excluded-authors.json": "8011994a767d89500ae21b6f32a00084ceab8afc564e015149e563f3b0b6d4ab",
     "data/labels-v2/public-summary.json": "2d7d6583b608c3b285856b3c89aa00786020a36ba4218e45dc282db716bccd90",
-    "data/labels-v2/public-evidence.json": "c7451c2d8fa3efebce6ab34bd96e37538f62c37cf73a34b465a0205dc68a8163",
+    "data/labels-v2/public-evidence.json": "d47a6386742d4084544649174aa77bd584742e77abce47f922bbe030894aef2b",
     "data/labels-v2/batches/batch-000.jsonl": "7da5131c9e77645d81e465e0554a4826fdb569100b8c1e3e349c92586b2d73d1",
     "data/labels-v2/batches/batch-001.jsonl": "6679b1901809c37f6babb928d868487fb288c0d93b8619c144ec7e87c65b2397",
     "data/labels-v2/batches/batch-002.jsonl": "ec193a5d4033701f8481d70fb17d84ce823fd8f29484e4a54f0511cef9f85ff0",
@@ -1531,7 +1531,7 @@
     "prepare_label_batches.py": "0e832844e4180064a337831bc02f0d4d5eec424c9c0e647239fe4f83a8de6899",
     "validate_labels.py": "b0997cad8ace119933a1abe308d98a48adf36c3fe29a5378492ffa0b926f64f7",
     "review_labels.py": "0a90f2367293b4c01e373771e41dd7352854381342ed26a03aa3f6a5e8d6cf6e",
-    "build_release_v2.py": "5f79f2937ea6f4f6f335a33fd3c000c85ed0af28e1adcd3a6ecfaa4fce482d06",
+    "build_release_v2.py": "6be4731e6b7640402debda80cb0c05ee07f887699515c0822130fbb09f9a6bef",
     "finalize_release_v2.py": "5e8c118fa03997cf567a4c0649f077972689982280cbb4e6b96a19316273cda3"
   }
 }

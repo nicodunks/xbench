@@ -608,20 +608,31 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
 }
 
 /* ---------- harness duel ---------- */
-function harnessDuel(h) {
-  const pair = (h.head_to_head || []).find(
-      (b) => b.models.includes("claude_code") && b.models.includes("codex"),
-    ) || { votes: {}, n: 0 },
+function harnessDuel(h, rows) {
+  const pair = (h.head_to_head || []).find((b) => b.models.includes("claude_code") && b.models.includes("codex")) || { votes: {}, n: 0 },
     cc = pair.votes?.claude_code || 0,
     cx = pair.votes?.codex || 0,
     n = cc + cx,
     sw = h.switches?.by_direction || {},
     ccx = sw["claude_code -> codex"] || 0,
     cxc = sw["codex -> claude_code"] || 0,
-    ccSent = (h.sentiment || []).find((m) => m.model === "claude_code")?.firsthand || {},
-    cxSent = (h.sentiment || []).find((m) => m.model === "codex")?.firsthand || {};
-  $("#harnessDuel").innerHTML =
-    `<p class="duel-title">direct head-to-head, people who used both</p><div class="duel-rows"><div class="duel-r win"><span class="duel-who">${icon("codex")}<img class="face" src="assets/stickers/tibo.png" alt="">Codex</span><div class="duel-bar"><i style="width:${n ? (cx / n) * 100 : 0}%"></i></div><strong>${cx}</strong></div><div class="duel-r"><span class="duel-who">${icon("claude_code")}<img class="face" src="assets/stickers/boris.png" alt="">Claude Code</span><div class="duel-bar"><i style="width:${n ? (cc / n) * 100 : 0}%"></i></div><strong>${cc}</strong></div></div><p class="duel-read">${n ? `${Math.round((cx / n) * 100)}% chose Codex · ${n} votes` : "No direct comparisons this week."}</p><div class="chooser-result"><span>completed switches between the two</span><strong>${ccx + cxc}</strong><small>${ccx} to Codex · ${cxc} back to Claude Code</small></div>`;
+    votes = (rows || []).filter((p) => (p.winner === "codex" && p.loser === "claude_code") || (p.winner === "claude_code" && p.loser === "codex")),
+    fh = votes.filter((p) => p.firsthand).length,
+    days = Array.from({ length: 7 }, (_, d) => ({ cx: votes.filter((p) => p.day_index === d && p.winner === "codex").length, cc: votes.filter((p) => p.day_index === d && p.winner === "claude_code").length })),
+    dayMax = Math.max(1, ...days.map((d) => Math.max(d.cx, d.cc))),
+    dims = ["limits", "reliability", "efficiency", "agent", "dx", "overall", "other"],
+    byDim = dims.map((d) => ({ d, cx: votes.filter((p) => p.winner === "codex" && (p.dimension || "other") === d).length, cc: votes.filter((p) => p.winner === "claude_code" && (p.dimension || "other") === d).length })).filter((x) => x.cx + x.cc > 0),
+    dimMax = Math.max(1, ...byDim.map((x) => Math.max(x.cx, x.cc))),
+    pct = n ? Math.round((cx / n) * 100) : 0;
+  $("#harnessDuel").innerHTML = `
+    <p class="duel-title">direct head-to-head, people who used both</p>
+    <div class="tug"><span class="duel-who">${icon("codex")}<img class="face" src="assets/stickers/tibo.png" alt="">Codex</span><b class="positive">${cx}</b><div class="tug-bar"><i style="width:${pct}%"></i></div><b>${cc}</b><span class="duel-who">${icon("claude_code")}<img class="face" src="assets/stickers/boris.png" alt="">Claude Code</span></div>
+    <p class="duel-copy">${pct}% chose Codex · ${n} votes · ${fh} from people who described using both, ${n - fh} stated</p>
+    <p class="duel-title">what each one wins on</p>
+    <div class="dimbars">${byDim.map((x) => `<div class="dimrow"><b>${x.cx}</b><div class="dl"><i style="width:${(x.cx / dimMax) * 100}%"></i></div><span>${dimName("harness", x.d)}</span><div class="dr"><i style="width:${(x.cc / dimMax) * 100}%"></i></div><b>${x.cc}</b></div>`).join("")}</div>
+    <p class="duel-title">votes by day</p>
+    <div class="daybars">${days.map((d, i) => `<div class="day"><div class="cols"><i class="c1" style="height:${(d.cx / dayMax) * 100}%"></i><i class="c2" style="height:${(d.cc / dayMax) * 100}%"></i></div><small>${i + 1}</small></div>`).join("")}<div class="daykey"><span><i class="c1"></i>Codex</span><span><i class="c2"></i>Claude Code</span></div></div>
+    <div class="chooser-result"><span>completed switches between the two</span><strong>${ccx + cxc}</strong><small>${ccx} to Codex · ${cxc} back to Claude Code</small></div>`;
 }
 
 /* ---------- hero mural ---------- */
@@ -802,8 +813,8 @@ async function init() {
     $("#switchingCount").textContent = `${summary.switching.verified_completed_switches} completed`;
     renderCards($("#switchEvidence"), (ev.switching || []).sort(byDate), "switching");
     const h = summary.harnesses || {};
-    sentimentRows($("#harnessRows"), h.sentiment, ev.harness_sentiment || [], "harness");
-    harnessDuel(h);
+    if ($("#harnessRows")) sentimentRows($("#harnessRows"), h.sentiment, ev.harness_sentiment || [], "harness");
+    harnessDuel(h, ev.harness || []);
     matrix(
       $("#harnessMatrix"),
       h.head_to_head,
