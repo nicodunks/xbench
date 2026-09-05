@@ -221,4 +221,6 @@ a{color:inherit}
   .radar-duo{grid-template-columns:1fr}
   .radar-duo>div{min-width:0;overflow:hidden}.radar-wrap{grid-template-columns:minmax(0,1fr)!important;min-width:0}svg.radar{width:100%!important;height:auto!important;max-width:100%}.radar-duo .radar-legend,.radar-legend{grid-template-columns:1fr!important;width:auto;max-width:100%}.legend-chip{width:auto}
   .sankey .s-label{font-size:26px}#harnessSwitchChart .s-label{font-size:30px}
+  .hero-copy{padding-top:44px;padding-bottom:10px;gap:16px}.roon{height:118px}.hero h1{font-size:54px}.subtitle{font-size:18.5px;margin-top:8px}
+  .hero-index{zoom:.8;margin:8px 15px 20px}
 }
