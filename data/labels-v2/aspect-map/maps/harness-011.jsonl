@@ -1,0 +1,150 @@
+{"aspect": "token cost burn rate", "dimension": "limits"}
+{"aspect": "token cost per completed task", "dimension": "efficiency"}
+{"aspect": "token efficiency across accounts", "dimension": "efficiency"}
+{"aspect": "token efficiency and usage limits versus price", "dimension": "limits"}
+{"aspect": "token efficiency on easy tasks", "dimension": "efficiency"}
+{"aspect": "token limits despite premium plan", "dimension": "limits"}
+{"aspect": "token prefill and turnaround speed", "dimension": "efficiency"}
+{"aspect": "token pricing value comparison", "dimension": "limits"}
+{"aspect": "token-sensitive tuning", "dimension": "efficiency"}
+{"aspect": "tolerance of network timeouts", "dimension": "reliability"}
+{"aspect": "too many concurrent sessions to track in sidebar", "dimension": "dx"}
+{"aspect": "too much tool jargon, hard to understand", "dimension": "dx"}
+{"aspect": "took far longer on the same task", "dimension": "efficiency"}
+{"aspect": "tool choice becoming invisible", "dimension": "dx"}
+{"aspect": "tool usage reliability", "dimension": "reliability"}
+{"aspect": "tool usage reliability vs codex", "dimension": "reliability"}
+{"aspect": "tracking kids' homework and assignments", "dimension": "other"}
+{"aspect": "trading advice", "dimension": "other"}
+{"aspect": "training data privacy risk", "dimension": "other"}
+{"aspect": "transparency about usage limits", "dimension": "limits"}
+{"aspect": "transparency and control of remote task execution", "dimension": "agent"}
+{"aspect": "transparent, replayable remote browser control", "dimension": "agent"}
+{"aspect": "trial experience", "dimension": "dx"}
+{"aspect": "trust", "dimension": "overall"}
+{"aspect": "trust in autonomous reliability", "dimension": "agent"}
+{"aspect": "trusted, then cancelled", "dimension": "overall"}
+{"aspect": "turning small tasks into big frameworks", "dimension": "agent"}
+{"aspect": "unexpected process termination", "dimension": "reliability"}
+{"aspect": "unlimited token generosity", "dimension": "limits"}
+{"aspect": "unpredictable limit changes", "dimension": "limits"}
+{"aspect": "unpredictable personality output", "dimension": "other"}
+{"aspect": "unprompted extra creative output (auto video generation)", "dimension": "agent"}
+{"aspect": "unresolved session/history issue", "dimension": "efficiency"}
+{"aspect": "unusable for regular people under rate limits", "dimension": "limits"}
+{"aspect": "unusable quality after reset", "dimension": "limits"}
+{"aspect": "upcoming function hooks middleware", "dimension": "dx"}
+{"aspect": "update introduces bugs and resets language setting", "dimension": "reliability"}
+{"aspect": "usage accrues faster than cursor plan", "dimension": "limits"}
+{"aspect": "usage allowance depletes in a day", "dimension": "limits"}
+{"aspect": "usage allowance lasts several days longer", "dimension": "limits"}
+{"aspect": "usage allowance longevity", "dimension": "limits"}
+{"aspect": "usage burn rate", "dimension": "limits"}
+{"aspect": "usage burns too fast for the price", "dimension": "limits"}
+{"aspect": "usage cap versus productive groundwork", "dimension": "limits"}
+{"aspect": "usage consumption rate", "dimension": "limits"}
+{"aspect": "usage depletes quickly", "dimension": "limits"}
+{"aspect": "usage depletion rate", "dimension": "limits"}
+{"aspect": "usage drained within days", "dimension": "limits"}
+{"aspect": "usage drains rapidly, poor model assignment", "dimension": "limits"}
+{"aspect": "usage fix reversing cancellation plan", "dimension": "limits"}
+{"aspect": "usage lasting longer under resets", "dimension": "limits"}
+{"aspect": "usage lasting only 2 days", "dimension": "limits"}
+{"aspect": "usage lasts longer", "dimension": "limits"}
+{"aspect": "usage limit availability", "dimension": "limits"}
+{"aspect": "usage limit exhausted", "dimension": "limits"}
+{"aspect": "usage limit generosity", "dimension": "limits"}
+{"aspect": "usage limit parity", "dimension": "limits"}
+{"aspect": "usage limit reset", "dimension": "limits"}
+{"aspect": "usage limits / billing", "dimension": "limits"}
+{"aspect": "usage limits and ineffective resets", "dimension": "limits"}
+{"aspect": "usage limits are trash", "dimension": "limits"}
+{"aspect": "usage limits as daily driver", "dimension": "limits"}
+{"aspect": "usage limits burning quickly", "dimension": "limits"}
+{"aspect": "usage limits constrain solo work", "dimension": "limits"}
+{"aspect": "usage limits despite plan changes", "dimension": "limits"}
+{"aspect": "usage limits driving churn", "dimension": "limits"}
+{"aspect": "usage limits forcing upgrade", "dimension": "limits"}
+{"aspect": "usage limits hit", "dimension": "limits"}
+{"aspect": "usage limits per subscription cost", "dimension": "limits"}
+{"aspect": "usage limits prompting cancellation", "dimension": "limits"}
+{"aspect": "usage limits too low to get 30 minutes", "dimension": "limits"}
+{"aspect": "usage limits versus codex", "dimension": "limits"}
+{"aspect": "usage limits wiped by autonomous loop", "dimension": "limits"}
+{"aspect": "usage per dollar value", "dimension": "limits"}
+{"aspect": "usage resets and model access", "dimension": "limits"}
+{"aspect": "usage running out", "dimension": "limits"}
+{"aspect": "usage running out on heavy plan", "dimension": "limits"}
+{"aspect": "usage running out within hours of the $30 plan", "dimension": "limits"}
+{"aspect": "usage runs out fast", "dimension": "limits"}
+{"aspect": "usage trigger thresholds", "dimension": "limits"}
+{"aspect": "usage unusually bad even before any further reduction lands", "dimension": "limits"}
+{"aspect": "usage value for subscription price", "dimension": "limits"}
+{"aspect": "usage volume for similar quality", "dimension": "limits"}
+{"aspect": "usage-policy refusal blocked task", "dimension": "other"}
+{"aspect": "usage/limit drain rate", "dimension": "limits"}
+{"aspect": "used for a fresh perspective mid-task", "dimension": "other"}
+{"aspect": "used only as a reluctant fallback", "dimension": "other"}
+{"aspect": "used regularly in project build", "dimension": "other"}
+{"aspect": "useful enough to want it permanently open", "dimension": "overall"}
+{"aspect": "usefulness in a real ee/pcb workflow", "dimension": "other"}
+{"aspect": "usefulness of the apps", "dimension": "dx"}
+{"aspect": "user care and reset practices", "dimension": "limits"}
+{"aspect": "user friendliness", "dimension": "dx"}
+{"aspect": "using a cua driver to control the pc", "dimension": "agent"}
+{"aspect": "using bots as teammates, not chatboxes", "dimension": "agent"}
+{"aspect": "ux for large-context long agentic tasks", "dimension": "dx"}
+{"aspect": "ux for many concurrent agent sessions", "dimension": "dx"}
+{"aspect": "value for $20/month plan", "dimension": "limits"}
+{"aspect": "value for a small budget", "dimension": "limits"}
+{"aspect": "value for cli usage under plan limits", "dimension": "limits"}
+{"aspect": "value for money / roi", "dimension": "limits"}
+{"aspect": "value for money at $20", "dimension": "limits"}
+{"aspect": "value for money vs grok and codex", "dimension": "limits"}
+{"aspect": "value for the $20 price", "dimension": "limits"}
+{"aspect": "value for the $20/mo plan", "dimension": "limits"}
+{"aspect": "value leading to cancellation", "dimension": "limits"}
+{"aspect": "value of $20 subscription", "dimension": "limits"}
+{"aspect": "value of the 20x usage plan", "dimension": "limits"}
+{"aspect": "value of the pro max subscription", "dimension": "limits"}
+{"aspect": "value proposition", "dimension": "limits"}
+{"aspect": "value versus cursor bundle", "dimension": "limits"}
+{"aspect": "value/volume for the price", "dimension": "limits"}
+{"aspect": "vendor lock-in and pricing control", "dimension": "other"}
+{"aspect": "verbose comments requiring daily prompt workarounds", "dimension": "other"}
+{"aspect": "verbose low-value comments", "dimension": "other"}
+{"aspect": "verbose non-useful commit-style comments", "dimension": "other"}
+{"aspect": "verbose unfocused output", "dimension": "other"}
+{"aspect": "verbose unhelpful code comments", "dimension": "other"}
+{"aspect": "versatile creative task use", "dimension": "other"}
+{"aspect": "versatility running local models", "dimension": "dx"}
+{"aspect": "video editing workflow with remotion", "dimension": "other"}
+{"aspect": "video production workflow", "dimension": "other"}
+{"aspect": "vision of a persistent connected assistant", "dimension": "agent"}
+{"aspect": "visual effect output quality", "dimension": "other"}
+{"aspect": "voice mode reliability", "dimension": "reliability"}
+{"aspect": "voice-to-text ux desktop vs mobile", "dimension": "dx"}
+{"aspect": "volume pricing versus needing do-overs", "dimension": "limits"}
+{"aspect": "vs code extension broken with cryptic error after update", "dimension": "reliability"}
+{"aspect": "waiting for usage reset", "dimension": "limits"}
+{"aspect": "web/gui interaction limitations", "dimension": "agent"}
+{"aspect": "weekend reset timing", "dimension": "limits"}
+{"aspect": "weekly limit burned by low-priority feature", "dimension": "limits"}
+{"aspect": "weekly limit burned in 3 days", "dimension": "limits"}
+{"aspect": "weekly limit burned in half a week", "dimension": "limits"}
+{"aspect": "weekly limit changes", "dimension": "limits"}
+{"aspect": "weekly limit cut vs competitor resets", "dimension": "limits"}
+{"aspect": "weekly limit cuts off usage abruptly", "dimension": "limits"}
+{"aspect": "weekly limit exhausted early", "dimension": "limits"}
+{"aspect": "weekly limit forcing a downgrade", "dimension": "limits"}
+{"aspect": "weekly limit hit quickly", "dimension": "limits"}
+{"aspect": "weekly limit reduction announcement", "dimension": "limits"}
+{"aspect": "weekly limit scaling weaker than 5-hour boost", "dimension": "limits"}
+{"aspect": "weekly limit vs monthly quota", "dimension": "limits"}
+{"aspect": "weekly limits despite heavy spend", "dimension": "limits"}
+{"aspect": "weekly message allowance", "dimension": "limits"}
+{"aspect": "weekly quota reduction", "dimension": "limits"}
+{"aspect": "weekly rate limits already too low", "dimension": "limits"}
+{"aspect": "weekly token allowance runs out fast", "dimension": "limits"}
+{"aspect": "weekly usable volume for the price", "dimension": "limits"}
+{"aspect": "weekly usage allowance cut", "dimension": "limits"}

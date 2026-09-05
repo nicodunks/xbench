@@ -1,0 +1,150 @@
+{"aspect": "qualitative capability"}
+{"aspect": "quality after nerf update"}
+{"aspect": "quality and cost efficiency"}
+{"aspect": "quality and lower price"}
+{"aspect": "quality at high reasoning setting"}
+{"aspect": "quality at long context"}
+{"aspect": "quality decline"}
+{"aspect": "quality despite non-sota status"}
+{"aspect": "quality edge over opus"}
+{"aspect": "quality edge over sol"}
+{"aspect": "quality gap between reasoning tiers"}
+{"aspect": "quality jump versus prior model"}
+{"aspect": "quality of first pass justified expanding its role"}
+{"aspect": "quality of game design feedback"}
+{"aspect": "quality of generated frontend design"}
+{"aspect": "quality of generated game build"}
+{"aspect": "quality of the pro tier versus flash"}
+{"aspect": "quality on certain tasks"}
+{"aspect": "quality on iterative tasks"}
+{"aspect": "quality on par with proprietary models"}
+{"aspect": "quality parity with opus"}
+{"aspect": "quality preferred over stealth model"}
+{"aspect": "quality relative to fable 5.1"}
+{"aspect": "quality relative to opus 5"}
+{"aspect": "quality relative to size for local use"}
+{"aspect": "quality running locally"}
+{"aspect": "quality slipped"}
+{"aspect": "quality through cursor plan"}
+{"aspect": "quality tier versus training-data privacy"}
+{"aspect": "quality versus gpt-tier models"}
+{"aspect": "quality vs grok and muse"}
+{"aspect": "quality vs sonnet"}
+{"aspect": "quality vs time and quota cost"}
+{"aspect": "quality vs tui feature gaps"}
+{"aspect": "quantized recipe results"}
+{"aspect": "quantized single-gpu deployment score"}
+{"aspect": "questionable benchmark ranking"}
+{"aspect": "quick small tasks"}
+{"aspect": "quota burned by non-coding questions"}
+{"aspect": "quota consumed per task"}
+{"aspect": "quota consumption at high effort"}
+{"aspect": "quota cost versus prompt cache at low effort"}
+{"aspect": "quota depletes quickly on sol low"}
+{"aspect": "quota efficiency and raw output"}
+{"aspect": "quota lasts through a full day of use"}
+{"aspect": "quota worse than claude code for same tasks"}
+{"aspect": "ranked best for coding"}
+{"aspect": "rate limit exhausted in 40 minutes on max plan"}
+{"aspect": "rate limit hit quickly"}
+{"aspect": "rate limits and api pricing"}
+{"aspect": "rate limits run out quickly"}
+{"aspect": "raw capability vs composite index score"}
+{"aspect": "raw speed"}
+{"aspect": "reading and reproducing video content"}
+{"aspect": "real-world agentic benchmark scores"}
+{"aspect": "real-world capability vs benchmark rank"}
+{"aspect": "real-world quality despite lower benchmark score"}
+{"aspect": "real-world quality vs benchmark score"}
+{"aspect": "realism of output"}
+{"aspect": "reasoning and coding improvement at same price"}
+{"aspect": "reasoning capability benchmark"}
+{"aspect": "recommended alternative after cancelling claude"}
+{"aspect": "recommended alternative for the failed task"}
+{"aspect": "recommended alternative to try"}
+{"aspect": "recommended as a delegation target"}
+{"aspect": "recommended as an all-rounder"}
+{"aspect": "recommended as contrarian/disagreeable"}
+{"aspect": "recommended as leading chinese model"}
+{"aspect": "recommended for coding"}
+{"aspect": "recommended for coding workflow"}
+{"aspect": "recommended for document formatting"}
+{"aspect": "recommended for hermes agent"}
+{"aspect": "recommended model family for hermes agent"}
+{"aspect": "recommended model for hermes agent"}
+{"aspect": "recommended over astra for real work"}
+{"aspect": "recommended over gemini 3.1 pro"}
+{"aspect": "recommended overall choice"}
+{"aspect": "recommended value pick for coding"}
+{"aspect": "recreating a known game ui"}
+{"aspect": "recreating complex scene accurately"}
+{"aspect": "reduced hallucination"}
+{"aspect": "reduced reasoning steps"}
+{"aspect": "reduced verbosity"}
+{"aspect": "reducing defensive/hedging writing via prompting"}
+{"aspect": "refusal and paternalistic behavior"}
+{"aspect": "refusal behavior on low-risk requests"}
+{"aspect": "refusal removal for security work"}
+{"aspect": "refusals with lecturing and rate limits"}
+{"aspect": "refuses pentest requests as illegal"}
+{"aspect": "refusing a simple task"}
+{"aspect": "refusing account testing tasks"}
+{"aspect": "refusing low-risk requests"}
+{"aspect": "refusing many tasks"}
+{"aspect": "refusing to help and ending the conversation"}
+{"aspect": "regressed back to slow responses"}
+{"aspect": "regression and heavy token use"}
+{"aspect": "regression on data analysis versus 3.7"}
+{"aspect": "regression on own hidden benchmark"}
+{"aspect": "regretted after a single session"}
+{"aspect": "regular development tasks value"}
+{"aspect": "relative capability, less dumb"}
+{"aspect": "release cadence"}
+{"aspect": "release cadence and aggressiveness"}
+{"aspect": "reliability after repeated failures"}
+{"aspect": "reliability after switching back"}
+{"aspect": "reliability and efficiency in goal mode"}
+{"aspect": "reliability decline over the past month"}
+{"aspect": "reliability for daily building (less hallucination)"}
+{"aspect": "reliability improvement"}
+{"aspect": "reliability in long-context agent use"}
+{"aspect": "reliability in production"}
+{"aspect": "reliability of output"}
+{"aspect": "reliability on macos coding tasks"}
+{"aspect": "reliability on massive pipeline work"}
+{"aspect": "reliability, just works"}
+{"aspect": "reliability/glitching mid-session"}
+{"aspect": "reliable availability during other providers' outage"}
+{"aspect": "reliable choice retained"}
+{"aspect": "reliable working multi-agent loop"}
+{"aspect": "reliably available model choice"}
+{"aspect": "reliance for cursor workflows"}
+{"aspect": "relief from usage-limit anxiety"}
+{"aspect": "reluctant continued use despite alternatives on hand"}
+{"aspect": "remains best after comparisons"}
+{"aspect": "replaced by cursor after a month"}
+{"aspect": "reported benchmark ranking"}
+{"aspect": "reported biggest success in 3d/game dev"}
+{"aspect": "reported coding benchmark ranking"}
+{"aspect": "reputation for agent use"}
+{"aspect": "research and x scraping (heavy tier)"}
+{"aspect": "research capability versus personality warmth"}
+{"aspect": "research hallucination vs visual/translation strengths"}
+{"aspect": "resolving coding issues"}
+{"aspect": "resource efficiency"}
+{"aspect": "response quality degradation"}
+{"aspect": "response style vs omen alpha variant"}
+{"aspect": "response style/tone"}
+{"aspect": "responses read as more humanlike and precise"}
+{"aspect": "responsiveness and need for correction"}
+{"aspect": "reverse engineering a game"}
+{"aspect": "review tasks"}
+{"aspect": "rising error rate this week"}
+{"aspect": "risky if treated like other models"}
+{"aspect": "role as coding brain in pairing"}
+{"aspect": "role fit at high effort for full execution"}
+{"aspect": "role fit at high effort for planning tasks"}
+{"aspect": "routine miscellaneous tasks"}
+{"aspect": "runaway loop token consumption"}
+{"aspect": "runaway usage consumption"}
+{"aspect": "running out of usage on max plan"}

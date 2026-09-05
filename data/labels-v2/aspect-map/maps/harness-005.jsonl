@@ -1,0 +1,150 @@
+{"aspect": "$100 plan usage cap reached without heavy use", "dimension": "limits"}
+{"aspect": "10% burned in an hour makes the weekly limit feel fictional", "dimension": "limits"}
+{"aspect": "1password plugin integration", "dimension": "dx"}
+{"aspect": "20x plan only raises the 5h limit", "dimension": "limits"}
+{"aspect": "20x plan raises the weekly limit", "dimension": "limits"}
+{"aspect": "36 minutes of use burned 85% of the 5-hour limit", "dimension": "limits"}
+{"aspect": "5 hour rate limit", "dimension": "limits"}
+{"aspect": "5-hour and weekly usage limits during urgent work", "dimension": "limits"}
+{"aspect": "5-hour claude code cap feels as generous as codex weekly", "dimension": "limits"}
+{"aspect": "5-hour limit burns fast", "dimension": "limits"}
+{"aspect": "5-hour limit feels as generous as codex weekly cap", "dimension": "limits"}
+{"aspect": "5-hour limit introduced", "dimension": "limits"}
+{"aspect": "5-hour rate limit depletes too fast", "dimension": "limits"}
+{"aspect": "5-hour reset frequency", "dimension": "limits"}
+{"aspect": "5-hour session limit", "dimension": "limits"}
+{"aspect": "5-hour usage limit burned in one prompt", "dimension": "limits"}
+{"aspect": "5-hour usage limit is annoying", "dimension": "limits"}
+{"aspect": "5-hour usage limit restriction", "dimension": "limits"}
+{"aspect": "5-hour usage limits hit quickly", "dimension": "limits"}
+{"aspect": "5-hour usage limits too restrictive", "dimension": "limits"}
+{"aspect": "5-hour usage window", "dimension": "limits"}
+{"aspect": "5-hour usage window reduces quota", "dimension": "limits"}
+{"aspect": "529 overloaded errors / reliability", "dimension": "reliability"}
+{"aspect": "accent color ui customization", "dimension": "dx"}
+{"aspect": "acceptable if already familiar", "dimension": "overall"}
+{"aspect": "accessibility and product design", "dimension": "dx"}
+{"aspect": "accessibility for ordinary users", "dimension": "dx"}
+{"aspect": "account ban", "dimension": "other"}
+{"aspect": "account connection failure", "dimension": "reliability"}
+{"aspect": "account frozen after five-hour quota on first use", "dimension": "limits"}
+{"aspect": "accuracy of local recommendations", "dimension": "agent"}
+{"aspect": "acting as a router across coding tools", "dimension": "dx"}
+{"aspect": "adapting to changing source format", "dimension": "agent"}
+{"aspect": "adapting to format changes", "dimension": "agent"}
+{"aspect": "added value as a vm wrapper", "dimension": "dx"}
+{"aspect": "addictive daily usage", "dimension": "other"}
+{"aspect": "addictiveness", "dimension": "other"}
+{"aspect": "adding video metadata", "dimension": "agent"}
+{"aspect": "adopted destination after opus 5 problems", "dimension": "other"}
+{"aspect": "adoption of high-performance agents", "dimension": "agent"}
+{"aspect": "adversarial agent usage", "dimension": "agent"}
+{"aspect": "affordability driving harness choice", "dimension": "other"}
+{"aspect": "affordability on a $20 budget", "dimension": "other"}
+{"aspect": "affordable choice", "dimension": "other"}
+{"aspect": "agent identity registration failure", "dimension": "reliability"}
+{"aspect": "agent orchestration setup", "dimension": "dx"}
+{"aspect": "agent swarm cost efficiency", "dimension": "efficiency"}
+{"aspect": "agentic coding ability", "dimension": "agent"}
+{"aspect": "agentic coding performance", "dimension": "agent"}
+{"aspect": "agentic self-troubleshooting", "dimension": "agent"}
+{"aspect": "agents.md file length/conciseness", "dimension": "dx"}
+{"aspect": "allowance consumption rate", "dimension": "limits"}
+{"aspect": "anticipated ease of use", "dimension": "dx"}
+{"aspect": "anticipated value once on astra", "dimension": "other"}
+{"aspect": "api reliability calling models", "dimension": "reliability"}
+{"aspect": "app crashes and losing session context", "dimension": "reliability"}
+{"aspect": "app crashes and memory leaks", "dimension": "reliability"}
+{"aspect": "app freezing and unresponsive on windows", "dimension": "reliability"}
+{"aspect": "app quality vs alternatives", "dimension": "dx"}
+{"aspect": "app usability vs restrictions", "dimension": "dx"}
+{"aspect": "appeal for an open-source livestream project", "dimension": "other"}
+{"aspect": "appeal of apparently free access", "dimension": "other"}
+{"aspect": "architecture tasks", "dimension": "agent"}
+{"aspect": "arguing over stated instructions", "dimension": "agent"}
+{"aspect": "async autonomous work", "dimension": "agent"}
+{"aspect": "async workflow without oversight", "dimension": "agent"}
+{"aspect": "auto mode convenience versus need for guardrails", "dimension": "agent"}
+{"aspect": "auto mode reliability and permission prompts", "dimension": "agent"}
+{"aspect": "automated app testing", "dimension": "agent"}
+{"aspect": "automated feed curation and posting", "dimension": "agent"}
+{"aspect": "automatic generation with minimal input", "dimension": "agent"}
+{"aspect": "automatic image generation in output", "dimension": "agent"}
+{"aspect": "automating a personal task", "dimension": "agent"}
+{"aspect": "automating a real cost-analysis task", "dimension": "agent"}
+{"aspect": "automating a youtube upload workflow", "dimension": "agent"}
+{"aspect": "automating cost savings", "dimension": "agent"}
+{"aspect": "automating delegated tasks", "dimension": "agent"}
+{"aspect": "automating harness setup", "dimension": "dx"}
+{"aspect": "automating personal tasks", "dimension": "agent"}
+{"aspect": "automating recurring client work", "dimension": "agent"}
+{"aspect": "automating recurring report generation", "dimension": "agent"}
+{"aspect": "automating repetitive tasks", "dimension": "agent"}
+{"aspect": "automating tasks to save time", "dimension": "agent"}
+{"aspect": "automating tasks while away", "dimension": "agent"}
+{"aspect": "automating tedious business tasks", "dimension": "agent"}
+{"aspect": "autonomous approval handoff", "dimension": "agent"}
+{"aspect": "autonomous browser/password setup automation", "dimension": "agent"}
+{"aspect": "autonomous cloud environment and credential login", "dimension": "agent"}
+{"aspect": "autonomous content pipeline for seo", "dimension": "agent"}
+{"aspect": "autonomous crypto trading operation", "dimension": "agent"}
+{"aspect": "autonomous delegation of work", "dimension": "agent"}
+{"aspect": "autonomous deployment to production", "dimension": "agent"}
+{"aspect": "autonomous document handling", "dimension": "agent"}
+{"aspect": "autonomous end-to-end task completion", "dimension": "agent"}
+{"aspect": "autonomous event planning", "dimension": "agent"}
+{"aspect": "autonomous execution and command ability", "dimension": "agent"}
+{"aspect": "autonomous goal-based generation and self-check", "dimension": "agent"}
+{"aspect": "autonomous hardware debugging", "dimension": "agent"}
+{"aspect": "autonomous install just from a prompt", "dimension": "agent"}
+{"aspect": "autonomous multi-agent collaboration", "dimension": "agent"}
+{"aspect": "autonomous online purchase", "dimension": "agent"}
+{"aspect": "autonomous overnight task completion", "dimension": "agent"}
+{"aspect": "autonomous task capability", "dimension": "agent"}
+{"aspect": "autonomously cancelling old subscriptions", "dimension": "agent"}
+{"aspect": "autonomously updating another tool's cli on a vm", "dimension": "agent"}
+{"aspect": "autonomy", "dimension": "agent"}
+{"aspect": "autonomy without human checks", "dimension": "agent"}
+{"aspect": "autonomy, bias toward action", "dimension": "agent"}
+{"aspect": "available quota as fallback", "dimension": "limits"}
+{"aspect": "avatar/mascot design (ux)", "dimension": "dx"}
+{"aspect": "avoids vendor lock-in", "dimension": "dx"}
+{"aspect": "awesome but burns through usage quota fast", "dimension": "limits"}
+{"aspect": "back online after outage", "dimension": "reliability"}
+{"aspect": "backend use and easy mcp setup", "dimension": "dx"}
+{"aspect": "background ai work expectation", "dimension": "agent"}
+{"aspect": "background feature silently burns tokens and cpu", "dimension": "efficiency"}
+{"aspect": "background looping and safe headless worktree resume", "dimension": "efficiency"}
+{"aspect": "basic reliability, it works", "dimension": "reliability"}
+{"aspect": "being a helpful solution", "dimension": "overall"}
+{"aspect": "benchmark-optimized harness tricks", "dimension": "other"}
+{"aspect": "best developer experience", "dimension": "dx"}
+{"aspect": "best value at $20", "dimension": "other"}
+{"aspect": "best value for money", "dimension": "other"}
+{"aspect": "better value with extra resets", "dimension": "limits"}
+{"aspect": "blame-shifting and giving up on its own bugs", "dimension": "agent"}
+{"aspect": "bloated unfocused output", "dimension": "efficiency"}
+{"aspect": "broad task versatility", "dimension": "agent"}
+{"aspect": "broader coding workflow and agentic capabilities", "dimension": "agent"}
+{"aspect": "browser automation setup", "dimension": "dx"}
+{"aspect": "browser control speed and mobile ease", "dimension": "dx"}
+{"aspect": "browser default lock-in", "dimension": "dx"}
+{"aspect": "browser wrapper limitation", "dimension": "dx"}
+{"aspect": "builder/reviewer role split efficiency", "dimension": "efficiency"}
+{"aspect": "building a context-explorer plugin", "dimension": "dx"}
+{"aspect": "building a custom game", "dimension": "agent"}
+{"aspect": "building a game from a description quickly", "dimension": "agent"}
+{"aspect": "building a kid-friendly vibe-coding dashboard", "dimension": "agent"}
+{"aspect": "building a large personal vault app", "dimension": "agent"}
+{"aspect": "building a stock-research agent team", "dimension": "agent"}
+{"aspect": "building a working app from a discussion", "dimension": "agent"}
+{"aspect": "building an app end-to-end", "dimension": "agent"}
+{"aspect": "building an app without writing code", "dimension": "agent"}
+{"aspect": "building an autonomous agent workforce", "dimension": "agent"}
+{"aspect": "building an orchestrator and specialized bots", "dimension": "agent"}
+{"aspect": "building custom bots", "dimension": "agent"}
+{"aspect": "building multiple personal assistant bots", "dimension": "agent"}
+{"aspect": "built a practical confirmation checklist", "dimension": "agent"}
+{"aspect": "bulk email cleanup", "dimension": "agent"}
+{"aspect": "bundling muse code for free", "dimension": "other"}
+{"aspect": "burned through two max-tier accounts in a day", "dimension": "limits"}

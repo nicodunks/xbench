@@ -1,0 +1,150 @@
+{"aspect": "inconsistent refusal behavior on security requests", "dimension": "personality"}
+{"aspect": "index score versus sol showed no improvement", "dimension": "intelligence"}
+{"aspect": "indispensable for daily work", "dimension": "overall"}
+{"aspect": "inference quality improvement", "dimension": "intelligence"}
+{"aspect": "inference throughput demo", "dimension": "speed"}
+{"aspect": "insane performance improvements", "dimension": "intelligence"}
+{"aspect": "insisting a bug doesn't exist despite evidence", "dimension": "personality"}
+{"aspect": "instruction drift distorting existing code", "dimension": "steerability"}
+{"aspect": "instruction following and frontend code quality", "dimension": "steerability"}
+{"aspect": "instruction following and interaction", "dimension": "steerability"}
+{"aspect": "instruction following and reduced hallucination", "dimension": "steerability"}
+{"aspect": "instruction following bias toward own claims", "dimension": "steerability"}
+{"aspect": "instruction following improvement", "dimension": "steerability"}
+{"aspect": "instruction following on migrations", "dimension": "steerability"}
+{"aspect": "insufficient intelligence, cumbersome integration", "dimension": "intelligence"}
+{"aspect": "intelligence ahead of other models", "dimension": "intelligence"}
+{"aspect": "intelligence and capability", "dimension": "intelligence"}
+{"aspect": "intelligence and computer-use wins", "dimension": "intelligence"}
+{"aspect": "intelligence level", "dimension": "intelligence"}
+{"aspect": "intelligence level per secondhand reviews", "dimension": "intelligence"}
+{"aspect": "intelligence on this metric", "dimension": "intelligence"}
+{"aspect": "intelligence versus persistence", "dimension": "intelligence"}
+{"aspect": "intelligence vs astra and sol", "dimension": "intelligence"}
+{"aspect": "intelligence vs free chatgpt", "dimension": "intelligence"}
+{"aspect": "intelligence vs grok on this metric", "dimension": "intelligence"}
+{"aspect": "intelligence, feels like black magic", "dimension": "intelligence"}
+{"aspect": "intelligence-index-per-dollar ranking", "dimension": "price"}
+{"aspect": "intent understanding", "dimension": "steerability"}
+{"aspect": "intent understanding on generation task", "dimension": "steerability"}
+{"aspect": "interface/ux", "dimension": "other"}
+{"aspect": "internal coding bench score", "dimension": "intelligence"}
+{"aspect": "internal r&d benchmark score", "dimension": "intelligence"}
+{"aspect": "introduced bug it could not fix", "dimension": "intelligence"}
+{"aspect": "ios development", "dimension": "intelligence"}
+{"aspect": "iteration speed", "dimension": "speed"}
+{"aspect": "iterative visual feedback for game dev", "dimension": "intelligence"}
+{"aspect": "japanese output quality", "dimension": "intelligence"}
+{"aspect": "japanese prose naturalness", "dimension": "personality"}
+{"aspect": "json schema compatibility across tools", "dimension": "steerability"}
+{"aspect": "judged the stronger of the two in the debate", "dimension": "overall"}
+{"aspect": "judged worse than fable in the debate", "dimension": "overall"}
+{"aspect": "judgment and mediation performance", "dimension": "intelligence"}
+{"aspect": "judgment quality", "dimension": "intelligence"}
+{"aspect": "kept for cheap quick drafts", "dimension": "price"}
+{"aspect": "kinda bad on mac apps, not smarter than sol", "dimension": "intelligence"}
+{"aspect": "kitchen design choice", "dimension": "intelligence"}
+{"aspect": "kv cache efficiency vs minimax", "dimension": "speed"}
+{"aspect": "lacks the humanlike readable response quality", "dimension": "personality"}
+{"aspect": "landing page generation errors", "dimension": "intelligence"}
+{"aspect": "language quality", "dimension": "personality"}
+{"aspect": "large context window and speed for free", "dimension": "speed"}
+{"aspect": "large-scale code translation speed", "dimension": "speed"}
+{"aspect": "lasting a full week without limits", "dimension": "other"}
+{"aspect": "latency and price versus opus 5", "dimension": "price"}
+{"aspect": "launch impression", "dimension": "overall"}
+{"aspect": "laziness and not checking own work", "dimension": "intelligence"}
+{"aspect": "laziness on agentic tasks", "dimension": "intelligence"}
+{"aspect": "leaderboard credibility vs sonnet 5", "dimension": "intelligence"}
+{"aspect": "leading benchmark placement", "dimension": "intelligence"}
+{"aspect": "leads on hle benchmark", "dimension": "intelligence"}
+{"aspect": "leaked benchmark scores", "dimension": "intelligence"}
+{"aspect": "legal and financial reasoning capability", "dimension": "intelligence"}
+{"aspect": "lego/3d model generation", "dimension": "intelligence"}
+{"aspect": "less mature than codex with long context", "dimension": "intelligence"}
+{"aspect": "less restricted responses", "dimension": "personality"}
+{"aspect": "let a non-coder build working apps fast", "dimension": "intelligence"}
+{"aspect": "liked fable but picks codex over claude", "dimension": "overall"}
+{"aspect": "liked it after trying", "dimension": "overall"}
+{"aspect": "limit consumption", "dimension": "other"}
+{"aspect": "live commentary generation speed", "dimension": "speed"}
+{"aspect": "local benchmark score", "dimension": "intelligence"}
+{"aspect": "local inference speed and output quality", "dimension": "intelligence"}
+{"aspect": "local inference speed and playable output", "dimension": "intelligence"}
+{"aspect": "locked to antigravity, blocked in other agents", "dimension": "other"}
+{"aspect": "long autonomous game-dev loop", "dimension": "intelligence"}
+{"aspect": "long autonomous test run blocking the codebase", "dimension": "intelligence"}
+{"aspect": "long autonomous test run blocking the database", "dimension": "intelligence"}
+{"aspect": "long term memory", "dimension": "intelligence"}
+{"aspect": "long-context hallucination and poor instruction following", "dimension": "steerability"}
+{"aspect": "long-horizon autonomous completion", "dimension": "intelligence"}
+{"aspect": "long-horizon benchmark lead", "dimension": "intelligence"}
+{"aspect": "long-horizon tool calls and structured output", "dimension": "steerability"}
+{"aspect": "long-running task completion vs gui quality", "dimension": "intelligence"}
+{"aspect": "long-term memory continuity", "dimension": "intelligence"}
+{"aspect": "long-term memory limitations", "dimension": "intelligence"}
+{"aspect": "longer autonomous task workflows", "dimension": "intelligence"}
+{"aspect": "looped inventing errors on pipeline work for 3 days", "dimension": "intelligence"}
+{"aspect": "looping for two hours", "dimension": "intelligence"}
+{"aspect": "looping on file reads", "dimension": "intelligence"}
+{"aspect": "looping on long autonomous tasks", "dimension": "intelligence"}
+{"aspect": "looping without productive progress", "dimension": "intelligence"}
+{"aspect": "looping without progress on spatial reasoning task", "dimension": "intelligence"}
+{"aspect": "loses multiple published benchmarks to fable and opus", "dimension": "intelligence"}
+{"aspect": "loses to grok across published benchmarks", "dimension": "intelligence"}
+{"aspect": "losing access within cursor", "dimension": "other"}
+{"aspect": "losing to a cheaper competitor on leaderboard", "dimension": "price"}
+{"aspect": "lost memory/context after update", "dimension": "intelligence"}
+{"aspect": "low cost for the generated result", "dimension": "price"}
+{"aspect": "low cost via openrouter", "dimension": "price"}
+{"aspect": "lua script coding quality", "dimension": "intelligence"}
+{"aspect": "lyric and song prompt generation quality", "dimension": "intelligence"}
+{"aspect": "macos simulation demo output quality", "dimension": "intelligence"}
+{"aspect": "made a much better game", "dimension": "intelligence"}
+{"aspect": "maintaining design language consistency", "dimension": "intelligence"}
+{"aspect": "major capability jump worth losing sleep over", "dimension": "intelligence"}
+{"aspect": "making excuses instead of completing task", "dimension": "personality"}
+{"aspect": "manager role in a multi-model coding combo", "dimension": "other"}
+{"aspect": "manual thinking-level switching", "dimension": "steerability"}
+{"aspect": "map design quality vs cost", "dimension": "intelligence"}
+{"aspect": "market positioning as mid-tier value", "dimension": "price"}
+{"aspect": "marketing claims vs stated cost", "dimension": "price"}
+{"aspect": "marketing hype vs performance", "dimension": "intelligence"}
+{"aspect": "matching sol on terminal-bench 2.1", "dimension": "intelligence"}
+{"aspect": "math ability", "dimension": "intelligence"}
+{"aspect": "math ability and task confidence", "dimension": "intelligence"}
+{"aspect": "mcp support vs quota limits", "dimension": "other"}
+{"aspect": "mediation ability", "dimension": "intelligence"}
+{"aspect": "medium effort cost savings vs intelligence", "dimension": "price"}
+{"aspect": "medium effort setting conserves quota", "dimension": "price"}
+{"aspect": "mental exhaustion working with it", "dimension": "personality"}
+{"aspect": "messy/chaotic tool calling", "dimension": "steerability"}
+{"aspect": "meta-prompt contamination", "dimension": "steerability"}
+{"aspect": "mid-turn steering feature", "dimension": "steerability"}
+{"aspect": "misidentifying itself as chatgpt", "dimension": "personality"}
+{"aspect": "misrepresenting completed work", "dimension": "personality"}
+{"aspect": "mistakes needing correction", "dimension": "intelligence"}
+{"aspect": "mixed reception in reviews", "dimension": "overall"}
+{"aspect": "model intelligence for coding", "dimension": "intelligence"}
+{"aspect": "model quality vs marketing claims", "dimension": "intelligence"}
+{"aspect": "mogged fable 5.1 into oblivion", "dimension": "overall"}
+{"aspect": "mogged into oblivion by astra", "dimension": "overall"}
+{"aspect": "monumentally whelmed, i.e. underwhelmed by the api trial", "dimension": "overall"}
+{"aspect": "more comfortable experience", "dimension": "personality"}
+{"aspect": "more comfortable pairing with claude code", "dimension": "personality"}
+{"aspect": "more confidence-inspiring on the same tasks", "dimension": "intelligence"}
+{"aspect": "more expensive than fable 5", "dimension": "price"}
+{"aspect": "more natural writing for cvs", "dimension": "personality"}
+{"aspect": "most agentic local model", "dimension": "intelligence"}
+{"aspect": "most properly completed build so far", "dimension": "intelligence"}
+{"aspect": "most stable, reassuring output", "dimension": "intelligence"}
+{"aspect": "motion and scene quality", "dimension": "intelligence"}
+{"aspect": "motion and scene quality vs fable", "dimension": "intelligence"}
+{"aspect": "much more pleasant to work with as main agent", "dimension": "personality"}
+{"aspect": "multi-agent subagent orchestration", "dimension": "intelligence"}
+{"aspect": "multi-session stability and moe expert confusion", "dimension": "intelligence"}
+{"aspect": "multi-step enterprise workflow accuracy", "dimension": "intelligence"}
+{"aspect": "narrative quality vs consistency errors", "dimension": "intelligence"}
+{"aspect": "narrow coding lead per chart, nothing else", "dimension": "intelligence"}
+{"aspect": "native image generation integration", "dimension": "intelligence"}
+{"aspect": "natural conversational tone", "dimension": "personality"}

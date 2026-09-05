@@ -1,0 +1,150 @@
+{"aspect": "suppressed on gemini web", "dimension": "other"}
+{"aspect": "sustained quality over time", "dimension": "intelligence"}
+{"aspect": "svg animation quality", "dimension": "intelligence"}
+{"aspect": "svg/tikz generation output quality", "dimension": "intelligence"}
+{"aspect": "sycophancy", "dimension": "personality"}
+{"aspect": "sycophancy and short context memory in voice mode", "dimension": "personality"}
+{"aspect": "system prompt blocking subagents", "dimension": "steerability"}
+{"aspect": "system setup speed", "dimension": "speed"}
+{"aspect": "table and faithfulness parsing", "dimension": "intelligence"}
+{"aspect": "table versus chart parsing accuracy", "dimension": "intelligence"}
+{"aspect": "talks more like a normal person", "dimension": "personality"}
+{"aspect": "task approach intelligence", "dimension": "intelligence"}
+{"aspect": "task completion inefficiency", "dimension": "speed"}
+{"aspect": "task completion quality", "dimension": "intelligence"}
+{"aspect": "task completion speed and token efficiency", "dimension": "speed"}
+{"aspect": "task failure", "dimension": "intelligence"}
+{"aspect": "task performance versus a competing model", "dimension": "intelligence"}
+{"aspect": "task persistence", "dimension": "steerability"}
+{"aspect": "task routing via claude.md", "dimension": "other"}
+{"aspect": "task speed and quality versus long-horizon reliability", "dimension": "intelligence"}
+{"aspect": "tau-bench banking score and latency vs newer model", "dimension": "intelligence"}
+{"aspect": "tdd workflow and image-to-text generation", "dimension": "intelligence"}
+{"aspect": "technical error running in codex", "dimension": "other"}
+{"aspect": "temporarily unavailable", "dimension": "other"}
+{"aspect": "terminal bench score surprise", "dimension": "intelligence"}
+{"aspect": "terminal-bench 4.0 score and cost per task", "dimension": "intelligence"}
+{"aspect": "terminal-bench score lead", "dimension": "intelligence"}
+{"aspect": "terminal-bench-4.0 score", "dimension": "intelligence"}
+{"aspect": "terse, precise replies", "dimension": "personality"}
+{"aspect": "test robustness after fixing the bug", "dimension": "intelligence"}
+{"aspect": "three.js site generation speed and design fidelity", "dimension": "intelligence"}
+{"aspect": "throughput and efficiency value", "dimension": "speed"}
+{"aspect": "throughput performance", "dimension": "speed"}
+{"aspect": "throughput tokens per second", "dimension": "speed"}
+{"aspect": "time estimation accuracy", "dimension": "intelligence"}
+{"aspect": "time horizon metric", "dimension": "intelligence"}
+{"aspect": "time horizon vs fable 5", "dimension": "intelligence"}
+{"aspect": "time to autonomously clear the game", "dimension": "intelligence"}
+{"aspect": "time to clear a long-horizon game benchmark", "dimension": "intelligence"}
+{"aspect": "time to clear pokemon game challenge", "dimension": "intelligence"}
+{"aspect": "time to match professional design agency quality", "dimension": "intelligence"}
+{"aspect": "time-per-task frontier", "dimension": "speed"}
+{"aspect": "tireless correct execution", "dimension": "intelligence"}
+{"aspect": "token and session efficiency", "dimension": "price"}
+{"aspect": "token burn from sub-agent proliferation", "dimension": "price"}
+{"aspect": "token consumption compared to gemini", "dimension": "price"}
+{"aspect": "token consumption doubling", "dimension": "price"}
+{"aspect": "token consumption efficiency", "dimension": "price"}
+{"aspect": "token consumption far higher than claimed", "dimension": "price"}
+{"aspect": "token cost efficiency", "dimension": "price"}
+{"aspect": "token cost per prompt", "dimension": "price"}
+{"aspect": "token cost versus output capability under plan limits", "dimension": "price"}
+{"aspect": "token cost vs domestic models", "dimension": "price"}
+{"aspect": "token efficiency (pareto frontier)", "dimension": "price"}
+{"aspect": "token efficiency as orchestrator", "dimension": "price"}
+{"aspect": "token efficiency for an equivalent result", "dimension": "price"}
+{"aspect": "token efficiency for same output", "dimension": "price"}
+{"aspect": "token efficiency near the frontier", "dimension": "price"}
+{"aspect": "token efficiency on complex tasks", "dimension": "price"}
+{"aspect": "token efficiency on model zen garden benchmark", "dimension": "price"}
+{"aspect": "token efficiency on same-size tasks", "dimension": "price"}
+{"aspect": "token efficiency per coding task", "dimension": "price"}
+{"aspect": "token efficiency versus intelligence-index gain", "dimension": "price"}
+{"aspect": "token efficiency vs cost", "dimension": "price"}
+{"aspect": "token efficiency vs gemini 3.8 flash", "dimension": "price"}
+{"aspect": "token pricing value", "dimension": "price"}
+{"aspect": "token pricing vs cheaper alternatives", "dimension": "price"}
+{"aspect": "token quota insufficient for workload", "dimension": "price"}
+{"aspect": "token savings at medium/low tiers", "dimension": "price"}
+{"aspect": "token value per subscription price", "dimension": "price"}
+{"aspect": "token-saving at medium setting", "dimension": "price"}
+{"aspect": "token/usage consumption", "dimension": "price"}
+{"aspect": "tokens used up quickly", "dimension": "price"}
+{"aspect": "too expensive for the budget", "dimension": "price"}
+{"aspect": "too expensive to test without early access", "dimension": "price"}
+{"aspect": "took a long time to complete a task", "dimension": "speed"}
+{"aspect": "took hours to fix its own bug", "dimension": "speed"}
+{"aspect": "tool call quality and task resolution", "dimension": "intelligence"}
+{"aspect": "tool calling issues", "dimension": "intelligence"}
+{"aspect": "tool loop reliability in agentic queries", "dimension": "intelligence"}
+{"aspect": "tool-use accuracy across effort levels", "dimension": "intelligence"}
+{"aspect": "top overall quality", "dimension": "overall"}
+{"aspect": "topping terminal-bench 4.0", "dimension": "intelligence"}
+{"aspect": "track cleanliness and polish", "dimension": "intelligence"}
+{"aspect": "training cost efficiency for comparable score", "dimension": "price"}
+{"aspect": "trend synthesis, verification, and judging", "dimension": "intelligence"}
+{"aspect": "trust-building personality vs fable 5", "dimension": "personality"}
+{"aspect": "trusted for high-stakes decisions", "dimension": "intelligence"}
+{"aspect": "trustworthy autonomous pr review", "dimension": "intelligence"}
+{"aspect": "trying it out for progress", "dimension": "overall"}
+{"aspect": "ts-bench pass rate", "dimension": "intelligence"}
+{"aspect": "ts-bench perfect score", "dimension": "intelligence"}
+{"aspect": "ts-bench task failure in opencode", "dimension": "intelligence"}
+{"aspect": "turning an idea into a finished video", "dimension": "intelligence"}
+{"aspect": "typo causing task failure", "dimension": "intelligence"}
+{"aspect": "ui polish and functionality", "dimension": "intelligence"}
+{"aspect": "ui simulation accuracy", "dimension": "intelligence"}
+{"aspect": "ultracode effort setting burns through rate limits fastest", "dimension": "price"}
+{"aspect": "unable to fix issues caused by another tool", "dimension": "intelligence"}
+{"aspect": "unattended long overnight build", "dimension": "intelligence"}
+{"aspect": "unauthorized autonomous phone actions", "dimension": "steerability"}
+{"aspect": "uncensored scraping capability", "dimension": "personality"}
+{"aspect": "underexplored relative to what people default to", "dimension": "overall"}
+{"aspect": "underrated / underappreciated", "dimension": "overall"}
+{"aspect": "underrated overall quality", "dimension": "overall"}
+{"aspect": "understanding and clarification in agentic workflows", "dimension": "steerability"}
+{"aspect": "underwhelming benchmark ranking", "dimension": "intelligence"}
+{"aspect": "underwhelming update", "dimension": "overall"}
+{"aspect": "underwhelming versus advertised leap", "dimension": "intelligence"}
+{"aspect": "underwhelming, same as fable", "dimension": "overall"}
+{"aspect": "undisclosed quality downgrade", "dimension": "intelligence"}
+{"aspect": "unexpected image editing behavior", "dimension": "intelligence"}
+{"aspect": "unexpected reversion to chinese", "dimension": "personality"}
+{"aspect": "unexpectedly high cost", "dimension": "price"}
+{"aspect": "unfounded criticism from uninformed critics", "dimension": "other"}
+{"aspect": "unhelpful reasoning responses", "dimension": "intelligence"}
+{"aspect": "unlimited-feeling quota and strong multimodal ability", "dimension": "intelligence"}
+{"aspect": "unprompted extra creative output (auto video generation)", "dimension": "intelligence"}
+{"aspect": "unreliable with long context", "dimension": "intelligence"}
+{"aspect": "unresolved issues piling up", "dimension": "intelligence"}
+{"aspect": "unsolicited scope creep in edits", "dimension": "steerability"}
+{"aspect": "unstable edits breaking other parts", "dimension": "intelligence"}
+{"aspect": "unwanted edits to skill files", "dimension": "steerability"}
+{"aspect": "usability / perceived quantization", "dimension": "intelligence"}
+{"aspect": "usability for coding tasks", "dimension": "intelligence"}
+{"aspect": "usability, cost, and speed", "dimension": "intelligence"}
+{"aspect": "usable fallback when others exhausted", "dimension": "other"}
+{"aspect": "usage allowance value at $20", "dimension": "price"}
+{"aspect": "usage burn for a small change", "dimension": "price"}
+{"aspect": "usage burn higher than opus", "dimension": "price"}
+{"aspect": "usage burn on trivial prompts", "dimension": "price"}
+{"aspect": "usage burn, went back after trying astra", "dimension": "price"}
+{"aspect": "usage capacity before hitting limits", "dimension": "price"}
+{"aspect": "usage cost vs capability tradeoff", "dimension": "price"}
+{"aspect": "usage depleted", "dimension": "price"}
+{"aspect": "usage included for the price", "dimension": "price"}
+{"aspect": "usage lasting only 2 days", "dimension": "price"}
+{"aspect": "usage limit duration", "dimension": "price"}
+{"aspect": "usage limit exhausted", "dimension": "price"}
+{"aspect": "usage limits and price vs competitors", "dimension": "price"}
+{"aspect": "usage limits and speed", "dimension": "price"}
+{"aspect": "usage limits during overnight training run", "dimension": "price"}
+{"aspect": "usage limits perceived as a scam", "dimension": "price"}
+{"aspect": "usage limits under production load", "dimension": "price"}
+{"aspect": "usage limits value", "dimension": "price"}
+{"aspect": "usage limits via subscription", "dimension": "price"}
+{"aspect": "usage limits vs opus", "dimension": "price"}
+{"aspect": "usage optimization guidance", "dimension": "price"}
+{"aspect": "usage quota exhausted quickly", "dimension": "price"}
+{"aspect": "usage quota sufficiency when accounted correctly", "dimension": "price"}

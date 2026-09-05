@@ -1,0 +1,40 @@
+{"aspect": "usage reset not applied", "dimension": "limits"}
+{"aspect": "usage reset not received", "dimension": "limits"}
+{"aspect": "usage reset scheduling and ux", "dimension": "limits"}
+{"aspect": "usage running out before reset", "dimension": "limits"}
+{"aspect": "usage still doesn't last full week", "dimension": "limits"}
+{"aspect": "usage visibility versus quota resets", "dimension": "limits"}
+{"aspect": "usage window billing structure", "dimension": "limits"}
+{"aspect": "usage-based pricing too high", "dimension": "limits"}
+{"aspect": "usage/rate limits", "dimension": "limits"}
+{"aspect": "use for timeline reads over sales tasks", "dimension": "agent"}
+{"aspect": "user friendly with less setup", "dimension": "dx"}
+{"aspect": "user-friendly connectors and sessions", "dimension": "dx"}
+{"aspect": "utility as a command-line agent", "dimension": "dx"}
+{"aspect": "value of heavy plan rising via local build", "dimension": "limits"}
+{"aspect": "value of microsoft apps integration", "dimension": "dx"}
+{"aspect": "value per subscription dollar", "dimension": "limits"}
+{"aspect": "visibility during long-running tasks", "dimension": "agent"}
+{"aspect": "visual color design", "dimension": "dx"}
+{"aspect": "voicemail to task automation workflow", "dimension": "agent"}
+{"aspect": "vps setup assistance versus googling", "dimension": "agent"}
+{"aspect": "wasted time near the 5-hour usage window limit", "dimension": "limits"}
+{"aspect": "wasted usage from avoidable reruns", "dimension": "limits"}
+{"aspect": "weekly limit change", "dimension": "limits"}
+{"aspect": "weekly limit consumed faster than before on small projects", "dimension": "limits"}
+{"aspect": "weekly limit increase not enough, cancelling", "dimension": "limits"}
+{"aspect": "weekly limit interrupting sustained work", "dimension": "limits"}
+{"aspect": "weekly quota transparency", "dimension": "limits"}
+{"aspect": "weekly rate limit consumed for minimal output", "dimension": "limits"}
+{"aspect": "weekly usage cap disparity across models", "dimension": "limits"}
+{"aspect": "weekly usage cap reached", "dimension": "limits"}
+{"aspect": "weekly usage pool exhausted fast", "dimension": "limits"}
+{"aspect": "well thought out ux and concise replies", "dimension": "dx"}
+{"aspect": "which one to keep if forced to pick just one", "dimension": "overall"}
+{"aspect": "working with a high reasoning-effort setting", "dimension": "dx"}
+{"aspect": "works out of the box", "dimension": "dx"}
+{"aspect": "works well with a couple mcp servers added", "dimension": "dx"}
+{"aspect": "writing profitable trading bot code from plain english", "dimension": "agent"}
+{"aspect": "x connector integration broken", "dimension": "reliability"}
+{"aspect": "x plugin setup errors", "dimension": "reliability"}
+{"aspect": "zero setup for non-technical users", "dimension": "dx"}

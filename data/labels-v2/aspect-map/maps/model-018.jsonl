@@ -1,0 +1,150 @@
+{"aspect": "creative iteration speed", "dimension": "speed"}
+{"aspect": "creative visual generation output", "dimension": "intelligence"}
+{"aspect": "creative writing / language quality", "dimension": "intelligence"}
+{"aspect": "creative writing and copy quality vs other tasks", "dimension": "intelligence"}
+{"aspect": "creative writing quality", "dimension": "intelligence"}
+{"aspect": "creativity", "dimension": "intelligence"}
+{"aspect": "creativity and complex debugging", "dimension": "intelligence"}
+{"aspect": "credibility for serious work", "dimension": "intelligence"}
+{"aspect": "credibility of ranking opus over sol", "dimension": "intelligence"}
+{"aspect": "credit availability after switching", "dimension": "price"}
+{"aspect": "credit consumption vs claims", "dimension": "price"}
+{"aspect": "credit efficiency for research pipeline work", "dimension": "price"}
+{"aspect": "credit efficiency vs fable 5.1", "dimension": "price"}
+{"aspect": "credits depleted after 50 commits", "dimension": "price"}
+{"aspect": "curiosity about reference links", "dimension": "other"}
+{"aspect": "curiosity about references", "dimension": "other"}
+{"aspect": "current best combo overall", "dimension": "overall"}
+{"aspect": "current daily driver", "dimension": "overall"}
+{"aspect": "current quality before a feared nerf", "dimension": "intelligence"}
+{"aspect": "cursorbench in-editor coding score", "dimension": "intelligence"}
+{"aspect": "cutting marketing costs", "dimension": "other"}
+{"aspect": "cve rediscovery capability", "dimension": "intelligence"}
+{"aspect": "cyber benchmark trustworthiness", "dimension": "intelligence"}
+{"aspect": "daily driver speed and stability", "dimension": "speed"}
+{"aspect": "daily-driver reliance", "dimension": "overall"}
+{"aspect": "data retention issues", "dimension": "other"}
+{"aspect": "day-to-day ticket resolution", "dimension": "intelligence"}
+{"aspect": "dead on arrival, mogged by a flash model", "dimension": "overall"}
+{"aspect": "debugging accuracy", "dimension": "intelligence"}
+{"aspect": "decisive fast editing", "dimension": "speed"}
+{"aspect": "declining quality and verbosity", "dimension": "intelligence"}
+{"aspect": "decode speed at high concurrency", "dimension": "speed"}
+{"aspect": "deep research capability", "dimension": "intelligence"}
+{"aspect": "deep research enjoyment", "dimension": "overall"}
+{"aspect": "degrades badly past 300k context", "dimension": "intelligence"}
+{"aspect": "depth exploitation capability", "dimension": "intelligence"}
+{"aspect": "design and breakthrough tasks", "dimension": "intelligence"}
+{"aspect": "design and planning quality", "dimension": "intelligence"}
+{"aspect": "design quality versus company frustration", "dimension": "intelligence"}
+{"aspect": "design quality vs fable 5", "dimension": "intelligence"}
+{"aspect": "design quality without careful prompting", "dimension": "intelligence"}
+{"aspect": "design related work", "dimension": "intelligence"}
+{"aspect": "desire despite high cost", "dimension": "price"}
+{"aspect": "desire to stop using it", "dimension": "overall"}
+{"aspect": "destructive behavior/task failure", "dimension": "intelligence"}
+{"aspect": "deterministic coding eval pass rate", "dimension": "intelligence"}
+{"aspect": "dev ability vs usage limits", "dimension": "price"}
+{"aspect": "developer tool building ease", "dimension": "intelligence"}
+{"aspect": "diagnosing a test-harness newline bug", "dimension": "intelligence"}
+{"aspect": "did not fully solve the coding task", "dimension": "intelligence"}
+{"aspect": "difficulty getting good results", "dimension": "intelligence"}
+{"aspect": "direct audio input support", "dimension": "other"}
+{"aspect": "directness of answers", "dimension": "personality"}
+{"aspect": "directness vs moralizing", "dimension": "personality"}
+{"aspect": "discount pricing", "dimension": "price"}
+{"aspect": "discount pricing enabling a fast weekend build", "dimension": "price"}
+{"aspect": "dishonesty", "dimension": "personality"}
+{"aspect": "disputing a benchmark comparison", "dimension": "intelligence"}
+{"aspect": "dissatisfaction leading to cancellation", "dimension": "overall"}
+{"aspect": "distinctive personality", "dimension": "personality"}
+{"aspect": "document parsing tables vs charts", "dimension": "intelligence"}
+{"aspect": "doesn't deliver needed quality", "dimension": "intelligence"}
+{"aspect": "doesn't measure up yet on its own", "dimension": "overall"}
+{"aspect": "drafting and judging content", "dimension": "intelligence"}
+{"aspect": "driving a video-reproduction workflow", "dimension": "intelligence"}
+{"aspect": "earlier design needed rework", "dimension": "intelligence"}
+{"aspect": "early coding test results", "dimension": "intelligence"}
+{"aspect": "early impression after gaining access", "dimension": "overall"}
+{"aspect": "ease of blender/3d workflow", "dimension": "intelligence"}
+{"aspect": "easy and cheap for normal users", "dimension": "price"}
+{"aspect": "eebench pcb design score", "dimension": "intelligence"}
+{"aspect": "effectiveness with vs without a prompting skill", "dimension": "steerability"}
+{"aspect": "efficiency gain via skill creation", "dimension": "intelligence"}
+{"aspect": "efficiency in steps and parallel tool calls", "dimension": "intelligence"}
+{"aspect": "efficient architecture worth scaling", "dimension": "intelligence"}
+{"aspect": "efficient training cost vs gpt/claude performance", "dimension": "price"}
+{"aspect": "effort-level speed vs result quality", "dimension": "speed"}
+{"aspect": "engineer/agent shorthand in prose", "dimension": "personality"}
+{"aspect": "enjoyable but quickly depletes usage", "dimension": "price"}
+{"aspect": "enjoys using it", "dimension": "overall"}
+{"aspect": "enterprise api pricing risk", "dimension": "price"}
+{"aspect": "epoch ai erdos problem set score", "dimension": "intelligence"}
+{"aspect": "erdos problem set benchmark score", "dimension": "intelligence"}
+{"aspect": "error opening the app", "dimension": "other"}
+{"aspect": "error rate / quality drop", "dimension": "intelligence"}
+{"aspect": "error rate this week", "dimension": "intelligence"}
+{"aspect": "everyday chat quality on free plan", "dimension": "intelligence"}
+{"aspect": "exceeded expectations in hands-on testing", "dimension": "overall"}
+{"aspect": "excellent but limits force reliance on cheaper models", "dimension": "price"}
+{"aspect": "excessive moralizing and restrictions", "dimension": "personality"}
+{"aspect": "excessive verbosity in generated code", "dimension": "personality"}
+{"aspect": "excitement about getting free access", "dimension": "price"}
+{"aspect": "excitement for a weekend build session", "dimension": "overall"}
+{"aspect": "excitement to try it", "dimension": "overall"}
+{"aspect": "excitement to use it over the weekend", "dimension": "overall"}
+{"aspect": "execution and iteration", "dimension": "intelligence"}
+{"aspect": "execution quality inside cursor workflow", "dimension": "intelligence"}
+{"aspect": "execution tasks", "dimension": "intelligence"}
+{"aspect": "executor role in codex workflow", "dimension": "intelligence"}
+{"aspect": "expected future help", "dimension": "overall"}
+{"aspect": "expected porting capability", "dimension": "intelligence"}
+{"aspect": "expensive", "dimension": "price"}
+{"aspect": "expensive if run early in the loop", "dimension": "price"}
+{"aspect": "expensive pricing", "dimension": "price"}
+{"aspect": "exploit-discovery and benchmark capability", "dimension": "intelligence"}
+{"aspect": "extending usage by reserving for key tasks", "dimension": "price"}
+{"aspect": "eye illustration quality", "dimension": "intelligence"}
+{"aspect": "fabricating user consent/persona", "dimension": "personality"}
+{"aspect": "failing to fix a ui bug after repeated attempts", "dimension": "intelligence"}
+{"aspect": "fails to follow instructions despite benchmark claims", "dimension": "steerability"}
+{"aspect": "falling behind competitors", "dimension": "intelligence"}
+{"aspect": "falling behind, needs to catch up", "dimension": "intelligence"}
+{"aspect": "falls short of fable in comparison", "dimension": "overall"}
+{"aspect": "familiar user experience / switching cost", "dimension": "other"}
+{"aspect": "fast and direct, doesn't overthink", "dimension": "speed"}
+{"aspect": "fast and well designed", "dimension": "intelligence"}
+{"aspect": "fast at agentic tasks but weak at coding", "dimension": "intelligence"}
+{"aspect": "fast build speed", "dimension": "speed"}
+{"aspect": "fast but unproductive", "dimension": "intelligence"}
+{"aspect": "fast complaint retrieval", "dimension": "speed"}
+{"aspect": "fast results", "dimension": "speed"}
+{"aspect": "fast usage consumption", "dimension": "price"}
+{"aspect": "fast, impressive game clone from a joke prompt", "dimension": "intelligence"}
+{"aspect": "fast, sharp, enough for basic repo coding on free tier", "dimension": "intelligence"}
+{"aspect": "faster and cheaper for equally good output", "dimension": "price"}
+{"aspect": "faster but pricier", "dimension": "speed"}
+{"aspect": "faster task completion", "dimension": "speed"}
+{"aspect": "favorite for frontend development", "dimension": "intelligence"}
+{"aspect": "feels outdated/behind current models", "dimension": "intelligence"}
+{"aspect": "felt improvement over predecessor", "dimension": "intelligence"}
+{"aspect": "fewer silent errors on charts", "dimension": "intelligence"}
+{"aspect": "fidelity of recreated game visuals", "dimension": "intelligence"}
+{"aspect": "file limit in chatgpt projects", "dimension": "other"}
+{"aspect": "file map retention on long agent runs", "dimension": "intelligence"}
+{"aspect": "final results comparison", "dimension": "intelligence"}
+{"aspect": "finding bugs others missed", "dimension": "intelligence"}
+{"aspect": "finding information during research", "dimension": "intelligence"}
+{"aspect": "finding race conditions in php", "dimension": "intelligence"}
+{"aspect": "finding vulnerabilities cheaply in a scan", "dimension": "intelligence"}
+{"aspect": "first-pass code quality and efficiency", "dimension": "intelligence"}
+{"aspect": "first-try pass rate on deepswe", "dimension": "intelligence"}
+{"aspect": "fit for ui tasks", "dimension": "intelligence"}
+{"aspect": "fixed the looping issue", "dimension": "intelligence"}
+{"aspect": "fixed the pipeline in 15 minutes", "dimension": "speed"}
+{"aspect": "fixing a bug another model caused", "dimension": "intelligence"}
+{"aspect": "fixing a system bug", "dimension": "intelligence"}
+{"aspect": "flawed output but relatively better", "dimension": "intelligence"}
+{"aspect": "forced english replies regardless of language", "dimension": "steerability"}
+{"aspect": "forgets long context but fine as coding subagent", "dimension": "intelligence"}
+{"aspect": "found and fixed the same bug", "dimension": "intelligence"}

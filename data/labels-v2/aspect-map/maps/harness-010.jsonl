@@ -1,0 +1,150 @@
+{"aspect": "reduced charter boilerplate needed", "dimension": "efficiency"}
+{"aspect": "reduced need for detailed instructions", "dimension": "agent"}
+{"aspect": "reduced usage limits", "dimension": "limits"}
+{"aspect": "reducing defensive/hedging writing via prompting", "dimension": "other"}
+{"aspect": "refusing risky automation", "dimension": "agent"}
+{"aspect": "regret after switching", "dimension": "overall"}
+{"aspect": "rejections and ignoring skills/configs", "dimension": "reliability"}
+{"aspect": "relative quality vs high-end alternatives", "dimension": "agent"}
+{"aspect": "relatively better bios output", "dimension": "agent"}
+{"aspect": "relevance across versions", "dimension": "other"}
+{"aspect": "reliability after opus 5 became a liability", "dimension": "reliability"}
+{"aspect": "reliability during outage", "dimension": "reliability"}
+{"aspect": "reliability for repetitive tasks", "dimension": "reliability"}
+{"aspect": "reliability for running a company", "dimension": "reliability"}
+{"aspect": "reliability of output review", "dimension": "reliability"}
+{"aspect": "reliability on tricky tasks", "dimension": "reliability"}
+{"aspect": "reliability requires careful review", "dimension": "reliability"}
+{"aspect": "reliability when quota runs out", "dimension": "reliability"}
+{"aspect": "reliability with format changes", "dimension": "reliability"}
+{"aspect": "reliability, no bugs", "dimension": "reliability"}
+{"aspect": "reliability/crashed on first use", "dimension": "reliability"}
+{"aspect": "reliable qa simulator piloting", "dimension": "agent"}
+{"aspect": "relief after switching away from exhausting models", "dimension": "overall"}
+{"aspect": "remote command execution", "dimension": "dx"}
+{"aspect": "remote control feature", "dimension": "dx"}
+{"aspect": "remote control reliability", "dimension": "reliability"}
+{"aspect": "remote diagnostics automation", "dimension": "agent"}
+{"aspect": "remote fixes, secrets and mcp auth handling", "dimension": "dx"}
+{"aspect": "remote mode not working properly", "dimension": "reliability"}
+{"aspect": "remote server diagnostics and automation", "dimension": "agent"}
+{"aspect": "remote workflow reliance", "dimension": "dx"}
+{"aspect": "remotely diagnosed a stuck process", "dimension": "agent"}
+{"aspect": "repeated bug not fixed after correction", "dimension": "reliability"}
+{"aspect": "repeatedly running cd commands", "dimension": "agent"}
+{"aspect": "repeatedly the chosen $200/month coding tool", "dimension": "limits"}
+{"aspect": "replaced by cursor after a month", "dimension": "overall"}
+{"aspect": "replacing a hire for lead research", "dimension": "agent"}
+{"aspect": "replacing claude after hitting limits", "dimension": "limits"}
+{"aspect": "replacing cloud web consoles with cli workflow", "dimension": "dx"}
+{"aspect": "replacing paid saas subscriptions", "dimension": "limits"}
+{"aspect": "replacing the subscription stack", "dimension": "limits"}
+{"aspect": "requiring proprietary config file lock-in", "dimension": "dx"}
+{"aspect": "research and x scraping", "dimension": "agent"}
+{"aspect": "reset function error near usage limit", "dimension": "reliability"}
+{"aspect": "reset timing", "dimension": "limits"}
+{"aspect": "reset timing after switching", "dimension": "limits"}
+{"aspect": "reset timing mechanics", "dimension": "limits"}
+{"aspect": "reset used up within an hour", "dimension": "limits"}
+{"aspect": "resilience via shared persistent memory", "dimension": "efficiency"}
+{"aspect": "resource use when it goes haywire", "dimension": "efficiency"}
+{"aspect": "responsiveness to user feedback", "dimension": "agent"}
+{"aspect": "restrictive plan usage", "dimension": "limits"}
+{"aspect": "result consistency on long tasks", "dimension": "reliability"}
+{"aspect": "returning to the pro plan", "dimension": "limits"}
+{"aspect": "review thoroughness", "dimension": "agent"}
+{"aspect": "rewards clean architecture", "dimension": "agent"}
+{"aspect": "role-based routing between tools", "dimension": "dx"}
+{"aspect": "role/workflow fit", "dimension": "dx"}
+{"aspect": "routing to cheaper models from the terminal", "dimension": "dx"}
+{"aspect": "running ecommerce store operations", "dimension": "agent"}
+{"aspect": "running grok build inside it doubles token consumption", "dimension": "efficiency"}
+{"aspect": "running out of credits", "dimension": "limits"}
+{"aspect": "runs autonomously without needing approval", "dimension": "agent"}
+{"aspect": "sandbox safety vs added effort", "dimension": "dx"}
+{"aspect": "sandboxing security", "dimension": "dx"}
+{"aspect": "satisfaction during months of daily use", "dimension": "overall"}
+{"aspect": "saving tokens with a lean checklist skill", "dimension": "efficiency"}
+{"aspect": "scaffolds configs/plots and proposes extra baselines", "dimension": "agent"}
+{"aspect": "scope creep turning small tasks into big systems", "dimension": "agent"}
+{"aspect": "screenshot actions burn usage fast", "dimension": "limits"}
+{"aspect": "seamless integration", "dimension": "dx"}
+{"aspect": "self-driving agent management", "dimension": "agent"}
+{"aspect": "self-listing itself as co-author", "dimension": "other"}
+{"aspect": "sentence structure too short for cv writing", "dimension": "agent"}
+{"aspect": "service not working / outage", "dimension": "reliability"}
+{"aspect": "service outage while coding", "dimension": "reliability"}
+{"aspect": "setup simplicity", "dimension": "dx"}
+{"aspect": "shareable bot templates", "dimension": "dx"}
+{"aspect": "shareable bot templates fit workflow", "dimension": "dx"}
+{"aspect": "shareable template feature", "dimension": "dx"}
+{"aspect": "simple design encouraging single-responsibility agents", "dimension": "dx"}
+{"aspect": "simplicity and out-of-box functionality", "dimension": "dx"}
+{"aspect": "simplicity for long-horizon programmatic use", "dimension": "dx"}
+{"aspect": "skill-generation workflow for repetitive sessions", "dimension": "efficiency"}
+{"aspect": "skills feature reliability", "dimension": "reliability"}
+{"aspect": "slightly more comfortable", "dimension": "overall"}
+{"aspect": "slow and verbose today", "dimension": "agent"}
+{"aspect": "slow bug fixes", "dimension": "agent"}
+{"aspect": "slow image paste", "dimension": "dx"}
+{"aspect": "slow image paste via alt+v", "dimension": "dx"}
+{"aspect": "slow reconfiguration after update", "dimension": "dx"}
+{"aspect": "slow response speed", "dimension": "agent"}
+{"aspect": "slow to complete a one-request tools implementation", "dimension": "agent"}
+{"aspect": "slower to build the same tools", "dimension": "agent"}
+{"aspect": "slowness and simple bug handling", "dimension": "agent"}
+{"aspect": "sluggish, low-quality output", "dimension": "agent"}
+{"aspect": "sol quota forces fallback loop", "dimension": "limits"}
+{"aspect": "solo operator potential", "dimension": "agent"}
+{"aspect": "solo operator scaling", "dimension": "agent"}
+{"aspect": "solved a stuck problem quickly", "dimension": "agent"}
+{"aspect": "speed and cost vs raw intelligence", "dimension": "agent"}
+{"aspect": "speed and intelligence overall", "dimension": "agent"}
+{"aspect": "speed fixing filed issues", "dimension": "agent"}
+{"aspect": "speed of building the same tools", "dimension": "agent"}
+{"aspect": "speed on matched prompts", "dimension": "agent"}
+{"aspect": "speed to build the same tools", "dimension": "agent"}
+{"aspect": "speed vs long-term durability", "dimension": "agent"}
+{"aspect": "speed vs manual/harness workflow", "dimension": "agent"}
+{"aspect": "stable and capable", "dimension": "reliability"}
+{"aspect": "stable and comfortable", "dimension": "reliability"}
+{"aspect": "starting new sessions from phone", "dimension": "dx"}
+{"aspect": "staying on a session away from the laptop", "dimension": "dx"}
+{"aspect": "stopped working on mac", "dimension": "reliability"}
+{"aspect": "stops to ask clarifying questions", "dimension": "agent"}
+{"aspect": "subagent reliability on godot audio work", "dimension": "reliability"}
+{"aspect": "subagent transcripts missing stop_reason field", "dimension": "reliability"}
+{"aspect": "subscription cancellation", "dimension": "limits"}
+{"aspect": "subscription cancellation decision", "dimension": "limits"}
+{"aspect": "subscription cost fatigue", "dimension": "limits"}
+{"aspect": "subscription cost stacking", "dimension": "limits"}
+{"aspect": "subscription plan value", "dimension": "limits"}
+{"aspect": "subscription usage value", "dimension": "limits"}
+{"aspect": "subscription value and resets", "dimension": "limits"}
+{"aspect": "subscription value vs claude", "dimension": "limits"}
+{"aspect": "subscription value vs codex", "dimension": "limits"}
+{"aspect": "success on an extremely hard task", "dimension": "agent"}
+{"aspect": "sufficiency without other subscriptions", "dimension": "limits"}
+{"aspect": "suggested replacement", "dimension": "overall"}
+{"aspect": "supports adding new custom models", "dimension": "dx"}
+{"aspect": "surprise billing overages", "dimension": "limits"}
+{"aspect": "suspected caching bug driving usage", "dimension": "reliability"}
+{"aspect": "switching primary coding harness", "dimension": "overall"}
+{"aspect": "system prompt size versus token efficiency", "dimension": "efficiency"}
+{"aspect": "task automation potential", "dimension": "agent"}
+{"aspect": "task completion vs quota consumption", "dimension": "limits"}
+{"aspect": "task delegation pace versus mental load", "dimension": "agent"}
+{"aspect": "task halts abruptly at usage limit", "dimension": "limits"}
+{"aspect": "task interruption on limit hit", "dimension": "limits"}
+{"aspect": "tasked to autonomously vet airdrop projects", "dimension": "agent"}
+{"aspect": "tasked to vet airdrops, near-duplicate post", "dimension": "agent"}
+{"aspect": "terrible polish writing quality", "dimension": "agent"}
+{"aspect": "thinking off setting not honored", "dimension": "reliability"}
+{"aspect": "time freed by delegation", "dimension": "agent"}
+{"aspect": "time freed up by hands-off work", "dimension": "agent"}
+{"aspect": "time to complete the same task", "dimension": "agent"}
+{"aspect": "token consumption and capability", "dimension": "efficiency"}
+{"aspect": "token consumption efficiency", "dimension": "efficiency"}
+{"aspect": "token consumption on easy tasks", "dimension": "efficiency"}
+{"aspect": "token consumption per task", "dimension": "efficiency"}
+{"aspect": "token cost and context growth", "dimension": "efficiency"}

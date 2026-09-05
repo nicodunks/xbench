@@ -1,0 +1,150 @@
+{"aspect": "running well on local nvidia spark hardware", "dimension": "intelligence"}
+{"aspect": "runtime/token efficiency for the same prompt", "dimension": "speed"}
+{"aspect": "rushes conclusions, endorsing the root's complaint", "dimension": "intelligence"}
+{"aspect": "rushing to conclusions without extra effort", "dimension": "intelligence"}
+{"aspect": "rushing to conclusions without extra thought", "dimension": "intelligence"}
+{"aspect": "safety and misbehavior", "dimension": "personality"}
+{"aspect": "sandboxing blocks system-level tasks", "dimension": "other"}
+{"aspect": "satisfaction as part of current dev stack", "dimension": "overall"}
+{"aspect": "satisfaction despite rare factual slips", "dimension": "intelligence"}
+{"aspect": "satisfaction, no need to upgrade", "dimension": "overall"}
+{"aspect": "scene generation quality", "dimension": "intelligence"}
+{"aspect": "scoping its own long-running work", "dimension": "steerability"}
+{"aspect": "score per cost on wandr benchmark", "dimension": "price"}
+{"aspect": "score per cost versus astra", "dimension": "price"}
+{"aspect": "seamless quality after usage cap", "dimension": "intelligence"}
+{"aspect": "search result quality", "dimension": "intelligence"}
+{"aspect": "self-assessed benchmark comparison", "dimension": "intelligence"}
+{"aspect": "self-correction and memory writing", "dimension": "intelligence"}
+{"aspect": "self-portrait image appeal", "dimension": "intelligence"}
+{"aspect": "self-portrait image appearance", "dimension": "intelligence"}
+{"aspect": "self-portrait visual quality", "dimension": "intelligence"}
+{"aspect": "sentiment analysis on x", "dimension": "intelligence"}
+{"aspect": "service broken/down", "dimension": "other"}
+{"aspect": "service outage reliability", "dimension": "other"}
+{"aspect": "service outage while checking status", "dimension": "other"}
+{"aspect": "session usage speed vs work quality", "dimension": "speed"}
+{"aspect": "severe slowdown in agentic use", "dimension": "speed"}
+{"aspect": "shallow, no real knowledge sharing", "dimension": "intelligence"}
+{"aspect": "share of ai spending", "dimension": "price"}
+{"aspect": "shared benchmark win count", "dimension": "intelligence"}
+{"aspect": "sharp, to the point", "dimension": "personality"}
+{"aspect": "simple subscription choice", "dimension": "price"}
+{"aspect": "single-gpu inference quality", "dimension": "intelligence"}
+{"aspect": "single-node deployment outscored the two-node one", "dimension": "intelligence"}
+{"aspect": "slop and known issues", "dimension": "intelligence"}
+{"aspect": "slow and overpriced for coding", "dimension": "price"}
+{"aspect": "slow inference on dgx spark", "dimension": "speed"}
+{"aspect": "slow locally but good output quality", "dimension": "speed"}
+{"aspect": "slow on simple single-line edits", "dimension": "speed"}
+{"aspect": "slow response speed", "dimension": "speed"}
+{"aspect": "slow response times limiting daily throughput", "dimension": "speed"}
+{"aspect": "slower and overthinks compared to grok-4.6", "dimension": "speed"}
+{"aspect": "slower but good output at half the price", "dimension": "price"}
+{"aspect": "slower to act before astra, in computer use", "dimension": "speed"}
+{"aspect": "slower to build trust than fable 5", "dimension": "intelligence"}
+{"aspect": "slower to trust, high instance variation", "dimension": "intelligence"}
+{"aspect": "smart despite criticism", "dimension": "intelligence"}
+{"aspect": "smarter but ~2x output tokens vs fable 5", "dimension": "intelligence"}
+{"aspect": "smarter overall but weak reading images/pdf drawings", "dimension": "intelligence"}
+{"aspect": "smarter task approach vs sol", "dimension": "intelligence"}
+{"aspect": "smartest but rough edges", "dimension": "intelligence"}
+{"aspect": "sole daily model for crm automation", "dimension": "overall"}
+{"aspect": "solidity and superiority", "dimension": "overall"}
+{"aspect": "solving a long-unsolved math problem", "dimension": "intelligence"}
+{"aspect": "solving hard problems others could not", "dimension": "intelligence"}
+{"aspect": "solving this coding task", "dimension": "intelligence"}
+{"aspect": "solving unsolved erdos math problems", "dimension": "intelligence"}
+{"aspect": "solving unsolved math problems no other model could", "dimension": "intelligence"}
+{"aspect": "soulless, robotic, neurotic personality", "dimension": "personality"}
+{"aspect": "spaceship interior detail vs kitchen design", "dimension": "intelligence"}
+{"aspect": "spatial reasoning in scene composition", "dimension": "intelligence"}
+{"aspect": "spec analysis and code generation from drawings", "dimension": "intelligence"}
+{"aspect": "spec and code review role", "dimension": "intelligence"}
+{"aspect": "spec and code writing role", "dimension": "intelligence"}
+{"aspect": "specific game mechanic (spin attack) in one-shot build", "dimension": "intelligence"}
+{"aspect": "speed adding a page live", "dimension": "speed"}
+{"aspect": "speed and accuracy on piano-keys puzzle", "dimension": "speed"}
+{"aspect": "speed and browser remote function", "dimension": "speed"}
+{"aspect": "speed and capability", "dimension": "speed"}
+{"aspect": "speed and cost as new default", "dimension": "price"}
+{"aspect": "speed and cost at frontier intelligence", "dimension": "price"}
+{"aspect": "speed and cost per task", "dimension": "price"}
+{"aspect": "speed and cost same prompt", "dimension": "price"}
+{"aspect": "speed and efficiency as failback/reviewer", "dimension": "speed"}
+{"aspect": "speed and efficiency in agent stack", "dimension": "speed"}
+{"aspect": "speed and general usefulness", "dimension": "speed"}
+{"aspect": "speed and intelligence vs 5-hour usage limit", "dimension": "price"}
+{"aspect": "speed and overall experience", "dimension": "speed"}
+{"aspect": "speed and performance", "dimension": "speed"}
+{"aspect": "speed and quality for lesson generation", "dimension": "speed"}
+{"aspect": "speed and quality for simple tasks", "dimension": "speed"}
+{"aspect": "speed and quality on a repeated task", "dimension": "speed"}
+{"aspect": "speed and quality versus opus", "dimension": "speed"}
+{"aspect": "speed and quality via api", "dimension": "speed"}
+{"aspect": "speed and stability on ds4", "dimension": "speed"}
+{"aspect": "speed and token consumption", "dimension": "speed"}
+{"aspect": "speed and usage limits", "dimension": "price"}
+{"aspect": "speed claims skepticism", "dimension": "speed"}
+{"aspect": "speed for browsing and coding", "dimension": "speed"}
+{"aspect": "speed for the same task", "dimension": "speed"}
+{"aspect": "speed gains from harness optimizations", "dimension": "speed"}
+{"aspect": "speed of execution", "dimension": "speed"}
+{"aspect": "speed on a simple task", "dimension": "speed"}
+{"aspect": "speed on piano-keys puzzle", "dimension": "speed"}
+{"aspect": "speed on the same task", "dimension": "speed"}
+{"aspect": "speed processing in agentic work", "dimension": "speed"}
+{"aspect": "speed quality and intelligence", "dimension": "speed"}
+{"aspect": "speed to build with worker agents", "dimension": "speed"}
+{"aspect": "speed versus depth of thinking", "dimension": "speed"}
+{"aspect": "speed versus otherwise solid quality", "dimension": "speed"}
+{"aspect": "speed versus overall quality", "dimension": "speed"}
+{"aspect": "speed versus overconfident shallow work", "dimension": "speed"}
+{"aspect": "speed versus quota consumption", "dimension": "speed"}
+{"aspect": "speed versus usage cost", "dimension": "price"}
+{"aspect": "speed vs accuracy on piano-keys puzzle", "dimension": "price"}
+{"aspect": "speed vs cloud in long coding sessions", "dimension": "speed"}
+{"aspect": "speed vs cost tradeoff", "dimension": "speed"}
+{"aspect": "speed vs intelligence tradeoff", "dimension": "price"}
+{"aspect": "speed, predictability, and cost", "dimension": "speed"}
+{"aspect": "speed/cost value for non-power-users", "dimension": "price"}
+{"aspect": "spelling typos", "dimension": "intelligence"}
+{"aspect": "starting point for each task", "dimension": "overall"}
+{"aspect": "stayed up during outage", "dimension": "other"}
+{"aspect": "staying on task", "dimension": "steerability"}
+{"aspect": "stays engaging to use", "dimension": "personality"}
+{"aspect": "steerable via persistent repo instructions", "dimension": "steerability"}
+{"aspect": "sticking with a working setup", "dimension": "overall"}
+{"aspect": "still being used despite rejections", "dimension": "personality"}
+{"aspect": "still no need to go beyond it", "dimension": "overall"}
+{"aspect": "still the favourite for everyday work", "dimension": "overall"}
+{"aspect": "stretched a 2-day usage budget across a full week", "dimension": "price"}
+{"aspect": "strong coding index but pricier and behind fable 5.1", "dimension": "intelligence"}
+{"aspect": "strong enough to want to move all workflows onto it", "dimension": "intelligence"}
+{"aspect": "strong in narrow areas but not a frontier-model replacement", "dimension": "intelligence"}
+{"aspect": "strong output undercut by new rate limits", "dimension": "price"}
+{"aspect": "strong performance inside devin", "dimension": "intelligence"}
+{"aspect": "strong results relative to smaller size", "dimension": "intelligence"}
+{"aspect": "strong, a bit better than luna", "dimension": "intelligence"}
+{"aspect": "structural logic in 3d generation", "dimension": "intelligence"}
+{"aspect": "structured coding performance", "dimension": "intelligence"}
+{"aspect": "struggling on macos tasks, changing custom views unannounced", "dimension": "steerability"}
+{"aspect": "sub agent cost and performance", "dimension": "price"}
+{"aspect": "sub-agent delegation", "dimension": "steerability"}
+{"aspect": "subagent implementation and review", "dimension": "intelligence"}
+{"aspect": "subscription cost at top tier", "dimension": "price"}
+{"aspect": "subscription cost not actually cheaper", "dimension": "price"}
+{"aspect": "subscription usage limits lasting", "dimension": "price"}
+{"aspect": "subsidised usage limits", "dimension": "price"}
+{"aspect": "success on an extremely hard task", "dimension": "intelligence"}
+{"aspect": "successful collaborative asset build via back-and-forth", "dimension": "intelligence"}
+{"aspect": "successfully wrote a script", "dimension": "intelligence"}
+{"aspect": "sufficient capability at high setting", "dimension": "intelligence"}
+{"aspect": "sufficient for daily work", "dimension": "overall"}
+{"aspect": "sufficient for everyday work at lower cost", "dimension": "price"}
+{"aspect": "sufficient for my needs", "dimension": "overall"}
+{"aspect": "sufficient without the top-tier plan", "dimension": "price"}
+{"aspect": "suggested as stopgap option", "dimension": "overall"}
+{"aspect": "suited to low-effort tasks", "dimension": "intelligence"}
+{"aspect": "suited to simple tasks, not complex ones", "dimension": "intelligence"}
+{"aspect": "supergrok heavy plan limits", "dimension": "price"}

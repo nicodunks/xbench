@@ -1,0 +1,150 @@
+{"aspect": "natural writing style", "dimension": "personality"}
+{"aspect": "navigation task failure", "dimension": "intelligence"}
+{"aspect": "near sol/fable quality once direction is set, far cheaper", "dimension": "price"}
+{"aspect": "needed correction during orchestration", "dimension": "steerability"}
+{"aspect": "needing constant verification", "dimension": "intelligence"}
+{"aspect": "needing to curse at it for results", "dimension": "steerability"}
+{"aspect": "needs excessive babysitting to do anything", "dimension": "steerability"}
+{"aspect": "needs to get cheaper to make sense", "dimension": "price"}
+{"aspect": "never adopted chatgpt stayed on claude", "dimension": "overall"}
+{"aspect": "no comparable alternative", "dimension": "overall"}
+{"aspect": "no context/performance degradation over multi-day sessions", "dimension": "intelligence"}
+{"aspect": "no different from opus, underwhelming", "dimension": "intelligence"}
+{"aspect": "no direct audio input support", "dimension": "other"}
+{"aspect": "no longer worth the subscription", "dimension": "price"}
+{"aspect": "no longer worth using after astra", "dimension": "overall"}
+{"aspect": "no mistakes across tasks over several days", "dimension": "intelligence"}
+{"aspect": "no need to switch away from gemini flash", "dimension": "overall"}
+{"aspect": "non-coding flash model choice", "dimension": "other"}
+{"aspect": "non-english idiom translation", "dimension": "intelligence"}
+{"aspect": "non-hallucination benchmark result", "dimension": "intelligence"}
+{"aspect": "not cheap or easy like gemini 3.8 flash", "dimension": "price"}
+{"aspect": "not good enough to keep using", "dimension": "overall"}
+{"aspect": "not obviously benchmaxed, scores seen as legitimate", "dimension": "intelligence"}
+{"aspect": "not worth switching to given current setup satisfaction", "dimension": "overall"}
+{"aspect": "not worth the cost, cancelled", "dimension": "price"}
+{"aspect": "not worth the risk of an unexplained ban", "dimension": "other"}
+{"aspect": "not worth the time for images", "dimension": "speed"}
+{"aspect": "onboarding clarity", "dimension": "other"}
+{"aspect": "one-shot 3d app build speed", "dimension": "speed"}
+{"aspect": "one-shot built a full multiplayer extraction shooter", "dimension": "intelligence"}
+{"aspect": "one-shot complex coding task", "dimension": "intelligence"}
+{"aspect": "one-shot edit notes", "dimension": "intelligence"}
+{"aspect": "one-shot game build quality", "dimension": "intelligence"}
+{"aspect": "one-shot game generation", "dimension": "intelligence"}
+{"aspect": "one-shot long-form draft quality", "dimension": "intelligence"}
+{"aspect": "one-shot prompt result", "dimension": "intelligence"}
+{"aspect": "one-shot spec build", "dimension": "intelligence"}
+{"aspect": "one-shot website build capability", "dimension": "intelligence"}
+{"aspect": "only used because it is free", "dimension": "price"}
+{"aspect": "open-ended task performance", "dimension": "intelligence"}
+{"aspect": "operator role at lower cost", "dimension": "price"}
+{"aspect": "orchestrated handoff workflow", "dimension": "intelligence"}
+{"aspect": "orchestrating and correcting code decisions", "dimension": "intelligence"}
+{"aspect": "orchestrating other models", "dimension": "intelligence"}
+{"aspect": "orchestration and coding use", "dimension": "intelligence"}
+{"aspect": "orchestrator cost with subagents", "dimension": "price"}
+{"aspect": "orchestrator role cutting costs", "dimension": "price"}
+{"aspect": "orchestrator role for subagent workflows", "dimension": "intelligence"}
+{"aspect": "orchestrator role in agent stack", "dimension": "intelligence"}
+{"aspect": "orchestrator role in workflow", "dimension": "intelligence"}
+{"aspect": "osworld computer-use benchmark", "dimension": "intelligence"}
+{"aspect": "osworld task time and cost", "dimension": "price"}
+{"aspect": "outage", "dimension": "other"}
+{"aspect": "outage and error reliability", "dimension": "other"}
+{"aspect": "outperforming other models tested", "dimension": "intelligence"}
+{"aspect": "outperforms other model outside blender tasks", "dimension": "intelligence"}
+{"aspect": "output consistency in game dev", "dimension": "intelligence"}
+{"aspect": "output cost per equal benchmark score", "dimension": "price"}
+{"aspect": "output polish in demo integration", "dimension": "intelligence"}
+{"aspect": "output quality after 4-hour session", "dimension": "intelligence"}
+{"aspect": "output quality and price versus gemini", "dimension": "price"}
+{"aspect": "output quality and price versus glm", "dimension": "price"}
+{"aspect": "output quality and reliability", "dimension": "intelligence"}
+{"aspect": "output quality for the price", "dimension": "price"}
+{"aspect": "output quality vs fable 5.1", "dimension": "intelligence"}
+{"aspect": "output quality vs other local models", "dimension": "intelligence"}
+{"aspect": "output quality vs sol", "dimension": "intelligence"}
+{"aspect": "output readability", "dimension": "intelligence"}
+{"aspect": "output readability for boilerplate and refactors", "dimension": "intelligence"}
+{"aspect": "output reliability", "dimension": "intelligence"}
+{"aspect": "output turned out great", "dimension": "intelligence"}
+{"aspect": "over-engineered code structure", "dimension": "steerability"}
+{"aspect": "over-engineering minor edge cases", "dimension": "steerability"}
+{"aspect": "over-explaining and over-engineering", "dimension": "personality"}
+{"aspect": "over-restrictive refusals on benign tasks", "dimension": "personality"}
+{"aspect": "overall (clears every gpt model)", "dimension": "overall"}
+{"aspect": "overall benchmark results", "dimension": "intelligence"}
+{"aspect": "overall best model tried", "dimension": "overall"}
+{"aspect": "overall building experience", "dimension": "overall"}
+{"aspect": "overall capabilities", "dimension": "intelligence"}
+{"aspect": "overall capabilities hype", "dimension": "intelligence"}
+{"aspect": "overall capability jump", "dimension": "intelligence"}
+{"aspect": "overall capability level", "dimension": "intelligence"}
+{"aspect": "overall capability ranking", "dimension": "intelligence"}
+{"aspect": "overall capability vs astra", "dimension": "intelligence"}
+{"aspect": "overall capability vs benchmark claims", "dimension": "intelligence"}
+{"aspect": "overall capability vs competitors", "dimension": "intelligence"}
+{"aspect": "overall capability vs fable level", "dimension": "intelligence"}
+{"aspect": "overall capability vs frontier models", "dimension": "intelligence"}
+{"aspect": "overall capability vs muse spark", "dimension": "intelligence"}
+{"aspect": "overall capability vs sol", "dimension": "intelligence"}
+{"aspect": "overall coding capability (swarm)", "dimension": "intelligence"}
+{"aspect": "overall coding capability hype", "dimension": "intelligence"}
+{"aspect": "overall coding capability, ranked best by the author", "dimension": "intelligence"}
+{"aspect": "overall coding experience", "dimension": "overall"}
+{"aspect": "overall coding performance", "dimension": "intelligence"}
+{"aspect": "overall community benchmark ranking", "dimension": "intelligence"}
+{"aspect": "overall comparison result", "dimension": "overall"}
+{"aspect": "overall competitiveness (no rival model)", "dimension": "overall"}
+{"aspect": "overall competitiveness outside fable/design use", "dimension": "overall"}
+{"aspect": "overall dissatisfaction", "dimension": "overall"}
+{"aspect": "overall dissatisfaction and cancellation", "dimension": "overall"}
+{"aspect": "overall dominance claimed with no described use", "dimension": "overall"}
+{"aspect": "overall enjoyment of daily use", "dimension": "overall"}
+{"aspect": "overall enjoyment trying it", "dimension": "overall"}
+{"aspect": "overall evaluation outcome", "dimension": "overall"}
+{"aspect": "overall evaluation result", "dimension": "overall"}
+{"aspect": "overall execution quality", "dimension": "intelligence"}
+{"aspect": "overall frustration", "dimension": "overall"}
+{"aspect": "overall hype with no described use", "dimension": "overall"}
+{"aspect": "overall impression as an evolutionary step", "dimension": "overall"}
+{"aspect": "overall impression improving", "dimension": "overall"}
+{"aspect": "overall improvement over time", "dimension": "intelligence"}
+{"aspect": "overall likability", "dimension": "overall"}
+{"aspect": "overall model preference", "dimension": "overall"}
+{"aspect": "overall model ranking", "dimension": "overall"}
+{"aspect": "overall performance outside design work", "dimension": "intelligence"}
+{"aspect": "overall performance versus other models", "dimension": "intelligence"}
+{"aspect": "overall performance vs opus", "dimension": "intelligence"}
+{"aspect": "overall performance vs rivals in test", "dimension": "intelligence"}
+{"aspect": "overall pleasantness as main coding agent", "dimension": "personality"}
+{"aspect": "overall polish", "dimension": "intelligence"}
+{"aspect": "overall polish of generated track", "dimension": "intelligence"}
+{"aspect": "overall power", "dimension": "intelligence"}
+{"aspect": "overall pre-use impression", "dimension": "overall"}
+{"aspect": "overall preference after cancelling", "dimension": "overall"}
+{"aspect": "overall preference among used models", "dimension": "overall"}
+{"aspect": "overall preference for the winner", "dimension": "overall"}
+{"aspect": "overall preference over chatgpt", "dimension": "overall"}
+{"aspect": "overall preference over months", "dimension": "overall"}
+{"aspect": "overall quality (marginal edge)", "dimension": "overall"}
+{"aspect": "overall quality after rollout", "dimension": "overall"}
+{"aspect": "overall quality and cost", "dimension": "price"}
+{"aspect": "overall quality and efficiency", "dimension": "price"}
+{"aspect": "overall quality and plan value", "dimension": "price"}
+{"aspect": "overall quality and popularity", "dimension": "overall"}
+{"aspect": "overall quality at the time", "dimension": "overall"}
+{"aspect": "overall quality compared to an expert engineer", "dimension": "overall"}
+{"aspect": "overall quality despite lower tier", "dimension": "overall"}
+{"aspect": "overall quality hype", "dimension": "overall"}
+{"aspect": "overall quality in hands-on testing", "dimension": "overall"}
+{"aspect": "overall quality in head-to-head testing", "dimension": "overall"}
+{"aspect": "overall quality justifying past payment", "dimension": "price"}
+{"aspect": "overall quality of fable 5", "dimension": "overall"}
+{"aspect": "overall quality on hands-on testing", "dimension": "overall"}
+{"aspect": "overall quality on opencode", "dimension": "overall"}
+{"aspect": "overall quality on some tasks", "dimension": "overall"}
+{"aspect": "overall quality per the ongoing debate", "dimension": "overall"}
+{"aspect": "overall quality ranking", "dimension": "overall"}
+{"aspect": "overall quality relative to muse spark", "dimension": "overall"}

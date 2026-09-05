@@ -2,15 +2,15 @@
   "schema_version": "2.0",
   "source": "Official X API v2 only",
   "window": {
-    "start": "2026-08-27T22:43:18Z",
-    "end": "2026-09-03T22:37:18Z",
+    "start": "2026-08-29T02:46:57Z",
+    "end": "2026-09-05T02:41:00Z",
     "cells": 7,
-    "kind": "rolling_7_days"
+    "kind": "rolling_7_cells"
   },
   "corpus": {
-    "unique_posts": 9965,
-    "unique_authors": 6486,
-    "comments": 5979
+    "unique_posts": 23275,
+    "unique_authors": 14454,
+    "comments": 14331
   },
   "recorded_spend_usd": 59.655,
   "attention": {

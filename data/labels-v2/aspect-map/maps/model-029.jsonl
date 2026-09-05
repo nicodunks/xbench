@@ -1,0 +1,150 @@
+{"aspect": "high price versus cheaper competitors", "dimension": "price"}
+{"aspect": "high pricing", "dimension": "price"}
+{"aspect": "high token consumption for task", "dimension": "speed"}
+{"aspect": "high-quality output from subscription use", "dimension": "intelligence"}
+{"aspect": "higher cost", "dimension": "price"}
+{"aspect": "higher cost for similar output versus openai models", "dimension": "price"}
+{"aspect": "higher relative confidence/self-esteem in responses", "dimension": "personality"}
+{"aspect": "hit rate compatibility with the harness", "dimension": "other"}
+{"aspect": "hitting limits quickly", "dimension": "other"}
+{"aspect": "human-like responses", "dimension": "personality"}
+{"aspect": "humor", "dimension": "personality"}
+{"aspect": "humor in replies", "dimension": "personality"}
+{"aspect": "hype as biggest release of the year", "dimension": "overall"}
+{"aspect": "hype not matching results, speed on par with local models", "dimension": "speed"}
+{"aspect": "hype over substance", "dimension": "overall"}
+{"aspect": "hype skepticism", "dimension": "overall"}
+{"aspect": "hyped as coding contender", "dimension": "intelligence"}
+{"aspect": "ignoring default eli5 instructions", "dimension": "steerability"}
+{"aspect": "impersonal robotic tone", "dimension": "personality"}
+{"aspect": "implementation as an orchestrated subagent", "dimension": "other"}
+{"aspect": "implementation quality across opus versions", "dimension": "intelligence"}
+{"aspect": "improved pleasantness of use", "dimension": "personality"}
+{"aspect": "inconsistency across past releases (hit-or-miss)", "dimension": "intelligence"}
+{"aspect": "increased refusal rate for nsfw content", "dimension": "personality"}
+{"aspect": "independent regression detection in review", "dimension": "intelligence"}
+{"aspect": "informativeness on a factual question", "dimension": "intelligence"}
+{"aspect": "insufficient improvement across flash releases", "dimension": "intelligence"}
+{"aspect": "insufficient quota even after reset", "dimension": "other"}
+{"aspect": "intelligence for hard tasks", "dimension": "intelligence"}
+{"aspect": "intelligence gains from speed", "dimension": "intelligence"}
+{"aspect": "intelligence reputation", "dimension": "intelligence"}
+{"aspect": "intelligence score", "dimension": "intelligence"}
+{"aspect": "intelligence vs token efficiency tradeoff", "dimension": "intelligence"}
+{"aspect": "intent and conversation flow", "dimension": "steerability"}
+{"aspect": "internal coding benchmark ranking", "dimension": "intelligence"}
+{"aspect": "intrusive, misrepresents what the user said", "dimension": "personality"}
+{"aspect": "irrelevant in frontier model talk", "dimension": "overall"}
+{"aspect": "keeps returning to it after trying alternatives", "dimension": "overall"}
+{"aspect": "kids enjoying casual use", "dimension": "overall"}
+{"aspect": "knowledge cutoff freshness", "dimension": "intelligence"}
+{"aspect": "lacks video generation gemini has", "dimension": "other"}
+{"aspect": "laid-back tone in banter", "dimension": "personality"}
+{"aspect": "leaderboard rank for long-horizon work", "dimension": "intelligence"}
+{"aspect": "leaderboard ranking overall", "dimension": "intelligence"}
+{"aspect": "leading a benchmark cohort", "dimension": "intelligence"}
+{"aspect": "leading frontier capability", "dimension": "intelligence"}
+{"aspect": "leading terminal-bench 4.0 score", "dimension": "intelligence"}
+{"aspect": "leads at browser-agent data extraction", "dimension": "intelligence"}
+{"aspect": "leads over sol tonight", "dimension": "overall"}
+{"aspect": "lecturing tone versus technical quality", "dimension": "personality"}
+{"aspect": "led domestic flash models", "dimension": "intelligence"}
+{"aspect": "less cost effective", "dimension": "price"}
+{"aspect": "limit ran out during repo analysis", "dimension": "other"}
+{"aspect": "lite coding plan limits too restrictive", "dimension": "other"}
+{"aspect": "llm backend down", "dimension": "other"}
+{"aspect": "logged out during outage", "dimension": "other"}
+{"aspect": "long autonomous task execution with responsiveness", "dimension": "intelligence"}
+{"aspect": "long session task handling", "dimension": "intelligence"}
+{"aspect": "long-context trap test accuracy", "dimension": "intelligence"}
+{"aspect": "longer coding task quality", "dimension": "intelligence"}
+{"aspect": "longer coding tasks", "dimension": "intelligence"}
+{"aspect": "looking very expensive", "dimension": "price"}
+{"aspect": "looping in circles, verbose slop output", "dimension": "intelligence"}
+{"aspect": "lower token usage than fable 5.1 claim", "dimension": "speed"}
+{"aspect": "main coding driver", "dimension": "overall"}
+{"aspect": "market adoption/popularity", "dimension": "other"}
+{"aspect": "market share due to poor usability tier", "dimension": "other"}
+{"aspect": "math capability", "dimension": "intelligence"}
+{"aspect": "math domain benchmark score", "dimension": "intelligence"}
+{"aspect": "memory control concerns", "dimension": "other"}
+{"aspect": "misleading 20x plan pricing", "dimension": "price"}
+{"aspect": "missing/unavailable", "dimension": "other"}
+{"aspect": "mobile app missing codex", "dimension": "other"}
+{"aspect": "model quality", "dimension": "intelligence"}
+{"aspect": "model quality before 5.6", "dimension": "intelligence"}
+{"aspect": "model struggles", "dimension": "intelligence"}
+{"aspect": "model unavailable error", "dimension": "other"}
+{"aspect": "more expensive than promised", "dimension": "price"}
+{"aspect": "more stable than sol's regression", "dimension": "intelligence"}
+{"aspect": "most anticipated model", "dimension": "overall"}
+{"aspect": "ms office file handling", "dimension": "other"}
+{"aspect": "much better project results", "dimension": "intelligence"}
+{"aspect": "much better than gemini", "dimension": "overall"}
+{"aspect": "much higher pricing", "dimension": "price"}
+{"aspect": "much higher token usage than prior version", "dimension": "speed"}
+{"aspect": "multi-agent teamwork replacing a heavy agent", "dimension": "other"}
+{"aspect": "nagging unhelpful tone", "dimension": "personality"}
+{"aspect": "new entrant in the arena top 10", "dimension": "intelligence"}
+{"aspect": "newer model", "dimension": "overall"}
+{"aspect": "no 24/7 continuous agent support", "dimension": "other"}
+{"aspect": "no answer to discounted luna, credit limits", "dimension": "price"}
+{"aspect": "no frontier model matches sol, and fable refuses", "dimension": "personality"}
+{"aspect": "no longer wants to pay for it", "dimension": "price"}
+{"aspect": "no longer worth it for long-horizon tasks", "dimension": "price"}
+{"aspect": "no perceived quality degradation", "dimension": "intelligence"}
+{"aspect": "no pro model in this release wave", "dimension": "other"}
+{"aspect": "no rate limit issues from heavy cli use", "dimension": "other"}
+{"aspect": "no real fine-tuning across versions", "dimension": "intelligence"}
+{"aspect": "no sidebar auto-open annoyance", "dimension": "other"}
+{"aspect": "no superior model claim", "dimension": "intelligence"}
+{"aspect": "no vision, underwhelming for its size", "dimension": "intelligence"}
+{"aspect": "not as smart as sol for the author's work", "dimension": "intelligence"}
+{"aspect": "not doing the heavy lifting lately", "dimension": "intelligence"}
+{"aspect": "not keeping up", "dimension": "intelligence"}
+{"aspect": "not receiving promised client updates", "dimension": "other"}
+{"aspect": "not working overall", "dimension": "overall"}
+{"aspect": "not worth paying for", "dimension": "price"}
+{"aspect": "not worth paying for after voice changes", "dimension": "price"}
+{"aspect": "not worth the money", "dimension": "price"}
+{"aspect": "not worth using despite free credits", "dimension": "overall"}
+{"aspect": "not worth using for my needs", "dimension": "overall"}
+{"aspect": "note-taking / knowledge base use", "dimension": "other"}
+{"aspect": "noticeably boosts capability, missed when absent", "dimension": "intelligence"}
+{"aspect": "nuance in text and design work", "dimension": "intelligence"}
+{"aspect": "offensive security work", "dimension": "intelligence"}
+{"aspect": "official documentation search strength", "dimension": "intelligence"}
+{"aspect": "old checkpoints comparable to current frontier", "dimension": "intelligence"}
+{"aspect": "one-shot dev improvement", "dimension": "intelligence"}
+{"aspect": "one-shot game development", "dimension": "intelligence"}
+{"aspect": "one-shot glsl ocean generation", "dimension": "intelligence"}
+{"aspect": "one-shot video generation quality", "dimension": "intelligence"}
+{"aspect": "one-shotting a detailed voxel scene", "dimension": "intelligence"}
+{"aspect": "only western model worth using", "dimension": "overall"}
+{"aspect": "open-ended ideation performance", "dimension": "intelligence"}
+{"aspect": "opinionated yet overly agreeable personality", "dimension": "personality"}
+{"aspect": "opinionated, biased outputs", "dimension": "personality"}
+{"aspect": "opus-level performance at lower cost and faster", "dimension": "price"}
+{"aspect": "orchestrating and outperforming sol", "dimension": "intelligence"}
+{"aspect": "orchestrating sub-agent work", "dimension": "intelligence"}
+{"aspect": "orchestrating subagents, heavy usage", "dimension": "intelligence"}
+{"aspect": "orchestrating workflows", "dimension": "intelligence"}
+{"aspect": "orchestration performance handling stuck tasks", "dimension": "intelligence"}
+{"aspect": "orchestration role", "dimension": "intelligence"}
+{"aspect": "originality — output resembles supertuxkart", "dimension": "intelligence"}
+{"aspect": "outages forcing mid-task switching", "dimension": "other"}
+{"aspect": "outperformed by cheaper gemini model", "dimension": "intelligence"}
+{"aspect": "outperforms sol and opus 5 on terminal bench and hle", "dimension": "intelligence"}
+{"aspect": "output cleanliness", "dimension": "intelligence"}
+{"aspect": "output cleanliness vs newer generation", "dimension": "intelligence"}
+{"aspect": "output cleanliness vs prior generation", "dimension": "intelligence"}
+{"aspect": "output quality of generated game", "dimension": "intelligence"}
+{"aspect": "output quality overall", "dimension": "intelligence"}
+{"aspect": "output quality regression, suspected silent downgrade", "dimension": "intelligence"}
+{"aspect": "output quality vs credit consumption", "dimension": "price"}
+{"aspect": "output quality when accessible", "dimension": "intelligence"}
+{"aspect": "output quality with reasoning off", "dimension": "intelligence"}
+{"aspect": "output regressed vs 4.6", "dimension": "intelligence"}
+{"aspect": "outrun by competitors", "dimension": "intelligence"}
+{"aspect": "over-refusal on benign biology questions", "dimension": "personality"}
+{"aspect": "over-reporting unfinished work", "dimension": "personality"}

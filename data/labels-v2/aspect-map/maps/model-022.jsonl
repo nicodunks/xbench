@@ -1,0 +1,150 @@
+{"aspect": "overall quality to work with", "dimension": "overall"}
+{"aspect": "overall quality vs benchmark ranking", "dimension": "overall"}
+{"aspect": "overall quality vs claude opus", "dimension": "overall"}
+{"aspect": "overall quality vs closed models", "dimension": "overall"}
+{"aspect": "overall quality vs competitors", "dimension": "overall"}
+{"aspect": "overall quality vs gemini 3.8 flash", "dimension": "overall"}
+{"aspect": "overall quality while free to try", "dimension": "overall"}
+{"aspect": "overall quality, incredible", "dimension": "overall"}
+{"aspect": "overall quality, top-tier", "dimension": "overall"}
+{"aspect": "overall race standing", "dimension": "overall"}
+{"aspect": "overall ranking accuracy", "dimension": "overall"}
+{"aspect": "overall relief from switching", "dimension": "overall"}
+{"aspect": "overall respect despite index gap", "dimension": "overall"}
+{"aspect": "overall results after switching", "dimension": "overall"}
+{"aspect": "overall satisfaction despite others' complaints", "dimension": "overall"}
+{"aspect": "overall speed vs context compression time", "dimension": "speed"}
+{"aspect": "overall standing after astra launch", "dimension": "overall"}
+{"aspect": "overall standing reversed", "dimension": "overall"}
+{"aspect": "overall standing vs fable", "dimension": "overall"}
+{"aspect": "overall superiority", "dimension": "overall"}
+{"aspect": "overall task performance", "dimension": "intelligence"}
+{"aspect": "overall tier ranking", "dimension": "overall"}
+{"aspect": "overall trajectory versus role reining in codex", "dimension": "steerability"}
+{"aspect": "overall value", "dimension": "price"}
+{"aspect": "overall vibe", "dimension": "overall"}
+{"aspect": "overall, ranked above fable", "dimension": "overall"}
+{"aspect": "overall, ranked below astra", "dimension": "overall"}
+{"aspect": "overall, run on codex high", "dimension": "overall"}
+{"aspect": "overall, run on xhigh", "dimension": "overall"}
+{"aspect": "overconfidence on nuanced questions", "dimension": "personality"}
+{"aspect": "overengineering / excessive code", "dimension": "steerability"}
+{"aspect": "overengineering and readability", "dimension": "steerability"}
+{"aspect": "overengineers small requests into big systems", "dimension": "steerability"}
+{"aspect": "overhyped mediocre game-performance results", "dimension": "intelligence"}
+{"aspect": "overhyped, underperforming", "dimension": "intelligence"}
+{"aspect": "overkill cost for simple tasks", "dimension": "price"}
+{"aspect": "overkill cost for simple work", "dimension": "price"}
+{"aspect": "overkill for a simple task", "dimension": "steerability"}
+{"aspect": "overly expansive/exaggerated responses", "dimension": "personality"}
+{"aspect": "overly verbose phrasing", "dimension": "personality"}
+{"aspect": "overranked on the index", "dimension": "intelligence"}
+{"aspect": "overrated", "dimension": "overall"}
+{"aspect": "pareto frontier cost efficiency", "dimension": "price"}
+{"aspect": "pcb design capability", "dimension": "intelligence"}
+{"aspect": "pcb layout capability", "dimension": "intelligence"}
+{"aspect": "pdf handling in sandbox", "dimension": "intelligence"}
+{"aspect": "per-call api cost without subscription", "dimension": "price"}
+{"aspect": "perceived drop in capability", "dimension": "intelligence"}
+{"aspect": "perceived intelligence on mac app work", "dimension": "intelligence"}
+{"aspect": "perceived lead disputed", "dimension": "overall"}
+{"aspect": "perceived popularity trend", "dimension": "other"}
+{"aspect": "perceived superiority as a chat ai", "dimension": "overall"}
+{"aspect": "performance and cost vs astra", "dimension": "intelligence"}
+{"aspect": "performance benchmark comparison", "dimension": "intelligence"}
+{"aspect": "performance for a flash-tier model", "dimension": "intelligence"}
+{"aspect": "performance in 1m max mode via cursor", "dimension": "intelligence"}
+{"aspect": "performance level", "dimension": "intelligence"}
+{"aspect": "performance on existing codebases", "dimension": "intelligence"}
+{"aspect": "performance relative to hype", "dimension": "intelligence"}
+{"aspect": "personal accounts down during outage", "dimension": "other"}
+{"aspect": "personal fit", "dimension": "overall"}
+{"aspect": "personal ranking from real-world experience", "dimension": "overall"}
+{"aspect": "personal top-tier pick from real-world experience", "dimension": "overall"}
+{"aspect": "personality and sincerity", "dimension": "personality"}
+{"aspect": "personality and tone quirkiness", "dimension": "personality"}
+{"aspect": "personality changed over time", "dimension": "personality"}
+{"aspect": "personality consistency", "dimension": "personality"}
+{"aspect": "personality quirks while writing", "dimension": "personality"}
+{"aspect": "personality warmth vs hidden reasoning", "dimension": "personality"}
+{"aspect": "personality/humor", "dimension": "personality"}
+{"aspect": "personality/intelligence regression from pre-nerf fable 5", "dimension": "intelligence"}
+{"aspect": "piano-keys puzzle accuracy", "dimension": "intelligence"}
+{"aspect": "piano-keys puzzle failure", "dimension": "intelligence"}
+{"aspect": "picked as the go-to $200/month coding tool", "dimension": "overall"}
+{"aspect": "pii redaction accuracy and cost", "dimension": "intelligence"}
+{"aspect": "pioneered agentic coding but tone declined", "dimension": "personality"}
+{"aspect": "planner role in codex workflow", "dimension": "steerability"}
+{"aspect": "planning", "dimension": "intelligence"}
+{"aspect": "planning ahead autonomously", "dimension": "intelligence"}
+{"aspect": "planning and building reliability", "dimension": "intelligence"}
+{"aspect": "planning reliability", "dimension": "intelligence"}
+{"aspect": "planning role", "dimension": "steerability"}
+{"aspect": "planning role for delegation", "dimension": "steerability"}
+{"aspect": "planning tasks", "dimension": "intelligence"}
+{"aspect": "planning/review role in multi-agent loop", "dimension": "steerability"}
+{"aspect": "platform frustration after months of use", "dimension": "other"}
+{"aspect": "pleasant to use", "dimension": "personality"}
+{"aspect": "poll pick", "dimension": "other"}
+{"aspect": "poll popularity and hype", "dimension": "other"}
+{"aspect": "poor decisions at low reasoning", "dimension": "intelligence"}
+{"aspect": "poor output quality despite heavy use", "dimension": "intelligence"}
+{"aspect": "power and honesty about usage", "dimension": "intelligence"}
+{"aspect": "power once pushed with harder prompts", "dimension": "intelligence"}
+{"aspect": "practical usability vs benchmark rank", "dimension": "intelligence"}
+{"aspect": "precise, elegant responses", "dimension": "intelligence"}
+{"aspect": "precision despite account bans", "dimension": "intelligence"}
+{"aspect": "preferred flash model in a poll", "dimension": "other"}
+{"aspect": "preferred less than stealth model", "dimension": "overall"}
+{"aspect": "premature completion missing objectives", "dimension": "steerability"}
+{"aspect": "premium price not justified by quality", "dimension": "price"}
+{"aspect": "preserves stylistic vibe of referenced game", "dimension": "intelligence"}
+{"aspect": "price and coding capability", "dimension": "price"}
+{"aspect": "price and performance value", "dimension": "price"}
+{"aspect": "price and quality", "dimension": "price"}
+{"aspect": "price complaint", "dimension": "price"}
+{"aspect": "price doubles past 272k context", "dimension": "price"}
+{"aspect": "price drop enabling more automations", "dimension": "price"}
+{"aspect": "price for the same task", "dimension": "price"}
+{"aspect": "price increase versus claude", "dimension": "price"}
+{"aspect": "price justified by quality", "dimension": "price"}
+{"aspect": "price premium not justified by anything but the name", "dimension": "price"}
+{"aspect": "price relative to sol", "dimension": "price"}
+{"aspect": "price to quality surprise", "dimension": "price"}
+{"aspect": "price versus perceived quality", "dimension": "price"}
+{"aspect": "price vs astra", "dimension": "price"}
+{"aspect": "price vs fable and sol", "dimension": "price"}
+{"aspect": "pricing out of reach", "dimension": "price"}
+{"aspect": "pricing vs opus 5 (cache costs down, unit price still 2x)", "dimension": "price"}
+{"aspect": "primary driver for complex tasks", "dimension": "intelligence"}
+{"aspect": "primary model of choice", "dimension": "overall"}
+{"aspect": "proactivity / needing constant correction", "dimension": "steerability"}
+{"aspect": "problem design and code review capability", "dimension": "intelligence"}
+{"aspect": "problem-solving correctness", "dimension": "intelligence"}
+{"aspect": "problem-solving on the test task", "dimension": "intelligence"}
+{"aspect": "procedural code generation", "dimension": "intelligence"}
+{"aspect": "processing capability reminiscent of older claude", "dimension": "intelligence"}
+{"aspect": "produced the shown work end to end", "dimension": "intelligence"}
+{"aspect": "produces more code than needed", "dimension": "steerability"}
+{"aspect": "production backend deployment", "dimension": "intelligence"}
+{"aspect": "production-ready code quality", "dimension": "intelligence"}
+{"aspect": "productivity as daily browser", "dimension": "overall"}
+{"aspect": "productivity vs token consumption", "dimension": "price"}
+{"aspect": "profanity checks altering output", "dimension": "personality"}
+{"aspect": "programming output quality vs older models", "dimension": "intelligence"}
+{"aspect": "progress toward autonomous task completion", "dimension": "intelligence"}
+{"aspect": "progress visibility during long agent runs", "dimension": "other"}
+{"aspect": "project environment preferred", "dimension": "other"}
+{"aspect": "project improving since switching", "dimension": "intelligence"}
+{"aspect": "project organization", "dimension": "intelligence"}
+{"aspect": "projects are disorganized", "dimension": "intelligence"}
+{"aspect": "prompt cache fix", "dimension": "other"}
+{"aspect": "prompt cache no longer breaks when switching effort", "dimension": "other"}
+{"aspect": "prompting paradigm shift", "dimension": "other"}
+{"aspect": "proposed reviewer step in a review-loop workflow", "dimension": "steerability"}
+{"aspect": "proposed write step in a review-loop workflow", "dimension": "steerability"}
+{"aspect": "prose quality", "dimension": "personality"}
+{"aspect": "providing links in responses (fixed bug)", "dimension": "other"}
+{"aspect": "public reception", "dimension": "other"}
+{"aspect": "purchase recommendation", "dimension": "overall"}
+{"aspect": "pushback and perspective quality for planning", "dimension": "personality"}

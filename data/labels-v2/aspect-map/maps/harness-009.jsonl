@@ -1,0 +1,150 @@
+{"aspect": "overall day-to-day tool choice", "dimension": "overall"}
+{"aspect": "overall developer experience", "dimension": "overall"}
+{"aspect": "overall developer preference", "dimension": "overall"}
+{"aspect": "overall enjoyment trying it", "dimension": "overall"}
+{"aspect": "overall execution and user care", "dimension": "overall"}
+{"aspect": "overall experience and sandboxing setup", "dimension": "dx"}
+{"aspect": "overall fit vs claude code maturity", "dimension": "overall"}
+{"aspect": "overall frontend fit", "dimension": "agent"}
+{"aspect": "overall growth and adoption", "dimension": "other"}
+{"aspect": "overall harness choice", "dimension": "overall"}
+{"aspect": "overall harness quality", "dimension": "overall"}
+{"aspect": "overall impression of intelligence", "dimension": "overall"}
+{"aspect": "overall impression top choice", "dimension": "overall"}
+{"aspect": "overall polish/feel", "dimension": "dx"}
+{"aspect": "overall preference in poll", "dimension": "overall"}
+{"aspect": "overall product quality for enterprise", "dimension": "overall"}
+{"aspect": "overall quality running muse spark", "dimension": "agent"}
+{"aspect": "overall quality vs another harness", "dimension": "overall"}
+{"aspect": "overall recommendation as replacement", "dimension": "overall"}
+{"aspect": "overall release execution", "dimension": "other"}
+{"aspect": "overall relief from switching", "dimension": "overall"}
+{"aspect": "overall results after switching", "dimension": "overall"}
+{"aspect": "overall satisfaction as testing platform", "dimension": "overall"}
+{"aspect": "overall usefulness vs alternatives", "dimension": "overall"}
+{"aspect": "overall vs other harnesses", "dimension": "overall"}
+{"aspect": "overcomplicating small tasks", "dimension": "agent"}
+{"aspect": "overengineers small requests into big systems", "dimension": "agent"}
+{"aspect": "overload and availability", "dimension": "other"}
+{"aspect": "overly formal japanese prose", "dimension": "other"}
+{"aspect": "overthinking / analysis paralysis", "dimension": "agent"}
+{"aspect": "parallel task progress", "dimension": "agent"}
+{"aspect": "pattern quality depends on repo cleanliness", "dimension": "agent"}
+{"aspect": "paywalled usage behind rate limits", "dimension": "limits"}
+{"aspect": "pcb layout capability", "dimension": "agent"}
+{"aspect": "per-bot chat and compute architecture", "dimension": "dx"}
+{"aspect": "perceived as gimmicky/unnecessary", "dimension": "overall"}
+{"aspect": "perceived generosity toward users", "dimension": "limits"}
+{"aspect": "perceived quality drop", "dimension": "overall"}
+{"aspect": "perception of repeatedly cutting usage limits", "dimension": "limits"}
+{"aspect": "performance degradation over time", "dimension": "efficiency"}
+{"aspect": "performance on windows", "dimension": "dx"}
+{"aspect": "performance via cursor integration", "dimension": "dx"}
+{"aspect": "permanent 25% weekly usage increase", "dimension": "limits"}
+{"aspect": "permission prompts despite full access", "dimension": "agent"}
+{"aspect": "permissions and asks not surfaced at 3+ agent levels deep", "dimension": "agent"}
+{"aspect": "persistent agent workflows", "dimension": "agent"}
+{"aspect": "persistent image-compact bug", "dimension": "reliability"}
+{"aspect": "personal assistant customization", "dimension": "dx"}
+{"aspect": "personal assistant versatility", "dimension": "agent"}
+{"aspect": "personal automation use case", "dimension": "agent"}
+{"aspect": "personal fit", "dimension": "overall"}
+{"aspect": "personal harness ranking", "dimension": "overall"}
+{"aspect": "personal-assistant style automation", "dimension": "agent"}
+{"aspect": "personality customization setting", "dimension": "dx"}
+{"aspect": "personalized news digest concept", "dimension": "agent"}
+{"aspect": "phenomenal harness but locked to one model", "dimension": "dx"}
+{"aspect": "picked as the go-to $200/month coding tool", "dimension": "limits"}
+{"aspect": "plan limits triggering frustration", "dimension": "limits"}
+{"aspect": "plan limits, redirects, reauth", "dimension": "limits"}
+{"aspect": "plan output readability", "dimension": "dx"}
+{"aspect": "plan pricing jump from $20 to $100", "dimension": "limits"}
+{"aspect": "plan quota generosity", "dimension": "limits"}
+{"aspect": "plan usage burns too fast", "dimension": "limits"}
+{"aspect": "plan usage limits led to cancellation", "dimension": "limits"}
+{"aspect": "planning and ui/ux work", "dimension": "agent"}
+{"aspect": "planning/review role in multi-agent loop", "dimension": "agent"}
+{"aspect": "plugin issues bridged by hermes", "dimension": "dx"}
+{"aspect": "plugin support (ponytail)", "dimension": "dx"}
+{"aspect": "poll pick at $200/month", "dimension": "limits"}
+{"aspect": "poll pick for $200/month coding tool", "dimension": "limits"}
+{"aspect": "poor usage value across plans", "dimension": "limits"}
+{"aspect": "positive analytics output", "dimension": "dx"}
+{"aspect": "posting broken but email/calendar useful", "dimension": "reliability"}
+{"aspect": "potential to enable solo operators", "dimension": "agent"}
+{"aspect": "potential undercut by usage limits", "dimension": "limits"}
+{"aspect": "power for parallel multi-task scaling", "dimension": "agent"}
+{"aspect": "pr throughput and code quality", "dimension": "agent"}
+{"aspect": "praises the newly stacked model lineup", "dimension": "dx"}
+{"aspect": "precision depends on retaining and reusing past logs", "dimension": "efficiency"}
+{"aspect": "preferred daily option", "dimension": "overall"}
+{"aspect": "preferred for building and hard questions", "dimension": "agent"}
+{"aspect": "preferred if not for codex credit limits", "dimension": "limits"}
+{"aspect": "preferred pick among solo builders", "dimension": "overall"}
+{"aspect": "preferred slightly for computer use and general chat", "dimension": "dx"}
+{"aspect": "premium plan not worth the price difference", "dimension": "limits"}
+{"aspect": "pricing and 5-hour limits", "dimension": "limits"}
+{"aspect": "pricing and rapid balance drain", "dimension": "limits"}
+{"aspect": "primary agent replacing others", "dimension": "overall"}
+{"aspect": "primary coding workflow", "dimension": "overall"}
+{"aspect": "primary workflow suitability", "dimension": "overall"}
+{"aspect": "productivity", "dimension": "overall"}
+{"aspect": "productivity from parallel sessions", "dimension": "agent"}
+{"aspect": "productivity on calls", "dimension": "agent"}
+{"aspect": "progresses tasks while i do other work", "dimension": "agent"}
+{"aspect": "progressing while not actively working", "dimension": "agent"}
+{"aspect": "project improving since switching", "dimension": "overall"}
+{"aspect": "prompt communication clarity", "dimension": "dx"}
+{"aspect": "prompt editing feels stuck", "dimension": "dx"}
+{"aspect": "prompt-light agent-driven workflow", "dimension": "agent"}
+{"aspect": "prose quality versus tool-speak", "dimension": "other"}
+{"aspect": "provider switching ux friction", "dimension": "dx"}
+{"aspect": "pushing updates from mobile", "dimension": "dx"}
+{"aspect": "qa testing for a fingerprint browser", "dimension": "agent"}
+{"aspect": "quality degradation ('降智')", "dimension": "efficiency"}
+{"aspect": "quality of included free models", "dimension": "dx"}
+{"aspect": "quality with well-structured repos", "dimension": "agent"}
+{"aspect": "quality, precision, end-to-end completion", "dimension": "agent"}
+{"aspect": "quota bug transparency", "dimension": "limits"}
+{"aspect": "quota burned quickly on day one", "dimension": "limits"}
+{"aspect": "quota burns fast on simple queries", "dimension": "limits"}
+{"aspect": "quota burns through fast in a day", "dimension": "limits"}
+{"aspect": "quota change is an effective decrease", "dimension": "limits"}
+{"aspect": "quota consumed too fast per prompt", "dimension": "limits"}
+{"aspect": "quota consumption after one prompt", "dimension": "limits"}
+{"aspect": "quota design masked by frequent resets", "dimension": "limits"}
+{"aspect": "quota gone in two sessions", "dimension": "limits"}
+{"aspect": "quota value versus glm lite plan", "dimension": "limits"}
+{"aspect": "quotas too low", "dimension": "limits"}
+{"aspect": "ran out of quota", "dimension": "limits"}
+{"aspect": "ranked second best for coding", "dimension": "overall"}
+{"aspect": "rapid credit consumption", "dimension": "limits"}
+{"aspect": "rate limit drain", "dimension": "limits"}
+{"aspect": "rate limit wait time", "dimension": "limits"}
+{"aspect": "rate limits and reset schedule", "dimension": "limits"}
+{"aspect": "rate limits exhausted before real work", "dimension": "limits"}
+{"aspect": "rate limits under fable 5.1", "dimension": "limits"}
+{"aspect": "rate limits versus capability", "dimension": "limits"}
+{"aspect": "rate limits vs price", "dimension": "limits"}
+{"aspect": "raycasting 3d demo quality", "dimension": "agent"}
+{"aspect": "reading a claude session to continue work", "dimension": "efficiency"}
+{"aspect": "real-world breakthrough application", "dimension": "agent"}
+{"aspect": "real-world pcb engineering workflow", "dimension": "agent"}
+{"aspect": "reason for switching from claude accounts", "dimension": "overall"}
+{"aspect": "recent feature update quality", "dimension": "dx"}
+{"aspect": "recommended $200 subscription", "dimension": "limits"}
+{"aspect": "recommended alternative for burning quota fast", "dimension": "limits"}
+{"aspect": "recommended as a decent coding agent", "dimension": "overall"}
+{"aspect": "recommended as a delegation target", "dimension": "agent"}
+{"aspect": "recommended as sub agent runner", "dimension": "agent"}
+{"aspect": "recommended coding harness", "dimension": "overall"}
+{"aspect": "recommended download", "dimension": "overall"}
+{"aspect": "recommended for code review", "dimension": "agent"}
+{"aspect": "recommended for coding", "dimension": "overall"}
+{"aspect": "recommended for harness setup", "dimension": "dx"}
+{"aspect": "recommended for use inside antigravity", "dimension": "dx"}
+{"aspect": "recommended option", "dimension": "overall"}
+{"aspect": "recommended over grok from firsthand testing", "dimension": "overall"}
+{"aspect": "recommended spending choice", "dimension": "limits"}
+{"aspect": "recurring limit cuts despite max plan", "dimension": "limits"}
+{"aspect": "recurring limit reductions in the coding loop", "dimension": "limits"}

@@ -1,0 +1,150 @@
+{"aspect": "integration mess versus pace of releases", "dimension": "dx"}
+{"aspect": "intelligence relative to fable", "dimension": "other"}
+{"aspect": "interesting despite no multiplayer", "dimension": "other"}
+{"aspect": "interface quality versus harness capability", "dimension": "dx"}
+{"aspect": "invalid tool calls in tool usage", "dimension": "agent"}
+{"aspect": "invasive computer control ux", "dimension": "dx"}
+{"aspect": "ios app development quality", "dimension": "dx"}
+{"aspect": "ios app quality", "dimension": "dx"}
+{"aspect": "ipad app usability", "dimension": "dx"}
+{"aspect": "irreversible data loss during a cleanup task", "dimension": "reliability"}
+{"aspect": "japanese language comprehension", "dimension": "other"}
+{"aspect": "keeping drafting and review separate from chat", "dimension": "dx"}
+{"aspect": "keeping project context and coordination", "dimension": "efficiency"}
+{"aspect": "kept only for the hardest problems after migrating", "dimension": "overall"}
+{"aspect": "lack of novel features", "dimension": "dx"}
+{"aspect": "lack of transparency about usage limits", "dimension": "limits"}
+{"aspect": "lack of usage limit reset", "dimension": "limits"}
+{"aspect": "lacking computer use capability", "dimension": "dx"}
+{"aspect": "lacks built-in image generation (comparison)", "dimension": "dx"}
+{"aspect": "lacks prose quality", "dimension": "other"}
+{"aspect": "laziness/autonomy versus price value", "dimension": "agent"}
+{"aspect": "lazy, assumption-driven, no initiative to verify code", "dimension": "agent"}
+{"aspect": "lead scraping and funnel automation", "dimension": "agent"}
+{"aspect": "leaking a thinking trace after an update", "dimension": "reliability"}
+{"aspect": "lean context for customization", "dimension": "efficiency"}
+{"aspect": "leftover investigation notes increase reader effort", "dimension": "agent"}
+{"aspect": "less clear 20x usage-limit terms", "dimension": "limits"}
+{"aspect": "less reliable than alternative in practice", "dimension": "reliability"}
+{"aspect": "limit burns fast during brainstorming", "dimension": "limits"}
+{"aspect": "limit cuts with vague messaging", "dimension": "limits"}
+{"aspect": "limit exhausted quickly on premium plus", "dimension": "limits"}
+{"aspect": "limited fable access, no resets", "dimension": "limits"}
+{"aspect": "limits worse than other subs", "dimension": "limits"}
+{"aspect": "linux sandbox startup regression", "dimension": "reliability"}
+{"aspect": "localhost access and tool integration", "dimension": "dx"}
+{"aspect": "login and setup friction", "dimension": "dx"}
+{"aspect": "login routes chats to a lower-tier model unexpectedly", "dimension": "reliability"}
+{"aspect": "long-context long-task handling", "dimension": "efficiency"}
+{"aspect": "long-context stability", "dimension": "efficiency"}
+{"aspect": "long-term viability vindicated over time", "dimension": "overall"}
+{"aspect": "looping and burning tokens on bash commands", "dimension": "efficiency"}
+{"aspect": "looping without delivering results", "dimension": "agent"}
+{"aspect": "loses out to opencode", "dimension": "overall"}
+{"aspect": "losing context when forced to switch models mid-task", "dimension": "efficiency"}
+{"aspect": "lost tokens from unexplained metering issues", "dimension": "limits"}
+{"aspect": "low-value thought-process comments in code", "dimension": "agent"}
+{"aspect": "lower limits and higher usage", "dimension": "limits"}
+{"aspect": "lower token consumption", "dimension": "efficiency"}
+{"aspect": "lower value than codex plan (comparison)", "dimension": "limits"}
+{"aspect": "macos intel download support", "dimension": "dx"}
+{"aspect": "managed cloud teammates handling real tasks", "dimension": "agent"}
+{"aspect": "managing multiple harnesses on one project", "dimension": "dx"}
+{"aspect": "managing personal email and life admin", "dimension": "agent"}
+{"aspect": "market surge", "dimension": "other"}
+{"aspect": "marketed limit increases feel deceptive", "dimension": "limits"}
+{"aspect": "mastery leading to unstoppable results", "dimension": "agent"}
+{"aspect": "matured with 1m token context", "dimension": "efficiency"}
+{"aspect": "maturity with long context", "dimension": "efficiency"}
+{"aspect": "max plan weekly limits too restrictive for sustained work", "dimension": "limits"}
+{"aspect": "memory buildup during long sessions", "dimension": "efficiency"}
+{"aspect": "memory exhaustion and fast weekly quota depletion", "dimension": "limits"}
+{"aspect": "memory leaks over long sessions", "dimension": "efficiency"}
+{"aspect": "messy implementation of the feature", "dimension": "agent"}
+{"aspect": "migrated project fully to it", "dimension": "overall"}
+{"aspect": "migrating primary coding harness", "dimension": "overall"}
+{"aspect": "milestone in agent development", "dimension": "agent"}
+{"aspect": "minimal read/write/edit/bash design aging well", "dimension": "dx"}
+{"aspect": "minimal toolset scales well with stronger models", "dimension": "dx"}
+{"aspect": "minimalist ui design", "dimension": "dx"}
+{"aspect": "misleading 20x plan", "dimension": "limits"}
+{"aspect": "misleading 20x plan multiplier", "dimension": "limits"}
+{"aspect": "misleading 20x usage-limit definition", "dimension": "limits"}
+{"aspect": "misleading usage limit marketing", "dimension": "limits"}
+{"aspect": "missed contradictions in review", "dimension": "agent"}
+{"aspect": "missing monitor feature", "dimension": "dx"}
+{"aspect": "missing voice chat on ios", "dimension": "dx"}
+{"aspect": "mixes english into japanese despite instructions", "dimension": "agent"}
+{"aspect": "model capacity errors", "dimension": "reliability"}
+{"aspect": "model missing after restart", "dimension": "reliability"}
+{"aspect": "model routing feature", "dimension": "dx"}
+{"aspect": "model-at-capacity errors after reset", "dimension": "reliability"}
+{"aspect": "monitor feature", "dimension": "dx"}
+{"aspect": "more optimistic about its future development", "dimension": "overall"}
+{"aspect": "most capable harness on the market", "dimension": "agent"}
+{"aspect": "much more usage for the subscription price", "dimension": "limits"}
+{"aspect": "multi-agent exec channel accumulates noise without ownership rules", "dimension": "agent"}
+{"aspect": "multi-agent executive workflow", "dimension": "agent"}
+{"aspect": "multi-agent orchestration", "dimension": "agent"}
+{"aspect": "multi-agent orchestration capability", "dimension": "agent"}
+{"aspect": "multi-agent orchestration ux for gtm teams", "dimension": "agent"}
+{"aspect": "multi-agent threading for regression testing", "dimension": "agent"}
+{"aspect": "multi-device remote control", "dimension": "dx"}
+{"aspect": "multi-round orchestration vs antigravity cli", "dimension": "agent"}
+{"aspect": "needing a separate session for computer use", "dimension": "dx"}
+{"aspect": "needing full context refed", "dimension": "efficiency"}
+{"aspect": "new favorite harness overall", "dimension": "overall"}
+{"aspect": "no access to local computer or projects", "dimension": "other"}
+{"aspect": "no access to new model yet", "dimension": "other"}
+{"aspect": "no access to x search", "dimension": "other"}
+{"aspect": "no automatic image insertion (comparison)", "dimension": "dx"}
+{"aspect": "no infra to maintain but limited to grok models", "dimension": "dx"}
+{"aspect": "no resets while subscribed", "dimension": "limits"}
+{"aspect": "no short-term usage limit", "dimension": "limits"}
+{"aspect": "no token usage visibility", "dimension": "limits"}
+{"aspect": "no true off thinking level", "dimension": "dx"}
+{"aspect": "non-invasive computer control", "dimension": "dx"}
+{"aspect": "not worth renewing", "dimension": "overall"}
+{"aspect": "not worth the cost, cancelled", "dimension": "limits"}
+{"aspect": "not worth using despite access", "dimension": "overall"}
+{"aspect": "novel compute environment concept", "dimension": "dx"}
+{"aspect": "observability feature", "dimension": "dx"}
+{"aspect": "occasionally unresponsive", "dimension": "reliability"}
+{"aspect": "odd, inconsistent phrasing creeping into responses", "dimension": "other"}
+{"aspect": "on demand feature drains limits fast", "dimension": "limits"}
+{"aspect": "onboarding after seeing one workflow finish", "dimension": "dx"}
+{"aspect": "one-shot bug fixing", "dimension": "agent"}
+{"aspect": "one-shot complex coding task", "dimension": "agent"}
+{"aspect": "only subscription kept", "dimension": "overall"}
+{"aspect": "opaque rate limit numbers", "dimension": "limits"}
+{"aspect": "opaque usage limit disclosure", "dimension": "limits"}
+{"aspect": "open-source alternative to avoid claude code limits", "dimension": "limits"}
+{"aspect": "open-source alternative to claude code limits", "dimension": "limits"}
+{"aspect": "open-weight model support", "dimension": "dx"}
+{"aspect": "opened daily instead of codex", "dimension": "overall"}
+{"aspect": "openness and customizability", "dimension": "dx"}
+{"aspect": "optimization efficiency", "dimension": "efficiency"}
+{"aspect": "orchestrating sub-agents from one bot", "dimension": "agent"}
+{"aspect": "outage", "dimension": "reliability"}
+{"aspect": "outage and downtime reliability", "dimension": "reliability"}
+{"aspect": "outage/unavailability", "dimension": "reliability"}
+{"aspect": "outlook/calendar/onedrive integration", "dimension": "dx"}
+{"aspect": "output quality as benchmark", "dimension": "agent"}
+{"aspect": "output quality depends on repo structure", "dimension": "agent"}
+{"aspect": "output quality of shared template", "dimension": "agent"}
+{"aspect": "output quality versus hermes", "dimension": "agent"}
+{"aspect": "output quality versus interface polish", "dimension": "agent"}
+{"aspect": "output quality versus unnecessary reasoning", "dimension": "agent"}
+{"aspect": "output tone and instruction override", "dimension": "agent"}
+{"aspect": "outreach conversion rate", "dimension": "other"}
+{"aspect": "over-engineering a simple task", "dimension": "agent"}
+{"aspect": "over-engineering simple requests", "dimension": "agent"}
+{"aspect": "overall app satisfaction after switching", "dimension": "overall"}
+{"aspect": "overall appeal of the agent", "dimension": "overall"}
+{"aspect": "overall as coding harness", "dimension": "overall"}
+{"aspect": "overall best ai", "dimension": "overall"}
+{"aspect": "overall best-assistant reputation", "dimension": "overall"}
+{"aspect": "overall cli ranking", "dimension": "overall"}
+{"aspect": "overall coding workflow choice", "dimension": "overall"}
+{"aspect": "overall coding workflow fit", "dimension": "overall"}
+{"aspect": "overall concept", "dimension": "overall"}

@@ -1,0 +1,76 @@
+{"post_id": "2094525396016623994", "line": 0, "target": "grok-4.6", "label": "negative", "firsthand": true, "aspect": "cost for an AI science task vs. ChatGPT", "dimension": "price"}
+{"post_id": "2094528116320297189", "line": 0, "target": "gemini-3.7-flash", "label": "positive", "firsthand": true, "aspect": "usability, cost, and speed", "dimension": "intelligence"}
+{"post_id": "2094536654862291153", "line": 0, "target": "glm-5.3-flash", "label": "mixed", "firsthand": false, "aspect": "speed vs cost tradeoff", "dimension": "speed"}
+{"post_id": "2094547238362226948", "line": 0, "target": "gpt-5.6-sol", "label": "positive", "firsthand": false, "aspect": "cost", "dimension": "price"}
+{"post_id": "2094641299311960092", "line": 1, "target": "gpt-5.6-sol", "label": "positive", "firsthand": false, "aspect": "cost efficiency versus other models", "dimension": "price"}
+{"post_id": "2094658731313410278", "line": 0, "target": "glm-5.3-flash", "label": "positive", "firsthand": false, "aspect": "full free access with strong specs", "dimension": "price"}
+{"post_id": "2094674072370057455", "line": 0, "target": "gpt-5.6-sol", "label": "positive", "firsthand": true, "aspect": "price, performance and UI generation", "dimension": "other"}
+{"post_id": "2094693702753202623", "line": 1, "target": "glm-5.3-flash", "label": "positive", "firsthand": true, "aspect": "speed and cost versus its class", "dimension": "other"}
+{"post_id": "2094696058790219802", "line": 1, "target": "gpt-5.6-sol", "label": "positive", "firsthand": false, "aspect": "backend speed cost security", "dimension": "price"}
+{"post_id": "2094778571332223257", "line": 0, "target": "glm-5.3-flash", "label": "positive", "firsthand": false, "aspect": "value for money", "dimension": "price"}
+{"post_id": "2094802242146533733", "line": 1, "target": "gpt-5.6-sol", "label": "negative", "firsthand": true, "aspect": "token burn rate on Sol Max", "dimension": "other"}
+{"post_id": "2094863138533543985", "line": 1, "target": "gpt-5.6-luna", "label": "positive", "firsthand": true, "aspect": "speed and low cost", "dimension": "other"}
+{"post_id": "2094865488706973739", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": true, "aspect": "xhigh effort vs medium effort tradeoff", "dimension": "other"}
+{"post_id": "2094869573212258406", "line": 1, "target": "claude-fable-5.1", "label": "positive", "firsthand": false, "aspect": "the cache-read price cut for agentic work", "dimension": "other"}
+{"post_id": "2094879208304685524", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "much higher pricing", "dimension": "price"}
+{"post_id": "2094893094823149726", "line": 1, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "drains usage limit quickly", "dimension": "other"}
+{"post_id": "2094895823368622539", "line": 0, "target": "glm-5.3-flash", "label": "positive", "firsthand": true, "aspect": "usage headroom, no rate-limit worry", "dimension": "other"}
+{"post_id": "2094900828796596253", "line": 0, "target": "claude-fable-5.1", "label": "mixed", "firsthand": false, "aspect": "intelligence vs token efficiency tradeoff", "dimension": "intelligence"}
+{"post_id": "2094900828796596253", "line": 2, "target": "gpt-5.6-sol", "label": "positive", "firsthand": false, "aspect": "cost efficiency for near-equal intelligence", "dimension": "other"}
+{"post_id": "2094904736524702169", "line": 2, "target": "gpt-5.6-sol", "label": "mixed", "firsthand": true, "aspect": "output quality vs credit consumption", "dimension": "price"}
+{"post_id": "2094904736524702169", "line": 3, "target": "claude-fable-5.1", "label": "positive", "firsthand": true, "aspect": "credit efficiency", "dimension": "price"}
+{"post_id": "2094905345965695328", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": true, "aspect": "capacity for multiple orchestrator agents in 5hr window", "dimension": "other"}
+{"post_id": "2094908446327837031", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "high token consumption for task", "dimension": "speed"}
+{"post_id": "2094912477452542230", "line": 0, "target": "gpt-5.6-sol", "label": "negative", "firsthand": true, "aspect": "usage burned by one prompt", "dimension": "other"}
+{"post_id": "2094916807887053052", "line": 0, "target": "gpt-5.6-luna", "label": "negative", "firsthand": true, "aspect": "insufficient quota even after reset", "dimension": "other"}
+{"post_id": "2094916807887053052", "line": 1, "target": "gpt-5.6-sol", "label": "negative", "firsthand": true, "aspect": "restricted to plan or chat mode", "dimension": "other"}
+{"post_id": "2094921706645213243", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": true, "aspect": "cheaper cache reuse pricing", "dimension": "other"}
+{"post_id": "2094954819069042998", "line": 0, "target": "gpt-5.6-sol", "label": "negative", "firsthand": true, "aspect": "stuck in loops burning weekly budget", "dimension": "other"}
+{"post_id": "2094967707758387532", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": false, "aspect": "cost efficiency benchmark position", "dimension": "other"}
+{"post_id": "2094970685495947572", "line": 0, "target": "gpt-5.6-luna", "label": "positive", "firsthand": false, "aspect": "affordable option for early-stage development", "dimension": "other"}
+{"post_id": "2094970685495947572", "line": 1, "target": "gpt-5.6-sol", "label": "positive", "firsthand": false, "aspect": "premium option once affordable", "dimension": "other"}
+{"post_id": "2094977951565550077", "line": 0, "target": "glm-5.3-flash", "label": "positive", "firsthand": true, "aspect": "cost and speed for the same task", "dimension": "other"}
+{"post_id": "2094977951565550077", "line": 1, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "cost relative to a cheaper alternative", "dimension": "other"}
+{"post_id": "2095000735662612742", "line": 0, "target": "glm-5.3-flash", "label": "positive", "firsthand": false, "aspect": "cost and speed versus Fable 5.1", "dimension": "other"}
+{"post_id": "2095011201155809346", "line": 0, "target": "grok-4.6", "label": "positive", "firsthand": true, "aspect": "replacing daily Claude usage", "dimension": "other"}
+{"post_id": "2095020181990821890", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": false, "aspect": "cost and latency vs proprietary models", "dimension": "other"}
+{"post_id": "2095052003491598348", "line": 1, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "limit ran out during repo analysis", "dimension": "other"}
+{"post_id": "2095088630863736994", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "burns through session usage quickly", "dimension": "other"}
+{"post_id": "2095093148519411997", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "faster token drain than prior version", "dimension": "other"}
+{"post_id": "2095093148519411997", "line": 1, "target": "claude-opus-5", "label": "negative", "firsthand": true, "aspect": "faster token drain than prior version", "dimension": "other"}
+{"post_id": "2095143294712033616", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "burned weekly tokens fast versus efficiency claim", "dimension": "other"}
+{"post_id": "2095143294712033616", "line": 1, "target": "claude-opus-5", "label": "positive", "firsthand": true, "aspect": "lower token usage than Fable 5.1 claim", "dimension": "speed"}
+{"post_id": "2095151570669154617", "line": 1, "target": "grok-4.6", "label": "negative", "firsthand": true, "aspect": "much higher token usage than prior version", "dimension": "speed"}
+{"post_id": "2095165574573588540", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": false, "aspect": "beats Opus 5 across many tasks at low cost", "dimension": "other"}
+{"post_id": "2095165574573588540", "line": 1, "target": "claude-opus-5", "label": "negative", "firsthand": false, "aspect": "outperformed by cheaper Gemini model", "dimension": "intelligence"}
+{"post_id": "2095166019010494891", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": false, "aspect": "Opus-level performance at lower cost and faster", "dimension": "price"}
+{"post_id": "2095181292006744162", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": true, "aspect": "generation speed and token efficiency", "dimension": "other"}
+{"post_id": "2095184369744777647", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": true, "aspect": "3D physics scene generation cost/quality", "dimension": "other"}
+{"post_id": "2095186530239168539", "line": 0, "target": "grok-4.6", "label": "positive", "firsthand": false, "aspect": "price-to-performance value", "dimension": "other"}
+{"post_id": "2095197182236463181", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": false, "aspect": "token efficiency per task", "dimension": "price"}
+{"post_id": "2095197182236463181", "line": 1, "target": "grok-4.6", "label": "positive", "firsthand": false, "aspect": "token efficiency per task", "dimension": "price"}
+{"post_id": "2095215488402112798", "line": 0, "target": "grok-4.6", "label": "positive", "firsthand": false, "aspect": "score and cost versus rivals", "dimension": "other"}
+{"post_id": "2095216384389394661", "line": 0, "target": "claude-opus-5", "label": "positive", "firsthand": true, "aspect": "credit efficiency", "dimension": "price"}
+{"post_id": "2095216384389394661", "line": 1, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "credit consumption rate", "dimension": "other"}
+{"post_id": "2095243664872087677", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": false, "aspect": "cost efficiency versus alternatives", "dimension": "other"}
+{"post_id": "2095243664872087677", "line": 1, "target": "glm-5.3-flash", "label": "positive", "firsthand": false, "aspect": "value for cost", "dimension": "price"}
+{"post_id": "2095266516988252305", "line": 0, "target": "muse-spark-1.3", "label": "positive", "firsthand": false, "aspect": "capability relative to price", "dimension": "other"}
+{"post_id": "2095268087780069637", "line": 2, "target": "grok-4.6", "label": "positive", "firsthand": true, "aspect": "token efficiency for daily use", "dimension": "other"}
+{"post_id": "2095280461262250306", "line": 0, "target": "grok-4.6", "label": "positive", "firsthand": true, "aspect": "usage longevity for half the price", "dimension": "other"}
+{"post_id": "2095331480155382253", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": false, "aspect": "price to performance ratio", "dimension": "price"}
+{"post_id": "2095439644485636466", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "credit cost per task much higher than prior version", "dimension": "other"}
+{"post_id": "2095446270831681865", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": true, "aspect": "credits lasting through many tickets", "dimension": "other"}
+{"post_id": "2095448439433924934", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "credit consumption after 5.1 launch", "dimension": "other"}
+{"post_id": "2095455826240508157", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": false, "aspect": "cost efficiency claims disputed", "dimension": "other"}
+{"post_id": "2095478920782962835", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "hitting limits quickly", "dimension": "other"}
+{"post_id": "2095484994923667617", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "5 hour limit hit quickly", "dimension": "other"}
+{"post_id": "2095487925240861058", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": false, "aspect": "agentic workflow cost vs Opus 5", "dimension": "other"}
+{"post_id": "2095514854274855105", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": true, "aspect": "no rate limit issues from heavy CLI use", "dimension": "other"}
+{"post_id": "2095595967764746693", "line": 1, "target": "claude-fable-5.1", "label": "negative", "firsthand": false, "aspect": "more expensive than promised", "dimension": "price"}
+{"post_id": "2095639234019279011", "line": 0, "target": "gemini-3.8-flash", "label": "positive", "firsthand": false, "aspect": "capability relative to price versus Opus", "dimension": "other"}
+{"post_id": "2095665009309131005", "line": 0, "target": "claude-fable-5.1", "label": "positive", "firsthand": false, "aspect": "cost efficiency versus Sol", "dimension": "price"}
+{"post_id": "2095704105348190608", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": false, "aspect": "more expensive than claimed", "dimension": "price"}
+{"post_id": "2095894412450570489", "line": 0, "target": "gpt-6-astra", "label": "positive", "firsthand": false, "aspect": "overall capability and price versus Claude", "dimension": "other"}
+{"post_id": "2095905148321095768", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "token usage consumption", "dimension": "other"}
+{"post_id": "2095921650013225001", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "5 hour usage limit", "dimension": "other"}
+{"post_id": "2095984711839461462", "line": 0, "target": "claude-fable-5.1", "label": "negative", "firsthand": true, "aspect": "pricing too high", "dimension": "other"}

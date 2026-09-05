@@ -1,0 +1,150 @@
+{"aspect": "code review judgment quality", "dimension": "intelligence"}
+{"aspect": "codex allowance efficiency", "dimension": "price"}
+{"aspect": "coding agent benchmark leader", "dimension": "intelligence"}
+{"aspect": "coding agent quality", "dimension": "intelligence"}
+{"aspect": "coding and computer-use benchmark gains", "dimension": "intelligence"}
+{"aspect": "coding and math benchmark scores", "dimension": "intelligence"}
+{"aspect": "coding and multi-step performance", "dimension": "intelligence"}
+{"aspect": "coding and multi-step performance at same price", "dimension": "price"}
+{"aspect": "coding and terminal task wins", "dimension": "intelligence"}
+{"aspect": "coding benchmark rank improvement", "dimension": "intelligence"}
+{"aspect": "coding capability falls short of goals", "dimension": "intelligence"}
+{"aspect": "coding capability improvement", "dimension": "intelligence"}
+{"aspect": "coding capability regression from fable 5", "dimension": "intelligence"}
+{"aspect": "coding eval pass rate", "dimension": "intelligence"}
+{"aspect": "coding experience in vs code", "dimension": "other"}
+{"aspect": "coding output quality versus sol", "dimension": "intelligence"}
+{"aspect": "coding plan usage allowance value", "dimension": "price"}
+{"aspect": "coding preference poll answer", "dimension": "overall"}
+{"aspect": "coding problem-solving (hype claim)", "dimension": "intelligence"}
+{"aspect": "coding quality vs astra", "dimension": "intelligence"}
+{"aspect": "coding score at lower cost", "dimension": "price"}
+{"aspect": "coding speed", "dimension": "speed"}
+{"aspect": "coding speed and quality vs missing tokyo api region", "dimension": "other"}
+{"aspect": "coding speed boost", "dimension": "speed"}
+{"aspect": "coding strength versus computer-use focus", "dimension": "intelligence"}
+{"aspect": "coding via chat without a cli tool", "dimension": "other"}
+{"aspect": "coding-only benchmark performance", "dimension": "intelligence"}
+{"aspect": "coherence of creative writing", "dimension": "intelligence"}
+{"aspect": "combination quality with flash mode", "dimension": "intelligence"}
+{"aspect": "combination quality with max mode", "dimension": "intelligence"}
+{"aspect": "comfort/reliability for the same tasks", "dimension": "intelligence"}
+{"aspect": "comically low usage limits", "dimension": "price"}
+{"aspect": "committing to one model ecosystem", "dimension": "other"}
+{"aspect": "communication and rate limits", "dimension": "personality"}
+{"aspect": "communication quality", "dimension": "personality"}
+{"aspect": "company decline and upcoming limit cuts", "dimension": "other"}
+{"aspect": "comparable result at much lower cost", "dimension": "price"}
+{"aspect": "comparatively better right now", "dimension": "overall"}
+{"aspect": "competitive cost-performance", "dimension": "price"}
+{"aspect": "competitive edge of early adoption", "dimension": "other"}
+{"aspect": "complete replacement coding stack", "dimension": "intelligence"}
+{"aspect": "completed the same task quickly", "dimension": "speed"}
+{"aspect": "completes tasks but with errors", "dimension": "intelligence"}
+{"aspect": "completion quality and free off-peak pricing", "dimension": "price"}
+{"aspect": "completion speed on long tasks", "dimension": "speed"}
+{"aspect": "completion time", "dimension": "speed"}
+{"aspect": "complex coding and workflows versus newer model", "dimension": "intelligence"}
+{"aspect": "complex, nuanced queries", "dimension": "intelligence"}
+{"aspect": "comprehensiveness and clarity of output", "dimension": "intelligence"}
+{"aspect": "computer control much improved", "dimension": "intelligence"}
+{"aspect": "computer use and terminal capability", "dimension": "intelligence"}
+{"aspect": "computer use capability vs gimmick framing", "dimension": "intelligence"}
+{"aspect": "computer use responsiveness", "dimension": "speed"}
+{"aspect": "computer use speed and precision", "dimension": "intelligence"}
+{"aspect": "computer use strength vs overall intelligence", "dimension": "intelligence"}
+{"aspect": "computer use taking over the screen on windows", "dimension": "other"}
+{"aspect": "computer use, vision and self-verification", "dimension": "intelligence"}
+{"aspect": "computer-use accuracy", "dimension": "intelligence"}
+{"aspect": "computer-use and intelligence index scores", "dimension": "intelligence"}
+{"aspect": "computer-use benchmark (osworld)", "dimension": "intelligence"}
+{"aspect": "computer-use benchmark improvement", "dimension": "intelligence"}
+{"aspect": "computer-use benchmark jump over sol", "dimension": "intelligence"}
+{"aspect": "computer-use benchmark scores", "dimension": "intelligence"}
+{"aspect": "computer-use capability leadership", "dimension": "intelligence"}
+{"aspect": "computer-use capability vs prior models", "dimension": "intelligence"}
+{"aspect": "computer-use inference speed", "dimension": "speed"}
+{"aspect": "conciseness on complex multi-step tasks", "dimension": "personality"}
+{"aspect": "conciseness without over-engineering", "dimension": "personality"}
+{"aspect": "confidence in merge decisions", "dimension": "intelligence"}
+{"aspect": "confidential private inference offering", "dimension": "other"}
+{"aspect": "confidently asserting wrong facts", "dimension": "intelligence"}
+{"aspect": "conflicting benchmark scores", "dimension": "intelligence"}
+{"aspect": "confusing declarative phrasing when writing documents", "dimension": "personality"}
+{"aspect": "confusing subscription tiers", "dimension": "price"}
+{"aspect": "confusing tiers and lost promo", "dimension": "price"}
+{"aspect": "consumed 40% of weekly limit in 3 prompts", "dimension": "price"}
+{"aspect": "context compression speed", "dimension": "speed"}
+{"aspect": "context length billing", "dimension": "price"}
+{"aspect": "context length capacity", "dimension": "intelligence"}
+{"aspect": "context retention", "dimension": "intelligence"}
+{"aspect": "context retention across turns", "dimension": "intelligence"}
+{"aspect": "context retention over long sessions", "dimension": "intelligence"}
+{"aspect": "continued heavy daily use", "dimension": "overall"}
+{"aspect": "continued heavy usage", "dimension": "overall"}
+{"aspect": "continued primary use", "dimension": "overall"}
+{"aspect": "continuous 24/7 operation", "dimension": "other"}
+{"aspect": "continuous autonomous updates", "dimension": "other"}
+{"aspect": "conversation ending abruptly", "dimension": "other"}
+{"aspect": "conversation quality", "dimension": "personality"}
+{"aspect": "conversation quality vs astra", "dimension": "personality"}
+{"aspect": "conversational directness", "dimension": "personality"}
+{"aspect": "convoluted lately", "dimension": "personality"}
+{"aspect": "coordinating parallel sub-agent swarm with 1m context", "dimension": "intelligence"}
+{"aspect": "coordination and long-running tasks", "dimension": "intelligence"}
+{"aspect": "corporate tone vs technical strength", "dimension": "personality"}
+{"aspect": "correctly inferring bot name meanings", "dimension": "intelligence"}
+{"aspect": "cost and agentic capability on the index", "dimension": "price"}
+{"aspect": "cost and agentic index position", "dimension": "price"}
+{"aspect": "cost and benchmark scores including terminal bench anomaly", "dimension": "price"}
+{"aspect": "cost and effectiveness", "dimension": "price"}
+{"aspect": "cost and performance as sub agent", "dimension": "price"}
+{"aspect": "cost and performance vs muse spark", "dimension": "price"}
+{"aspect": "cost and performance vs prior models", "dimension": "price"}
+{"aspect": "cost and quality vs glm", "dimension": "price"}
+{"aspect": "cost and quality vs luna", "dimension": "price"}
+{"aspect": "cost and speed of game generation", "dimension": "price"}
+{"aspect": "cost and strength on agent tasks", "dimension": "price"}
+{"aspect": "cost and time for an equally good result", "dimension": "price"}
+{"aspect": "cost efficiency and frontier capability", "dimension": "price"}
+{"aspect": "cost efficiency at similar performance", "dimension": "price"}
+{"aspect": "cost efficiency by task length", "dimension": "price"}
+{"aspect": "cost efficiency contradicting vendor claim", "dimension": "price"}
+{"aspect": "cost efficiency for everyday use", "dimension": "price"}
+{"aspect": "cost efficiency for solved tasks", "dimension": "price"}
+{"aspect": "cost efficiency for usage volume", "dimension": "price"}
+{"aspect": "cost efficiency on terminal bench", "dimension": "price"}
+{"aspect": "cost efficiency per the cited leaderboard", "dimension": "price"}
+{"aspect": "cost efficiency versus bug rate", "dimension": "price"}
+{"aspect": "cost efficiency versus other models", "dimension": "price"}
+{"aspect": "cost efficiency vs quality tradeoff", "dimension": "price"}
+{"aspect": "cost efficient for daily work", "dimension": "price"}
+{"aspect": "cost for an ai science task vs. chatgpt", "dimension": "price"}
+{"aspect": "cost justified by roi versus manual labor", "dimension": "price"}
+{"aspect": "cost of hiring ai engineer", "dimension": "price"}
+{"aspect": "cost per benchmark point", "dimension": "price"}
+{"aspect": "cost per completed task index", "dimension": "price"}
+{"aspect": "cost per intelligence index point", "dimension": "price"}
+{"aspect": "cost per prompt", "dimension": "price"}
+{"aspect": "cost per solved task", "dimension": "price"}
+{"aspect": "cost per task at similar performance", "dimension": "price"}
+{"aspect": "cost per task vs fable 5", "dimension": "price"}
+{"aspect": "cost per terminal-bench score", "dimension": "price"}
+{"aspect": "cost relative to other models", "dimension": "price"}
+{"aspect": "cost to quality value", "dimension": "price"}
+{"aspect": "cost versus intelligence per artificial analysis", "dimension": "price"}
+{"aspect": "cost vs intelligence tradeoff", "dimension": "price"}
+{"aspect": "cost vs predecessor 1.2", "dimension": "price"}
+{"aspect": "cost vs predecessor 3.7", "dimension": "price"}
+{"aspect": "cost-adjusted benchmark value", "dimension": "price"}
+{"aspect": "cost-adjusted performance", "dimension": "price"}
+{"aspect": "cost-benefit vs step-count efficiency", "dimension": "price"}
+{"aspect": "cost-effective fit for a small business", "dimension": "price"}
+{"aspect": "cost-effective local inference", "dimension": "price"}
+{"aspect": "cost-effective performance", "dimension": "price"}
+{"aspect": "cost-effectiveness for heavy use", "dimension": "price"}
+{"aspect": "cost-efficient subagent", "dimension": "price"}
+{"aspect": "cost-efficient, kept for work", "dimension": "price"}
+{"aspect": "cost-performance leadership", "dimension": "price"}
+{"aspect": "could never build this quality", "dimension": "intelligence"}
+{"aspect": "creative content generation", "dimension": "intelligence"}

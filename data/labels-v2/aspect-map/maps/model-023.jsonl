@@ -1,0 +1,150 @@
+{"aspect": "qualitative capability", "dimension": "intelligence"}
+{"aspect": "quality after nerf update", "dimension": "intelligence"}
+{"aspect": "quality and cost efficiency", "dimension": "price"}
+{"aspect": "quality and lower price", "dimension": "price"}
+{"aspect": "quality at high reasoning setting", "dimension": "intelligence"}
+{"aspect": "quality at long context", "dimension": "intelligence"}
+{"aspect": "quality decline", "dimension": "intelligence"}
+{"aspect": "quality despite non-sota status", "dimension": "intelligence"}
+{"aspect": "quality edge over opus", "dimension": "intelligence"}
+{"aspect": "quality edge over sol", "dimension": "intelligence"}
+{"aspect": "quality gap between reasoning tiers", "dimension": "intelligence"}
+{"aspect": "quality jump versus prior model", "dimension": "intelligence"}
+{"aspect": "quality of first pass justified expanding its role", "dimension": "intelligence"}
+{"aspect": "quality of game design feedback", "dimension": "intelligence"}
+{"aspect": "quality of generated frontend design", "dimension": "intelligence"}
+{"aspect": "quality of generated game build", "dimension": "intelligence"}
+{"aspect": "quality of the pro tier versus flash", "dimension": "intelligence"}
+{"aspect": "quality on certain tasks", "dimension": "intelligence"}
+{"aspect": "quality on iterative tasks", "dimension": "intelligence"}
+{"aspect": "quality on par with proprietary models", "dimension": "intelligence"}
+{"aspect": "quality parity with opus", "dimension": "intelligence"}
+{"aspect": "quality preferred over stealth model", "dimension": "intelligence"}
+{"aspect": "quality relative to fable 5.1", "dimension": "intelligence"}
+{"aspect": "quality relative to opus 5", "dimension": "intelligence"}
+{"aspect": "quality relative to size for local use", "dimension": "intelligence"}
+{"aspect": "quality running locally", "dimension": "intelligence"}
+{"aspect": "quality slipped", "dimension": "intelligence"}
+{"aspect": "quality through cursor plan", "dimension": "intelligence"}
+{"aspect": "quality tier versus training-data privacy", "dimension": "intelligence"}
+{"aspect": "quality versus gpt-tier models", "dimension": "intelligence"}
+{"aspect": "quality vs grok and muse", "dimension": "intelligence"}
+{"aspect": "quality vs sonnet", "dimension": "intelligence"}
+{"aspect": "quality vs time and quota cost", "dimension": "intelligence"}
+{"aspect": "quality vs tui feature gaps", "dimension": "intelligence"}
+{"aspect": "quantized recipe results", "dimension": "intelligence"}
+{"aspect": "quantized single-gpu deployment score", "dimension": "intelligence"}
+{"aspect": "questionable benchmark ranking", "dimension": "intelligence"}
+{"aspect": "quick small tasks", "dimension": "speed"}
+{"aspect": "quota burned by non-coding questions", "dimension": "price"}
+{"aspect": "quota consumed per task", "dimension": "price"}
+{"aspect": "quota consumption at high effort", "dimension": "price"}
+{"aspect": "quota cost versus prompt cache at low effort", "dimension": "price"}
+{"aspect": "quota depletes quickly on sol low", "dimension": "price"}
+{"aspect": "quota efficiency and raw output", "dimension": "price"}
+{"aspect": "quota lasts through a full day of use", "dimension": "price"}
+{"aspect": "quota worse than claude code for same tasks", "dimension": "price"}
+{"aspect": "ranked best for coding", "dimension": "intelligence"}
+{"aspect": "rate limit exhausted in 40 minutes on max plan", "dimension": "price"}
+{"aspect": "rate limit hit quickly", "dimension": "price"}
+{"aspect": "rate limits and api pricing", "dimension": "price"}
+{"aspect": "rate limits run out quickly", "dimension": "price"}
+{"aspect": "raw capability vs composite index score", "dimension": "intelligence"}
+{"aspect": "raw speed", "dimension": "speed"}
+{"aspect": "reading and reproducing video content", "dimension": "intelligence"}
+{"aspect": "real-world agentic benchmark scores", "dimension": "intelligence"}
+{"aspect": "real-world capability vs benchmark rank", "dimension": "intelligence"}
+{"aspect": "real-world quality despite lower benchmark score", "dimension": "intelligence"}
+{"aspect": "real-world quality vs benchmark score", "dimension": "intelligence"}
+{"aspect": "realism of output", "dimension": "intelligence"}
+{"aspect": "reasoning and coding improvement at same price", "dimension": "intelligence"}
+{"aspect": "reasoning capability benchmark", "dimension": "intelligence"}
+{"aspect": "recommended alternative after cancelling claude", "dimension": "overall"}
+{"aspect": "recommended alternative for the failed task", "dimension": "intelligence"}
+{"aspect": "recommended alternative to try", "dimension": "overall"}
+{"aspect": "recommended as a delegation target", "dimension": "intelligence"}
+{"aspect": "recommended as an all-rounder", "dimension": "intelligence"}
+{"aspect": "recommended as contrarian/disagreeable", "dimension": "personality"}
+{"aspect": "recommended as leading chinese model", "dimension": "intelligence"}
+{"aspect": "recommended for coding", "dimension": "intelligence"}
+{"aspect": "recommended for coding workflow", "dimension": "intelligence"}
+{"aspect": "recommended for document formatting", "dimension": "intelligence"}
+{"aspect": "recommended for hermes agent", "dimension": "intelligence"}
+{"aspect": "recommended model family for hermes agent", "dimension": "intelligence"}
+{"aspect": "recommended model for hermes agent", "dimension": "intelligence"}
+{"aspect": "recommended over astra for real work", "dimension": "intelligence"}
+{"aspect": "recommended over gemini 3.1 pro", "dimension": "intelligence"}
+{"aspect": "recommended overall choice", "dimension": "overall"}
+{"aspect": "recommended value pick for coding", "dimension": "price"}
+{"aspect": "recreating a known game ui", "dimension": "intelligence"}
+{"aspect": "recreating complex scene accurately", "dimension": "intelligence"}
+{"aspect": "reduced hallucination", "dimension": "intelligence"}
+{"aspect": "reduced reasoning steps", "dimension": "speed"}
+{"aspect": "reduced verbosity", "dimension": "personality"}
+{"aspect": "reducing defensive/hedging writing via prompting", "dimension": "personality"}
+{"aspect": "refusal and paternalistic behavior", "dimension": "personality"}
+{"aspect": "refusal behavior on low-risk requests", "dimension": "personality"}
+{"aspect": "refusal removal for security work", "dimension": "personality"}
+{"aspect": "refusals with lecturing and rate limits", "dimension": "personality"}
+{"aspect": "refuses pentest requests as illegal", "dimension": "personality"}
+{"aspect": "refusing a simple task", "dimension": "personality"}
+{"aspect": "refusing account testing tasks", "dimension": "personality"}
+{"aspect": "refusing low-risk requests", "dimension": "personality"}
+{"aspect": "refusing many tasks", "dimension": "personality"}
+{"aspect": "refusing to help and ending the conversation", "dimension": "personality"}
+{"aspect": "regressed back to slow responses", "dimension": "speed"}
+{"aspect": "regression and heavy token use", "dimension": "intelligence"}
+{"aspect": "regression on data analysis versus 3.7", "dimension": "intelligence"}
+{"aspect": "regression on own hidden benchmark", "dimension": "intelligence"}
+{"aspect": "regretted after a single session", "dimension": "overall"}
+{"aspect": "regular development tasks value", "dimension": "price"}
+{"aspect": "relative capability, less dumb", "dimension": "intelligence"}
+{"aspect": "release cadence", "dimension": "other"}
+{"aspect": "release cadence and aggressiveness", "dimension": "other"}
+{"aspect": "reliability after repeated failures", "dimension": "intelligence"}
+{"aspect": "reliability after switching back", "dimension": "intelligence"}
+{"aspect": "reliability and efficiency in goal mode", "dimension": "intelligence"}
+{"aspect": "reliability decline over the past month", "dimension": "intelligence"}
+{"aspect": "reliability for daily building (less hallucination)", "dimension": "intelligence"}
+{"aspect": "reliability improvement", "dimension": "intelligence"}
+{"aspect": "reliability in long-context agent use", "dimension": "intelligence"}
+{"aspect": "reliability in production", "dimension": "intelligence"}
+{"aspect": "reliability of output", "dimension": "intelligence"}
+{"aspect": "reliability on macos coding tasks", "dimension": "intelligence"}
+{"aspect": "reliability on massive pipeline work", "dimension": "intelligence"}
+{"aspect": "reliability, just works", "dimension": "intelligence"}
+{"aspect": "reliability/glitching mid-session", "dimension": "intelligence"}
+{"aspect": "reliable availability during other providers' outage", "dimension": "other"}
+{"aspect": "reliable choice retained", "dimension": "overall"}
+{"aspect": "reliable working multi-agent loop", "dimension": "intelligence"}
+{"aspect": "reliably available model choice", "dimension": "other"}
+{"aspect": "reliance for cursor workflows", "dimension": "intelligence"}
+{"aspect": "relief from usage-limit anxiety", "dimension": "price"}
+{"aspect": "reluctant continued use despite alternatives on hand", "dimension": "overall"}
+{"aspect": "remains best after comparisons", "dimension": "overall"}
+{"aspect": "replaced by cursor after a month", "dimension": "overall"}
+{"aspect": "reported benchmark ranking", "dimension": "intelligence"}
+{"aspect": "reported biggest success in 3d/game dev", "dimension": "intelligence"}
+{"aspect": "reported coding benchmark ranking", "dimension": "intelligence"}
+{"aspect": "reputation for agent use", "dimension": "intelligence"}
+{"aspect": "research and x scraping (heavy tier)", "dimension": "intelligence"}
+{"aspect": "research capability versus personality warmth", "dimension": "intelligence"}
+{"aspect": "research hallucination vs visual/translation strengths", "dimension": "intelligence"}
+{"aspect": "resolving coding issues", "dimension": "intelligence"}
+{"aspect": "resource efficiency", "dimension": "price"}
+{"aspect": "response quality degradation", "dimension": "intelligence"}
+{"aspect": "response style vs omen alpha variant", "dimension": "personality"}
+{"aspect": "response style/tone", "dimension": "personality"}
+{"aspect": "responses read as more humanlike and precise", "dimension": "personality"}
+{"aspect": "responsiveness and need for correction", "dimension": "steerability"}
+{"aspect": "reverse engineering a game", "dimension": "intelligence"}
+{"aspect": "review tasks", "dimension": "intelligence"}
+{"aspect": "rising error rate this week", "dimension": "intelligence"}
+{"aspect": "risky if treated like other models", "dimension": "steerability"}
+{"aspect": "role as coding brain in pairing", "dimension": "intelligence"}
+{"aspect": "role fit at high effort for full execution", "dimension": "intelligence"}
+{"aspect": "role fit at high effort for planning tasks", "dimension": "intelligence"}
+{"aspect": "routine miscellaneous tasks", "dimension": "overall"}
+{"aspect": "runaway loop token consumption", "dimension": "price"}
+{"aspect": "runaway usage consumption", "dimension": "price"}
+{"aspect": "running out of usage on max plan", "dimension": "price"}

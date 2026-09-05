@@ -131,6 +131,9 @@ class Collector:
                 sys.exit("401 token rejected")
             if e.code == 402:
                 sys.exit("402 no API credits")
+            if e.code == 400:
+                print(f"400 skipped: {body[:160]}", file=sys.stderr)
+                return {"data": [], "meta": {}, "_error": body[:200]}
             raise RuntimeError(f"HTTP {e.code} {body}")
 
     def over_budget(self, reads: int) -> bool:
@@ -156,7 +159,8 @@ class Collector:
                 rec["_routes"].append(route)
 
     def search(self, kind: str, query: str, start: datetime, end: datetime, n: int, **meta) -> int:
-        key = self.route_key(kind, query=query, start=iso(start), end=iso(end), n=n)
+        # Conversation routes end at "now", which changes on every resume; key them by root so a rerun never re-pulls a thread.
+        key = self.route_key(kind, query=query, n=n) if kind == "conversation" else self.route_key(kind, query=query, start=iso(start), end=iso(end), n=n)
         if key in self.state["routes"]:
             return 0
         if self.over_budget(n):
@@ -226,8 +230,12 @@ class Collector:
                  and any(h in p.get("text", "").lower() for h in NAME_HINTS)]
         roots.sort(key=lambda p: -p["public_metrics"]["reply_count"])
         now = datetime.now(timezone.utc) - timedelta(minutes=3)
+        floor = now - timedelta(days=7) + timedelta(minutes=30)  # X recent search reaches back seven days
         for r in roots[:max_roots]:
-            if self.search("conversation", f"conversation_id:{r['id']}", parse(r["created_at"]), now, per_root, root=r["id"]) < 0:
+            start = max(parse(r["created_at"]), floor)
+            if start >= now:
+                continue
+            if self.search("conversation", f"conversation_id:{r['id']}", start, now, per_root, root=r["id"]) < 0:
                 return
 
     def missing_parents(self, cap: int = 400):

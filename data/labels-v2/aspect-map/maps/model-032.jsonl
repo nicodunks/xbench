@@ -1,0 +1,98 @@
+{"aspect": "token efficiency vs prior version", "dimension": "price"}
+{"aspect": "token reduction unlocking video agents", "dimension": "price"}
+{"aspect": "token savings versus long-video accuracy holdout", "dimension": "price"}
+{"aspect": "token usage consumption", "dimension": "price"}
+{"aspect": "tone people find off-putting", "dimension": "personality"}
+{"aspect": "too expensive at scale", "dimension": "price"}
+{"aspect": "too generic/macro output", "dimension": "intelligence"}
+{"aspect": "too light on the $20 plan", "dimension": "price"}
+{"aspect": "tool calling accuracy", "dimension": "intelligence"}
+{"aspect": "topping leaderboard rankings", "dimension": "intelligence"}
+{"aspect": "tos warning for mild profanity", "dimension": "personality"}
+{"aspect": "trading profit", "dimension": "intelligence"}
+{"aspect": "trailing the top claude variants", "dimension": "intelligence"}
+{"aspect": "translation quality", "dimension": "intelligence"}
+{"aspect": "treatment of subscribers", "dimension": "other"}
+{"aspect": "trust in anthropic's usage-limit design", "dimension": "other"}
+{"aspect": "trust in engineering pedigree", "dimension": "other"}
+{"aspect": "trustworthiness of task completion", "dimension": "intelligence"}
+{"aspect": "trustworthiness vs rivals who fake benchmarks", "dimension": "intelligence"}
+{"aspect": "trustworthiness/willingness to use", "dimension": "overall"}
+{"aspect": "trying to match fable-level performance", "dimension": "intelligence"}
+{"aspect": "ui and gameplay quality", "dimension": "intelligence"}
+{"aspect": "ui and gameplay quality building a frontend game", "dimension": "intelligence"}
+{"aspect": "ui/ux and copy quality", "dimension": "intelligence"}
+{"aspect": "unaffordable pricing", "dimension": "price"}
+{"aspect": "underdelivering versus claims", "dimension": "intelligence"}
+{"aspect": "underperforms gemini 3.8 flash on benchmarks", "dimension": "intelligence"}
+{"aspect": "underpowered versus claude code and codex", "dimension": "intelligence"}
+{"aspect": "underrated overall result", "dimension": "overall"}
+{"aspect": "underwhelming current model", "dimension": "overall"}
+{"aspect": "underwhelming in practice despite benchmark claims", "dimension": "intelligence"}
+{"aspect": "underwhelming overall but strong veo video generation", "dimension": "intelligence"}
+{"aspect": "unpredictable behavior (whims)", "dimension": "steerability"}
+{"aspect": "unprompted audio detail added to generated video", "dimension": "steerability"}
+{"aspect": "unreliable feedback on prose", "dimension": "intelligence"}
+{"aspect": "unreliable, dishonest-sounding output", "dimension": "personality"}
+{"aspect": "unusable via antigravity tool", "dimension": "other"}
+{"aspect": "unwanted emoji output", "dimension": "personality"}
+{"aspect": "unwanted mode-switch nudging ux", "dimension": "personality"}
+{"aspect": "usability", "dimension": "overall"}
+{"aspect": "usability of fable 5", "dimension": "overall"}
+{"aspect": "usage burned by one prompt", "dimension": "price"}
+{"aspect": "usage downgrades disappointing a paying customer", "dimension": "price"}
+{"aspect": "usage headroom, no rate-limit worry", "dimension": "price"}
+{"aspect": "usage limit burned in one session", "dimension": "price"}
+{"aspect": "usage limits and reliability trade-off", "dimension": "price"}
+{"aspect": "usage limits hit quickly", "dimension": "price"}
+{"aspect": "usage limits on subscription", "dimension": "price"}
+{"aspect": "usage limits tightening on paid plans", "dimension": "price"}
+{"aspect": "usage longevity for half the price", "dimension": "price"}
+{"aspect": "usage longevity for the price", "dimension": "price"}
+{"aspect": "usage quota value from subscription", "dimension": "price"}
+{"aspect": "usage/rate limits versus codex", "dimension": "price"}
+{"aspect": "use case fit versus rivals", "dimension": "intelligence"}
+{"aspect": "used for lighter, less deep tasks", "dimension": "intelligence"}
+{"aspect": "used for real planning and ui fixes", "dimension": "intelligence"}
+{"aspect": "value as a long-running public experiment", "dimension": "other"}
+{"aspect": "value at the $30 tier", "dimension": "price"}
+{"aspect": "value for money leading to cancellation", "dimension": "price"}
+{"aspect": "value for money relative to sol", "dimension": "price"}
+{"aspect": "value vs terra and luna", "dimension": "price"}
+{"aspect": "verbose claudespeak style", "dimension": "personality"}
+{"aspect": "verbose, conservative, and slow", "dimension": "personality"}
+{"aspect": "versus google ai mode", "dimension": "overall"}
+{"aspect": "vibecoder architecture quality", "dimension": "intelligence"}
+{"aspect": "video analysis speed and template quality", "dimension": "speed"}
+{"aspect": "video token efficiency gain", "dimension": "price"}
+{"aspect": "voice mode polish-language support", "dimension": "other"}
+{"aspect": "voice personality degradation", "dimension": "personality"}
+{"aspect": "voice quality change", "dimension": "intelligence"}
+{"aspect": "wall-clock speed and tool-call efficiency", "dimension": "speed"}
+{"aspect": "web design output quality", "dimension": "intelligence"}
+{"aspect": "web design quality", "dimension": "intelligence"}
+{"aspect": "web search performance", "dimension": "intelligence"}
+{"aspect": "webdev leaderboard score", "dimension": "intelligence"}
+{"aspect": "week-long desktop lockout with no support response", "dimension": "other"}
+{"aspect": "weekly arena leaderboard ranking", "dimension": "intelligence"}
+{"aspect": "weekly quota exhausted in two days", "dimension": "price"}
+{"aspect": "weekly usage allowance exhausted", "dimension": "price"}
+{"aspect": "white-on-white liquid-glass ui design", "dimension": "other"}
+{"aspect": "why keep using anthropic models", "dimension": "overall"}
+{"aspect": "wit versus depth in joke answers", "dimension": "personality"}
+{"aspect": "worker role", "dimension": "other"}
+{"aspect": "workflow execution quality", "dimension": "intelligence"}
+{"aspect": "workhorse model reputation", "dimension": "overall"}
+{"aspect": "worse cost/performance than gpt", "dimension": "price"}
+{"aspect": "worse than opus 5 as a frontend agent", "dimension": "intelligence"}
+{"aspect": "worse value than codex", "dimension": "price"}
+{"aspect": "writing personality flattened by tuning", "dimension": "personality"}
+{"aspect": "writing promised files reliably", "dimension": "steerability"}
+{"aspect": "writing quality vs claude", "dimension": "intelligence"}
+{"aspect": "writing reads immature compared to an adult voice", "dimension": "personality"}
+{"aspect": "writing style has declined", "dimension": "personality"}
+{"aspect": "writing the implementation", "dimension": "intelligence"}
+{"aspect": "x dataset access for research", "dimension": "other"}
+{"aspect": "xhigh effort vs medium effort tradeoff", "dimension": "other"}
+{"aspect": "zero-data-retention removes security-review blocker", "dimension": "other"}
+{"aspect": "zero-data-retention unblocks enterprise rollout", "dimension": "other"}
