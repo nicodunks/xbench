@@ -200,3 +200,4 @@ a{color:inherit}
 .mural-card.is-flipping img,.mural-card.is-flipping .mural-foot,.mural-card.is-flipping .mural-open,.mural-card.is-entering img,.mural-card.is-entering .mural-foot,.mural-card.is-entering .mural-open{opacity:0;transition:opacity .2s}
 .mural-card.is-entering{animation-fill-mode:both}
 .radar-cap{font-weight:500}
+.pow{background:var(--rust);color:var(--paper)}
