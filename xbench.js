@@ -246,7 +246,8 @@ function radar(svg, legend, rows, kind, defaults) {
       )
       .sort((a, b) => (b.firsthand.net_sentiment ?? -9) - (a.firsthand.net_sentiment ?? -9));
   const angle = (i) => -Math.PI / 2 + (i * 2 * Math.PI) / n,
-    rad = (v) => (R * (v + 1)) / 2,
+    span = kind === "harness" ? 0.6 : 1,
+    rad = (v) => (R * (Math.max(-span, Math.min(span, v)) + span)) / (2 * span),
     pt = (i, v) => [cx + Math.cos(angle(i)) * rad(v), cy + Math.sin(angle(i)) * rad(v)];
   svg.innerHTML = "";
   [-1, -0.5, 0, 0.5, 1].forEach((v) => {
