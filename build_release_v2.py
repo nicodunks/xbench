@@ -111,7 +111,7 @@ def main():
             if line:
                 r = json.loads(line)
                 if r["post_id"] not in labels:
-                    raise ValueError(f"override for unknown post {r['post_id']}")
+                    continue  # reviewed while in an earlier window; kept for the record
                 labels[r["post_id"]] = {**r, "overridden": True}; overrides += 1
 
     # Quota audit: model lines re-read to separate the model's own cost from plan limits (QUOTA_AUDIT.md).

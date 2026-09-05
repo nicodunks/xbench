@@ -149,9 +149,9 @@ a{color:inherit}
 .chapter-head{position:relative}
 .guest{position:absolute;bottom:-14px;height:220px;width:auto;pointer-events:none;filter:drop-shadow(0 8px 0 rgba(18,18,18,.07))}
 .g-sam{right:40px;rotate:-5deg}
-.chart-scroll{position:relative}.g-elon{position:absolute;bottom:auto;height:230px;rotate:6deg;pointer-events:none}
-.g-boris{right:400px;rotate:-7deg;height:250px;bottom:-70px}
-.g-tibo{right:160px;rotate:5deg;height:265px;bottom:-74px}
+.panel{position:relative}.g-elon{position:absolute;bottom:auto;height:230px;rotate:6deg;pointer-events:none;z-index:3}
+.g-boris{right:400px;rotate:-7deg;height:250px;bottom:-100px}
+.g-tibo{right:160px;rotate:5deg;height:265px;bottom:-104px}
 .chapter-head>p{max-width:520px}
 @media(max-width:1180px){.guest{height:170px;bottom:-14px}.g-boris{right:200px;height:160px}.g-elon{height:150px}.g-tibo{right:40px}}
 @media(max-width:680px){.guest{display:none}.stage .crowd{display:none}}
@@ -173,3 +173,4 @@ a{color:inherit}
 .shot.bubble{width:11px;height:11px;border-width:1.5px}
 .chapter-head:has(.g-boris){z-index:2}
 @media(max-width:680px){.g-elon{display:none}}
+.s-tag .s-tag-n{font-size:40px;font-weight:800;letter-spacing:-.02em}.s-tag .s-tag-who{font-size:15px}.s-tag rect{stroke-width:1.5}

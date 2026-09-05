@@ -1,0 +1,150 @@
+{"aspect": "'tool' feel / lack of personality", "dimension": "personality"}
+{"aspect": "2d to 3d app generation", "dimension": "intelligence"}
+{"aspect": "3d physics scene generation cost/quality", "dimension": "price"}
+{"aspect": "404 errors during outage", "dimension": "other"}
+{"aspect": "5 hour limit hit quickly", "dimension": "price"}
+{"aspect": "5 hour usage limit", "dimension": "price"}
+{"aspect": "abstract, cryptic, pedantic replies", "dimension": "personality"}
+{"aspect": "account access blocked", "dimension": "other"}
+{"aspect": "account ban after using local/downloaded version", "dimension": "other"}
+{"aspect": "account banned after sensitive question", "dimension": "other"}
+{"aspect": "account bans", "dimension": "other"}
+{"aspect": "account bans and customer service", "dimension": "other"}
+{"aspect": "accuracy, cost and speed on complex plans", "dimension": "intelligence"}
+{"aspect": "actual cost exceeding quoted pricing", "dimension": "price"}
+{"aspect": "affordable option for early-stage development", "dimension": "price"}
+{"aspect": "affordable video production stack", "dimension": "price"}
+{"aspect": "agent desk rebuild going smoothly", "dimension": "intelligence"}
+{"aspect": "agentic benchmark score improvement", "dimension": "intelligence"}
+{"aspect": "agentic benchmark scores vs opus", "dimension": "intelligence"}
+{"aspect": "agentic task speed", "dimension": "speed"}
+{"aspect": "agentic versus static video analysis tradeoff", "dimension": "intelligence"}
+{"aspect": "agentic workflow cost efficiency", "dimension": "price"}
+{"aspect": "agentic workflow cost vs opus 5", "dimension": "price"}
+{"aspect": "already capable of this months ago", "dimension": "intelligence"}
+{"aspect": "answer thoroughness and quality", "dimension": "intelligence"}
+{"aspect": "answers basic questions without refusing", "dimension": "personality"}
+{"aspect": "app needs fixing", "dimension": "intelligence"}
+{"aspect": "app quality versus pricing", "dimension": "price"}
+{"aspect": "app-building capability", "dimension": "intelligence"}
+{"aspect": "architecture design and review role", "dimension": "intelligence"}
+{"aspect": "arena leaderboard rank #1", "dimension": "intelligence"}
+{"aspect": "arena ranking dominance", "dimension": "intelligence"}
+{"aspect": "artificial analysis score comparison", "dimension": "intelligence"}
+{"aspect": "auditing suspicious contract code", "dimension": "intelligence"}
+{"aspect": "author wants to leave", "dimension": "overall"}
+{"aspect": "auto-downgrades model version", "dimension": "other"}
+{"aspect": "autonomous network troubleshooting", "dimension": "intelligence"}
+{"aspect": "avoid using", "dimension": "overall"}
+{"aspect": "avoiding generic corporate voice", "dimension": "personality"}
+{"aspect": "backup coding role", "dimension": "intelligence"}
+{"aspect": "beaten by a tiny finetuned model on a specialized task", "dimension": "intelligence"}
+{"aspect": "beaten on terminal bench 2.1 and hle", "dimension": "intelligence"}
+{"aspect": "beats opus 5 across many tasks at low cost", "dimension": "intelligence"}
+{"aspect": "becoming aggressive, refusing to admit mistakes, lying", "dimension": "personality"}
+{"aspect": "behaving strangely/unstable", "dimension": "personality"}
+{"aspect": "being down during outage", "dimension": "other"}
+{"aspect": "benchmark gains and coding reliability", "dimension": "intelligence"}
+{"aspect": "benchmark intelligence and cost", "dimension": "intelligence"}
+{"aspect": "benchmark ranking on terminal bench and hle", "dimension": "intelligence"}
+{"aspect": "benchmark score edge", "dimension": "intelligence"}
+{"aspect": "benchmark score edge over open models", "dimension": "intelligence"}
+{"aspect": "benchmark score per dollar on cursorbench", "dimension": "price"}
+{"aspect": "benchmark score relative to price and speed", "dimension": "price"}
+{"aspect": "benchmark scores versus production reliability", "dimension": "intelligence"}
+{"aspect": "benchmark win vs real-world messy-repo reliability", "dimension": "intelligence"}
+{"aspect": "best available model justifying the subscription", "dimension": "price"}
+{"aspect": "best coding model and computer use", "dimension": "intelligence"}
+{"aspect": "best for design tasks", "dimension": "intelligence"}
+{"aspect": "biggest release of the year", "dimension": "overall"}
+{"aspect": "blocking requests as too dangerous", "dimension": "personality"}
+{"aspect": "boeing 747 benchmark result quality", "dimension": "intelligence"}
+{"aspect": "bounding box accuracy", "dimension": "intelligence"}
+{"aspect": "bounding box accuracy vs luna", "dimension": "intelligence"}
+{"aspect": "breaking code and ignoring instructions", "dimension": "steerability"}
+{"aspect": "browser control reliability", "dimension": "intelligence"}
+{"aspect": "browser tab selection accuracy", "dimension": "intelligence"}
+{"aspect": "bug-fixing versus introducing regressions", "dimension": "intelligence"}
+{"aspect": "burned $47 in a single prompt", "dimension": "price"}
+{"aspect": "burned weekly tokens fast versus efficiency claim", "dimension": "price"}
+{"aspect": "burns through session usage quickly", "dimension": "price"}
+{"aspect": "burns through subscription quickly", "dimension": "price"}
+{"aspect": "cache hit duration beyond guarantee", "dimension": "price"}
+{"aspect": "cache hit duration beyond official guarantee", "dimension": "price"}
+{"aspect": "cancelling subscription over ads", "dimension": "other"}
+{"aspect": "capabilities get nerfed over time", "dimension": "intelligence"}
+{"aspect": "capability and reliability", "dimension": "intelligence"}
+{"aspect": "capability building from scratch", "dimension": "intelligence"}
+{"aspect": "capability improvement over fable 5", "dimension": "intelligence"}
+{"aspect": "capability improvement over predecessor", "dimension": "intelligence"}
+{"aspect": "capability jump over prior model", "dimension": "intelligence"}
+{"aspect": "capability on hard tasks versus small jobs", "dimension": "intelligence"}
+{"aspect": "capability per cost", "dimension": "price"}
+{"aspect": "capability relative to price", "dimension": "price"}
+{"aspect": "capability relative to price versus opus", "dimension": "price"}
+{"aspect": "capability vs price tradeoff", "dimension": "price"}
+{"aspect": "capable but expensive", "dimension": "price"}
+{"aspect": "capable enough, no bigger tier needed", "dimension": "intelligence"}
+{"aspect": "capacity for multiple orchestrator agents in 5hr window", "dimension": "price"}
+{"aspect": "careful instruction following", "dimension": "steerability"}
+{"aspect": "catching up, behind", "dimension": "intelligence"}
+{"aspect": "censorship", "dimension": "personality"}
+{"aspect": "chatbot arena ranking", "dimension": "intelligence"}
+{"aspect": "chatgpt web app gets sluggish on long threads", "dimension": "speed"}
+{"aspect": "cheap campaign cost", "dimension": "price"}
+{"aspect": "cheaper cache reuse pricing", "dimension": "price"}
+{"aspect": "cheaper than previous version", "dimension": "price"}
+{"aspect": "chinese response verbosity and apologizing", "dimension": "personality"}
+{"aspect": "chosen as orchestrator", "dimension": "intelligence"}
+{"aspect": "closer for agentic tool calling", "dimension": "intelligence"}
+{"aspect": "code quality per price", "dimension": "price"}
+{"aspect": "code quality reputation", "dimension": "intelligence"}
+{"aspect": "code writing quality", "dimension": "intelligence"}
+{"aspect": "coding after switch", "dimension": "intelligence"}
+{"aspect": "coding agent index ranking", "dimension": "intelligence"}
+{"aspect": "coding benchmark rivalry claim", "dimension": "intelligence"}
+{"aspect": "coding capability versus speed on repo tasks", "dimension": "intelligence"}
+{"aspect": "coding directly vs orchestrating role", "dimension": "intelligence"}
+{"aspect": "coding overfocus reaction", "dimension": "steerability"}
+{"aspect": "coding plan limits nerfed", "dimension": "price"}
+{"aspect": "coding role", "dimension": "intelligence"}
+{"aspect": "coding strength", "dimension": "intelligence"}
+{"aspect": "coding strength and speed", "dimension": "intelligence"}
+{"aspect": "coding, replacing grok", "dimension": "intelligence"}
+{"aspect": "comparison quality", "dimension": "intelligence"}
+{"aspect": "compatibility problems via a harness", "dimension": "other"}
+{"aspect": "competent but complains a lot", "dimension": "personality"}
+{"aspect": "competitive lead duration", "dimension": "intelligence"}
+{"aspect": "competitive lead over other models", "dimension": "intelligence"}
+{"aspect": "competitiveness against claude", "dimension": "intelligence"}
+{"aspect": "completing the bug fix", "dimension": "intelligence"}
+{"aspect": "confidence in google/gemini generally", "dimension": "overall"}
+{"aspect": "confidence in responses", "dimension": "personality"}
+{"aspect": "confidently wrong codebase assumptions", "dimension": "intelligence"}
+{"aspect": "confusing plan access without api tokens", "dimension": "other"}
+{"aspect": "confusing rate-limit announcement", "dimension": "other"}
+{"aspect": "consistent accuracy but slow", "dimension": "speed"}
+{"aspect": "content restrictions reducing quality", "dimension": "personality"}
+{"aspect": "context continuity across threads", "dimension": "intelligence"}
+{"aspect": "continuing to pay despite recurring problems", "dimension": "overall"}
+{"aspect": "converging into same product", "dimension": "other"}
+{"aspect": "conversation coherence", "dimension": "intelligence"}
+{"aspect": "conversation flow and intent understanding", "dimension": "intelligence"}
+{"aspect": "conversation reliability and tone", "dimension": "personality"}
+{"aspect": "conversation-ending threshold for abuse", "dimension": "personality"}
+{"aspect": "conversational enjoyment", "dimension": "personality"}
+{"aspect": "conversational style vs performance gaps", "dimension": "personality"}
+{"aspect": "copy and color design quality", "dimension": "intelligence"}
+{"aspect": "copywriting", "dimension": "intelligence"}
+{"aspect": "correctly refuses dangerous biosecurity queries", "dimension": "personality"}
+{"aspect": "cost and latency vs proprietary models", "dimension": "price"}
+{"aspect": "cost and response speed for game dev", "dimension": "price"}
+{"aspect": "cost and response speed vs grok", "dimension": "price"}
+{"aspect": "cost and speed for equivalent output", "dimension": "price"}
+{"aspect": "cost and speed for game development", "dimension": "price"}
+{"aspect": "cost and speed for the same task", "dimension": "price"}
+{"aspect": "cost and speed versus fable 5.1", "dimension": "price"}
+{"aspect": "cost efficiency benchmark position", "dimension": "price"}
+{"aspect": "cost efficiency claims disputed", "dimension": "price"}
+{"aspect": "cost efficiency for near-equal intelligence", "dimension": "price"}
+{"aspect": "cost efficiency versus alternatives", "dimension": "price"}

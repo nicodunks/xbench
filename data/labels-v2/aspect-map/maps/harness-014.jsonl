@@ -1,0 +1,150 @@
+{"aspect": "folder notification ux", "dimension": "dx"}
+{"aspect": "free token reset relief", "dimension": "limits"}
+{"aspect": "free, fast simple app generation", "dimension": "agent"}
+{"aspect": "frequency of errors", "dimension": "reliability"}
+{"aspect": "frequent errors on a task", "dimension": "reliability"}
+{"aspect": "frequent issues prompting complaints", "dimension": "reliability"}
+{"aspect": "functionality for building games", "dimension": "agent"}
+{"aspect": "gated completion across a plan-execute-test-review loop", "dimension": "agent"}
+{"aspect": "generating instructions and implementing directly", "dimension": "agent"}
+{"aspect": "getting stuck on booking tasks", "dimension": "agent"}
+{"aspect": "giving an agent its own computer/vm", "dimension": "dx"}
+{"aspect": "glitch when hitting usage limit", "dimension": "limits"}
+{"aspect": "guardian approval fix for repl policies", "dimension": "agent"}
+{"aspect": "hallucination despite sensible answers", "dimension": "agent"}
+{"aspect": "hallucinations and skipped steps during agent tasks", "dimension": "agent"}
+{"aspect": "handling heavy multi-agent use without hitting limits", "dimension": "limits"}
+{"aspect": "hard to read explanations", "dimension": "dx"}
+{"aspect": "harness not yet ideal for their workflow", "dimension": "dx"}
+{"aspect": "harness switch after cost/quality tradeoff", "dimension": "agent"}
+{"aspect": "hidden weekly cap in 20x plan marketing", "dimension": "limits"}
+{"aspect": "high price", "dimension": "limits"}
+{"aspect": "historical significance as an agentic coding leap", "dimension": "overall"}
+{"aspect": "hitting 5-hour usage caps since the fable 5.1 launch", "dimension": "limits"}
+{"aspect": "hitting limits quickly", "dimension": "limits"}
+{"aspect": "hitting the weekly usage cap", "dimension": "limits"}
+{"aspect": "hitting usage cap quickly", "dimension": "limits"}
+{"aspect": "hitting usage limit with no cheaper alternative", "dimension": "limits"}
+{"aspect": "hitting weekly limits fast", "dimension": "limits"}
+{"aspect": "hitting weekly limits quickly", "dimension": "limits"}
+{"aspect": "hype not obviously justified vs hermes", "dimension": "overall"}
+{"aspect": "improved reliability over past agents", "dimension": "reliability"}
+{"aspect": "inference speed and code execution integration", "dimension": "dx"}
+{"aspect": "infinite looping wasting tokens", "dimension": "efficiency"}
+{"aspect": "infrastructure and accessibility versus self-hosting", "dimension": "dx"}
+{"aspect": "integration with a local multi-agent stack", "dimension": "dx"}
+{"aspect": "interoperability with other agents", "dimension": "dx"}
+{"aspect": "ios app cannot send messages", "dimension": "dx"}
+{"aspect": "ios remote refresh speed", "dimension": "dx"}
+{"aspect": "isolated context and human oversight", "dimension": "agent"}
+{"aspect": "iterative back-and-forth revisions", "dimension": "agent"}
+{"aspect": "juggling multiple instances", "dimension": "agent"}
+{"aspect": "knowledge-base use case", "dimension": "other"}
+{"aspect": "lack of openness and model variety", "dimension": "dx"}
+{"aspect": "lead generation use case", "dimension": "other"}
+{"aspect": "less reliance on user domain knowledge", "dimension": "agent"}
+{"aspect": "limit resets vanish unexplained", "dimension": "limits"}
+{"aspect": "local file memory speeds up debugging", "dimension": "efficiency"}
+{"aspect": "local file memory vs cloud agent memory", "dimension": "efficiency"}
+{"aspect": "local file-based memory for debugging/rollback", "dimension": "efficiency"}
+{"aspect": "login screen blocking access", "dimension": "dx"}
+{"aspect": "login taking a long time", "dimension": "dx"}
+{"aspect": "long autonomous task execution with responsiveness", "dimension": "agent"}
+{"aspect": "long silent runs with no status info", "dimension": "dx"}
+{"aspect": "long-horizon aligned work", "dimension": "agent"}
+{"aspect": "long-horizon reliability vs alignment expectations", "dimension": "reliability"}
+{"aspect": "looping past 90% completion", "dimension": "agent"}
+{"aspect": "looping without finishing and burning through credits", "dimension": "efficiency"}
+{"aspect": "low utility, feels like a toy not a tool", "dimension": "overall"}
+{"aspect": "low-maintenance versus running own agent", "dimension": "dx"}
+{"aspect": "managing email correspondence", "dimension": "other"}
+{"aspect": "manual cli command needed to keep a session alive", "dimension": "reliability"}
+{"aspect": "messy project segregation", "dimension": "dx"}
+{"aspect": "migrating an agent company to it", "dimension": "other"}
+{"aspect": "migration speed versus next.js compatibility quirks", "dimension": "dx"}
+{"aspect": "misleading 20x usage claims wasted money", "dimension": "limits"}
+{"aspect": "misleading 20x usage window", "dimension": "limits"}
+{"aspect": "misleading usage-limit claims, trust", "dimension": "limits"}
+{"aspect": "misleading usage-limit scaling", "dimension": "limits"}
+{"aspect": "missing promised signup credits", "dimension": "limits"}
+{"aspect": "missing signup credits", "dimension": "limits"}
+{"aspect": "mobile app preview while building", "dimension": "dx"}
+{"aspect": "mobile visibility while building", "dimension": "dx"}
+{"aspect": "monetizing consulting work", "dimension": "other"}
+{"aspect": "monitoring via its own computer", "dimension": "dx"}
+{"aspect": "most-used terminal command", "dimension": "dx"}
+{"aspect": "multi-bot orchestration ease", "dimension": "agent"}
+{"aspect": "multi-model api access", "dimension": "dx"}
+{"aspect": "music composition assistance", "dimension": "other"}
+{"aspect": "near-identical redundant screens", "dimension": "dx"}
+{"aspect": "needing less user-supplied domain knowledge", "dimension": "agent"}
+{"aspect": "new payment feature", "dimension": "other"}
+{"aspect": "next stage of ai", "dimension": "overall"}
+{"aspect": "no compelling reason to switch from codex", "dimension": "overall"}
+{"aspect": "no continuity across compaction", "dimension": "efficiency"}
+{"aspect": "no folder structure to organize many bots", "dimension": "dx"}
+{"aspect": "no integration with other phone apps", "dimension": "dx"}
+{"aspect": "no limit hit despite heavy simultaneous use", "dimension": "limits"}
+{"aspect": "no local execution in cloud mode", "dimension": "dx"}
+{"aspect": "no mobile visibility, runs on its own computer", "dimension": "dx"}
+{"aspect": "no multi-tab window support", "dimension": "dx"}
+{"aspect": "no rate limit issues from heavy cli use", "dimension": "limits"}
+{"aspect": "no reason to switch", "dimension": "overall"}
+{"aspect": "no shared context between parallel instances", "dimension": "efficiency"}
+{"aspect": "no status visibility during long tasks", "dimension": "dx"}
+{"aspect": "no voice feature found", "dimension": "dx"}
+{"aspect": "not following instructions and hallucinating", "dimension": "agent"}
+{"aspect": "not hitting rate limits despite heavy use", "dimension": "limits"}
+{"aspect": "nothing new versus codex", "dimension": "overall"}
+{"aspect": "now requires a developer account for x access", "dimension": "other"}
+{"aspect": "only reading claude.md causes config drift with agents.md", "dimension": "dx"}
+{"aspect": "opaque usage limits marketed as 20x", "dimension": "limits"}
+{"aspect": "openrouter model flexibility", "dimension": "dx"}
+{"aspect": "opens a url instead of following instructions", "dimension": "agent"}
+{"aspect": "outage disrupted work", "dimension": "reliability"}
+{"aspect": "outage hit hard", "dimension": "reliability"}
+{"aspect": "over-engineering simple tasks", "dimension": "agent"}
+{"aspect": "overall app-building experience", "dimension": "overall"}
+{"aspect": "overall app-building ranking", "dimension": "overall"}
+{"aspect": "overall best agent claim", "dimension": "overall"}
+{"aspect": "overall coding vs design capability", "dimension": "overall"}
+{"aspect": "overall daily driver", "dimension": "overall"}
+{"aspect": "overall for agentic tasks", "dimension": "overall"}
+{"aspect": "overall paradigm-shift impressiveness", "dimension": "overall"}
+{"aspect": "overall pick among coding assistants", "dimension": "overall"}
+{"aspect": "overall pick in a tool poll", "dimension": "overall"}
+{"aspect": "overall pro-plan pick", "dimension": "overall"}
+{"aspect": "overall reliability comparison", "dimension": "reliability"}
+{"aspect": "overusing python scripts instead of builtin tools", "dimension": "agent"}
+{"aspect": "own virtual computer per agent", "dimension": "dx"}
+{"aspect": "pass rate and cost tradeoff", "dimension": "agent"}
+{"aspect": "people love it but want higher token limits", "dimension": "limits"}
+{"aspect": "performance after clearing stale configs", "dimension": "reliability"}
+{"aspect": "performance and quota degradation over time", "dimension": "limits"}
+{"aspect": "permission bugs surfacing unexpectedly", "dimension": "reliability"}
+{"aspect": "permission prompt friction despite high approval rate", "dimension": "agent"}
+{"aspect": "permissions classifier got worse", "dimension": "agent"}
+{"aspect": "permissions classifier overbearing", "dimension": "agent"}
+{"aspect": "persistent agent persona easier to relate to", "dimension": "dx"}
+{"aspect": "persistent autonomous background work", "dimension": "agent"}
+{"aspect": "persistent proactive task offloading", "dimension": "agent"}
+{"aspect": "personal difficulty using it", "dimension": "dx"}
+{"aspect": "personality and interactions on android", "dimension": "dx"}
+{"aspect": "pick for the next 5 years", "dimension": "overall"}
+{"aspect": "plan usage value and reset bonus", "dimension": "limits"}
+{"aspect": "plan value fell after price change", "dimension": "limits"}
+{"aspect": "planned business automation", "dimension": "other"}
+{"aspect": "planning ability when routing tasks", "dimension": "agent"}
+{"aspect": "playing detective games together", "dimension": "other"}
+{"aspect": "plugin discovery and approval flow", "dimension": "dx"}
+{"aspect": "polish and ux feel unfinished", "dimension": "dx"}
+{"aspect": "porting bots to try workflows", "dimension": "dx"}
+{"aspect": "potential fit for research workflows", "dimension": "other"}
+{"aspect": "potential gains from added plugins", "dimension": "dx"}
+{"aspect": "potential to automate business workflows", "dimension": "other"}
+{"aspect": "preferred choice for coding tasks", "dimension": "overall"}
+{"aspect": "preferred choice over codex", "dimension": "overall"}
+{"aspect": "preferred coding harness", "dimension": "overall"}
+{"aspect": "pretooluse hook fails to deny silently under a broken path", "dimension": "reliability"}
+{"aspect": "preview/files disappearing, wasting tokens on rebuild", "dimension": "efficiency"}
+{"aspect": "price and balance value", "dimension": "limits"}

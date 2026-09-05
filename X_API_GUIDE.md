@@ -111,7 +111,10 @@ under them. Say that on the page and in the manifest.
 ## Cost sanity
 
 The first release: 13,398 posts for $59.66 over seven days, about 1,900 raw
-reads a day, 13% of returns were duplicates across routes. At $10 a day you
+reads a day, 13% of returns were duplicates across routes.
+The second pull (Sep 4): seven cells with harness-name searches, conversation
+expansion and parent lookups, about $10 a cell for backfill and $14 for the
+live cell, $72 in total, for 23,275 posts in the rolling window. At $10 a day you
 get roughly the same density with better roots and real harness coverage. At
 $20 you roughly double it and the preference intervals tighten. Nothing here
 needs more than that.

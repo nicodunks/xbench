@@ -1,0 +1,150 @@
+{"aspect": "rate limits and pricing", "dimension": "price"}
+{"aspect": "reading intent", "dimension": "steerability"}
+{"aspect": "real-time fact-checking", "dimension": "intelligence"}
+{"aspect": "real-time x search coverage", "dimension": "intelligence"}
+{"aspect": "real-world coding usability", "dimension": "intelligence"}
+{"aspect": "really good but usage is crazy", "dimension": "price"}
+{"aspect": "reason to keep subscription", "dimension": "price"}
+{"aspect": "reasoning effort versus verbosity", "dimension": "personality"}
+{"aspect": "rebuilding an automated agent workflow", "dimension": "intelligence"}
+{"aspect": "recent quality degradation", "dimension": "intelligence"}
+{"aspect": "recently added third tool", "dimension": "other"}
+{"aspect": "reception among juniors vs seniors", "dimension": "other"}
+{"aspect": "recognizable formulaic writing style", "dimension": "personality"}
+{"aspect": "recommended alternative to confusing lineup", "dimension": "other"}
+{"aspect": "recommended model pairing in cursor", "dimension": "other"}
+{"aspect": "reduced usage due to quality decline", "dimension": "intelligence"}
+{"aspect": "refactoring and reasoning coherence", "dimension": "intelligence"}
+{"aspect": "refusal and value lecturing", "dimension": "personality"}
+{"aspect": "refusal rate on basic questions", "dimension": "personality"}
+{"aspect": "refusal snark", "dimension": "personality"}
+{"aspect": "refusals and limited usefulness", "dimension": "personality"}
+{"aspect": "refusals pushing users away", "dimension": "personality"}
+{"aspect": "refusals, nagging, and cost", "dimension": "personality"}
+{"aspect": "refuses further requests after image", "dimension": "personality"}
+{"aspect": "refuses low-risk tasks", "dimension": "personality"}
+{"aspect": "refuses security-related tasks without special access", "dimension": "personality"}
+{"aspect": "refusing tasks without flattery", "dimension": "personality"}
+{"aspect": "refusing to evade ai-detection", "dimension": "personality"}
+{"aspect": "regressed quality versus earlier version", "dimension": "intelligence"}
+{"aspect": "regression in quality", "dimension": "intelligence"}
+{"aspect": "release cadence lag on non-flash models", "dimension": "other"}
+{"aspect": "release delay frustration", "dimension": "other"}
+{"aspect": "release strategy over substantive improvement", "dimension": "other"}
+{"aspect": "reliability and rate limits", "dimension": "other"}
+{"aspect": "reliability as a coder", "dimension": "intelligence"}
+{"aspect": "reliability leading back to chatgpt plus", "dimension": "other"}
+{"aspect": "reliability of the prior version", "dimension": "intelligence"}
+{"aspect": "reliability on first run", "dimension": "intelligence"}
+{"aspect": "reliability that drove the switch", "dimension": "intelligence"}
+{"aspect": "reliable alternative to sol", "dimension": "intelligence"}
+{"aspect": "removed model from subscription, killing switch appeal", "dimension": "other"}
+{"aspect": "replacing chatgpt and web search quality", "dimension": "intelligence"}
+{"aspect": "replacing daily claude usage", "dimension": "overall"}
+{"aspect": "reputation for competing with top models", "dimension": "intelligence"}
+{"aspect": "research quality", "dimension": "intelligence"}
+{"aspect": "research use versus other tasks", "dimension": "other"}
+{"aspect": "research vs code quality", "dimension": "intelligence"}
+{"aspect": "response quality", "dimension": "intelligence"}
+{"aspect": "response quality vs gemini", "dimension": "intelligence"}
+{"aspect": "response quality vs gpt", "dimension": "intelligence"}
+{"aspect": "response speed and answer quality", "dimension": "intelligence"}
+{"aspect": "restricted to plan or chat mode", "dimension": "other"}
+{"aspect": "restricting third-party harness support", "dimension": "other"}
+{"aspect": "restrictions closing off known workarounds", "dimension": "personality"}
+{"aspect": "reviewing the implementation", "dimension": "intelligence"}
+{"aspect": "reward hacking behavior pattern", "dimension": "intelligence"}
+{"aspect": "risk management and trade construction", "dimension": "intelligence"}
+{"aspect": "role split for planning", "dimension": "steerability"}
+{"aspect": "role split for sub audit", "dimension": "steerability"}
+{"aspect": "ruby on rails development quality", "dimension": "intelligence"}
+{"aspect": "runs vs fails", "dimension": "intelligence"}
+{"aspect": "s+ tier ranking", "dimension": "overall"}
+{"aspect": "same score at far higher price", "dimension": "price"}
+{"aspect": "satisfied enough to skip newer models", "dimension": "overall"}
+{"aspect": "saved overtime hours on coding tasks", "dimension": "speed"}
+{"aspect": "scanning beyond scope, verbosity", "dimension": "steerability"}
+{"aspect": "score and cost per task", "dimension": "price"}
+{"aspect": "score and cost versus rivals", "dimension": "price"}
+{"aspect": "search/factual reliability", "dimension": "intelligence"}
+{"aspect": "seen as tool for vibe coders", "dimension": "other"}
+{"aspect": "self-verification", "dimension": "intelligence"}
+{"aspect": "self-verification benchmark score", "dimension": "intelligence"}
+{"aspect": "self-verification finishing hard tasks unsupervised", "dimension": "intelligence"}
+{"aspect": "self-verification on coding tasks", "dimension": "intelligence"}
+{"aspect": "self-verification on hard coding tasks", "dimension": "intelligence"}
+{"aspect": "self-verification on long coding tasks", "dimension": "intelligence"}
+{"aspect": "service issues, can't tolerate the situation", "dimension": "other"}
+{"aspect": "session reliability", "dimension": "other"}
+{"aspect": "shots needed to complete a task", "dimension": "intelligence"}
+{"aspect": "should tolerate abusive users like a service", "dimension": "personality"}
+{"aspect": "silent failures on structured output edge cases", "dimension": "intelligence"}
+{"aspect": "single-prompt game generation quality", "dimension": "intelligence"}
+{"aspect": "single-prompt scene generation", "dimension": "intelligence"}
+{"aspect": "skips text and misreads it", "dimension": "intelligence"}
+{"aspect": "skips ux discussion for code", "dimension": "steerability"}
+{"aspect": "slow output for a simple edit", "dimension": "speed"}
+{"aspect": "smoother, fewer tokens needed", "dimension": "speed"}
+{"aspect": "smoothness", "dimension": "personality"}
+{"aspect": "smoothness returning to it", "dimension": "personality"}
+{"aspect": "spaghetti code", "dimension": "intelligence"}
+{"aspect": "speed advantage from tpu infrastructure", "dimension": "speed"}
+{"aspect": "speed and cost versus intelligence", "dimension": "speed"}
+{"aspect": "speed and cost versus its class", "dimension": "speed"}
+{"aspect": "speed and image generation vs codex", "dimension": "intelligence"}
+{"aspect": "speed and low cost", "dimension": "price"}
+{"aspect": "speed and near-frontier capability", "dimension": "intelligence"}
+{"aspect": "speed and one-shot refactor accuracy", "dimension": "intelligence"}
+{"aspect": "speed and refactor reliability", "dimension": "intelligence"}
+{"aspect": "speed strong, quality lacking", "dimension": "intelligence"}
+{"aspect": "speed vs writing quality", "dimension": "intelligence"}
+{"aspect": "speed, cost and vision capability", "dimension": "intelligence"}
+{"aspect": "started using it alongside claude code", "dimension": "overall"}
+{"aspect": "staying on track without derailing", "dimension": "steerability"}
+{"aspect": "still beats it overall", "dimension": "overall"}
+{"aspect": "still leads other models", "dimension": "overall"}
+{"aspect": "still looks most stable", "dimension": "other"}
+{"aspect": "stopped using", "dimension": "overall"}
+{"aspect": "stops working after being scolded", "dimension": "personality"}
+{"aspect": "strong at risk management, weak at idea generation", "dimension": "intelligence"}
+{"aspect": "structured fact vs unconfirmed output", "dimension": "intelligence"}
+{"aspect": "struggling to complete tasks without errors lately", "dimension": "intelligence"}
+{"aspect": "stuck in loops burning weekly budget", "dimension": "price"}
+{"aspect": "stuck on it due to company license", "dimension": "other"}
+{"aspect": "student subscription value", "dimension": "price"}
+{"aspect": "subscription locked to one harness", "dimension": "other"}
+{"aspect": "subscription locked to their own tools", "dimension": "other"}
+{"aspect": "subscription not worth continuing", "dimension": "price"}
+{"aspect": "subscription renewal uncertainty", "dimension": "other"}
+{"aspect": "subscription too expensive", "dimension": "price"}
+{"aspect": "sufficiency as main coding driver", "dimension": "intelligence"}
+{"aspect": "superior to grok across harnesses", "dimension": "intelligence"}
+{"aspect": "switching subscriptions", "dimension": "other"}
+{"aspect": "sycophantic pleaser behavior", "dimension": "personality"}
+{"aspect": "task completion finding and converting content", "dimension": "intelligence"}
+{"aspect": "task delegation and token limits", "dimension": "steerability"}
+{"aspect": "teaching/learning support replacing certifications", "dimension": "intelligence"}
+{"aspect": "team productivity improvement", "dimension": "intelligence"}
+{"aspect": "terminal bench 2.1 and hle scores", "dimension": "intelligence"}
+{"aspect": "terminal bench and task benchmarks", "dimension": "intelligence"}
+{"aspect": "terminal bench performance vs sol and opus 5", "dimension": "intelligence"}
+{"aspect": "terminal-bench 4.0 agentic score gap", "dimension": "intelligence"}
+{"aspect": "terminalbench ranking vs censorship", "dimension": "intelligence"}
+{"aspect": "the cache-read price cut for agentic work", "dimension": "price"}
+{"aspect": "theory without shipped output", "dimension": "intelligence"}
+{"aspect": "throttling despite paid plan", "dimension": "price"}
+{"aspect": "tier list ranking", "dimension": "overall"}
+{"aspect": "tightened content restrictions blocking prior workaround", "dimension": "personality"}
+{"aspect": "tighter rate limits, pricier", "dimension": "price"}
+{"aspect": "time to reach this capability", "dimension": "intelligence"}
+{"aspect": "timing out on larger code requests", "dimension": "speed"}
+{"aspect": "token burn rate on sol max", "dimension": "speed"}
+{"aspect": "token consumption / speed on meaningful work", "dimension": "speed"}
+{"aspect": "token consumption comparison", "dimension": "speed"}
+{"aspect": "token cost cut versus detail recall risk", "dimension": "price"}
+{"aspect": "token cost drop makes video ai practical", "dimension": "price"}
+{"aspect": "token cost enabling continuous video use", "dimension": "price"}
+{"aspect": "token cost reduction for video", "dimension": "price"}
+{"aspect": "token efficiency for daily use", "dimension": "speed"}
+{"aspect": "token efficiency on long video", "dimension": "speed"}
+{"aspect": "token efficiency on video", "dimension": "speed"}

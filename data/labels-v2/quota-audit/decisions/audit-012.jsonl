@@ -1,0 +1,76 @@
+{"post_id": "2094525396016623994", "line": 0, "kind": "model_cost", "harness": null, "note": "grok 4.6 10-25x more expensive than ChatGPT"}
+{"post_id": "2094528116320297189", "line": 0, "kind": "model_cost", "harness": null, "note": "3.7 flash was usable, cheap and fast"}
+{"post_id": "2094536654862291153", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash is cheap but extremely slow"}
+{"post_id": "2094547238362226948", "line": 0, "kind": "model_cost", "harness": null, "note": "Sol is 60% cheaper tho"}
+{"post_id": "2094641299311960092", "line": 1, "kind": "model_cost", "harness": null, "note": "can run Sol 38 times for same cost"}
+{"post_id": "2094658731313410278", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM-5.3-Flash now fully free to use"}
+{"post_id": "2094674072370057455", "line": 0, "kind": "model_cost", "harness": null, "note": "Sol has better price and performance"}
+{"post_id": "2094693702753202623", "line": 1, "kind": "model_cost", "harness": null, "note": "5.3 flash way cheaper, 8x cost cheaper"}
+{"post_id": "2094696058790219802", "line": 1, "kind": "model_cost", "harness": null, "note": "Sol shines in backend speed cost security"}
+{"post_id": "2094778571332223257", "line": 0, "kind": "model_cost", "harness": null, "note": "the $ value here is on another level"}
+{"post_id": "2094802242146533733", "line": 1, "kind": "quota", "harness": "codex", "note": "codex x20 plan burns pretty fast in Sol Max"}
+{"post_id": "2094863138533543985", "line": 1, "kind": "model_cost", "harness": null, "note": "want model as fast and cheap as luna"}
+{"post_id": "2094865488706973739", "line": 0, "kind": "model_cost", "harness": null, "note": "medium effort uses way less tokens and latency"}
+{"post_id": "2094869573212258406", "line": 1, "kind": "model_cost", "harness": null, "note": "cache reuse fee is the price cut for agentic work"}
+{"post_id": "2094879208304685524", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 charges 6x more than Sol"}
+{"post_id": "2094893094823149726", "line": 1, "kind": "quota", "harness": "claude_code", "note": "Fable 5.1 drains your 5 hour limit in 30 minutes"}
+{"post_id": "2094895823368622539", "line": 0, "kind": "quota", "harness": null, "note": "run GLM 24x7 without worrying about usage"}
+{"post_id": "2094900828796596253", "line": 0, "kind": "model_cost", "harness": null, "note": "140M tokens, $3.69/task, least efficient"}
+{"post_id": "2094900828796596253", "line": 2, "kind": "model_cost", "harness": null, "note": "70M tokens, $0.95/task, vastly more economical"}
+{"post_id": "2094904736524702169", "line": 2, "kind": "quota", "harness": "codex", "note": "Sol ate a week's worth of credits in single sittings"}
+{"post_id": "2094904736524702169", "line": 3, "kind": "model_cost", "harness": null, "note": "far less efficient with credits than even Fable"}
+{"post_id": "2094905345965695328", "line": 0, "kind": "quota", "harness": "claude_code", "note": "run several orchestrator agents before running out in 5hr window"}
+{"post_id": "2094908446327837031", "line": 0, "kind": "model_cost", "harness": null, "note": "fable 5.1 burned 50.2M tokens for this"}
+{"post_id": "2094912477452542230", "line": 0, "kind": "quota", "harness": null, "note": "1 prompt on sol ultra took 3 5-hour limit seshes"}
+{"post_id": "2094916807887053052", "line": 0, "kind": "quota", "harness": "codex", "note": "running codex 24h, Luna-max usage insufficient even after reset"}
+{"post_id": "2094916807887053052", "line": 1, "kind": "quota", "harness": "codex", "note": "Sol only usable in plan or chat mode"}
+{"post_id": "2094921706645213243", "line": 0, "kind": "model_cost", "harness": null, "note": "cache reuse fee dropped from $1 to $0.25 per million tokens"}
+{"post_id": "2094954819069042998", "line": 0, "kind": "quota", "harness": "codex", "note": "Sol stuck in loops, burnt entire week of $200 plan"}
+{"post_id": "2094967707758387532", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable5.1's cost sense breaking through the chart, running solo"}
+{"post_id": "2094970685495947572", "line": 0, "kind": "model_cost", "harness": null, "note": "use Luna Max in the meantime to develop your MVP"}
+{"post_id": "2094970685495947572", "line": 1, "kind": "quota", "harness": "codex", "note": "afford a Pro account then use Sol"}
+{"post_id": "2094977951565550077", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash is around 58x cheaper than Fable 5.1"}
+{"post_id": "2094977951565550077", "line": 1, "kind": "model_cost", "harness": null, "note": "58x cheaper than Fable 5.1, 2x faster"}
+{"post_id": "2095000735662612742", "line": 0, "kind": "model_cost", "harness": null, "note": "the open-source king (re: free GLM access)"}
+{"post_id": "2095011201155809346", "line": 0, "kind": "unrelated", "harness": null, "note": "Grok 4.6 is replacing my Claude usage"}
+{"post_id": "2095020181990821890", "line": 0, "kind": "model_cost", "harness": null, "note": "the cheap model wins, beating proprietary API costs"}
+{"post_id": "2095052003491598348", "line": 1, "kind": "quota", "harness": "claude_code", "note": "fable's limit ran out just at repo analysis stage"}
+{"post_id": "2095088630863736994", "line": 0, "kind": "quota", "harness": "claude_code", "note": "never reached 5h session limits with x8 accounts, until now"}
+{"post_id": "2095093148519411997", "line": 0, "kind": "both", "harness": "claude_code", "note": "draining tokens like hell, session over in 2.5 of 5hrs"}
+{"post_id": "2095093148519411997", "line": 1, "kind": "both", "harness": "claude_code", "note": "5hr session over in 2.5hrs despite 50% higher limit"}
+{"post_id": "2095143294712033616", "line": 0, "kind": "both", "harness": "claude_code", "note": "burned 40% of Max plan weekly tokens in one day"}
+{"post_id": "2095143294712033616", "line": 1, "kind": "model_cost", "harness": null, "note": "did you say this uses 1/3 the tokens as Opus 5"}
+{"post_id": "2095151570669154617", "line": 1, "kind": "model_cost", "harness": null, "note": "Bot burns through tokens, massive jump 4.5 to 4.6"}
+{"post_id": "2095165574573588540", "line": 0, "kind": "model_cost", "harness": null, "note": "$0.75 per million input tokens, beats Opus 5"}
+{"post_id": "2095165574573588540", "line": 1, "kind": "model_cost", "harness": null, "note": "outperformed by cheaper $0.75/M token Gemini model"}
+{"post_id": "2095166019010494891", "line": 0, "kind": "model_cost", "harness": null, "note": "Opus 5 performance at much lower cost"}
+{"post_id": "2095181292006744162", "line": 0, "kind": "model_cost", "harness": null, "note": "ridiculously fast and token-efficient"}
+{"post_id": "2095184369744777647", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini Flash 3.8 beats Opus 5 at 15x lower price"}
+{"post_id": "2095186530239168539", "line": 0, "kind": "model_cost", "harness": null, "note": "grok-4.6 about the same performance for a lot less"}
+{"post_id": "2095197182236463181", "line": 0, "kind": "model_cost", "harness": null, "note": "token efficiency per task, Fable extremely impressive"}
+{"post_id": "2095197182236463181", "line": 1, "kind": "model_cost", "harness": null, "note": "token efficiency per task, Grok extremely impressive"}
+{"post_id": "2095215488402112798", "line": 0, "kind": "model_cost", "harness": null, "note": "scored better than both while being cheaper than both"}
+{"post_id": "2095216384389394661", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 extra chews through credit too fast"}
+{"post_id": "2095216384389394661", "line": 1, "kind": "model_cost", "harness": null, "note": "Fable 5.1 extra chews through credit too fast"}
+{"post_id": "2095243664872087677", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM hits 95% score at 1/133rd input cost"}
+{"post_id": "2095243664872087677", "line": 1, "kind": "model_cost", "harness": null, "note": "1/133rd input cost, 1/200th output cost of Fable"}
+{"post_id": "2095266516988252305", "line": 0, "kind": "model_cost", "harness": null, "note": "run bot farm almost free instead of $350/month"}
+{"post_id": "2095268087780069637", "line": 2, "kind": "model_cost", "harness": null, "note": "saving a lot of tokens iterating with Grok"}
+{"post_id": "2095280461262250306", "line": 0, "kind": "model_cost", "harness": null, "note": "Grok 4.6 just goes and goes for half the price"}
+{"post_id": "2095331480155382253", "line": 0, "kind": "model_cost", "harness": null, "note": "that price to performance ratio is unreal"}
+{"post_id": "2095439644485636466", "line": 0, "kind": "both", "harness": "claude_code", "note": "5.1 took 90% usage credits vs 10% on 5.0"}
+{"post_id": "2095446270831681865", "line": 0, "kind": "quota", "harness": "claude_code", "note": "did almost 40 tickets with Fable 5.1, still have 20% left"}
+{"post_id": "2095448439433924934", "line": 0, "kind": "quota", "harness": "claude_code", "note": "used lots of my credits already after 5.1 launch"}
+{"post_id": "2095455826240508157", "line": 0, "kind": "model_cost", "harness": null, "note": "why the lies, eh (re cost efficiency claim)"}
+{"post_id": "2095478920782962835", "line": 0, "kind": "quota", "harness": "claude_code", "note": "same happened to me yesterday (hit limits fast)"}
+{"post_id": "2095484994923667617", "line": 0, "kind": "quota", "harness": "claude_code", "note": "smacked my 5 hour limit and 40% weekly use"}
+{"post_id": "2095487925240861058", "line": 0, "kind": "model_cost", "harness": null, "note": "cost of running complex agentic workflows will drop"}
+{"post_id": "2095514854274855105", "line": 0, "kind": "quota", "harness": "claude_code", "note": "running it all day in CLI, no usage limits reached"}
+{"post_id": "2095595967764746693", "line": 1, "kind": "model_cost", "harness": null, "note": "Anthropic need to fix their compute shortage issue"}
+{"post_id": "2095639234019279011", "line": 0, "kind": "model_cost", "harness": null, "note": "Opus-level, but cheaper"}
+{"post_id": "2095665009309131005", "line": 0, "kind": "model_cost", "harness": null, "note": "agrees Fable costs way less per task than Sol"}
+{"post_id": "2095704105348190608", "line": 0, "kind": "model_cost", "harness": null, "note": "Same here! (more expensive than claimed)"}
+{"post_id": "2095894412450570489", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra just cooked you on everything, way cheaper"}
+{"post_id": "2095905148321095768", "line": 0, "kind": "model_cost", "harness": null, "note": "FIX Fable 5.1 token usage please"}
+{"post_id": "2095921650013225001", "line": 0, "kind": "quota", "harness": "claude_code", "note": "5hr usage limit is horrible with Fable 5.1"}
+{"post_id": "2095984711839461462", "line": 0, "kind": "model_cost", "harness": null, "note": "make fable 5.1 cheaper"}

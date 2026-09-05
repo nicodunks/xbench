@@ -114,7 +114,7 @@ same as a label.
 
 ## Numbers from the first release, as a baseline
 
-134 batches, 13,398 posts, about 100 Sonnet-minutes per 1,000 posts. Yield
+247 batches, 24,634 posts, about 100 Sonnet-minutes per 1,000 posts. Yield
 per batch of 100: 40 to 70 stances, 25 to 40% on harnesses, 5 to 20 flagged
 uncertain. 641 reviewer overrides in total, about 5% of posts. If a batch
 comes back with zero uncertain posts or a hundred, read the whole batch.

@@ -1,0 +1,80 @@
+{"post_id": "2096062789525844162", "line": 0, "kind": "model_cost", "harness": null, "note": "heavy token consumption complaint about Astra"}
+{"post_id": "2096063901041660262", "line": 0, "kind": "model_cost", "harness": null, "note": "completely free through opencode zen, no login"}
+{"post_id": "2096063933530395065", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 recommended as best bang for buck"}
+{"post_id": "2096063938110591485", "line": 1, "kind": "model_cost", "harness": null, "note": "keeping Sol for cheap drafts, Astra for long runs"}
+{"post_id": "2096064204897943837", "line": 0, "kind": "model_cost", "harness": null, "note": "cheap enough despite data-training tradeoff"}
+{"post_id": "2096064769002447280", "line": 1, "kind": "model_cost", "harness": null, "note": "とんでもねぇ勢いでトークン消費, huge token burn"}
+{"post_id": "2096064791119028690", "line": 0, "kind": "quota", "harness": null, "note": "burned usage quickly, went back to Sol"}
+{"post_id": "2096064868604674451", "line": 1, "kind": "model_cost", "harness": null, "note": "cheap as chips for an agent"}
+{"post_id": "2096065076927340561", "line": 0, "kind": "model_cost", "harness": null, "note": "Kimi K3 catching up fast and cheap"}
+{"post_id": "2096065739488690526", "line": 0, "kind": "both", "harness": "claude_code", "note": "2x output tokens burns subscription faster"}
+{"post_id": "2096065751673344213", "line": 0, "kind": "model_cost", "harness": null, "note": "bleeding cheap agent engine"}
+{"post_id": "2096065751673344213", "line": 1, "kind": "model_cost", "harness": null, "note": "impressed, Terra/Sil level but cheaper"}
+{"post_id": "2096065777967186020", "line": 1, "kind": "quota", "harness": "claude_code", "note": "opus to not drain [quota] for non-coding tasks"}
+{"post_id": "2096065929943630277", "line": 1, "kind": "quota", "harness": "claude_code", "note": "$80 plan difference not worth it, opus enough"}
+{"post_id": "2096065975921897910", "line": 0, "kind": "model_cost", "harness": null, "note": "37% cheaper than Fable in agentic workflow"}
+{"post_id": "2094608737692463198", "line": 0, "kind": "model_cost", "harness": null, "note": "needs 70k-80k tokens for a single coding turn"}
+{"post_id": "2094953988122886245", "line": 0, "kind": "quota", "harness": "claude_code", "note": "额度消耗大幅增加, quota consumption increased a lot"}
+{"post_id": "2095001666785305066", "line": 0, "kind": "quota", "harness": "claude_code", "note": "blew through 28 Max accounts' 5-hour limits"}
+{"post_id": "2095085317367762983", "line": 1, "kind": "both", "harness": "claude_code", "note": "hit Claude Code limits in 30 min, more expensive"}
+{"post_id": "2095168036303155479", "line": 0, "kind": "model_cost", "harness": null, "note": "tokens cheap, performance not bad"}
+{"post_id": "2095245167095853179", "line": 0, "kind": "both", "harness": "claude_code", "note": "insanely expensive, need accounts to dodge 5hr limit"}
+{"post_id": "2095258849829908667", "line": 0, "kind": "model_cost", "harness": null, "note": "completed task in a minute, costed almost nothing"}
+{"post_id": "2095258849829908667", "line": 1, "kind": "model_cost", "harness": null, "note": "completed task in 70 minutes and costed more"}
+{"post_id": "2095275295511281918", "line": 0, "kind": "quota", "harness": "claude_code", "note": "running out of Fable limit already"}
+{"post_id": "2095418689927500118", "line": 0, "kind": "model_cost", "harness": null, "note": "costs same as 3.7, cheaper than frontier models"}
+{"post_id": "2095442697536647378", "line": 2, "kind": "model_cost", "harness": null, "note": "Grok 4.6 as subagents is much economical"}
+{"post_id": "2095540228115099921", "line": 0, "kind": "model_cost", "harness": null, "note": "orchestrator burns endless tokens, doubled total spend"}
+{"post_id": "2095607013355270518", "line": 1, "kind": "unrelated", "harness": null, "note": "leading in agentic usage including computer use"}
+{"post_id": "2095619249406435773", "line": 0, "kind": "model_cost", "harness": null, "note": "pareto frontier of token efficiency"}
+{"post_id": "2095624459411460349", "line": 1, "kind": "model_cost", "harness": null, "note": "Sol cheaper but skimped on output quality"}
+{"post_id": "2095632313409548642", "line": 0, "kind": "model_cost", "harness": null, "note": "slower but quality output for half the price"}
+{"post_id": "2095647969567519011", "line": 0, "kind": "model_cost", "harness": null, "note": "costs very little via OpenRouter"}
+{"post_id": "2095650117823111310", "line": 0, "kind": "model_cost", "harness": null, "note": "performing better than Astra at fraction of cost"}
+{"post_id": "2095650117823111310", "line": 1, "kind": "model_cost", "harness": null, "note": "performing worse at higher cost than Muse"}
+{"post_id": "2095651591143522465", "line": 0, "kind": "quota", "harness": "claude_code", "note": "instantly consumes 35% usage on 'Hi!'"}
+{"post_id": "2095652061396271255", "line": 0, "kind": "model_cost", "harness": null, "note": "ran out of API budget before getting an answer"}
+{"post_id": "2095652307878707339", "line": 0, "kind": "model_cost", "harness": null, "note": "benchmaxxing at 13x the token cost"}
+{"post_id": "2095653957972422995", "line": 0, "kind": "unrelated", "harness": null, "note": "bad tokenizer on long conversation"}
+{"post_id": "2095653957972422995", "line": 1, "kind": "unrelated", "harness": null, "note": "bad tokenizer on long conversation"}
+{"post_id": "2095655046604013673", "line": 0, "kind": "model_cost", "harness": null, "note": "cheaper than Muse by three and a half times"}
+{"post_id": "2095655046604013673", "line": 1, "kind": "model_cost", "harness": null, "note": "more expensive than GLM in graphics benchmark"}
+{"post_id": "2095656342174277839", "line": 0, "kind": "quota", "harness": null, "note": "Kimi subscription not actually cheaper than Claude Max"}
+{"post_id": "2095656638200094795", "line": 0, "kind": "model_cost", "harness": null, "note": "$2.91 cost, faster but pricier than Muse"}
+{"post_id": "2095656638200094795", "line": 1, "kind": "model_cost", "harness": null, "note": "$0.18 cost, 94% cheaper but slower"}
+{"post_id": "2095657350711656751", "line": 1, "kind": "quota", "harness": "claude_code", "note": "5-hour session limit burned in 5 minutes"}
+{"post_id": "2095659960722170134", "line": 0, "kind": "model_cost", "harness": null, "note": "cost more money than expected via OpenRouter"}
+{"post_id": "2095661255776235670", "line": 1, "kind": "quota", "harness": "grokbot", "note": "surprising generous limits of Grok 4.6"}
+{"post_id": "2095663224221778228", "line": 0, "kind": "model_cost", "harness": null, "note": "cheap, good, served on Chinese chips"}
+{"post_id": "2095663941690986805", "line": 0, "kind": "model_cost", "harness": null, "note": "very cheap models good enough to build apps"}
+{"post_id": "2095663941690986805", "line": 1, "kind": "model_cost", "harness": null, "note": "very cheap models good enough to build apps"}
+{"post_id": "2095665399354315257", "line": 0, "kind": "model_cost", "harness": null, "note": "on enterprise all models charged at api rate"}
+{"post_id": "2095666814822793410", "line": 0, "kind": "model_cost", "harness": null, "note": "fraction of the price, still beats Opus"}
+{"post_id": "2095668643363164219", "line": 0, "kind": "model_cost", "harness": null, "note": "$10/$50 per million tokens, costs more than Sol"}
+{"post_id": "2095669721249018078", "line": 0, "kind": "model_cost", "harness": null, "note": "unlimited usage economically impossible for Fable/Astra/Sol"}
+{"post_id": "2095670381428498875", "line": 0, "kind": "model_cost", "harness": null, "note": "super token-hungry from recursive self-checking"}
+{"post_id": "2095670554246484441", "line": 0, "kind": "model_cost", "harness": null, "note": "pricing on par with Fable despite lower performance"}
+{"post_id": "2095670755803422816", "line": 0, "kind": "model_cost", "harness": null, "note": "less dumb and uses less tokens"}
+{"post_id": "2095670896602054984", "line": 0, "kind": "quota", "harness": "claude_code", "note": "ate my 5 hrs in 10 minutes"}
+{"post_id": "2095670896602054984", "line": 1, "kind": "quota", "harness": "claude_code", "note": "opus would have spent only 30% of 5h"}
+{"post_id": "2095670956773507361", "line": 0, "kind": "quota", "harness": null, "note": "75% of my weekly Gemini app quota remains"}
+{"post_id": "2095671072339460137", "line": 0, "kind": "model_cost", "harness": null, "note": "insane for the price"}
+{"post_id": "2095671354552955241", "line": 0, "kind": "model_cost", "harness": null, "note": "lower cost per task via cheaper cache pricing"}
+{"post_id": "2095671354552955241", "line": 1, "kind": "model_cost", "harness": null, "note": "costs more than predecessor 3.7"}
+{"post_id": "2095671354552955241", "line": 2, "kind": "model_cost", "harness": null, "note": "costs more than predecessor 1.2"}
+{"post_id": "2095671354552955241", "line": 3, "kind": "model_cost", "harness": null, "note": "pareto frontier cost efficiency"}
+{"post_id": "2095671355127521550", "line": 2, "kind": "quota", "harness": "claude_code", "note": "Fable hit 105% of 5hr usage"}
+{"post_id": "2095671531758026756", "line": 0, "kind": "model_cost", "harness": null, "note": "6% cheaper per task than Fable/Opus"}
+{"post_id": "2095671531758026756", "line": 1, "kind": "model_cost", "harness": null, "note": "same unit economics as Astra"}
+{"post_id": "2095671531758026756", "line": 2, "kind": "model_cost", "harness": null, "note": "same unit economics as Astra"}
+{"post_id": "2095671699148853535", "line": 0, "kind": "model_cost", "harness": null, "note": "2.5x price hike, $50 per million output tokens"}
+{"post_id": "2095671699148853535", "line": 1, "kind": "model_cost", "harness": null, "note": "Fable seems like the better deal on cost"}
+{"post_id": "2095672259268796454", "line": 0, "kind": "model_cost", "harness": null, "note": "spent a bucket load, nothing useful returned"}
+{"post_id": "2095672954080113012", "line": 0, "kind": "both", "harness": "claude_code", "note": "hit limit with one-shot prompt, model draining tokens"}
+{"post_id": "2095679912388522223", "line": 0, "kind": "model_cost", "harness": null, "note": "same $0.75 per million input price as 3.7"}
+{"post_id": "2095680767892545908", "line": 3, "kind": "unrelated", "harness": null, "note": "uses Grok, GLM 5.3 and Composer mainly"}
+{"post_id": "2095681413723140422", "line": 0, "kind": "model_cost", "harness": null, "note": "13x cheaper at $0.75/$3.75 per MTok"}
+{"post_id": "2095682905016283423", "line": 0, "kind": "model_cost", "harness": null, "note": "GPT-6 and Fable both out of reach for poor"}
+{"post_id": "2095682905016283423", "line": 1, "kind": "model_cost", "harness": null, "note": "GPT-6 and Fable both out of reach for poor"}
+{"post_id": "2095682946120176094", "line": 0, "kind": "model_cost", "harness": null, "note": "much more expensive than Fable 5"}
+{"post_id": "2095683425701187890", "line": 0, "kind": "unrelated", "harness": null, "note": "efficient training cost, millions vs 25+ bil spent"}

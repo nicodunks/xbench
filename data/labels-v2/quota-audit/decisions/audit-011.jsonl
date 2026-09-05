@@ -1,0 +1,80 @@
+{"post_id": "2095684124346372366", "line": 0, "kind": "model_cost", "harness": null, "note": "~$14 in tokens and under 2 hours to redesign"}
+{"post_id": "2095685848507240652", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable 5.1 cost $12.60 vs Kimi K3's $6.95"}
+{"post_id": "2095685848507240652", "line": 1, "kind": "model_cost", "harness": null, "note": "Kimi K3 delivered for $6.95, cheaper than Fable"}
+{"post_id": "2095686263974293717", "line": 0, "kind": "model_cost", "harness": null, "note": "less than half the cost of Fable 5 per task"}
+{"post_id": "2095686554471530716", "line": 0, "kind": "model_cost", "harness": null, "note": "$10/$50 Astra overkill, you don't need it for email"}
+{"post_id": "2095686554471530716", "line": 1, "kind": "model_cost", "harness": null, "note": "$2/$6 Grok 4.6, cost efficient for daily work"}
+{"post_id": "2095687344850620569", "line": 0, "kind": "model_cost", "harness": null, "note": "Gemini 3.7 flash, generous limits help here"}
+{"post_id": "2095688091793297469", "line": 0, "kind": "model_cost", "harness": null, "note": "$2/M input tokens, 1/5th Fable 5.1 cost"}
+{"post_id": "2095688230188290362", "line": 0, "kind": "quota", "harness": "claude_code", "note": "1k line change took 40% of usage, 5x plan"}
+{"post_id": "2095688230188290362", "line": 1, "kind": "quota", "harness": "claude_code", "note": "on fable it would have taken 60+% of usage"}
+{"post_id": "2095688265009692809", "line": 0, "kind": "model_cost", "harness": null, "note": "half the cost of Claude Fable 5.1 on Terminal Bench"}
+{"post_id": "2095688633059594381", "line": 0, "kind": "model_cost", "harness": null, "note": "has the cheapest tokens by a long shot"}
+{"post_id": "2095690496354160967", "line": 0, "kind": "model_cost", "harness": null, "note": "Astra is also insanely token efficient"}
+{"post_id": "2095692072066134031", "line": 0, "kind": "model_cost", "harness": null, "note": "Sol/Opus on Hermes for this, Fable is expensive"}
+{"post_id": "2095692072066134031", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.7 flash generous limits helps"}
+{"post_id": "2095692344116822136", "line": 0, "kind": "model_cost", "harness": null, "note": "cuts my costs by around 70% with GLM 5.3"}
+{"post_id": "2095692344116822136", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash as worker agents cuts costs"}
+{"post_id": "2095693753344463099", "line": 0, "kind": "model_cost", "harness": null, "note": "Fable is expensive, in evals workflow"}
+{"post_id": "2095693753344463099", "line": 1, "kind": "model_cost", "harness": null, "note": "Gemini 3.7 flash generous limits helps"}
+{"post_id": "2095694141623792090", "line": 0, "kind": "quota", "harness": null, "note": "recommends ZCode + GLM-5.3-Flash over OpenAI's reset FOMO"}
+{"post_id": "2095694313707524431", "line": 0, "kind": "model_cost", "harness": null, "note": "wins in custo beneficio, needs double the steps"}
+{"post_id": "2095695703725207560", "line": 0, "kind": "model_cost", "harness": null, "note": "Flash models discount, built in one weekend"}
+{"post_id": "2095697039497498844", "line": 2, "kind": "quota", "harness": null, "note": "Claude and GPT last very little; Grok is generous"}
+{"post_id": "2095698005114736948", "line": 0, "kind": "quota", "harness": null, "note": "used it all day, didn't use up 5-hour quota"}
+{"post_id": "2095698964549099902", "line": 0, "kind": "model_cost", "harness": null, "note": "for a lower cost model it works pretty well"}
+{"post_id": "2095699746304426227", "line": 0, "kind": "quota", "harness": null, "note": "几乎无限子弹 (basically unlimited quota), still strong"}
+{"post_id": "2095700642371186902", "line": 0, "kind": "unrelated", "harness": null, "note": "responses take 8-30 minutes, couldn't hit 170/day"}
+{"post_id": "2095700703847367052", "line": 0, "kind": "model_cost", "harness": null, "note": "luna is more rational to run for my business"}
+{"post_id": "2095701707036741955", "line": 0, "kind": "model_cost", "harness": null, "note": "10x cheaper input, 15x cheaper output than Gemini"}
+{"post_id": "2095701707036741955", "line": 1, "kind": "model_cost", "harness": null, "note": "10x cheaper input 15x cheaper output than glm"}
+{"post_id": "2095703361832317136", "line": 0, "kind": "model_cost", "harness": null, "note": "price doubles past 272k context, same as Fable"}
+{"post_id": "2095703391259570549", "line": 0, "kind": "model_cost", "harness": null, "note": "agent ability exciting, but price sobering"}
+{"post_id": "2095703640296067331", "line": 1, "kind": "quota", "harness": "claude_code", "note": "use Fable 5.1 in medium to conserve usage"}
+{"post_id": "2095707930570199304", "line": 0, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash free 11pm-9am, off-peak pricing"}
+{"post_id": "2095712562302304719", "line": 0, "kind": "quota", "harness": null, "note": "完全用不完 (can't use it all up)"}
+{"post_id": "2095725430246633841", "line": 0, "kind": "unrelated", "harness": null, "note": "misread chart hands a plausible number, no sign"}
+{"post_id": "2095725454842024291", "line": 0, "kind": "quota", "harness": null, "note": "two accounts' quota just enough for all tasks"}
+{"post_id": "2095905905686507703", "line": 0, "kind": "unrelated", "harness": null, "note": "computer use taking over entire PC on Windows"}
+{"post_id": "2095934273123397700", "line": 1, "kind": "quota", "harness": "claude_code", "note": "Fable 5.1 quota used up within just a few days"}
+{"post_id": "2095943433936572751", "line": 0, "kind": "model_cost", "harness": null, "note": "3.8 uses 3x extra tokens compared to 3.7"}
+{"post_id": "2095986445681090809", "line": 0, "kind": "model_cost", "harness": null, "note": "pretty fast with its speed and eating usage both"}
+{"post_id": "2093711162332545213", "line": 0, "kind": "quota", "harness": null, "note": "hit my limit with GLM 5.3 high after hours"}
+{"post_id": "2093756548128592135", "line": 0, "kind": "unrelated", "harness": null, "note": "cancelled AI subs, stuck with the $60 cursor plan"}
+{"post_id": "2093767436768330167", "line": 2, "kind": "model_cost", "harness": null, "note": "GLM-5.3, GLM-5.3-Flash, Kimi K3 pretty good and cost-efficient"}
+{"post_id": "2093767436768330167", "line": 3, "kind": "model_cost", "harness": null, "note": "GLM-5.3, GLM-5.3-Flash, Kimi K3 pretty good and cost-efficient"}
+{"post_id": "2093767436768330167", "line": 4, "kind": "model_cost", "harness": null, "note": "GLM-5.3, GLM-5.3-Flash, Kimi K3 pretty good and cost-efficient"}
+{"post_id": "2093795291250253847", "line": 0, "kind": "unrelated", "harness": null, "note": "speed vs intelligence ranking, no cost mentioned"}
+{"post_id": "2093816502440853781", "line": 0, "kind": "model_cost", "harness": null, "note": "speed/cost point for this is perfect"}
+{"post_id": "2093835933460337127", "line": 1, "kind": "model_cost", "harness": null, "note": "GLM 5.3 flash Operator, replaces it for 1/10th the costs"}
+{"post_id": "2093876305960018349", "line": 1, "kind": "quota", "harness": null, "note": "super fast with a generous usage limit on Gemini"}
+{"post_id": "2093880020544745705", "line": 0, "kind": "quota", "harness": "codex", "note": "Luna connected to Codex becomes free, unlimited use"}
+{"post_id": "2093944555255329162", "line": 0, "kind": "model_cost", "harness": null, "note": "GPT 5.6 Luna strongest cost-performance, Claude too expensive"}
+{"post_id": "2093944555255329162", "line": 3, "kind": "model_cost", "harness": null, "note": "GLM 5.3 Flash competitive cost-performance"}
+{"post_id": "2093962358427181097", "line": 0, "kind": "quota", "harness": "codex", "note": "Grok 4.5 or GPT 5.6 Luna go a long way"}
+{"post_id": "2093966167920812187", "line": 0, "kind": "quota", "harness": "claude_code", "note": "usage limits tighter, better to use Sol instead"}
+{"post_id": "2093982346823561503", "line": 0, "kind": "model_cost", "harness": null, "note": "glm-5.3-flash cheaper, more hemat, since discount"}
+{"post_id": "2093998953029349543", "line": 1, "kind": "quota", "harness": "claude_code", "note": "Opus 5 burns through usage insanely fast"}
+{"post_id": "2094004625892364469", "line": 0, "kind": "quota", "harness": "codex", "note": "will destroy my quota sessions on the 100e sub in 4 days"}
+{"post_id": "2094071890566660556", "line": 0, "kind": "quota", "harness": null, "note": "never have that usage anxiety anymore with glm"}
+{"post_id": "2094071914390056998", "line": 0, "kind": "model_cost", "harness": null, "note": "$9000 buys free, unlimited, private inference with GLM"}
+{"post_id": "2094072713996325354", "line": 0, "kind": "model_cost", "harness": null, "note": "efficient quality/price mix, GLM 5.3 Flash listed first"}
+{"post_id": "2094085017387610156", "line": 0, "kind": "model_cost", "harness": null, "note": "GPT5.6 Sol, perfect affordable middle ground"}
+{"post_id": "2094091810641445007", "line": 0, "kind": "model_cost", "harness": null, "note": "verbose output, token caps get hit far earlier"}
+{"post_id": "2094091973401493539", "line": 0, "kind": "quota", "harness": null, "note": "drained nearly half of my session limits on the Plus plan"}
+{"post_id": "2094114390790524982", "line": 2, "kind": "model_cost", "harness": null, "note": "@Yuchenj_UW Agree, re cost-efficient OSS models"}
+{"post_id": "2094114390790524982", "line": 3, "kind": "model_cost", "harness": null, "note": "@Yuchenj_UW Agree, re cost-efficient OSS models"}
+{"post_id": "2094114390790524982", "line": 4, "kind": "model_cost", "harness": null, "note": "@Yuchenj_UW Agree, re cost-efficient OSS models"}
+{"post_id": "2094128774845464664", "line": 0, "kind": "model_cost", "harness": null, "note": "burns tokens like there's no tomorrow, spent $22"}
+{"post_id": "2094207984931082625", "line": 0, "kind": "model_cost", "harness": null, "note": "cheap and very fast workhorse models"}
+{"post_id": "2094253002572108000", "line": 2, "kind": "model_cost", "harness": null, "note": "regular dev tasks, GLM-5.3/5.3-flash is good enough"}
+{"post_id": "2094253002572108000", "line": 3, "kind": "model_cost", "harness": null, "note": "regular dev tasks, GLM-5.3/5.3-flash is good enough"}
+{"post_id": "2094324187930435788", "line": 1, "kind": "quota", "harness": null, "note": "usage runs out faster each week, Sol goes further"}
+{"post_id": "2094356909218508810", "line": 0, "kind": "both", "harness": "grokbot", "note": "context billing doubles past 200k, drains weekly quota faster"}
+{"post_id": "2094406627663216733", "line": 0, "kind": "model_cost", "harness": null, "note": "GPT 5.6 Sol faster, cheaper, more secure at backend"}
+{"post_id": "2094415043282559379", "line": 0, "kind": "model_cost", "harness": null, "note": "eats tokens like they're starving it"}
+{"post_id": "2094427984526483466", "line": 1, "kind": "model_cost", "harness": null, "note": "Luna max if you need longevity"}
+{"post_id": "2094448735019483517", "line": 0, "kind": "model_cost", "harness": null, "note": "kimi k3 good because of its token pricing"}
+{"post_id": "2094456378857316743", "line": 0, "kind": "both", "harness": "grokbot", "note": "15 min loop on Grok 4.6 high wipes out limits"}
+{"post_id": "2094486626940641755", "line": 2, "kind": "quota", "harness": null, "note": "K3 is good too, but their subs are all sold out"}
+{"post_id": "2094493248811147481", "line": 0, "kind": "model_cost", "harness": null, "note": "this much usage, this much cost; GLM 5.3 Flash"}

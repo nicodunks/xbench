@@ -1,0 +1,11 @@
+{"aspect": "background agent bug wasting tokens", "dimension": "reliability"}
+{"aspect": "leaving background tasks running", "dimension": "agent"}
+{"aspect": "vs code extension integration", "dimension": "dx"}
+{"aspect": "overly accommodating personality", "dimension": "dx"}
+{"aspect": "gift subscription option", "dimension": "other"}
+{"aspect": "only allows gifting api credits, not a sub", "dimension": "other"}
+{"aspect": "ability to gift a full subscription", "dimension": "other"}
+{"aspect": "usage resets satisfaction", "dimension": "limits"}
+{"aspect": "5-hour lockout after short astra session", "dimension": "limits"}
+{"aspect": "usage quota not resetting after resubscribe", "dimension": "limits"}
+{"aspect": "promised token reset not delivered", "dimension": "limits"}

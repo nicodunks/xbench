@@ -72,7 +72,7 @@ data/labels-v2/public-evidence.json    every counted post: text, reason, link to
 data/labels-v2/release-manifest.json   coverage checks and sha256 of every file
 ```
 
-The raw corpus (text of all 13,398 pulled posts) is **not** in the repo. It
+The raw corpus (text of all 23,275 posts in the current window) is **not** in the repo. It
 lives in `data/private/`, which is ignored. What is public is every post that
 was counted, with its reason and a link, and every label for every post by id.
 That is enough to audit any number on the page; it is not enough to rebuild

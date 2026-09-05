@@ -1,0 +1,150 @@
+{"aspect": "$200 plan limit exhausted quickly", "dimension": "limits"}
+{"aspect": "20-minute trial called a money funnel", "dimension": "other"}
+{"aspect": "20x plan exhausted in an hour", "dimension": "limits"}
+{"aspect": "20x plan scope overstated", "dimension": "limits"}
+{"aspect": "5 hour limit delay", "dimension": "limits"}
+{"aspect": "5 hour limit hit quickly", "dimension": "limits"}
+{"aspect": "5-hour limit frustration", "dimension": "limits"}
+{"aspect": "5-hour reset limit", "dimension": "limits"}
+{"aspect": "5-hour usage limit burn rate", "dimension": "limits"}
+{"aspect": "5-hour usage limit cutting off tasks", "dimension": "limits"}
+{"aspect": "5-hour usage limit reliability", "dimension": "limits"}
+{"aspect": "5-hour usage window limiting deep work", "dimension": "limits"}
+{"aspect": "5-hour window eats most of weekly usage", "dimension": "limits"}
+{"aspect": "accessibility for non-power users", "dimension": "dx"}
+{"aspect": "account banned without explanation", "dimension": "other"}
+{"aspect": "account linking failure with x/grok accounts", "dimension": "reliability"}
+{"aspect": "added noise causing the author to stop using it", "dimension": "agent"}
+{"aspect": "ai video production", "dimension": "agent"}
+{"aspect": "app switching bug between chatgpt and codex", "dimension": "reliability"}
+{"aspect": "assistant not responding to messages", "dimension": "reliability"}
+{"aspect": "auditing suspicious contract code", "dimension": "agent"}
+{"aspect": "auto-compact timing", "dimension": "efficiency"}
+{"aspect": "auto-compaction working without manual commands", "dimension": "efficiency"}
+{"aspect": "automated bug detection and pr review", "dimension": "agent"}
+{"aspect": "automated issue-to-pr loop", "dimension": "agent"}
+{"aspect": "automated lip-sync and script generation for video", "dimension": "agent"}
+{"aspect": "automating a summarization workflow", "dimension": "agent"}
+{"aspect": "automating file organization", "dimension": "agent"}
+{"aspect": "automating research and post creation", "dimension": "agent"}
+{"aspect": "automating social media posting", "dimension": "agent"}
+{"aspect": "autonomous cloud operation feels creepy", "dimension": "agent"}
+{"aspect": "autonomous delegation of exec tasks", "dimension": "agent"}
+{"aspect": "autonomous email/voicemail transcription workflow", "dimension": "agent"}
+{"aspect": "autonomous overnight pr delivery", "dimension": "agent"}
+{"aspect": "autonomous task execution", "dimension": "agent"}
+{"aspect": "autonomy safety risk", "dimension": "agent"}
+{"aspect": "avatar image generation", "dimension": "agent"}
+{"aspect": "avoids switching windows to change models", "dimension": "dx"}
+{"aspect": "background task persistence and remote monitoring", "dimension": "agent"}
+{"aspect": "bad trading advice led to losses", "dimension": "other"}
+{"aspect": "being a wrapper around prompts", "dimension": "dx"}
+{"aspect": "best fit for cloud skill and memory storage", "dimension": "efficiency"}
+{"aspect": "best for coarse-grained productivity tasks", "dimension": "agent"}
+{"aspect": "browser and computer use reliability", "dimension": "reliability"}
+{"aspect": "browser mode unreliable for login and form tasks", "dimension": "reliability"}
+{"aspect": "browser/collaborative gains vs unclear rate-limit changes", "dimension": "limits"}
+{"aspect": "building a custom dashboard", "dimension": "agent"}
+{"aspect": "building a custom digest bot", "dimension": "agent"}
+{"aspect": "building a marketing automation team", "dimension": "agent"}
+{"aspect": "building a web app quickly", "dimension": "agent"}
+{"aspect": "building real projects quickly", "dimension": "agent"}
+{"aspect": "burned through credits quickly", "dimension": "limits"}
+{"aspect": "burning weekly usage limit fast", "dimension": "limits"}
+{"aspect": "burns tokens fast on 4.6", "dimension": "efficiency"}
+{"aspect": "cache hit efficiency", "dimension": "efficiency"}
+{"aspect": "cache write on every chained resumed call", "dimension": "efficiency"}
+{"aspect": "cache write triggered by resuming a conversation", "dimension": "efficiency"}
+{"aspect": "cache-heavy agentic usage pattern", "dimension": "efficiency"}
+{"aspect": "cancelled subscription over cost", "dimension": "limits"}
+{"aspect": "cannot sign in on android", "dimension": "reliability"}
+{"aspect": "capability coverage", "dimension": "dx"}
+{"aspect": "capability coverage since early may", "dimension": "dx"}
+{"aspect": "capacity errors on reset day", "dimension": "reliability"}
+{"aspect": "capacity limit on reset day", "dimension": "limits"}
+{"aspect": "chaining resume calls without extra cache cost", "dimension": "efficiency"}
+{"aspect": "chosen over hermes for hardware integration support", "dimension": "dx"}
+{"aspect": "cli abandoned, missing remote support", "dimension": "dx"}
+{"aspect": "closes on accidental ctrl+z", "dimension": "reliability"}
+{"aspect": "cloud and mobile ux", "dimension": "dx"}
+{"aspect": "cloud compute per agent with connectors", "dimension": "dx"}
+{"aspect": "cloud plus local execution support", "dimension": "dx"}
+{"aspect": "cloud vm ip blocked", "dimension": "reliability"}
+{"aspect": "cloud-based with low setup time", "dimension": "dx"}
+{"aspect": "code quality vs codex", "dimension": "agent"}
+{"aspect": "code writing quality", "dimension": "agent"}
+{"aspect": "code-writing as an auxiliary tool", "dimension": "agent"}
+{"aspect": "code-writing quality", "dimension": "agent"}
+{"aspect": "compaction and remote-control ux", "dimension": "efficiency"}
+{"aspect": "compaction splits the session", "dimension": "efficiency"}
+{"aspect": "compatibility problems via a harness", "dimension": "dx"}
+{"aspect": "completing browser tasks end-to-end", "dimension": "agent"}
+{"aspect": "composing a multi-track symphony", "dimension": "agent"}
+{"aspect": "computer session failing to load", "dimension": "reliability"}
+{"aspect": "computer-use ability pulling real data", "dimension": "agent"}
+{"aspect": "computer-use capability", "dimension": "dx"}
+{"aspect": "confusing 20x plan naming", "dimension": "limits"}
+{"aspect": "confusing pricing communication", "dimension": "other"}
+{"aspect": "confusing reset timing", "dimension": "limits"}
+{"aspect": "confusing usage policy wording", "dimension": "limits"}
+{"aspect": "confusing usage-limit boost communication", "dimension": "limits"}
+{"aspect": "connectivity failure after tailscale setup", "dimension": "reliability"}
+{"aspect": "connectors keep disconnecting, need re-authentication", "dimension": "reliability"}
+{"aspect": "context breaking without timely compaction", "dimension": "efficiency"}
+{"aspect": "context continuity across threads", "dimension": "efficiency"}
+{"aspect": "context isolation across tabs", "dimension": "efficiency"}
+{"aspect": "context thrashing causing costly loops", "dimension": "efficiency"}
+{"aspect": "context window and reasoning for debugging", "dimension": "efficiency"}
+{"aspect": "context window for long sessions", "dimension": "efficiency"}
+{"aspect": "convenience of switching models in one workflow", "dimension": "dx"}
+{"aspect": "convenience of switching models vs prompt-tuning overhead", "dimension": "dx"}
+{"aspect": "cost behavior when resuming a session", "dimension": "efficiency"}
+{"aspect": "cost compared to other harnesses", "dimension": "limits"}
+{"aspect": "cost creeping up on the $200 plan", "dimension": "limits"}
+{"aspect": "cost efficiency for simple app generation", "dimension": "limits"}
+{"aspect": "cost efficiency of harness usage", "dimension": "limits"}
+{"aspect": "cost efficiency on repeated jobs", "dimension": "limits"}
+{"aspect": "cost of chaining automated resume calls", "dimension": "efficiency"}
+{"aspect": "cost to access bookmark reading feature", "dimension": "limits"}
+{"aspect": "credit allocation limits access to fable", "dimension": "limits"}
+{"aspect": "credit caps across multiple sub-bots", "dimension": "limits"}
+{"aspect": "credit consumption after 5.1 launch", "dimension": "limits"}
+{"aspect": "credit exhaustion halts progress", "dimension": "limits"}
+{"aspect": "cross-device session communication", "dimension": "dx"}
+{"aspect": "cross-model peer review catching bugs", "dimension": "agent"}
+{"aspect": "cross-review effectiveness on complex projects", "dimension": "agent"}
+{"aspect": "custom audio approval-notification setup failing", "dimension": "reliability"}
+{"aspect": "customer support responsiveness", "dimension": "other"}
+{"aspect": "daily limit exhaustion", "dimension": "limits"}
+{"aspect": "data usage consumption rate", "dimension": "limits"}
+{"aspect": "delegating tasks to grok build via cloud terminal", "dimension": "agent"}
+{"aspect": "delightful computer-use feature", "dimension": "dx"}
+{"aspect": "developer account wrongly flagged during setup", "dimension": "other"}
+{"aspect": "diagnosis skill vs execution reliability", "dimension": "reliability"}
+{"aspect": "does not stop when more polish is possible", "dimension": "agent"}
+{"aspect": "downtime and errors", "dimension": "reliability"}
+{"aspect": "duplicate notifications across devices", "dimension": "reliability"}
+{"aspect": "duplicate work from misclicked tabs", "dimension": "dx"}
+{"aspect": "ease of creating and orchestrating bots", "dimension": "dx"}
+{"aspect": "ease of use from having its own computer", "dimension": "dx"}
+{"aspect": "ecosystem access and ease of use", "dimension": "dx"}
+{"aspect": "engaging enough to keep working late", "dimension": "agent"}
+{"aspect": "engineering skill versus going on tangents", "dimension": "agent"}
+{"aspect": "erratic/absurd behavior", "dimension": "agent"}
+{"aspect": "error when web_search not disabled before routing", "dimension": "reliability"}
+{"aspect": "errors trying it via a harness", "dimension": "reliability"}
+{"aspect": "errors when web_search stays on while routing to deepseek", "dimension": "reliability"}
+{"aspect": "event-planning usefulness versus token limits", "dimension": "limits"}
+{"aspect": "evolving from demo to autonomous coworker", "dimension": "agent"}
+{"aspect": "excess privileges in plan mode", "dimension": "agent"}
+{"aspect": "excessive token consumption", "dimension": "efficiency"}
+{"aspect": "excessive unnecessary work", "dimension": "agent"}
+{"aspect": "excitement for mobile availability", "dimension": "dx"}
+{"aspect": "extended outage", "dimension": "reliability"}
+{"aspect": "faster and intuitive but usage limits cripple it", "dimension": "limits"}
+{"aspect": "faster multi-model workflow", "dimension": "dx"}
+{"aspect": "finding old media file", "dimension": "agent"}
+{"aspect": "finding previously watched youtube videos", "dimension": "agent"}
+{"aspect": "fit for managed, cloud-hosted, low-setup workflow", "dimension": "dx"}
+{"aspect": "flexibility to swap in other model providers", "dimension": "dx"}
+{"aspect": "flexible billing across plans", "dimension": "limits"}

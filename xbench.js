@@ -1,3 +1,4 @@
+const DATA_V = "2026-09-05a";
 const $ = (s) => document.querySelector(s),
   NS = "http://www.w3.org/2000/svg";
 const names = {
@@ -558,11 +559,11 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
       return;
     }
     const n = +r.dataset.count;
-    tagText.innerHTML = `<tspan class="s-tag-n">${n}</tspan><tspan class="s-tag-who" dx="10">${esc(label(r.dataset.a))} → ${esc(label(r.dataset.b))}</tspan>`;
+    tagText.innerHTML = `<tspan class="s-tag-n">${n}</tspan><tspan class="s-tag-who" dx="14">${esc(label(r.dataset.a))} → ${esc(label(r.dataset.b))}</tspan>`;
     tagG.removeAttribute("hidden");
     const bb = tagText.getBBox(),
-      padX = 12,
-      padY = 8,
+      padX = 18,
+      padY = 12,
       x = +r.dataset.mx,
       y = +r.dataset.my;
     tagRect.setAttribute("x", x - bb.width / 2 - padX);
@@ -578,13 +579,13 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
   });
   svg.addEventListener("mouseleave", () => showTag(ribbons.find((x) => x.classList.contains("on"))));
   if (svg.id === "switchChart" && rm.has("grok-4.6")) {
-    const wrap = svg.parentElement, node = rm.get("grok-4.6"), n = R.find(([k]) => k === "grok-4.6")[1];
+    const wrap = svg.closest(".panel") || svg.parentElement, scroller = svg.parentElement, node = rm.get("grok-4.6"), n = R.find(([k]) => k === "grok-4.6")[1];
     let img = wrap.querySelector(".g-elon");
     if (!img) { img = document.createElement("img"); img.className = "guest g-elon"; img.src = "assets/stickers/elon.png"; img.alt = ""; wrap.append(img); }
     const place = () => {
       const sc = svg.clientWidth / 1180, yc = (node.y + (n * unit) / 2) * sc;
-      img.style.left = `${(xr + nw + 230) * sc}px`;
-      img.style.top = `${yc - img.offsetHeight / 2 + 20}px`;
+      img.style.left = `${(xr + nw + 165) * sc}px`;
+      img.style.top = `${scroller.offsetTop + yc - img.offsetHeight / 2 + 20}px`;
     };
     place(); img.onload = place; window.addEventListener("resize", place);
   }
@@ -715,9 +716,9 @@ async function init() {
     .join("");
   try {
     const [summary, ev, hero] = await Promise.all([
-      fetch("data/labels-v2/public-summary.json").then((r) => r.json()),
-      fetch("data/labels-v2/public-evidence.json").then((r) => r.json()),
-      fetch("data/labels-v2/hero.json").then((r) => (r.ok ? r.json() : { posts: [] })).catch(() => ({ posts: [] })),
+      fetch("data/labels-v2/public-summary.json?v=" + DATA_V).then((r) => r.json()),
+      fetch("data/labels-v2/public-evidence.json?v=" + DATA_V).then((r) => r.json()),
+      fetch("data/labels-v2/hero.json?v=" + DATA_V).then((r) => (r.ok ? r.json() : { posts: [] })).catch(() => ({ posts: [] })),
     ]);
     EV = ev;
     DIMS = summary.dimensions || DIMS;

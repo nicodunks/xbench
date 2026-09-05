@@ -1,0 +1,150 @@
+{"aspect": "primary coding workload after moving off cursor", "dimension": "agent"}
+{"aspect": "product quality versus confusing naming", "dimension": "dx"}
+{"aspect": "productivity gains versus running out of usage", "dimension": "limits"}
+{"aspect": "project success rate", "dimension": "agent"}
+{"aspect": "promised usage reset not received", "dimension": "limits"}
+{"aspect": "proposed autonomous release-engineer workflow", "dimension": "agent"}
+{"aspect": "proposed incident-response workflow", "dimension": "agent"}
+{"aspect": "provider switching convenience", "dimension": "dx"}
+{"aspect": "pulled me away from claude code", "dimension": "agent"}
+{"aspect": "quality drop and faster quota use", "dimension": "limits"}
+{"aspect": "quality versus subscription price", "dimension": "limits"}
+{"aspect": "quickly building and automating a signup page", "dimension": "agent"}
+{"aspect": "quota burn / token efficiency", "dimension": "efficiency"}
+{"aspect": "quota burns fast on /fast", "dimension": "limits"}
+{"aspect": "quota burns fast on x20 plan", "dimension": "limits"}
+{"aspect": "quota conservation via offloading to other harnesses", "dimension": "limits"}
+{"aspect": "quota consumption accounting", "dimension": "limits"}
+{"aspect": "quota exhausted within days of a reset", "dimension": "limits"}
+{"aspect": "quota management workaround", "dimension": "limits"}
+{"aspect": "ram consumption from browser tabs", "dimension": "dx"}
+{"aspect": "ran out of messages quickly", "dimension": "limits"}
+{"aspect": "ranked mid despite manual terminal use", "dimension": "dx"}
+{"aspect": "ranked pick for next coding tool", "dimension": "overall"}
+{"aspect": "rate limit used up within hours", "dimension": "limits"}
+{"aspect": "reading files and fixing based on results", "dimension": "agent"}
+{"aspect": "real-time feed summarization", "dimension": "agent"}
+{"aspect": "reason to switch from codex", "dimension": "overall"}
+{"aspect": "recent shipped improvements", "dimension": "overall"}
+{"aspect": "recommended $20 starter pick", "dimension": "limits"}
+{"aspect": "recommended as a solid choice", "dimension": "overall"}
+{"aspect": "recommended over claude for usage limits", "dimension": "limits"}
+{"aspect": "reconstructing lost context costs tokens", "dimension": "efficiency"}
+{"aspect": "recurring x integration issue", "dimension": "reliability"}
+{"aspect": "regression bugs from looping corrections", "dimension": "reliability"}
+{"aspect": "reliability after switching from claude code", "dimension": "reliability"}
+{"aspect": "reliability and downtime", "dimension": "reliability"}
+{"aspect": "reliability as the safety net to keep", "dimension": "reliability"}
+{"aspect": "reliability building a landing page", "dimension": "reliability"}
+{"aspect": "reliability finishing a task", "dimension": "reliability"}
+{"aspect": "reliance enabling automation of work", "dimension": "agent"}
+{"aspect": "relies on user-supplied domain knowledge", "dimension": "agent"}
+{"aspect": "remote control and browser use", "dimension": "dx"}
+{"aspect": "remote control feature reliability", "dimension": "reliability"}
+{"aspect": "remote feature broken and unstable", "dimension": "reliability"}
+{"aspect": "repeated acknowledged errors burning credits", "dimension": "limits"}
+{"aspect": "repl policy override bug now fixed", "dimension": "reliability"}
+{"aspect": "replacing administrative work", "dimension": "agent"}
+{"aspect": "reply cap and side-chat limitations", "dimension": "limits"}
+{"aspect": "request timeouts despite available quota", "dimension": "reliability"}
+{"aspect": "requiring manual slash commands to keep working", "dimension": "agent"}
+{"aspect": "research task performance exceeding own ability", "dimension": "agent"}
+{"aspect": "reset delivery speed", "dimension": "limits"}
+{"aspect": "reset mechanics not consuming weekly quota", "dimension": "limits"}
+{"aspect": "resuming history without extra cache cost", "dimension": "efficiency"}
+{"aspect": "role in multi-harness coding bench", "dimension": "other"}
+{"aspect": "running out of tokens on entry plan", "dimension": "limits"}
+{"aspect": "running out of tokens on the $200 plan", "dimension": "limits"}
+{"aspect": "running real daily automation workflows", "dimension": "agent"}
+{"aspect": "scheduled routine reliability", "dimension": "reliability"}
+{"aspect": "search config causes errors when routing to another model", "dimension": "dx"}
+{"aspect": "search config pitfall when switching models", "dimension": "dx"}
+{"aspect": "security risk vs daily admin automation", "dimension": "agent"}
+{"aspect": "self-improving memory and skills", "dimension": "efficiency"}
+{"aspect": "separate sessions per task feel tidy", "dimension": "dx"}
+{"aspect": "service consolidation", "dimension": "other"}
+{"aspect": "session separation vs single-thread context", "dimension": "efficiency"}
+{"aspect": "setup simplicity vs complexity", "dimension": "dx"}
+{"aspect": "shopping feature launch excitement", "dimension": "dx"}
+{"aspect": "shots needed and speed", "dimension": "agent"}
+{"aspect": "side thread opens as new window", "dimension": "dx"}
+{"aspect": "sidebar auto-opening annoyance", "dimension": "dx"}
+{"aspect": "sidebar ux annoyance", "dimension": "dx"}
+{"aspect": "signup credits not granted", "dimension": "limits"}
+{"aspect": "simpler alternative to confusing naming", "dimension": "dx"}
+{"aspect": "single-thread context management", "dimension": "efficiency"}
+{"aspect": "skepticism about substance of announced improvements", "dimension": "overall"}
+{"aspect": "skepticism about time-saving claims despite liking it", "dimension": "agent"}
+{"aspect": "skill not recognized bug", "dimension": "reliability"}
+{"aspect": "skill picker ux and losing unsent input", "dimension": "dx"}
+{"aspect": "small context window for long sessions", "dimension": "efficiency"}
+{"aspect": "smooth ux and easy setup", "dimension": "dx"}
+{"aspect": "smoothness compared to hermes", "dimension": "dx"}
+{"aspect": "solving personal it and computer tasks", "dimension": "agent"}
+{"aspect": "spacing accuracy needing many attempts", "dimension": "agent"}
+{"aspect": "speed and debugging", "dimension": "agent"}
+{"aspect": "speed building tools", "dimension": "agent"}
+{"aspect": "speed relative to a slower in-house harness", "dimension": "agent"}
+{"aspect": "speed to first working app", "dimension": "agent"}
+{"aspect": "speed versus cost tradeoff before switching", "dimension": "limits"}
+{"aspect": "stable workflow after multi-provider routing", "dimension": "dx"}
+{"aspect": "steep learning curve", "dimension": "dx"}
+{"aspect": "steep learning curve for beginners", "dimension": "dx"}
+{"aspect": "still preferred for design work", "dimension": "agent"}
+{"aspect": "still waiting for the announced usage reset", "dimension": "limits"}
+{"aspect": "still waiting on the promised usage reset", "dimension": "limits"}
+{"aspect": "subscription bundle value", "dimension": "limits"}
+{"aspect": "subscription management use case pitch", "dimension": "dx"}
+{"aspect": "sudden performance improvement", "dimension": "agent"}
+{"aspect": "suited for routine tasks", "dimension": "agent"}
+{"aspect": "supervised multi-agent cloud workflow", "dimension": "agent"}
+{"aspect": "supervising a squad model of agents", "dimension": "agent"}
+{"aspect": "surprise reset with no notice", "dimension": "limits"}
+{"aspect": "switching models in place without breaking workflow", "dimension": "dx"}
+{"aspect": "switching models mid-workflow without leaving the tool", "dimension": "dx"}
+{"aspect": "teaching/learning support replacing certifications", "dimension": "agent"}
+{"aspect": "the flight-sim copilot drill-writing workflow", "dimension": "agent"}
+{"aspect": "the permanent weekly limit increase", "dimension": "limits"}
+{"aspect": "time saved doing tasks", "dimension": "agent"}
+{"aspect": "token consumption without workaround skill", "dimension": "efficiency"}
+{"aspect": "token cost of re-deriving prior context", "dimension": "efficiency"}
+{"aspect": "token cost of web browsing tasks", "dimension": "efficiency"}
+{"aspect": "token costs on long coding sessions", "dimension": "efficiency"}
+{"aspect": "token efficiency after equal-time use", "dimension": "efficiency"}
+{"aspect": "token longevity per session", "dimension": "efficiency"}
+{"aspect": "token quota consumption", "dimension": "limits"}
+{"aspect": "token tricks failing in long sessions", "dimension": "efficiency"}
+{"aspect": "token usage increase week over week", "dimension": "efficiency"}
+{"aspect": "token waste on smoke tests without better pass rate", "dimension": "efficiency"}
+{"aspect": "tokens never seem to run out", "dimension": "limits"}
+{"aspect": "tooltip ui implementation", "dimension": "dx"}
+{"aspect": "trial cut short then paywalled", "dimension": "limits"}
+{"aspect": "trust in autonomous fixes", "dimension": "agent"}
+{"aspect": "trusting it with destructive commands", "dimension": "agent"}
+{"aspect": "trustworthiness for destructive file operations", "dimension": "agent"}
+{"aspect": "tui usability", "dimension": "dx"}
+{"aspect": "underwhelming despite unique integrations", "dimension": "dx"}
+{"aspect": "unexpected libreoffice rendering breaks docx workflow", "dimension": "reliability"}
+{"aspect": "unpredictable quota consumption per prompt", "dimension": "limits"}
+{"aspect": "unpredictable usage reset timing", "dimension": "limits"}
+{"aspect": "unresolved support ticket bounced between teams", "dimension": "other"}
+{"aspect": "usage allowance exhausted in a day", "dimension": "limits"}
+{"aspect": "usage burned by runaway test loops", "dimension": "limits"}
+{"aspect": "usage burned with no reset arriving", "dimension": "limits"}
+{"aspect": "usage burning faster than expected", "dimension": "limits"}
+{"aspect": "usage cap vs daily value", "dimension": "limits"}
+{"aspect": "usage caps and unreviewed output", "dimension": "limits"}
+{"aspect": "usage caps with no on-demand top-up", "dimension": "limits"}
+{"aspect": "usage cost for the output delivered", "dimension": "limits"}
+{"aspect": "usage dropping fast after reset", "dimension": "limits"}
+{"aspect": "usage limit anxiety before release deadline", "dimension": "limits"}
+{"aspect": "usage limit transparency", "dimension": "limits"}
+{"aspect": "usage limits don't match the unlimited-agent marketing", "dimension": "limits"}
+{"aspect": "usage limits lasting longer after reset", "dimension": "limits"}
+{"aspect": "usage limits working well with heavy use", "dimension": "limits"}
+{"aspect": "usage multiplier overstated", "dimension": "limits"}
+{"aspect": "usage quota running out quickly", "dimension": "limits"}
+{"aspect": "usage reset caused lockout", "dimension": "limits"}
+{"aspect": "usage reset delayed", "dimension": "limits"}
+{"aspect": "usage reset excludes supergrok heavy tier", "dimension": "limits"}
+{"aspect": "usage reset frequency and 5-hour session limit", "dimension": "limits"}
