@@ -222,3 +222,10 @@ html,body,a,button,.matrix-cell,.legend-chip,.pick,.s-ribbon,.counted-tweet,.mur
 h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6px}
 @media(max-width:680px){.info:after{width:min(300px,78vw)}}
 .counted-tweet{padding:14px 36px 12px 14px}.counted-tweet p{margin:9px 0}.counted-tweet .why{margin-bottom:8px}
+
+/* sentiment rows: n only, no sparkline */
+.sentiment-main{grid-template-columns:1fr 70px}.sentiment-axis{grid-template-columns:210px 1fr 70px}.metric-tail{text-align:right}
+@media(max-width:680px){.sentiment-main{grid-template-columns:1fr 60px}}
+/* logos in card verdicts; count tag on sankey ribbons */
+.counted-tweet b img{width:13px;height:13px;margin:0 5px -2px 0;filter:grayscale(1) invert(1) brightness(2)}.counted-tweet b em{font-style:normal;color:var(--b48);margin:0 2px}
+.s-tag{pointer-events:none}.s-tag rect{fill:var(--ink);stroke:var(--blue);stroke-width:1}.s-tag text{fill:var(--blue);font:13px XMono,"Andale Mono",monospace}.s-tag .s-tag-n{font-size:20px;font-weight:400}.s-tag .s-tag-who{fill:var(--b70)}.s-ribbon.on{opacity:.85}

@@ -128,17 +128,18 @@ function card(p, kind) {
         : p.endorsement
           ? tag("", "endorsement")
           : tag("", "stated"));
-    verdict = `${label(p.model || p.family || p.harness)} · ${p.aspect || ""}`;
+    const t0 = p.model || p.family || p.harness;
+    verdict = `${icon(t0)}${esc(label(t0))} · ${esc(p.aspect || "")}`;
   } else if (kind === "preference") {
-    verdict = `${label(p.winner)} > ${label(p.loser)}`;
+    verdict = `${icon(p.winner)}${esc(label(p.winner))} <em>&gt;</em> ${icon(p.loser)}${esc(label(p.loser))}`;
     tags =
       (p.firsthand ? tag("fh", "firsthand") : tag("", "stated")) +
       (p.aspect ? tag("", p.aspect) : "");
   } else if (kind === "switching") {
-    verdict = `${label(p.origin)} → ${label(p.destination)}`;
+    verdict = `${icon(p.origin)}${esc(label(p.origin))} <em>→</em> ${icon(p.destination)}${esc(label(p.destination))}`;
     tags = tag("fh", "completed");
   }
-  return `<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${esc(verdict)}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason || "")}</p><footer>${tags}</footer><span class="open" aria-hidden="true">↗</span></a>`;
+  return `<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${verdict}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason || "")}</p><footer>${tags}</footer><span class="open" aria-hidden="true">↗</span></a>`;
 }
 const renderCards = (root, rows, kind, empty = "No counted posts.") => {
   root.innerHTML =
@@ -173,12 +174,7 @@ function sentimentRows(root, models, evidenceRows, keyField, mode = "firsthand")
       netClass = net > 0.05 ? "positive" : net < -0.05 ? "negative" : "neutral",
       row = document.createElement("div");
     row.className = "sentiment-row";
-    const sub =
-      mode === "firsthand"
-        ? `<b>${tot}</b> firsthand · ${m.all_expressed?.n || 0} expressed`
-        : mode === "all_expressed"
-          ? `<b>${tot}</b> expressed · ${m.firsthand?.n || 0} firsthand`
-          : `<b>${tot}</b> endorsements`;
+    const sub = `n ${tot}`;
     const star =
       (m.firsthand?.n || 0) < 30 && !label(m.model).endsWith("*")
         ? '<span class="star">*</span>'
@@ -201,7 +197,7 @@ function sentimentRows(root, models, evidenceRows, keyField, mode = "firsthand")
         praised.length || knocked.length
           ? `<span class="dims">${praised.length ? `<i>+</i> ${praised.join(", ")}` : ""}${praised.length && knocked.length ? " · " : ""}${knocked.length ? `<u>−</u> ${knocked.join(", ")}` : ""}</span>`
           : "";
-    row.innerHTML = `<div class="sentiment-name"><strong>${label(m.model)}${star}</strong><small>${sub}</small>${dimsLine}</div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div>${spark(m.daily_firsthand)}<div class="metric-tail ${netClass}">${pts(net)}</div></div>`;
+    row.innerHTML = `<div class="sentiment-name"><strong>${label(m.model)}${star}</strong><small>${sub}</small>${dimsLine}</div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div><div class="metric-tail ${netClass}">${pts(net)}%</div></div>`;
     root.append(row);
   });
   if (!list.length)
@@ -549,16 +545,46 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
     r.dataset.a = f.a;
     r.dataset.b = f.b;
     r.dataset.count = f.count;
-    const t = el("title");
-    t.textContent = `${label(f.a)} → ${label(f.b)} · ${f.count}`;
-    r.append(t);
+    r.dataset.mx = cx;
+    r.dataset.my = (y0 + y1 + h) / 2;
     svg.append(r);
     ribbons.push(r);
   });
+  const tagG = el("g", { class: "s-tag", hidden: "" }),
+    tagRect = el("rect", { rx: 2, ry: 2 }),
+    tagText = el("text", { "text-anchor": "middle" });
+  tagG.append(tagRect, tagText);
+  svg.append(tagG);
+  const showTag = (r) => {
+    if (!r) {
+      tagG.setAttribute("hidden", "");
+      return;
+    }
+    const n = +r.dataset.count;
+    tagText.innerHTML = `<tspan class="s-tag-n">${n}</tspan><tspan class="s-tag-who" dx="10">${esc(label(r.dataset.a))} → ${esc(label(r.dataset.b))}</tspan>`;
+    tagG.removeAttribute("hidden");
+    const bb = tagText.getBBox(),
+      padX = 12,
+      padY = 8,
+      x = +r.dataset.mx,
+      y = +r.dataset.my;
+    tagRect.setAttribute("x", x - bb.width / 2 - padX);
+    tagRect.setAttribute("y", y - bb.height / 2 - padY);
+    tagRect.setAttribute("width", bb.width + padX * 2);
+    tagRect.setAttribute("height", bb.height + padY * 2);
+    tagText.setAttribute("x", x);
+    tagText.setAttribute("y", y + bb.height / 2 - 6);
+  };
+  svg.addEventListener("mouseover", (e) => {
+    const r = e.target.closest(".s-ribbon");
+    if (r) showTag(r);
+  });
+  svg.addEventListener("mouseleave", () => showTag(ribbons.find((x) => x.classList.contains("on"))));
   svg.onclick = (e) => {
     const r = e.target.closest(".s-ribbon");
     if (!r) return;
     ribbons.forEach((x) => x.classList.toggle("on", x === r));
+    showTag(r);
     if (labelNode)
       labelNode.textContent = `${label(r.dataset.a)} → ${label(r.dataset.b)} · ${r.dataset.count} · opens on X ↗`;
     renderCards(

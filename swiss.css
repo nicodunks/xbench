@@ -107,3 +107,7 @@ a{color:inherit}
 .pattern-key .key-note,.matrix-empty,.mural-open,.counted-tweet .open,.legend-note,.sentiment-axis,.mural-card small,.counted-tweet small,.counted-tweet header small,.matrix-cell small,.heat .matrix-cell small,.vote-strip span,.versus{color:var(--b48)}
 .spark i{background:var(--grey)}
 .sankey .s-node,.sankey .s-node.right,svg .s-node.right{fill:var(--inkc)!important;opacity:1!important}
+/* nav as a real table of contents; legend chips stay ink when selected */
+.rail{gap:28px;padding-top:72px;font-size:18px}.rail p{margin-bottom:30px;font-size:12px}.rail a{display:flex;align-items:baseline;color:var(--b70)}.rail a span{width:44px;font-size:13px;color:var(--signal-blue)}.rail a:hover{color:var(--inkc)}
+.legend-chip.on,.legend-chip.on small,.legend-chip.on.p0,.legend-chip.on.p1,.legend-chip.on.p2,.legend-chip.on.p3{color:var(--inkc)!important}.legend-chip.on small{color:var(--b70)!important}
+.s-tag rect{fill:var(--paper);stroke:var(--inkc)}.s-tag text{fill:var(--inkc)}.s-tag .s-tag-n{font-weight:700}.s-tag .s-tag-who{fill:var(--b70)}.counted-tweet b em{color:var(--b48)}
