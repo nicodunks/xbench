@@ -141,7 +141,7 @@ function card(p, kind) {
     verdict = `${icon(p.origin)}${esc(label(p.origin))} <em>→</em> ${icon(p.destination)}${esc(label(p.destination))}`;
     tags = tag("fh", "completed");
   }
-  return `<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${verdict}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason || "")}</p><footer>${tags}</footer><span class="open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
+  return `<a class="counted-tweet" href="${p.url}" target="_blank" rel="noreferrer"><header><span><b>${verdict}</b><small>${new Date(p.created_at).toLocaleString()}</small></span></header><p>${esc(p.text)}</p><p class="why">${esc(p.reason || "")}</p><span class="open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
 }
 const renderCards = (root, rows, kind, empty = "No counted posts.") => {
   root.innerHTML =
