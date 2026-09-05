@@ -499,7 +499,11 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
   const L = [...out.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0])),
     R = [...inn.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
   const gap = 24,
-    unit = Math.max(16, Math.min(26, (560 - gap * Math.max(L.length, R.length)) / total)),
+    duelCol = svg.closest(".flow-duel") ? document.getElementById("harnessDuel") : null,
+    targetH = duelCol ? (1180 * Math.max(260, duelCol.offsetHeight - 40)) / Math.max(320, svg.parentElement.clientWidth - 60) : 0,
+    unit = duelCol
+      ? Math.max(16, Math.min(90, (targetH - 48 - gap * Math.max(L.length, R.length)) / total))
+      : Math.max(16, Math.min(26, (560 - gap * Math.max(L.length, R.length)) / total)),
     H = Math.max(200, Math.max(L.length, R.length) * gap + total * unit + 48),
     xl = 330,
     xr = 850,
@@ -516,7 +520,12 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
       const h = n * unit;
       m.set(k, { y, h, cursor: y });
       svg.append(el("rect", { x, y, width: nw, height: h, class: `s-node ${side}` }));
-      if (side === "left") {
+      if (duelCol && logos[k]) {
+        const S = Math.min(96, Math.max(44, h * 0.9)), yc = y + h / 2,
+          ix = side === "left" ? x - 24 - S : x + nw + 24;
+        svg.append(el("image", { href: `assets/logos/${logos[k]}.svg`, x: ix, y: yc - S / 2, width: S, height: S, class: "s-logo" }));
+        addText(svg, side === "left" ? ix - 14 : ix + S + 14, yc + 7, `${n}`, "s-label s-count", side === "left" ? "end" : "start");
+      } else if (side === "left") {
         addText(svg, x - 16, y + h / 2 + 5, `${label(k)}  ·  ${n} out`, "s-label", "end");
       } else {
         addText(svg, x + nw + 16, y + h / 2 + 5, `${label(k)}  ·  ${n} in`, "s-label");

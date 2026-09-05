@@ -185,3 +185,4 @@ a{color:inherit}
 .preference-duel .chooser-result{margin-top:8px}
 .sentiment-name strong img{filter:grayscale(1)!important}
 .counted-tweet:hover .open,.mural-card:hover .mural-open{color:var(--paper);background:var(--inkc);border-color:var(--inkc)}
+.s-logo{filter:grayscale(1)}.s-count{font-size:30px;font-weight:700;fill:var(--inkc)}
