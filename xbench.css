@@ -194,3 +194,31 @@ html,body,a,button,.matrix-cell,.legend-chip,.pick,.s-ribbon,.counted-tweet,.mur
 
 /* hero mural with authors */
 .mural-card header{gap:9px}.mural-card header img{width:28px;height:28px;border-radius:50%;filter:none;object-fit:cover;flex:0 0 28px}.mural-card b{font-size:10.5px}.mural-card small{font-size:8.5px}
+
+/* readability pass: larger type inside the same boxes, plus plain-English hover explainers */
+.prompt,.label{font-size:12px}.method-tag{font-size:11px}.rating-state{font-size:11.5px}
+.hero-status{font-size:11px}.file-label{font-size:11px}.manifest span{font-size:11.5px}.tracked header{font-size:11px}.tracked>div span{font-size:12px}
+.rail{font-size:13.5px}.rail p{font-size:12px}.chapter-head>p{font-size:15.5px}.chapter-head span{font-size:13px}
+.panel footer,.scroll-cue,.matrix-note,.evidence-heading,.rating-explainer,.quality-row:first-child,.chooser-result span,.chooser-result small{font-size:11px;line-height:1.6}
+.pattern-key{font-size:11.5px}.sentiment-axis{font-size:10px}.sentiment-name small{font-size:11px}.sentiment-name .dims{font-size:11px}
+.mode-switch button{font-size:11px}.pick{font-size:12.5px}.pick img{width:16px;height:16px}
+.mural-card b{font-size:12px}.mural-card small{font-size:10px}.mural-card p{margin-top:9px;font-size:12.5px;line-height:1.45;-webkit-line-clamp:4}.mural-card header img{width:30px;height:30px;flex-basis:30px}
+.counted-tweet b{font-size:12px}.counted-tweet small,.counted-tweet header small{font-size:10px}.counted-tweet p{margin:11px 0;font-size:12.5px;line-height:1.5}.counted-tweet .why{font-size:11px;line-height:1.45}.counted-tweet footer{font-size:10px}.evidence-empty{font-size:12px}
+.contender span{font-size:12.5px}.versus{font-size:10.5px}.vote-strip span{font-size:10px}.battle-card p{font-size:11px}
+.matrix-cell{font-size:12.5px}.matrix-cell small{font-size:9px}.matrix-col{font-size:12px}.matrix-row,.heat tbody th .matrix-row{font-size:12.5px}.heat thead th{font-size:12px}.heat .matrix-cell b{font-size:14.5px}.heat .matrix-cell small{font-size:9.5px}.battle-matrix.small .matrix-col{font-size:13px}
+.rating-score{font-size:17px}.rating-name{font-size:13px}
+.duel-title{font-size:11.5px}.duel-copy{font-size:12px}.duel-who{font-size:14px}.harness-sentiment-row header{font-size:11.5px}.duel-lines span{font-size:10.5px}.switch-list li{font-size:13.5px}
+.aspects h4{font-size:10.5px}.aspects li{font-size:12.5px}.tasks span{font-size:10.5px}.score-row{font-size:12px}.book-meta{font-size:11px}.book-name strong{font-size:19px}
+.r-label{font-size:12.5px}.r-label.sub{font-size:10.5px}.legend-chip{font-size:13.5px}.legend-chip small{font-size:11.5px}.legend-note{font-size:10.5px;color:var(--b48)}
+.evidence-card header,.evidence-card footer{font-size:11px}.evidence-card p{font-size:14.5px}
+.readme-block p:nth-child(odd){font-size:11px}.readme-block p{font-size:14px;line-height:1.65}.note p{font-size:14.5px}.note h4{font-size:12.5px}.quality-row{font-size:13.5px}
+.site-footer{font-size:11px}.window-chip{font-size:12.5px}.topbar nav a{font-size:13px}
+.lede{font-size:14px}
+.info{position:relative;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;margin-left:8px;border:1px solid var(--b48);border-radius:50%;color:var(--b70);font:400 10.5px/1 XMono,"Andale Mono",monospace;text-transform:none;letter-spacing:0;vertical-align:middle;cursor:help}
+.info:hover,.info:focus-visible{border-color:var(--blue);color:var(--blue);outline:none}
+.info:after{content:attr(data-tip);position:absolute;left:-8px;top:calc(100% + 10px);z-index:40;width:300px;padding:12px 14px;border:1px solid var(--b48);background:var(--ink);color:var(--b90);font:400 12.5px/1.55 XMono,"Andale Mono",monospace;text-align:left;text-transform:none;letter-spacing:0;white-space:normal;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .15s,transform .15s;pointer-events:none;box-shadow:0 14px 34px rgba(0,0,0,.55)}
+.info:hover:after,.info:focus-visible:after{opacity:1;visibility:visible;transform:none}
+.info.tip-right:after{left:auto;right:-8px}.info.tip-up:after{top:auto;bottom:calc(100% + 10px)}
+h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6px}
+@media(max-width:680px){.info:after{width:min(300px,78vw)}}
+.counted-tweet{padding:14px 36px 12px 14px}.counted-tweet p{margin:9px 0}.counted-tweet .why{margin-bottom:8px}
