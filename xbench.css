@@ -262,3 +262,5 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .pow b{display:block;font-size:20px;line-height:1}
 @media(max-width:1100px){.pow{width:118px;height:118px;font-size:11.5px;padding:16px;top:auto;bottom:-20px;right:14px}}
 @media(max-width:680px){.pow{display:none}}
+.pow{top:-34px;right:26px}.panel:has(> .pow) .panel-head{padding-right:210px}
+@media(max-width:1100px){.pow{top:-24px;bottom:auto;right:10px}.panel:has(> .pow) .panel-head{padding-right:150px}}
