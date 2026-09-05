@@ -626,7 +626,7 @@ function harnessDuel(h, rows) {
     pct = n ? Math.round((cx / n) * 100) : 0;
   $("#harnessDuel").innerHTML = `
     <p class="duel-title">direct head-to-head, people who used both</p>
-    <div class="tug"><span class="duel-who">${icon("codex")}<img class="face" src="assets/stickers/tibo.png" alt="">Codex</span><b class="positive">${cx}</b><div class="tug-bar"><i style="width:${pct}%"></i></div><b>${cc}</b><span class="duel-who">${icon("claude_code")}<img class="face" src="assets/stickers/boris.png" alt="">Claude Code</span></div>
+    <div class="tug"><span class="duel-who">Codex</span><b class="positive">${cx}</b><div class="tug-bar"><i style="width:${pct}%"></i></div><b>${cc}</b><span class="duel-who">Claude Code</span></div>
     <p class="duel-copy">${pct}% chose Codex · ${n} votes · ${fh} from people who described using both, ${n - fh} stated</p>
     <p class="duel-title">what each one wins on</p>
     <div class="dimbars">${byDim.map((x) => `<div class="dimrow"><b>${x.cx}</b><div class="dl"><i style="width:${(x.cx / dimMax) * 100}%"></i></div><span>${dimName("harness", x.d)}</span><div class="dr"><i style="width:${(x.cc / dimMax) * 100}%"></i></div><b>${x.cc}</b></div>`).join("")}</div>
