@@ -297,3 +297,4 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .mural-tags .who{padding:2px 5px 2px 4px;font-size:10px;gap:4px}.mural-tags .who img{width:11px;height:11px}.mural-tags .tab{font-size:8.5px;padding:1px 4px;letter-spacing:.04em}
 .mural-card header{flex-wrap:wrap;row-gap:6px}.mural-tags{flex:1 1 250px;justify-content:flex-end}
 .mural-card header>span:not(.mural-tags){max-width:none}
+.mural-tags{flex:1 1 330px}
