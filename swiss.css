@@ -204,3 +204,21 @@ a{color:inherit}
 .mural-tags .who img{filter:grayscale(1)!important}.mural-tags .tab.positive{background:var(--signal-blue);border-color:var(--signal-blue);color:var(--paper)}.mural-tags .tab.negative{background:var(--rust);border-color:var(--rust);color:var(--paper)}.mural-tags .tab.mixed{background:var(--grey);border-color:var(--grey);color:var(--inkc)}.mural-card .mural-tags em.tab{display:inline-block}
 /* Claude Code side of the duel in rust */
 .tug b.cc{color:var(--rust)}.tug-bar{background:var(--rust)}.dimrow .dr i{background:var(--rust)}.dimrow b:last-child{color:var(--rust)}.c2{background:var(--rust)}
+
+/* ---- mobile pass (phones only) ---- */
+@media(max-width:680px){
+  .tracked{display:none}
+  .hero{min-height:0}.hero-copy{min-height:0;padding:22px 16px 6px;gap:14px}.roon{height:96px}.hero h1{font-size:46px}.subtitle{font-size:16px;margin-top:6px}
+  .hero-index{margin:6px 12px 16px;padding:10px}.mural-grid{grid-template-rows:repeat(3,118px)}.mural-card:nth-child(n+4){display:none}
+  .mural-card{padding:10px 40px 8px 10px}.mural-card p{margin-top:5px;font-size:11.5px;line-height:1.4;-webkit-line-clamp:2}.mural-card header img{width:24px;height:24px;flex-basis:24px}
+  .manifest strong{font-size:22px}
+  .chart-scroll{overflow-x:hidden;cursor:default}.chart-scroll:before{display:none}
+  .sankey,#switchChart,#harnessSwitchChart{min-width:0!important;width:100%!important;height:auto!important}
+  .matrix-scroll{padding:12px 0 16px}.matrix-note{padding:10px 14px}
+  .heat{zoom:.72}.heat thead th:first-child,.heat tbody th{width:128px;box-shadow:-3px 0 0 var(--ink)}.heat thead th{width:96px}.heat td{width:96px;height:48px}
+  .harness-grid{grid-template-columns:1fr}.flow-duel{padding-top:8px}
+  .dimrow{grid-template-columns:26px 1fr 110px 1fr 26px;gap:6px;font-size:12px}.dimrow b{font-size:13px}.tug b{font-size:20px}
+  .radar-duo{grid-template-columns:1fr}
+  .radar-duo>div{min-width:0;overflow:hidden}.radar-wrap{grid-template-columns:minmax(0,1fr)!important;min-width:0}svg.radar{width:100%!important;height:auto!important;max-width:100%}.radar-duo .radar-legend,.radar-legend{grid-template-columns:1fr!important;width:auto;max-width:100%}.legend-chip{width:auto}
+  .sankey .s-label{font-size:26px}#harnessSwitchChart .s-label{font-size:30px}
+}

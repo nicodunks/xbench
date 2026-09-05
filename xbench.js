@@ -499,7 +499,7 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
   const L = [...out.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0])),
     R = [...inn.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
   const gap = 24,
-    duelCol = svg.closest(".flow-duel") ? document.getElementById("harnessDuel") : null,
+    duelCol = svg.closest(".flow-duel") && !matchMedia("(max-width: 680px)").matches ? document.getElementById("harnessDuel") : null,
     targetH = duelCol ? (1180 * Math.max(260, duelCol.offsetHeight - 40)) / Math.max(320, svg.parentElement.clientWidth - 60) : 0,
     unit = duelCol
       ? Math.max(16, Math.min(90, (targetH - 48 - gap * Math.max(L.length, R.length)) / total))
