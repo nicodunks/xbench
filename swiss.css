@@ -164,3 +164,11 @@ a{color:inherit}
 .shot.laser{width:46px;height:3px;background:var(--signal-blue);box-shadow:0 0 6px rgba(43,75,214,.6);border-radius:2px}
 .shot.bubble{width:14px;height:14px;border:1.5px solid var(--rust);border-radius:50%;background:rgba(181,80,46,.08);box-shadow:inset -2px -2px 0 rgba(181,80,46,.15)}
 @media(max-width:680px){.stage .codex-f{height:64px}.stage .clawd-f{height:46px}.shot.laser{width:30px}.shot.bubble{width:10px;height:10px}}
+
+/* impact frames */
+.impact{position:absolute;left:0;bottom:3px;width:34px;height:34px;margin:-17px 0 0 -17px;background:var(--inkc);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);animation:impactPop .26s ease-out forwards;pointer-events:none}
+.impact:after{content:"";position:absolute;inset:8px;background:var(--paper);clip-path:inherit}
+.impact.big{width:56px;height:56px;margin:-28px 0 0 -28px}
+@keyframes impactPop{0%{scale:.3;opacity:1}60%{scale:1.15;opacity:1}100%{scale:1.3;opacity:0}}
+.stage.flash .floor{height:5px}.stage.flash{background:rgba(18,18,18,.04)}
+.stage .fighter.hit{filter:brightness(0) invert(1) contrast(2)}

@@ -865,20 +865,34 @@ document.addEventListener("click", (e) => {
   const W = () => st.clientWidth;
   const H = () => st.clientHeight;
   const rnd = (a, b) => a + Math.random() * (b - a);
-  function fire(from, to) {
+  function fire(from, to, k = 0) {
     const el = document.createElement("i");
     el.className = "shot " + from.kind;
     st.append(el);
     const fw = from.el.offsetWidth, fh = from.el.offsetHeight;
     const dir = to.x > from.x ? 1 : -1;
-    const s = { el, x: from.x * W() + fw / 2 + dir * fw * 0.45, y: from.y + fh * (from.kind === "laser" ? 0.55 : 0.5), vx: dir * (from.kind === "laser" ? 520 : 150), vy: from.kind === "bubble" ? rnd(10, 40) : 0, life: 2.2, to, kind: from.kind };
+    const bubble = from.kind === "bubble";
+    if (bubble) { const sz = rnd(7, 15); el.style.width = el.style.height = sz + "px"; }
+    const s = { el, x: from.x * W() + fw / 2 + dir * fw * (0.35 + k * 0.03), y: from.y + fh * (bubble ? rnd(0.3, 0.7) : 0.55), vx: dir * (bubble ? rnd(130, 220) : 520), vy: bubble ? rnd(-15, 45) : 0, life: 2.2, to, kind: from.kind, ph: rnd(0, 6) };
     shots.push(s);
+  }
+  let stop = 0;
+  function impact(x, y, big) {
+    const el = document.createElement("i");
+    el.className = "impact" + (big ? " big" : "");
+    el.style.transform = `translate(${x}px, ${-y}px) rotate(${rnd(-20, 20)}deg)`;
+    st.append(el);
+    setTimeout(() => el.remove(), 260);
+    st.classList.add("flash");
+    setTimeout(() => st.classList.remove("flash"), 60);
+    stop = big ? 0.09 : 0.05;
   }
   function step(now) {
     requestAnimationFrame(step);
     if (!visible) { last = now; return; }
-    const dt = Math.min(0.05, (now - last) / 1000 || 0);
+    let dt = Math.min(0.05, (now - last) / 1000 || 0);
     last = now;
+    if (stop > 0) { stop -= dt; dt = 0; }
     const w = W();
     for (const f of [A, B]) {
       const other = f === A ? B : A;
@@ -903,16 +917,21 @@ document.addEventListener("click", (e) => {
     }
     fireA -= dt; fireB -= dt;
     if (fireA <= 0) { fire(A, B); fireA = rnd(1.6, 3.4); }
-    if (fireB <= 0) { fire(B, A); fireB = rnd(1.2, 2.6); }
+    if (fireB <= 0) { for (let k = 0; k < 8; k++) fire(B, A, k); fireB = rnd(1.8, 3.2); }
     for (let i = shots.length - 1; i >= 0; i--) {
       const s = shots[i];
       s.x += s.vx * dt; s.y += s.vy * dt; s.life -= dt;
-      if (s.kind === "bubble") s.x += Math.sin(now / 180 + i) * 20 * dt;
+      if (s.kind === "bubble") s.x += Math.sin(now / 180 + s.ph) * 26 * dt;
       s.el.style.transform = `translate(${s.x}px, ${-s.y}px)`;
       const t = s.to, tx = t.x * w, tw = t.el.offsetWidth, th = t.el.offsetHeight;
       const hit = s.x > tx + tw * 0.2 && s.x < tx + tw * 0.8 && s.y > t.y && s.y < t.y + th;
       if (hit || s.life <= 0 || s.x < -60 || s.x > w + 60) {
-        if (hit) { t.el.classList.add("hit"); setTimeout(() => t.el.classList.remove("hit"), 180); t.vy = t.y === 0 ? 180 : t.vy; }
+        if (hit) {
+          t.el.classList.add("hit"); setTimeout(() => t.el.classList.remove("hit"), 180);
+          t.vy = t.y === 0 ? 180 : t.vy;
+          t.x += Math.sign(s.vx) * (s.kind === "laser" ? 0.03 : 0.008);
+          impact(s.x, s.y, s.kind === "laser");
+        }
         s.el.remove(); shots.splice(i, 1);
       }
     }
