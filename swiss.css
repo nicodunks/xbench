@@ -199,3 +199,4 @@ a{color:inherit}
 @keyframes flipInX{0%{transform:rotateX(-90deg);background:var(--grey);color:transparent}35%{background:var(--grey);color:transparent}100%{transform:rotateX(0);background:var(--paper)}}
 .mural-card.is-flipping img,.mural-card.is-flipping .mural-foot,.mural-card.is-flipping .mural-open,.mural-card.is-entering img,.mural-card.is-entering .mural-foot,.mural-card.is-entering .mural-open{opacity:0;transition:opacity .2s}
 .mural-card.is-entering{animation-fill-mode:both}
+.radar-cap{font-weight:500}
