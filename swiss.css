@@ -134,3 +134,21 @@ a{color:inherit}
 }
 .info.open:after,.info:focus:after{opacity:1;visibility:visible;transform:none}
 @media(max-width:680px){.scorecard{grid-template-columns:1fr}.score-row{grid-template-columns:1fr 1fr 44px 40px}.book-head{flex-wrap:wrap;gap:10px}.book-meta{flex-wrap:wrap;gap:8px 14px}.book-name strong{font-size:20px}}
+
+/* stickers: roon by the title, a little street-fighter floor under the hero, faces in the duel */
+.hero-copy{display:flex;align-items:center;gap:40px}.hero-words{min-width:0}.roon{height:clamp(150px,22vw,300px);width:auto;flex:0 0 auto;filter:drop-shadow(0 6px 0 rgba(18,18,18,.08))}
+.stage{position:relative;height:150px;margin:0 42px;overflow:hidden;pointer-events:none}
+.stage .floor{position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--inkc)}
+.stage .fighter{position:absolute;bottom:3px;height:96px;width:auto;transform-origin:50% 100%}
+.stage .codex-f{left:calc(50% - 150px);animation:codexBounce 3.2s ease-in-out infinite,codexJump 9s ease-in-out infinite}
+.stage .clawd-f{left:calc(50% + 40px);height:70px;animation:clawdScuttle 4s ease-in-out infinite,clawdHop 7s ease-in-out infinite}
+.stage .crowd{position:absolute;bottom:3px;height:118px;width:auto;filter:grayscale(1) contrast(.9);opacity:.35}
+.stage .crowd-l{left:7%}.stage .crowd-r{right:7%}
+@keyframes codexBounce{0%,100%{transform:translateY(0) scaleY(1)}50%{transform:translateY(-4px) scaleY(1.02)}}
+@keyframes codexJump{0%,72%,100%{translate:0 0}78%{translate:28px -46px}84%{translate:52px 0}90%{translate:26px -14px}94%{translate:0 0}}
+@keyframes clawdScuttle{0%,100%{transform:translateX(0)}50%{transform:translateX(-28px)}}
+@keyframes clawdHop{0%,60%,100%{translate:0 0;rotate:0deg}66%{translate:-30px -40px;rotate:-6deg}72%{translate:-58px 0;rotate:0deg}80%{translate:-20px -10px}86%{translate:0 0}}
+.duel-who .face{width:26px;height:26px;border-radius:50%;object-fit:cover;object-position:50% 20%;filter:none!important;margin-left:-2px;border:1px solid var(--b18)}
+@media(max-width:680px){.hero-copy{gap:18px}.roon{height:120px}.stage{height:104px;margin:0 12px}.stage .fighter{height:64px}.stage .clawd-f{height:48px;left:calc(50% + 20px)}.stage .codex-f{left:calc(50% - 100px)}.stage .crowd{height:80px;opacity:.28}.stage .crowd-l{left:2%}.stage .crowd-r{right:2%}}
+@media(prefers-reduced-motion:reduce){.stage .fighter{animation:none}}
+.hero-copy{flex-direction:row;justify-content:flex-start;padding-top:0}
