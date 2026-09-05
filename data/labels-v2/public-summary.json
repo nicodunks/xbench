@@ -22,7 +22,7 @@
       "moved_to_harness": 182
     }
   },
-  "recorded_spend_usd": 59.655,
+  "recorded_spend_usd": 131.81,
   "attention": {
     "definition": "Complete exact-name X count queries over seven adjacent windows; reposts excluded; a post can match more than one model.",
     "models": [

@@ -12,7 +12,7 @@
     "unique_authors": 14454,
     "comments": 14331
   },
-  "recorded_spend_usd": 59.655,
+  "recorded_spend_usd": 131.81,
   "attention": {
     "definition": "Complete exact-name X count queries over seven adjacent windows; reposts excluded; a post can match more than one model.",
     "models": [
@@ -2291,5 +2291,6 @@
       "kimi-k3"
     ],
     "rule": "Exact versioned models only."
-  }
+  },
+  "seed_spend_usd": 59.655
 }

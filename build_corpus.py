@@ -68,6 +68,7 @@ def main():
         for p in kept:
             f.write(json.dumps(p, ensure_ascii=False) + "\n")
     win["window"] = {"start": iso(start), "end": iso(end), "cells": 7, "kind": "rolling_7_cells"}
+    win["recorded_spend_usd"] = round(win.get("seed_spend_usd", 0) + sum(json.loads(Path(p).read_text())["cost_usd"] for p in days if json.loads(Path(p).read_text()).get("complete")), 3)
     win["corpus"] = {"unique_posts": len(kept), "unique_authors": len({p.get("author_id") for p in kept}),
                      "comments": sum(1 for p in kept if p.get("is_comment"))}
     WINDOW.write_text(json.dumps(win, ensure_ascii=False, indent=2) + "\n")
