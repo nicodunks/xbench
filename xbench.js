@@ -198,7 +198,7 @@ function sentimentRows(root, models, evidenceRows, keyField, mode = "firsthand")
         praised.length || knocked.length
           ? `<span class="dims">${praised.length ? `<i>+</i> ${praised.join(", ")}` : ""}${praised.length && knocked.length ? " · " : ""}${knocked.length ? `<u>−</u> ${knocked.join(", ")}` : ""}</span>`
           : "";
-    row.innerHTML = `<div class="sentiment-name"><strong>${label(m.model)}${star}</strong><small>${sub}</small>${dimsLine}</div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div><div class="metric-tail ${netClass}">${pts(net)}%</div></div>`;
+    row.innerHTML = `<div class="sentiment-name"><strong>${icon(m.model)}${label(m.model)}${star}</strong><small>${sub}</small>${dimsLine}</div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div><div class="metric-tail ${netClass}">${pts(net)}%</div></div>`;
     root.append(row);
   });
   if (!list.length)

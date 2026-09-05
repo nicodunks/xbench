@@ -183,3 +183,4 @@ a{color:inherit}
 .daybars{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;align-items:end;margin:10px 0 22px}.day{display:flex;flex-direction:column;align-items:center;gap:6px}.day .cols{display:flex;gap:3px;align-items:flex-end;height:64px;width:100%;justify-content:center}.day .cols i{display:block;width:12px;min-height:1px}.c1{background:var(--signal-blue)}.c2{background:var(--inkc)}.day small{font-size:10.5px;color:var(--b48)}
 .daykey{grid-column:1/-1;display:flex;gap:16px;font-size:11px;color:var(--b48);margin-top:2px}.daykey span{display:flex;align-items:center;gap:6px}.daykey i{display:inline-block;width:12px;height:8px}
 .preference-duel .chooser-result{margin-top:8px}
+.sentiment-name strong img{filter:grayscale(1)!important}

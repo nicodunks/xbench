@@ -229,3 +229,4 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 /* logos in card verdicts; count tag on sankey ribbons */
 .counted-tweet b img{width:13px;height:13px;margin:0 5px -2px 0;filter:grayscale(1) invert(1) brightness(2)}.counted-tweet b em{font-style:normal;color:var(--b48);margin:0 2px}
 .s-tag{pointer-events:none}.s-tag rect{fill:var(--ink);stroke:var(--blue);stroke-width:1}.s-tag text{fill:var(--blue);font:13px XMono,"Andale Mono",monospace}.s-tag .s-tag-n{font-size:20px;font-weight:400}.s-tag .s-tag-who{fill:var(--b70)}.s-ribbon.on{opacity:.85}
+.sentiment-name strong img,.sentiment-name strong .avatar-fallback{width:18px;height:18px;margin:0 9px -3px 0;filter:grayscale(1) invert(1) brightness(2);vertical-align:baseline}
