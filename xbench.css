@@ -308,3 +308,4 @@ h3 .info{margin-left:10px;vertical-align:2px}.manifest span .info{margin-left:6p
 .mural-tags::-webkit-scrollbar{display:none}.mural-tags .who{flex:0 0 auto}
 .mural-card header{flex-wrap:nowrap}.mural-card header>span:not(.mural-tags){max-width:none;flex:1 1 auto}
 @media(max-width:680px){.mural-card p{-webkit-line-clamp:3}}
+.mural-tags{padding-right:0;margin-right:46px;-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 18px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 18px),transparent)}
