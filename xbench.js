@@ -873,7 +873,7 @@ document.addEventListener("click", (e) => {
     const dir = to.x > from.x ? 1 : -1;
     const bubble = from.kind === "bubble";
     if (bubble) { const sz = rnd(7, 15); el.style.width = el.style.height = sz + "px"; }
-    const s = { el, x: from.x * W() + fw / 2 + dir * fw * (0.35 + k * 0.03), y: from.y + fh * (bubble ? rnd(0.3, 0.7) : 0.55), vx: dir * (bubble ? rnd(130, 220) : 520), vy: bubble ? rnd(-15, 45) : 0, life: 2.2, to, kind: from.kind, ph: rnd(0, 6) };
+    const s = { el, x: from.x * W() + fw / 2 + dir * (fw * 0.4 + k * 9), y: from.y + fh * (bubble ? 0.42 + rnd(-0.08, 0.08) : 0.55), vx: dir * (bubble ? rnd(300, 380) : 520), vy: bubble ? rnd(-6, 14) : 0, life: bubble ? 4 : 2.2, to, kind: from.kind, ph: rnd(0, 6) };
     shots.push(s);
   }
   let stop = 0;
@@ -921,16 +921,16 @@ document.addEventListener("click", (e) => {
     for (let i = shots.length - 1; i >= 0; i--) {
       const s = shots[i];
       s.x += s.vx * dt; s.y += s.vy * dt; s.life -= dt;
-      if (s.kind === "bubble") s.x += Math.sin(now / 180 + s.ph) * 26 * dt;
+      if (s.kind === "bubble") s.y += Math.sin(now / 140 + s.ph) * 12 * dt;
       s.el.style.transform = `translate(${s.x}px, ${-s.y}px)`;
       const t = s.to, tx = t.x * w, tw = t.el.offsetWidth, th = t.el.offsetHeight;
       const hit = s.x > tx + tw * 0.2 && s.x < tx + tw * 0.8 && s.y > t.y && s.y < t.y + th;
-      if (hit || s.life <= 0 || s.x < -60 || s.x > w + 60) {
+      if (hit || s.life <= 0 || s.x < -80 || s.x > w + 80) {
         if (hit) {
           t.el.classList.add("hit"); setTimeout(() => t.el.classList.remove("hit"), 180);
           t.vy = t.y === 0 ? 180 : t.vy;
           t.x += Math.sign(s.vx) * (s.kind === "laser" ? 0.03 : 0.008);
-          impact(s.x, s.y, s.kind === "laser");
+
         }
         s.el.remove(); shots.splice(i, 1);
       }

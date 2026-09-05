@@ -170,5 +170,4 @@ a{color:inherit}
 .impact:after{content:"";position:absolute;inset:8px;background:var(--paper);clip-path:inherit}
 .impact.big{width:56px;height:56px;margin:-28px 0 0 -28px}
 @keyframes impactPop{0%{scale:.3;opacity:1}60%{scale:1.15;opacity:1}100%{scale:1.3;opacity:0}}
-.stage.flash .floor{height:5px}.stage.flash{background:rgba(18,18,18,.04)}
-.stage .fighter.hit{filter:brightness(0) invert(1) contrast(2)}
+.shot.bubble{width:11px;height:11px;border-width:1.5px}
