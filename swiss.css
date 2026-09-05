@@ -202,3 +202,5 @@ a{color:inherit}
 .tug{margin:14px 0 22px}.preference-duel .tug + .duel-title{margin-top:26px;padding-top:22px;border-top:1px solid var(--b18)}
 .dimbars{margin:10px 0 8px}.preference-duel .dimbars + .duel-title{margin-top:26px;padding-top:20px;border-top:1px solid var(--b15)}
 .mural-tags .who img{filter:grayscale(1)!important}.mural-tags .tab.positive{background:var(--signal-blue);border-color:var(--signal-blue);color:var(--paper)}.mural-tags .tab.negative{background:var(--rust);border-color:var(--rust);color:var(--paper)}.mural-tags .tab.mixed{background:var(--grey);border-color:var(--grey);color:var(--inkc)}.mural-card .mural-tags em.tab{display:inline-block}
+/* Claude Code side of the duel in rust */
+.tug b.cc{color:var(--rust)}.tug-bar{background:var(--rust)}.dimrow .dr i{background:var(--rust)}.dimrow b:last-child{color:var(--rust)}.c2{background:var(--rust)}

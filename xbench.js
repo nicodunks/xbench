@@ -638,7 +638,7 @@ function harnessDuel(h, rows) {
     pct = n ? Math.round((cx / n) * 100) : 0;
   $("#harnessDuel").innerHTML = `
     <p class="duel-title">direct head-to-head, people who used both</p>
-    <div class="tug"><span class="duel-who">Codex</span><b class="positive">${cx}</b><div class="tug-bar"><i style="width:${pct}%"></i></div><b>${cc}</b><span class="duel-who">Claude Code</span></div>
+    <div class="tug"><span class="duel-who">Codex</span><b class="positive">${cx}</b><div class="tug-bar"><i style="width:${pct}%"></i></div><b class="cc">${cc}</b><span class="duel-who">Claude Code</span></div>
     <p class="duel-title">what each one wins on</p>
     <div class="dimbars">${byDim.map((x) => `<div class="dimrow"><b>${x.cx}</b><div class="dl"><i style="width:${(x.cx / dimMax) * 100}%"></i></div><span>${dimName("harness", x.d)}</span><div class="dr"><i style="width:${(x.cc / dimMax) * 100}%"></i></div><b>${x.cc}</b></div>`).join("")}</div>
     <p class="duel-title">votes by day</p>
@@ -677,7 +677,7 @@ function mural(rows) {
         current.outerHTML = c(posts[cursor % posts.length], i, true);
         cursor++;
       }, 260);
-    }, 3400);
+    }, 5100);
   }
 }
 
@@ -822,7 +822,6 @@ async function init() {
       $("#switchEvidence"),
       $("#switchEvidenceLabel"),
     );
-    $("#switchingCount").textContent = `${summary.switching.verified_completed_switches} completed`;
     renderCards($("#switchEvidence"), (ev.switching || []).sort(byDate), "switching");
     const h = summary.harnesses || {};
     if ($("#harnessRows")) sentimentRows($("#harnessRows"), h.sentiment, ev.harness_sentiment || [], "harness");
