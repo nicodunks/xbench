@@ -1,6 +1,6 @@
 # Xbench
 
-**Measuring the Mandate of Heaven.** Seven days of firsthand opinion on X about frontier AI models and the coding harnesses people run them in.
+**Measuring the Mandate of Heaven.** Firsthand opinion on X about frontier AI models and the coding harnesses people run them in. The page currently runs from the launch of Claude Opus 5.5 (Sep 22, 2026); see [`LAUNCHES.md`](LAUNCHES.md).
 
 Live: https://nicodunks.github.io/xbench/
 Repo: https://github.com/nicodunks/xbench
@@ -13,11 +13,11 @@ The page is static. Run it locally with:
 python3 -m http.server 4173
 ```
 
-and open `http://127.0.0.1:4173/`. Everything the page shows comes from `index.html`, `xbench.css`, `swiss.css`, `xbench.js` and two JSON files under `data/labels-v2/`: `public-summary.json` (every chart) and `public-evidence.json` (every counted post, with its reason and a link back to X).
+and open `http://127.0.0.1:4173/`. Everything the page shows comes from `index.html`, `xbench.css`, `swiss.css`, `xbench.js` and two JSON files under `data/labels-v3/`: `public-summary.json` (every chart) and `public-evidence.json` (every counted post, with its reason and a link back to X). The first release, the seven days the post below describes, stays in `data/labels-v2/`.
 
-The pipeline pulls posts from the official X API, labels every post with a language model working from [`AGENT_CLASSIFICATION_PROMPT.md`](AGENT_CLASSIFICATION_PROMPT.md), has a reviewer re-read the flagged ones, and aggregates with `build_release_v2.py`. The raw corpus stays in `data/private/`, which is ignored. Every label for every post is public by id, so any number on the page can be audited. To run a collection day or a labeling pass, see [`X_API_GUIDE.md`](X_API_GUIDE.md) and [`AGENT_LABELING_GUIDE.md`](AGENT_LABELING_GUIDE.md). Contributions go through [CONTRIBUTING.md](CONTRIBUTING.md); the most useful one is a disputed label with the post link. MIT for the code, post texts belong to their authors, see [LICENSE](LICENSE).
+The pipeline pulls posts from the official X API, labels every post with a language model working from [`AGENT_CLASSIFICATION_PROMPT.md`](AGENT_CLASSIFICATION_PROMPT.md), has a reviewer re-read the flagged ones, and aggregates with `build_release_v2.py` (first release) or `build_launch.py` (the Opus 5.5 window, which also audits every firsthand line; see [`LAUNCHES.md`](LAUNCHES.md)). The raw corpus stays in `data/private/`, which is ignored. Every label for every post is public by id, so any number on the page can be audited. To run a collection day or a labeling pass, see [`X_API_GUIDE.md`](X_API_GUIDE.md) and [`AGENT_LABELING_GUIDE.md`](AGENT_LABELING_GUIDE.md). Contributions go through [CONTRIBUTING.md](CONTRIBUTING.md); the most useful one is a disputed label with the post link. MIT for the code, post texts belong to their authors, see [LICENSE](LICENSE).
 
-The write-up below is the original post, reproduced as written.
+The write-up below is the original post about the first release, reproduced as written; its numbers are the first release's.
 
 ---
 

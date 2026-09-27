@@ -1,11 +1,16 @@
-const DATA_V = "2026-09-05a";
+const DATA_V = "2026-09-27a";
+const DATA_DIR = "data/labels-v3/";
 const X_MARK = '<svg class="xmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 const $ = (s) => document.querySelector(s),
   NS = "http://www.w3.org/2000/svg";
 const names = {
   "claude-fable-5.1": "Claude Fable 5.1",
   "claude-opus-5": "Claude Opus 5",
-  "gpt-6-astra": "GPT-6 Astra*",
+  "claude-opus-5.5": "Claude Opus 5.5",
+  "gpt-6-sol": "GPT-6 Sol",
+  "gpt-6-luna": "GPT-6 Luna",
+  "grok-4.7": "Grok 4.7",
+  "gpt-6-astra": "GPT-6 Astra",
   "gpt-5.6-sol": "GPT-5.6 Sol",
   "gpt-5.6-luna": "GPT-5.6 Luna",
   "muse-spark-1.3": "Muse Spark 1.3",
@@ -32,6 +37,10 @@ const names = {
 const logos = {
   "claude-fable-5.1": "anthropic",
   "claude-opus-5": "anthropic",
+  "claude-opus-5.5": "anthropic",
+  "gpt-6-sol": "openai",
+  "gpt-6-luna": "openai",
+  "grok-4.7": "xai",
   "gpt-6-astra": "openai",
   "gpt-5.6-sol": "openai",
   "gpt-5.6-luna": "openai",
@@ -55,19 +64,21 @@ const logos = {
   muse: "meta",
 };
 const modelOrder = [
-  "claude-fable-5.1",
+  "claude-opus-5.5",
   "claude-opus-5",
+  "claude-fable-5.1",
+  "gpt-6-sol",
+  "gpt-6-luna",
   "gpt-6-astra",
   "gpt-5.6-sol",
   "gpt-5.6-luna",
-  "muse-spark-1.3",
-  "muse-spark-1.2",
-  "gemini-3.8-flash",
-  "gemini-3.7-flash",
+  "grok-4.7",
   "grok-4.6",
+  "gemini-3.8-flash",
   "glm-5.3",
   "glm-5.3-flash",
   "kimi-k3",
+  "muse-spark-1.3",
 ];
 const harnessAll = new Set(["claude_code", "codex", "opencode", "pi", "grokbot"]);
 const harnessOrder = ["claude_code", "codex", "grokbot"];
@@ -681,6 +692,223 @@ function mural(rows) {
   }
 }
 
+/* ---------- featured: Opus 5.5, twelve hours at a time ---------- */
+// Dated from the posts that announced them (snowflake ids decode to the minute); Artificial Analysis has only a report date.
+const EVENTS = [
+  { at: "2026-09-25T12:00:00Z", label: "Artificial Analysis #1", url: "https://www.heise.de/en/news/External-benchmarks-Claude-Opus-5-5-overtakes-OpenAI-s-Astra-and-Fable-5-1-11466259.html", approx: true },
+  { at: "2026-09-26T12:34:04Z", label: "NerfBench announced", url: "https://x.com/i/web/status/2103825430189109688", strip: true },
+  { at: "2026-09-26T17:02:36Z", label: "Arena #1", url: "https://x.com/arena/status/2103893011164017018" },
+  { at: "2026-09-27T16:10:38Z", label: "NerfBench: 99.2% of launch", url: "https://x.com/i/web/status/2104242319037804728", strip: true },
+];
+// The other lines the switcher can show, with the moments that matter to them.
+const TREND_EVENTS = {
+  "gpt-6-astra": [
+    { at: "2026-09-22T16:31:03Z", label: "Opus 5.5 ships", url: "https://x.com/claudeai/status/2102435517165912464" },
+    { at: "2026-09-26T17:02:36Z", label: "Arena #1 goes to Opus 5.5", url: "https://x.com/arena/status/2103893011164017018" },
+    { at: "2026-09-27T16:10:38Z", label: "NerfBench: Astra 102.8%", url: "https://x.com/i/web/status/2104242319037804728" },
+  ],
+};
+function featured(summary, ev) {
+  const F = summary.launch.featured,
+    focusId = summary.launch.focus,
+    focus = summary.sentiment.models.find((m) => m.model === focusId),
+    firstXb = (id) => (summary.launch.then_now && id === focusId ? summary.launch.then_now.opus_5_then.net_sentiment : F.trends?.[id]?.first_xbench),
+    sets = [
+      { id: focusId, curve: F.curve, start: summary.launch.t0, nerf: true, events: EVENTS,
+        ref: { v: F.reference.opus_5_first_xbench, t: `Opus 5, first Xbench` },
+        avg: { v: F.reference.opus_5_5_window, t: "five-day net" }, rows: (ev.sentiment || []).filter((r) => r.model === focusId && r.firsthand) },
+      ...Object.entries(F.trends || {}).map(([id, t]) => ({ id, curve: t.curve, start: t.start, nerf: false, events: TREND_EVENTS[id] || [],
+        ref: { v: t.first_xbench, t: `${label(id).replace(/^GPT-6 |^Claude /, "")}, first Xbench` }, avg: { v: t.overall.net_sentiment, t: "seven-day net" }, overall: t.overall,
+        rows: (ev.featured_trends || []).filter((r) => r.model === id) })),
+    ];
+  const sw = $("#featuredSwitch"),
+    pick = Math.max(0, sets.findIndex((x) => location.hash === `#featured-${x.id}`)); // e.g. #featured-gpt-6-astra
+  sw.innerHTML = sets.map((x, i) => `<button class="${i === pick ? "on" : ""}" data-i="${i}">${icon(x.id)}${label(x.id).replace("Claude ", "")}</button>`).join("");
+  sw.onclick = (e) => {
+    const bt = e.target.closest("button");
+    if (!bt) return;
+    [...sw.children].forEach((x) => x.classList.toggle("on", x === bt));
+    draw(sets[+bt.dataset.i]);
+    history.replaceState(null, "", +bt.dataset.i ? `#featured-${sets[+bt.dataset.i].id}` : "#opus");
+  };
+  draw(sets[pick]);
+  if (pick) $("#opus").scrollIntoView();
+
+  function draw(S) {
+  const curve = S.curve,
+    nerf = F.nerf.buckets,
+    t0 = new Date(S.start).getTime(),
+    svg = $("#featuredChart"),
+    W = 1180, L = 64, R = 170, T = 34, H1 = 300, G = 54, H2 = 104, B = 40,
+    H = T + H1 + G + H2 + B,
+    lo = -0.5, hi = 1,
+    hours = (curve.length * F.step_hours),
+    X = (h) => L + (h / hours) * (W - L - R),
+    Y = (v) => T + ((hi - v) / (hi - lo)) * H1,
+    mid = (b) => (new Date(b.start).getTime() + new Date(b.end).getTime()) / 2,
+    hx = (ms) => X((ms - t0) / 36e5),
+    ok = curve.filter((b) => b.n >= 12 && b.net_sentiment != null),
+    dayFmt = (ms) => new Date(ms).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = '<defs><linearGradient id="fBand" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2b4bd6" stop-opacity=".16"/><stop offset="1" stop-color="#2b4bd6" stop-opacity=".07"/></linearGradient></defs>';
+  // grid: sentiment ticks, day boundaries
+  [-0.5, 0, 0.5, 1].forEach((v) => {
+    svg.append(el("line", { x1: L, x2: W - R, y1: Y(v), y2: Y(v), class: v === 0 ? "f-zero" : "f-grid" }));
+    addText(svg, L - 12, Y(v) + 4, pts(v), v === 0 ? "f-axis strong" : "f-axis", "end");
+  });
+  for (let h = 0; h <= hours; h += 24) {
+    const x = X(h);
+    svg.append(el("line", { x1: x, x2: x, y1: T, y2: T + H1 + G + H2, class: "f-day" }));
+    if (h < hours) addText(svg, x + 6, T + H1 + G + H2 + 22, h === 0 && S.nerf ? `launch · ${dayFmt(t0)}` : dayFmt(t0 + h * 36e5), h === 0 ? "f-axis strong" : "f-axis");
+  }
+  // references
+  const refLine = (v, cls, text) => {
+    if (v == null) return;
+    svg.append(el("line", { x1: L, x2: W - R, y1: Y(v), y2: Y(v), class: cls }));
+    addText(svg, W - R + 12, Y(v) + 4, text, cls + "-t");
+  };
+  refLine(S.ref.v, "f-ref-rust", `${S.ref.t} ${pts(S.ref.v)}`);
+  refLine(S.avg.v, "f-ref-ink", `${S.avg.t} ${pts(S.avg.v)}`);
+  // events: benchmark and launch moments mark the sentiment panel; NerfBench marks the nerf strip, where its question lives
+  const placed = []; // label rows: a label that would run into the one before it drops a row
+  S.events.forEach((e) => {
+    const x = hx(new Date(e.at).getTime());
+    if (x < L || x > W - R) return;
+    const lane = e.strip ? "s" : "m", prev = placed.filter((p) => p.lane === lane && x - p.x < 190);
+    const row = prev.length ? Math.max(...prev.map((p) => p.row)) + 1 : 0;
+    placed.push({ x, lane, row });
+    const top = (e.strip ? T + H1 + G + 4 : T - 10) + row * 16, bottom = e.strip ? T + H1 + G + H2 : T + H1, ty = top + (e.strip ? 4 : 4);
+    svg.append(el("line", { x1: x, x2: x, y1: top, y2: bottom, class: `f-event${e.approx ? " approx" : ""}` }));
+    svg.append(el("circle", { cx: x, cy: top, r: 3, class: "f-event-dot" }));
+    const a = el("a", { href: e.url, target: "_blank", rel: "noreferrer" });
+    const t = el("text", { x: x + 7, y: ty, class: "f-event-t" });
+    t.textContent = e.label + (e.approx ? " (reported)" : "");
+    a.append(t); svg.append(a);
+  });
+  // band and line (monotone cubic through bucket midpoints)
+  const P = ok.map((b) => [hx(mid(b)), Y(b.net_sentiment)]);
+  const band = ok.filter((b) => b.low != null);
+  if (band.length > 1) {
+    const up = band.map((b) => `${hx(mid(b)).toFixed(1)},${Y(b.high).toFixed(1)}`),
+      dn = band.slice().reverse().map((b) => `${hx(mid(b)).toFixed(1)},${Y(b.low).toFixed(1)}`);
+    svg.append(el("path", { d: `M${up.join("L")}L${dn.join("L")}Z`, class: "f-band" }));
+  }
+  const mono = (p) => {
+    if (p.length < 3) return p.length ? "M" + p.map((q) => q.join(",")).join("L") : "";
+    const n = p.length, d = [], m = [];
+    for (let i = 0; i < n - 1; i++) d.push((p[i + 1][1] - p[i][1]) / (p[i + 1][0] - p[i][0]));
+    m.push(d[0]);
+    for (let i = 1; i < n - 1; i++) m.push(d[i - 1] * d[i] <= 0 ? 0 : (d[i - 1] + d[i]) / 2);
+    m.push(d[n - 2]);
+    for (let i = 0; i < n - 1; i++) {
+      if (d[i] === 0) { m[i] = m[i + 1] = 0; continue; }
+      const a = m[i] / d[i], b = m[i + 1] / d[i], s = a * a + b * b;
+      if (s > 9) { const t = 3 / Math.sqrt(s); m[i] = t * a * d[i]; m[i + 1] = t * b * d[i]; }
+    }
+    let path = `M${p[0][0].toFixed(1)},${p[0][1].toFixed(1)}`;
+    for (let i = 0; i < n - 1; i++) {
+      const dx = (p[i + 1][0] - p[i][0]) / 3;
+      path += `C${(p[i][0] + dx).toFixed(1)},${(p[i][1] + m[i] * dx).toFixed(1)} ${(p[i + 1][0] - dx).toFixed(1)},${(p[i + 1][1] - m[i + 1] * dx).toFixed(1)} ${p[i + 1][0].toFixed(1)},${p[i + 1][1].toFixed(1)}`;
+    }
+    return path;
+  };
+  svg.append(el("path", { d: mono(P), class: "f-line" }));
+  const maxN = Math.max(...ok.map((b) => b.n), 1);
+  ok.forEach((b, i) => {
+    svg.append(el("circle", { cx: P[i][0], cy: P[i][1], r: 3 + 5 * Math.sqrt(b.n / maxN), class: `f-pt${b.partial ? " partial" : ""}` }));
+  });
+  const last = ok[ok.length - 1];
+  if (last) addText(svg, P[P.length - 1][0] + 12, P[P.length - 1][1] - 10, pts(last.net_sentiment), "f-last");
+  // nerf strip (Opus 5.5 only: its nerf claims were read one by one)
+  const y2 = T + H1 + G, maxC = Math.max(4, ...nerf.map((b) => Math.max(b.claims, b.fears || 0))), bw = ((W - L - R) / curve.length) * 0.3;
+  svg.append(el("line", { x1: L, x2: W - R, y1: y2 + H2, y2: y2 + H2, class: "f-zero" }));
+  if (S.nerf) {
+    addText(svg, L, y2 - 16, "“Did they nerf it?” · people per 12 hours", "f-strip-t");
+    svg.append(el("rect", { x: L + 300, y: y2 - 26, width: 10, height: 10, class: "f-nerf" }));
+    addText(svg, L + 316, y2 - 17, "say it got worse since launch", "f-axis");
+    svg.append(el("rect", { x: L + 520, y: y2 - 26, width: 10, height: 10, class: "f-fear" }));
+    addText(svg, L + 536, y2 - 17, "fear it will", "f-axis");
+    nerf.forEach((b, i) => {
+      const cx = X(i * F.step_hours + F.step_hours / 2), h = (b.claims / maxC) * (H2 - 18), hf = ((b.fears || 0) / maxC) * (H2 - 18);
+      if (b.fears) svg.append(el("rect", { x: cx + 1, y: y2 + H2 - hf, width: bw, height: hf, class: "f-fear" }));
+      if (b.claims) {
+        svg.append(el("rect", { x: cx - bw - 1, y: y2 + H2 - h, width: bw, height: h, class: "f-nerf", "data-i": i }));
+        addText(svg, cx - bw / 2 - 1, y2 + H2 - h - 6, String(b.claims), "f-nerf-t", "middle");
+      }
+      if (!b.claims && !b.fears) svg.append(el("circle", { cx, cy: y2 + H2 - 3, r: 1.6, class: "f-nerf-zero" }));
+    });
+  } else {
+    // people heard per twelve hours, so a thin stretch of the line reads as thin
+    const maxP = Math.max(1, ...curve.map((b) => b.n));
+    addText(svg, L, y2 - 16, "People heard firsthand · per 12 hours", "f-strip-t");
+    curve.forEach((b, i) => {
+      const cx = X(i * F.step_hours + F.step_hours / 2), h = (b.n / maxP) * (H2 - 18);
+      if (b.n) svg.append(el("rect", { x: cx - bw / 2, y: y2 + H2 - h, width: bw, height: h, class: `f-people${b.n < 12 ? " thin" : ""}` }));
+      if (b.n) addText(svg, cx, y2 + H2 - h - 6, String(b.n), "f-people-t", "middle");
+    });
+  }
+  // hover and click
+  const cross = el("line", { y1: T - 4, y2: T + H1 + G + H2, class: "f-cross", visibility: "hidden" });
+  svg.append(cross);
+  const hit = el("rect", { x: L, y: T - 4, width: W - L - R, height: H1 + G + H2 + 4, fill: "transparent", class: "f-hit" });
+  svg.append(hit);
+  const tip = $("#featuredTip"), cardsRoot = $("#featuredEvidence"), lab = $("#featuredEvidenceLabel");
+  const at = (e) => {
+    const r = svg.getBoundingClientRect(), x = ((e.clientX - r.left) / r.width) * W;
+    return Math.max(0, Math.min(curve.length - 1, Math.floor(((x - L) / (W - L - R)) * curve.length)));
+  };
+  hit.addEventListener("mousemove", (e) => {
+    const i = at(e), b = curve[i], nb = nerf[i], x = X(i * F.step_hours + F.step_hours / 2);
+    cross.setAttribute("x1", x); cross.setAttribute("x2", x); cross.setAttribute("visibility", "visible");
+    const when = `${dayFmt(new Date(b.start).getTime())} ${b.start.slice(11, 16)}–${b.end.slice(11, 16)} UTC`;
+    const asp = (a, s) => a.slice(0, 2).map(([t]) => `<span class="${s}">${s === "up" ? "+" : "−"} ${esc(t)}</span>`).join("");
+    const foot = S.nerf && nb ? `<em>${nb.claims} say it got worse${nb.fears ? ` · ${nb.fears} fear it will` : ""}${nb.asks ? ` · ${nb.asks} asking` : ""}</em>` : "";
+    tip.innerHTML = `<b>${label(S.id)} · ${when}${b.partial ? " · so far" : ""}</b><strong class="${b.net_sentiment > 0 ? "positive" : "negative"}">${b.n >= 12 ? pts(b.net_sentiment) : "—"}</strong><small>${b.n} people · ${b.positive} + / ${b.mixed} ~ / ${b.negative} −${b.low != null ? ` · 95% ${pts(b.low)} to ${pts(b.high)}` : ""}</small>${asp(b.top_positive, "up")}${asp(b.top_negative, "down")}${foot}`;
+    tip.hidden = false;
+    const pr = svg.parentElement.getBoundingClientRect(), left = e.clientX - pr.left;
+    tip.style.left = `${Math.min(left + 18, pr.width - tip.offsetWidth - 8)}px`;
+    tip.style.top = `${Math.max(8, e.clientY - pr.top - tip.offsetHeight - 14)}px`;
+  });
+  hit.addEventListener("mouseleave", () => { cross.setAttribute("visibility", "hidden"); tip.hidden = true; });
+  hit.addEventListener("click", (e) => {
+    const i = at(e), b = curve[i], s = new Date(b.start), en = new Date(b.end);
+    const inBucket = (r) => { const t = new Date(r.created_at); return t >= s && t < en; };
+    const claims = S.nerf ? F.nerf.claims.filter((c) => c.kind === "claim" && inBucket(c)) : [];
+    const rows = S.rows.filter(inBucket).sort(byDate);
+    lab.textContent = `${label(S.id)} · ${dayFmt(s.getTime())} ${b.start.slice(11, 16)}–${b.end.slice(11, 16)} UTC · ${rows.length} firsthand${claims.length ? ` · ${claims.length} nerf claims first` : ""} · opens on X ↗`;
+    cardsRoot.innerHTML = claims.map(nerfCard).join("") + rows.slice(0, 40).map((p) => card(p, "sentiment")).join("") || '<div class="evidence-empty">No firsthand posts in these twelve hours.</div>';
+  });
+  // facts
+  const first = ok[0], lowest = ok.reduce((m, b) => (b.net_sentiment < m.net_sentiment ? b : m), ok[0] || {});
+  const lowFact = `<div><span>lowest twelve hours</span><strong>${lowest?.net_sentiment != null ? pts(lowest.net_sentiment) : "—"}</strong><small>${lowest?.start ? `${dayFmt(new Date(lowest.start).getTime())}, ${lowest.start.slice(11, 16)} UTC` : ""}</small></div>`;
+  const cls = (v) => (v > 0.05 ? "positive" : v < -0.05 ? "negative" : "");
+  if (S.nerf) {
+    const f = focus.firsthand, rank = summary.sentiment.models.filter((m) => m.firsthand.n >= 30 && m.firsthand.net_sentiment != null)
+      .sort((a, b) => b.firsthand.net_sentiment - a.firsthand.net_sentiment).findIndex((m) => m.model === focus.model) + 1;
+    $("#featuredFacts").innerHTML = `
+      <div><span>net since launch</span><strong class="positive">${pts(f.net_sentiment)}</strong><small>${f.n} people firsthand · #${rank || "—"} of the models on this page</small></div>
+      <div><span>launch day → latest</span><strong>${first ? pts(first.net_sentiment) : "—"} → ${last ? pts(last.net_sentiment) : "—"}</strong><small>twelve-hour steps with at least twelve people</small></div>
+      ${lowFact}
+      <div><span>said it got nerfed</span><strong class="negative">${new Set(F.nerf.claims.filter((c) => c.kind === "claim").map((c) => c.post_id)).size}</strong><small>of ${fmt(nerf.reduce((a, b) => a + b.speakers, 0))} people posting about it · ${F.nerf.claims.filter((c) => c.kind === "denies").length} said it wasn't</small></div>`;
+    const opening = F.nerf.claims.filter((c) => c.kind === "claim").sort(byDate);
+    lab.textContent = opening.length ? "every nerf claim, newest first · click the chart for any twelve hours · opens on X ↗" : "click the chart for any twelve hours · opens on X ↗";
+    cardsRoot.innerHTML = opening.map(nerfCard).join("") || '<div class="evidence-empty">No one has claimed a nerf yet. Click the chart for any twelve hours.</div>';
+  } else {
+    const o = S.overall;
+    $("#featuredFacts").innerHTML = `
+      <div><span>net, last seven days</span><strong class="${cls(o.net_sentiment)}">${pts(o.net_sentiment)}</strong><small>${o.n} people firsthand, from ${label(S.id)}'s own name search</small></div>
+      <div><span>seven days ago → latest</span><strong>${first ? pts(first.net_sentiment) : "—"} → ${last ? pts(last.net_sentiment) : "—"}</strong><small>twelve-hour steps with at least twelve people</small></div>
+      ${lowFact}
+      <div><span>on the first Xbench</span><strong class="${cls(S.ref.v)}">${pts(S.ref.v)}</strong><small>Aug 29 to Sep 5, the week it launched</small></div>`;
+    lab.textContent = `${label(S.id)} · click the chart for any twelve hours · opens on X ↗`;
+    cardsRoot.innerHTML = S.rows.slice().sort(byDate).slice(0, 30).map((p) => card(p, "sentiment")).join("") || '<div class="evidence-empty">No firsthand posts.</div>';
+  }
+  }
+}
+function nerfCard(c) {
+  return `<a class="counted-tweet" href="${c.url}" target="_blank" rel="noreferrer"><header><span><b>${icon("claude-opus-5.5")}Opus 5.5 · <em class="nerf-tag">${{ claim: "says it got worse", fears: "fears a nerf", asks: "asking", denies: "says it didn't" }[c.kind]}</em>${c.firsthand ? " · firsthand" : ""}</b><small>${new Date(c.created_at).toLocaleString()}</small></span></header><p>${esc(c.text)}</p>${c.quote ? `<p class="why">“${esc(c.quote)}”</p>` : ""}<span class="open" aria-hidden="true">${X_MARK}<i>↗</i></span></a>`;
+}
+
 /* ---------- method ---------- */
 function method(s, ev) {
   const c = s.corpus || {},
@@ -740,9 +968,9 @@ async function init() {
     .join("");
   try {
     const [summary, ev, hero] = await Promise.all([
-      fetch("data/labels-v2/public-summary.json?v=" + DATA_V).then((r) => r.json()),
-      fetch("data/labels-v2/public-evidence.json?v=" + DATA_V).then((r) => r.json()),
-      fetch("data/labels-v2/hero.json?v=" + DATA_V).then((r) => (r.ok ? r.json() : { posts: [] })).catch(() => ({ posts: [] })),
+      fetch(DATA_DIR + "public-summary.json?v=" + DATA_V).then((r) => r.json()),
+      fetch(DATA_DIR + "public-evidence.json?v=" + DATA_V).then((r) => r.json()),
+      fetch(DATA_DIR + "hero.json?v=" + DATA_V).then((r) => (r.ok ? r.json() : { posts: [] })).catch(() => ({ posts: [] })),
     ]);
     EV = ev;
     DIMS = summary.dimensions || DIMS;
@@ -772,10 +1000,10 @@ async function init() {
       drawModels(b.dataset.mode);
     };
     radar($("#radarModels"), $("#radarModelsLegend"), summary.sentiment.models, "model", [
+      "claude-opus-5.5",
+      "gpt-6-sol",
+      "gpt-6-astra",
       "claude-fable-5.1",
-      "gpt-5.6-sol",
-      "glm-5.3-flash",
-      "grok-4.6",
     ]);
     radar(
       $("#radarHarness"),
@@ -865,6 +1093,7 @@ async function init() {
       renderCards($("#harnessSwitchEvidence"), hs.sort(byDate), "switching");
     }
     method(summary, ev);
+    if (summary.launch?.featured) featured(summary, ev);
     const byPost = new Map();
     for (const r of [...(ev.sentiment || []), ...(ev.harness_sentiment || [])]) {
       if (!r.firsthand) continue;

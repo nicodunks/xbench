@@ -41,6 +41,17 @@ python3 validate_labels.py && python3 validate_aspect_map.py && python3 validate
 any override targets an unknown post, or any public file carries an author
 field.
 
+## The Opus 5.5 window
+
+Labels for the current window live in `data/launches/labels/`, reviewer
+overrides in `data/launches/overrides/` (append a full record; the last line
+for a post wins). Check and rebuild with:
+
+```bash
+python3 validate_launch_labels.py && python3 validate_launch_labels.py --overrides \
+  && python3 align_launch_labels.py; python3 nerf_candidates.py --validate && python3 build_launch.py
+```
+
 ## Add a model or harness
 
 1. Add the canonical id to `AGENT_CLASSIFICATION_PROMPT.md` (models are exact
@@ -57,7 +68,7 @@ python3 -m http.server 4173
 ```
 
 Then open `http://127.0.0.1:4173/`. The page fetches the two JSON files in
-`data/labels-v2/`, so it needs a server rather than `file://`.
+`data/labels-v3/`, so it needs a server rather than `file://`.
 
 ## Style
 

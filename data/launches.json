@@ -1,0 +1,330 @@
+{
+ "note": "Launch moments (t0, UTC) and the exact-name query used for counts and samples. t0_source says how t0 was fixed: an official post's snowflake id, a vendor-stated time, or the first hour of the volume spike in counts/all.",
+ "launches": [
+  {
+   "id": "opus-5.5",
+   "name": "Claude Opus 5.5",
+   "vendor": "anthropic",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "snowflake of @claudeai announcement 2102435517165912464",
+   "query": "(\"Opus 5.5\" OR \"Opus-5.5\" OR \"claude-opus-5-5\" OR \"Opus5.5\")",
+   "hint": "opus",
+   "role": "focus",
+   "extra_roots": [
+    "2102435517165912464",
+    "2102438803013333469"
+   ],
+   "cohort_terms": "(Opus OR Claude OR \"Claude Code\")"
+  },
+  {
+   "id": "gpt-6-sol",
+   "name": "GPT-6 Sol",
+   "vendor": "openai",
+   "t0": "2026-09-22T17:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"GPT-6 Sol\" OR \"GPT 6 Sol\" OR \"GPT6 Sol\" OR \"GPT-6-Sol\")",
+   "hint": "sol",
+   "role": "rival"
+  },
+  {
+   "id": "claude-code-post",
+   "name": "Claude Code (after Opus 5.5)",
+   "vendor": "anthropic",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch; Claude Code switched its default model and raised limits the same day",
+   "query": "(\"Claude Code\")",
+   "hint": "claude code",
+   "role": "harness"
+  },
+  {
+   "id": "gpt-6-luna",
+   "name": "GPT-6 Luna",
+   "vendor": "openai",
+   "t0": "2026-09-22T17:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"GPT-6 Luna\" OR \"GPT 6 Luna\" OR \"GPT6 Luna\" OR \"GPT-6-Luna\")",
+   "hint": "luna",
+   "role": "attention"
+  },
+  {
+   "id": "grok-4.7",
+   "name": "Grok 4.7",
+   "vendor": "xai",
+   "t0": "2026-09-21T15:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"Grok 4.7\" OR \"Grok-4.7\")",
+   "hint": "grok",
+   "role": "attention"
+  },
+  {
+   "id": "claude-opus-5",
+   "name": "Claude Opus 5",
+   "vendor": "anthropic",
+   "t0": "2026-07-24T17:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"Claude Opus 5\" OR \"Opus 5\")",
+   "hint": "opus",
+   "role": "anchor"
+  },
+  {
+   "id": "claude-fable-5.1",
+   "name": "Claude Fable 5.1",
+   "vendor": "anthropic",
+   "t0": "2026-09-01T18:00:00Z",
+   "t0_source": "release moment in the v2 contract",
+   "query": "(\"Claude Fable 5.1\" OR \"Fable 5.1\")",
+   "hint": "fable",
+   "role": "peer"
+  },
+  {
+   "id": "gpt-6-astra",
+   "name": "GPT-6 Astra",
+   "vendor": "openai",
+   "t0": "2026-09-03T19:00:00Z",
+   "t0_source": "release moment in the v2 contract",
+   "query": "(\"GPT-6 Astra\" OR \"GPT 6 Astra\")",
+   "hint": "astra",
+   "role": "peer"
+  },
+  {
+   "id": "gemini-3.8-flash",
+   "name": "Gemini 3.8 Flash",
+   "vendor": "google",
+   "t0": "2026-09-02T04:00:00Z",
+   "t0_source": "release moment in the v2 contract",
+   "query": "(\"Gemini 3.8 Flash\" OR \"Gemini Flash 3.8\")",
+   "hint": "gemini",
+   "role": "peer"
+  },
+  {
+   "id": "muse-spark-1.3",
+   "name": "Muse Spark 1.3",
+   "vendor": "meta",
+   "t0": "2026-09-02T20:20:00Z",
+   "t0_source": "release moment in the v2 contract",
+   "query": "(\"Muse Spark 1.3\" OR \"MuseSpark 1.3\")",
+   "hint": "muse",
+   "role": "peer"
+  },
+  {
+   "id": "claude-opus-4.5",
+   "name": "Claude Opus 4.5",
+   "vendor": "anthropic",
+   "t0": "2025-11-24T19:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"Opus 4.5\" OR \"Claude Opus 4.5\")",
+   "hint": "opus",
+   "role": "attention"
+  },
+  {
+   "id": "gemini-3-pro",
+   "name": "Gemini 3 Pro",
+   "vendor": "google",
+   "t0": "2025-11-18T15:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"Gemini 3 Pro\" OR \"Gemini 3\")",
+   "hint": "gemini",
+   "role": "attention"
+  },
+  {
+   "id": "gpt-5",
+   "name": "GPT-5",
+   "vendor": "openai",
+   "t0": "2025-08-07T17:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"GPT-5\" OR \"GPT5\")",
+   "hint": "gpt",
+   "role": "anchor"
+  },
+  {
+   "id": "claude-3.7-sonnet",
+   "name": "Claude 3.7 Sonnet + Claude Code",
+   "vendor": "anthropic",
+   "t0": "2025-02-24T18:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"Claude 3.7\" OR \"Sonnet 3.7\" OR \"3.7 Sonnet\")",
+   "hint": "3.7",
+   "role": "attention"
+  },
+  {
+   "id": "claude-3.5-sonnet",
+   "name": "Claude 3.5 Sonnet",
+   "vendor": "anthropic",
+   "t0": "2024-06-20T14:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"Claude 3.5 Sonnet\" OR \"Sonnet 3.5\" OR \"3.5 Sonnet\")",
+   "hint": "sonnet",
+   "role": "anchor"
+  },
+  {
+   "id": "gpt-4o",
+   "name": "GPT-4o",
+   "vendor": "openai",
+   "t0": "2024-05-13T17:00:00Z",
+   "t0_source": "first hour of the counts/all spike (volume >= 8x the prior median and >= 15% of peak)",
+   "query": "(\"GPT-4o\" OR \"GPT4o\")",
+   "hint": "4o",
+   "role": "attention"
+  },
+  {
+   "id": "now-claude-opus-5",
+   "name": "claude-opus-5",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Claude Opus 5\" OR \"Opus 5\") -\"Opus 5.5\" -\"Opus-5.5\"",
+   "hint": "claude",
+   "role": "field"
+  },
+  {
+   "id": "now-claude-fable-5.1",
+   "name": "claude-fable-5.1",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Claude Fable 5.1\" OR \"Fable 5.1\")",
+   "hint": "claude",
+   "role": "field"
+  },
+  {
+   "id": "now-gpt-6-astra",
+   "name": "gpt-6-astra",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"GPT-6 Astra\" OR \"GPT 6 Astra\")",
+   "hint": "gpt",
+   "role": "field"
+  },
+  {
+   "id": "now-gpt-6-luna",
+   "name": "gpt-6-luna",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"GPT-6 Luna\" OR \"GPT 6 Luna\" OR \"GPT6 Luna\")",
+   "hint": "gpt",
+   "role": "field"
+  },
+  {
+   "id": "now-gpt-5.6-sol",
+   "name": "gpt-5.6-sol",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"GPT-5.6 Sol\" OR \"GPT 5.6 Sol\" OR \"Sol 5.6\")",
+   "hint": "gpt",
+   "role": "field"
+  },
+  {
+   "id": "now-gpt-5.6-luna",
+   "name": "gpt-5.6-luna",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"GPT-5.6 Luna\" OR \"GPT 5.6 Luna\" OR \"Luna 5.6\")",
+   "hint": "gpt",
+   "role": "field"
+  },
+  {
+   "id": "now-grok-4.7",
+   "name": "grok-4.7",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Grok 4.7\" OR \"Grok-4.7\")",
+   "hint": "grok",
+   "role": "field"
+  },
+  {
+   "id": "now-grok-4.6",
+   "name": "grok-4.6",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Grok 4.6\")",
+   "hint": "grok",
+   "role": "field"
+  },
+  {
+   "id": "now-gemini-3.8-flash",
+   "name": "gemini-3.8-flash",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Gemini 3.8 Flash\" OR \"Gemini Flash 3.8\")",
+   "hint": "gemini",
+   "role": "field"
+  },
+  {
+   "id": "now-glm-5.3",
+   "name": "glm-5.3",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "((\"GLM 5.3\" OR \"GLM-5.3\") -(\"GLM 5.3 Flash\" OR \"GLM-5.3-Flash\"))",
+   "hint": "glm",
+   "role": "field"
+  },
+  {
+   "id": "now-glm-5.3-flash",
+   "name": "glm-5.3-flash",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"GLM 5.3 Flash\" OR \"GLM-5.3-Flash\")",
+   "hint": "glm",
+   "role": "field"
+  },
+  {
+   "id": "now-kimi-k3",
+   "name": "kimi-k3",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Kimi K3\" OR \"Kimi-K3\")",
+   "hint": "kimi",
+   "role": "field"
+  },
+  {
+   "id": "now-muse-spark-1.3",
+   "name": "muse-spark-1.3",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Muse Spark 1.3\" OR \"MuseSpark 1.3\")",
+   "hint": "muse",
+   "role": "field"
+  },
+  {
+   "id": "now-codex",
+   "name": "codex",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(Codex)",
+   "hint": "codex",
+   "role": "field"
+  },
+  {
+   "id": "now-grokbot",
+   "name": "grokbot",
+   "vendor": "",
+   "t0": "2026-09-22T16:31:03Z",
+   "t0_source": "Opus 5.5 launch: the window every model is measured in",
+   "query": "(\"Grok Bot\" OR \"Grok Build\" OR \"grok cli\" OR grokbot)",
+   "hint": "grokbot",
+   "role": "field"
+  },
+  {
+   "id": "trend-gpt-6-astra",
+   "name": "GPT-6 Astra",
+   "vendor": "openai",
+   "t0": "2026-09-20T16:31:03Z",
+   "t0_source": "seven days before the latest post, for the featured trend switcher",
+   "query": "(\"GPT-6 Astra\" OR \"GPT 6 Astra\" OR \"GPT6 Astra\")",
+   "hint": "astra",
+   "role": "trend"
+  }
+ ]
+}
