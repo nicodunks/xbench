@@ -1,0 +1,70 @@
+{"post_id": "2102442734137344180", "origin": "grok-4.7", "destination": "grok-4.6", "timing": "window", "quote": "I rolled back to Grok 4.6 within an hour"}
+{"post_id": "2102850294812209576", "origin": "gpt-6-astra", "destination": "claude-opus-5.5", "timing": "window", "quote": "switched back to Anthropic upon the launch of Opus 5.5"}
+{"post_id": "2102850294812209576", "origin": "gpt-5.6-sol", "destination": "claude-opus-5.5", "timing": "window", "quote": "switched back to Anthropic upon the launch of Opus 5.5"}
+{"post_id": "2103136843281653911", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "My workflow swapped Fable 5.1 → Opus 5.5"}
+{"post_id": "2103151899952463877", "origin": "claude-opus-5.5", "destination": "claude-opus-5", "timing": "window", "quote": "Opus5.5にしたら…すぐに5.0に戻したわ"}
+{"post_id": "2103242496235143288", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "haven't even thought about it since Opus 5.5 dropped"}
+{"post_id": "2103454407429890489", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "not_a_switch", "quote": "Yes，same as I. Opus 5.5 is amazing."}
+{"post_id": "2103499358985699644", "origin": "gpt-6-astra", "destination": "claude-opus-5.5", "timing": "window", "quote": "made the switch over yesterday"}
+{"post_id": "2103544464014717231", "origin": "gpt-6-astra", "destination": "claude-opus-5.5", "timing": "window", "quote": "Haven't touched Astra since Opus 5.5 dropped"}
+{"post_id": "2103604907735703796", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "ClaudeCodeのモデルをFable5.1からOpus5.5にしました"}
+{"post_id": "2103635067369070863", "origin": "claude-opus-5.5", "destination": "claude-fable-5.1", "timing": "window", "quote": "back to fable now"}
+{"post_id": "2103710895272829115", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "ni siquiera lo he tocado desde que salió"}
+{"post_id": "2104289666421895623", "origin": "gpt-6-sol", "destination": "claude-opus-5.5", "timing": "window", "quote": "I stopped using sol"}
+{"post_id": "2103597076714262583", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "not_a_switch", "quote": "I have not even used it after the fable launch"}
+{"post_id": "2103477634412007646", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "was running on Fable 5.1 xhigh is now being run on Opus 5.5"}
+{"post_id": "2103254176558104913", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "yep, same. i changed it in desktop and CC as well."}
+{"post_id": "2104074335246049469", "origin": "gpt-6-sol", "destination": "gpt-5.6-sol", "timing": "window", "quote": "I switched back to GPT-5.6 Sol"}
+{"post_id": "2103417399043408072", "origin": "gpt-5.6-sol", "destination": "claude-opus-5.5", "timing": "window", "quote": "I moved a pretty complex project from GPT-5.6 Sol to Opus 5.5"}
+{"post_id": "2103907822559981951", "origin": "gpt-6-astra", "destination": "claude-opus-5.5", "timing": "window", "quote": "Opus 5.5 two weeks later, and I've abandoned it ever since"}
+{"post_id": "2103688066275962913", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "I dont even touch Fable anymore"}
+{"post_id": "2102877610036662311", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "I haven't used Fable ONCE since Opus 5.5 dropped"}
+{"post_id": "2103599423570031031", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "haven't used fable for once every since opus 5.5 came out"}
+{"post_id": "2103603124095320143", "origin": "claude-opus-5", "destination": "claude-opus-5.5", "timing": "window", "quote": "I've moved on and me and Opus 5.5 are going steady"}
+{"post_id": "2103279365534732558", "origin": "claude-opus-5", "destination": "claude-fable-5.1", "timing": "before", "quote": "for the brief period I used Opus 5 ... I went back to Fable"}
+{"post_id": "2102841418641285181", "origin": "gpt-6-astra", "destination": "claude-opus-5.5", "timing": "window", "quote": "my Astra sub has been tractimg dust since Opus"}
+{"post_id": "2103465563351851444", "origin": "gpt-6-astra", "destination": "claude-opus-5.5", "timing": "window", "quote": "从astra和sol换过来"}
+{"post_id": "2103465563351851444", "origin": "gpt-6-sol", "destination": "claude-opus-5.5", "timing": "window", "quote": "从astra和sol换过来"}
+{"post_id": "2102789625207222319", "origin": "gpt-6-sol", "destination": "claude-opus-5.5", "timing": "window", "quote": "rn it's back to the Claude for me"}
+{"post_id": "2103000928144236828", "origin": "gpt-6-astra", "destination": "gpt-6-sol", "timing": "window", "quote": "switched from astra (low) and didn't look back"}
+{"post_id": "2103121293117722855", "origin": "gpt-6-sol", "destination": "gpt-5.6-sol", "timing": "window", "quote": "não estou usando mais o GPT-6 Sol"}
+{"post_id": "2103724671573327930", "origin": "gpt-6-astra", "destination": "gpt-5.6-sol", "timing": "before", "quote": "上一次，gpt-6-astra回归到gpt-5.6-sol"}
+{"post_id": "2103724671573327930", "origin": "gpt-6-sol", "destination": "gpt-5.6-sol", "timing": "window", "quote": "这次，从gpt-6-sol回归到gpt-5.6-sol"}
+{"post_id": "2103993732324634819", "origin": "gpt-6-sol", "destination": "gpt-6-astra", "timing": "window", "quote": "Astra mediumをメインに切り替えたら"}
+{"post_id": "2104117796015600011", "origin": "gpt-6-sol", "destination": "gpt-6-astra", "timing": "window", "quote": "Back to Astra at `low` for OpenAI use"}
+{"post_id": "2104163635182616890", "origin": "gpt-6-sol", "destination": "gpt-6-astra", "timing": "window", "quote": "I switched back to astra for now"}
+{"post_id": "2103039114694295624", "origin": "claude-fable-5.1", "destination": "claude-opus-5.5", "timing": "window", "quote": "I'm jumping back to Opus 5.5"}
+{"post_id": "2103761248030790052", "origin": "claude-opus-5.5", "destination": "claude-fable-5.1", "timing": "not_a_switch", "quote": "Going back to Fable 5.1"}
+{"post_id": "2103759811498377723", "origin": "claude-opus-5.5", "destination": "claude-fable-5.1", "timing": "window", "quote": "I switched back from Opus 5.5 to Fable 5.1"}
+{"post_id": "2102797600013332879", "origin": "gpt-5.6-luna", "destination": "gpt-6-luna", "timing": "window", "quote": "I've switched to GPT-6 Luna"}
+{"post_id": "2103881308644741191", "origin": "gpt-6-luna", "destination": "gpt-5.6-luna", "timing": "window", "quote": "我又用回了GPT-5.6 Luna"}
+{"post_id": "2103759047891575259", "origin": "gpt-6-sol", "destination": "claude-opus-5.5", "timing": "window", "quote": "got 6 sol was a big deception and I switched to Opus 5.5"}
+{"post_id": "2104165730367279430", "origin": "gpt-5.6-sol", "destination": "claude-opus-5.5", "timing": "window", "quote": "but now switched to Opus 5.5"}
+{"post_id": "2103153212211777692", "origin": "gpt-6-luna", "destination": "gpt-5.6-luna", "timing": "window", "quote": "I switched back to luna 5.6"}
+{"post_id": "2103372308169498920", "origin": "gpt-6-luna", "destination": "gpt-5.6-luna", "timing": "window", "quote": "i just went back to Luna 5.6 from 6"}
+{"post_id": "2103503701067653195", "origin": "gpt-6-luna", "destination": "gpt-5.6-luna", "timing": "window", "quote": "切回 luna 5.6，世界清净了"}
+{"post_id": "2103756482894528534", "origin": "grok-4.7", "destination": "grok-4.6", "timing": "window", "quote": "所以我切回了 Grok 4.6"}
+{"post_id": "2104300154476167669", "origin": "grok-4.7", "destination": "grok-4.6", "timing": "window", "quote": "i switched back to 4.6"}
+{"post_id": "2103516602784219644", "origin": "grok-4.7", "destination": "grok-4.6", "timing": "window", "quote": "Switched back to @grok 4.6"}
+{"post_id": "2103643225995227371", "origin": "grok-4.7", "destination": "grok-4.6", "timing": "window", "quote": "so i flip back to 4.6"}
+{"post_id": "2104166697397821597", "origin": "grok-4.6", "destination": "claude-opus-5.5", "timing": "window", "quote": "Lately Opus has been so solid I switched to Claude for commits too"}
+{"post_id": "2102976090713288813", "origin": "gpt-6-astra", "destination": "claude-opus-5.5", "timing": "window", "quote": "Switching to Opus5.5 ... running for few hours"}
+{"post_id": "2104063718757937510", "origin": "gpt-6-sol", "destination": "gpt-6-astra", "timing": "window", "quote": "Switched back to GPT-6-astra and it just worked"}
+{"post_id": "2104109250402488557", "origin": "gpt-6-astra", "destination": "gpt-6-sol", "timing": "window", "quote": "GPT-6 Sol Max 로 변경했는데"}
+{"post_id": "2103091641376526829", "origin": "claude_code", "destination": "codex", "timing": "window", "quote": "For the first time in my life, I switched from Claude to Codex"}
+{"post_id": "2103197712057237853", "origin": "codex", "destination": "claude_code", "timing": "window", "quote": "Another week, another huge ping pong ... from Codex back to Claude"}
+{"post_id": "2103499358985699644", "origin": "codex", "destination": "claude_code", "timing": "window", "quote": "made the switch over yesterday"}
+{"post_id": "2103891886448767396", "origin": "codex", "destination": "claude_code", "timing": "window", "quote": "je suis passer a claude"}
+{"post_id": "2104209175731638428", "origin": "codex", "destination": "claude_code", "timing": "window", "quote": "I'm officially Leaving Codex"}
+{"post_id": "2104135982719340871", "origin": "claude_code", "destination": "codex", "timing": "not_a_switch", "quote": "我第 18 个账号阵亡了，暂时只能 codex 了"}
+{"post_id": "2104182020389921102", "origin": "claude_code", "destination": "codex", "timing": "before", "quote": "I switched 15 days ago from Claude Code to Codex"}
+{"post_id": "2103202298302189807", "origin": "claude_code", "destination": "codex", "timing": "before", "quote": "j'utilise codex tt ltemps depuis des mois"}
+{"post_id": "2103087149583315176", "origin": "codex", "destination": "claude_code", "timing": "window", "quote": "I was a codex fan. Now... Claude"}
+{"post_id": "2103216101391745278", "origin": "claude_code", "destination": "codex", "timing": "before", "quote": "i quit claude two days before opus 5.5"}
+{"post_id": "2103260603615949140", "origin": "claude_code", "destination": "codex", "timing": "not_a_switch", "quote": "going to codex now"}
+{"post_id": "2103242829048815938", "origin": "claude_code", "destination": "codex", "timing": "before", "quote": "When 5.6 first dropped, I ditched Ants and moved to Codex"}
+{"post_id": "2103438341865967671", "origin": "claude_code", "destination": "codex", "timing": "before", "quote": "quite a few months ago"}
+{"post_id": "2102714454513521035", "origin": "codex", "destination": "claude_code", "timing": "window", "quote": "退訂ChatGPT 改用Claude Code"}
+{"post_id": "2102894746683269126", "origin": "claude_code", "destination": "codex", "timing": "before", "quote": "I haven't opened Claude Code since June"}
+{"post_id": "2103695440919323129", "origin": "codex", "destination": "claude_code", "timing": "window", "quote": "I switched over yesterday"}
+{"post_id": "2103037298375884901", "origin": "claude_code", "destination": "codex", "timing": "before", "quote": "i experienced this with opus 5, then switched to codex"}

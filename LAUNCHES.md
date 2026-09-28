@@ -67,6 +67,11 @@ posts stay private and unused.
   every rival would be scored mostly by Opus 5.5's audience. Head-to-head and
   switching still use every post, because comparisons are what they measure.
   Posts found only through the critics route never score.
+- **Switches must happen in the window.** A reviewer read every counted
+  switch and dated the move (`data/launches/switch_timing.jsonl`): "since
+  June" or "months ago" is a real switch, but not this week's, and "going to
+  X now" is not yet a move. 14 of 70 were dropped, 7 of them Claude Code and
+  Codex moves made before launch.
 - **Twelve-hour curve.** One vote per person per twelve hours, firsthand only,
   95% author bootstrap; steps with fewer than twelve people are hidden. A
   switcher shows the same line for GPT-6 Astra over the last seven days, from

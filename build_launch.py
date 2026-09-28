@@ -192,6 +192,10 @@ def main():
         return sorted([{"models": list(pair), "votes": dict(Counter(r["winner"] for r in rows)), "n": len(rows), "evidence_ids": [r["post_id"] for r in rows]}
                        for pair, rows in pairs.items()], key=lambda x: -x["n"])
 
+    # A switch counts on this page only if the move happened in the window: switch_timing.jsonl is a reviewer's read of
+    # every counted switch ("since June" and "months ago" are real switches, but not this week's).
+    timing = {(t["post_id"], t["origin"], t["destination"]): t["timing"] for t in jsonl(PUB / "switch_timing.jsonl")}
+    switches = [r for r in switches if timing.get((r["post_id"], r["origin"], r["destination"]), "window") == "window"]
     switch_rows = list({(r["author_id"], r["origin"], r["destination"]): r for r in switches}.values())
     model_switches = [r for r in switch_rows if r["origin"] in MODELS and r["destination"] in MODELS]
     harness_switches = [r for r in switch_rows if r["origin"] in HARNESSES and r["destination"] in HARNESSES]
