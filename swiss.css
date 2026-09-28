@@ -278,3 +278,27 @@ a{color:inherit}
 .featured-switch button img{width:14px;height:14px}.featured-switch button.on img{filter:grayscale(1) invert(1)!important}
 #featuredChart .f-people{fill:var(--signal-blue);opacity:.55}#featuredChart .f-people.thin{opacity:.2}
 #featuredChart .f-people-t{fill:var(--b48);font-size:11px}
+
+/* time filter: all time or one week measured */
+.time-filter{display:flex;border:1px solid var(--inkc);white-space:nowrap}
+.time-filter button{padding:7px 12px;border:0;background:none;color:var(--b70);font-size:12.5px;letter-spacing:.01em;cursor:pointer}
+.time-filter button+button{border-left:1px solid var(--b28)}
+.time-filter button.on{background:var(--inkc);color:var(--paper)}
+.time-filter button:hover:not(.on){color:var(--inkc)}
+/* trend chip: the motion between the two weeks, on all time */
+.trend-chip{position:relative;display:inline-flex;align-items:center;margin-left:10px;padding:1px 7px;border:1px solid var(--b28);font-size:11.5px;font-weight:600;letter-spacing:0;color:var(--b70);cursor:help;vertical-align:middle}
+.trend-chip.up{color:var(--signal-blue);border-color:rgba(43,75,214,.45)}.trend-chip.down{color:var(--rust);border-color:rgba(181,80,46,.45)}
+.trend-chip:after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 8px);z-index:40;width:280px;padding:10px 12px;border:1px solid var(--inkc);background:var(--paper);color:var(--inkc);font-size:12.5px;font-weight:400;line-height:1.45;white-space:normal;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .15s,transform .15s;pointer-events:none;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.trend-chip:hover:after,.trend-chip:focus:after{opacity:1;visibility:visible;transform:none}
+/* harness duel: the two weeks under the total */
+.duel-split{display:flex;flex-direction:column;gap:6px;margin:8px 0 18px}
+.split-row{display:grid;grid-template-columns:120px 34px 1fr 34px;gap:10px;align-items:center;font-size:12px;color:var(--b70)}
+.split-row b{font-weight:600;text-align:center}.split-row b.cc{color:var(--rust)}
+.tug-bar.thin{height:6px}
+.daybars .day.gap{margin-left:18px;position:relative}.daybars .day.gap:before{content:"…";position:absolute;left:-14px;bottom:18px;color:var(--b48)}
+.daybars .day small{font-size:9px;white-space:nowrap}
+@media (max-width:900px){.time-filter button{padding:6px 8px;font-size:11px}}
+/* room for a trend chip beside the longest names */
+.sentiment-row{grid-template-columns:270px 1fr}.sentiment-axis{grid-template-columns:270px 1fr 90px 60px}
+.sentiment-name strong{white-space:nowrap}
+@media (max-width:900px){.sentiment-axis,.sentiment-row{grid-template-columns:1fr}.sentiment-name strong{white-space:normal}}

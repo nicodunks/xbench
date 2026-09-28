@@ -33,6 +33,8 @@ T0 = datetime.fromisoformat(LAUNCHES["opus-5.5"]["t0"].replace("Z", "+00:00"))
 FOCUS = "claude-opus-5.5"
 MODELS = ["claude-opus-5.5", "claude-opus-5", "claude-fable-5.1", "gpt-6-sol", "gpt-6-luna", "gpt-6-astra", "gpt-5.6-sol", "gpt-5.6-luna",
           "grok-4.7", "grok-4.6", "gemini-3.8-flash", "glm-5.3", "glm-5.3-flash", "kimi-k3", "muse-spark-1.3"]
+# every model either week tracked: this week's list plus the two the first week had that this one retired
+ALL_MODELS = MODELS + ["muse-spark-1.2", "gemini-3.7-flash"]
 HARNESSES = ["claude_code", "codex", "opencode", "pi", "grokbot"]
 FAMILIES = ["claude", "gpt", "gemini", "grok", "glm", "kimi", "muse"]
 STORES = ["opus-5.5", "gpt-6-sol", "claude-code-post"] + [k for k, l in LAUNCHES.items() if l["role"] in ("field", "trend")]
@@ -63,10 +65,10 @@ def block(rows):
 
 
 def dedupe_pref(rows):
-    """One vote per author per pair; an author split evenly on a pair casts none (build_release_v2 rule)."""
+    """One vote per author per pair per week measured; an author split evenly on a pair in a week casts none (build_release_v2 rule)."""
     groups = defaultdict(list)
     for r in rows:
-        groups[(r["author_id"], tuple(sorted((r["winner"], r["loser"]))))].append(r)
+        groups[(r["author_id"], r.get("window"), tuple(sorted((r["winner"], r["loser"]))))].append(r)
     out = []
     for items in groups.values():
         top = Counter((x["winner"], x["loser"]) for x in items).most_common(2)
@@ -138,52 +140,42 @@ def main():
             if s.get("completed") is True and s["origin"] != s["destination"]:
                 switches.append({**base, "origin": s["origin"], "destination": s["destination"]})
 
+    # This week's lines: the own-sample rule for sentiment, the reviewer's timing read for switches.
+    timing = {(t["post_id"], t["origin"], t["destination"]): t["timing"] for t in jsonl(PUB / "switch_timing.jsonl")}
+    switches = [r for r in switches if timing.get((r["post_id"], r["origin"], r["destination"]), "window") == "window"]
+    for r in sentiment + preferences + switches:
+        r["window"], r["day"] = "w2", r["created_at"][:10]
     all_sentiment = sentiment
     sentiment = [r for r in all_sentiment if r["own"]]
-    # ---------- the v2 aggregation, same rules ----------
-    by_target = defaultdict(list)
-    for r in sentiment:
-        by_target[(r["author_id"], r["target"])].append(r)
-    weekly = []
-    for rows in by_target.values():
-        chosen = max(rows, key=lambda x: (x["firsthand"], x["created_at"]))
-        weekly.append({**chosen, "label": collapsed(rows), "firsthand": any(x["firsthand"] for x in rows),
-                       "endorsement": all(x["endorsement"] for x in rows), "message_count": len(rows)})
-    by_day = defaultdict(list)
-    for r in sentiment:
-        by_day[(r["author_id"], r["target"], r["day_index"])].append(r)
-    daily = [{**max(rows, key=lambda x: x["created_at"]), "label": collapsed(rows), "firsthand": any(x["firsthand"] for x in rows)} for rows in by_day.values()]
 
-    def sentiment_row(target):
-        rows = [r for r in weekly if r["target"] == target]
-        fh = [r for r in rows if r["firsthand"]]
-        history = [{"day_index": d, **block([r for r in daily if r["target"] == target and r["day_index"] == d and r["firsthand"]])} for d in range(days)]
-        aspects = defaultdict(Counter)
-        dim_groups = defaultdict(list)
-        dim_aspects = defaultdict(lambda: defaultdict(Counter))
-        for r in sentiment:
-            if r["target"] == target and r["firsthand"]:
-                aspects[r["label"]][r["aspect"].strip().lower()] += 1
-                dim_groups[(r["author_id"], r["dimension"])].append(r)
-                dim_aspects[r["dimension"]][r["label"]][r["aspect"].strip().lower()] += 1
-        dim_rows = defaultdict(list)
-        for (_, dim), items in dim_groups.items():
-            dim_rows[dim].append({"label": collapsed(items)})
-        dims = HARNESS_DIMS if target in HARNESSES else MODEL_DIMS
-        return {"model": target, "firsthand": block(fh), "all_expressed": block(rows), "endorsements": block([r for r in rows if r["endorsement"]]),
-                "daily_firsthand": history, "tasks": dict(Counter(r["task"] for r in fh)),
-                "dimensions": {d: {**block(dim_rows.get(d, [])), "top_aspects": {k: dim_aspects[d][k].most_common(4) for k in ("positive", "negative")}} for d in dims},
-                "aspects": {k: aspects[k].most_common(15) for k in ("positive", "negative", "mixed")}}
-
-    model_sentiment = sorted([sentiment_row(m) for m in MODELS], key=lambda x: (x["firsthand"]["net_sentiment"] if x["firsthand"]["net_sentiment"] is not None else -9), reverse=True)
-    harness_sentiment = [sentiment_row(h) for h in HARNESSES]
-
-    opinion = [p for p in preferences if not p["benchmark"]]
-    model_events = dedupe_pref([p for p in opinion if p["winner"] in MODELS and p["loser"] in MODELS and p["firsthand"]])
-    model_events_all = dedupe_pref([p for p in opinion if p["winner"] in MODELS and p["loser"] in MODELS])
-    harness_events = dedupe_pref([p for p in opinion if p["winner"] in HARNESSES and p["loser"] in HARNESSES])
-    harness_vs_field = dedupe_pref([p for p in opinion if ({p["winner"], p["loser"]} & set(HARNESSES)) and not ({p["winner"], p["loser"]} <= set(HARNESSES))])
-    benchmark_events = dedupe_pref([p for p in preferences if p["benchmark"] and p["winner"] in MODELS and p["loser"] in MODELS])
+    # The first Xbench week (Aug 29 to Sep 5) in the same line format: a balanced pull, so every post counts for sentiment.
+    aspect_map = {"model": {}, "harness": {}}
+    for path in glob.glob(str(V2 / "aspect-map" / "maps" / "*.jsonl")):
+        kind = "model" if Path(path).name.startswith("model") else "harness"
+        for r in jsonl(path):
+            aspect_map[kind][r["aspect"].strip().lower()] = r["dimension"]
+    w1_sent, w1_prefs, w1_switches = [], [], []
+    for pid, d in labels_main.items():
+        raw = corpus_main[pid]
+        if raw.get("author_id") in excluded_main or not d.get("relevant"):
+            continue
+        base = {"post_id": pid, "author_id": raw.get("author_id"), "created_at": raw["created_at"], "conversation_id": raw.get("conversation_id"),
+                "text": raw.get("text", ""), "reason": d.get("reason", ""), "window": "w1", "day": raw["created_at"][:10]}
+        for x in d.get("sentiment", []):
+            if x["target"] not in ALL_MODELS + HARNESSES + FAMILIES:
+                continue
+            kind = "harness" if x["target"] in HARNESSES else "model"
+            w1_sent.append({**base, "target": x["target"], "label": x["label"], "firsthand": bool(x.get("firsthand")), "endorsement": bool(x.get("endorsement")),
+                            "task": x.get("task", "none"), "aspect": x.get("aspect", "overall"), "intensity": None, "superlative": False, "own": True,
+                            "dimension": None if x["target"] in FAMILIES else aspect_map[kind].get((x.get("aspect") or "overall").strip().lower(), "overall")})
+        for x in d.get("preferences", []):
+            wkind = "harness" if x["winner"] in HARNESSES else "model"  # the first release filed a preference under its winner's kind
+            w1_prefs.append({**base, "winner": x["winner"], "loser": x["loser"], "firsthand": bool(x.get("firsthand")), "benchmark": bool(x.get("benchmark")),
+                             "task": x.get("task", "none"), "aspect": x.get("aspect", "overall"),
+                             "dimension": None if x["winner"] in FAMILIES else aspect_map[wkind].get((x.get("aspect") or "overall").strip().lower(), "other")})
+        for x in d.get("switches", []):
+            if x.get("completed") is True and x["origin"] != x["destination"]:
+                w1_switches.append({**base, "origin": x["origin"], "destination": x["destination"]})
 
     def battles(events):
         pairs = defaultdict(list)
@@ -192,14 +184,62 @@ def main():
         return sorted([{"models": list(pair), "votes": dict(Counter(r["winner"] for r in rows)), "n": len(rows), "evidence_ids": [r["post_id"] for r in rows]}
                        for pair, rows in pairs.items()], key=lambda x: -x["n"])
 
-    # A switch counts on this page only if the move happened in the window: switch_timing.jsonl is a reviewer's read of
-    # every counted switch ("since June" and "months ago" are real switches, but not this week's).
-    timing = {(t["post_id"], t["origin"], t["destination"]): t["timing"] for t in jsonl(PUB / "switch_timing.jsonl")}
-    switches = [r for r in switches if timing.get((r["post_id"], r["origin"], r["destination"]), "window") == "window"]
-    switch_rows = list({(r["author_id"], r["origin"], r["destination"]): r for r in switches}.values())
-    model_switches = [r for r in switch_rows if r["origin"] in MODELS and r["destination"] in MODELS]
-    harness_switches = [r for r in switch_rows if r["origin"] in HARNESSES and r["destination"] in HARNESSES]
-    rated_models = [m for m in MODELS if any(m in (e["winner"], e["loser"]) for e in model_events)]
+    def aggregate(sent, prefs, sws):
+        """The v2 rules over any set of weeks: one vote per person per target per week measured."""
+        days_seen = sorted({r["day"] for r in sent})
+        groups = defaultdict(list)
+        for r in sent:
+            groups[(r["author_id"], r["target"], r["window"])].append(r)
+        weekly = [{**max(rows, key=lambda x: (x["firsthand"], x["created_at"])), "label": collapsed(rows), "firsthand": any(x["firsthand"] for x in rows),
+                   "endorsement": all(x["endorsement"] for x in rows)} for rows in groups.values()]
+        by_day = defaultdict(list)
+        for r in sent:
+            by_day[(r["author_id"], r["target"], r["day"])].append(r)
+        daily = [{**max(rows, key=lambda x: x["created_at"]), "label": collapsed(rows), "firsthand": any(x["firsthand"] for x in rows)} for rows in by_day.values()]
+
+        def row(target):
+            rows = [r for r in weekly if r["target"] == target]
+            fh = [r for r in rows if r["firsthand"]]
+            history = [{"date": day, **block([r for r in daily if r["target"] == target and r["day"] == day and r["firsthand"]])} for day in days_seen]
+            aspects, dim_groups, dim_aspects = defaultdict(Counter), defaultdict(list), defaultdict(lambda: defaultdict(Counter))
+            for r in sent:
+                if r["target"] == target and r["firsthand"]:
+                    aspects[r["label"]][r["aspect"].strip().lower()] += 1
+                    dim_groups[(r["author_id"], r["dimension"], r["window"])].append(r)
+                    dim_aspects[r["dimension"]][r["label"]][r["aspect"].strip().lower()] += 1
+            dim_rows = defaultdict(list)
+            for (_, dim, _w), items in dim_groups.items():
+                dim_rows[dim].append({"label": collapsed(items)})
+            dims = HARNESS_DIMS if target in HARNESSES else MODEL_DIMS
+            return {"model": target, "firsthand": block(fh), "all_expressed": block(rows), "endorsements": block([r for r in rows if r["endorsement"]]),
+                    "by_window": {w: block([r for r in fh if r["window"] == w]) for w in ("w1", "w2")},
+                    "daily_firsthand": history, "tasks": dict(Counter(r["task"] for r in fh)),
+                    "dimensions": {d: {**block(dim_rows.get(d, [])), "top_aspects": {k: dim_aspects[d][k].most_common(4) for k in ("positive", "negative")}} for d in dims},
+                    "aspects": {k: aspects[k].most_common(15) for k in ("positive", "negative", "mixed")}}
+
+        models = sorted([row(m) for m in ALL_MODELS], key=lambda x: (x["firsthand"]["net_sentiment"] if x["firsthand"]["net_sentiment"] is not None else -9), reverse=True)
+        opinion = [p for p in prefs if not p["benchmark"]]
+        model_events = dedupe_pref([p for p in opinion if p["winner"] in ALL_MODELS and p["loser"] in ALL_MODELS and p["firsthand"]])
+        model_events_all = dedupe_pref([p for p in opinion if p["winner"] in ALL_MODELS and p["loser"] in ALL_MODELS])
+        harness_events = dedupe_pref([p for p in opinion if p["winner"] in HARNESSES and p["loser"] in HARNESSES])
+        harness_vs_field = dedupe_pref([p for p in opinion if ({p["winner"], p["loser"]} & set(HARNESSES)) and not ({p["winner"], p["loser"]} <= set(HARNESSES))])
+        benchmark_events = dedupe_pref([p for p in prefs if p["benchmark"] and p["winner"] in ALL_MODELS and p["loser"] in ALL_MODELS])
+        switch_rows = list({(r["author_id"], r["origin"], r["destination"], r["window"]): r for r in sws}.values())
+        model_switches = [r for r in switch_rows if r["origin"] in ALL_MODELS and r["destination"] in ALL_MODELS]
+        harness_switches = [r for r in switch_rows if r["origin"] in HARNESSES and r["destination"] in HARNESSES]
+        rated = [m for m in ALL_MODELS if any(m in (e["winner"], e["loser"]) for e in model_events)]
+        return {"weekly": weekly, "daily": daily, "days": days_seen, "models": models, "families": [row(f) for f in FAMILIES],
+                "harness_rows": [row(h) for h in HARNESSES], "opinion": opinion, "model_events": model_events, "model_events_all": model_events_all,
+                "harness_events": harness_events, "harness_vs_field": harness_vs_field, "benchmark_events": benchmark_events, "switch_rows": switch_rows,
+                "model_switches": model_switches, "harness_switches": harness_switches, "rated": rated}
+
+    VIEWS = {"all": aggregate(w1_sent + sentiment, w1_prefs + preferences, w1_switches + switches),
+             "w1": aggregate(w1_sent, w1_prefs, w1_switches),
+             "w2": aggregate(sentiment, preferences, switches)}
+    V3 = VIEWS["w2"]
+    model_sentiment, harness_sentiment, opinion, switch_rows = V3["models"], V3["harness_rows"], V3["opinion"], V3["switch_rows"]
+    daily = [dict(r, day_index=math.floor((parse(r["created_at"]) - T0) / timedelta(days=1))) for r in V3["daily"]]
+    model_events = V3["model_events"]
 
     # ---------- what only this page shows ----------
     focus_row = next(m for m in model_sentiment if m["model"] == FOCUS)
@@ -373,57 +413,68 @@ def main():
     launch["featured"] = {"step_hours": 12, "curve": curve, "nerf": nerf, "trends": trends,
                           "reference": {"opus_5_first_xbench": then_now["opus_5_then"]["net_sentiment"], "opus_5_5_window": focus_row["firsthand"]["net_sentiment"]}}
     authors = {p.get("author_id") for p in posts.values() if p.get("author_id")}
-    summary = {
-        "schema_version": "4.0", "release": "labels-v3", "source": "Official X API v2, full-archive search",
-        "window": {"start": LAUNCHES["opus-5.5"]["t0"], "end": end.strftime("%Y-%m-%dT%H:%M:%SZ"), "cells": days, "kind": "since_launch"},
-        "corpus": {"unique_posts": len(posts), "unique_authors": len(authors), "comments": sum(1 for p in posts.values() if p.get("conversation_id") not in (None, p["id"])),
-                   "classified_posts": len(labeled), "reviewer_overrides": sum(1 for r in labeled.values() if r.get("overridden")),
-                   "excluded_ai_authors": len(excluded & authors), "excluded_posts": sum(1 for p in posts.values() if p.get("author_id") in excluded),
-                   "vendor_posts": vendor_posts, "quota_audit": {}, "x_spend_usd": json.loads((PRIV / "ledger.json").read_text())["spend_usd"]},
-        "sentiment": {"definition": "Firsthand stance since Opus 5.5 launched: the author used the model or reports a concrete result. One author per model. Each model is scored from posts pulled by its own name search (own-sample rule).",
-                      "own_sample": {t: sorted(sids) for t, sids in OWN.items()},
-                      "models": model_sentiment, "families": [sentiment_row(f) for f in FAMILIES]},
-        "preference": {"definition": "Stated preferences between exact models since launch, firsthand only, benchmark reposts excluded. One author, one vote per matchup.",
-                       "firsthand_votes": len(model_events), "all_votes": len(model_events_all), "distinct_authors": len({e["author_id"] for e in model_events}),
-                       "head_to_head": battles(model_events),
-                       "xbenchpref": {"method": "Ridge-regularized Bradley-Terry on firsthand votes; author bootstrap 95% intervals", "ratings": ratings(model_events, rated_models)},
-                       "benchmark_reposts": len(benchmark_events)},
-        "switching": {"definition": "First-person completed moves between exact models since launch; one author per edge.",
-                      "verified_completed_switches": len(model_switches),
-                      "by_origin_destination": dict(Counter(f'{r["origin"]} -> {r["destination"]}' for r in model_switches)),
-                      "daily_counts": [sum(r["day_index"] == d for r in model_switches) for d in range(days)]},
-        "harnesses": {"definition": "Claude Code, Codex, OpenCode, Pi and Grok Bot since launch.", "tracked": HARNESSES, "sentiment": harness_sentiment,
-                      "head_to_head": battles(harness_events), "votes": len(harness_events),
-                      "ratings": ratings(harness_events, HARNESSES) if len(harness_events) >= 5 else [], "vs_field": battles(harness_vs_field),
-                      "switches": {"n": len(harness_switches), "by_direction": dict(Counter(f'{r["origin"]} -> {r["destination"]}' for r in harness_switches))}},
-        "taxonomy": {"tracked_model_ids": MODELS, "harness_ids": HARNESSES, "family_ids": FAMILIES},
-        "dimensions": {"definition": "Each labeler line carries a fixed dimension (ASPECT_DIMENSIONS.md); one author per target per dimension, firsthand only.",
-                       "model": [["intelligence", "Intelligence"], ["speed", "Speed"], ["price", "Price"], ["steerability", "Steerability"], ["personality", "Personality"], ["overall", "Overall"], ["other", "Other"]],
-                       "harness": [["limits", "Limits and quota"], ["reliability", "Reliability"], ["efficiency", "Token and context efficiency"], ["agent", "Agent behaviour"], ["dx", "Developer experience"], ["overall", "Overall"], ["other", "Other"]]},
-        "launch": launch,
-    }
+    W1 = {"id": "w1", "label": "Aug 29 – Sep 5", "start": "2026-08-29T02:46:57Z", "end": "2026-09-05T02:41:00Z"}
+    W2 = {"id": "w2", "label": "Sep 22 – 27", "start": LAUNCHES["opus-5.5"]["t0"], "end": end.strftime("%Y-%m-%dT%H:%M:%SZ")}
+    main_corpus = json.loads((V2 / "public-summary.json").read_text())["corpus"]
+    authors = {p.get("author_id") for p in posts.values() if p.get("author_id")}
+    w2_corpus = {"unique_posts": len(posts), "unique_authors": len(authors), "classified_posts": len(labeled),
+                 "reviewer_overrides": sum(1 for r in labeled.values() if r.get("overridden")),
+                 "excluded_ai_authors": len(excluded & authors), "excluded_posts": sum(1 for p in posts.values() if p.get("author_id") in excluded)}
+    w1_corpus = {k: main_corpus[k] for k in w2_corpus}
+    both_authors = len(authors | {r.get("author_id") for r in corpus_main.values() if r.get("author_id")})
+
+    def view_summary(name, V, windows, corpus):
+        return {
+            "schema_version": "5.0", "release": "labels-v3", "view": name, "source": "Official X API v2",
+            "window": {"start": windows[0]["start"], "end": windows[-1]["end"], "cells": len(V["days"]), "kind": "weeks", "weeks": windows},
+            "corpus": {**corpus, "quota_audit": {}},
+            "sentiment": {"definition": "Firsthand stance: the author used the model or reports a concrete result. One vote per person per model per week measured. This week, each model is scored from posts pulled by its own name search.",
+                          "models": V["models"], "families": V["families"]},
+            "preference": {"definition": "Stated preferences between exact models, firsthand only, benchmark reposts excluded. One vote per person per matchup per week.",
+                           "firsthand_votes": len(V["model_events"]), "all_votes": len(V["model_events_all"]), "distinct_authors": len({e["author_id"] for e in V["model_events"]}),
+                           "head_to_head": battles(V["model_events"]),
+                           "xbenchpref": {"method": "Ridge-regularized Bradley-Terry on firsthand votes; author bootstrap 95% intervals", "ratings": ratings(V["model_events"], V["rated"])},
+                           "benchmark_reposts": len(V["benchmark_events"])},
+            "switching": {"definition": "First-person completed moves between exact models; one per person per move per week.",
+                          "verified_completed_switches": len(V["model_switches"]),
+                          "by_origin_destination": dict(Counter(f'{r["origin"]} -> {r["destination"]}' for r in V["model_switches"]))},
+            "harnesses": {"definition": "Claude Code, Codex, OpenCode, Pi and Grok Bot.", "tracked": HARNESSES, "sentiment": V["harness_rows"],
+                          "head_to_head": battles(V["harness_events"]), "votes": len(V["harness_events"]),
+                          "by_window": {w: dict(Counter(e["winner"] for e in V["harness_events"] if e["window"] == w and {e["winner"], e["loser"]} == {"claude_code", "codex"})) for w in ("w1", "w2")},
+                          "ratings": ratings(V["harness_events"], HARNESSES) if len(V["harness_events"]) >= 5 else [], "vs_field": battles(V["harness_vs_field"]),
+                          "switches": {"n": len(V["harness_switches"]), "by_direction": dict(Counter(f'{r["origin"]} -> {r["destination"]}' for r in V["harness_switches"]))}},
+            "taxonomy": {"tracked_model_ids": ALL_MODELS, "harness_ids": HARNESSES, "family_ids": FAMILIES},
+            "dimensions": {"definition": "Each reason mapped to a fixed dimension (ASPECT_DIMENSIONS.md); one vote per person per dimension per week, firsthand only.",
+                           "model": [["intelligence", "Intelligence"], ["speed", "Speed"], ["price", "Price"], ["steerability", "Steerability"], ["personality", "Personality"], ["overall", "Overall"], ["other", "Other"]],
+                           "harness": [["limits", "Limits and quota"], ["reliability", "Reliability"], ["efficiency", "Token and context efficiency"], ["agent", "Agent behaviour"], ["dx", "Developer experience"], ["overall", "Overall"], ["other", "Other"]]},
+            "views": [{"id": "all", "label": "All time"}, {"id": "w1", "label": W1["label"]}, {"id": "w2", "label": W2["label"]}],
+        }
+    summary = view_summary("all", VIEWS["all"], [W1, W2], {k: w1_corpus[k] + w2_corpus[k] for k in w2_corpus} | {"unique_authors": both_authors})
+    summary["launch"] = launch
+    summary["corpus"]["x_spend_usd"] = json.loads((PRIV / "ledger.json").read_text())["spend_usd"]
+    view_files = {"w1": view_summary("w1", VIEWS["w1"], [W1], w1_corpus), "w2": view_summary("w2", VIEWS["w2"], [W2], w2_corpus)}
+
+    A = VIEWS["all"]
+    sent_all = w1_sent + sentiment
 
     def public(row, **extra):
         return {"post_id": row["post_id"], "text": row["text"], "created_at": row["created_at"], "conversation_id": row.get("conversation_id"),
-                "url": f'https://x.com/i/web/status/{row["post_id"]}', "reason": row.get("reason", ""), **extra}
+                "url": f'https://x.com/i/web/status/{row["post_id"]}', "reason": row.get("reason", ""), "window": row["window"], "day": row["day"], **extra}
     evidence = {
-        "schema_version": "3.0",
+        "schema_version": "4.0",
         "sentiment": [public(r, model=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"],
-                             dimension=r["dimension"], intensity=r["intensity"], superlative=r["superlative"], day_index=r["day_index"]) for r in sentiment if r["target"] in MODELS],
+                             dimension=r["dimension"], intensity=r["intensity"], superlative=r["superlative"]) for r in sent_all if r["target"] in ALL_MODELS],
         "family_sentiment": [public(r, family=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"])
-                             for r in sentiment if r["target"] in FAMILIES],
-        "preference": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"], day_index=r["day_index"]) for r in model_events_all],
-        "switching": [public(r, origin=r["origin"], destination=r["destination"], day_index=r["day_index"]) for r in model_switches],
+                             for r in sent_all if r["target"] in FAMILIES],
+        "preference": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"]) for r in A["model_events_all"]],
+        "switching": [public(r, origin=r["origin"], destination=r["destination"]) for r in A["model_switches"]],
         "harness_sentiment": [public(r, harness=r["target"], sentiment=r["label"], firsthand=r["firsthand"], endorsement=r["endorsement"], task=r["task"], aspect=r["aspect"],
-                                     dimension=r["dimension"], day_index=r["day_index"]) for r in sentiment if r["target"] in HARNESSES],
-        "harness": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"], dimension=r["dimension"], day_index=r["day_index"])
-                    for r in harness_events + harness_vs_field],
-        "harness_switching": [public(r, origin=r["origin"], destination=r["destination"], day_index=r["day_index"]) for r in harness_switches],
+                                     dimension=r["dimension"]) for r in sent_all if r["target"] in HARNESSES],
+        "harness": [public(r, winner=r["winner"], loser=r["loser"], firsthand=r["firsthand"], task=r["task"], aspect=r["aspect"], dimension=r.get("dimension"))
+                    for r in A["harness_events"] + A["harness_vs_field"]],
+        "harness_switching": [public(r, origin=r["origin"], destination=r["destination"]) for r in A["harness_switches"]],
         "featured_trends": trend_evidence,
     }
-    for rows in evidence.values():
-        if isinstance(rows, list):
-            assert not any(set(r) & {"author_id", "username", "name"} for r in rows), "author field in public evidence"
     # hero mural: firsthand stances only, one post per author, round-robin across models and harnesses so no one
     # target (least of all the heavily sampled Opus 5.5) fills the wall; no author fields (the v2 feed paid for
     # handle lookups, this one does not).
@@ -442,11 +493,12 @@ def main():
                              "target": r.get("model") or r.get("harness"), "sentiment": r["sentiment"], "aspect": r.get("aspect", "")})
     (OUT / "hero.json").write_text(json.dumps({"n": len(hero), "note": "firsthand stances, round-robin across targets, newest first; no author fields", "posts": hero}, ensure_ascii=False) + "\n")
     (OUT / "public-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=1) + "\n")
+    for k, v in view_files.items():
+        (OUT / f"public-summary-{k}.json").write_text(json.dumps(v, ensure_ascii=False, indent=1) + "\n")
     (OUT / "public-evidence.json").write_text(json.dumps(evidence, ensure_ascii=False) + "\n")
-    print(json.dumps({"window": summary["window"], "labeled": f"{len(labeled)}/{len(posts)}",
-                      "models": [(m["model"], m["firsthand"]["n"], m["firsthand"]["net_sentiment"]) for m in model_sentiment],
-                      "pref_votes": len(model_events), "switches": len(model_switches), "harness_votes": len(harness_events)}))
-
+    print(json.dumps({v: {"models": [(m["model"], m["firsthand"]["n"], m["firsthand"]["net_sentiment"]) for m in VIEWS[v]["models"] if m["firsthand"]["n"] >= 30],
+                          "cc_vs_codex": dict(Counter(e["winner"] for e in VIEWS[v]["harness_events"] if {e["winner"], e["loser"]} == {"claude_code", "codex"})),
+                          "pref_votes": len(VIEWS[v]["model_events"])} for v in VIEWS}, indent=1))
 
 if __name__ == "__main__":
     main()

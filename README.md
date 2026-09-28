@@ -1,6 +1,6 @@
 # Xbench
 
-**Measuring the Mandate of Heaven.** Firsthand opinion on X about frontier AI models and the coding harnesses people run them in. The page currently runs from the launch of Claude Opus 5.5 (Sep 22, 2026); see [`LAUNCHES.md`](LAUNCHES.md).
+**Measuring the Mandate of Heaven.** Firsthand opinion on X about frontier AI models and the coding harnesses people run them in. The page covers every week measured so far (Aug 29 – Sep 5 and Sep 22 – 27, 2026), all time or one week at a time; see [`LAUNCHES.md`](LAUNCHES.md).
 
 Live: https://nicodunks.github.io/xbench/
 Repo: https://github.com/nicodunks/xbench

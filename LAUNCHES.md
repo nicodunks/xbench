@@ -1,4 +1,13 @@
-# The Opus 5.5 window (labels-v3)
+# Xbench, all time (labels-v3)
+
+The page shows every week Xbench has measured: Aug 29 – Sep 5 (the first
+release) and Sep 22 – 27 (since Opus 5.5 launched). A time filter switches
+between all time and either week; on all time, a chip on each model shows its
+move between the two weeks. One vote per person per target per week measured.
+`build_launch.py` writes `public-summary.json` (all time) and
+`public-summary-w1.json` / `-w2.json`; every evidence row carries its week.
+
+## The Opus 5.5 week
 
 The page now runs from the launch of Claude Opus 5.5 (2026-09-22 16:31:03 UTC,
 the snowflake time of @claudeai's announcement) to the last post pulled. Every

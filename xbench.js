@@ -1,4 +1,4 @@
-const DATA_V = "2026-09-27a";
+const DATA_V = "2026-09-28a";
 const DATA_DIR = "data/labels-v3/";
 const X_MARK = '<svg class="xmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 const $ = (s) => document.querySelector(s),
@@ -210,7 +210,14 @@ function sentimentRows(root, models, evidenceRows, keyField, mode = "firsthand")
         praised.length || knocked.length
           ? `<span class="dims">${praised.length ? `<i>+</i> ${praised.join(", ")}` : ""}${praised.length && knocked.length ? " · " : ""}${knocked.length ? `<u>−</u> ${knocked.join(", ")}` : ""}</span>`
           : "";
-    row.innerHTML = `<div class="sentiment-name"><strong><em class="rank">#${rank + 1}</em>${icon(m.model)}${label(m.model)}${star}</strong></div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div><small class="n">${tot}</small><div class="metric-tail ${netClass}">${pts(net)}%</div></div>`;
+    const bw = m.by_window || {}, a0 = bw.w1, a1 = bw.w2;
+    let trend = "";
+    if (VIEW === "all" && mode === "firsthand" && a0?.n >= 15 && a1?.n >= 15) {
+      const d = Math.round((a1.net_sentiment - a0.net_sentiment) * 100),
+        tipText = `Aug 29 – Sep 5: ${pts(a0.net_sentiment)} (${a0.n} people) → Sep 22 – 27: ${pts(a1.net_sentiment)} (${a1.n} people)`;
+      trend = `<span class="trend-chip ${d > 0 ? "up" : d < 0 ? "down" : ""}" tabindex="0" data-tip="${tipText}" aria-label="${tipText}">${d > 0 ? "↑" : d < 0 ? "↓" : "→"} ${Math.abs(d)}</span>`;
+    }
+    row.innerHTML = `<div class="sentiment-name"><strong><em class="rank">#${rank + 1}</em>${icon(m.model)}${label(m.model)}${star}${trend}</strong></div><div class="sentiment-main"><div class="stack" aria-label="${c.positive} positive, ${c.mixed} mixed, ${c.negative} negative"><span class="positive" style="width:${(c.positive / tot) * 100}%"></span><span class="mixed" style="width:${(c.mixed / tot) * 100}%"></span><span class="negative" style="width:${(c.negative / tot) * 100}%"></span></div><small class="n">${tot}</small><div class="metric-tail ${netClass}">${pts(net)}%</div></div>`;
     root.append(row);
   });
   if (!list.length)
@@ -359,7 +366,7 @@ function radar(svg, legend, rows, kind, defaults) {
           `<button class="legend-chip" data-model="${m.model}"><i></i>${logos[m.model] ? `<img src="assets/logos/${logos[m.model]}.svg" alt="">` : "<b></b>"}<span>${label(m.model)}</span><small>n${m.firsthand.n}</small></button>`,
       )
       .join("") + '<p class="legend-note">click a name to add it · up to four</p>';
-  legend.addEventListener("click", (e) => {
+  legend.onclick = (e) => {
     const b = e.target.closest(".legend-chip");
     if (!b) return;
     const k = b.dataset.model;
@@ -369,17 +376,17 @@ function radar(svg, legend, rows, kind, defaults) {
       sel.push(k);
     }
     paint();
-  });
-  legend.addEventListener("mouseover", (e) => {
+  };
+  legend.onmouseover = (e) => {
     const b = e.target.closest(".legend-chip");
     if (!b || hover === b.dataset.model) return;
     hover = b.dataset.model;
     paint();
-  });
-  legend.addEventListener("mouseleave", () => {
+  };
+  legend.onmouseleave = () => {
     hover = null;
     paint();
-  });
+  };
   paint();
 }
 
@@ -596,11 +603,12 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
     tagText.setAttribute("x", x);
     tagText.setAttribute("y", y + bb.height / 2 - 6);
   };
-  svg.addEventListener("mouseover", (e) => {
+  svg.onmouseover = (e) => {
     const r = e.target.closest(".s-ribbon");
     if (r) showTag(r);
-  });
-  svg.addEventListener("mouseleave", () => showTag(ribbons.find((x) => x.classList.contains("on"))));
+  };
+  svg.onmouseleave = () => showTag(ribbons.find((x) => x.classList.contains("on")));
+  if (svg.id === "switchChart" && !rm.has("grok-4.6")) svg.closest(".panel")?.querySelector(".g-elon")?.remove();
   if (svg.id === "switchChart" && rm.has("grok-4.6")) {
     const wrap = svg.closest(".panel") || svg.parentElement, scroller = svg.parentElement, node = rm.get("grok-4.6"), n = R.find(([k]) => k === "grok-4.6")[1];
     let img = wrap.querySelector(".g-elon");
@@ -611,7 +619,7 @@ function sankey(svg, items, evidenceRows, evidenceRoot, labelNode) {
       img.style.left = `${Math.max(scroller.offsetLeft + (xr + nw + 40) * sc, Math.min(want, maxLeft))}px`;
       img.style.top = `${scroller.offsetTop + yc - img.offsetHeight / 2 + 20}px`;
     };
-    place(); img.onload = place; window.addEventListener("resize", place);
+    place(); img.onload = place; window.onresize = place;
   }
   svg.onclick = (e) => {
     const r = e.target.closest(".s-ribbon");
@@ -641,7 +649,9 @@ function harnessDuel(h, rows) {
     cxc = sw["codex -> claude_code"] || 0,
     votes = (rows || []).filter((p) => (p.winner === "codex" && p.loser === "claude_code") || (p.winner === "claude_code" && p.loser === "codex")),
     fh = votes.filter((p) => p.firsthand).length,
-    days = Array.from({ length: 7 }, (_, d) => ({ cx: votes.filter((p) => p.day_index === d && p.winner === "codex").length, cc: votes.filter((p) => p.day_index === d && p.winner === "claude_code").length })),
+    dates = [...new Set(votes.map((p) => p.day))].sort(),
+    days = dates.map((d) => ({ d, cx: votes.filter((p) => p.day === d && p.winner === "codex").length, cc: votes.filter((p) => p.day === d && p.winner === "claude_code").length })),
+    split = VIEW === "all" ? Object.entries(h.by_window || {}).filter(([, v]) => (v.codex || 0) + (v.claude_code || 0) > 0) : [],
     dayMax = Math.max(1, ...days.map((d) => Math.max(d.cx, d.cc))),
     dims = ["limits", "reliability", "efficiency", "agent", "dx", "overall", "other"],
     byDim = dims.map((d) => ({ d, cx: votes.filter((p) => p.winner === "codex" && (p.dimension || "other") === d).length, cc: votes.filter((p) => p.winner === "claude_code" && (p.dimension || "other") === d).length })).filter((x) => x.cx + x.cc > 0),
@@ -650,10 +660,11 @@ function harnessDuel(h, rows) {
   $("#harnessDuel").innerHTML = `
     <p class="duel-title">direct head-to-head, people who used both</p>
     <div class="tug"><span class="duel-who">Codex</span><b class="positive">${cx}</b><div class="tug-bar"><i style="width:${pct}%"></i></div><b class="cc">${cc}</b><span class="duel-who">Claude Code</span></div>
+    ${split.length ? `<div class="duel-split">${split.map(([w, v]) => { const t = (v.codex || 0) + (v.claude_code || 0), p = Math.round(((v.codex || 0) / t) * 100); return `<div class="split-row"><span>${w === "w1" ? "Aug 29 – Sep 5" : "Sep 22 – 27"}</span><b class="positive">${v.codex || 0}</b><div class="tug-bar thin"><i style="width:${p}%"></i></div><b class="cc">${v.claude_code || 0}</b></div>`; }).join("")}</div>` : ""}
     <p class="duel-title">what each one wins on</p>
     <div class="dimbars">${byDim.map((x) => `<div class="dimrow"><b>${x.cx}</b><div class="dl"><i style="width:${(x.cx / dimMax) * 100}%"></i></div><span>${dimName("harness", x.d)}</span><div class="dr"><i style="width:${(x.cc / dimMax) * 100}%"></i></div><b>${x.cc}</b></div>`).join("")}</div>
     <p class="duel-title">votes by day</p>
-    <div class="daybars">${days.map((d, i) => `<div class="day"><div class="cols"><i class="c1" style="height:${(d.cx / dayMax) * 100}%"></i><i class="c2" style="height:${(d.cc / dayMax) * 100}%"></i></div><small>${i + 1}</small></div>`).join("")}<div class="daykey"><span><i class="c1"></i>Codex</span><span><i class="c2"></i>Claude Code</span></div></div>`;
+    <div class="daybars">${days.map((d, i) => `<div class="day${i && days[i - 1].d.slice(5, 7) !== d.d.slice(5, 7) || (i && (new Date(d.d) - new Date(days[i - 1].d)) > 864e5 * 2) ? " gap" : ""}"><div class="cols"><i class="c1" style="height:${(d.cx / dayMax) * 100}%"></i><i class="c2" style="height:${(d.cc / dayMax) * 100}%"></i></div><small>${new Date(d.d + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" }).replace(" ", "&nbsp;")}</small></div>`).join("")}<div class="daykey"><span><i class="c1"></i>Codex</span><span><i class="c2"></i>Claude Code</span></div></div>`;
 }
 
 /* ---------- hero mural ---------- */
@@ -921,6 +932,147 @@ function method(s, ev) {
     `<div class="quality-row"><span>measure</span><span>count</span><span>note</span></div>${rows.map(([a, b, c]) => `<div class="quality-row"><strong>${a}</strong><span class="quality-status">${b}</span><span>${c}</span></div>`).join("")}`;
 }
 
+/* ---------- one view of the data: every chart below the featured section ---------- */
+let FULL = null, VIEW = "all";
+const VIEWS_CACHE = {};
+function renderAll(summary, ev) {
+  EV = ev;
+  DIMS = summary.dimensions || DIMS;
+  const corpus = summary.corpus || {},
+    w = summary.window || {};
+  $("#statPosts").textContent = fmt(corpus.unique_posts);
+  $("#statAuthors").textContent = fmt(corpus.unique_authors);
+  $("#statFirsthand").textContent = fmt(
+    [
+      ...(ev.sentiment || []),
+      ...(ev.harness_sentiment || []),
+      ...(ev.family_sentiment || []),
+    ].filter((r) => r.firsthand).length,
+  );
+  $("#statOverrides").textContent = fmt(corpus.reviewer_overrides);
+  const fmtDay = (d) =>
+    new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  $("#footWindow").textContent = (w.weeks || []).map((x) => x.label).join(" and ") + ", 2026";
+  const modelRows = summary.sentiment.models,
+    drawModels = (mode) =>
+      sentimentRows($("#sentimentRows"), modelRows, ev.sentiment || [], "model", mode);
+  drawModels("firsthand");
+  $("#sentimentMode").onclick = (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    [...e.currentTarget.children].forEach((x) => x.classList.toggle("on", x === b));
+    drawModels(b.dataset.mode);
+  };
+  radar($("#radarModels"), $("#radarModelsLegend"), summary.sentiment.models, "model", [
+    "claude-opus-5.5",
+    "gpt-6-sol",
+    "gpt-6-astra",
+    "claude-fable-5.1",
+  ]);
+  radar(
+    $("#radarHarness"),
+    $("#radarHarnessLegend"),
+    (summary.harnesses || {}).sentiment,
+    "harness",
+    ["claude_code", "codex", "grokbot"],
+  );
+  book($("#aspectModels"), summary.sentiment.models, "model", ev.sentiment || [], "model");
+  book(
+    $("#aspectHarness"),
+    (summary.harnesses || {}).sentiment,
+    "harness",
+    ev.harness_sentiment || [],
+    "harness",
+  );
+  const pref = summary.preference,
+    h2h = pref.head_to_head || [];
+  matrix(
+    $("#battleList"),
+    h2h,
+    modelOrder,
+    ev.preference || [],
+    $("#battleEvidence"),
+    $("#battleEvidenceLabel"),
+  );
+  renderCards(
+    $("#battleEvidence"),
+    (ev.preference || [])
+      .filter((p) => p.firsthand)
+      .sort(byDate)
+      .slice(0, 40),
+    "preference",
+  );
+  $("#preferenceTotals").textContent =
+    `${fmt(pref.firsthand_votes)} votes · ${fmt(pref.distinct_authors)} people · ${h2h.length} matchups`;
+  ratings($("#ratingChart"), pref.xbenchpref?.ratings);
+  $("#ratingCount").textContent = fmt(pref.firsthand_votes);
+  $("#ratingMatchups").textContent = h2h.length;
+  sankey(
+    $("#switchChart"),
+    summary.switching.by_origin_destination,
+    ev.switching || [],
+    $("#switchEvidence"),
+    $("#switchEvidenceLabel"),
+  );
+  renderCards($("#switchEvidence"), (ev.switching || []).sort(byDate), "switching");
+  const h = summary.harnesses || {};
+  if ($("#harnessRows")) sentimentRows($("#harnessRows"), h.sentiment, ev.harness_sentiment || [], "harness");
+  harnessDuel(h, ev.harness || []);
+  matrix(
+    $("#harnessMatrix"),
+    h.head_to_head,
+    harnessOrder,
+    ev.harness || [],
+    $("#harnessEvidence"),
+    $("#harnessEvidenceLabel"),
+    true,
+  );
+  ratings($("#harnessRating"), h.ratings);
+  renderCards(
+    $("#harnessEvidence"),
+    (ev.harness || [])
+      .filter((p) => p.firsthand)
+      .sort(byDate)
+      .slice(0, 40),
+    "preference",
+  );
+  sankey(
+    $("#harnessSwitchChart"),
+    Object.fromEntries(
+      Object.entries(h.switches?.by_direction || {}).filter(([k]) =>
+        k.split(" -> ").every((x) => shownHarness.has(x)),
+      ),
+    ),
+    (ev.harness_switching || []).filter(
+      (p) => shownHarness.has(p.origin) && shownHarness.has(p.destination),
+    ),
+    $("#harnessSwitchEvidence"),
+    $("#harnessSwitchEvidenceLabel"),
+  );
+  {
+    const hs = (ev.harness_switching || []).filter(
+      (p) => shownHarness.has(p.origin) && shownHarness.has(p.destination),
+    );
+    $("#harnessSwitchCount").textContent = `${hs.length}`;
+    renderCards($("#harnessSwitchEvidence"), hs.sort(byDate), "switching");
+  }
+  method(summary, ev);
+}
+function timeFilter(summary) {
+  const root = $("#timeFilter");
+  if (!root || !summary.views) return;
+  root.innerHTML = summary.views.map((v) => `<button class="${v.id === VIEW ? "on" : ""}" data-v="${v.id}">${v.label}</button>`).join("");
+  root.onclick = async (e) => {
+    const b = e.target.closest("button");
+    if (!b || b.dataset.v === VIEW) return;
+    VIEW = b.dataset.v;
+    [...root.children].forEach((x) => x.classList.toggle("on", x === b));
+    const s = VIEWS_CACHE[VIEW] || (VIEWS_CACHE[VIEW] = await fetch(`${DATA_DIR}public-summary-${VIEW}.json?v=${DATA_V}`).then((r) => r.json()));
+    const ev = VIEW === "all" ? FULL.ev : Object.fromEntries(Object.entries(FULL.ev).map(([k, v]) => [k, Array.isArray(v) && k !== "featured_trends" ? v.filter((r) => !r.window || r.window === VIEW) : v]));
+    renderAll(s, ev);
+  };
+}
+
 async function init() {
   heroMesh();
   $("#trackedModels").innerHTML = modelOrder
@@ -935,128 +1087,11 @@ async function init() {
       fetch(DATA_DIR + "public-evidence.json?v=" + DATA_V).then((r) => r.json()),
       fetch(DATA_DIR + "hero.json?v=" + DATA_V).then((r) => (r.ok ? r.json() : { posts: [] })).catch(() => ({ posts: [] })),
     ]);
-    EV = ev;
-    DIMS = summary.dimensions || DIMS;
-    const corpus = summary.corpus || {},
-      w = summary.window || {};
-    $("#statPosts").textContent = fmt(corpus.unique_posts);
-    $("#statAuthors").textContent = fmt(corpus.unique_authors);
-    $("#statFirsthand").textContent = fmt(
-      [
-        ...(ev.sentiment || []),
-        ...(ev.harness_sentiment || []),
-        ...(ev.family_sentiment || []),
-      ].filter((r) => r.firsthand).length,
-    );
-    $("#statOverrides").textContent = fmt(corpus.reviewer_overrides);
-    const fmtDay = (d) =>
-      new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-    $("#footWindow").textContent = `window ${fmtDay(w.start)} to ${fmtDay(w.end)}`;
-    const modelRows = summary.sentiment.models,
-      drawModels = (mode) =>
-        sentimentRows($("#sentimentRows"), modelRows, ev.sentiment || [], "model", mode);
-    drawModels("firsthand");
-    $("#sentimentMode").onclick = (e) => {
-      const b = e.target.closest("button");
-      if (!b) return;
-      [...e.currentTarget.children].forEach((x) => x.classList.toggle("on", x === b));
-      drawModels(b.dataset.mode);
-    };
-    radar($("#radarModels"), $("#radarModelsLegend"), summary.sentiment.models, "model", [
-      "claude-opus-5.5",
-      "gpt-6-sol",
-      "gpt-6-astra",
-      "claude-fable-5.1",
-    ]);
-    radar(
-      $("#radarHarness"),
-      $("#radarHarnessLegend"),
-      (summary.harnesses || {}).sentiment,
-      "harness",
-      ["claude_code", "codex", "grokbot"],
-    );
-    book($("#aspectModels"), summary.sentiment.models, "model", ev.sentiment || [], "model");
-    book(
-      $("#aspectHarness"),
-      (summary.harnesses || {}).sentiment,
-      "harness",
-      ev.harness_sentiment || [],
-      "harness",
-    );
-    const pref = summary.preference,
-      h2h = pref.head_to_head || [];
-    matrix(
-      $("#battleList"),
-      h2h,
-      modelOrder,
-      ev.preference || [],
-      $("#battleEvidence"),
-      $("#battleEvidenceLabel"),
-    );
-    renderCards(
-      $("#battleEvidence"),
-      (ev.preference || [])
-        .filter((p) => p.firsthand)
-        .sort(byDate)
-        .slice(0, 40),
-      "preference",
-    );
-    $("#preferenceTotals").textContent =
-      `${fmt(pref.firsthand_votes)} votes · ${fmt(pref.distinct_authors)} people · ${h2h.length} matchups`;
-    ratings($("#ratingChart"), pref.xbenchpref?.ratings);
-    $("#ratingCount").textContent = fmt(pref.firsthand_votes);
-    $("#ratingMatchups").textContent = h2h.length;
-    sankey(
-      $("#switchChart"),
-      summary.switching.by_origin_destination,
-      ev.switching || [],
-      $("#switchEvidence"),
-      $("#switchEvidenceLabel"),
-    );
-    renderCards($("#switchEvidence"), (ev.switching || []).sort(byDate), "switching");
-    const h = summary.harnesses || {};
-    if ($("#harnessRows")) sentimentRows($("#harnessRows"), h.sentiment, ev.harness_sentiment || [], "harness");
-    harnessDuel(h, ev.harness || []);
-    matrix(
-      $("#harnessMatrix"),
-      h.head_to_head,
-      harnessOrder,
-      ev.harness || [],
-      $("#harnessEvidence"),
-      $("#harnessEvidenceLabel"),
-      true,
-    );
-    ratings($("#harnessRating"), h.ratings);
-    renderCards(
-      $("#harnessEvidence"),
-      (ev.harness || [])
-        .filter((p) => p.firsthand)
-        .sort(byDate)
-        .slice(0, 40),
-      "preference",
-    );
-    sankey(
-      $("#harnessSwitchChart"),
-      Object.fromEntries(
-        Object.entries(h.switches?.by_direction || {}).filter(([k]) =>
-          k.split(" -> ").every((x) => shownHarness.has(x)),
-        ),
-      ),
-      (ev.harness_switching || []).filter(
-        (p) => shownHarness.has(p.origin) && shownHarness.has(p.destination),
-      ),
-      $("#harnessSwitchEvidence"),
-      $("#harnessSwitchEvidenceLabel"),
-    );
-    {
-      const hs = (ev.harness_switching || []).filter(
-        (p) => shownHarness.has(p.origin) && shownHarness.has(p.destination),
-      );
-      $("#harnessSwitchCount").textContent = `${hs.length}`;
-      renderCards($("#harnessSwitchEvidence"), hs.sort(byDate), "switching");
-    }
-    method(summary, ev);
+    FULL = { summary, ev };
+    VIEWS_CACHE.all = summary;
+    renderAll(summary, ev);
     if (summary.launch?.featured) featured(summary, ev);
+    timeFilter(summary);
     const byPost = new Map();
     for (const r of [...(ev.sentiment || []), ...(ev.harness_sentiment || [])]) {
       if (!r.firsthand) continue;
