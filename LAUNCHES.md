@@ -4,7 +4,7 @@ The page now runs from the launch of Claude Opus 5.5 (2026-09-22 16:31:03 UTC,
 the snowflake time of @claudeai's announcement) to the last post pulled. Every
 chart is the same chart as before, fed by `data/labels-v3/`; the first release
 stays in `data/labels-v2/`. Opus 5.5 also gets a featured chapter: net
-sentiment every twelve hours, and whether people think it has been nerfed.
+sentiment every twelve hours, with a switcher for GPT-6 Astra's own line.
 
 ## What was pulled
 
@@ -54,7 +54,8 @@ posts stay private and unused.
    worse since launch), `fears` (it will), `asks`, `denies`. A second pass
    widens the net and adds every post whose label reason already speaks of a
    decline. A Fable 5.1 reviewer then re-read every post in every nerf batch;
-   414 read, 30 claims, 86 fears, 10 questions, 19 denials.
+   414 read, 30 claims, 86 fears, 10 questions, 19 denials. The counts are in
+   `public-summary.json` (`launch.featured.nerf`); the page does not chart them.
 6. `build_launch.py` aggregates with the build_release_v2 rules and writes
    `data/labels-v3/public-summary.json` and `public-evidence.json`.
 
@@ -71,8 +72,8 @@ posts stay private and unused.
   switcher shows the same line for GPT-6 Astra over the last seven days, from
   its own pull, with its first-Xbench score as the reference.
 - **Events** on the curve are dated from the posts that announced them
-  (Arena #1, NerfBench announced and its result); Artificial Analysis has only
-  a report date and is drawn dashed.
+  (Arena #1, the NerfBench result); Artificial Analysis has only a report date
+  and is drawn dashed.
 
 ## Sensitivity
 
